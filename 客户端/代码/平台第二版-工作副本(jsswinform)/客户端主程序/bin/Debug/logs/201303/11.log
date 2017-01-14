@@ -1,0 +1,29 @@
+2013-03-11 11-43-36     ---     委托回调错误：System.IndexOutOfRangeException: 无法找到列 22。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormSPinfo.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormSPinfo.cs:行号 188
+
+2013-03-11 11-56-07     ---     下载文件错误：System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.0.7:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 客户端主程序.Support.GetHttpClass.Get_Img(String a_strUrl, Int32 timeout, String filepath, Boolean keepname, Boolean timepath, CookieContainer myCookieContainer) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\Support\GetHttpClass.cs:行号 187
+
+2013-03-11 13-17-50     ---     下载文件错误：System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.0.7:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 客户端主程序.Support.GetHttpClass.Get_Img(String a_strUrl, Int32 timeout, String filepath, Boolean keepname, Boolean timepath, CookieContainer myCookieContainer) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\Support\GetHttpClass.cs:行号 187
+
+2013-03-11 15-24-01     ---     下载文件错误：System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 192.168.0.7:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 客户端主程序.Support.GetHttpClass.Get_Img(String a_strUrl, Int32 timeout, String filepath, Boolean keepname, Boolean timepath, CookieContainer myCookieContainer) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\Support\GetHttpClass.cs:行号 187
+

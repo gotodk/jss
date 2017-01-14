@@ -1,0 +1,1814 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../提货、发货、签收流程V1_1_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:311px;
+    top:122px;
+    width:136px;
+    height:48px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:142px;
+    height:54px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:17px;
+    width:132px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2 {
+    position:absolute;
+    left:293px;
+    top:40px;
+    width:247px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u3_normal {
+    background-image: url('../提货、发货、签收流程V1_1_files/u3_normal.png');
+}
+
+.u3_container {
+    position:absolute;
+    left:40px;
+    top:490px;
+    width:100px;
+    height:40px;
+}
+
+#u3_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:46px;
+}
+
+.u4 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:96px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5c0 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u5c0.png');
+}
+
+.u5c0 {
+    position:absolute;
+    left:294px;
+    top:437px;
+    width:20px;
+    height:53px;
+}
+
+.u5c1 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u5c1.png');
+}
+
+.u5c1 {
+    position:absolute;
+    left:80px;
+    top:470px;
+    width:234px;
+    height:20px;
+}
+
+.u5c2 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u5c2.png');
+}
+
+.u5c2 {
+    position:absolute;
+    left:80px;
+    top:470px;
+    width:20px;
+    height:24px;
+}
+
+.u6 {
+    position:absolute;
+    left:-142px;
+    top:31px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7_normal {
+    background-image: url('../提货、发货、签收流程V1_1_files/u7_normal.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:304px;
+    top:210px;
+    width:150px;
+    height:40px;
+}
+
+#u7_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:46px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:146px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9c0 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u9c0.png');
+}
+
+.u9c0 {
+    position:absolute;
+    left:369px;
+    top:166px;
+    width:20px;
+    height:54px;
+}
+
+.u10 {
+    position:absolute;
+    left:-50px;
+    top:12px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11_normal {
+    background-image: url('../提货、发货、签收流程V1_1_files/u11_normal.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:324px;
+    top:283px;
+    width:110px;
+    height:70px;
+}
+
+#u11_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:116px;
+    height:76px;
+}
+
+.u12 {
+    position:absolute;
+    left:2px;
+    top:24px;
+    width:106px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13_normal {
+    background-image: url('../提货、发货、签收流程V1_1_files/u13_normal.png');
+}
+
+.u13_container {
+    position:absolute;
+    left:244px;
+    top:401px;
+    width:120px;
+    height:40px;
+}
+
+#u13_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:46px;
+}
+
+.u14 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:116px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15_normal {
+    background-image: url('../提货、发货、签收流程V1_1_files/u7_normal.png');
+}
+
+.u15_container {
+    position:absolute;
+    left:374px;
+    top:401px;
+    width:150px;
+    height:40px;
+}
+
+#u15_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:46px;
+}
+
+.u16 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:146px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u17_normal {
+    background-image: url('../提货、发货、签收流程V1_1_files/u3_normal.png');
+}
+
+.u17_container {
+    position:absolute;
+    left:180px;
+    top:490px;
+    width:100px;
+    height:40px;
+}
+
+#u17_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:46px;
+}
+
+.u18 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:96px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19_normal {
+    background-image: url('../提货、发货、签收流程V1_1_files/u3_normal.png');
+}
+
+.u19_container {
+    position:absolute;
+    left:352px;
+    top:490px;
+    width:100px;
+    height:40px;
+}
+
+#u19_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:46px;
+}
+
+.u20 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:96px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21_normal {
+    background-image: url('../提货、发货、签收流程V1_1_files/u21_normal.png');
+}
+
+.u21_container {
+    position:absolute;
+    left:490px;
+    top:490px;
+    width:90px;
+    height:40px;
+}
+
+#u21_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:96px;
+    height:46px;
+}
+
+.u22 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:86px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u23_normal {
+    background-image: url('../提货、发货、签收流程V1_1_files/u13_normal.png');
+}
+
+.u23_container {
+    position:absolute;
+    left:790px;
+    top:490px;
+    width:120px;
+    height:40px;
+}
+
+#u23_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:46px;
+}
+
+.u24 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:116px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u25_normal {
+    background-image: url('../提货、发货、签收流程V1_1_files/u11_normal.png');
+}
+
+.u25_container {
+    position:absolute;
+    left:796px;
+    top:585px;
+    width:110px;
+    height:70px;
+}
+
+#u25_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:116px;
+    height:76px;
+}
+
+.u26 {
+    position:absolute;
+    left:2px;
+    top:24px;
+    width:106px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27_normal {
+    background-image: url('../提货、发货、签收流程V1_1_files/u13_normal.png');
+}
+
+.u27_container {
+    position:absolute;
+    left:791px;
+    top:690px;
+    width:120px;
+    height:40px;
+}
+
+#u27_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:46px;
+}
+
+.u28 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:116px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29_normal {
+    background-image: url('../提货、发货、签收流程V1_1_files/u29_normal.png');
+}
+
+.u29_container {
+    position:absolute;
+    left:342px;
+    top:600px;
+    width:121px;
+    height:40px;
+}
+
+#u29_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:127px;
+    height:46px;
+}
+
+.u30 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:117px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31_normal {
+    background-image: url('../提货、发货、签收流程V1_1_files/u31_normal.png');
+}
+
+.u31_container {
+    position:absolute;
+    left:280px;
+    top:691px;
+    width:100px;
+    height:40px;
+}
+
+#u31_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:46px;
+}
+
+.u32 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:96px;
+    height:28px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u33c0 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u33c0.png');
+}
+
+.u33c0 {
+    position:absolute;
+    left:369px;
+    top:246px;
+    width:20px;
+    height:47px;
+}
+
+.u34 {
+    position:absolute;
+    left:-50px;
+    top:8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u35c0 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u35c0.png');
+}
+
+.u35c0 {
+    position:absolute;
+    left:369px;
+    top:349px;
+    width:20px;
+    height:52px;
+}
+
+.u35c1 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u35c1.png');
+}
+
+.u35c1 {
+    position:absolute;
+    left:294px;
+    top:381px;
+    width:95px;
+    height:20px;
+}
+
+.u35c2 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u35c2.png');
+}
+
+.u35c2 {
+    position:absolute;
+    left:294px;
+    top:381px;
+    width:20px;
+    height:24px;
+}
+
+.u36 {
+    position:absolute;
+    left:-74px;
+    top:30px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u37c0 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u37c0.png');
+}
+
+.u37c0 {
+    position:absolute;
+    left:430px;
+    top:308px;
+    width:29px;
+    height:20px;
+}
+
+.u37c1 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u37c1.png');
+}
+
+.u37c1 {
+    position:absolute;
+    left:439px;
+    top:308px;
+    width:20px;
+    height:97px;
+}
+
+.u38 {
+    position:absolute;
+    left:-35px;
+    top:26px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u39_normal {
+    background-image: url('../提货、发货、签收流程V1_1_files/u39_normal.png');
+}
+
+.u39_container {
+    position:absolute;
+    left:490px;
+    top:600px;
+    width:100px;
+    height:40px;
+}
+
+#u39_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:46px;
+}
+
+.u40 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:96px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u41_normal {
+    background-image: url('../提货、发货、签收流程V1_1_files/u31_normal.png');
+}
+
+.u41_container {
+    position:absolute;
+    left:630px;
+    top:600px;
+    width:100px;
+    height:40px;
+}
+
+#u41_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:46px;
+}
+
+.u42 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:96px;
+    height:28px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u43_normal {
+    background-image: url('../提货、发货、签收流程V1_1_files/u39_normal.png');
+}
+
+.u43_container {
+    position:absolute;
+    left:420px;
+    top:690px;
+    width:100px;
+    height:40px;
+}
+
+#u43_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:46px;
+}
+
+.u44 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:96px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u45_normal {
+    background-image: url('../提货、发货、签收流程V1_1_files/u45_normal.png');
+}
+
+.u45_container {
+    position:absolute;
+    left:424px;
+    top:750px;
+    width:92px;
+    height:65px;
+}
+
+#u45_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:98px;
+    height:71px;
+}
+
+.u46 {
+    position:absolute;
+    left:2px;
+    top:23px;
+    width:88px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u47_normal {
+    background-image: url('../提货、发货、签收流程V1_1_files/u47_normal.png');
+}
+
+.u47_container {
+    position:absolute;
+    left:424px;
+    top:843px;
+    width:100px;
+    height:37px;
+}
+
+#u47_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:43px;
+}
+
+.u48 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:96px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u49c0 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u49c0.png');
+}
+
+.u49c0 {
+    position:absolute;
+    left:294px;
+    top:437px;
+    width:20px;
+    height:53px;
+}
+
+.u49c1 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u49c1.png');
+}
+
+.u49c1 {
+    position:absolute;
+    left:294px;
+    top:470px;
+    width:118px;
+    height:20px;
+}
+
+.u49c2 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u49c2.png');
+}
+
+.u49c2 {
+    position:absolute;
+    left:392px;
+    top:470px;
+    width:20px;
+    height:24px;
+}
+
+.u50 {
+    position:absolute;
+    left:-16px;
+    top:31px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u51c0 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u51c0.png');
+}
+
+.u51c0 {
+    position:absolute;
+    left:439px;
+    top:437px;
+    width:20px;
+    height:53px;
+}
+
+.u51c1 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u51c1.png');
+}
+
+.u51c1 {
+    position:absolute;
+    left:439px;
+    top:470px;
+    width:106px;
+    height:20px;
+}
+
+.u51c2 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u51c2.png');
+}
+
+.u51c2 {
+    position:absolute;
+    left:525px;
+    top:470px;
+    width:20px;
+    height:24px;
+}
+
+.u52 {
+    position:absolute;
+    left:-22px;
+    top:31px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u53c0 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u53c0.png');
+}
+
+.u53c0 {
+    position:absolute;
+    left:439px;
+    top:437px;
+    width:20px;
+    height:53px;
+}
+
+.u53c1 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u53c1.png');
+}
+
+.u53c1 {
+    position:absolute;
+    left:220px;
+    top:470px;
+    width:239px;
+    height:20px;
+}
+
+.u53c2 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u53c2.png');
+}
+
+.u53c2 {
+    position:absolute;
+    left:220px;
+    top:470px;
+    width:20px;
+    height:24px;
+}
+
+.u54 {
+    position:absolute;
+    left:-145px;
+    top:31px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u55c0 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u55c0.png');
+}
+
+.u55c0 {
+    position:absolute;
+    left:392px;
+    top:526px;
+    width:20px;
+    height:84px;
+}
+
+.u56 {
+    position:absolute;
+    left:-50px;
+    top:27px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u57c0 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u57c0.png');
+}
+
+.u57c0 {
+    position:absolute;
+    left:392px;
+    top:636px;
+    width:20px;
+    height:55px;
+}
+
+.u57c1 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u57c1.png');
+}
+
+.u57c1 {
+    position:absolute;
+    left:320px;
+    top:671px;
+    width:92px;
+    height:20px;
+}
+
+.u57c2 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u57c2.png');
+}
+
+.u57c2 {
+    position:absolute;
+    left:320px;
+    top:671px;
+    width:20px;
+    height:24px;
+}
+
+.u58 {
+    position:absolute;
+    left:-70px;
+    top:33px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u59c0 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u59c0.png');
+}
+
+.u59c0 {
+    position:absolute;
+    left:392px;
+    top:636px;
+    width:20px;
+    height:54px;
+}
+
+.u59c1 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u59c1.png');
+}
+
+.u59c1 {
+    position:absolute;
+    left:392px;
+    top:670px;
+    width:88px;
+    height:20px;
+}
+
+.u59c2 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u59c2.png');
+}
+
+.u59c2 {
+    position:absolute;
+    left:460px;
+    top:670px;
+    width:20px;
+    height:24px;
+}
+
+.u60 {
+    position:absolute;
+    left:-31px;
+    top:32px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u61c0 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u61c0.png');
+}
+
+.u61c0 {
+    position:absolute;
+    left:460px;
+    top:726px;
+    width:20px;
+    height:34px;
+}
+
+.u62 {
+    position:absolute;
+    left:-50px;
+    top:2px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u63c0 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u63c0.png');
+}
+
+.u63c0 {
+    position:absolute;
+    left:460px;
+    top:811px;
+    width:20px;
+    height:32px;
+}
+
+.u63c1 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u63c1.png');
+}
+
+.u63c1 {
+    position:absolute;
+    left:460px;
+    top:823px;
+    width:24px;
+    height:20px;
+}
+
+.u63c2 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u63c2.png');
+}
+
+.u63c2 {
+    position:absolute;
+    left:464px;
+    top:823px;
+    width:20px;
+    height:24px;
+}
+
+.u64 {
+    position:absolute;
+    left:-50px;
+    top:8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u65c0 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u65c0.png');
+}
+
+.u65c0 {
+    position:absolute;
+    left:320px;
+    top:772px;
+    width:108px;
+    height:20px;
+}
+
+.u65c1 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u65c1.png');
+}
+
+.u65c1 {
+    position:absolute;
+    left:320px;
+    top:727px;
+    width:20px;
+    height:65px;
+}
+
+.u66 {
+    position:absolute;
+    left:-122px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u67c0 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u67c0.png');
+}
+
+.u67c0 {
+    position:absolute;
+    left:525px;
+    top:526px;
+    width:20px;
+    height:74px;
+}
+
+.u67c1 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u67c1.png');
+}
+
+.u67c1 {
+    position:absolute;
+    left:525px;
+    top:580px;
+    width:25px;
+    height:20px;
+}
+
+.u67c2 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u67c2.png');
+}
+
+.u67c2 {
+    position:absolute;
+    left:530px;
+    top:580px;
+    width:20px;
+    height:24px;
+}
+
+.u68 {
+    position:absolute;
+    left:-50px;
+    top:30px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u69c0 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u69c0.png');
+}
+
+.u69c0 {
+    position:absolute;
+    left:525px;
+    top:526px;
+    width:20px;
+    height:24px;
+}
+
+.u69c1 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u69c1.png');
+}
+
+.u69c1 {
+    position:absolute;
+    left:525px;
+    top:530px;
+    width:165px;
+    height:20px;
+}
+
+.u69c2 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u69c2.png');
+}
+
+.u69c2 {
+    position:absolute;
+    left:670px;
+    top:530px;
+    width:20px;
+    height:74px;
+}
+
+.u70 {
+    position:absolute;
+    left:48px;
+    top:2px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u71_normal {
+    background-image: url('../提货、发货、签收流程V1_1_files/u29_normal.png');
+}
+
+.u71_container {
+    position:absolute;
+    left:130px;
+    top:596px;
+    width:121px;
+    height:40px;
+}
+
+#u71_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:127px;
+    height:46px;
+}
+
+.u72 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:117px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u73c0 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u73c0.png');
+}
+
+.u73c0 {
+    position:absolute;
+    left:220px;
+    top:526px;
+    width:20px;
+    height:70px;
+}
+
+.u73c1 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u73c1.png');
+}
+
+.u73c1 {
+    position:absolute;
+    left:180px;
+    top:576px;
+    width:60px;
+    height:20px;
+}
+
+.u73c2 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u73c2.png');
+}
+
+.u73c2 {
+    position:absolute;
+    left:180px;
+    top:576px;
+    width:20px;
+    height:24px;
+}
+
+.u74 {
+    position:absolute;
+    left:-50px;
+    top:45px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u75c0 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u75c0.png');
+}
+
+.u75c0 {
+    position:absolute;
+    left:439px;
+    top:437px;
+    width:20px;
+    height:53px;
+}
+
+.u75c1 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u75c1.png');
+}
+
+.u75c1 {
+    position:absolute;
+    left:439px;
+    top:470px;
+    width:421px;
+    height:20px;
+}
+
+.u75c2 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u75c2.png');
+}
+
+.u75c2 {
+    position:absolute;
+    left:840px;
+    top:470px;
+    width:20px;
+    height:34px;
+}
+
+.u76 {
+    position:absolute;
+    left:141px;
+    top:31px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u77c0 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u77c0.png');
+}
+
+.u77c0 {
+    position:absolute;
+    left:841px;
+    top:651px;
+    width:20px;
+    height:49px;
+}
+
+.u78 {
+    position:absolute;
+    left:-50px;
+    top:10px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u79c0 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u79c0.png');
+}
+
+.u79c0 {
+    position:absolute;
+    left:840px;
+    top:526px;
+    width:20px;
+    height:59px;
+}
+
+.u79c1 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u79c1.png');
+}
+
+.u79c1 {
+    position:absolute;
+    left:840px;
+    top:565px;
+    width:21px;
+    height:20px;
+}
+
+.u79c2 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u79c2.png');
+}
+
+.u79c2 {
+    position:absolute;
+    left:841px;
+    top:565px;
+    width:20px;
+    height:24px;
+}
+
+.u80 {
+    position:absolute;
+    left:-50px;
+    top:20px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u81_normal {
+    background-image: url('../提货、发货、签收流程V1_1_files/u81_normal.png');
+}
+
+.u81_container {
+    position:absolute;
+    left:960px;
+    top:606px;
+    width:80px;
+    height:30px;
+}
+
+#u81_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:86px;
+    height:36px;
+}
+
+.u82 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:76px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u83c0 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u83c0.png');
+}
+
+.u83c0 {
+    position:absolute;
+    left:902px;
+    top:610px;
+    width:58px;
+    height:20px;
+}
+
+.u83c1 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u83c1.png');
+}
+
+.u83c1 {
+    position:absolute;
+    left:940px;
+    top:610px;
+    width:20px;
+    height:21px;
+}
+
+.u83c2 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u83c2.png');
+}
+
+.u83c2 {
+    position:absolute;
+    left:940px;
+    top:611px;
+    width:24px;
+    height:20px;
+}
+
+.u84 {
+    position:absolute;
+    left:-22px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u85_normal {
+    background-image: url('../提货、发货、签收流程V1_1_files/u85_normal.png');
+}
+
+.u85_container {
+    position:absolute;
+    left:130px;
+    top:663px;
+    width:121px;
+    height:37px;
+}
+
+#u85_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:127px;
+    height:43px;
+}
+
+.u86 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:117px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u87c0 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u87c0.png');
+}
+
+.u87c0 {
+    position:absolute;
+    left:180px;
+    top:632px;
+    width:20px;
+    height:41px;
+}
+
+.u88 {
+    position:absolute;
+    left:-50px;
+    top:6px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u89c0 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u89c0.png');
+}
+
+.u89c0 {
+    position:absolute;
+    left:180px;
+    top:696px;
+    width:20px;
+    height:24px;
+}
+
+.u89c1 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u89c1.png');
+}
+
+.u89c1 {
+    position:absolute;
+    left:20px;
+    top:700px;
+    width:180px;
+    height:20px;
+}
+
+.u89c2 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u89c2.png');
+}
+
+.u89c2 {
+    position:absolute;
+    left:20px;
+    top:180px;
+    width:20px;
+    height:540px;
+}
+
+.u89c3 {
+    background-image: url('../提货、发货、签收流程V1_1_files/u89c3.png');
+}
+
+.u89c3 {
+    position:absolute;
+    left:20px;
+    top:180px;
+    width:364px;
+    height:20px;
+}
+
+.u90 {
+    position:absolute;
+    left:-210px;
+    top:-348px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u91_normal {
+    background-image: url('../提货、发货、签收流程V1_1_files/u91_normal.png');
+}
+
+.u91_container {
+    position:absolute;
+    left:590px;
+    top:110px;
+    width:140px;
+    height:50px;
+}
+
+#u91_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:56px;
+}
+
+.u92 {
+    position:absolute;
+    left:2px;
+    top:9px;
+    width:136px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

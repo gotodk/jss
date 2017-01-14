@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="CustormModule.aspx.cs" Inherits="Web_CustormModule" %>

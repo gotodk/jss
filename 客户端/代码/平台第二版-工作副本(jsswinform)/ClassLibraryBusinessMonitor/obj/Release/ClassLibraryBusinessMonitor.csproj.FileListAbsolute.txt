@@ -1,0 +1,7 @@
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\ClassLibraryBusinessMonitor\bin\Release\ClassLibraryBusinessMonitor.dll.config
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\ClassLibraryBusinessMonitor\bin\Release\ClassLibraryBusinessMonitor.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\ClassLibraryBusinessMonitor\bin\Release\ClassLibraryBusinessMonitor.XmlSerializers.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\ClassLibraryBusinessMonitor\bin\Release\ClassLibraryBusinessMonitor.pdb
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\ClassLibraryBusinessMonitor\obj\Release\ClassLibraryBusinessMonitor.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\ClassLibraryBusinessMonitor\obj\Release\ClassLibraryBusinessMonitor.pdb
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\ClassLibraryBusinessMonitor\obj\Release\ClassLibraryBusinessMonitor.XmlSerializers.dll

@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="券商发起-软加密密钥交换_x0023_26700" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="券商发起-软加密密钥交换_x0023_26700">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FunctionId" msdata:Caption="功能号" type="xs:string" default="26700" />
+                <xs:element name="ExSerial" msdata:Caption="外部流水号" type="xs:string" default="201300001" />
+                <xs:element name="bOrganId" msdata:Caption="银行类型" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="Date" msdata:Caption="交易日期" type="xs:string" default="20130701" />
+                <xs:element name="Time" msdata:Caption="发生时间" type="xs:string" default="14:00" minOccurs="0" />
+                <xs:element name="sOrganId" msdata:Caption="证券公司编号" type="xs:string" default="60050000" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <券商发起-软加密密钥交换_x0023_26700>
+    <FunctionId>26700</FunctionId>
+    <ExSerial>201300001</ExSerial>
+    <bOrganId />
+    <Date>20130701</Date>
+    <Time>14:00</Time>
+    <sOrganId>60050000</sOrganId>
+  </券商发起-软加密密钥交换_x0023_26700>
+</NewDataSet>

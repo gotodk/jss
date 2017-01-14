@@ -1,0 +1,581 @@
+[options]
+
+;默认情况下，此选项设置为 1。如果将此选项设置为 1，则 URLScan 仅允许那些使用 [AllowVerbs] 节中列出的谓词的 HTTP 请求。
+;URLScan 禁止任何不使用这些谓词的请求。
+;如果将此选项设置为 0，则 URLScan 忽略 [AllowVerbs] 节，相反仅禁止那些使用 [DenyVerbs] 节中列出的谓词的请求。
+UseAllowVerbs=0               ; If 1, use [AllowVerbs] section, else use the
+                               ; [DenyVerbs] section.   The default is 1.
+
+
+;默认情况下，此选项设置为 0。
+;如果将此选项设置为 0，则 URLScan 禁止对 [DenyExtensions] 节中列出的文件扩展名的请求，但允许对任何其他文件扩展名的请求。
+;如果将此选项设置为 1，则 URLScan 仅允许对带 [AllowExtensions] 节中列出的扩展名的文件的请求，而禁止对任何其他文件的请求。
+UseAllowExtensions=0           ; If 1, use [AllowExtensions] section, else
+                               ; use the [DenyExtensions] section. The
+                               ; default is 0.
+
+
+;IIS 收到用 URL 编码的请求。这表示某些字符可能被替换为百分号 (%) 后跟特定的数字。
+;例如，%20 对应于一个空格，因此，对 http://myserver/My%20Dir/My%20File.htm 的请求与对 http://myserver/My Dir/My File.htm 的请求是相同的。
+;标准化就是对 URL 编码请求进行解码的过程。默认情况下，此选项设置为 1。
+;如果将 NormalizeUrlBeforeScan 选项设置为 1，则 URLScan 分析已解码的请求。
+;如果将此选项设置为 0，则 URLScan 分析未解码的请求。
+;将此选项设置为 0 会影响 URLScan 禁止某种攻击的能力。
+NormalizeUrlBeforeScan=1       ; If 1, canonicalize URL before processing.
+                               ; The default is 1.  Note that setting this
+                               ; to 0 will make checks based on extensions,
+                               ; and the URL unreliable and is therefore not
+                               ; recommend other than for testing.
+
+
+;由于百分号 (%) 本身可以是 URL 编码的，所以攻击者可以向服务器提交一个精心制作的、基本上是双重编码的请求。
+;如果发生这种情况，IIS 可能会接受本应视作无效而拒绝的请求。
+;默认情况下，此选项设置为 1。如果将 VerifyNormalization 选项设置为 1，则 URLScan 将对 URL 执行两次标准化。
+;如果第一次标准化后的 URL 与第二次标准化后的 URL 不同，URLScan 将拒绝该请求。这样就可以防止那些依赖双重编码请求的攻击。
+VerifyNormalization=1          ; If 1, canonicalize URL twice and reject
+                               ; request if a change occurs.  The default
+                               ; is 1.
+
+
+;默认情况下，此选项设置为 0。
+;如果将此选项设置为 0，则 URLScan 拒绝任何包含非 ASCII 字符的请求。
+;这样可以防止某些类型的攻击，但同时可能也会禁止对某些合法文件的请求，如带有非英文名的文件。
+AllowHighBitCharacters=1       ; If 1, allow high bit (ie. UTF8 or MBCS)
+                               ; characters in URL.  The default is 0.
+
+
+;默认情况下，此选项设置为 0。如果将此选项设置为 0，则 URLScan 拒绝所有包含多个句点 (.) 的请求。
+;这样可以防止通过将安全的文件扩展名放入 URL 的路径信息或查询字符串部分，以达到伪装请求中的危险文件扩展名的企图。
+;例如，如果将此选项设置为 1，则 URLScan 可能允许对 http://servername/BadFile.exe/SafeFile.htm 的请求，因为它认为这是对 HTML 页的请求，
+;但实际上这是一个对可执行 (.exe) 文件的请求，而该文件的名称在 PATH_INFO 区域中显示为 HTML 页的名称。
+;如果将此选项设置为 0，URLScan 可能还会拒绝对包含句点的目录的请求。
+AllowDotInPath=1               ; If 1, allow dots that are not file
+                               ; extensions. The default is 0. Note that
+                               ; setting this property to 1 will make checks
+                               ; based on extensions unreliable and is
+                               ; therefore not recommended other than for
+                               ; testing.
+
+;默认情况下，Web 服务器返回一个标头，其中指出了 Web 服务器在所有响应中运行的 Web 服务器软件。
+;这会增加服务器遭受攻击的可能性，因为攻击者可以确定服务器正在运行 IIS，于是便攻击已知的 IIS 问题，
+;而不是试图使用为其他 Web 服务器设计的攻击手段来攻击 IIS 服务器。
+;默认情况下，此选项设置为 0。如果将 RemoveServerHeader 选项设置为 1，可以防止您的服务器发送将其标识为 IIS 服务器的标头。
+;如果将 RemoveServerHeader 设置为 0，则仍发送此标头。
+RemoveServerHeader=1           ; If 1, remove the 'Server' header from
+                               ; response.  The default is 0.
+
+;默认情况下，URLScan 在 %WINDIR%\System32\Inetsrv\URLScan 中保留所有被禁止的请求的完整日志。
+;如果不希望保留此日志，可将 EnableLogging 设置为 0。
+EnableLogging=1                ; If 1, log UrlScan activity.  The
+                               ; default is 1.  Changes to this property
+                               ; will not take effect until UrlScan is
+                               ; restarted.
+;默认情况下，此选项设置为 0。如果将此选项设置为 1，URLScan 将为承载 URLScan.dll 的每个进程创建一个单独的日志。
+;如果将此选项设置为 0，所有进程将记录到同一个文件中。
+PerProcessLogging=1            ; This property is deprecated for UrlScan
+                               ; 3.0 and later.  UrlScan 3.0 and later can
+                               ; safely log output from multiple processes
+                               ; to the same log file.  Changes to this
+                               ; property will not take effect until
+                               ; UrlScan is restarted.
+
+;默认情况下，此选项设置为 0。如果将此选项设置为 0，则 URLScan 作为高优先级筛选器运行，
+;这表示它先于服务器上安装的所有其他 Internet 服务器应用程序编程接口 (ISAPI) 筛选器执行。
+;如果将此选项设置为 1，则 URLScan 作为低优先级筛选器运行，以便其他筛选器可以在 URLScan 进行任何分析之前修改 URL。
+;FrontPage Server Extensions (FPSE) 要求将此选项设置为 1。
+AllowLateScanning=0            ; If 1, then UrlScan will load as a low
+                               ; priority filter.  The default is 0.  Note
+                               ; that this setting should only be used in
+                               ; the case where there another installed
+                               ; filter is modifying the URL and you wish
+                               ; to have UrlScan apply its rules to the
+                               ; rewritten URL.  Changes to this property
+                               ; will not take effect until UrlScan is
+                               ; restarted.
+
+
+;默认情况下，此选项设置为 1。如果将该值设置为 1，则 URLScan 每天创建一个新的日志文件。
+;每个日志文件的名称都是 Urlscan.MMDDYY.log，其中 MMDDYY 是日志文件的日期。
+;如果将该值设置为 0，则所有日志记录都保存在同一个文件中，与日期无关。
+PerDayLogging=1                ; If 1, UrlScan will produce a new log each
+                               ; day with activity in the form
+                               ; 'UrlScan.010101.log'. If 0, UrlScan will
+                               ; log activity to urlscan.log.  The default
+                               ; is 1.  Changes to this setting will not
+                               ; take effect until UrlScan is restarted.
+
+;默认情况下，此选项设置为 0。如果将此选项设置为 1，则 URLScan 忽略 RejectResponseUrl 设置并立即向浏览器返回 404 错误信息。
+;这比处理 RejectResponseUrl 要快，但它允许的日志记录选项没有那么多。
+;如果将此选项设置为 0，则 URLScan 使用 RejectResponseUrl 设置来处理请求。
+UseFastPathReject=0            ; If 1, then UrlScan will not use the
+                               ; RejectResponseUrl.  On IIS versions less
+                               ; than 6.0, this will also prevent IIS
+                               ; from writing rejected requests to the
+                               ; W3SVC log.  UrlScan will log rejected
+                               ; requests regardless of this setting.  The
+                               ; default is 0.
+
+
+;默认情况下，此选项设置为 0。
+;如果LogLongUrls被设置到1，则UrlScan将记录每个请求128 KB。 
+;如果价值被设置到0，则日志项包含仅前1024个字节。
+;这个配置在3.0以后已经没用了。
+LogLongUrls=1                  ; This property is deprecated for UrlScan 3.0
+                               ; and later. UrlScan 3.0 and later will
+                               ; always include the complete URL in its log
+                               ; file.
+
+
+;默认情况下，此选项设置为 1。
+;如果设置为1，urlscan将对原始字串和解码后的字串都进行处理。
+;如果设置为0，urlscan将仅仅检查客户端发送的原始字串,那么基于请求字串的检查将不可靠。
+UnescapeQueryString=1          ; If 1, UrlScan will perform two passes on
+                               ; each query string scan, once with the raw
+                               ; query string and once after unescaping it.
+                               ; If 0, UrlScan will only look at the raw
+                               ; query string as sent by the client.  The
+                               ; default is 1. Note that if this property is
+                               ; set to 0, then checks based on the query
+                               ; string will be unreliable.
+
+;
+; If UseFastPathReject is 0, then UrlScan will send
+; rejected requests to the URL specified by RejectResponseUrl.
+; If not specified, '/Rejected-by-UrlScan' will be used.
+; Changes to this setting will not take effect until UrlScan
+; is restarted.
+;
+; Note that setting "RejectResponseUrl=/~*" will put UrlScan into Logging
+; Only Mode.  In this mode, UrlScan will process all requests per the
+; config settings, but it will only log the results and not actually
+; reject the requests.  This mode is useful for testing UrlScan settings
+; on a production server without actually interrupting requests.
+;
+;此选项指定在 URLScan 禁止请求时运行的文件的虚拟路径。这允许您自定义针对被禁止的请求发送给客户机的响应。
+;必须将 RejectResponseUrl 指定为相应文件的虚拟路径，如 /Path/To/RejectResponseHandler.asp。
+;可以指定 URLScan 通常禁止的文件，如 Active Server Pages (ASP) 页。还可以从该页指定以下服务器变量： 
+;HTTP_URLSCAN_STATUS_HEADER：此变量指定请求被禁止的原因。
+;HTTP_URLSCAN_ORIGINAL_VERB：此变量指定被禁止的请求中的原始谓词（例如 GET、POST、HEAD 或 DEBUG）。
+;HTTP_URLSCAN_ORIGINAL_URL：此变量指定被禁止的请求中的原始 URL。
+;如果将 RejectResponseUrl 设置为特殊值 /~*，则 URLScan 使用“仅日志记录”模式。
+;这允许 IIS 为所有请求提供服务，但它会在 URLScan 日志中为所有通常被禁止的请求添加相应的项。这在需要测试 URLScan.ini 文件时很有用。
+;如果没有指定 RejectResponseUrl 的值，则 URLScan 使用默认值 /<Rejected-By-UrlScan>。
+RejectResponseUrl=
+
+;
+; LoggingDirectory can be used to specify the directory where the
+; log file will be created.  This value should be the absolute path
+; (ie. c:\some\path).  If not specified, then UrlScan will create
+; the log in the same directory where the UrlScan.dll file is located.
+; Changes to this setting will not take effect until UrlScan is
+; restarted.
+;
+;日志文件路径
+LoggingDirectory=Logs
+
+;
+; If RemoveServerHeader is 0, then AlternateServerName can be
+; used to specify a replacement for IIS's built in 'Server' header
+;
+;如果将 RemoveServerHeader 设置为 0，可以在 AlternateServerName 选项中指定一个字符串以指定将在服务器标头中传回的内容。
+;如果将 RemoveServerHeader 设置为 1，则此选项将被忽略。
+AlternateServerName=Apache    ;这里将发送虚假的请求头部,实际上那个是iis
+
+;
+; UrlScan supports custom rules that can be applied in addition to the other
+; checks and options specified in this configuration file.  Rules should be
+; listed in a comma separated string in the RuleList property.  Each rule in
+; the list corresponds to two sections in this configuration file, one
+; containing the options for the rule, and one containing deny strings for
+; the rule.
+;
+; Here is an example:
+;
+;   [Options]
+RuleList=sqlRule
+;
+[sqlRule]
+AppliesTo=.asp,.aspx,.php,.ascx,.asmx,.asax,.htm,.html     ; A comma separated list of file extensions to
+;                              ; which the rule applies.  If not specified,
+;                              ; the rule will be applied to all requests.
+;
+DenyDataSection=sqlRuleStr     ; The name of the section containing the
+;                              ; rule's deny strings
+;
+ScanURL=0                  ; If 1, the URL will be scanned for deny
+;                              ; strings. The default is 0.
+;
+ScanAllRaw=0               ; If 1, then the raw request header data will
+;                              ; be scanned for deny strings.  The default
+;                              ; is 0.
+;
+ScanQueryString=1          ; If 1, the the query string will be scanned
+;                              ; for deny strings.  The default is 0.  Note
+;                              ; that if UnescapeQueryString=1 is set in the
+;                              ; [Options] section, then two scans will be
+;                              ; made of the query string, one with the raw
+;                              ; query string and one with the query string
+;                              ; unescaped.
+;
+ScanHeaders=               ; A comma separated list of request headers to
+;                              ; be scanned for deny strings.  The default is
+;                              ; no headers.
+;
+DenyUnescapedPercent=0     ; If 1, UrlScan will scan the specified part
+;                              ; of the raw request for a % character that is
+;                              ; not used as an escape sequence.  If found,
+;                              ; the request will be rejected.  This check
+;                              ; can be used with ScanQueryString=1,
+;                              ; ScanAllRaw=1, or the list of ScanHeaders.
+;                              ; The default is 0.  Note that if you want to
+;                              ; deny non-escaped % characters in the URL,
+;                              ; you can set VerifyNormalization=0 in the
+;                              ; [Options] section and then add % as a
+;                              ; [DenyUrlSequences] entry.
+;
+[sqlRuleStr]
+)
+(
+,
+.mdb
+'
+%3b
+/*
+and%
+or%
+%28
+and
+update
+alter
+begin
+cast
+chr
+cmd.exe
+convert
+count
+create
+cursor
+declare
+delete
+drop
+end
+exec
+fetch
+insert
+kill
+master
+mid
+open
+request
+select
+table
+truncate
+.asp/
+.asp%3b
+.asa/
+.asa%3b
+.aspx/
+.aspx%3b
+.php/
+.php%3b
+.jsp/
+.jsp%3b
+prn.
+nul.
+aux.
+con.
+com1.
+com2.
+com3.
+com4.
+com5.
+com6.
+com7.
+com8.
+com9.
+lpt1.
+lpt2.
+lpt3.
+lpt4.
+lpt5.
+lpt6.
+lpt7.
+lpt8.
+lpt9.
+readreg
+sysdatabases
+startpos
+EndPos
+00AA002F954E
+localgroup
+localadministrator
+f935dc26
+c41524520
+98424b88afb8
+645ff040
+0d43fe01
+093ff999
+;
+shell
+
+RuleList=
+
+;限制最大内容长度，url最大长度，最大请求字串
+[RequestLimits]
+
+;
+; The entries in this section impose limits on the length
+; of allowed parts of requests reaching the server.
+;
+; It is possible to impose a limit on the length of the
+; value of a specific request header by prepending "Max-" to the
+; name of the header.  For example, the following entry would
+; impose a limit of 100 bytes to the value of the
+; 'Content-Type' header:
+;
+;   Max-Content-Type=100
+;
+; Any headers not listed in this section will not be checked for
+; length limits.
+;
+; There are 3 special case limits:
+;
+;   - MaxAllowedContentLength specifies the maximum allowed
+;     numeric value of the Content-Length request header.  For
+;     example, setting this to 1000 would cause any request
+;     with a content length that exceeds 1000 to be rejected.
+;     The default is 30000000.
+;
+;   - MaxUrl specifies the maximum length of the request URL,
+;     not including the query string. The default is 260 (which
+;     is equivalent to MAX_PATH).
+;
+;   - MaxQueryString specifies the maximum length of the query
+;     string.  The default is 2048.
+;
+
+MaxAllowedContentLength=40960000
+MaxUrl=6000
+MaxQueryString=20480
+
+;[AllowVerbs] 节和 [DenyVerbs] 节
+;[AllowVerbs] 节和 [DenyVerbs] 节定义 URLScan 允许的 HTTP 谓词（又称作方法）。
+;常用的 HTTP 谓词包括 GET、POST、HEAD 和 PUT。其他应用程序（如 FPSE 和 Web 分布式创作和版本控制 (WebDAV)）使用更多的谓词。
+;[AllowVerbs] 节和 [DenyVerbs] 节的语法相同。它们由 HTTP 谓词列表组成，每个谓词占一行。
+;URLScan 根据 [Options] 节中 UseAllowVerbs 选项的值来决定使用哪一节。默认情况下，此选项设置为 1。
+;如果将 UseAllowVerbs 设置为 1，则 URLScan 仅允许那些使用 [AllowVerbs] 节中列出的谓词的请求。
+;不使用任何这些谓词的请求将被拒绝。在这种情况下，[DenyVerbs] 节被忽略。
+;如果将 UseAllowVerbs 设置为 0，则 URLScan 拒绝那些使用 [DenyVerbs] 节中明确列出的谓词的请求。
+;允许任何使用未在此节中出现的谓词的请求。在这种情况下，URLScan 忽略 [AllowVerbs] 节。
+[AllowVerbs]
+
+;
+; The verbs (aka HTTP methods) listed here are those commonly
+; processed by a typical IIS server.
+;
+; Note that these entries are effective if "UseAllowVerbs=1"
+; is set in the [Options] section above.
+;
+
+GET
+HEAD
+POST
+TRACE
+DEBUG
+
+[DenyVerbs]
+
+;
+; The verbs (aka HTTP methods) listed here are used for publishing
+; content to an IIS server via WebDAV.
+;
+; Note that these entries are effective if "UseAllowVerbs=0"
+; is set in the [Options] section above.
+;
+
+PROPFIND
+PROPPATCH
+MKCOL
+DELETE
+PUT
+COPY
+MOVE
+LOCK
+UNLOCK
+OPTIONS
+SEARCH
+
+
+;[DenyHeaders] 节
+;当客户机向 Web 服务器请求页面时，它通常会发送一些包含有关此请求的其他信息的 HTTP 标头。常见的 HTTP 标头包括： 
+;Host:
+;此标头包含 Web 服务器的名称。
+;Accept:
+;此标头定义客户机可以处理的文件类型。
+;User-Agent:
+;此标头包含请求页面的浏览器的名称。
+;Authorization:
+;此标头定义客户机支持的身份验证方法。
+;客户机可能会向服务器发送其他标头以指定其他信息。
+;在 [DenyHeaders] 节中，您定义 URLScan 将拒绝的 HTTP 标头。如果 URLScan 收到的请求中包含此节中列出的任何标头，它将拒绝该请求。
+;此节由 HTTP 标头列表组成，每个标头占一行。标头名后面必须跟一个冒号 (:)（例如 Header-Name:）。
+[DenyHeaders]
+
+;
+; The following request headers alter processing of a
+; request by causing the server to process the request
+; as if it were intended to be a WebDAV request, instead
+; of a request to retrieve a resource.
+;
+
+Translate:
+If:
+Lock-Token:
+Transfer-Encoding:
+
+
+
+
+;[AllowExtensions] 节和 [DenyExtensions] 节的语法相同。它们由文件扩展名列表组成，每个扩展名占一行。扩展名以句点 (.) 开头（例如 .ext）。
+;URLScan 根据 [Options] 节中 UseAllowExtensions 的值来决定使用哪一节。默认情况下，此选项设置为 0。
+;如果将 UseAllowExtensions 设置为 0，则 URLScan 仅拒绝对 [DenyExtensions] 节中列出的文件扩展名的请求。
+;允许此节中未列出的任何文件扩展名。[AllowExtensions] 节被忽略。
+;如果将 UseAllowExtensions 设置为 1，则 URLScan 拒绝对 [AllowExtensions] 节中未明确列出的任何文件扩展名的请求。
+;仅允许对此节中列出的文件扩展名的请求。[DenyExtensions] 节被忽略。
+;有关如何配置 URLScan 以允许对没有扩展名的文件的请求的其他信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章： 
+;312376  (http://support.microsoft.com/kb/312376/ ) 如何配置 URLScan 以在 IIS 中允许使用空扩展名的请求 
+[AllowExtensions]
+
+;
+; Extensions listed here are commonly used on a typical IIS server.
+;
+; Note that these entries are effective if "UseAllowExtensions=1"
+; is set in the [Options] section above.
+;
+
+.htm
+.html
+.txt
+.jpg
+.jpeg
+.gif
+
+[DenyExtensions]
+
+;
+; Extensions listed here either run code directly on the server,
+; are processed as scripts, or are static files that are
+; generally not intended to be served out.
+;
+; Note that these entries are effective if "UseAllowExtensions=0"
+; is set in the [Options] section above.
+;
+; Also note that ASP scripts are denied with the below
+; settings.  If you wish to enable ASP, remove the
+; following extensions from this list:
+;    .asp
+;    .cer
+;    .cdx
+;    .asa
+;
+
+; Deny executables that could run on the server
+;.exe
+;.bat
+;.cmd
+;.com
+
+; Deny infrequently used scripts
+;.htw     ; Maps to webhits.dll, part of Index Server
+;.ida     ; Maps to idq.dll, part of Index Server
+;.idq     ; Maps to idq.dll, part of Index Server
+;.htr     ; Maps to ism.dll, a legacy administrative tool
+;.idc     ; Maps to httpodbc.dll, a legacy database access tool
+;.shtm    ; Maps to ssinc.dll, for Server Side Includes
+;.shtml   ; Maps to ssinc.dll, for Server Side Includes
+;.stm     ; Maps to ssinc.dll, for Server Side Includes
+;.printer ; Maps to msw3prt.dll, for Internet Printing Services
+
+; Deny various static files
+;.ini     ; Configuration files
+;.log     ; Log files
+;.pol     ; Policy files
+;.dat     ; Configuration files
+;.config  ; Configuration files
+
+.bat
+;.exe
+.hta
+.cmd
+.com
+.cdx
+.asa
+.htw
+.ida
+.idq
+.htr
+.idc
+.shtm
+.stm
+.printer
+.ini
+.log
+.pol
+.dat
+;.config
+.mdb
+
+
+
+;设置特例，某些URL，可以设置为不收规则限制。用于临时开放一些特殊的页面
+[AlwaysAllowedUrls]
+;
+; URLs listed here will always be explicitly allowed by UrlScan
+; and will bypass all UrlScan checks.  URLs must be listed
+; with a leading '/' character.  For example:
+;
+;   /SampleURL.htm
+;
+/Admin/News/lib/Success.asp
+
+;[DenyUrlSequences] 节
+;可以配置 URLScan 以禁止那些 URL 中包含某些字符序列的请求。
+;例如，可以禁止那些包含两个连续句点 (..) 的请求，利用目录遍历漏洞的攻击中经常采用这种手段。
+;要指定一个想要禁止的字符序列，请将此序列单独放在 [DenyUrlSequences] 节中的一行上。
+;请注意，添加字符序列可能会对 Microsoft Exchange 的 Outlook Web Access (OWA) 产生负面影响。
+;当您从 OWA 打开一个邮件时，该邮件的主题行包含在服务器所请求的 URL 中。
+;由于 URLScan.ini 文件禁止任何包含百分号 (%) 和连字符 (&) 的请求，
+;因此，当用户尝试打开主题行为“Sales increase by 100%”或“Bob & Sue are coming to town”的邮件时，
+;会收到 404 错误信息。要解决此问题，可以从 [DenyUrlSequences] 节中删除这些序列。
+;请注意，这样做会降低安全性，因为它有可能允许危险的请求到达服务器。 
+;有关其他信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章： 
+;325965  (http://support.microsoft.com/kb/325965/ ) URLScan 工具可能会导致 Outlook Web Access 中出现问题
+[DenyUrlSequences]
+;
+; If any character sequences listed here appear in the URL for
+; any request, that request will be rejected.
+;
+
+;..  ; Don't allow directory traversals
+;./  ; Don't allow trailing dot on a directory name
+;\   ; Don't allow backslashes in URL
+;:   ; Don't allow alternate stream access
+;%   ; Don't allow escaping after normalization
+;&   ; Don't allow multiple CGI processes to run on a single request
+
+;总是允许的字串，用于特殊参数的提交
+[AlwaysAllowedQueryStrings]
+;
+; Query strings listed here will always be explicitly allowed by
+; UrlScan and will bypass all query string based checks.
+;
+
+;任何请求字串中出现这些字符都将被拒绝。他们常被用于脚本攻击
+[DenyQueryStringSequences]
+;
+; If any character sequences listed here appear in the query
+; string for any request, that request will be rejected.
+;
+
+;<   ; Commonly used by script injection attacks
+;>   ; Commonly used by script injection attacks

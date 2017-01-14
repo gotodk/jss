@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "FMOP", ".", "{6DF128FB-FE89-488B-8B7C-FAEDC276F2A8}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv2.0"
+		Debug.AspNetCompiler.VirtualPath = "/FMOPSystem"
+		Debug.AspNetCompiler.PhysicalPath = "..\FMOPSystem\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\FMOPSystem\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/FMOPSystem"
+		Release.AspNetCompiler.PhysicalPath = "..\FMOPSystem\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\FMOPSystem\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "17984"
+		VWDVirtualPath = "/"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DF128FB-FE89-488B-8B7C-FAEDC276F2A8}.Debug|.NET.ActiveCfg = Debug|.NET
+		{6DF128FB-FE89-488B-8B7C-FAEDC276F2A8}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = 
+	EndGlobalSection
+EndGlobal

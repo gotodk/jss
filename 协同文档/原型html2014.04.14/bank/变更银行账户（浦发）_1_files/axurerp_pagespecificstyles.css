@@ -1,0 +1,518 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../变更银行账户（浦发）_1_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:134px;
+    top:110px;
+    width:246px;
+    height:40px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:252px;
+    height:46px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:242px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../变更银行账户（浦发）_1_files/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:180px;
+    top:180px;
+    width:155px;
+    height:93px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:161px;
+    height:99px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:30px;
+    width:151px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4c0 {
+    background-image: url('../变更银行账户（浦发）_1_files/u4c0.png');
+}
+
+.u4c0 {
+    position:absolute;
+    left:331px;
+    top:216px;
+    width:102px;
+    height:20px;
+}
+
+.u4c1 {
+    background-image: url('../变更银行账户（浦发）_1_files/u4c1.png');
+}
+
+.u4c1 {
+    position:absolute;
+    left:413px;
+    top:216px;
+    width:20px;
+    height:21px;
+}
+
+.u4c2 {
+    background-image: url('../变更银行账户（浦发）_1_files/u4c2.png');
+}
+
+.u4c2 {
+    position:absolute;
+    left:413px;
+    top:217px;
+    width:24px;
+    height:20px;
+}
+
+.u5 {
+    position:absolute;
+    left:0px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6c0 {
+    background-image: url('../变更银行账户（浦发）_1_files/u6c0.png');
+}
+
+.u6c0 {
+    position:absolute;
+    left:228px;
+    top:140px;
+    width:40px;
+    height:20px;
+}
+
+.u6c1 {
+    background-image: url('../变更银行账户（浦发）_1_files/u6c1.png');
+}
+
+.u6c1 {
+    position:absolute;
+    left:248px;
+    top:140px;
+    width:20px;
+    height:44px;
+}
+
+.u7 {
+    position:absolute;
+    left:-24px;
+    top:-6px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8_normal {
+    background-image: url('../变更银行账户（浦发）_1_files/u8_normal.png');
+}
+
+.u8_container {
+    position:absolute;
+    left:433px;
+    top:212px;
+    width:97px;
+    height:30px;
+}
+
+#u8_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:103px;
+    height:36px;
+}
+
+.u9 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:93px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10_normal {
+    background-image: url('../变更银行账户（浦发）_1_files/u10_normal.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:60px;
+    top:590px;
+    width:191px;
+    height:30px;
+}
+
+#u10_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:197px;
+    height:36px;
+}
+
+.u11 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:187px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12c0 {
+    background-image: url('../变更银行账户（浦发）_1_files/u12c0.png');
+}
+
+.u12c0 {
+    position:absolute;
+    left:248px;
+    top:269px;
+    width:20px;
+    height:111px;
+}
+
+.u13 {
+    position:absolute;
+    left:-50px;
+    top:40px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_normal {
+    background-image: url('../变更银行账户（浦发）_1_files/u14_normal.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:130px;
+    top:370px;
+    width:256px;
+    height:40px;
+}
+
+#u14_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:262px;
+    height:46px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:252px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16_normal {
+    background-image: url('../变更银行账户（浦发）_1_files/u2_normal.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:180px;
+    top:470px;
+    width:155px;
+    height:93px;
+}
+
+#u16_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:161px;
+    height:99px;
+}
+
+.u17 {
+    position:absolute;
+    left:2px;
+    top:38px;
+    width:151px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18c0 {
+    background-image: url('../变更银行账户（浦发）_1_files/u18c0.png');
+}
+
+.u18c0 {
+    position:absolute;
+    left:248px;
+    top:406px;
+    width:20px;
+    height:74px;
+}
+
+.u19 {
+    position:absolute;
+    left:-50px;
+    top:22px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20c0 {
+    background-image: url('../变更银行账户（浦发）_1_files/u20c0.png');
+}
+
+.u20c0 {
+    position:absolute;
+    left:248px;
+    top:559px;
+    width:20px;
+    height:31px;
+}
+
+.u20c1 {
+    background-image: url('../变更银行账户（浦发）_1_files/u20c1.png');
+}
+
+.u20c1 {
+    position:absolute;
+    left:146px;
+    top:570px;
+    width:122px;
+    height:20px;
+}
+
+.u20c2 {
+    background-image: url('../变更银行账户（浦发）_1_files/u20c2.png');
+}
+
+.u20c2 {
+    position:absolute;
+    left:146px;
+    top:570px;
+    width:20px;
+    height:24px;
+}
+
+.u21 {
+    position:absolute;
+    left:-98px;
+    top:9px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22c0 {
+    background-image: url('../变更银行账户（浦发）_1_files/u22c0.png');
+}
+
+.u22c0 {
+    position:absolute;
+    left:331px;
+    top:506px;
+    width:63px;
+    height:20px;
+}
+
+.u22c1 {
+    background-image: url('../变更银行账户（浦发）_1_files/u22c1.png');
+}
+
+.u22c1 {
+    position:absolute;
+    left:374px;
+    top:506px;
+    width:20px;
+    height:86px;
+}
+
+.u23 {
+    position:absolute;
+    left:-1px;
+    top:4px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24_normal {
+    background-image: url('../变更银行账户（浦发）_1_files/u10_normal.png');
+}
+
+.u24_container {
+    position:absolute;
+    left:289px;
+    top:588px;
+    width:191px;
+    height:30px;
+}
+
+#u24_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:197px;
+    height:36px;
+}
+
+.u25 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:187px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26 {
+    position:absolute;
+    left:570px;
+    top:120px;
+    width:550px;
+    height:220px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27 {
+    position:absolute;
+    left:133px;
+    top:48px;
+    width:456px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

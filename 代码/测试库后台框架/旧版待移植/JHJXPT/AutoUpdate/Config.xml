@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <基本配置>
+    <MSS>客户端主程序.com.fm8844.fwpttest.jhjx_WebServicePublic|fwpttest.fm8844.com</MSS>
+    <IPURL />
+    <TRY>用户版</TRY>
+    <WWWSITE>http://www.fm8844.com</WWWSITE>
+    <DC>1,40,0.1</DC>
+  </基本配置>
+  <用户本地配置>
+    <UserEmail></UserEmail>
+    <UserPassWord></UserPassWord>
+    <IsSavePassWord>True</IsSavePassWord>
+    <IsAutoLogin>否</IsAutoLogin>
+    <IsAudio>是</IsAudio>
+    <IsT>40, 59, 107, 109, 70, 83, 67, 49, 151, 97, 82, 131, 81, 85, 82, 94, 33</IsT>
+  </用户本地配置>
+</NewDataSet>

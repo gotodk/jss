@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0 {
+    position:absolute;
+    left:70px;
+    top:40px;
+    width:770px;
+    height:380px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u1_normal {
+    background-image: url('../接口说明（需先读）_files/u1_normal.png');
+}
+
+.u1_container {
+    position:absolute;
+    left:70px;
+    top:540px;
+    width:573px;
+    height:401px;
+}
+
+#u1_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:573px;
+    height:401px;
+}
+
+.u2 {
+    position:absolute;
+    left:2px;
+    top:192px;
+    width:569px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

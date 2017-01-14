@@ -1,0 +1,6 @@
+﻿接收到证券端发来的包头：F028002416005000011000000000
+接收到证券端发来的包体：171FunctionIdExSerialbOrganIdbCustAcctsOrganIdsBranchIdsCustAcctbCustPwd2CardTypeCardNameBusinTypeMoneyTypebNewAcctbCustPwdDateTime26710140507000153777777777777777777777600500009131201584123454545420140507
+总长度为：269
+已接收我方服务器的处理结果。----------
+回馈给银行的数据包为：F0280012260050000110礼?１?71FunctionIdExSerialErrorNoErrorInfobSerialbCustAcctsCustAcct267101405070001530000入金成功6666669131201584
+最终回馈长度为：150

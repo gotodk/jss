@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "部署正式库辅助工具", "部署正式库辅助工具\部署正式库辅助工具.csproj", "{9FCA9993-0167-4356-B4B3-3BA8AD6CBC89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy.ClassLib.DataBaseFactory", "Galaxy.ClassLib.DataBaseFactory\Galaxy.ClassLib.DataBaseFactory.csproj", "{2BA94514-803D-46C1-8982-3004B57462F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDP", "RDP\RDP.csproj", "{FBB941A3-07C7-4438-A7CE-3C89FAA911CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FCA9993-0167-4356-B4B3-3BA8AD6CBC89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FCA9993-0167-4356-B4B3-3BA8AD6CBC89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FCA9993-0167-4356-B4B3-3BA8AD6CBC89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FCA9993-0167-4356-B4B3-3BA8AD6CBC89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BA94514-803D-46C1-8982-3004B57462F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BA94514-803D-46C1-8982-3004B57462F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BA94514-803D-46C1-8982-3004B57462F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BA94514-803D-46C1-8982-3004B57462F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBB941A3-07C7-4438-A7CE-3C89FAA911CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB941A3-07C7-4438-A7CE-3C89FAA911CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB941A3-07C7-4438-A7CE-3C89FAA911CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB941A3-07C7-4438-A7CE-3C89FAA911CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal

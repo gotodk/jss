@@ -1,0 +1,16 @@
+D:\富美集团新框架\RedisReLoad\ShareDBcache\bin\Debug\RedisReLoad.ShareDBcache.dll
+D:\富美集团新框架\RedisReLoad\ShareDBcache\bin\Debug\RedisReLoad.ShareDBcache.pdb
+D:\富美集团新框架\RedisReLoad\ShareDBcache\bin\Debug\FMDBHelperClass.dll
+D:\富美集团新框架\RedisReLoad\ShareDBcache\bin\Debug\FMipcClass.dll
+D:\富美集团新框架\RedisReLoad\ShareDBcache\bin\Debug\FMPublicClass.dll
+D:\富美集团新框架\RedisReLoad\ShareDBcache\bin\Debug\ServiceStack.Common.dll
+D:\富美集团新框架\RedisReLoad\ShareDBcache\bin\Debug\ServiceStack.Interfaces.dll
+D:\富美集团新框架\RedisReLoad\ShareDBcache\bin\Debug\ServiceStack.Redis.dll
+D:\富美集团新框架\RedisReLoad\ShareDBcache\bin\Debug\ServiceStack.Text.dll
+D:\富美集团新框架\RedisReLoad\ShareDBcache\bin\Debug\FMipcClass.pdb
+D:\富美集团新框架\RedisReLoad\ShareDBcache\bin\Debug\FMDBHelperClass.pdb
+D:\富美集团新框架\RedisReLoad\ShareDBcache\bin\Debug\FMPublicClass.pdb
+D:\富美集团新框架\RedisReLoad\ShareDBcache\bin\Debug\FMPublicClass.xml
+D:\富美集团新框架\RedisReLoad\ShareDBcache\obj\Debug\ShareDBcache.csprojResolveAssemblyReference.cache
+D:\富美集团新框架\RedisReLoad\ShareDBcache\obj\Debug\RedisReLoad.ShareDBcache.dll
+D:\富美集团新框架\RedisReLoad\ShareDBcache\obj\Debug\RedisReLoad.ShareDBcache.pdb

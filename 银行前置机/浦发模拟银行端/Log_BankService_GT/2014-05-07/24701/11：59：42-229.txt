@@ -1,0 +1,6 @@
+﻿接收到证券端发来的包头：F028002556005000011000000000
+接收到证券端发来的包体：191FunctionIdExSerialPkgFlagbOrganIdbCustAcctsOrganIdsBranchIdsCustAcctbCustPwdbCustPwd2NameCardTypeCardBusinTypeMoneyTypeOccurBalaSummaryDateTime247011405070001476777777777777777777777600500009131201584aa0120140507
+总长度为：283
+已接收我方服务器的处理结果。----------
+回馈给银行的数据包为：F0280019260050000110蒀緼趞L121FunctionIdExSerialErrorNoErrorInfobSerialbCustAcctsCustAcctMoneyTypeOccurBalasEnableBalabEnableBalaSummary247011405070001470000入金成功666666913120158401转账成功。
+最终回馈长度为：220

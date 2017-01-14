@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="查时间段会员的交易明细_x0023_1015" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="查时间段会员的交易明细_x0023_1015">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CustAcctId" msdata:Caption="子账号" type="xs:string" default="x" />
+                <xs:element name="SelectFlag" msdata:Caption="查询标志" type="xs:string" default="x" />
+                <xs:element name="BeginDate" msdata:Caption="开始日期" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="EndDate" msdata:Caption="结束日期" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="PageNum" msdata:Caption="第几页" type="xs:string" default="x" />
+                <xs:element name="Reserve" msdata:Caption="保留域" type="xs:string" default="" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <查时间段会员的交易明细_x0023_1015>
+    <CustAcctId>x</CustAcctId>
+    <SelectFlag>x</SelectFlag>
+    <BeginDate />
+    <EndDate />
+    <PageNum>x</PageNum>
+    <Reserve />
+  </查时间段会员的交易明细_x0023_1015>
+</NewDataSet>

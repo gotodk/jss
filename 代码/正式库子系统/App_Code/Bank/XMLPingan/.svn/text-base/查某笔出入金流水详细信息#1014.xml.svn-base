@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="查某笔出入金流水详细信息_x0023_1014" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="查某笔出入金流水详细信息_x0023_1014">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FrontLogNo" msdata:Caption="前置流水号" type="xs:string" default="x" />
+                <xs:element name="TranDate" msdata:Caption="交易日期" type="xs:string" default="x" />
+                <xs:element name="Reserve" msdata:Caption="保留域" type="xs:string" default="" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <查某笔出入金流水详细信息_x0023_1014>
+    <FrontLogNo>x</FrontLogNo>
+    <TranDate>x</TranDate>
+    <Reserve />
+  </查某笔出入金流水详细信息_x0023_1014>
+</NewDataSet>

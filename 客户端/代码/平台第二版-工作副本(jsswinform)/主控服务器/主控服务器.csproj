@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1D252580-DCB0-417D-A4A9-47ADB2CCEF8E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>主控服务器</RootNamespace>
+    <AssemblyName>主控服务器</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="org.in2bits.MyXls">
+      <HintPath>..\第二版客户端主程序\bin\Debug\org.in2bits.MyXls.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CRichTestBoxMenu.cs" />
+    <Compile Include="FormBTXXXS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBTXXXS.Designer.cs">
+      <DependentUpon>FormBTXXXS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLookDataTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLookDataTable.Designer.cs">
+      <DependentUpon>FormLookDataTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormServer.Designer.cs">
+      <DependentUpon>FormServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormWindowsServicesTry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWindowsServicesTry.Designer.cs">
+      <DependentUpon>FormWindowsServicesTry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyXlsClass.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="服务器类库\ReceiveDispatchCenter.cs" />
+    <Compile Include="服务器类库\SendDispatchCenter.cs" />
+    <Compile Include="服务器类库\Server.cs" />
+    <Compile Include="服务器类库\SlidingWindow.cs" />
+    <Compile Include="服务器类库\UDPCommunicate.cs" />
+    <Compile Include="服务器类库\UDPSlidingWindow.cs" />
+    <EmbeddedResource Include="FormBTXXXS.resx">
+      <DependentUpon>FormBTXXXS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLookDataTable.resx">
+      <DependentUpon>FormLookDataTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormServer.resx">
+      <DependentUpon>FormServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWindowsServicesTry.resx">
+      <DependentUpon>FormWindowsServicesTry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibraryBusinessMonitor\ClassLibraryBusinessMonitor.csproj">
+      <Project>{DDC20823-D763-46F4-8327-E8A498996955}</Project>
+      <Name>ClassLibraryBusinessMonitor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\公用通讯协议类库\公用通讯协议类库.csproj">
+      <Project>{F0835632-A262-4A9E-ADCD-232393B1755E}</Project>
+      <Name>公用通讯协议类库</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,156 @@
+2014-10-13 14-56-36     ---     调用webservices错误,方法名：[C大盘底部统计]：查询业务调用失败，空返回值！
+
+2014-10-13 14-56-42     ---     调用webservices错误,方法名：[C大盘底部统计]：查询业务调用失败，空返回值！
+
+2014-10-13 14-56-47     ---     调用webservices错误,方法名：[C大盘底部统计]：查询业务调用失败，空返回值！
+
+2014-10-13 14-56-52     ---     调用webservices错误,方法名：[C大盘底部统计]：查询业务调用失败，空返回值！
+
+2014-10-13 14-56-57     ---     调用webservices错误,方法名：[C大盘底部统计]：查询业务调用失败，空返回值！
+
+2014-10-13 14-57-03     ---     调用webservices错误,方法名：[C大盘底部统计]：查询业务调用失败，空返回值！
+
+2014-10-13 14-57-08     ---     调用webservices错误,方法名：[C大盘底部统计]：查询业务调用失败，空返回值！
+
+2014-10-13 14-57-13     ---     调用webservices错误,方法名：[C大盘底部统计]：查询业务调用失败，空返回值！
+
+2014-10-13 14-57-19     ---     调用webservices错误,方法名：[C大盘底部统计]：查询业务调用失败，空返回值！
+
+2014-10-13 14-57-24     ---     调用webservices错误,方法名：[C大盘底部统计]：查询业务调用失败，空返回值！
+
+2014-10-13 14-57-29     ---     调用webservices错误,方法名：[C大盘底部统计]：查询业务调用失败，空返回值！
+
+2014-10-13 14-57-35     ---     调用webservices错误,方法名：[C大盘底部统计]：查询业务调用失败，空返回值！
+
+2014-10-13 14-57-40     ---     调用webservices错误,方法名：[C大盘底部统计]：查询业务调用失败，空返回值！
+
+2014-10-13 14-57-45     ---     调用webservices错误,方法名：[C大盘底部统计]：查询业务调用失败，空返回值！
+
+2014-10-13 14-57-51     ---     调用webservices错误,方法名：[C大盘底部统计]：查询业务调用失败，空返回值！
+
+2014-10-13 14-57-56     ---     调用webservices错误,方法名：[C大盘底部统计]：查询业务调用失败，空返回值！
+
+2014-10-13 14-58-01     ---     调用webservices错误,方法名：[C大盘底部统计]：查询业务调用失败，空返回值！
+
+2014-10-13 14-58-07     ---     调用webservices错误,方法名：[C大盘底部统计]：查询业务调用失败，空返回值！
+
+2014-10-13 14-58-12     ---     调用webservices错误,方法名：[C大盘底部统计]：查询业务调用失败，空返回值！
+
+2014-10-13 14-58-17     ---     调用webservices错误,方法名：[C大盘底部统计]：查询业务调用失败，空返回值！
+
+2014-10-13 14-58-23     ---     调用webservices错误,方法名：[C大盘底部统计]：查询业务调用失败，空返回值！
+
+2014-10-13 14-58-28     ---     调用webservices错误,方法名：[C大盘底部统计]：查询业务调用失败，空返回值！
+
+2014-10-13 14-58-33     ---     调用webservices错误,方法名：[C大盘底部统计]：查询业务调用失败，空返回值！
+
+2014-10-13 14-58-38     ---     调用webservices错误,方法名：[C大盘底部统计]：查询业务调用失败，空返回值！
+
+2014-10-13 14-58-44     ---     调用webservices错误,方法名：[C大盘底部统计]：查询业务调用失败，空返回值！
+
+2014-10-13 19-46-19     ---     调用webservices错误,方法名：[C获得一级分类]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-46-19     ---     调用webservices错误,方法名：[C大盘底部统计]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-46-19     ---     委托回调错误：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult_FL(Hashtable OutPutHT) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\第二版客户端主程序\FormMainPublic.cs:行号 1284
+
+2014-10-13 19-46-24     ---     调用webservices错误,方法名：[C大盘底部统计]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-46-29     ---     调用webservices错误,方法名：[C大盘底部统计]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-46-35     ---     调用webservices错误,方法名：[C大盘底部统计]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-46-40     ---     调用webservices错误,方法名：[C大盘底部统计]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-46-45     ---     调用webservices错误,方法名：[C大盘底部统计]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-46-51     ---     调用webservices错误,方法名：[C大盘底部统计]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-46-56     ---     调用webservices错误,方法名：[C大盘底部统计]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-47-02     ---     调用webservices错误,方法名：[C大盘底部统计]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-47-07     ---     调用webservices错误,方法名：[C大盘底部统计]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-47-12     ---     调用webservices错误,方法名：[C大盘底部统计]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-47-18     ---     调用webservices错误,方法名：[C大盘底部统计]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-47-23     ---     调用webservices错误,方法名：[C大盘底部统计]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-47-28     ---     调用webservices错误,方法名：[C大盘底部统计]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-47-34     ---     调用webservices错误,方法名：[C大盘底部统计]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-47-39     ---     调用webservices错误,方法名：[C大盘底部统计]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-47-44     ---     调用webservices错误,方法名：[C大盘底部统计]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-47-50     ---     调用webservices错误,方法名：[C大盘底部统计]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-47-54     ---     调用webservices错误,方法名：[C登录账户验证]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-47-55     ---     调用webservices错误,方法名：[C大盘底部统计]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-47-57     ---     调用webservices错误,方法名：[C登录账户验证]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-48-00     ---     调用webservices错误,方法名：[C大盘底部统计]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-48-01     ---     调用webservices错误,方法名：[C登录账户验证]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-48-05     ---     调用webservices错误,方法名：[C登录账户验证]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-48-06     ---     调用webservices错误,方法名：[C大盘底部统计]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-48-11     ---     调用webservices错误,方法名：[C大盘底部统计]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-48-16     ---     调用webservices错误,方法名：[C大盘底部统计]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-53-13     ---     调用webservices错误,方法名：[C大盘底部统计]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-53-14     ---     调用webservices错误,方法名：[C获得一级分类]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-53-14     ---     委托回调错误：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult_FL(Hashtable OutPutHT) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\第二版客户端主程序\FormMainPublic.cs:行号 1284
+
+2014-10-13 19-53-47     ---     调用webservices错误,方法名：[C大盘底部统计]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+
+2014-10-13 19-54-00     ---     调用webservices错误,方法名：[C大盘底部统计]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 395
+

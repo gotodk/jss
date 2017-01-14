@@ -1,0 +1,156 @@
+/* WRAPPER SETTINGS */
+
+.radInput_Office2007
+{
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 12px;
+	font-weight: normal;	
+}
+
+.radInput_Office2007 table
+{
+	width: 179px;
+}
+
+.radInput_Office2007 table,
+.radInput_Office2007 table td
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.radInput_Office2007 .inputCell 
+{
+	padding: 0 2px 0 0;	
+	*padding: 0 4px 0 0; /*IE hack*/
+}
+
+.radInput_Office2007 .inputCell input,
+.radInput_Office2007 .inputCell textarea
+{	
+	margin: 0;
+}
+
+.radInput_Office2007 .imageCell,
+.radInput_Office2007 .spinImgCell
+{	
+	padding: 2px 0 0 2px;	
+	*padding: 4px 0 0 4px; /*IE hack*/
+}
+
+/* SPIN BUTTONS */
+
+.radInput_Office2007 a.spinbutton
+{
+	display: block;
+	text-indent: -9999px;
+	width: 12px;
+	height: 9px; 
+	line-height: 9px;
+	background: transparent url('Img/SpinButtonSprites.gif') no-repeat;
+	font-size: 1px;
+	top: 2px;
+	position: relative;
+	*position: inherit; /*IE fix*/
+	outline: none;	
+}
+
+.radInput_Office2007 a.spinbutton.up
+{
+	background-position: center 0;
+}
+
+.radInput_Office2007 a.spinbutton.down
+{
+	background-position: center -9px;
+}
+
+.radInput_Office2007 a.gobutton
+{
+	display: block;
+	text-indent: -9999px;
+	width: 20px;
+	height: 17px; 
+	line-height: 17px;
+	background: transparent url('Img/button.gif') no-repeat;
+	font-size: 1px;
+	position: relative;
+	*position: inherit; /*IE fix*/
+	outline: none;
+}
+/* END OF WRAPPER SETTINGS */
+
+
+
+/* INPUT STYLES SETTINGS */
+
+
+.radHoverCss_Office2007,
+.radEnabledCss_Office2007,
+.radDisabledCss_Office2007,
+.radEmptyMessageCss_Office2007,
+.radFocusedCss_Office2007,
+.radNegativeCss_Office2007,
+.radInvalidCss_Office2007
+{
+	font: normal 12px  Arial, Verdana, Sans-Serif;
+	background: white;
+	width: 179px;
+	vertical-align: middle;
+}
+
+.radInvalidCss_Office2007
+{	
+	color: #dcaa78;
+	border: solid 1px #dcaa78;
+	background-color: #fff;
+}
+
+.radEnabledCss_Office2007, 
+.radNegativeCss_Office2007,
+.radEmptyMessageCss_Office2007,
+.radFocusedCss_Office2007
+{
+	color: #000;
+	border: solid 1px #7f9db9; 	
+}
+
+.radHoverCss_Office2007 
+{
+	color: #38577e;
+	border: solid 1px #38577e;
+}
+
+.radDisabledCss_Office2007
+{
+	color: #ccc;
+	border: solid 1px #e4e4e4; 
+	background-color: #e3e3e3;
+}
+
+.radLabelCss_Office2007
+{
+	color: #000000;
+	font-size: 11px;	
+	white-space:nowrap;
+}
+
+.radHint_Office2007 
+{
+	background: infobackground;
+	margin-top: 5px;
+	border: solid 1px black;
+	text-align: left;
+	overflow: auto; 
+}
+
+.radHint_Office2007 a,
+.radHint_Office2007 a:visited,
+.radHint_Office2007 a:hover
+{
+	margin: 2px;
+	color: black;
+	text-decoration: none;
+	font-size: small;
+}

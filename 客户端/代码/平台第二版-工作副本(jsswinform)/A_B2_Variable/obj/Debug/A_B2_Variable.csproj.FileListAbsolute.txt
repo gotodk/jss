@@ -1,0 +1,9 @@
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_B2_Variable\bin\Debug\B2_Variable.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_B2_Variable\bin\Debug\B2_Variable.pdb
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_B2_Variable\bin\Debug\P1_Support.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_B2_Variable\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_B2_Variable\bin\Debug\org.in2bits.MyXls.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_B2_Variable\bin\Debug\P1_Support.pdb
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_B2_Variable\obj\Debug\A_B2_Variable.csprojResolveAssemblyReference.cache
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_B2_Variable\obj\Debug\B2_Variable.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_B2_Variable\obj\Debug\B2_Variable.pdb

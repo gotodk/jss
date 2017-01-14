@@ -1,0 +1,508 @@
+BODY {
+	FONT-FAMILY: Verdana, Arial, Helvetica, Sans-Serif
+}
+A {
+	COLOR: #0033cc
+}
+A:link {
+	COLOR: #0033cc
+}
+A:visited {
+	COLOR: #800080
+}
+A:hover {
+	COLOR: #ff6600
+}
+A:active {
+	COLOR: #800080
+}
+A.OPLink {
+	COLOR: #0033cc;TEXT-DECORATION: none
+}
+A.OPLink:link {
+	COLOR: #0033cc;TEXT-DECORATION: none
+}
+A.OPLink:visited {
+	COLOR: #0033cc;TEXT-DECORATION: none
+}
+.mnpMenuTop {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 0px solid; FONT-SIZE: small; BACKGROUND: #f1f1f1; BORDER-LEFT: #999999 0px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #999999 0px solid
+}
+.mnpMenuSub {
+	BORDER-RIGHT: #999999 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #999999 1px solid; PADDING-LEFT: 0px; BACKGROUND: #f1f1f1; PADDING-BOTTOM: 2px; BORDER-LEFT: #999999 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #999999 1px solid; POSITION: absolute
+}
+.mnpMenuRow {
+	BORDER-RIGHT: 1px solid; PADDING-RIGHT: 15px; BORDER-TOP: 1px solid; PADDING-LEFT: 6px; PADDING-BOTTOM: 3px; MARGIN: 0px 2px; BORDER-LEFT: 1px solid; CURSOR: hand; COLOR: black; PADDING-TOP: 1px; BORDER-BOTTOM: 1px solid
+}
+.mnpMenuRow A {
+	FONT-WEIGHT: normal; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: black; TEXT-DECORATION: none
+}
+.mnpMenuRow A:visited {
+	FONT-WEIGHT: normal; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: black; TEXT-DECORATION: none
+}
+.mnpMenuRow A:hover {
+	FONT-WEIGHT: normal; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: black; TEXT-DECORATION: none
+}
+.mnpMenuLabel {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 4px; BACKGROUND: #f1f1f1; PADDING-BOTTOM: 4px; COLOR: black; PADDING-TOP: 2px
+}
+.mnpMenuBorder {
+	BACKGROUND: #999999; MARGIN: 2px 0px; OVERFLOW: hidden; HEIGHT: 1px
+}
+.mnpMenuArrow {
+	MARGIN-TOP: 4px; POSITION: absolute
+}
+.mnpMenuScroller {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; MARGIN: 0px 2px; OVERFLOW: hidden; BORDER-LEFT: 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: 1px solid; HEIGHT: 19px; TEXT-ALIGN: center
+}
+.mnpMenuScrollArea {
+	BACKGROUND: none transparent scroll repeat 0% 0%; OVERFLOW: hidden
+}
+.mnpAds {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.mnpAds A {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.mnpAds A:link {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.mnpAds A:visited {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.mnpAds A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.mnpInherit {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.mnpMenuLabel {
+	FONT: bold 9pt Verdana
+}
+.mnpMenuRow {
+	FONT: 9pt Verdana
+}
+#pageTools {
+	BORDER-TOP: #ccc 1px solid; FONT: 65% Verdana; BACKGROUND-COLOR: #f1f1f1
+}
+#pageTools A {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 2px; MARGIN: 1px; CURSOR: hand; COLOR: #000; PADDING-TOP: 2px; HEIGHT: 20px; TEXT-DECORATION: none
+}
+#pageTools A:hover {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #999 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 1px; MARGIN: 1px; BORDER-LEFT: #999 1px solid; CURSOR: hand; COLOR: #000; PADDING-TOP: 1px; BORDER-BOTTOM: #999 1px solid; HEIGHT: 20px; BACKGROUND-COLOR: #ccc; TEXT-DECORATION: none
+}
+BODY {
+	MARGIN: 0px
+}
+
+.lnk_iconic {
+	FONT-SIZE: 9pt; FONT-FAMILY: arial,helvetica
+}
+.mhTextEmph {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: arial,helvetica
+}
+.menuItem {
+	PADDING-LEFT: 2px; WIDTH: 177px;CURSOR: hand;COLOR: black;TEXT-DECORATION: none;FONT: 9pt;
+}
+.menuItem A {
+	BORDER-RIGHT: #f1f1f1 1px solid; PADDING-RIGHT: 6px; COLOR: black; BORDER-TOP: #f1f1f1 1px solid; DISPLAY: block; PADDING-LEFT: 6px; BACKGROUND: #f1f1f1; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #f1f1f1 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #f1f1f1 1px solid; WHITE-SPACE: nowrap;
+	TEXT-DECORATION: none;
+}
+.menuItem A:hover {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 6px; COLOR: black; BORDER-TOP: #999 1px solid; DISPLAY: block; PADDING-LEFT: 6px; BACKGROUND: #ccc; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #999 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #999 1px solid;
+	TEXT-DECORATION: none;
+}
+.menuItem A:visited {
+	COLOR: black; TEXT-DECORATION: none;
+}
+BODY {
+	MARGIN: 0px
+}
+#msviRegionIdGraphic {
+	PADDING-LEFT: 7px
+}
+#msviGlobalToolbar {
+	PADDING-LEFT: 1px
+}
+#msviGlobalToolbar A {
+	FONT: 65% Verdana; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.gt0 {
+	BORDER-RIGHT: #6487db 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #6487db 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 100%; PADDING-BOTTOM: 2px; BORDER-LEFT: #6487db 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #6487db 1px solid
+}
+.gt1 {
+	BORDER-RIGHT: #a2b7e9 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #a2b7e9 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 100%; BACKGROUND: #7393df; PADDING-BOTTOM: 2px; BORDER-LEFT: #a2b7e9 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #a2b7e9 1px solid
+}
+.gtsep {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 2px; FONT: 65% Verdana; COLOR: #a2b7e9; PADDING-TOP: 0px
+}
+#msviBanner {
+	TEXT-ALIGN: right
+}
+#msviGlobalSearch {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 6px; FONT: 65% Verdana; PADDING-TOP: 5px; TEXT-ALIGN: left
+}
+#msviSearchForm {
+	MARGIN: -1px 0px 0px
+}
+#msviSearchBox {
+	FONT: 110% Tahoma; WIDTH: 235px; xheight: 18px
+}
+#msviGoButton {
+	PADDING-RIGHT: 0.2em; PADDING-LEFT: 0.2em; PADDING-BOTTOM: 0em; FONT: 110% Tahoma; MARGIN-LEFT: 6px; PADDING-TOP: 0em; POSITION: relative; TOP: 1px
+}
+#msviNoSearch {
+	WIDTH: 271px
+}
+#msviMastheadHR {
+	BACKGROUND: #5076c9; OVERFLOW: hidden; HEIGHT: 1px
+}
+#msviLocalToolbar {
+	PADDING-RIGHT: 0px;  PADDING-LEFT: 0px; FONT-SIZE: 100%; BACKGROUND: #f1f1f1; PADDING-BOTTOM: 1px; PADDING-TOP: 2px; BORDER-BOTTOM: #999 1px solid
+}
+#msviLocalToolbar TD {
+	FONT-SIZE: 100%
+}
+#msviLocalToolbar A {
+	FONT: 75% Verdana; COLOR: black; TEXT-DECORATION: none
+}
+.lt0 {
+	BORDER-RIGHT: #f1f1f1 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #f1f1f1 1px solid; PADDING-LEFT: 6px; BACKGROUND: #f1f1f1; PADDING-BOTTOM: 0px; BORDER-LEFT: #f1f1f1 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #f1f1f1 1px solid
+}
+.lt1 {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #999 1px solid; PADDING-LEFT: 6px; BACKGROUND: #ccc; PADDING-BOTTOM: 0px; BORDER-LEFT: #999 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #999 1px solid
+}
+.ltsep {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 0px; FONT: 75% Verdana; COLOR: #a9a9a9; PADDING-TOP: 0px
+}
+.localToolbar FORM {
+	MARGIN: 0px
+}
+.localToolbar INPUT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; FONT: 75% Tahoma, Helvetica; MARGIN-RIGHT: 8px; PADDING-TOP: 0px
+}
+#msviHomePageLink {
+	PADDING-LEFT: 2px; WIDTH: 177px
+}
+#msviHomePageLink TD {
+	FONT-SIZE: 100%
+}
+#msviHomePageLink A {
+	BORDER-RIGHT: #f1f1f1 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #f1f1f1 1px solid; DISPLAY: block; PADDING-LEFT: 6px; BACKGROUND: #f1f1f1; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #f1f1f1 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #f1f1f1 1px solid; WHITE-SPACE: nowrap
+}
+#msviHomePageLink A:hover {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #999 1px solid; DISPLAY: block; PADDING-LEFT: 6px; BACKGROUND: #ccc; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #999 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #999 1px solid
+}
+#msviFooter {
+	BORDER-TOP: #5076c9 1px solid; FONT: 75% Tahoma, Helvetica; POSITION: absolute
+}
+#msviFooter TD {
+	FONT-SIZE: 100%
+}
+#msviLocalFooter {
+	PADDING-LEFT: 10px; MARGIN: 0px; PADDING-TOP: 8px
+}
+#msviGlobalFooter {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 13px; MARGIN: 0px; PADDING-TOP: 10px
+}
+#msviFooter A {
+	FONT-WEIGHT: normal; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #03c; MARGIN-RIGHT: 2px
+}
+#msviFooter A:visited {
+	FONT-WEIGHT: normal; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #03c
+}
+#msviFooter A:hover {
+	FONT-WEIGHT: normal; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #f60
+}
+#msviFooter NOBR {
+	COLOR: #a9a9a9; MARGIN-RIGHT: 5px
+}
+#msviGlobalSearch {
+	FONT: 75% Arial
+}
+#msviSearchBox {
+	FONT: 100% Tahoma
+}
+#msviGoButton {
+	FONT: 100% Tahoma
+}
+#msviGlobalToolbar A {
+	FONT: 75% Arial
+}
+#msviLocalToolbar A {
+	FONT: 75% Arial
+}
+#msviFooter {
+	FONT: 75% Arial, Helvetica
+}
+
+A.OPLink:hover {
+	COLOR: #ff6600;TEXT-DECORATION: underline
+}
+A.OPLink:active {
+	COLOR: #0033cc;TEXT-DECORATION: none
+}
+.thinInput
+{
+    BACKGROUND-COLOR: #ffffff;
+    BORDER-BOTTOM: #888888 1px solid;
+    BORDER-LEFT: #888888 1px solid;
+    BORDER-RIGHT: #888888 1px solid;
+    BORDER-TOP: #888888 1px solid;
+    FONT-FAMILY: "ËÎÌו";
+    FONT-SIZE: 9pt;
+    TEXT-DECORATION: none;
+    WIDTH:50%;
+    COLOR: red;
+
+}
+H1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 130%; MARGIN: 12px 0px 0px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 85%; MARGIN: 0.4em 0px 0.5em 20px
+}
+H3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; MARGIN: 0.4em 0px 0.5em 20px
+}
+H4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 70%; MARGIN: 0px 0px 1em
+}
+H5 {
+	FONT-WEIGHT: bold; FONT-SIZE: 65%; MARGIN: 0px 0px 5px
+}
+.stdBullet {
+	PADDING-RIGHT: 0.5em; FONT-SIZE: 70%; COLOR: #a6a6a6; PADDING-TOP: 2px
+}
+.indent {
+	MARGIN-LEFT: 20px
+}
+.headline {
+	PADDING-BOTTOM: 0.5em
+}
+.headlineLink {
+	FONT-SIZE: 70%
+}
+.headlineInfo {
+	FONT-SIZE: 65%; COLOR: #999999
+}
+.refLabel {
+	FONT-WEIGHT: bold; FONT-SIZE: 70%; LINE-HEIGHT: 140%
+}
+.refLabelH2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 85%; MARGIN-BOTTOM: 0.3em; LINE-HEIGHT: 140%
+}
+.refLabelH3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; LINE-HEIGHT: 140%
+}
+P.nomargin {
+	FONT-SIZE: 70%; MARGIN: 0px; LINE-HEIGHT: 140%
+}
+.linkList {
+	MARGIN-TOP: 0.3em; MARGIN-BOTTOM: -5px
+}
+.linkListItem {
+	PADDING-BOTTOM: 0.3em
+}
+.listLink {
+	FONT-SIZE: 70%; LINE-HEIGHT: 140%
+}
+P {
+	MARGIN-TOP: 0em; FONT-SIZE: 75%; MARGIN-BOTTOM: 1em; LINE-HEIGHT: 140%
+}
+P.blurb {
+	MARGIN-TOP: 0em; FONT-SIZE: 75%; MARGIN-BOTTOM: 1.4em; MARGIN-LEFT: 20px; LINE-HEIGHT: 140%
+}
+.container {
+	MARGIN-TOP: 0em; FONT-SIZE: 65%; MARGIN-BOTTOM: 1em; LINE-HEIGHT: 130%
+}
+.newLink {
+	FONT-WEIGHT: bold; FONT-SIZE: 65%; COLOR: red
+}
+HR {
+	MARGIN-TOP: 0.5em; MARGIN-BOTTOM: 0px
+}
+.sideObject {
+	PADDING-BOTTOM: 1em
+}
+.sidebarContent {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; BACKGROUND: #e9e9e6; PADDING-BOTTOM: 6px; WIDTH: 165px; PADDING-TOP: 8px
+}
+.sidebarContent P {
+	MARGIN-BOTTOM: 0.8em
+}
+.containerHeader {
+	BACKGROUND: #999999
+}
+.containerFooter {
+	BACKGROUND: #999999; MARGIN-BOTTOM: 12px
+}
+.containerImage {
+	MARGIN-TOP: 0.5em; MARGIN-BOTTOM: 0.5em; TEXT-ALIGN: center
+}
+.spotGraphic {
+	PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.sidebarLink {
+	FONT-SIZE: 65%; PADDING-BOTTOM: 0.75em; LINE-HEIGHT: 130%
+}
+DIV.hr {
+	BORDER-TOP: #cccccc 1px solid; OVERFLOW-Y: hidden; WIDTH: 100%; HEIGHT: 5px
+}
+.reference {
+	MARGIN-BOTTOM: 16px
+}
+.headlines {
+	MARGIN-BOTTOM: 9px; MARGIN-LEFT: 20px
+}
+.dataTable {
+	MARGIN-LEFT: 20px; BORDER-BOTTOM: #cccccc 1px solid
+}
+.dataTable TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.tableHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; BACKGROUND: #999999; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.superHeader {
+	FONT-SIZE: 70%; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.stdHeader {
+	BACKGROUND: #cccccc; COLOR: #000000
+}
+.stdHeader TD {
+	BORDER-TOP: #cccccc 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 70%; BORDER-LEFT: #cccccc 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.subHeader {
+	BACKGROUND: #dddddd
+}
+.subHeader TD {
+	BORDER-TOP: #cccccc 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 70%; BORDER-LEFT: #cccccc 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.record TD {
+	BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid
+}
+.record TD TD {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.evenRecord {
+	BACKGROUND: #e9e9e6
+}
+.evenRecord TD {
+	BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid
+}
+.evenRecord TD TD {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.rowLabel {
+	FONT-WEIGHT: bold; BACKGROUND: #f0f0f0
+}
+P.lastInCell {
+	PADDING-BOTTOM: 0px
+}
+.keyLegend {
+	PADDING-BOTTOM: 6px; MARGIN-LEFT: 20px
+}
+.key {
+	PADDING-RIGHT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 65%; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.legend {
+	FONT-SIZE: 65%; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.legendBullets {
+	COLOR: #666666
+}
+.dataBullets {
+	COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.tableFootnotes {
+	MARGIN-TOP: 7px; MARGIN-LEFT: 5px
+}
+.dataTableBottomMargin {
+	MARGIN-BOTTOM: 18px; OVERFLOW: hidden; HEIGHT: 1px
+}
+TR.sortable {
+	BACKGROUND: #ccc; COLOR: #000000
+}
+TD.sortable {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+TD.sortable A {
+	CURSOR: hand
+}
+TD.sortable A:hover {
+	BACKGROUND: #e0e0e0
+}
+TD.sortable TABLE {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 70%; PADDING-BOTTOM: 5px; BORDER-LEFT: #fff 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #999 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; ; HEIGHT: expression(this.parentElement.parentElement.clientHeight)
+}
+TD.selectedSort {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+TD.selectedSort A {
+	BACKGROUND: #999; CURSOR: hand
+}
+TD.selectedSort TABLE {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #666 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 70%; PADDING-BOTTOM: 5px; BORDER-LEFT: #666 1px solid; COLOR: white; PADDING-TOP: 5px; BORDER-BOTTOM: #ccc 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; ; HEIGHT: expression(this.parentElement.parentElement.clientHeight)
+}
+.simpleForm {
+	MARGIN: 20px 0px 1.5ex 20px
+}
+.simpleForm P {
+	FONT-WEIGHT: bold; FONT-SIZE: 65%; MARGIN-BOTTOM: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.simpleForm DIV {
+	MARGIN-BOTTOM: 14px
+}
+.simpleFormSelect {
+	MARGIN-TOP: 2px; FONT-SIZE: 70%; MARGIN-RIGHT: 6px; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif
+}
+.simpleFormSelectSmall {
+	MARGIN-TOP: 2px; FONT-SIZE: 70%; WIDTH: 123px; MARGIN-RIGHT: 6px; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif
+}
+.simpleFormSelectMedium {
+	MARGIN-TOP: 2px; FONT-SIZE: 70%; WIDTH: 169px; MARGIN-RIGHT: 6px; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif
+}
+.simpleFormSelectLarge {
+	MARGIN-TOP: 2px; FONT-SIZE: 70%; WIDTH: 261px; MARGIN-RIGHT: 6px; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif
+}
+.simpleFormText {
+	MARGIN-TOP: 1px; FONT-SIZE: 70%; WIDTH: 261px; MARGIN-RIGHT: 6px; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif
+}
+.simpleFormSubmit {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 2px; FONT-SIZE: 70%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif
+}
+.listBullet {
+	FONT-SIZE: 80%; COLOR: #a6a6a6
+}
+.listItem {
+	PADDING-RIGHT: 0em; PADDING-LEFT: 0.5em; PADDING-BOTTOM: 0em; PADDING-TOP: 0em
+}
+.DetailsContent {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; FONT-SIZE: 75%; PADDING-BOTTOM: 0px; MARGIN: 0px; line-height:16pt;  PADDING-TOP: 0px; FONT-FAMILY: Verdana, Arial
+}
+.text {
+	font-size: 9pt;
+	line-height: 20px;
+	color: #333333;
+}
+.text1 {
+	font-size: 9pt;
+	line-height: 30px;
+	color: #333333;
+}
+.lnk_iconic {
+	FONT-SIZE: 9pt; FONT-FAMILY: arial,helvetica
+}
+.mhTextEmph {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: arial,helvetica
+}
+.myduan {
+	line-height: 20px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	font-family: "??";
+	font-size: 12px;
+}

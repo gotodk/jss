@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="券商发起-修改客户资料_x0023__x2605_26704" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="券商发起-修改客户资料_x0023__x2605_26704">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FunctionId" msdata:Caption="功能号" type="xs:string" default="26704" />
+                <xs:element name="ExSerial" msdata:Caption="外部流水号" type="xs:string" default="xxxx" />
+                <xs:element name="bOrganId" msdata:Caption="银行类型" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="bCustAcct" msdata:Caption="存管账号/银行账号" type="xs:string" default="xxxx" />
+                <xs:element name="sOrganId" msdata:Caption="证券公司编号" type="xs:string" default="60050000" />
+                <xs:element name="sBranchId" msdata:Caption="营业部编码" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="sCustAcct" msdata:Caption="证券资金账号" type="xs:string" default="xxxx" />
+                <xs:element name="bCustPwd2" msdata:Caption="银行存管密码" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="Name" msdata:Caption="新客户姓名" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="CardType" msdata:Caption="新客户证件类型" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="Card" msdata:Caption="新客户证件号" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="Nationality" msdata:Caption="新国籍或地区" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="PostCode" msdata:Caption="新邮政编码" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="Address" msdata:Caption="新客户地址" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="TelNo" msdata:Caption="新电话号码" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="FaxNo" msdata:Caption="新传真" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="MobiNo" msdata:Caption="新手机" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="Email" msdata:Caption="新电子邮件" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="Summary" msdata:Caption="业务摘要" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="Date" msdata:Caption="交易日期" type="xs:string" default="xxxx" />
+                <xs:element name="Time" msdata:Caption="发生时间" type="xs:string" default="" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <券商发起-修改客户资料_x0023__x2605_26704>
+    <FunctionId>26704</FunctionId>
+    <ExSerial>xxxx</ExSerial>
+    <bOrganId />
+    <bCustAcct>xxxx</bCustAcct>
+    <sOrganId>60050000</sOrganId>
+    <sBranchId />
+    <sCustAcct>xxxx</sCustAcct>
+    <bCustPwd2 />
+    <Name />
+    <CardType />
+    <Card />
+    <Nationality />
+    <PostCode />
+    <Address />
+    <TelNo />
+    <FaxNo />
+    <MobiNo />
+    <Email />
+    <Summary />
+    <Date>xxxx</Date>
+    <Time />
+  </券商发起-修改客户资料_x0023__x2605_26704>
+</NewDataSet>

@@ -1,0 +1,346 @@
+﻿using FMBANKpufa;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Data;
+using System.Net;
+using System.Net.Sockets;
+using System.Text;
+using System.Threading;
+
+namespace 银行接口协议测试
+{
+    class ClassAcceptorMsg
+    {
+
+        //向线程传递的回调参数
+        private delegateForThread DForThread;
+        //向线程传递的数据参数
+        private Hashtable InPutHT;
+
+
+        /// <summary>
+        /// byte编码方式
+        /// </summary>
+        string EncodingName;
+        /// <summary>
+        /// IP地址
+        /// </summary>
+        string Dip;
+        /// <summary>
+        /// 端口
+        /// </summary>
+        string Ddk;
+        /// <summary>
+        /// 包头
+        /// </summary>
+        string Dbaotou;
+
+
+
+        /// <summary>
+        /// 构造函数
+        /// </summary>
+        /// <param name="PHT">需要传入线程的参数</param>
+        /// <param name="DFT">线程委托</param>
+        public ClassAcceptorMsg(Hashtable PHT, delegateForThread DFT)
+        {
+            //
+            // TODO: 在此处添加构造函数逻辑
+            //
+            DForThread = DFT;
+            InPutHT = PHT;
+
+            //初始化该银行的一些固定默认参数
+            EncodingName = "GB2312";
+            //Dip = "10.112.26.73";
+            Ddk = "40012";
+            //F＋3位包头长度＋5位包体长度＋8位券商号＋3位密码加密标志＋8位MAC值
+            Dbaotou = "F028包体长度60050000加密标志三位MAC值八位";
+        }
+
+
+
+        /// <summary>
+        /// 根据该银行协议规则，把配置好的指令，根据固定默认参数，添加包头后，转化成字节流和视觉检测字符串
+        /// </summary>
+        /// <param name="dt">数据集</param>
+        /// <param name="IsJM">是否启用加密</param>
+        /// <param name="JMstr">备用的，加密方法或关键字符</param>
+        /// <returns>返回值：字节流|视觉检测字符串</returns>
+        public Hashtable Get_ByteAndString_From_DataTable(DataTable dt, bool IsJM, string JMstr)
+        {
+            //初始化返回值
+            Hashtable reHT = new Hashtable();
+            reHT["字节流"] = null;
+            reHT["视觉检测字符串"] = "";
+
+            //数据集为空，直接返回
+            if (dt == null || dt.Rows.Count <= 0)
+            {
+                return reHT;
+            }
+
+
+
+
+            //根据协议规则，把数据集转化成一个字符串
+
+            //处理包头
+            string tou = Dbaotou;
+            tou = tou.Replace("加密标志三位", "000").Replace("MAC值八位", "00000000");
+            //处理包体
+            string baoti1 = dt.Columns.Count.ToString() + Chr(1) + dt.Rows.Count.ToString() + Chr(1);
+            string baoti2 = "";
+            for (int c = 0; c < dt.Columns.Count; c++)
+            {
+                baoti2 = baoti2 + dt.Columns[c].ColumnName + Chr(1);
+            }
+            string baoti3 = "";
+            for (int r = 0; r < dt.Rows.Count; r++)
+            {
+                for (int c = 0; c < dt.Columns.Count; c++)
+                {
+                    baoti3 = baoti3 + dt.Rows[r][c].ToString() + Chr(1);
+                }
+            }
+            //重新处理包头，替换包体长度(中文算两个字符)
+            string baoti_changdu = System.Text.Encoding.GetEncoding(EncodingName).GetBytes(baoti1 + baoti2 + baoti3).Length.ToString();
+            tou = tou.Replace("包体长度", baoti_changdu.PadLeft(5, '0'));
+
+            //得到完整包字符串
+            string messagestr = tou + baoti1 + baoti2 + baoti3;
+
+            //把转化好的字符串，用指定编码格式，转化成字节流
+            byte[] byteSend = System.Text.Encoding.GetEncoding(EncodingName).GetBytes(messagestr);
+
+            reHT["字节流"] = byteSend;
+            reHT["视觉检测字符串"] = messagestr;
+
+            return reHT;
+        }
+
+
+        /// <summary>
+        /// 根据银行协议规则，把收到的字节流，根据固定默认参数，参考包头加密方式后，转化成包头包体视觉检测字符串和包体数据集
+        /// </summary>
+        /// <param name="remsg">字节流</param>
+        /// <param name="IsJM">是否启用加密</param>
+        /// <param name="JMstr">备用的，加密方法或关键字符</param>
+        /// <returns>返回值：包头视觉检测字符串|包体视觉检测字符串|包体数据集</returns>
+        public Hashtable Get_BaotouAndDataTableAndString_From_Byte(byte[] remsg, bool IsJM, string JMstr)
+        {
+            //初始化返回值
+            Hashtable reHT = new Hashtable();
+            reHT["包头视觉检测字符串"] = "";
+            reHT["包体视觉检测字符串"] = "";
+            reHT["包体数据集"] = null;
+
+            //字节流为空，直接返回
+            if (remsg == null || remsg.Length <= 0)
+            {
+                return reHT;
+            }
+
+            //得到字节流总长度
+            int b = remsg.Length;
+            //得到包头字符串，这里暂时是非加密方式，28包头，但最后的8位银行会发的是空格，会被当成结束符。为防止出错，是强制把最后八位替换成了八个零
+            string baotou_str = Encoding.GetEncoding(EncodingName).GetString(remsg, 0, 28 - 8) + "00000000";
+            //得到包体字符串，取28位以后到末位的数据
+            string baoti_str = Encoding.GetEncoding(EncodingName).GetString(remsg, 28, b - 28);
+
+            DataTable dt = new DataTable();
+            try
+            {
+                //把包体字符串，转化成数据集
+                string[] baoti_Arr = baoti_str.Split(Chr(1).ToCharArray()[0]);
+                //得到有多少列
+                int Cols = Convert.ToInt32(baoti_Arr[0]);
+                //得到有多少行
+                int Rows = Convert.ToInt32(baoti_Arr[1]);
+                //生成列,从第三个数组元素开始，取到列数结束
+                for (int lie = 2; lie < Cols + 2; lie++)
+                {
+                    dt.Columns.Add(baoti_Arr[lie]);
+                }
+                //生成行，根据有几行和有几列，跳过前两个数组元素。取到每行的数据
+                DataRow dr = dt.NewRow();
+                for (int p = 1; p <= Rows; p++)
+                {
+                    dr = dt.NewRow();
+                    for (int i = 0; i < Cols; i++)
+                    {
+                        //填充值
+                        dr[i] = baoti_Arr[2 + p * Cols + i];
+                    }
+                    dt.Rows.Add(dr);
+                }
+            }
+            catch (Exception ex)
+            {
+                dt = null;
+            }
+
+            reHT["包头视觉检测字符串"] = baotou_str;
+            reHT["包体视觉检测字符串"] = baoti_str;
+            reHT["包体数据集"] = dt;
+
+            return reHT;
+        }
+
+
+
+        /// <summary>
+        /// asciiCode转字符串
+        /// </summary>
+        /// <param name="asciiCode"></param>
+        /// <returns></returns>
+        public string Chr(int asciiCode)
+        {
+            if (asciiCode >= 0 && asciiCode <= 255)
+            {
+                System.Text.ASCIIEncoding asciiEncoding = new System.Text.ASCIIEncoding();
+                byte[] byteArray = new byte[] { (byte)asciiCode };
+                string strCharacter = asciiEncoding.GetString(byteArray);
+                return (strCharacter);
+            }
+            else
+            {
+                return "";
+            }
+        }
+
+
+
+        public void AcceptorTest()
+        {
+            IPEndPoint serverFullAddr = new IPEndPoint(IPAddress.Any, Convert.ToInt32(Ddk));//设置接收IP，接收端口
+            Socket sock = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            
+            try
+            {
+
+                //指定本地主机地址和端口号
+                sock.Bind(serverFullAddr);
+                sock.Listen(50);
+                sock.ReceiveTimeout = 20000; //二十秒没有反馈即为超时
+                sock.SendTimeout = 20000;//二十秒没有发送出去，即为超时
+                //完成接收服务器启动的回调
+                //填充传入参数哈希表
+                Hashtable OutPutHT = new Hashtable();
+                OutPutHT["测试返回值"] = "启动本地监听成功";//测试参数
+                DForThread(OutPutHT);
+            }
+            catch (Exception se)
+            {
+                //出错的回调
+                //.........................
+                //填充传入参数哈希表
+                Hashtable OutPutHT = new Hashtable();
+                OutPutHT["测试返回值"] = se.ToString();//测试参数
+                DForThread(OutPutHT);
+
+            }
+            while (true)
+            {
+                //定义一个新的套接字接受传递来的消息
+                Socket newSocket = sock.Accept();
+                newSocket.ReceiveTimeout = 20000; //二十秒没有反馈即为超时
+                newSocket.SendTimeout = 20000;//二十秒没有发送出去，即为超时
+                byte[] message = new byte[9999];
+                int bytes = newSocket.Receive(message);//接收数据
+
+                Hashtable ht_message = Get_BaotouAndDataTableAndString_From_Byte(message, false, "");
+                string baotou = ht_message["包头视觉检测字符串"].ToString();
+                string baoti = ht_message["包体视觉检测字符串"].ToString();
+                DataTable baoDT = (DataTable)(ht_message["包体数据集"]);
+
+                //对接收到的数据进行判定处理，这里即模拟银行的反馈，也模拟正常监听到银行发起后的反馈。
+
+                //若包头以F开头，且包头长度是28，就是来自浦发银行的协议
+                if (baotou.IndexOf("F") == 0 && baotou.Length == 28 && baoDT != null)
+                {
+                    string gnh = baoDT.Rows[0]["FunctionId"].ToString();
+                    switch (gnh)
+                    {
+                        case ("25702"):
+                            //若是指令包
+                            if (!baoDT.Columns.Contains("ErrorNo"))
+                            {
+                                //接收银行发来的客户签约确认信息，与本地数据库进行对比，若关键信息一致，则反馈给银行正确的应答，这里为了测试，先跳过数据库验证，直接返回正确的信息
+                                DataTable dteRE;
+                                dteRE = new DataTable("应答");
+                                DataColumn x1 = new DataColumn("FunctionId", typeof(string));
+                                DataColumn x2 = new DataColumn("ExSerial", typeof(string));
+                                DataColumn x3 = new DataColumn("ErrorNo", typeof(string));
+                                DataColumn x4 = new DataColumn("ErrorInfo", typeof(string));
+                                DataColumn x5 = new DataColumn("sSerial", typeof(string));
+                                dteRE.Columns.Add(x1);
+                                dteRE.Columns.Add(x2);
+                                dteRE.Columns.Add(x3);
+                                dteRE.Columns.Add(x4);
+                                dteRE.Columns.Add(x5);
+                                DataRow newRow;
+                                newRow = dteRE.NewRow();
+                                newRow["FunctionId"] = baoDT.Rows[0]["FunctionId"].ToString();
+                                newRow["ExSerial"] = baoDT.Rows[0]["ExSerial"].ToString();
+                                newRow["ErrorNo"] = "0000";
+                                newRow["ErrorInfo"] = "信息核对正确";
+                                newRow["sSerial"] = "00001";
+                                dteRE.Rows.Add(newRow);
+
+                                //转换反馈数据
+                                Hashtable reHT = Get_ByteAndString_From_DataTable(dteRE, false, "");
+                                byte[] reByte = (byte[])(reHT["字节流"]);
+                                string restr = reHT["视觉检测字符串"].ToString();
+
+                                int r = newSocket.Send(reByte);//发送反馈数据
+                                //填充传入参数哈希表
+                                Hashtable OutPutHT = new Hashtable();
+                                OutPutHT["测试返回值"] = "接收了[" + gnh + "]请求并反馈了结果";
+                                DForThread(OutPutHT);
+                            }
+
+
+
+                            break;
+                        case ("25701"):
+                            ;
+                            break;
+                        default:
+                            ;
+                            break;
+                    }
+                }
+               
+
+
+
+
+
+
+
+
+            }
+        }
+
+
+
+
+
+        public void SendTest()
+        {
+            //打包
+            FMBANKpufa.ClassSend CS = new ClassSend();
+            Hashtable HT = CS.Get_ByteAndString_From_DataTable((DataTable)(InPutHT["待发送包体"]), false, "");
+            byte[] bb = (byte[])(HT["字节流"]);
+            string ss = HT["视觉检测字符串"].ToString();
+            //发送并接收消息
+            Hashtable reHT = CS.BeginSend(InPutHT["IP地址"].ToString(), InPutHT["端口"].ToString(), bb);
+
+
+            DForThread(reHT);
+        }
+
+    }
+}

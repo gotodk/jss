@@ -1,0 +1,702 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../交易方资料审核及冻结_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:155px;
+    top:120px;
+    width:160px;
+    height:60px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:166px;
+    height:66px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:156px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../交易方资料审核及冻结_files/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:120px;
+    top:450px;
+    width:240px;
+    height:60px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:246px;
+    height:66px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:236px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../交易方资料审核及冻结_files/u4_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:170px;
+    top:550px;
+    width:130px;
+    height:70px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:136px;
+    height:76px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:27px;
+    width:126px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6c0 {
+    background-image: url('../交易方资料审核及冻结_files/u6c0.png');
+}
+
+.u6c0 {
+    position:absolute;
+    left:230px;
+    top:406px;
+    width:20px;
+    height:54px;
+}
+
+.u7 {
+    position:absolute;
+    left:-50px;
+    top:12px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8c0 {
+    background-image: url('../交易方资料审核及冻结_files/u8c0.png');
+}
+
+.u8c0 {
+    position:absolute;
+    left:230px;
+    top:506px;
+    width:20px;
+    height:44px;
+}
+
+.u8c1 {
+    background-image: url('../交易方资料审核及冻结_files/u8c1.png');
+}
+
+.u8c1 {
+    position:absolute;
+    left:225px;
+    top:530px;
+    width:25px;
+    height:20px;
+}
+
+.u8c2 {
+    background-image: url('../交易方资料审核及冻结_files/u8c2.png');
+}
+
+.u8c2 {
+    position:absolute;
+    left:225px;
+    top:530px;
+    width:20px;
+    height:24px;
+}
+
+.u9 {
+    position:absolute;
+    left:-50px;
+    top:14px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10c0 {
+    background-image: url('../交易方资料审核及冻结_files/u10c0.png');
+}
+
+.u10c0 {
+    position:absolute;
+    left:296px;
+    top:575px;
+    width:104px;
+    height:20px;
+}
+
+.u11 {
+    position:absolute;
+    left:-5px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12_normal {
+    background-image: url('../交易方资料审核及冻结_files/u12_normal.png');
+}
+
+.u12_container {
+    position:absolute;
+    left:390px;
+    top:570px;
+    width:230px;
+    height:30px;
+}
+
+#u12_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:236px;
+    height:36px;
+}
+
+.u13 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:226px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_normal {
+    background-image: url('../交易方资料审核及冻结_files/u4_normal.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:170px;
+    top:200px;
+    width:130px;
+    height:70px;
+}
+
+#u14_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:136px;
+    height:76px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:27px;
+    width:126px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16_normal {
+    background-image: url('../交易方资料审核及冻结_files/u2_normal.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:120px;
+    top:350px;
+    width:240px;
+    height:60px;
+}
+
+#u16_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:246px;
+    height:66px;
+}
+
+.u17 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:236px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18c0 {
+    background-image: url('../交易方资料审核及冻结_files/u18c0.png');
+}
+
+.u18c0 {
+    position:absolute;
+    left:225px;
+    top:176px;
+    width:20px;
+    height:34px;
+}
+
+.u19 {
+    position:absolute;
+    left:-50px;
+    top:2px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20c0 {
+    background-image: url('../交易方资料审核及冻结_files/u20c0.png');
+}
+
+.u20c0 {
+    position:absolute;
+    left:225px;
+    top:266px;
+    width:20px;
+    height:84px;
+}
+
+.u20c1 {
+    background-image: url('../交易方资料审核及冻结_files/u20c1.png');
+}
+
+.u20c1 {
+    position:absolute;
+    left:225px;
+    top:330px;
+    width:25px;
+    height:20px;
+}
+
+.u20c2 {
+    background-image: url('../交易方资料审核及冻结_files/u20c2.png');
+}
+
+.u20c2 {
+    position:absolute;
+    left:230px;
+    top:330px;
+    width:20px;
+    height:24px;
+}
+
+.u21 {
+    position:absolute;
+    left:-50px;
+    top:34px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22c0 {
+    background-image: url('../交易方资料审核及冻结_files/u22c0.png');
+}
+
+.u22c0 {
+    position:absolute;
+    left:296px;
+    top:225px;
+    width:154px;
+    height:20px;
+}
+
+.u22c1 {
+    background-image: url('../交易方资料审核及冻结_files/u22c1.png');
+}
+
+.u22c1 {
+    position:absolute;
+    left:430px;
+    top:225px;
+    width:20px;
+    height:39px;
+}
+
+.u23 {
+    position:absolute;
+    left:32px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24 {
+    position:absolute;
+    left:130px;
+    top:26px;
+    width:460px;
+    height:64px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u25_normal {
+    background-image: url('../交易方资料审核及冻结_files/u25_normal.png');
+}
+
+.u25_container {
+    position:absolute;
+    left:360px;
+    top:260px;
+    width:160px;
+    height:50px;
+}
+
+#u25_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:166px;
+    height:56px;
+}
+
+.u26 {
+    position:absolute;
+    left:2px;
+    top:17px;
+    width:156px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27c0 {
+    background-image: url('../交易方资料审核及冻结_files/u27c0.png');
+}
+
+.u27c0 {
+    position:absolute;
+    left:430px;
+    top:306px;
+    width:20px;
+    height:84px;
+}
+
+.u27c1 {
+    background-image: url('../交易方资料审核及冻结_files/u27c1.png');
+}
+
+.u27c1 {
+    position:absolute;
+    left:356px;
+    top:370px;
+    width:94px;
+    height:20px;
+}
+
+.u28 {
+    position:absolute;
+    left:-55px;
+    top:62px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29_normal {
+    background-image: url('../交易方资料审核及冻结_files/u29_normal.png');
+}
+
+.u29_container {
+    position:absolute;
+    left:110px;
+    top:680px;
+    width:250px;
+    height:100px;
+}
+
+#u29_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:256px;
+    height:106px;
+}
+
+.u30 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:246px;
+    height:80px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31 {
+    position:absolute;
+    left:390px;
+    top:690px;
+    width:250px;
+    height:160px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32c0 {
+    background-image: url('../交易方资料审核及冻结_files/u32c0.png');
+}
+
+.u32c0 {
+    position:absolute;
+    left:225px;
+    top:616px;
+    width:20px;
+    height:74px;
+}
+
+.u33 {
+    position:absolute;
+    left:-50px;
+    top:22px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34_normal {
+    background-image: url('../交易方资料审核及冻结_files/u2_normal.png');
+}
+
+.u34_container {
+    position:absolute;
+    left:110px;
+    top:820px;
+    width:240px;
+    height:60px;
+}
+
+#u34_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:246px;
+    height:66px;
+}
+
+.u35 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:236px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36c0 {
+    background-image: url('../交易方资料审核及冻结_files/u36c0.png');
+}
+
+.u36c0 {
+    position:absolute;
+    left:225px;
+    top:776px;
+    width:20px;
+    height:44px;
+}
+
+.u36c1 {
+    background-image: url('../交易方资料审核及冻结_files/u36c1.png');
+}
+
+.u36c1 {
+    position:absolute;
+    left:220px;
+    top:800px;
+    width:25px;
+    height:20px;
+}
+
+.u36c2 {
+    background-image: url('../交易方资料审核及冻结_files/u36c2.png');
+}
+
+.u36c2 {
+    position:absolute;
+    left:220px;
+    top:800px;
+    width:20px;
+    height:24px;
+}
+
+.u37 {
+    position:absolute;
+    left:-50px;
+    top:14px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u38 {
+    position:absolute;
+    left:590px;
+    top:120px;
+    width:250px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

@@ -1,0 +1,876 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+#u0 {
+    position:absolute;
+    left:43px;
+    top:114px;
+    width:916px;
+    height:101px
+}
+
+.u1_normal {
+    background-image: url('../考核小组列表_files/u1_normal.png');
+}
+
+.u1_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:150px;
+    height:36px;
+}
+
+#u1_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:42px;
+}
+
+.u2 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:146px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u3_normal {
+    background-image: url('../考核小组列表_files/u3_normal.png');
+}
+
+.u3_container {
+    position:absolute;
+    left:150px;
+    top:0px;
+    width:80px;
+    height:36px;
+}
+
+#u3_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:86px;
+    height:42px;
+}
+
+.u4 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:76px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5_normal {
+    background-image: url('../考核小组列表_files/u5_normal.png');
+}
+
+.u5_container {
+    position:absolute;
+    left:230px;
+    top:0px;
+    width:100px;
+    height:36px;
+}
+
+#u5_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:42px;
+}
+
+.u6 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7_normal {
+    background-image: url('../考核小组列表_files/u5_normal.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:330px;
+    top:0px;
+    width:100px;
+    height:36px;
+}
+
+#u7_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:42px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9_normal {
+    background-image: url('../考核小组列表_files/u9_normal.png');
+}
+
+.u9_container {
+    position:absolute;
+    left:430px;
+    top:0px;
+    width:103px;
+    height:36px;
+}
+
+#u9_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:109px;
+    height:42px;
+}
+
+.u10 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:99px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11_normal {
+    background-image: url('../考核小组列表_files/u11_normal.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:533px;
+    top:0px;
+    width:258px;
+    height:36px;
+}
+
+#u11_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:264px;
+    height:42px;
+}
+
+.u12 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:254px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13_normal {
+    background-image: url('../考核小组列表_files/u13_normal.png');
+}
+
+.u13_container {
+    position:absolute;
+    left:792px;
+    top:0px;
+    width:120px;
+    height:36px;
+}
+
+#u13_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:42px;
+}
+
+.u14 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:116px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15_normal {
+    background-image: url('../考核小组列表_files/u1_normal.png');
+}
+
+.u15_container {
+    position:absolute;
+    left:0px;
+    top:36px;
+    width:150px;
+    height:36px;
+}
+
+#u15_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:42px;
+}
+
+.u16 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:146px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u17_normal {
+    background-image: url('../考核小组列表_files/u3_normal.png');
+}
+
+.u17_container {
+    position:absolute;
+    left:150px;
+    top:36px;
+    width:80px;
+    height:36px;
+}
+
+#u17_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:86px;
+    height:42px;
+}
+
+.u18 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:76px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19_normal {
+    background-image: url('../考核小组列表_files/u5_normal.png');
+}
+
+.u19_container {
+    position:absolute;
+    left:230px;
+    top:36px;
+    width:100px;
+    height:36px;
+}
+
+#u19_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:42px;
+}
+
+.u20 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21_normal {
+    background-image: url('../考核小组列表_files/u5_normal.png');
+}
+
+.u21_container {
+    position:absolute;
+    left:330px;
+    top:36px;
+    width:100px;
+    height:36px;
+}
+
+#u21_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:42px;
+}
+
+.u22 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u23_normal {
+    background-image: url('../考核小组列表_files/u9_normal.png');
+}
+
+.u23_container {
+    position:absolute;
+    left:430px;
+    top:36px;
+    width:103px;
+    height:36px;
+}
+
+#u23_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:109px;
+    height:42px;
+}
+
+.u24 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:99px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u25_normal {
+    background-image: url('../考核小组列表_files/u11_normal.png');
+}
+
+.u25_container {
+    position:absolute;
+    left:533px;
+    top:36px;
+    width:258px;
+    height:36px;
+}
+
+#u25_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:264px;
+    height:42px;
+}
+
+.u26 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:254px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27_normal {
+    background-image: url('../考核小组列表_files/u13_normal.png');
+}
+
+.u27_container {
+    position:absolute;
+    left:792px;
+    top:36px;
+    width:120px;
+    height:36px;
+}
+
+#u27_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:42px;
+}
+
+.u28 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:116px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29_normal {
+    background-image: url('../考核小组列表_files/u29_normal.png');
+}
+
+.u29_container {
+    position:absolute;
+    left:0px;
+    top:72px;
+    width:150px;
+    height:30px;
+}
+
+#u29_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:36px;
+}
+
+.u30 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:146px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31_normal {
+    background-image: url('../考核小组列表_files/u31_normal.png');
+}
+
+.u31_container {
+    position:absolute;
+    left:150px;
+    top:72px;
+    width:80px;
+    height:30px;
+}
+
+#u31_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:86px;
+    height:36px;
+}
+
+.u32 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:76px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u33_normal {
+    background-image: url('../考核小组列表_files/u33_normal.png');
+}
+
+.u33_container {
+    position:absolute;
+    left:230px;
+    top:72px;
+    width:100px;
+    height:30px;
+}
+
+#u33_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:36px;
+}
+
+.u34 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u35_normal {
+    background-image: url('../考核小组列表_files/u33_normal.png');
+}
+
+.u35_container {
+    position:absolute;
+    left:330px;
+    top:72px;
+    width:100px;
+    height:30px;
+}
+
+#u35_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:36px;
+}
+
+.u36 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u37_normal {
+    background-image: url('../考核小组列表_files/u37_normal.png');
+}
+
+.u37_container {
+    position:absolute;
+    left:430px;
+    top:72px;
+    width:103px;
+    height:30px;
+}
+
+#u37_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:109px;
+    height:36px;
+}
+
+.u38 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:99px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u39_normal {
+    background-image: url('../考核小组列表_files/u39_normal.png');
+}
+
+.u39_container {
+    position:absolute;
+    left:533px;
+    top:72px;
+    width:258px;
+    height:30px;
+}
+
+#u39_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:264px;
+    height:36px;
+}
+
+.u40 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:254px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u41_normal {
+    background-image: url('../考核小组列表_files/u41_normal.png');
+}
+
+.u41_container {
+    position:absolute;
+    left:792px;
+    top:72px;
+    width:120px;
+    height:30px;
+}
+
+#u41_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:36px;
+}
+
+.u42 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:116px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u43 {
+    position:absolute;
+    left:43px;
+    top:88px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u44_normal {
+    background-image: url('../考核小组列表_files/u44_normal.png');
+}
+
+.u44_container {
+    position:absolute;
+    left:537px;
+    top:35px;
+    width:60px;
+    height:25px;
+}
+
+#u44_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:31px;
+}
+
+.u45 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:56px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u46 {
+    position:absolute;
+    left:43px;
+    top:39px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u47 {
+    position:absolute;
+    left:120px;
+    top:35px;
+    width:167px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u48 {
+    position:absolute;
+    left:297px;
+    top:39px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u49 {
+    position:absolute;
+    left:374px;
+    top:35px;
+    width:143px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u50 {
+    position:absolute;
+    left:873px;
+    top:157px;
+    width:60px;
+    height:20px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+

@@ -1,0 +1,302 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0 {
+    position:absolute;
+    left:131px;
+    top:30px;
+    width:488px;
+    height:38px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u1_normal {
+    background-image: url('../客户存管签约预指定（浦发）_files/u1_normal.png');
+}
+
+.u1_container {
+    position:absolute;
+    left:140px;
+    top:243px;
+    width:157px;
+    height:30px;
+}
+
+#u1_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:163px;
+    height:36px;
+}
+
+.u2 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:153px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u3_normal {
+    background-image: url('../客户存管签约预指定（浦发）_files/u3_normal.png');
+}
+
+.u3_container {
+    position:absolute;
+    left:140px;
+    top:383px;
+    width:186px;
+    height:37px;
+}
+
+#u3_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:192px;
+    height:43px;
+}
+
+.u4 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:182px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5_normal {
+    background-image: url('../客户存管签约预指定（浦发）_files/u5_normal.png');
+}
+
+.u5_container {
+    position:absolute;
+    left:360px;
+    top:383px;
+    width:170px;
+    height:37px;
+}
+
+#u5_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:176px;
+    height:43px;
+}
+
+.u6 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:166px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7c0 {
+    background-image: url('../客户存管签约预指定（浦发）_files/u7c0.png');
+}
+
+.u7c0 {
+    position:absolute;
+    left:208px;
+    top:269px;
+    width:20px;
+    height:114px;
+}
+
+.u7c1 {
+    background-image: url('../客户存管签约预指定（浦发）_files/u7c1.png');
+}
+
+.u7c1 {
+    position:absolute;
+    left:208px;
+    top:363px;
+    width:35px;
+    height:20px;
+}
+
+.u7c2 {
+    background-image: url('../客户存管签约预指定（浦发）_files/u7c2.png');
+}
+
+.u7c2 {
+    position:absolute;
+    left:223px;
+    top:363px;
+    width:20px;
+    height:24px;
+}
+
+.u8 {
+    position:absolute;
+    left:-50px;
+    top:54px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9c0 {
+    background-image: url('../客户存管签约预指定（浦发）_files/u9c0.png');
+}
+
+.u9c0 {
+    position:absolute;
+    left:293px;
+    top:248px;
+    width:162px;
+    height:20px;
+}
+
+.u9c1 {
+    background-image: url('../客户存管签约预指定（浦发）_files/u9c1.png');
+}
+
+.u9c1 {
+    position:absolute;
+    left:435px;
+    top:248px;
+    width:20px;
+    height:139px;
+}
+
+.u10 {
+    position:absolute;
+    left:86px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11 {
+    position:absolute;
+    left:540px;
+    top:113px;
+    width:480px;
+    height:180px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12_normal {
+    background-image: url('../客户存管签约预指定（浦发）_files/u12_normal.png');
+}
+
+.u12_container {
+    position:absolute;
+    left:140px;
+    top:113px;
+    width:157px;
+    height:30px;
+}
+
+#u12_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:163px;
+    height:36px;
+}
+
+.u13 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:153px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14c0 {
+    background-image: url('../客户存管签约预指定（浦发）_files/u14c0.png');
+}
+
+.u14c0 {
+    position:absolute;
+    left:208px;
+    top:139px;
+    width:20px;
+    height:114px;
+}
+
+.u15 {
+    position:absolute;
+    left:-50px;
+    top:34px;
+    width:100px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

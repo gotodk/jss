@@ -1,0 +1,2408 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:493px;
+    top:151px;
+    width:145px;
+    height:79px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:151px;
+    height:85px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:32px;
+    width:141px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:801px;
+    top:153px;
+    width:140px;
+    height:75px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:81px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:30px;
+    width:136px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4 {
+    position:absolute;
+    left:804px;
+    top:161px;
+    width:123px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u5_normal.png');
+}
+
+.u5_container {
+    position:absolute;
+    left:822px;
+    top:181px;
+    width:98px;
+    height:31px;
+}
+
+#u5_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:104px;
+    height:37px;
+}
+
+.u6 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:94px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u7_normal.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:815px;
+    top:191px;
+    width:112px;
+    height:31px;
+}
+
+#u7_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:37px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:108px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9c0 {
+    background-image: url('../选择纪人页面流程V1_1_files/u9c0.png');
+}
+
+.u9c0 {
+    position:absolute;
+    left:634px;
+    top:180px;
+    width:177px;
+    height:20px;
+}
+
+.u10 {
+    position:absolute;
+    left:32px;
+    top:-16px;
+    width:100px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u2_normal.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:804px;
+    top:237px;
+    width:140px;
+    height:75px;
+}
+
+#u11_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:81px;
+}
+
+.u12 {
+    position:absolute;
+    left:2px;
+    top:30px;
+    width:136px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13 {
+    position:absolute;
+    left:807px;
+    top:245px;
+    width:123px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u5_normal.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:825px;
+    top:265px;
+    width:98px;
+    height:31px;
+}
+
+#u14_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:104px;
+    height:37px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:94px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u7_normal.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:818px;
+    top:275px;
+    width:112px;
+    height:31px;
+}
+
+#u16_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:37px;
+}
+
+.u17 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:108px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u18_normal.png');
+}
+
+.u18_container {
+    position:absolute;
+    left:971px;
+    top:201px;
+    width:204px;
+    height:59px;
+}
+
+#u18_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:210px;
+    height:65px;
+}
+
+.u19 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:200px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u0_normal.png');
+}
+
+.u20_container {
+    position:absolute;
+    left:493px;
+    top:420px;
+    width:145px;
+    height:79px;
+}
+
+#u20_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:151px;
+    height:85px;
+}
+
+.u21 {
+    position:absolute;
+    left:2px;
+    top:32px;
+    width:141px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22c0 {
+    background-image: url('../选择纪人页面流程V1_1_files/u22c0.png');
+}
+
+.u22c0 {
+    position:absolute;
+    left:556px;
+    top:226px;
+    width:20px;
+    height:204px;
+}
+
+.u23 {
+    position:absolute;
+    left:-50px;
+    top:87px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24c0 {
+    background-image: url('../选择纪人页面流程V1_1_files/u24c0.png');
+}
+
+.u24c0 {
+    position:absolute;
+    left:634px;
+    top:180px;
+    width:24px;
+    height:20px;
+}
+
+.u24c1 {
+    background-image: url('../选择纪人页面流程V1_1_files/u24c1.png');
+}
+
+.u24c1 {
+    position:absolute;
+    left:638px;
+    top:180px;
+    width:20px;
+    height:104px;
+}
+
+.u24c2 {
+    background-image: url('../选择纪人页面流程V1_1_files/u24c2.png');
+}
+
+.u24c2 {
+    position:absolute;
+    left:638px;
+    top:264px;
+    width:170px;
+    height:20px;
+}
+
+.u25 {
+    position:absolute;
+    left:-9px;
+    top:76px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u2_normal.png');
+}
+
+.u26_container {
+    position:absolute;
+    left:807px;
+    top:322px;
+    width:140px;
+    height:75px;
+}
+
+#u26_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:81px;
+}
+
+.u27 {
+    position:absolute;
+    left:2px;
+    top:30px;
+    width:136px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28 {
+    position:absolute;
+    left:810px;
+    top:330px;
+    width:123px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u5_normal.png');
+}
+
+.u29_container {
+    position:absolute;
+    left:828px;
+    top:350px;
+    width:98px;
+    height:31px;
+}
+
+#u29_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:104px;
+    height:37px;
+}
+
+.u30 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:94px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u7_normal.png');
+}
+
+.u31_container {
+    position:absolute;
+    left:821px;
+    top:360px;
+    width:112px;
+    height:31px;
+}
+
+#u31_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:37px;
+}
+
+.u32 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:108px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u33c0 {
+    background-image: url('../选择纪人页面流程V1_1_files/u33c0.png');
+}
+
+.u33c0 {
+    position:absolute;
+    left:634px;
+    top:180px;
+    width:24px;
+    height:20px;
+}
+
+.u33c1 {
+    background-image: url('../选择纪人页面流程V1_1_files/u33c1.png');
+}
+
+.u33c1 {
+    position:absolute;
+    left:638px;
+    top:180px;
+    width:20px;
+    height:190px;
+}
+
+.u33c2 {
+    background-image: url('../选择纪人页面流程V1_1_files/u33c2.png');
+}
+
+.u33c2 {
+    position:absolute;
+    left:638px;
+    top:350px;
+    width:173px;
+    height:20px;
+}
+
+.u34 {
+    position:absolute;
+    left:-40px;
+    top:152px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u35_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u2_normal.png');
+}
+
+.u35_container {
+    position:absolute;
+    left:811px;
+    top:435px;
+    width:140px;
+    height:75px;
+}
+
+#u35_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:81px;
+}
+
+.u36 {
+    position:absolute;
+    left:2px;
+    top:30px;
+    width:136px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u37 {
+    position:absolute;
+    left:814px;
+    top:443px;
+    width:123px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u38_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u5_normal.png');
+}
+
+.u38_container {
+    position:absolute;
+    left:832px;
+    top:463px;
+    width:98px;
+    height:31px;
+}
+
+#u38_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:104px;
+    height:37px;
+}
+
+.u39 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:94px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u7_normal.png');
+}
+
+.u40_container {
+    position:absolute;
+    left:825px;
+    top:473px;
+    width:112px;
+    height:31px;
+}
+
+#u40_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:37px;
+}
+
+.u41 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:108px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42c0 {
+    background-image: url('../选择纪人页面流程V1_1_files/u42c0.png');
+}
+
+.u42c0 {
+    position:absolute;
+    left:634px;
+    top:450px;
+    width:24px;
+    height:20px;
+}
+
+.u42c1 {
+    background-image: url('../选择纪人页面流程V1_1_files/u42c1.png');
+}
+
+.u42c1 {
+    position:absolute;
+    left:638px;
+    top:450px;
+    width:20px;
+    height:32px;
+}
+
+.u42c2 {
+    background-image: url('../选择纪人页面流程V1_1_files/u42c2.png');
+}
+
+.u42c2 {
+    position:absolute;
+    left:638px;
+    top:462px;
+    width:177px;
+    height:20px;
+}
+
+.u43 {
+    position:absolute;
+    left:30px;
+    top:4px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u44_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u44_normal.png');
+}
+
+.u44_container {
+    position:absolute;
+    left:511px;
+    top:80px;
+    width:108px;
+    height:30px;
+}
+
+#u44_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:114px;
+    height:36px;
+}
+
+.u45 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:104px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u46_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u46_normal.png');
+}
+
+.u46_container {
+    position:absolute;
+    left:499px;
+    top:559px;
+    width:138px;
+    height:101px;
+}
+
+#u46_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:144px;
+    height:107px;
+}
+
+.u47 {
+    position:absolute;
+    left:2px;
+    top:42px;
+    width:134px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48 {
+    position:absolute;
+    left:503px;
+    top:571px;
+    width:148px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u49_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u49_normal.png');
+}
+
+.u49_container {
+    position:absolute;
+    left:513px;
+    top:603px;
+    width:111px;
+    height:41px;
+}
+
+#u49_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:117px;
+    height:47px;
+}
+
+.u50 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:107px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u51c0 {
+    background-image: url('../选择纪人页面流程V1_1_files/u51c0.png');
+}
+
+.u51c0 {
+    position:absolute;
+    left:556px;
+    top:495px;
+    width:20px;
+    height:24px;
+}
+
+.u51c1 {
+    background-image: url('../选择纪人页面流程V1_1_files/u51c1.png');
+}
+
+.u51c1 {
+    position:absolute;
+    left:556px;
+    top:499px;
+    width:22px;
+    height:20px;
+}
+
+.u51c2 {
+    background-image: url('../选择纪人页面流程V1_1_files/u51c2.png');
+}
+
+.u51c2 {
+    position:absolute;
+    left:558px;
+    top:499px;
+    width:20px;
+    height:64px;
+}
+
+.u52 {
+    position:absolute;
+    left:-48px;
+    top:21px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u53c0 {
+    background-image: url('../选择纪人页面流程V1_1_files/u53c0.png');
+}
+
+.u53c0 {
+    position:absolute;
+    left:555px;
+    top:106px;
+    width:20px;
+    height:45px;
+}
+
+.u53c1 {
+    background-image: url('../选择纪人页面流程V1_1_files/u53c1.png');
+}
+
+.u53c1 {
+    position:absolute;
+    left:555px;
+    top:131px;
+    width:21px;
+    height:20px;
+}
+
+.u53c2 {
+    background-image: url('../选择纪人页面流程V1_1_files/u53c2.png');
+}
+
+.u53c2 {
+    position:absolute;
+    left:556px;
+    top:131px;
+    width:20px;
+    height:24px;
+}
+
+.u54 {
+    position:absolute;
+    left:-50px;
+    top:13px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u55_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u55_normal.png');
+}
+
+.u55_container {
+    position:absolute;
+    left:525px;
+    top:700px;
+    width:85px;
+    height:30px;
+}
+
+#u55_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:91px;
+    height:36px;
+}
+
+.u56 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:81px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u57_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u0_normal.png');
+}
+
+.u57_container {
+    position:absolute;
+    left:492px;
+    top:770px;
+    width:145px;
+    height:79px;
+}
+
+#u57_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:151px;
+    height:85px;
+}
+
+.u58 {
+    position:absolute;
+    left:2px;
+    top:24px;
+    width:141px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u59_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u2_normal.png');
+}
+
+.u59_container {
+    position:absolute;
+    left:793px;
+    top:770px;
+    width:140px;
+    height:75px;
+}
+
+#u59_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:81px;
+}
+
+.u60 {
+    position:absolute;
+    left:2px;
+    top:30px;
+    width:136px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u61 {
+    position:absolute;
+    left:796px;
+    top:778px;
+    width:123px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u62_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u5_normal.png');
+}
+
+.u62_container {
+    position:absolute;
+    left:814px;
+    top:798px;
+    width:98px;
+    height:31px;
+}
+
+#u62_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:104px;
+    height:37px;
+}
+
+.u63 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:94px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u64_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u7_normal.png');
+}
+
+.u64_container {
+    position:absolute;
+    left:807px;
+    top:808px;
+    width:112px;
+    height:31px;
+}
+
+#u64_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:37px;
+}
+
+.u65 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:108px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u66_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u0_normal.png');
+}
+
+.u66_container {
+    position:absolute;
+    left:492px;
+    top:894px;
+    width:145px;
+    height:79px;
+}
+
+#u66_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:151px;
+    height:85px;
+}
+
+.u67 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:141px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u68_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u2_normal.png');
+}
+
+.u68_container {
+    position:absolute;
+    left:793px;
+    top:896px;
+    width:140px;
+    height:75px;
+}
+
+#u68_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:81px;
+}
+
+.u69 {
+    position:absolute;
+    left:2px;
+    top:30px;
+    width:136px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u70 {
+    position:absolute;
+    left:796px;
+    top:904px;
+    width:123px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u71_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u5_normal.png');
+}
+
+.u71_container {
+    position:absolute;
+    left:814px;
+    top:924px;
+    width:98px;
+    height:31px;
+}
+
+#u71_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:104px;
+    height:37px;
+}
+
+.u72 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:94px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u73_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u7_normal.png');
+}
+
+.u73_container {
+    position:absolute;
+    left:807px;
+    top:934px;
+    width:112px;
+    height:31px;
+}
+
+#u73_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:37px;
+}
+
+.u74 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:108px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u75c0 {
+    background-image: url('../选择纪人页面流程V1_1_files/u75c0.png');
+}
+
+.u75c0 {
+    position:absolute;
+    left:558px;
+    top:656px;
+    width:20px;
+    height:54px;
+}
+
+.u76 {
+    position:absolute;
+    left:-50px;
+    top:12px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u77c0 {
+    background-image: url('../选择纪人页面流程V1_1_files/u77c0.png');
+}
+
+.u77c0 {
+    position:absolute;
+    left:558px;
+    top:726px;
+    width:20px;
+    height:44px;
+}
+
+.u77c1 {
+    background-image: url('../选择纪人页面流程V1_1_files/u77c1.png');
+}
+
+.u77c1 {
+    position:absolute;
+    left:554px;
+    top:750px;
+    width:24px;
+    height:20px;
+}
+
+.u77c2 {
+    background-image: url('../选择纪人页面流程V1_1_files/u77c2.png');
+}
+
+.u77c2 {
+    position:absolute;
+    left:554px;
+    top:750px;
+    width:20px;
+    height:24px;
+}
+
+.u78 {
+    position:absolute;
+    left:-50px;
+    top:14px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u79c0 {
+    background-image: url('../选择纪人页面流程V1_1_files/u79c0.png');
+}
+
+.u79c0 {
+    position:absolute;
+    left:633px;
+    top:800px;
+    width:24px;
+    height:20px;
+}
+
+.u79c1 {
+    background-image: url('../选择纪人页面流程V1_1_files/u79c1.png');
+}
+
+.u79c1 {
+    position:absolute;
+    left:637px;
+    top:798px;
+    width:20px;
+    height:22px;
+}
+
+.u79c2 {
+    background-image: url('../选择纪人页面流程V1_1_files/u79c2.png');
+}
+
+.u79c2 {
+    position:absolute;
+    left:637px;
+    top:798px;
+    width:160px;
+    height:20px;
+}
+
+.u80 {
+    position:absolute;
+    left:27px;
+    top:-10px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u81c0 {
+    background-image: url('../选择纪人页面流程V1_1_files/u81c0.png');
+}
+
+.u81c0 {
+    position:absolute;
+    left:554px;
+    top:845px;
+    width:20px;
+    height:59px;
+}
+
+.u82 {
+    position:absolute;
+    left:-50px;
+    top:14px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u83c0 {
+    background-image: url('../选择纪人页面流程V1_1_files/u83c0.png');
+}
+
+.u83c0 {
+    position:absolute;
+    left:633px;
+    top:924px;
+    width:170px;
+    height:20px;
+}
+
+.u84 {
+    position:absolute;
+    left:28px;
+    top:-16px;
+    width:100px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u85c0 {
+    background-image: url('../选择纪人页面流程V1_1_files/u85c0.png');
+}
+
+.u85c0 {
+    position:absolute;
+    left:437px;
+    top:924px;
+    width:59px;
+    height:20px;
+}
+
+.u85c1 {
+    background-image: url('../选择纪人页面流程V1_1_files/u85c1.png');
+}
+
+.u85c1 {
+    position:absolute;
+    left:437px;
+    top:800px;
+    width:20px;
+    height:144px;
+}
+
+.u85c2 {
+    background-image: url('../选择纪人页面流程V1_1_files/u85c2.png');
+}
+
+.u85c2 {
+    position:absolute;
+    left:437px;
+    top:800px;
+    width:59px;
+    height:20px;
+}
+
+.u86 {
+    position:absolute;
+    left:-95px;
+    top:-78px;
+    width:100px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u87_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u2_normal.png');
+}
+
+.u87_container {
+    position:absolute;
+    left:503px;
+    top:1025px;
+    width:140px;
+    height:75px;
+}
+
+#u87_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:81px;
+}
+
+.u88 {
+    position:absolute;
+    left:2px;
+    top:30px;
+    width:136px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u89 {
+    position:absolute;
+    left:506px;
+    top:1033px;
+    width:123px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u90_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u5_normal.png');
+}
+
+.u90_container {
+    position:absolute;
+    left:524px;
+    top:1053px;
+    width:98px;
+    height:31px;
+}
+
+#u90_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:104px;
+    height:37px;
+}
+
+.u91 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:94px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u92_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u7_normal.png');
+}
+
+.u92_container {
+    position:absolute;
+    left:517px;
+    top:1063px;
+    width:112px;
+    height:31px;
+}
+
+#u92_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:37px;
+}
+
+.u93 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:108px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u94c0 {
+    background-image: url('../选择纪人页面流程V1_1_files/u94c0.png');
+}
+
+.u94c0 {
+    position:absolute;
+    left:554px;
+    top:969px;
+    width:20px;
+    height:24px;
+}
+
+.u94c1 {
+    background-image: url('../选择纪人页面流程V1_1_files/u94c1.png');
+}
+
+.u94c1 {
+    position:absolute;
+    left:554px;
+    top:973px;
+    width:29px;
+    height:20px;
+}
+
+.u94c2 {
+    background-image: url('../选择纪人页面流程V1_1_files/u94c2.png');
+}
+
+.u94c2 {
+    position:absolute;
+    left:563px;
+    top:973px;
+    width:20px;
+    height:56px;
+}
+
+.u95 {
+    position:absolute;
+    left:-41px;
+    top:14px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u96_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u18_normal.png');
+}
+
+.u96_container {
+    position:absolute;
+    left:651px;
+    top:585px;
+    width:204px;
+    height:59px;
+}
+
+#u96_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:210px;
+    height:65px;
+}
+
+.u97 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:200px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u98_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u55_normal.png');
+}
+
+.u98_container {
+    position:absolute;
+    left:215px;
+    top:700px;
+    width:85px;
+    height:30px;
+}
+
+#u98_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:91px;
+    height:36px;
+}
+
+.u99 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:81px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u100_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u0_normal.png');
+}
+
+.u100_container {
+    position:absolute;
+    left:185px;
+    top:761px;
+    width:145px;
+    height:79px;
+}
+
+#u100_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:151px;
+    height:85px;
+}
+
+.u101 {
+    position:absolute;
+    left:2px;
+    top:32px;
+    width:141px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u102_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u0_normal.png');
+}
+
+.u102_container {
+    position:absolute;
+    left:180px;
+    top:872px;
+    width:145px;
+    height:79px;
+}
+
+#u102_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:151px;
+    height:85px;
+}
+
+.u103 {
+    position:absolute;
+    left:2px;
+    top:24px;
+    width:141px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u104_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u0_normal.png');
+}
+
+.u104_container {
+    position:absolute;
+    left:180px;
+    top:991px;
+    width:145px;
+    height:79px;
+}
+
+#u104_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:151px;
+    height:85px;
+}
+
+.u105 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:141px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u106c0 {
+    background-image: url('../选择纪人页面流程V1_1_files/u106c0.png');
+}
+
+.u106c0 {
+    position:absolute;
+    left:248px;
+    top:450px;
+    width:249px;
+    height:20px;
+}
+
+.u106c1 {
+    background-image: url('../选择纪人页面流程V1_1_files/u106c1.png');
+}
+
+.u106c1 {
+    position:absolute;
+    left:248px;
+    top:450px;
+    width:20px;
+    height:254px;
+}
+
+.u107 {
+    position:absolute;
+    left:-285px;
+    top:-6px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u108c0 {
+    background-image: url('../选择纪人页面流程V1_1_files/u108c0.png');
+}
+
+.u108c0 {
+    position:absolute;
+    left:248px;
+    top:726px;
+    width:20px;
+    height:45px;
+}
+
+.u109 {
+    position:absolute;
+    left:-50px;
+    top:8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u110c0 {
+    background-image: url('../选择纪人页面流程V1_1_files/u110c0.png');
+}
+
+.u110c0 {
+    position:absolute;
+    left:248px;
+    top:836px;
+    width:20px;
+    height:36px;
+}
+
+.u110c1 {
+    background-image: url('../选择纪人页面流程V1_1_files/u110c1.png');
+}
+
+.u110c1 {
+    position:absolute;
+    left:242px;
+    top:852px;
+    width:26px;
+    height:20px;
+}
+
+.u110c2 {
+    background-image: url('../选择纪人页面流程V1_1_files/u110c2.png');
+}
+
+.u110c2 {
+    position:absolute;
+    left:242px;
+    top:852px;
+    width:20px;
+    height:24px;
+}
+
+.u111 {
+    position:absolute;
+    left:-50px;
+    top:11px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u112c0 {
+    background-image: url('../选择纪人页面流程V1_1_files/u112c0.png');
+}
+
+.u112c0 {
+    position:absolute;
+    left:242px;
+    top:947px;
+    width:20px;
+    height:63px;
+}
+
+.u112c1 {
+    background-image: url('../选择纪人页面流程V1_1_files/u112c1.png');
+}
+
+.u112c1 {
+    position:absolute;
+    left:241px;
+    top:990px;
+    width:21px;
+    height:20px;
+}
+
+.u113 {
+    position:absolute;
+    left:-50px;
+    top:20px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u114c0 {
+    background-image: url('../选择纪人页面流程V1_1_files/u114c0.png');
+}
+
+.u114c0 {
+    position:absolute;
+    left:242px;
+    top:1066px;
+    width:20px;
+    height:24px;
+}
+
+.u114c1 {
+    background-image: url('../选择纪人页面流程V1_1_files/u114c1.png');
+}
+
+.u114c1 {
+    position:absolute;
+    left:242px;
+    top:1070px;
+    width:108px;
+    height:20px;
+}
+
+.u114c2 {
+    background-image: url('../选择纪人页面流程V1_1_files/u114c2.png');
+}
+
+.u114c2 {
+    position:absolute;
+    left:330px;
+    top:600px;
+    width:20px;
+    height:490px;
+}
+
+.u114c3 {
+    background-image: url('../选择纪人页面流程V1_1_files/u114c3.png');
+}
+
+.u114c3 {
+    position:absolute;
+    left:330px;
+    top:600px;
+    width:173px;
+    height:20px;
+}
+
+.u115 {
+    position:absolute;
+    left:38px;
+    top:-264px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u116_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u2_normal.png');
+}
+
+.u116_container {
+    position:absolute;
+    left:10px;
+    top:845px;
+    width:140px;
+    height:75px;
+}
+
+#u116_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:81px;
+}
+
+.u117 {
+    position:absolute;
+    left:2px;
+    top:30px;
+    width:136px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u118 {
+    position:absolute;
+    left:13px;
+    top:853px;
+    width:123px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u119_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u5_normal.png');
+}
+
+.u119_container {
+    position:absolute;
+    left:31px;
+    top:873px;
+    width:98px;
+    height:31px;
+}
+
+#u119_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:104px;
+    height:37px;
+}
+
+.u120 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:94px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u121_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u7_normal.png');
+}
+
+.u121_container {
+    position:absolute;
+    left:24px;
+    top:883px;
+    width:112px;
+    height:31px;
+}
+
+#u121_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:37px;
+}
+
+.u122 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:108px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u123c0 {
+    background-image: url('../选择纪人页面流程V1_1_files/u123c0.png');
+}
+
+.u123c0 {
+    position:absolute;
+    left:160px;
+    top:790px;
+    width:29px;
+    height:20px;
+}
+
+.u123c1 {
+    background-image: url('../选择纪人页面流程V1_1_files/u123c1.png');
+}
+
+.u123c1 {
+    position:absolute;
+    left:160px;
+    top:790px;
+    width:20px;
+    height:102px;
+}
+
+.u123c2 {
+    background-image: url('../选择纪人页面流程V1_1_files/u123c2.png');
+}
+
+.u123c2 {
+    position:absolute;
+    left:146px;
+    top:872px;
+    width:34px;
+    height:20px;
+}
+
+.u124 {
+    position:absolute;
+    left:-65px;
+    top:36px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u125c0 {
+    background-image: url('../选择纪人页面流程V1_1_files/u125c0.png');
+}
+
+.u125c0 {
+    position:absolute;
+    left:160px;
+    top:902px;
+    width:24px;
+    height:20px;
+}
+
+.u125c1 {
+    background-image: url('../选择纪人页面流程V1_1_files/u125c1.png');
+}
+
+.u125c1 {
+    position:absolute;
+    left:160px;
+    top:886px;
+    width:20px;
+    height:36px;
+}
+
+.u126 {
+    position:absolute;
+    left:-60px;
+    top:-14px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u127c0 {
+    background-image: url('../选择纪人页面流程V1_1_files/u127c0.png');
+}
+
+.u127c0 {
+    position:absolute;
+    left:160px;
+    top:1020px;
+    width:24px;
+    height:20px;
+}
+
+.u127c1 {
+    background-image: url('../选择纪人页面流程V1_1_files/u127c1.png');
+}
+
+.u127c1 {
+    position:absolute;
+    left:160px;
+    top:872px;
+    width:20px;
+    height:168px;
+}
+
+.u127c2 {
+    background-image: url('../选择纪人页面流程V1_1_files/u127c2.png');
+}
+
+.u127c2 {
+    position:absolute;
+    left:146px;
+    top:872px;
+    width:34px;
+    height:20px;
+}
+
+.u128 {
+    position:absolute;
+    left:-60px;
+    top:-87px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u129_normal {
+    background-image: url('../选择纪人页面流程V1_1_files/u129_normal.png');
+}
+
+.u129_container {
+    position:absolute;
+    left:200px;
+    top:1100px;
+    width:120px;
+    height:29px;
+}
+
+#u129_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:35px;
+}
+
+.u130 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:116px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

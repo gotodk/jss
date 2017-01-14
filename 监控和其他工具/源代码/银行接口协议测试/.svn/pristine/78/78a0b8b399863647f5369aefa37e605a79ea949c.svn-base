@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Pingan_Send_1315" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Pingan_Send_1315">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FuncFlag" msdata:Caption="功能标志" type="xs:string" default="1" />
+                <xs:element name="CustAcctId" msdata:Caption="子账号" type="xs:string" default="0" />
+                <xs:element name="RelatedAcctId" msdata:Caption="出/入金账号" type="xs:string" default="0" />
+                <xs:element name="AcctFlag" msdata:Caption="账号性质" type="xs:string" default="0" />
+                <xs:element name="TranType" msdata:Caption="转账方式" type="xs:string" default="0" />
+                <xs:element name="AcctName" msdata:Caption="账号名称" type="xs:string" default="0" />
+                <xs:element name="BankCode" msdata:Caption="联行号" type="xs:string" default="0" />
+                <xs:element name="BankName" msdata:Caption="开户行名称" type="xs:string" default="0" />
+                <xs:element name="Address" msdata:Caption="付款人/收款人地址" type="xs:string" default="0" />
+                <xs:element name="OldRelatedAcctId" msdata:Caption="原出入金账号" type="xs:string" default="0" />
+                <xs:element name="Reserve" msdata:Caption="保留域" type="xs:string" default="前32位为交易网会员代码" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Pingan_Send_1315>
+    <FuncFlag>1</FuncFlag>
+    <CustAcctId>0</CustAcctId>
+    <RelatedAcctId>0</RelatedAcctId>
+    <AcctFlag>0</AcctFlag>
+    <TranType>0</TranType>
+    <AcctName>0</AcctName>
+    <BankCode>0</BankCode>
+    <BankName>0</BankName>
+    <Address>0</Address>
+    <OldRelatedAcctId>0</OldRelatedAcctId>
+    <Reserve>前32位为交易网会员代码</Reserve>
+  </Pingan_Send_1315>
+</NewDataSet>

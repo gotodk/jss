@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Us_Send_1316" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Us_Send_1316">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FunctionId" msdata:Caption="接口编号" type="xs:string" default="1316" />
+                <xs:element name="SupAcctId" msdata:Caption="资金汇总账号" type="xs:string" default="11014176990004 " />
+                <xs:element name="CustAcctId" msdata:Caption="子账户账号" type="xs:string" default="0" />
+                <xs:element name="ThirdCustId" msdata:Caption="交易网会员代码" type="xs:string" default="0" />
+                <xs:element name="IdType" msdata:Caption="会员证件类型" type="xs:string" default="0" />
+                <xs:element name="IdCode" msdata:Caption="会员证件号码" type="xs:string" default="0" />
+                <xs:element name="TranAmount" msdata:Caption="入金金额" type="xs:string" default="0" />
+                <xs:element name="InAcctId" msdata:Caption="入金账号" type="xs:string" default="0" />
+                <xs:element name="InAcctIdName" msdata:Caption="入金账户名称" type="xs:string" default="0" />
+                <xs:element name="CcyCode" msdata:Caption="币种" type="xs:string" default="RMB" />
+                <xs:element name="Reserve" msdata:Caption="保留域" type="xs:string" default="" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Us_Send_1316>
+    <FunctionId>1316</FunctionId>
+    <SupAcctId>11014176990004 </SupAcctId>
+    <CustAcctId>0</CustAcctId>
+    <ThirdCustId>0</ThirdCustId>
+    <IdType>0</IdType>
+    <IdCode>0</IdCode>
+    <TranAmount>0</TranAmount>
+    <InAcctId>0</InAcctId>
+    <InAcctIdName>0</InAcctIdName>
+    <CcyCode>RMB</CcyCode>
+    <Reserve></Reserve>
+  </Us_Send_1316>
+</NewDataSet>

@@ -1,0 +1,31 @@
+﻿
+GetDiskInfoMessage获取磁盘分区 消息类
+
+ACKGetDiskInfoMessage获取磁盘分区 应答消息类  包含磁盘分区列表
+
+
+
+
+GetFilesInfoMessage获取文件列表 消息类
+
+ACKGetFilesInfoMessage获取文件列表 应答消息类      包含文件分区列表
+
+
+
+
+AddFolderMessage添加文件夹 消息类             包含目录和新建目录名
+
+获取文件列表 应答消息类
+
+
+
+DeleteFilesMessage删除文件/文件夹 消息类             包含目录和删除目录名或文件名  以及删除类型标记
+
+获取文件列表 应答消息类
+
+
+
+
+ApplyUpLoadMessage要求上传文件 消息类 包含要保存的目录路径 以及要要求上传的路径
+
+开始上传

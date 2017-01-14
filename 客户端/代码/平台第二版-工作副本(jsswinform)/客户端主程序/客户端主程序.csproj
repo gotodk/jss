@@ -1,0 +1,981 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{96007040-3655-4C83-8703-DF2ACE56AB62}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>客户端主程序</RootNamespace>
+    <AssemblyName>中国商品批发交易平台</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Documents and Settings\Administrator\桌面\ggg\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>029EA693C1D385963EBBA6B4E7DCF6A6A5FD9DC2</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>富美工具箱_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ji.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>客户端主程序.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoUpdate\AppUpdater.cs" />
+    <Compile Include="AutoUpdate\ThreadDownLoad.cs" />
+    <Compile Include="DataControl\DataOtherClass.cs" />
+    <Compile Include="DataControl\PublicDS.cs" />
+    <Compile Include="DataControl\RunThreaClassJszhsq.cs" />
+    <Compile Include="DataControl\RunThreadClassAccountID.cs" />
+    <Compile Include="DataControl\RunThreadClassChangePwd.cs" />
+    <Compile Include="DataControl\RunThreadClassChildSPFL.cs" />
+    <Compile Include="DataControl\RunThreadClassDataGet.cs" />
+    <Compile Include="DataControl\RunThreadClassDataUpdate.cs" />
+    <Compile Include="DataControl\RunThreadClassFBTHXXSave.cs" />
+    <Compile Include="DataControl\RunThreadClassGetSPXXSortID.cs" />
+    <Compile Include="DataControl\RunThreadClassIntializeData.cs" />
+    <Compile Include="DataControl\RunThreadClassIsOnOpenDay.cs" />
+    <Compile Include="DataControl\RunThreadClassIsOnOpenTime.cs" />
+    <Compile Include="DataControl\RunThreadClassIsOpenJSZH.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataControl\RunThreadClassIsZTXYW.cs" />
+    <Compile Include="DataControl\RunThreadClassManageAddress.cs" />
+    <Compile Include="DataControl\RunThreadClassMoney.cs" />
+    <Compile Include="DataControl\RunThreadClassPager.cs" />
+    <Compile Include="DataControl\RunThreadClassRegister.cs" />
+    <Compile Include="DataControl\RunThreadClassRePwd.cs" />
+    <Compile Include="DataControl\RunThreadClassReSendSMsg.cs" />
+    <Compile Include="DataControl\RunThreadClassReSendValNum.cs" />
+    <Compile Include="DataControl\RunThreadClassSC.cs" />
+    <Compile Include="DataControl\RunThreadClassSendEmailPhone.cs" />
+    <Compile Include="DataControl\RunThreadClassStartSPFL.cs" />
+    <Compile Include="DataControl\RunThreadClassTest.cs" />
+    <Compile Include="DataControl\RunThreadClassUpdateJJR.cs" />
+    <Compile Include="DataControl\RunThreadClassUpdateOrDeleteYDD.cs" />
+    <Compile Include="DataControl\RunThreadClassUserChangeRegister.cs" />
+    <Compile Include="DataControl\RunThreadClassWarseList.cs" />
+    <Compile Include="DataControl\RunThreadClassXDYDDXXSave.cs" />
+    <Compile Include="DataControl\RunThreadClassZHDQKYYE.cs" />
+    <Compile Include="DataControl\WebServicesCenter.cs" />
+    <Compile Include="AutoUpdate\IniFiles.cs" />
+    <Compile Include="AutoUpdate\XmlFiles.cs" />
+    <Compile Include="DataControl\XMLConfig.cs" />
+    <Compile Include="DataControl\RunThreadClassTestFL.cs" />
+    <Compile Include="DataControl\RunThreadClassUp.cs" />
+    <Compile Include="DataControl\RunThreadClassTrayMsg.cs" />
+    <Compile Include="DataControl\RunThreadClassTestSaveOrUpdate.cs" />
+    <Compile Include="DataControl\RunThreadClassAdminMenu.cs" />
+    <Compile Include="DataControl\RunThreadClassLogin.cs" />
+    <Compile Include="DataControl\RunThreadClassTJFX.cs" />
+    <Compile Include="DataControl\RunThreadClassCityList.cs" />
+    <Compile Include="DataControl\RunThreadClassDEltbxx.cs" />
+    <Compile Include="DataControl\RunThreadClassLYBZJ.cs" />
+    <Compile Include="DataControl\RunThreadClassTHD.cs" />
+    <Compile Include="DataControl\RunThreadClassJJRmanger.cs" />
+    <Compile Include="FormCenter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCenter.Designer.cs">
+      <DependentUpon>FormCenter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formjhjxjszhzc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formjhjxjszhzc.Designer.cs">
+      <DependentUpon>Formjhjxjszhzc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegister.Designer.cs">
+      <DependentUpon>FormRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormResetPwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormResetPwd.Designer.cs">
+      <DependentUpon>FormResetPwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormResetPwd2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormResetPwd2.Designer.cs">
+      <DependentUpon>FormResetPwd2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormResetPwd3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormResetPwd3.Designer.cs">
+      <DependentUpon>FormResetPwd3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUp.designer.cs">
+      <DependentUpon>FormUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormZCXY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormZCXY.Designer.cs">
+      <DependentUpon>FormZCXY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SubForm\CenterForm\Agent\User_CXQSthd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\User_CXQSthd.Designer.cs">
+      <DependentUpon>User_CXQSthd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\User_SEL_CXfeibiao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\User_SEL_CXfeibiao.Designer.cs">
+      <DependentUpon>User_SEL_CXfeibiao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\User_SEL_CXdingbiao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\User_SEL_CXdingbiao.Designer.cs">
+      <DependentUpon>User_SEL_CXdingbiao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\User_SEL_CXzhongbiao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\User_SEL_CXzhongbiao.Designer.cs">
+      <DependentUpon>User_SEL_CXzhongbiao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\User_SEL_CXweizhongbiao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\User_SEL_CXweizhongbiao.Designer.cs">
+      <DependentUpon>User_SEL_CXweizhongbiao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\User_BUY_CXfeibiao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\User_BUY_CXfeibiao.Designer.cs">
+      <DependentUpon>User_BUY_CXfeibiao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\User_BUY_CXdingbiao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\User_BUY_CXdingbiao.Designer.cs">
+      <DependentUpon>User_BUY_CXdingbiao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\User_BUY_CXzhongbiao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\User_BUY_CXzhongbiao.Designer.cs">
+      <DependentUpon>User_BUY_CXzhongbiao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\User_BUY_CXJBjihe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\User_BUY_CXJBjihe.Designer.cs">
+      <DependentUpon>User_BUY_CXJBjihe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\UserListLook.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\UserListLook.Designer.cs">
+      <DependentUpon>UserListLook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\shouyishouli.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\shouyishouli.Designer.cs">
+      <DependentUpon>shouyishouli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\CXYHLBCK.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\CXYHLBCK.Designer.cs">
+      <DependentUpon>CXYHLBCK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\CXyonghuziliaoshenhe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\CXyonghuziliaoshenhe.Designer.cs">
+      <DependentUpon>CXyonghuziliaoshenhe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\DEMO1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\DEMO1.Designer.cs">
+      <DependentUpon>DEMO1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\DEMO2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\DEMO2.Designer.cs">
+      <DependentUpon>DEMO2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\DEMO11.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\DEMO11.Designer.cs">
+      <DependentUpon>DEMO11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\DEMO3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\DEMO3.Designer.cs">
+      <DependentUpon>DEMO3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\FormYHZLXQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Agent\FormYHZLXQ.Designer.cs">
+      <DependentUpon>FormYHZLXQ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\CXQSthd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\CXQSthd.Designer.cs">
+      <DependentUpon>CXQSthd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\CXJBjihe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\CXJBjihe.Designer.cs">
+      <DependentUpon>CXJBjihe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\CXshoukuanzhanghu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\CXshoukuanzhanghu.Designer.cs">
+      <DependentUpon>CXshoukuanzhanghu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\CXweizhongbiaoEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\CXweizhongbiaoEdit.Designer.cs">
+      <DependentUpon>CXweizhongbiaoEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\CXzhongbiao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\CXzhongbiao.Designer.cs">
+      <DependentUpon>CXzhongbiao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\CXdingbiao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\CXdingbiao.Designer.cs">
+      <DependentUpon>CXdingbiao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\CXfeibiao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\CXfeibiao.Designer.cs">
+      <DependentUpon>CXfeibiao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\CXzhuanrang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\CXzhuanrang.Designer.cs">
+      <DependentUpon>CXzhuanrang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\FBYDD.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\FBYDD.Designer.cs">
+      <DependentUpon>FBYDD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\SelectTBWarse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\SelectTBWarse.Designer.cs">
+      <DependentUpon>SelectTBWarse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\XDDLDJYDD.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\XDDLDJYDD.Designer.cs">
+      <DependentUpon>XDDLDJYDD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\XDYearYDD.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\XDYearYDD.Designer.cs">
+      <DependentUpon>XDYearYDD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\FBtihuodanPutIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\FBtihuodanPutIn.Designer.cs">
+      <DependentUpon>FBtihuodanPutIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\SelectSHDZ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\SelectSHDZ.Designer.cs">
+      <DependentUpon>SelectSHDZ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\publicUC\BasicInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\publicUC\BasicInfo.Designer.cs">
+      <DependentUpon>BasicInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\publicUC\CXzijinwanglai.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\publicUC\CXzijinwanglai.Designer.cs">
+      <DependentUpon>CXzijinwanglai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\publicUC\GLjingjiren.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\publicUC\GLjingjiren.Designer.cs">
+      <DependentUpon>GLjingjiren.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\publicUC\WHkaipaoxinxi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\publicUC\WHkaipaoxinxi.Designer.cs">
+      <DependentUpon>WHkaipaoxinxi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\publicUC\WHshouhuodizhi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\publicUC\WHshouhuodizhi.Designer.cs">
+      <DependentUpon>WHshouhuodizhi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\publicUC\PanelUC.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\publicUC\PanelUC.Designer.cs">
+      <DependentUpon>PanelUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\CXweizhongbiao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\CXweizhongbiao.Designer.cs">
+      <DependentUpon>CXweizhongbiao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\CXzhongbiao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\CXzhongbiao.Designer.cs">
+      <DependentUpon>CXzhongbiao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\CXdingbiao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\CXdingbiao.Designer.cs">
+      <DependentUpon>CXdingbiao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\CXfeibiao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\CXfeibiao.Designer.cs">
+      <DependentUpon>CXfeibiao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\FBtbnew.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\FBtbnew.Designer.cs">
+      <DependentUpon>FBtbnew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\FBnianbiao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\FBnianbiao.Designer.cs">
+      <DependentUpon>FBnianbiao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\FBdldjbiao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\FBdldjbiao.Designer.cs">
+      <DependentUpon>FBdldjbiao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\FBdldjSelectWarse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\FBdldjSelectWarse.Designer.cs">
+      <DependentUpon>FBdldjSelectWarse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\FBtihuodan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Buyer\FBtihuodan.Designer.cs">
+      <DependentUpon>FBtihuodan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\CXweizhongbiaoEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\CXweizhongbiaoEdit.Designer.cs">
+      <DependentUpon>CXweizhongbiaoEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\UCfbtbnew.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\UCfbtbnew.Designer.cs">
+      <DependentUpon>UCfbtbnew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\UCfbtbnewList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\UCfbtbnewList.Designer.cs">
+      <DependentUpon>UCfbtbnewList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\CXzhongbiaoLYHZJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\CXzhongbiaoLYHZJ.Designer.cs">
+      <DependentUpon>CXzhongbiaoLYHZJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\CXdingbiaoInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\CXdingbiaoInfo.Designer.cs">
+      <DependentUpon>CXdingbiaoInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\CXfhthd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\CXfhthd.Designer.cs">
+      <DependentUpon>CXfhthd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\CXfhthdInPut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\CenterForm\Seller\CXfhthdInPut.Designer.cs">
+      <DependentUpon>CXfhthdInPut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\FormJJRDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\FormJJRDetail.Designer.cs">
+      <DependentUpon>FormJJRDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\FormSelectList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\FormSelectList.Designer.cs">
+      <DependentUpon>FormSelectList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\FormWebBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\FormWebBrowser.Designer.cs">
+      <DependentUpon>FormWebBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\UCCityList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\UCCityList.Designer.cs">
+      <DependentUpon>UCCityList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\UCTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SubForm\UCTextBox.Designer.cs">
+      <DependentUpon>UCTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\FormAlertMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\FormAlertMessage.Designer.cs">
+      <DependentUpon>FormAlertMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\FormSC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\FormSC.Designer.cs">
+      <DependentUpon>FormSC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\FormTrayMsg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\FormTrayMsg.Designer.cs">
+      <DependentUpon>FormTrayMsg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\UCPager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\UCPager.Designer.cs">
+      <DependentUpon>UCPager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\WarseList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\WarseList.Designer.cs">
+      <DependentUpon>WarseList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Support\AnimateImage.cs" />
+    <Compile Include="Support\GetHttpClass.cs" />
+    <Compile Include="Support\HookHelp.cs" />
+    <Compile Include="Support\HTMLAnalyzeClass.cs" />
+    <Compile Include="Support\NetLink.cs" />
+    <Compile Include="Support\StringOP.cs" />
+    <Compile Include="FormMainPublic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMainPublic.Designer.cs">
+      <DependentUpon>FormMainPublic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Support\ValStr.cs" />
+    <Compile Include="Web References\com.fm8844.fwpttest\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\com.fm8844.fwpt\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegister2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegister2.Designer.cs">
+      <DependentUpon>FormRegister2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegister3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegister3.Designer.cs">
+      <DependentUpon>FormRegister3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSPinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSPinfo.Designer.cs">
+      <DependentUpon>FormSPinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="客户端类库\UDP通讯\Client.cs" />
+    <Compile Include="客户端类库\UDP通讯\ReceiveDispatchCenter.cs" />
+    <Compile Include="客户端类库\UDP通讯\SendDispatchCenter.cs" />
+    <Compile Include="客户端类库\UDP通讯\SlidingWindow.cs" />
+    <Compile Include="客户端类库\UDP通讯\UDPCommunicate.cs" />
+    <Compile Include="客户端类库\UDP通讯\UDPSlidingWindow.cs" />
+    <Compile Include="客户端类库\文件传输\FileOperateClass.cs" />
+    <Compile Include="客户端类库\文件传输\FileOperateClassHelp.cs" />
+    <Compile Include="客户端类库\文件传输\GetSystemIcon.cs" />
+    <Compile Include="客户端类库\远程控制动作\OpenMSTSC.cs" />
+    <EmbeddedResource Include="FormCenter.resx">
+      <DependentUpon>FormCenter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formjhjxjszhzc.resx">
+      <DependentUpon>Formjhjxjszhzc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegister.resx">
+      <DependentUpon>FormRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormResetPwd.resx">
+      <DependentUpon>FormResetPwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormResetPwd2.resx">
+      <DependentUpon>FormResetPwd2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormResetPwd3.resx">
+      <DependentUpon>FormResetPwd3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUp.resx">
+      <DependentUpon>FormUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormZCXY.resx">
+      <DependentUpon>FormZCXY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Agent\User_CXQSthd.resx">
+      <DependentUpon>User_CXQSthd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Agent\User_SEL_CXfeibiao.resx">
+      <DependentUpon>User_SEL_CXfeibiao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Agent\User_SEL_CXdingbiao.resx">
+      <DependentUpon>User_SEL_CXdingbiao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Agent\User_SEL_CXzhongbiao.resx">
+      <DependentUpon>User_SEL_CXzhongbiao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Agent\User_SEL_CXweizhongbiao.resx">
+      <DependentUpon>User_SEL_CXweizhongbiao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Agent\User_BUY_CXfeibiao.resx">
+      <DependentUpon>User_BUY_CXfeibiao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Agent\User_BUY_CXdingbiao.resx">
+      <DependentUpon>User_BUY_CXdingbiao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Agent\User_BUY_CXzhongbiao.resx">
+      <DependentUpon>User_BUY_CXzhongbiao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Agent\User_BUY_CXJBjihe.resx">
+      <DependentUpon>User_BUY_CXJBjihe.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Agent\UserListLook.resx">
+      <DependentUpon>UserListLook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Agent\shouyishouli.resx">
+      <DependentUpon>shouyishouli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Agent\CXYHLBCK.resx">
+      <DependentUpon>CXYHLBCK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Agent\CXyonghuziliaoshenhe.resx">
+      <DependentUpon>CXyonghuziliaoshenhe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Agent\DEMO1.resx">
+      <DependentUpon>DEMO1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Agent\DEMO2.resx">
+      <DependentUpon>DEMO2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Agent\DEMO11.resx">
+      <DependentUpon>DEMO11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Agent\DEMO3.resx">
+      <DependentUpon>DEMO3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Agent\FormYHZLXQ.resx">
+      <DependentUpon>FormYHZLXQ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Buyer\CXQSthd.resx">
+      <DependentUpon>CXQSthd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Buyer\CXJBjihe.resx">
+      <DependentUpon>CXJBjihe.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Buyer\CXshoukuanzhanghu.resx">
+      <DependentUpon>CXshoukuanzhanghu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Buyer\CXweizhongbiaoEdit.resx">
+      <DependentUpon>CXweizhongbiaoEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Buyer\CXzhongbiao.resx">
+      <DependentUpon>CXzhongbiao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Buyer\CXdingbiao.resx">
+      <DependentUpon>CXdingbiao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Buyer\CXfeibiao.resx">
+      <DependentUpon>CXfeibiao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Buyer\CXzhuanrang.resx">
+      <DependentUpon>CXzhuanrang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Buyer\FBYDD.resx">
+      <DependentUpon>FBYDD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Buyer\SelectTBWarse.resx">
+      <DependentUpon>SelectTBWarse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Buyer\XDDLDJYDD.resx">
+      <DependentUpon>XDDLDJYDD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Buyer\XDYearYDD.resx">
+      <DependentUpon>XDYearYDD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Buyer\FBtihuodanPutIn.resx">
+      <DependentUpon>FBtihuodanPutIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Buyer\SelectSHDZ.resx">
+      <DependentUpon>SelectSHDZ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\publicUC\BasicInfo.resx">
+      <DependentUpon>BasicInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\publicUC\CXzijinwanglai.resx">
+      <DependentUpon>CXzijinwanglai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\publicUC\GLjingjiren.resx">
+      <DependentUpon>GLjingjiren.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\publicUC\WHkaipaoxinxi.resx">
+      <DependentUpon>WHkaipaoxinxi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\publicUC\WHshouhuodizhi.resx">
+      <DependentUpon>WHshouhuodizhi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\publicUC\PanelUC.resx">
+      <DependentUpon>PanelUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Seller\CXweizhongbiao.resx">
+      <DependentUpon>CXweizhongbiao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Seller\CXzhongbiao.resx">
+      <DependentUpon>CXzhongbiao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Seller\CXdingbiao.resx">
+      <DependentUpon>CXdingbiao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Seller\CXfeibiao.resx">
+      <DependentUpon>CXfeibiao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Seller\FBtbnew.resx">
+      <DependentUpon>FBtbnew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Seller\FBnianbiao.resx">
+      <DependentUpon>FBnianbiao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Seller\FBdldjbiao.resx">
+      <DependentUpon>FBdldjbiao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Seller\FBdldjSelectWarse.resx">
+      <DependentUpon>FBdldjSelectWarse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Buyer\FBtihuodan.resx">
+      <DependentUpon>FBtihuodan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Seller\CXweizhongbiaoEdit.resx">
+      <DependentUpon>CXweizhongbiaoEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Seller\UCfbtbnew.resx">
+      <DependentUpon>UCfbtbnew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Seller\UCfbtbnewList.resx">
+      <DependentUpon>UCfbtbnewList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Seller\CXzhongbiaoLYHZJ.resx">
+      <DependentUpon>CXzhongbiaoLYHZJ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Seller\CXdingbiaoInfo.resx">
+      <DependentUpon>CXdingbiaoInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Seller\CXfhthd.resx">
+      <DependentUpon>CXfhthd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\CenterForm\Seller\CXfhthdInPut.resx">
+      <DependentUpon>CXfhthdInPut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\FormAlertMessage.resx">
+      <DependentUpon>FormAlertMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMainPublic.resx">
+      <DependentUpon>FormMainPublic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\FormJJRDetail.resx">
+      <DependentUpon>FormJJRDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\FormSC.resx">
+      <DependentUpon>FormSC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\FormSelectList.resx">
+      <DependentUpon>FormSelectList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\FormTrayMsg.resx">
+      <DependentUpon>FormTrayMsg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\FormWebBrowser.resx">
+      <DependentUpon>FormWebBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\UCCityList.resx">
+      <DependentUpon>UCCityList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\UCPager.resx">
+      <DependentUpon>UCPager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegister2.resx">
+      <DependentUpon>FormRegister2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegister3.resx">
+      <DependentUpon>FormRegister3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\WarseList.resx">
+      <DependentUpon>WarseList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSPinfo.resx">
+      <DependentUpon>FormSPinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Web References\com.fm8844.fwpttest\jhjx_WebServicePublic.wsdl" />
+    <None Include="Web References\com.fm8844.fwpttest\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\com.fm8844.fwpt\jhjx_WebServicePublic.wsdl" />
+    <None Include="Web References\com.fm8844.fwpt\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibraryBusinessMonitor\ClassLibraryBusinessMonitor.csproj">
+      <Project>{DDC20823-D763-46F4-8327-E8A498996955}</Project>
+      <Name>ClassLibraryBusinessMonitor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QQ Skins\QQ Skins.csproj">
+      <Project>{CA97A4A8-003A-4215-AFD3-9AD4939D48F5}</Project>
+      <Name>QQ Skins</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\公用通讯协议类库\公用通讯协议类库.csproj">
+      <Project>{F0835632-A262-4A9E-ADCD-232393B1755E}</Project>
+      <Name>公用通讯协议类库</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://fwpt.fm8844.com/JHJXPT/webservices/jhjx_WebServicePublic.asmx">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\com.fm8844.fwpt\</RelPath>
+      <UpdateFromURL>http://fwpt.fm8844.com/JHJXPT/webservices/jhjx_WebServicePublic.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>中国商品集合经销交易平台_com_fm8844_fwpt_jhjx_WebServicePublic</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://fwpttest.fm8844.com/JHJXPT/webservices/jhjx_WebServicePublic.asmx">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\com.fm8844.fwpttest\</RelPath>
+      <UpdateFromURL>http://fwpttest.fm8844.com/JHJXPT/webservices/jhjx_WebServicePublic.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>中国商品集合经销交易平台_com_fm8844_fwpttest_jhjx_WebServicePublic</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\com.fm8844.fwpttest\jhjx_WebServicePublic.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\com.fm8844.fwpt\jhjx_WebServicePublic.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\skin\myxz.gif" />
+    <Content Include="bin\Debug\中国商品批量交易平台.exe" />
+    <Content Include="ji.ico" />
+    <None Include="Resources\8-0.gif" />
+    <None Include="Resources\progressbar_long_green.gif" />
+    <None Include="Resources\indicator_web20_working.gif" />
+    <None Include="Resources\indicator_mozilla_blu.gif" />
+    <None Include="Resources\indicator_medium.gif" />
+    <None Include="Resources\indicator_bar.gif" />
+    <None Include="Resources\indicator_arrows.gif" />
+    <None Include="Resources\indicator1.gif" />
+    <None Include="Resources\indicator.gif" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

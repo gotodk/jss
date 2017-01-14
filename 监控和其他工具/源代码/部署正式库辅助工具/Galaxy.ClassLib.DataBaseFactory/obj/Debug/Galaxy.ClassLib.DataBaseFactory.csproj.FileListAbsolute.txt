@@ -1,0 +1,12 @@
+E:\CodeShopping\Galaxy.ClassLib.DataBaseFactory\bin\Debug\Galaxy.ClassLib.DataBaseFactory.dll
+E:\CodeShopping\Galaxy.ClassLib.DataBaseFactory\bin\Debug\Galaxy.ClassLib.DataBaseFactory.pdb
+E:\CodeShopping\Galaxy.ClassLib.DataBaseFactory\bin\Debug\Galaxy.ClassLib.DataBaseFactory.xml
+E:\CodeShopping\Galaxy.ClassLib.DataBaseFactory\obj\Debug\ResolveAssemblyReference.cache
+E:\CodeShopping\Galaxy.ClassLib.DataBaseFactory\obj\Debug\Galaxy.ClassLib.DataBaseFactory.dll
+E:\CodeShopping\Galaxy.ClassLib.DataBaseFactory\obj\Debug\Galaxy.ClassLib.DataBaseFactory.pdb
+F:\富美开发项目\2011工作副本\部署正式库辅助工具\Galaxy.ClassLib.DataBaseFactory\bin\Debug\Galaxy.ClassLib.DataBaseFactory.dll
+F:\富美开发项目\2011工作副本\部署正式库辅助工具\Galaxy.ClassLib.DataBaseFactory\bin\Debug\Galaxy.ClassLib.DataBaseFactory.pdb
+F:\富美开发项目\2011工作副本\部署正式库辅助工具\Galaxy.ClassLib.DataBaseFactory\bin\Debug\Galaxy.ClassLib.DataBaseFactory.xml
+F:\富美开发项目\2011工作副本\部署正式库辅助工具\Galaxy.ClassLib.DataBaseFactory\obj\Debug\Galaxy.ClassLib.DataBaseFactory.csprojResolveAssemblyReference.cache
+F:\富美开发项目\2011工作副本\部署正式库辅助工具\Galaxy.ClassLib.DataBaseFactory\obj\Debug\Galaxy.ClassLib.DataBaseFactory.dll
+F:\富美开发项目\2011工作副本\部署正式库辅助工具\Galaxy.ClassLib.DataBaseFactory\obj\Debug\Galaxy.ClassLib.DataBaseFactory.pdb

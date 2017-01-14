@@ -1,0 +1,49 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Pingan_Send_1317" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Pingan_Send_1317">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FrontLogNo" msdata:Caption="银行前置流水号" type="xs:string" default="0" />
+                <xs:element name="TranWebName" msdata:Caption="交易网名称" type="xs:string" default="0" />
+                <xs:element name="ThirdCustId" msdata:Caption="交易网会员代码" type="xs:string" default="0" />
+                <xs:element name="IdType" msdata:Caption="会员证件类型" type="xs:string" default="0" />
+                <xs:element name="IdCode" msdata:Caption="会员证件号码" type="xs:string" default="0" />
+                <xs:element name="CustAcctId" msdata:Caption="子账户账号" type="xs:string" default="0" />
+                <xs:element name="CustName" msdata:Caption="子账户名称" type="xs:string" default="0" />
+                <xs:element name="SupAcctId" msdata:Caption="资金汇总账号" type="xs:string" default="0" />
+                <xs:element name="TranStatus" msdata:Caption="审核状态" type="xs:string" default="0" />
+                <xs:element name="TranType" msdata:Caption="转账方式" type="xs:string" default="0" />
+                <xs:element name="OutAcctId" msdata:Caption="出金账号" type="xs:string" default="0" />
+                <xs:element name="OutAcctIdName" msdata:Caption="出金账户名称" type="xs:string" default="0" />
+                <xs:element name="CcyCode" msdata:Caption="币种" type="xs:string" default="0" />
+                <xs:element name="TranAmount" msdata:Caption="申请出金金额" type="xs:string" default="0" />
+                <xs:element name="Reserve" msdata:Caption="保留域" type="xs:string" default="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Pingan_Send_1317>
+    <FrontLogNo>0</FrontLogNo>
+    <TranWebName>0</TranWebName>
+    <ThirdCustId>0</ThirdCustId>
+    <IdType>0</IdType>
+    <IdCode>0</IdCode>
+    <CustAcctId>0</CustAcctId>
+    <CustName>0</CustName>
+    <SupAcctId>0</SupAcctId>
+    <TranStatus>0</TranStatus>
+    <TranType>0</TranType>
+    <OutAcctId>0</OutAcctId>
+    <OutAcctIdName>0</OutAcctIdName>
+    <CcyCode>0</CcyCode>
+    <TranAmount>0</TranAmount>
+    <Reserve>0</Reserve>
+  </Pingan_Send_1317>
+</NewDataSet>

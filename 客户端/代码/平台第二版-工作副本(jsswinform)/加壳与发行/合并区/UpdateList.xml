@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<AutoUpdater>
+	<Description>中国商品批发交易平台 autoUpdate</Description>
+	<Updater>
+		<Url>http://192.168.0.26:777/JHJXPT/AutoUpdate/</Url>
+		<LastUpdateTime>2013-04-01</LastUpdateTime>
+	</Updater>
+	<Application applicationId = "中国商品批发交易平台">
+		<EntryPoint>中国商品批发交易平台.exe</EntryPoint>
+		<Location>.</Location>
+		<Version>1.0.0.0</Version>
+	</Application>
+	<Files>
+		<File Ver="1.0.0.8" Name= "skin\cuowu.png" />
+		<File Ver="1.0.0.8" Name= "skin\hy.jpg" />
+		<File Ver="1.0.0.8" Name= "skin\hz.jpg" />
+		<File Ver="1.0.0.8" Name= "skin\ji.ico" />
+		<File Ver="1.0.0.8" Name= "skin\loginbg.jpg" />
+		<File Ver="1.0.0.8" Name= "skin\myxz.gif" />
+		<File Ver="1.0.0.8" Name= "skin\pagerload.gif" />
+		<File Ver="1.0.0.8" Name= "skin\qx.jpg" />
+		<File Ver="1.0.0.8" Name= "skin\qz.jpg" />
+		<File Ver="1.0.0.8" Name= "skin\tanhao.png" />
+		<File Ver="1.0.0.8" Name= "skin\Thumbs.db" />
+		<File Ver="1.0.0.8" Name= "skin\wenhao.png" />
+		<File Ver="1.0.0.8" Name= "skin\xg.jpg" />
+		<File Ver="1.0.0.8" Name= "skin\yun001.png" />
+		<File Ver="1.0.0.8" Name= "skin\yun002.png" />
+		<File Ver="1.0.0.8" Name= "skin\yun003.png" />
+		<File Ver="1.0.0.8" Name= "skin\zhzx.png" />
+		<File Ver="1.0.0.8" Name= "skin\zy.jpg" />
+		<File Ver="1.0.0.8" Name= "skin\z_bannian.png" />
+		<File Ver="1.0.0.8" Name= "skin\z_dingliang.png" />
+		<File Ver="1.0.0.8" Name= "skin\z_yinian.png" />
+		<File Ver="1.0.0.8" Name= "skin\z_zixuan.png" />
+		<File Ver="1.0.0.8" Name= "Skins.dll" />
+		<File Ver="1.0.3.1" Name= "中国商品批发交易平台.exe" />
+		<File Ver="1.0.0.8" Name= "公用通讯协议类库.dll" />
+	</Files>
+</AutoUpdater>

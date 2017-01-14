@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Config" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Config">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" msdata:Caption="银行" type="xs:string" default="XX银行" />
+                <xs:element name="Imv" msdata:Caption="运行环境" type="xs:string" default="测试库" />
+                <xs:element name="CStr" msdata:Caption="测试库实例字符" type="xs:string" default="NULL" />
+                <xs:element name="ZStr" msdata:Caption="正式库实例字符" type="xs:string" default="NULL" />
+                <xs:element name="OnOff" msdata:Caption="本银行接口开关" type="xs:string" default="开" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Config>
+    <Name>浦发银行</Name>
+    <Imv>测试库</Imv>
+    <CStr>浦发发送数据包</CStr>
+    <ZStr>NULL</ZStr>
+    <OnOff>开</OnOff>
+  </Config>
+  <Config>
+    <Name>平安银行</Name>
+    <Imv>测试库</Imv>
+    <CStr>平安发送数据包</CStr>
+    <ZStr>NULL</ZStr>
+    <OnOff>开</OnOff>
+  </Config>
+</NewDataSet>

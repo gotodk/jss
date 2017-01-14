@@ -1,0 +1,4 @@
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_P2_Support\bin\Release\P2_Support.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_P2_Support\bin\Release\P2_Support.pdb
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_P2_Support\obj\Release\P2_Support.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_P2_Support\obj\Release\P2_Support.pdb

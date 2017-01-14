@@ -1,0 +1,57 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+
+namespace 银行接口协议测试
+{
+    public partial class FormXML : Form
+    {
+        public FormXML()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //把配置转化成数据集，再转化成xml保存
+            //System.AppDomain.CurrentDomain.SetupInformation.ApplicationBase+ @"\skin\ji.ico"
+
+            folderBrowserDialog1.SelectedPath = System.AppDomain.CurrentDomain.SetupInformation.ApplicationBase;
+            if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
+            {
+                DataTable dt = new DataTable();
+                dt.TableName = textBox1.Text;
+                string[] arrPZ = richTextBox1.Lines;
+                for (int h = 0; h < arrPZ.Length; h++)
+                {
+                    string thisrowstr = arrPZ[h];
+                    string[] thisrowstr_arr = thisrowstr.Split('★');
+                    DataColumn dc = new DataColumn();
+                    dc.ColumnName = thisrowstr_arr[0];
+                    dc.Caption = thisrowstr_arr[1];
+                    if (thisrowstr_arr[2] == "是")
+                    {
+                        dc.AllowDBNull = false;
+                    }
+                    else
+                    {
+                        dc.AllowDBNull = true;
+                    }
+                    dc.DefaultValue = thisrowstr_arr[3];
+                    dt.Columns.Add(dc);
+                }
+                DataRow dr = dt.NewRow();
+                dt.Rows.Add(dr);
+                string savepath = folderBrowserDialog1.SelectedPath + @"\浦发\" + textBox1.Text + ".xml";
+                dt.WriteXml(savepath, XmlWriteMode.WriteSchema);
+                MessageBox.Show("生成完成！");
+                // 在此添加代码,选择的路径为 folderBrowserDialog1.SelectedPath
+                
+            }
+        }
+    }
+}

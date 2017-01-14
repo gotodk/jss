@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <基本配置>
+    <MSS>客户端主程序.com.fm8844.fwpttest.jhjx_WebServicePublic|fwpttest.fm8844.com</MSS>
+    <IPURL />
+    <TRY>用户版</TRY>
+    <WWWSITE>http://www.fm8844.com</WWWSITE>
+    <DC>1,40,0.1</DC>
+  </基本配置>
+  <用户本地配置>
+<<<<<<< .mine
+    <UserEmail>8147c18257bfa267eb18c873fdef28584026b1d7421dc50d</UserEmail>
+    <UserPassWord>83ca0c4f6e8d44c7068d927347b6c107</UserPassWord>
+=======
+    <UserEmail>46d2cbc10a87377159059ab648527d40aee651eab37096a12cd4a6d97645543a</UserEmail>
+    <UserPassWord>3a43d4ddd86f9526edc3017eb2f09e2f</UserPassWord>
+>>>>>>> .r664
+    <IsSavePassWord>True</IsSavePassWord>
+    <IsAutoLogin>否</IsAutoLogin>
+    <IsAudio>是</IsAudio>
+    <IsT>59,66,100,100,82,80,98,82,67,78,80,92,84,92,92,68,75,80,82,71,87,103,105,45</IsT>
+  </用户本地配置>
+</NewDataSet>

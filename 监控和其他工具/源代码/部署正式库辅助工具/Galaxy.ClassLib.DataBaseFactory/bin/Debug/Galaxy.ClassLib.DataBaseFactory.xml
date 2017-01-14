@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Galaxy.ClassLib.DataBaseFactory</name>
+    </assembly>
+    <members>
+        <member name="T:Galaxy.ClassLib.DataBaseFactory.DBFactory">
+            <summary>
+            包含工厂可以处理的所有,也就是具体工厂角色
+            </summary>
+        </member>
+        <member name="T:Galaxy.ClassLib.DataBaseFactory.I_DBFactory">
+            <summary>
+            定义工厂调用接口，也就是所谓的抽象工厂角色
+            </summary>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.I_DBFactory.DbLinkAccess(System.String)">
+            <summary>
+            获取数据库操作类的实例,用于Access
+            </summary>
+            <param name="ConnConfig">数据库配置key</param>
+            <returns></returns>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.I_DBFactory.DbLinkSqlMain(System.String)">
+            <summary>
+            获取数据库操作类的实例,用于sql
+            </summary>
+            <param name="ConnConfig">数据库配置key</param>
+            <returns></returns>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.DBFactory.DbLinkAccess(System.String)">
+            <summary>
+            获取数据库操作类的实例,仅用于Access数据库
+            </summary>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.DBFactory.DbLinkSqlMain(System.String)">
+            <summary>
+            获取数据库操作类的实例,用于sql数据库
+            </summary>
+        </member>
+        <member name="T:Galaxy.ClassLib.DataBaseFactory.Dblink_Access_Main">
+            <summary>
+            Access数据库连接类,具体产品角色(此类为资讯系统设定，其他系统调用另外的角色)
+            功能列表:
+            1.初始化数据库连接
+            2.传送不同参数，执行sql语句，通过哈希表返回执行结果集合
+            </summary>
+        </member>
+        <member name="T:Galaxy.ClassLib.DataBaseFactory.I_Dblink">
+            <summary>
+            定义数据库操作方法的接口，也就是所谓的抽象产品角色
+            </summary>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.I_Dblink.UpdateMore(System.String,System.String)">
+            <summary>
+            从XML文件更新数据库
+            </summary>
+            <param name="oldtempcmd">用于获取数据结构的原始临时sql语句</param>
+            <param name="XMLpath">文件路径</param>
+            <returns>返回结果集合对应的哈希表,包括执行是否成功</returns>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.I_Dblink.RunProc(System.String)">
+            <summary>
+            运行SQL语句
+            </summary>
+            <param name="SQL">需要执行的sql语句</param>
+            <returns>返回结果集合对应的哈希表,包括执行是否成功</returns>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.I_Dblink.RunProc(System.String,System.Data.DataSet)">
+            <summary>
+            运行SQL语句
+            </summary>
+            <param name="SQL">SQL语句</param>
+            <param name="Ds">DataSet对象</param>
+            <returns>返回结果集合对应的哈希表,包括执行是否成功，执行结果的数据集</returns>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.I_Dblink.RunProc(System.String,System.Data.DataSet,System.String)">
+            <summary>
+            运行SQL语句
+            </summary>
+            <param name="SQL">SQL语句</param>
+            <param name="Ds">DataSet对象</param>
+            <param name="tablename">表名</param>
+            <returns>返回结果集合对应的哈希表,包括执行是否成功，执行结果的数据集</returns>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.I_Dblink.RunProc_CMD(System.String,System.Data.DataSet)">
+            <summary>
+            运行存储过程
+            </summary>
+            <param name="P_cmd">存储过程名称</param>
+            <param name="Ds">DataSet对象</param>
+            <returns>返回结果集合对应的哈希表,包括执行是否成功，执行结果的数据集</returns>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.I_Dblink.RunProc_CMD(System.String,System.Data.DataSet,System.Collections.Hashtable)">
+            <summary>
+            运行存储过程
+            </summary>
+            <param name="P_cmd">存储过程名称</param>
+            <param name="Ds">DataSet对象</param>
+            <param name="P_ht_in">哈希表，对应存储过程传入参数,keys为参数标记，values为参数值</param>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.I_Dblink.RunProc_CMD(System.String,System.Data.DataSet,System.Collections.Hashtable,System.Collections.Hashtable@)">
+            <summary>
+            运行存储过程
+            </summary>
+            <param name="P_cmd">存储过程名称</param>
+            <param name="Ds">DataSet对象</param>
+            <param name="P_ht_in">哈希表，对应存储过程传入参数</param>
+            <param name="P_ht_out">哈希表，对应存储过程传出参数,传址</param>
+        </member>
+        <member name="F:Galaxy.ClassLib.DataBaseFactory.Dblink_Access_Main.ConnStr">
+            <summary>
+            数据库连接字符串
+            </summary>
+        </member>
+        <member name="F:Galaxy.ClassLib.DataBaseFactory.Dblink_Access_Main.return_ht">
+            <summary>
+            用于返回值集合的哈希表
+            哈希表返回值说明:
+            return_ht["return_ds"] = null; 返回的执行结果数据集，DataSet类型
+            return_ht["return_float"] = null; 返回的执行结果标志，执行成功并且返回的数据大于0条，则为true
+            return_ht["return_errmsg"] = null; 返回的错误捕获信息，string类型
+            return_ht["return_other"] = null; 返回的特殊值类型，用途不定，类型不定
+            </summary>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.Dblink_Access_Main.#ctor(System.String)">
+            <summary>
+            Access数据库连接类构造函数
+            </summary>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.Dblink_Access_Main.setregedit(System.String)">
+            <summary>
+            从注册表创建数据库服务器信息
+            </summary>
+            <param name="dblink">连接字符串</param>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.Dblink_Access_Main.getregedit">
+            <summary>
+            从注册表读取数据库服务器信息
+            </summary>
+            <returns>连接字符串数组</returns>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.Dblink_Access_Main.get_info(System.String)">
+            <summary>
+            读取配置文件
+            </summary>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.Dblink_Access_Main.Dispose(System.Data.OleDb.OleDbConnection)">
+            <summary>
+            垃圾处理方法,销毁SqlConnection对象
+            </summary>
+            <param name="Conn">数据库连接对象</param>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.Dblink_Access_Main.Galaxy#ClassLib#DataBaseFactory#I_Dblink#UpdateMore(System.String,System.String)">
+            <summary>
+            从XML文件更新数据库
+            </summary>
+            <param name="oldtempcmd">用于获取数据结构的原始临时sql语句</param>
+            <param name="XMLpath">文件路径</param>
+            <returns>返回结果集合对应的哈希表,包括执行是否成功</returns>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.Dblink_Access_Main.Galaxy#ClassLib#DataBaseFactory#I_Dblink#RunProc(System.String)">
+            <summary>
+            运行SQL语句
+            </summary>
+            <param name="SQL">需要执行的sql语句</param>
+            <returns>返回结果集合对应的哈希表,包括执行是否成功,受影响的行数</returns>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.Dblink_Access_Main.Galaxy#ClassLib#DataBaseFactory#I_Dblink#RunProc(System.String,System.Data.DataSet)">
+            <summary>
+            运行SQL语句
+            </summary>
+            <param name="SQL">SQL语句</param>
+            <param name="Ds">DataSet对象</param>
+            <returns>返回结果集合对应的哈希表,包括执行是否成功，执行结果的数据集</returns>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.Dblink_Access_Main.Galaxy#ClassLib#DataBaseFactory#I_Dblink#RunProc(System.String,System.Data.DataSet,System.String)">
+            <summary>
+            运行SQL语句
+            </summary>
+            <param name="SQL">SQL语句</param>
+            <param name="Ds">DataSet对象</param>
+            <param name="tablename">表名</param>
+            <returns>返回结果集合对应的哈希表,包括执行是否成功，执行结果的数据集</returns>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.Dblink_Access_Main.Galaxy#ClassLib#DataBaseFactory#I_Dblink#RunProc_CMD(System.String,System.Data.DataSet)">
+            <summary>
+            运行存储过程
+            </summary>
+            <param name="P_cmd">存储过程名称</param>
+            <param name="Ds">DataSet对象</param>
+            <returns>返回结果集合对应的哈希表,包括执行是否成功，执行结果的数据集</returns>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.Dblink_Access_Main.Galaxy#ClassLib#DataBaseFactory#I_Dblink#RunProc_CMD(System.String,System.Data.DataSet,System.Collections.Hashtable)">
+            <summary>
+            运行存储过程(Access存储过程是按照顺序传值的,跟变量名称无关)
+            </summary>
+            <param name="P_cmd">存储过程名称</param>
+            <param name="Ds">DataSet对象</param>
+            <param name="P_ht_in">哈希表，对应存储过程传入参数,keys为参数标记，values为参数值</param>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.Dblink_Access_Main.Galaxy#ClassLib#DataBaseFactory#I_Dblink#RunProc_CMD(System.String,System.Data.DataSet,System.Collections.Hashtable,System.Collections.Hashtable@)">
+            <summary>
+            运行存储过程(实际上Access不支持输出参数)
+            </summary>
+            <param name="P_cmd">存储过程名称</param>
+            <param name="Ds">DataSet对象</param>
+            <param name="P_ht_in">哈希表，对应存储过程传入参数</param>
+            <param name="P_ht_out">哈希表，对应存储过程传出参数,传址</param>
+        </member>
+        <member name="T:Galaxy.ClassLib.DataBaseFactory.Dblink_Sql_Main">
+            <summary>
+            用于华商中国主站，并且任何系统通用
+            MS SQL数据库连接类,具体产品角色(此类为资讯系统设定，其他系统调用另外的角色)
+            功能列表:
+            1.初始化数据库连接
+            2.传送不同参数，执行sql语句，通过哈希表返回执行结果集合
+            </summary>
+        </member>
+        <member name="F:Galaxy.ClassLib.DataBaseFactory.Dblink_Sql_Main.ConnStr">
+            <summary>
+            数据库连接字符串
+            </summary>
+        </member>
+        <member name="F:Galaxy.ClassLib.DataBaseFactory.Dblink_Sql_Main.return_ht">
+            <summary>
+            用于返回值集合的哈希表
+            哈希表返回值说明:
+            return_ht["return_ds"] = null; 返回的执行结果数据集，DataSet类型
+            return_ht["return_float"] = null; 返回的执行结果标志，执行成功并且返回的数据大于0条，则为true
+            return_ht["return_errmsg"] = null; 返回的错误捕获信息，string类型
+            return_ht["return_other"] = null; 返回的特殊值类型，用途不定，类型不定
+            </summary>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.Dblink_Sql_Main.#ctor(System.String)">
+            <summary>
+            MS SQL数据库连接类构造函数
+            </summary>
+            <param name="ConnConfig">web.config配置文件中appSettings下关于数据库连接字段的KEY</param>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.Dblink_Sql_Main.setregedit(System.String)">
+            <summary>
+            从注册表创建数据库服务器信息
+            </summary>
+            <param name="dblink">连接字符串</param>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.Dblink_Sql_Main.getregedit">
+            <summary>
+            从注册表读取数据库服务器信息
+            </summary>
+            <returns>连接字符串数组</returns>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.Dblink_Sql_Main.get_info(System.String)">
+            <summary>
+            读取配置文件
+            </summary>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.Dblink_Sql_Main.Dispose(System.Data.SqlClient.SqlConnection)">
+            <summary>
+            垃圾处理方法,销毁SqlConnection对象
+            </summary>
+            <param name="Conn">数据库连接对象</param>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.Dblink_Sql_Main.Galaxy#ClassLib#DataBaseFactory#I_Dblink#UpdateMore(System.String,System.String)">
+            <summary>
+            从XML文件更新数据库
+            </summary>
+            <param name="oldtempcmd">用于获取数据结构的原始临时sql语句</param>
+            <param name="XMLpath">文件路径</param>
+            <returns>返回结果集合对应的哈希表,包括执行是否成功,受影响的行数</returns>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.Dblink_Sql_Main.Galaxy#ClassLib#DataBaseFactory#I_Dblink#RunProc(System.String)">
+            <summary>
+            运行SQL语句
+            </summary>
+            <param name="SQL">需要执行的sql语句</param>
+            <returns>返回结果集合对应的哈希表,包括执行是否成功,受影响的行数</returns>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.Dblink_Sql_Main.Galaxy#ClassLib#DataBaseFactory#I_Dblink#RunProc(System.String,System.Data.DataSet)">
+            <summary>
+            运行SQL语句
+            </summary>
+            <param name="SQL">SQL语句</param>
+            <param name="Ds">DataSet对象</param>
+            <returns>返回结果集合对应的哈希表,包括执行是否成功，执行结果的数据集</returns>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.Dblink_Sql_Main.Galaxy#ClassLib#DataBaseFactory#I_Dblink#RunProc(System.String,System.Data.DataSet,System.String)">
+            <summary>
+            运行SQL语句
+            </summary>
+            <param name="SQL">SQL语句</param>
+            <param name="Ds">DataSet对象</param>
+            <param name="tablename">表名</param>
+            <returns>返回结果集合对应的哈希表,包括执行是否成功，执行结果的数据集</returns>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.Dblink_Sql_Main.Galaxy#ClassLib#DataBaseFactory#I_Dblink#RunProc_CMD(System.String,System.Data.DataSet)">
+            <summary>
+            运行存储过程
+            </summary>
+            <param name="P_cmd">存储过程名称</param>
+            <param name="Ds">DataSet对象</param>
+            <returns>返回结果集合对应的哈希表,包括执行是否成功，执行结果的数据集</returns>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.Dblink_Sql_Main.Galaxy#ClassLib#DataBaseFactory#I_Dblink#RunProc_CMD(System.String,System.Data.DataSet,System.Collections.Hashtable)">
+            <summary>
+            运行存储过程
+            </summary>
+            <param name="P_cmd">存储过程名称</param>
+            <param name="Ds">DataSet对象</param>
+            <param name="P_ht_in">哈希表，对应存储过程传入参数,keys为参数标记，values为参数值</param>
+        </member>
+        <member name="M:Galaxy.ClassLib.DataBaseFactory.Dblink_Sql_Main.Galaxy#ClassLib#DataBaseFactory#I_Dblink#RunProc_CMD(System.String,System.Data.DataSet,System.Collections.Hashtable,System.Collections.Hashtable@)">
+            <summary>
+            运行存储过程
+            </summary>
+            <param name="P_cmd">存储过程名称</param>
+            <param name="Ds">DataSet对象</param>
+            <param name="P_ht_in">哈希表，对应存储过程传入参数</param>
+            <param name="P_ht_out">哈希表，对应存储过程传出参数,传址</param>
+        </member>
+    </members>
+</doc>

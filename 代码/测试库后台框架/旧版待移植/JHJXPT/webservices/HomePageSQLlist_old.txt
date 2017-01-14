@@ -1,0 +1,135 @@
+
+select       [[toptop]]       '序号'= row_number() over (order  by  case   竞标状态   when   '--'   then  999 else 1  end asc, case   当前买家最高价   when   '--'   then  999 else 1  end asc,  case   当前卖家最低价   when   '--'   then  999 else 1  end asc , 最低价标的达成率 desc , 分类排序n,  商品编号 DESC), 商品编号,商品名称,型号规格,计价单位,当前投标轮次,竞标状态,上轮定标价,当前卖家最低价,当前买家最高价,升降幅,最低价标的达成率,最低价标的投标拟售量,当前集合预订量, 最低价标的经济批量,最低价标的日均最高供货量,买家当前数量,买家今日新增数量,买家区域覆盖率,卖家当前数量,卖家今日新增数量,卖家区域覆盖率, 最低价标的供货周期,商品描述,合同周期n,是否进入冷静期n,上轮定标价n,区域总量n,买家区域量n,卖家区域量n,最低价标的当前集合预订量n  from (
+
+
+ select * ,  '升降幅'= case  when 上轮定标价n = 0  or 当前卖家最低价n = 0.00  then '--' else  convert(varchar(20),convert(decimal(18,2),ROUND((convert(float,当前卖家最低价n)-convert(float,上轮定标价n))/convert(float,上轮定标价n)*100,2))) end  , 
+     '当前卖家最低价' = case  when 当前卖家最低价n = 0.00 then '--' else convert(varchar(20),当前卖家最低价n) end,
+	 '当前买家最高价' = case  when 当前买家最高价n = 0.00 then '--' else convert(varchar(20),当前买家最高价n) end,
+    '上轮定标价'= case  when 上轮定标价n = 0 then '--' else convert(varchar(20),上轮定标价n) end ,  
+	   '最低价标的达成率'= case  when 最低价标的投标拟售量 = 0 then 0  else  ROUND(convert(float,最低价标的当前集合预订量n)/convert(float,最低价标的投标拟售量)*100,2) end,    
+	    '最低价标的日均最高供货量'=  case  when 最低价标的投标拟售量 = 0 then '--'  else  case  when 合同周期n = '三个月' then convert(varchar(20),convert(decimal(18,2),ROUND(convert(float,最低价标的投标拟售量)/90+1,2)))  when 合同周期n = '一年' then convert(varchar(20),convert(decimal(18,2),ROUND(convert(float,最低价标的投标拟售量)/365+1,2)))  else  '--' end end,  
+		  '买家区域覆盖率'= convert(varchar(20),ROUND(convert(float,买家区域量n)/convert(float,区域总量n)*100,2)) , 
+		    '卖家区域覆盖率'=convert(varchar(20),ROUND(convert(float,卖家区域量n)/convert(float,区域总量n)*100,2)) 
+   from   
+ (
+
+select 
+'分类排序n'=menu.SortOrder,
+'商品编号'=mainSP.SPBH,
+'商品名称'=mainSP.SPMC,
+'商品描述'=mainSP.SPMS,
+'型号规格'=mainSP.GG,
+'计价单位'=mainSP.JJDW,
+'合同周期n'=LJQ.HTQX,
+'是否进入冷静期n'=LJQ.SFJRLJQ,
+'竞标状态'= case  when LJQ.SFJRLJQ = '是' then '冷静期'  else '竞标' end  ,
+'当前投标轮次'=convert(varchar(20),convert(int,isnull((
+select count(*) from (
+select FFF.T_YSTBDBH,FFF.Z_ZBSJ,FFF.Z_SPBH,FFF.Z_HTQX from AAA_ZBDBXXB as FFF where FFF.Z_SPBH=mainSP.SPBH and FFF.Z_HTQX=LJQ.HTQX group by FFF.T_YSTBDBH,FFF.Z_ZBSJ,FFF.Z_SPBH,FFF.Z_HTQX
+) as tabtemp
+ ),0))+1),
+'上轮定标价n'=isnull((select top 1 FFF.Z_ZBJG from AAA_ZBDBXXB as FFF where FFF.Z_SPBH=mainSP.SPBH and FFF.Z_HTQX=LJQ.HTQX and FFF.Z_DBSJ is not null  order by FFF.Z_DBSJ DESC),0.00) ,
+'当前卖家最低价n'=isnull((select top 1 FFF.TBJG from AAA_TBD as FFF  where FFF.SPBH =mainSP.SPBH and  FFF.HTQX = LJQ.HTQX and FFF.ZT = '竞标' order by FFF.TBJG ASC,FFF.TJSJ ASC),0.00),
+'当前买家最高价n'=isnull((select top 1 FFF.NMRJG from AAA_YDDXXB as FFF  where FFF.SPBH =mainSP.SPBH and  FFF.HTQX = LJQ.HTQX and FFF.ZT = '竞标' order by FFF.NMRJG DESC,FFF.TJSJ ASC),0.00),
+'最低价标的投标拟售量'=isnull((select top 1 FFF.TBNSL-FFF.YZBSL from AAA_TBD as FFF  where FFF.SPBH =mainSP.SPBH and  FFF.HTQX = LJQ.HTQX and FFF.ZT = '竞标' order by FFF.TBJG ASC,FFF.TJSJ ASC),0),
+'当前集合预订量' = isnull((select sum(Y.NDGSL-Y.YZBSL) from AAA_YDDXXB as Y where Y.SPBH =mainSP.SPBH and  Y.HTQX = LJQ.HTQX and Y.ZT = '竞标'),0),
+'最低价标的当前集合预订量n'=isnull((select sum(Y.NDGSL-Y.YZBSL) from AAA_YDDXXB as Y where Y.SPBH =mainSP.SPBH and  Y.HTQX = LJQ.HTQX and Y.ZT = '竞标' and Y.NMRJG >= (isnull((select top 1 FFF.TBJG from AAA_TBD as FFF  where FFF.SPBH =mainSP.SPBH and  FFF.HTQX = LJQ.HTQX and FFF.ZT = '竞标' order by FFF.TBJG ASC,FFF.TJSJ ASC),0.00))  and charindex('|'+Y.SHQYsheng+'|',(isnull((select top 1 FFF.GHQY from AAA_TBD as FFF  where FFF.SPBH =mainSP.SPBH and  FFF.HTQX = LJQ.HTQX and FFF.ZT = '竞标' order by FFF.TBJG ASC,FFF.TJSJ ASC),'')))>0 ),0),
+
+'最低价标的经济批量'=convert(varchar(20),isnull((select top 1 FFF.MJSDJJPL from AAA_TBD as FFF  where FFF.SPBH =mainSP.SPBH and  FFF.HTQX = LJQ.HTQX and FFF.ZT = '竞标' order by FFF.TBJG ASC,FFF.TJSJ ASC),0)),
+'买家当前数量'=isnull((select count(distinct Y.MJJSBH) from AAA_YDDXXB as Y where Y.SPBH =mainSP.SPBH and  Y.HTQX = LJQ.HTQX and Y.ZT = '竞标'),0),
+'买家今日新增数量'=isnull((select count(distinct Y.MJJSBH) from AAA_YDDXXB as Y where Y.SPBH =mainSP.SPBH and  Y.HTQX = LJQ.HTQX and Y.ZT = '竞标'   and DateDiff(dd,Y.TJSJ,getdate())=0),0),
+'区域总量n'=isnull((select count(QU.ID) from AAA_CityList_qu as QU),0),
+'买家区域量n'= isnull((select count(distinct QQ.I_SSQYQ) from AAA_DLZHXXB as QQ where QQ.J_BUYJSBH in ( select distinct Y.MJJSBH from AAA_YDDXXB as Y where Y.SPBH =mainSP.SPBH and  Y.HTQX = LJQ.HTQX and Y.ZT = '竞标' )),0),
+'卖家当前数量'=isnull((select count(distinct Y.MJJSBH) from AAA_TBD as Y where Y.SPBH =mainSP.SPBH and  Y.HTQX = LJQ.HTQX and Y.ZT = '竞标'),0),
+'卖家今日新增数量'=isnull((select count(distinct Y.MJJSBH) from AAA_TBD as Y where Y.SPBH =mainSP.SPBH and  Y.HTQX = LJQ.HTQX and Y.ZT = '竞标'  and DateDiff(dd,Y.TJSJ,getdate())=0),0),
+'卖家区域量n'=isnull((select count(distinct QQ.I_SSQYQ) from AAA_DLZHXXB as QQ where QQ.J_SELJSBH in ( select distinct Y.MJJSBH from AAA_TBD as Y where Y.SPBH =mainSP.SPBH and  Y.HTQX = LJQ.HTQX and Y.ZT = '竞标' )),0),
+'最低价标的供货周期'='定标后'+LJQ.HTQX+'内'
+from  AAA_PTSPXXB as mainSP left join AAA_LJQDQZTXXB as LJQ on mainSP.SPBH=LJQ.SPBH left join AAA_tbMenuSPFL as menu on menu.SortID=mainSP.SSFLBH where ( (mainSP.SPBH + LJQ.HTQX) in ( select distinct TTT.SPBH + TTT.HTQX from  AAA_TBD as TTT  where TTT.ZT ='竞标') or  (mainSP.SPBH + LJQ.HTQX) in ( select distinct TTT.SPBH + TTT.HTQX from  AAA_YDDXXB as TTT  where TTT.ZT ='竞标') ) AND mainSP.SFYX='是'
+) as tab11
+
+  union all
+
+select 
+'分类排序n'=menu.SortOrder,
+'商品编号'=mainSP.SPBH,
+'商品名称'=mainSP.SPMC,
+'商品描述'=mainSP.SPMS,
+'型号规格'=mainSP.GG,
+'计价单位'=mainSP.JJDW,
+'合同周期n'='--',
+'是否进入冷静期n'='--',
+'竞标状态'='--',
+'当前投标轮次'='--',
+'上轮定标价n'=0,
+
+'当前卖家最低价n'=0,
+'当前买家最高价n'=0,
+'最低价标的投标拟售量'=0,
+'当前集合预订量'=0,
+'最低价标的当前集合预订量n'=0,
+'最低价标的经济批量'='--',
+'买家当前数量'=0,
+'买家今日新增数量'=0,
+'区域总量n'=0,
+'买家区域量n'=0,
+'卖家当前数量'=0,
+'卖家今日新增数量'=0,
+'卖家区域量n'=0,
+'最低价标的供货周期'='--',
+'升降幅'='--',
+'当前卖家最低价'='--',
+'当前买家最高价'='--',
+'上轮定标价'='--',
+'最低价标的达成率'=0,
+'最低价标的日均最高供货量'='--',
+'买家区域覆盖率'='--',
+'卖家区域覆盖率'='--' 
+from  AAA_PTSPXXB as mainSP left join AAA_tbMenuSPFL as menu on menu.SortID=mainSP.SSFLBH where ( mainSP.SPBH not  in ( select distinct TTT.SPBH from  AAA_TBD as TTT  where TTT.ZT ='竞标') and  mainSP.SPBH not  in ( select distinct TTT.SPBH from  AAA_YDDXXB as TTT  where TTT.ZT ='竞标') ) and mainSP.SFYX='是'
+
+union all
+select * ,  '升降幅'= case  when 上轮定标价n = 0  or 当前卖家最低价n = 0.00  then '--' else  convert(varchar(20),convert(decimal(18,2),ROUND((convert(float,当前卖家最低价n)-convert(float,上轮定标价n))/convert(float,上轮定标价n)*100,2))) end  , 
+     '当前卖家最低价' = case  when 当前卖家最低价n = 0.00 then '--' else convert(varchar(20),当前卖家最低价n) end,
+	 '当前买家最高价' = case  when 当前买家最高价n = 0.00 then '--' else convert(varchar(20),当前买家最高价n) end,
+    '上轮定标价'= case  when 上轮定标价n = 0 then '--' else convert(varchar(20),上轮定标价n) end ,  
+	   '最低价标的达成率'= case  when 最低价标的投标拟售量 = 0 then 0  else  ROUND(convert(float,最低价标的当前集合预订量n)/convert(float,最低价标的投标拟售量)*100,2) end,    
+	    '最低价标的日均最高供货量'=  case  when 最低价标的投标拟售量 = 0 then '--'  else  case  when 合同周期n = '三个月' then convert(varchar(20),convert(decimal(18,2),ROUND(convert(float,最低价标的投标拟售量)/90+1,2)))  when 合同周期n = '一年' then convert(varchar(20),convert(decimal(18,2),ROUND(convert(float,最低价标的投标拟售量)/365+1,2)))  else  '--' end end,  
+		  '买家区域覆盖率'= convert(varchar(20),ROUND(convert(float,买家区域量n)/convert(float,区域总量n)*100,2)) , 
+		    '卖家区域覆盖率'=convert(varchar(20),ROUND(convert(float,卖家区域量n)/convert(float,区域总量n)*100,2)) 
+   from   
+ (
+select 
+'分类排序n'=menu.SortOrder,
+'商品编号'=mainSP.SPBH,
+'商品名称'=mainSP.SPMC,
+'商品描述'=mainSP.SPMS,
+'型号规格'=mainSP.GG,
+'计价单位'=mainSP.JJDW,
+'合同周期n'='即时',
+'是否进入冷静期n'='--',
+'竞标状态'= '竞标'  ,
+'当前投标轮次'=convert(varchar(20),convert(int,isnull((
+select count(*) from (
+select FFF.T_YSTBDBH,FFF.Z_ZBSJ,FFF.Z_SPBH,FFF.Z_HTQX from AAA_ZBDBXXB as FFF where FFF.Z_SPBH=mainSP.SPBH and FFF.Z_HTQX='即时'  group by FFF.T_YSTBDBH,FFF.Z_ZBSJ,FFF.Z_SPBH,FFF.Z_HTQX
+) as tabtemp
+ ),0))+1),
+'上轮定标价n'=isnull((select top 1 FFF.Z_ZBJG from AAA_ZBDBXXB as FFF where FFF.Z_SPBH=mainSP.SPBH and FFF.Z_HTQX='即时' and FFF.Z_DBSJ is not null  order by FFF.Z_DBSJ DESC),0.00) ,
+'当前卖家最低价n'=isnull((select top 1 FFF.TBJG from AAA_TBD as FFF  where FFF.SPBH =mainSP.SPBH and  FFF.HTQX = '即时' and FFF.ZT = '竞标' order by FFF.TBJG ASC,FFF.TJSJ ASC),0.00),
+'当前买家最高价n'=isnull((select top 1 FFF.NMRJG from AAA_YDDXXB as FFF  where FFF.SPBH =mainSP.SPBH and  FFF.HTQX ='即时' and FFF.ZT = '竞标' order by FFF.NMRJG DESC,FFF.TJSJ ASC),0.00),
+'最低价标的投标拟售量'=isnull((select top 1 FFF.TBNSL-FFF.YZBSL from AAA_TBD as FFF  where FFF.SPBH =mainSP.SPBH and  FFF.HTQX = '即时' and FFF.ZT = '竞标' order by FFF.TBJG ASC,FFF.TJSJ ASC),0),
+'当前集合预订量' = isnull((select sum(Y.NDGSL-Y.YZBSL) from AAA_YDDXXB as Y where Y.SPBH =mainSP.SPBH and  Y.HTQX = '即时' and Y.ZT = '竞标'),0),
+'最低价标的当前集合预订量n'=isnull((select sum(Y.NDGSL-Y.YZBSL) from AAA_YDDXXB as Y where Y.SPBH =mainSP.SPBH and  Y.HTQX = '即时' and Y.ZT = '竞标' and Y.NMRJG >= (isnull((select top 1 FFF.TBJG from AAA_TBD as FFF  where FFF.SPBH =mainSP.SPBH and  FFF.HTQX = '即时' and FFF.ZT = '竞标' order by FFF.TBJG ASC,FFF.TJSJ ASC),0.00))  and charindex('|'+Y.SHQYsheng+'|',(isnull((select top 1 FFF.GHQY from AAA_TBD as FFF  where FFF.SPBH =mainSP.SPBH and  FFF.HTQX = '即时' and FFF.ZT = '竞标' order by FFF.TBJG ASC,FFF.TJSJ ASC),'')))>0 ),0),
+'最低价标的经济批量'=convert(varchar(20),isnull((select top 1 FFF.MJSDJJPL from AAA_TBD as FFF  where FFF.SPBH =mainSP.SPBH and  FFF.HTQX = '即时' and FFF.ZT = '竞标' order by FFF.TBJG ASC,FFF.TJSJ ASC),0)),
+'买家当前数量'=isnull((select count(distinct Y.MJJSBH) from AAA_YDDXXB as Y where Y.SPBH =mainSP.SPBH and  Y.HTQX = '即时' and Y.ZT = '竞标'),0),
+'买家今日新增数量'=isnull((select count(distinct Y.MJJSBH) from AAA_YDDXXB as Y where Y.SPBH =mainSP.SPBH and  Y.HTQX = '即时' and Y.ZT = '竞标'   and DateDiff(dd,Y.TJSJ,getdate())=0),0),
+'区域总量n'=isnull((select count(QU.ID) from AAA_CityList_qu as QU),0),
+'买家区域量n'= isnull((select count(distinct QQ.I_SSQYQ) from AAA_DLZHXXB as QQ where QQ.J_BUYJSBH in ( select distinct Y.MJJSBH from AAA_YDDXXB as Y where Y.SPBH =mainSP.SPBH and  Y.HTQX = '即时' and Y.ZT = '竞标' )),0),
+'卖家当前数量'=isnull((select count(distinct Y.MJJSBH) from AAA_TBD as Y where Y.SPBH =mainSP.SPBH and  Y.HTQX = '即时' and Y.ZT = '竞标'),0),
+'卖家今日新增数量'=isnull((select count(distinct Y.MJJSBH) from AAA_TBD as Y where Y.SPBH =mainSP.SPBH and  Y.HTQX = '即时' and Y.ZT = '竞标'  and DateDiff(dd,Y.TJSJ,getdate())=0),0),
+'卖家区域量n'=isnull((select count(distinct QQ.I_SSQYQ) from AAA_DLZHXXB as QQ where QQ.J_SELJSBH in ( select distinct Y.MJJSBH from AAA_TBD as Y where Y.SPBH =mainSP.SPBH and  Y.HTQX = '即时' and Y.ZT = '竞标' )),0),
+'最低价标的供货周期'='定标后七日内'
+from  AAA_PTSPXXB as mainSP left join AAA_tbMenuSPFL as menu on menu.SortID=mainSP.SSFLBH where ( mainSP.SPBH in (select distinct TTT.SPBH  from  AAA_TBD as TTT  where TTT.ZT ='竞标' and TTT.HTQX='即时') or  mainSP.SPBH in (select distinct TTT.SPBH from  AAA_YDDXXB as TTT  where TTT.ZT ='竞标' and TTT.HTQX='即时') ) and mainSP.SFYX='是'
+) as tab2
+
+) as tabaaa          [[shangpin]]        order  by  case   竞标状态   when   '--'   then  999 else 1  end asc, case   当前买家最高价   when   '--'   then  999 else 1  end asc,  case   当前卖家最低价   when   '--'   then  999 else 1  end asc , 最低价标的达成率 desc ,分类排序n,  商品编号 DESC
+
+

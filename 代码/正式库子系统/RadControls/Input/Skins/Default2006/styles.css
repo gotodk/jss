@@ -1,0 +1,147 @@
+﻿/* WRAPPER SETTINGS */
+
+.radInput_Default2006
+{
+	font: normal 11px Arial, Verdana, Tahoma, Sans-Serif;	
+	vertical-align: middle;
+}
+
+.radInput_Default2006 table,
+.radInput_Default2006 table td
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.radInput_Default2006 .inputCell 
+{		
+	padding: 0 2px 0 0;
+	*padding: 0 4px 0 0; /*IE hack*/	
+}
+
+/* SPIN BUTTONS */
+.radInput_Default2006 a.spinbutton
+{
+	display: block;
+	text-indent: -9999px;
+	width: 17px;
+	height: 9px; 
+	line-height: 9px;
+	background: transparent url('Img/SpinButtonSprites.gif') no-repeat;
+	font-size: 1px;
+	top: 2px;
+	position: relative;
+	*position: inherit;
+	outline: none;	
+}
+
+.radInput_Default2006 a.spinbutton.up
+{
+	background-position: center 0;
+}
+
+.radInput_Default2006 a.spinbutton.down
+{
+	background-position: center -9px;
+}
+
+.radInput_Default2006 a.gobutton
+{
+	display: block;
+	text-indent: -9999px;
+	width: 20px;
+	height: 17px; 
+	line-height: 17px;
+	background: transparent url('Img/button.gif') no-repeat;
+	font-size: 1px;
+	position: relative;
+	*position: inherit; /*IE fix*/
+	outline: none;
+}
+
+/* END OF WRAPPER SETTINGS */
+
+
+
+/* INPUT STYLES SETTINGS */
+.radEnabledCss_Default2006 
+{
+	color: #424242;
+	border: solid 1px #aeaeae;
+}
+
+.radHoverCss_Default2006 
+{
+	color: #242424;
+	border: solid 1px #c6c6c6;
+}
+
+.radDisabledCss_Default2006
+{
+	color: #ccc;
+	border: solid 1px #aeaeae;
+}
+
+.radDisabledCss_Default2006 a.gobutton,
+.radDisabledCss_Default2006 a.spinbutton
+{
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=30);
+	opacity: .3; 
+	-moz-opacity: .3;
+	cursor: no-drop;
+}
+
+.radEmptyMessageCss_Default2006
+{
+	color: #424242;
+	border: solid 1px #aeaeae;
+}
+
+.radFocusedCss_Default2006
+{
+	border: solid 1px #777;
+	color: #242424;	
+}
+
+.radNegativeCss_Default2006 
+{
+	border: solid 1px #aeaeae;
+	color: #424242;
+}
+
+.radInvalidCss_Default2006 
+{
+	background-image: url('Img/error-sign.gif');
+	background-position: center right;
+	background-repeat: no-repeat;
+	border: solid 1px #ff9000;
+	color: #ff9000;
+}
+
+.radLabelCss_Default2006
+{	  
+	color: Red;
+	font-size: small;
+	white-space:nowrap;
+}
+
+.radHint_Default2006 
+{
+	background: infobackground;
+	margin-top: 5px;
+	border: solid 1px black;
+	text-align: left;
+	overflow: auto; 
+}
+
+.radHint_Default2006 a,
+.radHint_Default2006 a:visited,
+.radHint_Default2006 a:hover
+{
+	margin: 2px;
+	color: black;
+	text-decoration: none;
+	font-size: small;
+}
+

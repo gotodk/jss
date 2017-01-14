@@ -1,0 +1,15 @@
+F:\富美开发项目\2011工作副本\平台-工作副本\BeginCopyUp\bin\Debug\BeginCopyUp.exe
+F:\富美开发项目\2011工作副本\平台-工作副本\BeginCopyUp\bin\Debug\BeginCopyUp.pdb
+F:\富美开发项目\2011工作副本\平台-工作副本\BeginCopyUp\obj\x86\Debug\BeginCopyUp.Form1.resources
+F:\富美开发项目\2011工作副本\平台-工作副本\BeginCopyUp\obj\x86\Debug\BeginCopyUp.Properties.Resources.resources
+F:\富美开发项目\2011工作副本\平台-工作副本\BeginCopyUp\obj\x86\Debug\BeginCopyUp.csproj.GenerateResource.Cache
+F:\富美开发项目\2011工作副本\平台-工作副本\BeginCopyUp\obj\x86\Debug\BeginCopyUp.exe
+F:\富美开发项目\2011工作副本\平台-工作副本\BeginCopyUp\obj\x86\Debug\BeginCopyUp.pdb
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\BeginCopyUp\bin\Debug\BeginCopyUp.exe
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\BeginCopyUp\bin\Debug\BeginCopyUp.pdb
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\BeginCopyUp\obj\x86\Debug\BeginCopyUp.csprojResolveAssemblyReference.cache
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\BeginCopyUp\obj\x86\Debug\BeginCopyUp.Form1.resources
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\BeginCopyUp\obj\x86\Debug\BeginCopyUp.Properties.Resources.resources
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\BeginCopyUp\obj\x86\Debug\BeginCopyUp.csproj.GenerateResource.Cache
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\BeginCopyUp\obj\x86\Debug\BeginCopyUp.exe
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\BeginCopyUp\obj\x86\Debug\BeginCopyUp.pdb

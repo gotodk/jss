@@ -1,0 +1,58 @@
+.igtxt_LucidDreamEditWithButtons
+{
+	background-color:White;
+	font-family: Verdana;
+	border:solid 1px Gainsboro;
+}
+
+
+.igtxt_LucidDreamEdit
+{
+	background-color:White;
+	font-size:11px;
+	font-family: Verdana;
+	border:solid 1px Gainsboro;
+	color:Black;
+}
+
+
+.igtxt_LucidDreamEditInContainer
+{
+	background-color:White;
+	font-size:11px;
+	border-width:0px;
+	margin:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+
+.igtxt_LucidDreamButton
+{
+	background-color:White;
+	font-size:1px;
+	border:solid 1px White;
+}
+
+
+.igtxt_LucidDreamButtonHover
+{
+	background-color:#ABC1DE;
+	border:solid 1px #ABC1DE;
+}
+
+
+.igtxt_LucidDreamButtonPressed
+{
+	background-color:#FFA738;
+	border:solid 1px #ABC1DE;
+}
+
+
+.igtxt_LucidDreamButtonDisabled
+{
+	background-color:#EAF2FB;
+	border:solid 1px White;
+}
+
+

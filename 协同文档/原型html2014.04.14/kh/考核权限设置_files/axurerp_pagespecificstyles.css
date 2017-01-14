@@ -1,0 +1,876 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0 {
+    position:absolute;
+    left:50px;
+    top:20px;
+    width:610px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u1 {
+    position:absolute;
+    left:46px;
+    top:80px;
+    width:114px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u2 {
+    position:absolute;
+    left:46px;
+    top:106px;
+    width:591px;
+    height:201px
+}
+
+.u3_normal {
+    background-image: url('../考核权限设置_files/u3_normal.png');
+}
+
+.u3_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:157px;
+    height:36px;
+}
+
+#u3_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:163px;
+    height:42px;
+}
+
+.u4 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:153px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5_normal {
+    background-image: url('../考核权限设置_files/u5_normal.png');
+}
+
+.u5_container {
+    position:absolute;
+    left:157px;
+    top:0px;
+    width:96px;
+    height:36px;
+}
+
+#u5_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:102px;
+    height:42px;
+}
+
+.u6 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:92px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7_normal {
+    background-image: url('../考核权限设置_files/u7_normal.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:253px;
+    top:0px;
+    width:119px;
+    height:36px;
+}
+
+#u7_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:125px;
+    height:42px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:115px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9_normal {
+    background-image: url('../考核权限设置_files/u9_normal.png');
+}
+
+.u9_container {
+    position:absolute;
+    left:372px;
+    top:0px;
+    width:214px;
+    height:36px;
+}
+
+#u9_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:220px;
+    height:42px;
+}
+
+.u10 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:210px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11_normal {
+    background-image: url('../考核权限设置_files/u3_normal.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:0px;
+    top:36px;
+    width:157px;
+    height:36px;
+}
+
+#u11_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:163px;
+    height:42px;
+}
+
+.u12 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:153px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13_normal {
+    background-image: url('../考核权限设置_files/u5_normal.png');
+}
+
+.u13_container {
+    position:absolute;
+    left:157px;
+    top:36px;
+    width:96px;
+    height:36px;
+}
+
+#u13_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:102px;
+    height:42px;
+}
+
+.u14 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:92px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15_normal {
+    background-image: url('../考核权限设置_files/u7_normal.png');
+}
+
+.u15_container {
+    position:absolute;
+    left:253px;
+    top:36px;
+    width:119px;
+    height:36px;
+}
+
+#u15_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:125px;
+    height:42px;
+}
+
+.u16 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:115px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u17_normal {
+    background-image: url('../考核权限设置_files/u9_normal.png');
+}
+
+.u17_container {
+    position:absolute;
+    left:372px;
+    top:36px;
+    width:214px;
+    height:36px;
+}
+
+#u17_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:220px;
+    height:42px;
+}
+
+.u18 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:210px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19_normal {
+    background-image: url('../考核权限设置_files/u3_normal.png');
+}
+
+.u19_container {
+    position:absolute;
+    left:0px;
+    top:72px;
+    width:157px;
+    height:36px;
+}
+
+#u19_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:163px;
+    height:42px;
+}
+
+.u20 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:153px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21_normal {
+    background-image: url('../考核权限设置_files/u5_normal.png');
+}
+
+.u21_container {
+    position:absolute;
+    left:157px;
+    top:72px;
+    width:96px;
+    height:36px;
+}
+
+#u21_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:102px;
+    height:42px;
+}
+
+.u22 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:92px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u23_normal {
+    background-image: url('../考核权限设置_files/u7_normal.png');
+}
+
+.u23_container {
+    position:absolute;
+    left:253px;
+    top:72px;
+    width:119px;
+    height:36px;
+}
+
+#u23_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:125px;
+    height:42px;
+}
+
+.u24 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:115px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u25_normal {
+    background-image: url('../考核权限设置_files/u9_normal.png');
+}
+
+.u25_container {
+    position:absolute;
+    left:372px;
+    top:72px;
+    width:214px;
+    height:36px;
+}
+
+#u25_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:220px;
+    height:42px;
+}
+
+.u26 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:210px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27_normal {
+    background-image: url('../考核权限设置_files/u27_normal.png');
+}
+
+.u27_container {
+    position:absolute;
+    left:0px;
+    top:108px;
+    width:157px;
+    height:30px;
+}
+
+#u27_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:163px;
+    height:36px;
+}
+
+.u28 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:153px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29_normal {
+    background-image: url('../考核权限设置_files/u29_normal.png');
+}
+
+.u29_container {
+    position:absolute;
+    left:157px;
+    top:108px;
+    width:96px;
+    height:30px;
+}
+
+#u29_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:102px;
+    height:36px;
+}
+
+.u30 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:92px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31_normal {
+    background-image: url('../考核权限设置_files/u31_normal.png');
+}
+
+.u31_container {
+    position:absolute;
+    left:253px;
+    top:108px;
+    width:119px;
+    height:30px;
+}
+
+#u31_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:125px;
+    height:36px;
+}
+
+.u32 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:115px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u33_normal {
+    background-image: url('../考核权限设置_files/u33_normal.png');
+}
+
+.u33_container {
+    position:absolute;
+    left:372px;
+    top:108px;
+    width:214px;
+    height:30px;
+}
+
+#u33_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:220px;
+    height:36px;
+}
+
+.u34 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:210px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u35_normal {
+    background-image: url('../考核权限设置_files/u27_normal.png');
+}
+
+.u35_container {
+    position:absolute;
+    left:0px;
+    top:138px;
+    width:157px;
+    height:30px;
+}
+
+#u35_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:163px;
+    height:36px;
+}
+
+.u36 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:153px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u37_normal {
+    background-image: url('../考核权限设置_files/u29_normal.png');
+}
+
+.u37_container {
+    position:absolute;
+    left:157px;
+    top:138px;
+    width:96px;
+    height:30px;
+}
+
+#u37_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:102px;
+    height:36px;
+}
+
+.u38 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:92px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u39_normal {
+    background-image: url('../考核权限设置_files/u31_normal.png');
+}
+
+.u39_container {
+    position:absolute;
+    left:253px;
+    top:138px;
+    width:119px;
+    height:30px;
+}
+
+#u39_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:125px;
+    height:36px;
+}
+
+.u40 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:115px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u41_normal {
+    background-image: url('../考核权限设置_files/u33_normal.png');
+}
+
+.u41_container {
+    position:absolute;
+    left:372px;
+    top:138px;
+    width:214px;
+    height:30px;
+}
+
+#u41_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:220px;
+    height:36px;
+}
+
+.u42 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:210px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u43_normal {
+    background-image: url('../考核权限设置_files/u43_normal.png');
+}
+
+.u43_container {
+    position:absolute;
+    left:0px;
+    top:168px;
+    width:157px;
+    height:28px;
+}
+
+#u43_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:163px;
+    height:34px;
+}
+
+.u44 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:153px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u45_normal {
+    background-image: url('../考核权限设置_files/u45_normal.png');
+}
+
+.u45_container {
+    position:absolute;
+    left:157px;
+    top:168px;
+    width:96px;
+    height:28px;
+}
+
+#u45_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:102px;
+    height:34px;
+}
+
+.u46 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:92px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u47_normal {
+    background-image: url('../考核权限设置_files/u47_normal.png');
+}
+
+.u47_container {
+    position:absolute;
+    left:253px;
+    top:168px;
+    width:119px;
+    height:28px;
+}
+
+#u47_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:125px;
+    height:34px;
+}
+
+.u48 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:115px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u49_normal {
+    background-image: url('../考核权限设置_files/u49_normal.png');
+}
+
+.u49_container {
+    position:absolute;
+    left:372px;
+    top:168px;
+    width:214px;
+    height:28px;
+}
+
+#u49_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:220px;
+    height:34px;
+}
+
+.u50 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:210px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

@@ -1,0 +1,934 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0 {
+    position:absolute;
+    left:150px;
+    top:120px;
+    width:180px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u1 {
+    position:absolute;
+    left:0px;
+    top:125px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../风险损失设置_files/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:38px;
+    top:10px;
+    width:100px;
+    height:30px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:36px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../风险损失设置_files/u4_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:140px;
+    top:10px;
+    width:100px;
+    height:30px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:36px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6 {
+    position:absolute;
+    left:150px;
+    top:161px;
+    width:267px;
+    height:85px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u7 {
+    position:absolute;
+    left:82px;
+    top:161px;
+    width:110px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8 {
+    position:absolute;
+    left:82px;
+    top:264px;
+    width:110px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u9 {
+    position:absolute;
+    left:170px;
+    top:300px;
+    width:435px;
+    height:125px
+}
+
+.u10_normal {
+    background-image: url('../风险损失设置_files/u10_normal.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100px;
+    height:30px;
+}
+
+#u10_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:36px;
+}
+
+.u11 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12_normal {
+    background-image: url('../风险损失设置_files/u10_normal.png');
+}
+
+.u12_container {
+    position:absolute;
+    left:100px;
+    top:0px;
+    width:100px;
+    height:30px;
+}
+
+#u12_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:36px;
+}
+
+.u13 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_normal {
+    background-image: url('../风险损失设置_files/u14_normal.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:200px;
+    top:0px;
+    width:120px;
+    height:30px;
+}
+
+#u14_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:36px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:116px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16_normal {
+    background-image: url('../风险损失设置_files/u16_normal.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:320px;
+    top:0px;
+    width:110px;
+    height:30px;
+}
+
+#u16_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:116px;
+    height:36px;
+}
+
+.u17 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:106px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18_normal {
+    background-image: url('../风险损失设置_files/u10_normal.png');
+}
+
+.u18_container {
+    position:absolute;
+    left:0px;
+    top:30px;
+    width:100px;
+    height:30px;
+}
+
+#u18_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:36px;
+}
+
+.u19 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20_normal {
+    background-image: url('../风险损失设置_files/u10_normal.png');
+}
+
+.u20_container {
+    position:absolute;
+    left:100px;
+    top:30px;
+    width:100px;
+    height:30px;
+}
+
+#u20_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:36px;
+}
+
+.u21 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22_normal {
+    background-image: url('../风险损失设置_files/u14_normal.png');
+}
+
+.u22_container {
+    position:absolute;
+    left:200px;
+    top:30px;
+    width:120px;
+    height:30px;
+}
+
+#u22_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:36px;
+}
+
+.u23 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:116px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24_normal {
+    background-image: url('../风险损失设置_files/u16_normal.png');
+}
+
+.u24_container {
+    position:absolute;
+    left:320px;
+    top:30px;
+    width:110px;
+    height:30px;
+}
+
+#u24_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:116px;
+    height:36px;
+}
+
+.u25 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:106px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26_normal {
+    background-image: url('../风险损失设置_files/u10_normal.png');
+}
+
+.u26_container {
+    position:absolute;
+    left:0px;
+    top:60px;
+    width:100px;
+    height:30px;
+}
+
+#u26_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:36px;
+}
+
+.u27 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28_normal {
+    background-image: url('../风险损失设置_files/u10_normal.png');
+}
+
+.u28_container {
+    position:absolute;
+    left:100px;
+    top:60px;
+    width:100px;
+    height:30px;
+}
+
+#u28_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:36px;
+}
+
+.u29 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30_normal {
+    background-image: url('../风险损失设置_files/u14_normal.png');
+}
+
+.u30_container {
+    position:absolute;
+    left:200px;
+    top:60px;
+    width:120px;
+    height:30px;
+}
+
+#u30_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:36px;
+}
+
+.u31 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:116px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32_normal {
+    background-image: url('../风险损失设置_files/u16_normal.png');
+}
+
+.u32_container {
+    position:absolute;
+    left:320px;
+    top:60px;
+    width:110px;
+    height:30px;
+}
+
+#u32_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:116px;
+    height:36px;
+}
+
+.u33 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:106px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34_normal {
+    background-image: url('../风险损失设置_files/u10_normal.png');
+}
+
+.u34_container {
+    position:absolute;
+    left:0px;
+    top:90px;
+    width:100px;
+    height:30px;
+}
+
+#u34_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:36px;
+}
+
+.u35 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36_normal {
+    background-image: url('../风险损失设置_files/u10_normal.png');
+}
+
+.u36_container {
+    position:absolute;
+    left:100px;
+    top:90px;
+    width:100px;
+    height:30px;
+}
+
+#u36_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:36px;
+}
+
+.u37 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u38_normal {
+    background-image: url('../风险损失设置_files/u14_normal.png');
+}
+
+.u38_container {
+    position:absolute;
+    left:200px;
+    top:90px;
+    width:120px;
+    height:30px;
+}
+
+#u38_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:36px;
+}
+
+.u39 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:116px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40_normal {
+    background-image: url('../风险损失设置_files/u16_normal.png');
+}
+
+.u40_container {
+    position:absolute;
+    left:320px;
+    top:90px;
+    width:110px;
+    height:30px;
+}
+
+#u40_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:116px;
+    height:36px;
+}
+
+.u41 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:106px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42 {
+    position:absolute;
+    left:506px;
+    top:335px;
+    width:60px;
+    height:20px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u43 {
+    position:absolute;
+    left:508px;
+    top:365px;
+    width:60px;
+    height:20px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u44 {
+    position:absolute;
+    left:170px;
+    top:460px;
+    width:100px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u45 {
+    position:absolute;
+    left:290px;
+    top:460px;
+    width:100px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u46 {
+    position:absolute;
+    left:410px;
+    top:460px;
+    width:100px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u47 {
+    position:absolute;
+    left:79px;
+    top:84px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48 {
+    position:absolute;
+    left:150px;
+    top:81px;
+    width:70px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u49 {
+    position:absolute;
+    left:239px;
+    top:81px;
+    width:70px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u50 {
+    position:absolute;
+    left:181px;
+    top:335px;
+    width:79px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u51 {
+    position:absolute;
+    left:287px;
+    top:333px;
+    width:74px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u52 {
+    position:absolute;
+    left:387px;
+    top:333px;
+    width:94px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u53 {
+    position:absolute;
+    left:511px;
+    top:395px;
+    width:60px;
+    height:20px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+

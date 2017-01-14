@@ -1,0 +1,1332 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:160px;
+    top:130px;
+    width:160px;
+    height:60px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:166px;
+    height:66px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:156px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2 {
+    position:absolute;
+    left:140px;
+    top:30px;
+    width:460px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u3_normal {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u3_normal.png');
+}
+
+.u3_container {
+    position:absolute;
+    left:100px;
+    top:380px;
+    width:187px;
+    height:40px;
+}
+
+#u3_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:193px;
+    height:46px;
+}
+
+.u4 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:183px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5c0 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u5c0.png');
+}
+
+.u5c0 {
+    position:absolute;
+    left:230px;
+    top:186px;
+    width:20px;
+    height:44px;
+}
+
+.u5c1 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u5c1.png');
+}
+
+.u5c1 {
+    position:absolute;
+    left:230px;
+    top:210px;
+    width:25px;
+    height:20px;
+}
+
+.u5c2 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u5c2.png');
+}
+
+.u5c2 {
+    position:absolute;
+    left:235px;
+    top:210px;
+    width:20px;
+    height:24px;
+}
+
+.u6 {
+    position:absolute;
+    left:-50px;
+    top:14px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7_normal {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u7_normal.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:180px;
+    top:230px;
+    width:130px;
+    height:70px;
+}
+
+#u7_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:136px;
+    height:76px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:19px;
+    width:126px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9_normal {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u3_normal.png');
+}
+
+.u9_container {
+    position:absolute;
+    left:323px;
+    top:380px;
+    width:187px;
+    height:40px;
+}
+
+#u9_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:193px;
+    height:46px;
+}
+
+.u10 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:183px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11c0 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u11c0.png');
+}
+
+.u11c0 {
+    position:absolute;
+    left:235px;
+    top:296px;
+    width:20px;
+    height:84px;
+}
+
+.u11c1 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u11c1.png');
+}
+
+.u11c1 {
+    position:absolute;
+    left:184px;
+    top:360px;
+    width:71px;
+    height:20px;
+}
+
+.u11c2 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u11c2.png');
+}
+
+.u11c2 {
+    position:absolute;
+    left:184px;
+    top:360px;
+    width:20px;
+    height:24px;
+}
+
+.u12 {
+    position:absolute;
+    left:-50px;
+    top:58px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13_normal {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u13_normal.png');
+}
+
+.u13_container {
+    position:absolute;
+    left:170px;
+    top:510px;
+    width:270px;
+    height:50px;
+}
+
+#u13_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:276px;
+    height:56px;
+}
+
+.u14 {
+    position:absolute;
+    left:2px;
+    top:17px;
+    width:266px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15_normal {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u13_normal.png');
+}
+
+.u15_container {
+    position:absolute;
+    left:180px;
+    top:610px;
+    width:270px;
+    height:50px;
+}
+
+#u15_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:276px;
+    height:56px;
+}
+
+.u16 {
+    position:absolute;
+    left:2px;
+    top:17px;
+    width:266px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u17_normal {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u17_normal.png');
+}
+
+.u17_container {
+    position:absolute;
+    left:234px;
+    top:705px;
+    width:163px;
+    height:75px;
+}
+
+#u17_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:169px;
+    height:81px;
+}
+
+.u18 {
+    position:absolute;
+    left:2px;
+    top:30px;
+    width:159px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19_normal {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u13_normal.png');
+}
+
+.u19_container {
+    position:absolute;
+    left:180px;
+    top:850px;
+    width:270px;
+    height:50px;
+}
+
+#u19_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:276px;
+    height:56px;
+}
+
+.u20 {
+    position:absolute;
+    left:2px;
+    top:17px;
+    width:266px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21 {
+    position:absolute;
+    left:140px;
+    top:68px;
+    width:580px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22_normal {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u22_normal.png');
+}
+
+.u22_container {
+    position:absolute;
+    left:490px;
+    top:740px;
+    width:190px;
+    height:40px;
+}
+
+#u22_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:196px;
+    height:46px;
+}
+
+.u23 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:186px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24 {
+    position:absolute;
+    left:720px;
+    top:720px;
+    width:200px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u25c0 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u25c0.png');
+}
+
+.u25c0 {
+    position:absolute;
+    left:306px;
+    top:776px;
+    width:20px;
+    height:74px;
+}
+
+.u25c1 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u25c1.png');
+}
+
+.u25c1 {
+    position:absolute;
+    left:305px;
+    top:830px;
+    width:21px;
+    height:20px;
+}
+
+.u25c2 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u25c2.png');
+}
+
+.u25c2 {
+    position:absolute;
+    left:305px;
+    top:830px;
+    width:20px;
+    height:24px;
+}
+
+.u26 {
+    position:absolute;
+    left:-50px;
+    top:28px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27c0 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u27c0.png');
+}
+
+.u27c0 {
+    position:absolute;
+    left:393px;
+    top:732px;
+    width:97px;
+    height:20px;
+}
+
+.u27c1 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u27c1.png');
+}
+
+.u27c1 {
+    position:absolute;
+    left:470px;
+    top:732px;
+    width:20px;
+    height:38px;
+}
+
+.u27c2 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u27c2.png');
+}
+
+.u27c2 {
+    position:absolute;
+    left:470px;
+    top:750px;
+    width:24px;
+    height:20px;
+}
+
+.u28 {
+    position:absolute;
+    left:6px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29c0 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u29c0.png');
+}
+
+.u29c0 {
+    position:absolute;
+    left:575px;
+    top:625px;
+    width:20px;
+    height:119px;
+}
+
+.u29c1 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u29c1.png');
+}
+
+.u29c1 {
+    position:absolute;
+    left:446px;
+    top:625px;
+    width:149px;
+    height:20px;
+}
+
+.u30 {
+    position:absolute;
+    left:-65px;
+    top:-113px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31c0 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u31c0.png');
+}
+
+.u31c0 {
+    position:absolute;
+    left:295px;
+    top:556px;
+    width:20px;
+    height:54px;
+}
+
+.u31c1 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u31c1.png');
+}
+
+.u31c1 {
+    position:absolute;
+    left:295px;
+    top:590px;
+    width:30px;
+    height:20px;
+}
+
+.u31c2 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u31c2.png');
+}
+
+.u31c2 {
+    position:absolute;
+    left:305px;
+    top:590px;
+    width:20px;
+    height:24px;
+}
+
+.u32 {
+    position:absolute;
+    left:-50px;
+    top:22px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u33c0 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u33c0.png');
+}
+
+.u33c0 {
+    position:absolute;
+    left:306px;
+    top:660px;
+    width:20px;
+    height:49px;
+}
+
+.u33c1 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u33c1.png');
+}
+
+.u33c1 {
+    position:absolute;
+    left:305px;
+    top:660px;
+    width:21px;
+    height:20px;
+}
+
+.u33c2 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u33c2.png');
+}
+
+.u33c2 {
+    position:absolute;
+    left:305px;
+    top:656px;
+    width:20px;
+    height:24px;
+}
+
+.u34 {
+    position:absolute;
+    left:-50px;
+    top:-31px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u35c0 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u35c0.png');
+}
+
+.u35c0 {
+    position:absolute;
+    left:184px;
+    top:416px;
+    width:20px;
+    height:94px;
+}
+
+.u35c1 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u35c1.png');
+}
+
+.u35c1 {
+    position:absolute;
+    left:184px;
+    top:490px;
+    width:131px;
+    height:20px;
+}
+
+.u35c2 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u35c2.png');
+}
+
+.u35c2 {
+    position:absolute;
+    left:295px;
+    top:490px;
+    width:20px;
+    height:24px;
+}
+
+.u36 {
+    position:absolute;
+    left:-30px;
+    top:72px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u37c0 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u37c0.png');
+}
+
+.u37c0 {
+    position:absolute;
+    left:406px;
+    top:416px;
+    width:20px;
+    height:94px;
+}
+
+.u37c1 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u37c1.png');
+}
+
+.u37c1 {
+    position:absolute;
+    left:295px;
+    top:490px;
+    width:131px;
+    height:20px;
+}
+
+.u37c2 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u37c2.png');
+}
+
+.u37c2 {
+    position:absolute;
+    left:295px;
+    top:490px;
+    width:20px;
+    height:24px;
+}
+
+.u38 {
+    position:absolute;
+    left:-70px;
+    top:72px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u39_normal {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u0_normal.png');
+}
+
+.u39_container {
+    position:absolute;
+    left:755px;
+    top:190px;
+    width:160px;
+    height:60px;
+}
+
+#u39_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:166px;
+    height:66px;
+}
+
+.u40 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:156px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u41_normal {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u41_normal.png');
+}
+
+.u41_container {
+    position:absolute;
+    left:700px;
+    top:284px;
+    width:270px;
+    height:60px;
+}
+
+#u41_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:276px;
+    height:66px;
+}
+
+.u42 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:266px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u43_normal {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u13_normal.png');
+}
+
+.u43_container {
+    position:absolute;
+    left:700px;
+    top:380px;
+    width:270px;
+    height:50px;
+}
+
+#u43_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:276px;
+    height:56px;
+}
+
+.u44 {
+    position:absolute;
+    left:2px;
+    top:17px;
+    width:266px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u45_normal {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u45_normal.png');
+}
+
+.u45_container {
+    position:absolute;
+    left:758px;
+    top:498px;
+    width:155px;
+    height:75px;
+}
+
+#u45_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:161px;
+    height:81px;
+}
+
+.u46 {
+    position:absolute;
+    left:2px;
+    top:30px;
+    width:151px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u47_normal {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u13_normal.png');
+}
+
+.u47_container {
+    position:absolute;
+    left:715px;
+    top:630px;
+    width:270px;
+    height:50px;
+}
+
+#u47_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:276px;
+    height:56px;
+}
+
+.u48 {
+    position:absolute;
+    left:2px;
+    top:9px;
+    width:266px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u49_normal {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u22_normal.png');
+}
+
+.u49_container {
+    position:absolute;
+    left:1010px;
+    top:510px;
+    width:190px;
+    height:40px;
+}
+
+#u49_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:196px;
+    height:46px;
+}
+
+.u50 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:186px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u51c0 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u51c0.png');
+}
+
+.u51c0 {
+    position:absolute;
+    left:909px;
+    top:526px;
+    width:101px;
+    height:20px;
+}
+
+.u51c1 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u51c1.png');
+}
+
+.u51c1 {
+    position:absolute;
+    left:990px;
+    top:520px;
+    width:20px;
+    height:26px;
+}
+
+.u51c2 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u51c2.png');
+}
+
+.u51c2 {
+    position:absolute;
+    left:990px;
+    top:520px;
+    width:24px;
+    height:20px;
+}
+
+.u52 {
+    position:absolute;
+    left:2px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u53c0 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u53c0.png');
+}
+
+.u53c0 {
+    position:absolute;
+    left:825px;
+    top:246px;
+    width:20px;
+    height:48px;
+}
+
+.u54 {
+    position:absolute;
+    left:-50px;
+    top:9px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u55c0 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u55c0.png');
+}
+
+.u55c0 {
+    position:absolute;
+    left:825px;
+    top:340px;
+    width:20px;
+    height:50px;
+}
+
+.u56 {
+    position:absolute;
+    left:-50px;
+    top:10px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u57c0 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u57c0.png');
+}
+
+.u57c0 {
+    position:absolute;
+    left:825px;
+    top:426px;
+    width:20px;
+    height:72px;
+}
+
+.u57c1 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u57c1.png');
+}
+
+.u57c1 {
+    position:absolute;
+    left:825px;
+    top:478px;
+    width:21px;
+    height:20px;
+}
+
+.u57c2 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u57c2.png');
+}
+
+.u57c2 {
+    position:absolute;
+    left:826px;
+    top:478px;
+    width:20px;
+    height:24px;
+}
+
+.u58 {
+    position:absolute;
+    left:-50px;
+    top:26px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u59c0 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u59c0.png');
+}
+
+.u59c0 {
+    position:absolute;
+    left:826px;
+    top:569px;
+    width:20px;
+    height:61px;
+}
+
+.u59c1 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u59c1.png');
+}
+
+.u59c1 {
+    position:absolute;
+    left:826px;
+    top:610px;
+    width:34px;
+    height:20px;
+}
+
+.u59c2 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u59c2.png');
+}
+
+.u59c2 {
+    position:absolute;
+    left:840px;
+    top:610px;
+    width:20px;
+    height:24px;
+}
+
+.u60 {
+    position:absolute;
+    left:-50px;
+    top:28px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u61c0 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u61c0.png');
+}
+
+.u61c0 {
+    position:absolute;
+    left:1196px;
+    top:520px;
+    width:24px;
+    height:20px;
+}
+
+.u61c1 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u61c1.png');
+}
+
+.u61c1 {
+    position:absolute;
+    left:1200px;
+    top:304px;
+    width:20px;
+    height:236px;
+}
+
+.u61c2 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u61c2.png');
+}
+
+.u61c2 {
+    position:absolute;
+    left:966px;
+    top:304px;
+    width:254px;
+    height:20px;
+}
+
+.u62 {
+    position:absolute;
+    left:-47px;
+    top:-224px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u63 {
+    position:absolute;
+    left:732px;
+    top:114px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u64 {
+    position:absolute;
+    left:150px;
+    top:104px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u65c0 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u65c0.png');
+}
+
+.u65c0 {
+    position:absolute;
+    left:306px;
+    top:255px;
+    width:120px;
+    height:20px;
+}
+
+.u65c1 {
+    background-image: url('../平台与交易方发票信息审核及变更_files/u65c1.png');
+}
+
+.u65c1 {
+    position:absolute;
+    left:406px;
+    top:255px;
+    width:20px;
+    height:129px;
+}
+
+.u66 {
+    position:absolute;
+    left:56px;
+    top:-4px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

@@ -1,0 +1,14 @@
+2015-06-01 15-51-19     ---     调用webservices错误,方法名：[C资金转账]：查询业务调用失败，空返回值！
+
+2015-06-01 15-51-19     ---     委托回调错误：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.SubForm.NewCenterForm.SUBUC.ucZJZZ_B.SRT_demo(Hashtable OutPutHT)
+
+2015-06-01 15-51-28     ---     调用webservices错误,方法名：[C资金转账]：查询业务调用失败，空返回值！
+
+2015-06-01 15-51-28     ---     委托回调错误：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.SubForm.NewCenterForm.SUBUC.ucZJZZ_B.SRT_demo(Hashtable OutPutHT)
+

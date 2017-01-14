@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="PingAnBankByteHead" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="PingAnBankByteHead">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TranFunc" msdata:Caption="交易类型" type="xs:string" default="0000" />
+                <xs:element name="ServType" msdata:Caption="服务类型" type="xs:string" default="01" />
+                <xs:element name="MacCode" msdata:Caption="MAC码" type="xs:string" default="0000000000000000" />
+                <xs:element name="TranDate" msdata:Caption="交易日期" type="xs:string" default="19910312" />
+                <xs:element name="TranTime" msdata:Caption="交易时间" type="xs:string" default="000000" />
+                <xs:element name="RspCode" msdata:Caption="应答码" type="xs:string" default="999999" />
+                <xs:element name="RspMsg" msdata:Caption="应答码描述" type="xs:string" default="请求包" />
+                <xs:element name="ConFlag" msdata:Caption="后续包标志" type="xs:string" default="0" />
+                <xs:element name="Length" msdata:Caption="包体长度" type="xs:string" default="1" />
+                <xs:element name="CounterId" msdata:Caption="操作员号" type="xs:string" default="10000" />
+                <xs:element name="ThirdLogNo" msdata:Caption="请求方系统流水号" type="xs:string" default="0" />
+                <xs:element name="Qydm" msdata:Caption="交易网代码" type="xs:string" default="8536" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <PingAnBankByteHead>
+    <TranFunc>0000</TranFunc>
+    <ServType>01</ServType>
+    <MacCode>0000000000000000</MacCode>
+    <TranDate>19910312</TranDate>
+    <TranTime>000000</TranTime>
+    <RspCode>999999</RspCode>
+    <RspMsg>请求包</RspMsg>
+    <ConFlag>0</ConFlag>
+    <Length>1</Length>
+    <CounterId>10000</CounterId>
+    <ThirdLogNo>0</ThirdLogNo>
+    <Qydm>1234</Qydm>
+  </PingAnBankByteHead>
+</NewDataSet>

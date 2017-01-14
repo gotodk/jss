@@ -1,0 +1,4441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.fm8844.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.fm8844.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.fm8844.com/">
+      <s:element name="AccontMoney">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dlyx" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="money" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccontMoneyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AccontMoneyResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccontsMoneys">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="buydlyx" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="buychange" type="s:double" />
+            <s:element minOccurs="0" maxOccurs="1" name="selldlyx" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="sellchange" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccontsMoneysResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AccontsMoneysResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TransferAccounts">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TransferAccountsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TransferAccountsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDZGHHTXX">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDZGHHTXXResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDZGHHTXXResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckFormTrayMsg">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dlyx" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckFormTrayMsgResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckFormTrayMsgResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPublisDsData">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetPublisDsDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPublisDsDataResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CMyXls">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SQL" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="HideColumns" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CMyXlsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CMyXlsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="demotest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="test" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="demotestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="demotestResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="serverZBJK">
+        <s:complexType />
+      </s:element>
+      <s:element name="serverZBJKResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="serverZBJKResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="serverRunFHYC">
+        <s:complexType />
+      </s:element>
+      <s:element name="serverRunFHYCResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="serverRunFHYCResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="serverRunFPYC">
+        <s:complexType />
+      </s:element>
+      <s:element name="serverRunFPYCResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="serverRunFPYCResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="serverRunLYBZJbuzu">
+        <s:complexType />
+      </s:element>
+      <s:element name="serverRunLYBZJbuzuResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="serverRunLYBZJbuzuResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="checkJJRzt">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dlyx" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="checkJJRztResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="checkJJRztResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="checkLoginIn">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="checkLoginInResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="checkLoginInResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestMethod">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtCS">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TestMethodResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TestMethodResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetGLJG">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetGLJGResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetGLJGResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubmitJJRDW">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtInfor">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubmitJJRDWResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubmitJJRDWResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubmitJJRGR">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtInfor">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubmitJJRGRResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubmitJJRGRResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubmitMMJDW">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtInfor">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubmitMMJDWResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubmitMMJDWResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubmitMMJGR">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtInfor">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubmitMMJGRResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubmitMMJGRResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateJJRDW">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtInfor">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateJJRDWResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateJJRDWResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateJJRGR">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtInfor">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateJJRGRResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateJJRGRResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateMMJDW">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtInfor">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateMMJDWResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateMMJDWResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateMMJGR">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtInfor">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateMMJGRResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateMMJGRResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="JJRPassMMJ">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtInfor">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="JJRPassMMJResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="JJRPassMMJResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="JJRRejectMMJ">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtInfor">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="JJRRejectMMJResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="JJRRejectMMJResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMMJData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtInfor">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMMJDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMMJDataResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMMJZHZLData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtInfor">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMMJZHZLDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMMJZHZLDataResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetJJRData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtInfor">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetJJRDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetJJRDataResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetJJRYHXX">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strZGZS" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetJJRYHXXResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetJJRYHXXResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMMJJYZHData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtInfor">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMMJJYZHDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMMJJYZHDataResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetJYZHSHData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtInfor">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetJYZHSHDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetJYZHSHDataResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetJJRZGZS">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dataTable">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetJJRZGZSResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetJJRZGZSResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetYSTP">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetYSTPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetYSTPResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ZT_HF_XYHSH">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtInfor">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ZT_HF_XYHSHResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ZT_HF_XYHSHResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ZT_HF_XYHSHCSZT">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtInfor">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ZT_HF_XYHSHCSZTResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ZT_HF_XYHSHCSZTResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetZTHFYHXYW">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtInfor">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetZTHFYHXYWResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SetZTHFYHXYWResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSiftJJRData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtInfor">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSiftJJRDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSiftJJRDataResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSelectJudgeJJRData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtInfor">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSelectJudgeJJRDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSelectJudgeJJRDataResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetJYZHDQZT">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtInfor">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetJYZHDQZTResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetJYZHDQZTResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Jhjx_db">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ht">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Jhjx_dbResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Jhjx_dbResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Jhjx_hwqs">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ht">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Jhjx_hwqsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Jhjx_hwqsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UserRegister">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="uid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="uname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pwd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="valnum" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UserRegisterResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserRegisterResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UserChangeRegister">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pk" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="uid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="uname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pwd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="valnum" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UserChangeRegisterResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserChangeRegisterResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="reSendValNum">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dlyx" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="valNum" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="reSendValNumResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="reSendValNumResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccountID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="valNum" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccountIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AccountIDResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendValNumber">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="typeToSet" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="RandomNumber" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendValNumberResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SendValNumberResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ChangePassword">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="uid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="phoneoremail" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pwd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="valNum" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="typeToSet" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ChangePasswordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ChangePasswordResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTHDFP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cs" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTHDFPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTHDFPResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveTHD">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ds">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveTHDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SaveTHDResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CKTHD">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="THDBH" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CKTHDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CKTHDResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetGLJJRGLJG">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DLYX" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetGLJJRGLJGResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetGLJJRGLJGResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetZJCXinfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="index" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="type" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetZJCXinfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetZJCXinfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PsdChange">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PsdChangeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PsdChangeResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTongJi">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dlyx" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="type" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTongJiResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTongJiResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetTBD">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ds">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetTBDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SetTBDResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TBD_CX">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Number" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TBD_CXResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TBD_CXResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YDD_CX">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Number" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YDD_CXResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="YDD_CXResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YDD_XG">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Number" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="YDD_XGResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="YDD_XGResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TBD_XG">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Number" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TBD_XGResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TBD_XGResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetYDD">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ds">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetYDDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SetYDDResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetYDDCG">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ds">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetYDDCGResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SetYDDCGResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetTBDCG">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ds">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetTBDCGResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SetTBDCGResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SCFHD">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ds">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SCFHDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SCFHDResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CKFHD">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FHDBH" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CKFHDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CKFHDResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccountActivate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AccountActivateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AccountActivateResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LRFHXX">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ds">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LRFHXXResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LRFHXXResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LRFPXX">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ds">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LRFPXXResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LRFPXXResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertSelTQBuyQS">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ds">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertSelTQBuyQSResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertSelTQBuyQSResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="serverWJNLYBZJJK">
+        <s:complexType />
+      </s:element>
+      <s:element name="serverWJNLYBZJJKResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="serverWJNLYBZJJKResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ServerHTQMJK">
+        <s:complexType />
+      </s:element>
+      <s:element name="ServerHTQMJKResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ServerHTQMJKResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ServerMYJJRKS">
+        <s:complexType />
+      </s:element>
+      <s:element name="ServerMYJJRKSResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ServerMYJJRKSResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="serverRunZDQS">
+        <s:complexType />
+      </s:element>
+      <s:element name="serverRunZDQSResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="serverRunZDQSResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WTYCL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ds">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WTYCLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WTYCLResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNewUserState">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dlyx" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNewUserStateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetNewUserStateResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSHWJinfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="num" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSHWJinfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSHWJinfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DelPicture">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="filepath" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DelPictureResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DelPictureResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="HWqs_ycinfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ds">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="HWqs_ycinfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HWqs_ycinfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DWControversial">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DWControversialResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DWControversialResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DWConfirm">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DWConfirmResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DWConfirmResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetYDDcaogaoinfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Number" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetYDDcaogaoinfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetYDDcaogaoinfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TBD_GetCGinfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Number" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TBD_GetCGinfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TBD_GetCGinfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TBDYDDbzh_GetCGinfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Number" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TBDYDDbzh_GetCGinfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TBDYDDbzh_GetCGinfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DBZBXXinfoget">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Number" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DBZBXXinfogetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DBZBXXinfogetResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="AccontMoneySoapIn">
+    <wsdl:part name="parameters" element="tns:AccontMoney" />
+  </wsdl:message>
+  <wsdl:message name="AccontMoneySoapOut">
+    <wsdl:part name="parameters" element="tns:AccontMoneyResponse" />
+  </wsdl:message>
+  <wsdl:message name="AccontsMoneysSoapIn">
+    <wsdl:part name="parameters" element="tns:AccontsMoneys" />
+  </wsdl:message>
+  <wsdl:message name="AccontsMoneysSoapOut">
+    <wsdl:part name="parameters" element="tns:AccontsMoneysResponse" />
+  </wsdl:message>
+  <wsdl:message name="TransferAccountsSoapIn">
+    <wsdl:part name="parameters" element="tns:TransferAccounts" />
+  </wsdl:message>
+  <wsdl:message name="TransferAccountsSoapOut">
+    <wsdl:part name="parameters" element="tns:TransferAccountsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDZGHHTXXSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDZGHHTXX" />
+  </wsdl:message>
+  <wsdl:message name="GetDZGHHTXXSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDZGHHTXXResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckFormTrayMsgSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckFormTrayMsg" />
+  </wsdl:message>
+  <wsdl:message name="CheckFormTrayMsgSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckFormTrayMsgResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPublisDsDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPublisDsData" />
+  </wsdl:message>
+  <wsdl:message name="GetPublisDsDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPublisDsDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="CMyXlsSoapIn">
+    <wsdl:part name="parameters" element="tns:CMyXls" />
+  </wsdl:message>
+  <wsdl:message name="CMyXlsSoapOut">
+    <wsdl:part name="parameters" element="tns:CMyXlsResponse" />
+  </wsdl:message>
+  <wsdl:message name="demotestSoapIn">
+    <wsdl:part name="parameters" element="tns:demotest" />
+  </wsdl:message>
+  <wsdl:message name="demotestSoapOut">
+    <wsdl:part name="parameters" element="tns:demotestResponse" />
+  </wsdl:message>
+  <wsdl:message name="serverZBJKSoapIn">
+    <wsdl:part name="parameters" element="tns:serverZBJK" />
+  </wsdl:message>
+  <wsdl:message name="serverZBJKSoapOut">
+    <wsdl:part name="parameters" element="tns:serverZBJKResponse" />
+  </wsdl:message>
+  <wsdl:message name="serverRunFHYCSoapIn">
+    <wsdl:part name="parameters" element="tns:serverRunFHYC" />
+  </wsdl:message>
+  <wsdl:message name="serverRunFHYCSoapOut">
+    <wsdl:part name="parameters" element="tns:serverRunFHYCResponse" />
+  </wsdl:message>
+  <wsdl:message name="serverRunFPYCSoapIn">
+    <wsdl:part name="parameters" element="tns:serverRunFPYC" />
+  </wsdl:message>
+  <wsdl:message name="serverRunFPYCSoapOut">
+    <wsdl:part name="parameters" element="tns:serverRunFPYCResponse" />
+  </wsdl:message>
+  <wsdl:message name="serverRunLYBZJbuzuSoapIn">
+    <wsdl:part name="parameters" element="tns:serverRunLYBZJbuzu" />
+  </wsdl:message>
+  <wsdl:message name="serverRunLYBZJbuzuSoapOut">
+    <wsdl:part name="parameters" element="tns:serverRunLYBZJbuzuResponse" />
+  </wsdl:message>
+  <wsdl:message name="checkJJRztSoapIn">
+    <wsdl:part name="parameters" element="tns:checkJJRzt" />
+  </wsdl:message>
+  <wsdl:message name="checkJJRztSoapOut">
+    <wsdl:part name="parameters" element="tns:checkJJRztResponse" />
+  </wsdl:message>
+  <wsdl:message name="checkLoginInSoapIn">
+    <wsdl:part name="parameters" element="tns:checkLoginIn" />
+  </wsdl:message>
+  <wsdl:message name="checkLoginInSoapOut">
+    <wsdl:part name="parameters" element="tns:checkLoginInResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestMethodSoapIn">
+    <wsdl:part name="parameters" element="tns:TestMethod" />
+  </wsdl:message>
+  <wsdl:message name="TestMethodSoapOut">
+    <wsdl:part name="parameters" element="tns:TestMethodResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetGLJGSoapIn">
+    <wsdl:part name="parameters" element="tns:GetGLJG" />
+  </wsdl:message>
+  <wsdl:message name="GetGLJGSoapOut">
+    <wsdl:part name="parameters" element="tns:GetGLJGResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubmitJJRDWSoapIn">
+    <wsdl:part name="parameters" element="tns:SubmitJJRDW" />
+  </wsdl:message>
+  <wsdl:message name="SubmitJJRDWSoapOut">
+    <wsdl:part name="parameters" element="tns:SubmitJJRDWResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubmitJJRGRSoapIn">
+    <wsdl:part name="parameters" element="tns:SubmitJJRGR" />
+  </wsdl:message>
+  <wsdl:message name="SubmitJJRGRSoapOut">
+    <wsdl:part name="parameters" element="tns:SubmitJJRGRResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubmitMMJDWSoapIn">
+    <wsdl:part name="parameters" element="tns:SubmitMMJDW" />
+  </wsdl:message>
+  <wsdl:message name="SubmitMMJDWSoapOut">
+    <wsdl:part name="parameters" element="tns:SubmitMMJDWResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubmitMMJGRSoapIn">
+    <wsdl:part name="parameters" element="tns:SubmitMMJGR" />
+  </wsdl:message>
+  <wsdl:message name="SubmitMMJGRSoapOut">
+    <wsdl:part name="parameters" element="tns:SubmitMMJGRResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateJJRDWSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateJJRDW" />
+  </wsdl:message>
+  <wsdl:message name="UpdateJJRDWSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateJJRDWResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateJJRGRSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateJJRGR" />
+  </wsdl:message>
+  <wsdl:message name="UpdateJJRGRSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateJJRGRResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateMMJDWSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateMMJDW" />
+  </wsdl:message>
+  <wsdl:message name="UpdateMMJDWSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateMMJDWResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateMMJGRSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateMMJGR" />
+  </wsdl:message>
+  <wsdl:message name="UpdateMMJGRSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateMMJGRResponse" />
+  </wsdl:message>
+  <wsdl:message name="JJRPassMMJSoapIn">
+    <wsdl:part name="parameters" element="tns:JJRPassMMJ" />
+  </wsdl:message>
+  <wsdl:message name="JJRPassMMJSoapOut">
+    <wsdl:part name="parameters" element="tns:JJRPassMMJResponse" />
+  </wsdl:message>
+  <wsdl:message name="JJRRejectMMJSoapIn">
+    <wsdl:part name="parameters" element="tns:JJRRejectMMJ" />
+  </wsdl:message>
+  <wsdl:message name="JJRRejectMMJSoapOut">
+    <wsdl:part name="parameters" element="tns:JJRRejectMMJResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMMJDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMMJData" />
+  </wsdl:message>
+  <wsdl:message name="GetMMJDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMMJDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMMJZHZLDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMMJZHZLData" />
+  </wsdl:message>
+  <wsdl:message name="GetMMJZHZLDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMMJZHZLDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetJJRDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetJJRData" />
+  </wsdl:message>
+  <wsdl:message name="GetJJRDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetJJRDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetJJRYHXXSoapIn">
+    <wsdl:part name="parameters" element="tns:GetJJRYHXX" />
+  </wsdl:message>
+  <wsdl:message name="GetJJRYHXXSoapOut">
+    <wsdl:part name="parameters" element="tns:GetJJRYHXXResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMMJJYZHDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMMJJYZHData" />
+  </wsdl:message>
+  <wsdl:message name="GetMMJJYZHDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMMJJYZHDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetJYZHSHDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetJYZHSHData" />
+  </wsdl:message>
+  <wsdl:message name="GetJYZHSHDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetJYZHSHDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetJJRZGZSSoapIn">
+    <wsdl:part name="parameters" element="tns:GetJJRZGZS" />
+  </wsdl:message>
+  <wsdl:message name="GetJJRZGZSSoapOut">
+    <wsdl:part name="parameters" element="tns:GetJJRZGZSResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetYSTPSoapIn">
+    <wsdl:part name="parameters" element="tns:GetYSTP" />
+  </wsdl:message>
+  <wsdl:message name="GetYSTPSoapOut">
+    <wsdl:part name="parameters" element="tns:GetYSTPResponse" />
+  </wsdl:message>
+  <wsdl:message name="ZT_HF_XYHSHSoapIn">
+    <wsdl:part name="parameters" element="tns:ZT_HF_XYHSH" />
+  </wsdl:message>
+  <wsdl:message name="ZT_HF_XYHSHSoapOut">
+    <wsdl:part name="parameters" element="tns:ZT_HF_XYHSHResponse" />
+  </wsdl:message>
+  <wsdl:message name="ZT_HF_XYHSHCSZTSoapIn">
+    <wsdl:part name="parameters" element="tns:ZT_HF_XYHSHCSZT" />
+  </wsdl:message>
+  <wsdl:message name="ZT_HF_XYHSHCSZTSoapOut">
+    <wsdl:part name="parameters" element="tns:ZT_HF_XYHSHCSZTResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetZTHFYHXYWSoapIn">
+    <wsdl:part name="parameters" element="tns:SetZTHFYHXYW" />
+  </wsdl:message>
+  <wsdl:message name="SetZTHFYHXYWSoapOut">
+    <wsdl:part name="parameters" element="tns:SetZTHFYHXYWResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSiftJJRDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSiftJJRData" />
+  </wsdl:message>
+  <wsdl:message name="GetSiftJJRDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSiftJJRDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSelectJudgeJJRDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSelectJudgeJJRData" />
+  </wsdl:message>
+  <wsdl:message name="GetSelectJudgeJJRDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSelectJudgeJJRDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetJYZHDQZTSoapIn">
+    <wsdl:part name="parameters" element="tns:GetJYZHDQZT" />
+  </wsdl:message>
+  <wsdl:message name="GetJYZHDQZTSoapOut">
+    <wsdl:part name="parameters" element="tns:GetJYZHDQZTResponse" />
+  </wsdl:message>
+  <wsdl:message name="Jhjx_dbSoapIn">
+    <wsdl:part name="parameters" element="tns:Jhjx_db" />
+  </wsdl:message>
+  <wsdl:message name="Jhjx_dbSoapOut">
+    <wsdl:part name="parameters" element="tns:Jhjx_dbResponse" />
+  </wsdl:message>
+  <wsdl:message name="Jhjx_hwqsSoapIn">
+    <wsdl:part name="parameters" element="tns:Jhjx_hwqs" />
+  </wsdl:message>
+  <wsdl:message name="Jhjx_hwqsSoapOut">
+    <wsdl:part name="parameters" element="tns:Jhjx_hwqsResponse" />
+  </wsdl:message>
+  <wsdl:message name="UserRegisterSoapIn">
+    <wsdl:part name="parameters" element="tns:UserRegister" />
+  </wsdl:message>
+  <wsdl:message name="UserRegisterSoapOut">
+    <wsdl:part name="parameters" element="tns:UserRegisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="UserChangeRegisterSoapIn">
+    <wsdl:part name="parameters" element="tns:UserChangeRegister" />
+  </wsdl:message>
+  <wsdl:message name="UserChangeRegisterSoapOut">
+    <wsdl:part name="parameters" element="tns:UserChangeRegisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="reSendValNumSoapIn">
+    <wsdl:part name="parameters" element="tns:reSendValNum" />
+  </wsdl:message>
+  <wsdl:message name="reSendValNumSoapOut">
+    <wsdl:part name="parameters" element="tns:reSendValNumResponse" />
+  </wsdl:message>
+  <wsdl:message name="AccountIDSoapIn">
+    <wsdl:part name="parameters" element="tns:AccountID" />
+  </wsdl:message>
+  <wsdl:message name="AccountIDSoapOut">
+    <wsdl:part name="parameters" element="tns:AccountIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendValNumberSoapIn">
+    <wsdl:part name="parameters" element="tns:SendValNumber" />
+  </wsdl:message>
+  <wsdl:message name="SendValNumberSoapOut">
+    <wsdl:part name="parameters" element="tns:SendValNumberResponse" />
+  </wsdl:message>
+  <wsdl:message name="ChangePasswordSoapIn">
+    <wsdl:part name="parameters" element="tns:ChangePassword" />
+  </wsdl:message>
+  <wsdl:message name="ChangePasswordSoapOut">
+    <wsdl:part name="parameters" element="tns:ChangePasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTHDFPSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTHDFP" />
+  </wsdl:message>
+  <wsdl:message name="GetTHDFPSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTHDFPResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveTHDSoapIn">
+    <wsdl:part name="parameters" element="tns:SaveTHD" />
+  </wsdl:message>
+  <wsdl:message name="SaveTHDSoapOut">
+    <wsdl:part name="parameters" element="tns:SaveTHDResponse" />
+  </wsdl:message>
+  <wsdl:message name="CKTHDSoapIn">
+    <wsdl:part name="parameters" element="tns:CKTHD" />
+  </wsdl:message>
+  <wsdl:message name="CKTHDSoapOut">
+    <wsdl:part name="parameters" element="tns:CKTHDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetGLJJRGLJGSoapIn">
+    <wsdl:part name="parameters" element="tns:GetGLJJRGLJG" />
+  </wsdl:message>
+  <wsdl:message name="GetGLJJRGLJGSoapOut">
+    <wsdl:part name="parameters" element="tns:GetGLJJRGLJGResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetZJCXinfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetZJCXinfo" />
+  </wsdl:message>
+  <wsdl:message name="GetZJCXinfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetZJCXinfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="PsdChangeSoapIn">
+    <wsdl:part name="parameters" element="tns:PsdChange" />
+  </wsdl:message>
+  <wsdl:message name="PsdChangeSoapOut">
+    <wsdl:part name="parameters" element="tns:PsdChangeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTongJiSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTongJi" />
+  </wsdl:message>
+  <wsdl:message name="GetTongJiSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTongJiResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetTBDSoapIn">
+    <wsdl:part name="parameters" element="tns:SetTBD" />
+  </wsdl:message>
+  <wsdl:message name="SetTBDSoapOut">
+    <wsdl:part name="parameters" element="tns:SetTBDResponse" />
+  </wsdl:message>
+  <wsdl:message name="TBD_CXSoapIn">
+    <wsdl:part name="parameters" element="tns:TBD_CX" />
+  </wsdl:message>
+  <wsdl:message name="TBD_CXSoapOut">
+    <wsdl:part name="parameters" element="tns:TBD_CXResponse" />
+  </wsdl:message>
+  <wsdl:message name="YDD_CXSoapIn">
+    <wsdl:part name="parameters" element="tns:YDD_CX" />
+  </wsdl:message>
+  <wsdl:message name="YDD_CXSoapOut">
+    <wsdl:part name="parameters" element="tns:YDD_CXResponse" />
+  </wsdl:message>
+  <wsdl:message name="YDD_XGSoapIn">
+    <wsdl:part name="parameters" element="tns:YDD_XG" />
+  </wsdl:message>
+  <wsdl:message name="YDD_XGSoapOut">
+    <wsdl:part name="parameters" element="tns:YDD_XGResponse" />
+  </wsdl:message>
+  <wsdl:message name="TBD_XGSoapIn">
+    <wsdl:part name="parameters" element="tns:TBD_XG" />
+  </wsdl:message>
+  <wsdl:message name="TBD_XGSoapOut">
+    <wsdl:part name="parameters" element="tns:TBD_XGResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetYDDSoapIn">
+    <wsdl:part name="parameters" element="tns:SetYDD" />
+  </wsdl:message>
+  <wsdl:message name="SetYDDSoapOut">
+    <wsdl:part name="parameters" element="tns:SetYDDResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetYDDCGSoapIn">
+    <wsdl:part name="parameters" element="tns:SetYDDCG" />
+  </wsdl:message>
+  <wsdl:message name="SetYDDCGSoapOut">
+    <wsdl:part name="parameters" element="tns:SetYDDCGResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetTBDCGSoapIn">
+    <wsdl:part name="parameters" element="tns:SetTBDCG" />
+  </wsdl:message>
+  <wsdl:message name="SetTBDCGSoapOut">
+    <wsdl:part name="parameters" element="tns:SetTBDCGResponse" />
+  </wsdl:message>
+  <wsdl:message name="SCFHDSoapIn">
+    <wsdl:part name="parameters" element="tns:SCFHD" />
+  </wsdl:message>
+  <wsdl:message name="SCFHDSoapOut">
+    <wsdl:part name="parameters" element="tns:SCFHDResponse" />
+  </wsdl:message>
+  <wsdl:message name="CKFHDSoapIn">
+    <wsdl:part name="parameters" element="tns:CKFHD" />
+  </wsdl:message>
+  <wsdl:message name="CKFHDSoapOut">
+    <wsdl:part name="parameters" element="tns:CKFHDResponse" />
+  </wsdl:message>
+  <wsdl:message name="AccountActivateSoapIn">
+    <wsdl:part name="parameters" element="tns:AccountActivate" />
+  </wsdl:message>
+  <wsdl:message name="AccountActivateSoapOut">
+    <wsdl:part name="parameters" element="tns:AccountActivateResponse" />
+  </wsdl:message>
+  <wsdl:message name="LRFHXXSoapIn">
+    <wsdl:part name="parameters" element="tns:LRFHXX" />
+  </wsdl:message>
+  <wsdl:message name="LRFHXXSoapOut">
+    <wsdl:part name="parameters" element="tns:LRFHXXResponse" />
+  </wsdl:message>
+  <wsdl:message name="LRFPXXSoapIn">
+    <wsdl:part name="parameters" element="tns:LRFPXX" />
+  </wsdl:message>
+  <wsdl:message name="LRFPXXSoapOut">
+    <wsdl:part name="parameters" element="tns:LRFPXXResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertSelTQBuyQSSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertSelTQBuyQS" />
+  </wsdl:message>
+  <wsdl:message name="InsertSelTQBuyQSSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertSelTQBuyQSResponse" />
+  </wsdl:message>
+  <wsdl:message name="serverWJNLYBZJJKSoapIn">
+    <wsdl:part name="parameters" element="tns:serverWJNLYBZJJK" />
+  </wsdl:message>
+  <wsdl:message name="serverWJNLYBZJJKSoapOut">
+    <wsdl:part name="parameters" element="tns:serverWJNLYBZJJKResponse" />
+  </wsdl:message>
+  <wsdl:message name="ServerHTQMJKSoapIn">
+    <wsdl:part name="parameters" element="tns:ServerHTQMJK" />
+  </wsdl:message>
+  <wsdl:message name="ServerHTQMJKSoapOut">
+    <wsdl:part name="parameters" element="tns:ServerHTQMJKResponse" />
+  </wsdl:message>
+  <wsdl:message name="ServerMYJJRKSSoapIn">
+    <wsdl:part name="parameters" element="tns:ServerMYJJRKS" />
+  </wsdl:message>
+  <wsdl:message name="ServerMYJJRKSSoapOut">
+    <wsdl:part name="parameters" element="tns:ServerMYJJRKSResponse" />
+  </wsdl:message>
+  <wsdl:message name="serverRunZDQSSoapIn">
+    <wsdl:part name="parameters" element="tns:serverRunZDQS" />
+  </wsdl:message>
+  <wsdl:message name="serverRunZDQSSoapOut">
+    <wsdl:part name="parameters" element="tns:serverRunZDQSResponse" />
+  </wsdl:message>
+  <wsdl:message name="WTYCLSoapIn">
+    <wsdl:part name="parameters" element="tns:WTYCL" />
+  </wsdl:message>
+  <wsdl:message name="WTYCLSoapOut">
+    <wsdl:part name="parameters" element="tns:WTYCLResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetNewUserStateSoapIn">
+    <wsdl:part name="parameters" element="tns:GetNewUserState" />
+  </wsdl:message>
+  <wsdl:message name="GetNewUserStateSoapOut">
+    <wsdl:part name="parameters" element="tns:GetNewUserStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSHWJinfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSHWJinfo" />
+  </wsdl:message>
+  <wsdl:message name="GetSHWJinfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSHWJinfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="DelPictureSoapIn">
+    <wsdl:part name="parameters" element="tns:DelPicture" />
+  </wsdl:message>
+  <wsdl:message name="DelPictureSoapOut">
+    <wsdl:part name="parameters" element="tns:DelPictureResponse" />
+  </wsdl:message>
+  <wsdl:message name="HWqs_ycinfoSoapIn">
+    <wsdl:part name="parameters" element="tns:HWqs_ycinfo" />
+  </wsdl:message>
+  <wsdl:message name="HWqs_ycinfoSoapOut">
+    <wsdl:part name="parameters" element="tns:HWqs_ycinfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="DWControversialSoapIn">
+    <wsdl:part name="parameters" element="tns:DWControversial" />
+  </wsdl:message>
+  <wsdl:message name="DWControversialSoapOut">
+    <wsdl:part name="parameters" element="tns:DWControversialResponse" />
+  </wsdl:message>
+  <wsdl:message name="DWConfirmSoapIn">
+    <wsdl:part name="parameters" element="tns:DWConfirm" />
+  </wsdl:message>
+  <wsdl:message name="DWConfirmSoapOut">
+    <wsdl:part name="parameters" element="tns:DWConfirmResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetYDDcaogaoinfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetYDDcaogaoinfo" />
+  </wsdl:message>
+  <wsdl:message name="GetYDDcaogaoinfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetYDDcaogaoinfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="TBD_GetCGinfoSoapIn">
+    <wsdl:part name="parameters" element="tns:TBD_GetCGinfo" />
+  </wsdl:message>
+  <wsdl:message name="TBD_GetCGinfoSoapOut">
+    <wsdl:part name="parameters" element="tns:TBD_GetCGinfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="TBDYDDbzh_GetCGinfoSoapIn">
+    <wsdl:part name="parameters" element="tns:TBDYDDbzh_GetCGinfo" />
+  </wsdl:message>
+  <wsdl:message name="TBDYDDbzh_GetCGinfoSoapOut">
+    <wsdl:part name="parameters" element="tns:TBDYDDbzh_GetCGinfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="DBZBXXinfogetSoapIn">
+    <wsdl:part name="parameters" element="tns:DBZBXXinfoget" />
+  </wsdl:message>
+  <wsdl:message name="DBZBXXinfogetSoapOut">
+    <wsdl:part name="parameters" element="tns:DBZBXXinfogetResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ws2013Soap">
+    <wsdl:operation name="AccontMoney">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">更改账户余额的方法</wsdl:documentation>
+      <wsdl:input message="tns:AccontMoneySoapIn" />
+      <wsdl:output message="tns:AccontMoneySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AccontsMoneys">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">更改账户余额的方法</wsdl:documentation>
+      <wsdl:input message="tns:AccontsMoneysSoapIn" />
+      <wsdl:output message="tns:AccontsMoneysSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TransferAccounts">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">资金转账</wsdl:documentation>
+      <wsdl:input message="tns:TransferAccountsSoapIn" />
+      <wsdl:output message="tns:TransferAccountsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDZGHHTXX">
+      <wsdl:input message="tns:GetDZGHHTXXSoapIn" />
+      <wsdl:output message="tns:GetDZGHHTXXSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckFormTrayMsg">
+      <wsdl:input message="tns:CheckFormTrayMsgSoapIn" />
+      <wsdl:output message="tns:CheckFormTrayMsgSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPublisDsData">
+      <wsdl:input message="tns:GetPublisDsDataSoapIn" />
+      <wsdl:output message="tns:GetPublisDsDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CMyXls">
+      <wsdl:input message="tns:CMyXlsSoapIn" />
+      <wsdl:output message="tns:CMyXlsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="demotest">
+      <wsdl:input message="tns:demotestSoapIn" />
+      <wsdl:output message="tns:demotestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="serverZBJK">
+      <wsdl:input message="tns:serverZBJKSoapIn" />
+      <wsdl:output message="tns:serverZBJKSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="serverRunFHYC">
+      <wsdl:input message="tns:serverRunFHYCSoapIn" />
+      <wsdl:output message="tns:serverRunFHYCSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="serverRunFPYC">
+      <wsdl:input message="tns:serverRunFPYCSoapIn" />
+      <wsdl:output message="tns:serverRunFPYCSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="serverRunLYBZJbuzu">
+      <wsdl:input message="tns:serverRunLYBZJbuzuSoapIn" />
+      <wsdl:output message="tns:serverRunLYBZJbuzuSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="checkJJRzt">
+      <wsdl:input message="tns:checkJJRztSoapIn" />
+      <wsdl:output message="tns:checkJJRztSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="checkLoginIn">
+      <wsdl:input message="tns:checkLoginInSoapIn" />
+      <wsdl:output message="tns:checkLoginInSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TestMethod">
+      <wsdl:input message="tns:TestMethodSoapIn" />
+      <wsdl:output message="tns:TestMethodSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGLJG">
+      <wsdl:input message="tns:GetGLJGSoapIn" />
+      <wsdl:output message="tns:GetGLJGSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitJJRDW">
+      <wsdl:input message="tns:SubmitJJRDWSoapIn" />
+      <wsdl:output message="tns:SubmitJJRDWSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitJJRGR">
+      <wsdl:input message="tns:SubmitJJRGRSoapIn" />
+      <wsdl:output message="tns:SubmitJJRGRSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitMMJDW">
+      <wsdl:input message="tns:SubmitMMJDWSoapIn" />
+      <wsdl:output message="tns:SubmitMMJDWSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitMMJGR">
+      <wsdl:input message="tns:SubmitMMJGRSoapIn" />
+      <wsdl:output message="tns:SubmitMMJGRSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateJJRDW">
+      <wsdl:input message="tns:UpdateJJRDWSoapIn" />
+      <wsdl:output message="tns:UpdateJJRDWSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateJJRGR">
+      <wsdl:input message="tns:UpdateJJRGRSoapIn" />
+      <wsdl:output message="tns:UpdateJJRGRSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMMJDW">
+      <wsdl:input message="tns:UpdateMMJDWSoapIn" />
+      <wsdl:output message="tns:UpdateMMJDWSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMMJGR">
+      <wsdl:input message="tns:UpdateMMJGRSoapIn" />
+      <wsdl:output message="tns:UpdateMMJGRSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="JJRPassMMJ">
+      <wsdl:input message="tns:JJRPassMMJSoapIn" />
+      <wsdl:output message="tns:JJRPassMMJSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="JJRRejectMMJ">
+      <wsdl:input message="tns:JJRRejectMMJSoapIn" />
+      <wsdl:output message="tns:JJRRejectMMJSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMMJData">
+      <wsdl:input message="tns:GetMMJDataSoapIn" />
+      <wsdl:output message="tns:GetMMJDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMMJZHZLData">
+      <wsdl:input message="tns:GetMMJZHZLDataSoapIn" />
+      <wsdl:output message="tns:GetMMJZHZLDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetJJRData">
+      <wsdl:input message="tns:GetJJRDataSoapIn" />
+      <wsdl:output message="tns:GetJJRDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetJJRYHXX">
+      <wsdl:input message="tns:GetJJRYHXXSoapIn" />
+      <wsdl:output message="tns:GetJJRYHXXSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMMJJYZHData">
+      <wsdl:input message="tns:GetMMJJYZHDataSoapIn" />
+      <wsdl:output message="tns:GetMMJJYZHDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetJYZHSHData">
+      <wsdl:input message="tns:GetJYZHSHDataSoapIn" />
+      <wsdl:output message="tns:GetJYZHSHDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetJJRZGZS">
+      <wsdl:input message="tns:GetJJRZGZSSoapIn" />
+      <wsdl:output message="tns:GetJJRZGZSSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetYSTP">
+      <wsdl:input message="tns:GetYSTPSoapIn" />
+      <wsdl:output message="tns:GetYSTPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ZT_HF_XYHSH">
+      <wsdl:input message="tns:ZT_HF_XYHSHSoapIn" />
+      <wsdl:output message="tns:ZT_HF_XYHSHSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ZT_HF_XYHSHCSZT">
+      <wsdl:input message="tns:ZT_HF_XYHSHCSZTSoapIn" />
+      <wsdl:output message="tns:ZT_HF_XYHSHCSZTSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetZTHFYHXYW">
+      <wsdl:input message="tns:SetZTHFYHXYWSoapIn" />
+      <wsdl:output message="tns:SetZTHFYHXYWSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSiftJJRData">
+      <wsdl:input message="tns:GetSiftJJRDataSoapIn" />
+      <wsdl:output message="tns:GetSiftJJRDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSelectJudgeJJRData">
+      <wsdl:input message="tns:GetSelectJudgeJJRDataSoapIn" />
+      <wsdl:output message="tns:GetSelectJudgeJJRDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetJYZHDQZT">
+      <wsdl:input message="tns:GetJYZHDQZTSoapIn" />
+      <wsdl:output message="tns:GetJYZHDQZTSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Jhjx_db">
+      <wsdl:input message="tns:Jhjx_dbSoapIn" />
+      <wsdl:output message="tns:Jhjx_dbSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Jhjx_hwqs">
+      <wsdl:input message="tns:Jhjx_hwqsSoapIn" />
+      <wsdl:output message="tns:Jhjx_hwqsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UserRegister">
+      <wsdl:input message="tns:UserRegisterSoapIn" />
+      <wsdl:output message="tns:UserRegisterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UserChangeRegister">
+      <wsdl:input message="tns:UserChangeRegisterSoapIn" />
+      <wsdl:output message="tns:UserChangeRegisterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="reSendValNum">
+      <wsdl:input message="tns:reSendValNumSoapIn" />
+      <wsdl:output message="tns:reSendValNumSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AccountID">
+      <wsdl:input message="tns:AccountIDSoapIn" />
+      <wsdl:output message="tns:AccountIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendValNumber">
+      <wsdl:input message="tns:SendValNumberSoapIn" />
+      <wsdl:output message="tns:SendValNumberSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangePassword">
+      <wsdl:input message="tns:ChangePasswordSoapIn" />
+      <wsdl:output message="tns:ChangePasswordSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTHDFP">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">返回当前账号最近一次提货使用的发票信息</wsdl:documentation>
+      <wsdl:input message="tns:GetTHDFPSoapIn" />
+      <wsdl:output message="tns:GetTHDFPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveTHD">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">下达提货单</wsdl:documentation>
+      <wsdl:input message="tns:SaveTHDSoapIn" />
+      <wsdl:output message="tns:SaveTHDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CKTHD">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">提货单查看</wsdl:documentation>
+      <wsdl:input message="tns:CKTHDSoapIn" />
+      <wsdl:output message="tns:CKTHDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGLJJRGLJG">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取用户关联经纪人的管理机构</wsdl:documentation>
+      <wsdl:input message="tns:GetGLJJRGLJGSoapIn" />
+      <wsdl:output message="tns:GetGLJJRGLJGSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetZJCXinfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">返回资金查询C区个标签对应的项目、性质选项数据集</wsdl:documentation>
+      <wsdl:input message="tns:GetZJCXinfoSoapIn" />
+      <wsdl:output message="tns:GetZJCXinfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PsdChange">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">用户修改密码</wsdl:documentation>
+      <wsdl:input message="tns:PsdChangeSoapIn" />
+      <wsdl:output message="tns:PsdChangeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTongJi">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">返回统计部分的数据值</wsdl:documentation>
+      <wsdl:input message="tns:GetTongJiSoapIn" />
+      <wsdl:output message="tns:GetTongJiSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetTBD">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">投标单</wsdl:documentation>
+      <wsdl:input message="tns:SetTBDSoapIn" />
+      <wsdl:output message="tns:SetTBDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TBD_CX">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">投标单撤销</wsdl:documentation>
+      <wsdl:input message="tns:TBD_CXSoapIn" />
+      <wsdl:output message="tns:TBD_CXSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YDD_CX">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">预订单撤销</wsdl:documentation>
+      <wsdl:input message="tns:YDD_CXSoapIn" />
+      <wsdl:output message="tns:YDD_CXSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="YDD_XG">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">预订单修改</wsdl:documentation>
+      <wsdl:input message="tns:YDD_XGSoapIn" />
+      <wsdl:output message="tns:YDD_XGSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TBD_XG">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">投标单修改</wsdl:documentation>
+      <wsdl:input message="tns:TBD_XGSoapIn" />
+      <wsdl:output message="tns:TBD_XGSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetYDD">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">下达预定单</wsdl:documentation>
+      <wsdl:input message="tns:SetYDDSoapIn" />
+      <wsdl:output message="tns:SetYDDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetYDDCG">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">下达预定单</wsdl:documentation>
+      <wsdl:input message="tns:SetYDDCGSoapIn" />
+      <wsdl:output message="tns:SetYDDCGSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetTBDCG">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">下达投标单草稿</wsdl:documentation>
+      <wsdl:input message="tns:SetTBDCGSoapIn" />
+      <wsdl:output message="tns:SetTBDCGSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SCFHD">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">生成发货单</wsdl:documentation>
+      <wsdl:input message="tns:SCFHDSoapIn" />
+      <wsdl:output message="tns:SCFHDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CKFHD">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">查看发货单</wsdl:documentation>
+      <wsdl:input message="tns:CKFHDSoapIn" />
+      <wsdl:output message="tns:CKFHDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AccountActivate">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">用户账户休眠后自己激活账户</wsdl:documentation>
+      <wsdl:input message="tns:AccountActivateSoapIn" />
+      <wsdl:output message="tns:AccountActivateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LRFHXX">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">录入发货信息</wsdl:documentation>
+      <wsdl:input message="tns:LRFHXXSoapIn" />
+      <wsdl:output message="tns:LRFHXXSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LRFPXX">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">录入发票信息</wsdl:documentation>
+      <wsdl:input message="tns:LRFPXXSoapIn" />
+      <wsdl:output message="tns:LRFPXXSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertSelTQBuyQS">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">卖家提请买家签收</wsdl:documentation>
+      <wsdl:input message="tns:InsertSelTQBuyQSSoapIn" />
+      <wsdl:output message="tns:InsertSelTQBuyQSSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="serverWJNLYBZJJK">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">执行超期未缴纳履约保证金监控</wsdl:documentation>
+      <wsdl:input message="tns:serverWJNLYBZJJKSoapIn" />
+      <wsdl:output message="tns:serverWJNLYBZJJKSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ServerHTQMJK">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">执行合同到期处理监控</wsdl:documentation>
+      <wsdl:input message="tns:ServerHTQMJKSoapIn" />
+      <wsdl:output message="tns:ServerHTQMJKSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ServerMYJJRKS">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">每月经纪人扣税后台监控</wsdl:documentation>
+      <wsdl:input message="tns:ServerMYJJRKSSoapIn" />
+      <wsdl:output message="tns:ServerMYJJRKSSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="serverRunZDQS">
+      <wsdl:input message="tns:serverRunZDQSSoapIn" />
+      <wsdl:output message="tns:serverRunZDQSSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WTYCL">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">问题与处理</wsdl:documentation>
+      <wsdl:input message="tns:WTYCLSoapIn" />
+      <wsdl:output message="tns:WTYCLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNewUserState">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取用户账户的最新状态，用于验证</wsdl:documentation>
+      <wsdl:input message="tns:GetNewUserStateSoapIn" />
+      <wsdl:output message="tns:GetNewUserStateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSHWJinfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取中标定标信息表上传文件的信息，用于验证</wsdl:documentation>
+      <wsdl:input message="tns:GetSHWJinfoSoapIn" />
+      <wsdl:output message="tns:GetSHWJinfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DelPicture">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">删除服务器上已经上传的文件</wsdl:documentation>
+      <wsdl:input message="tns:DelPictureSoapIn" />
+      <wsdl:output message="tns:DelPictureSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="HWqs_ycinfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">问题与处理</wsdl:documentation>
+      <wsdl:input message="tns:HWqs_ycinfoSoapIn" />
+      <wsdl:output message="tns:HWqs_ycinfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DWControversial">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">上传争议证明文件</wsdl:documentation>
+      <wsdl:input message="tns:DWControversialSoapIn" />
+      <wsdl:output message="tns:DWControversialSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DWConfirm">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">争议证明文件的确认</wsdl:documentation>
+      <wsdl:input message="tns:DWConfirmSoapIn" />
+      <wsdl:output message="tns:DWConfirmSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetYDDcaogaoinfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取预订单草稿信息</wsdl:documentation>
+      <wsdl:input message="tns:GetYDDcaogaoinfoSoapIn" />
+      <wsdl:output message="tns:GetYDDcaogaoinfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TBD_GetCGinfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取投标单草稿信息</wsdl:documentation>
+      <wsdl:input message="tns:TBD_GetCGinfoSoapIn" />
+      <wsdl:output message="tns:TBD_GetCGinfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TBDYDDbzh_GetCGinfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取定标保证函详细信息</wsdl:documentation>
+      <wsdl:input message="tns:TBDYDDbzh_GetCGinfoSoapIn" />
+      <wsdl:output message="tns:TBDYDDbzh_GetCGinfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DBZBXXinfoget">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取定标中标信息表详细信息</wsdl:documentation>
+      <wsdl:input message="tns:DBZBXXinfogetSoapIn" />
+      <wsdl:output message="tns:DBZBXXinfogetSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ws2013Soap" type="tns:ws2013Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AccontMoney">
+      <soap:operation soapAction="http://www.fm8844.com/AccontMoney" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccontsMoneys">
+      <soap:operation soapAction="http://www.fm8844.com/AccontsMoneys" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TransferAccounts">
+      <soap:operation soapAction="http://www.fm8844.com/TransferAccounts" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDZGHHTXX">
+      <soap:operation soapAction="http://www.fm8844.com/GetDZGHHTXX" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckFormTrayMsg">
+      <soap:operation soapAction="http://www.fm8844.com/CheckFormTrayMsg" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPublisDsData">
+      <soap:operation soapAction="http://www.fm8844.com/GetPublisDsData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CMyXls">
+      <soap:operation soapAction="http://www.fm8844.com/CMyXls" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="demotest">
+      <soap:operation soapAction="http://www.fm8844.com/demotest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="serverZBJK">
+      <soap:operation soapAction="http://www.fm8844.com/serverZBJK" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="serverRunFHYC">
+      <soap:operation soapAction="http://www.fm8844.com/serverRunFHYC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="serverRunFPYC">
+      <soap:operation soapAction="http://www.fm8844.com/serverRunFPYC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="serverRunLYBZJbuzu">
+      <soap:operation soapAction="http://www.fm8844.com/serverRunLYBZJbuzu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkJJRzt">
+      <soap:operation soapAction="http://www.fm8844.com/checkJJRzt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkLoginIn">
+      <soap:operation soapAction="http://www.fm8844.com/checkLoginIn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestMethod">
+      <soap:operation soapAction="http://www.fm8844.com/TestMethod" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGLJG">
+      <soap:operation soapAction="http://www.fm8844.com/GetGLJG" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitJJRDW">
+      <soap:operation soapAction="http://www.fm8844.com/SubmitJJRDW" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitJJRGR">
+      <soap:operation soapAction="http://www.fm8844.com/SubmitJJRGR" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitMMJDW">
+      <soap:operation soapAction="http://www.fm8844.com/SubmitMMJDW" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitMMJGR">
+      <soap:operation soapAction="http://www.fm8844.com/SubmitMMJGR" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateJJRDW">
+      <soap:operation soapAction="http://www.fm8844.com/UpdateJJRDW" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateJJRGR">
+      <soap:operation soapAction="http://www.fm8844.com/UpdateJJRGR" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMMJDW">
+      <soap:operation soapAction="http://www.fm8844.com/UpdateMMJDW" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMMJGR">
+      <soap:operation soapAction="http://www.fm8844.com/UpdateMMJGR" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="JJRPassMMJ">
+      <soap:operation soapAction="http://www.fm8844.com/JJRPassMMJ" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="JJRRejectMMJ">
+      <soap:operation soapAction="http://www.fm8844.com/JJRRejectMMJ" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMMJData">
+      <soap:operation soapAction="http://www.fm8844.com/GetMMJData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMMJZHZLData">
+      <soap:operation soapAction="http://www.fm8844.com/GetMMJZHZLData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetJJRData">
+      <soap:operation soapAction="http://www.fm8844.com/GetJJRData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetJJRYHXX">
+      <soap:operation soapAction="http://www.fm8844.com/GetJJRYHXX" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMMJJYZHData">
+      <soap:operation soapAction="http://www.fm8844.com/GetMMJJYZHData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetJYZHSHData">
+      <soap:operation soapAction="http://www.fm8844.com/GetJYZHSHData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetJJRZGZS">
+      <soap:operation soapAction="http://www.fm8844.com/GetJJRZGZS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetYSTP">
+      <soap:operation soapAction="http://www.fm8844.com/GetYSTP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZT_HF_XYHSH">
+      <soap:operation soapAction="http://www.fm8844.com/ZT_HF_XYHSH" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZT_HF_XYHSHCSZT">
+      <soap:operation soapAction="http://www.fm8844.com/ZT_HF_XYHSHCSZT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetZTHFYHXYW">
+      <soap:operation soapAction="http://www.fm8844.com/SetZTHFYHXYW" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSiftJJRData">
+      <soap:operation soapAction="http://www.fm8844.com/GetSiftJJRData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSelectJudgeJJRData">
+      <soap:operation soapAction="http://www.fm8844.com/GetSelectJudgeJJRData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetJYZHDQZT">
+      <soap:operation soapAction="http://www.fm8844.com/GetJYZHDQZT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Jhjx_db">
+      <soap:operation soapAction="http://www.fm8844.com/Jhjx_db" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Jhjx_hwqs">
+      <soap:operation soapAction="http://www.fm8844.com/Jhjx_hwqs" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UserRegister">
+      <soap:operation soapAction="http://www.fm8844.com/UserRegister" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UserChangeRegister">
+      <soap:operation soapAction="http://www.fm8844.com/UserChangeRegister" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="reSendValNum">
+      <soap:operation soapAction="http://www.fm8844.com/reSendValNum" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccountID">
+      <soap:operation soapAction="http://www.fm8844.com/AccountID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendValNumber">
+      <soap:operation soapAction="http://www.fm8844.com/SendValNumber" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChangePassword">
+      <soap:operation soapAction="http://www.fm8844.com/ChangePassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTHDFP">
+      <soap:operation soapAction="http://www.fm8844.com/GetTHDFP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveTHD">
+      <soap:operation soapAction="http://www.fm8844.com/SaveTHD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CKTHD">
+      <soap:operation soapAction="http://www.fm8844.com/CKTHD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGLJJRGLJG">
+      <soap:operation soapAction="http://www.fm8844.com/GetGLJJRGLJG" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetZJCXinfo">
+      <soap:operation soapAction="http://www.fm8844.com/GetZJCXinfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PsdChange">
+      <soap:operation soapAction="http://www.fm8844.com/PsdChange" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTongJi">
+      <soap:operation soapAction="http://www.fm8844.com/GetTongJi" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetTBD">
+      <soap:operation soapAction="http://www.fm8844.com/SetTBD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TBD_CX">
+      <soap:operation soapAction="http://www.fm8844.com/TBD_CX" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YDD_CX">
+      <soap:operation soapAction="http://www.fm8844.com/YDD_CX" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YDD_XG">
+      <soap:operation soapAction="http://www.fm8844.com/YDD_XG" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TBD_XG">
+      <soap:operation soapAction="http://www.fm8844.com/TBD_XG" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetYDD">
+      <soap:operation soapAction="http://www.fm8844.com/SetYDD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetYDDCG">
+      <soap:operation soapAction="http://www.fm8844.com/SetYDDCG" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetTBDCG">
+      <soap:operation soapAction="http://www.fm8844.com/SetTBDCG" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SCFHD">
+      <soap:operation soapAction="http://www.fm8844.com/SCFHD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CKFHD">
+      <soap:operation soapAction="http://www.fm8844.com/CKFHD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccountActivate">
+      <soap:operation soapAction="http://www.fm8844.com/AccountActivate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LRFHXX">
+      <soap:operation soapAction="http://www.fm8844.com/LRFHXX" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LRFPXX">
+      <soap:operation soapAction="http://www.fm8844.com/LRFPXX" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertSelTQBuyQS">
+      <soap:operation soapAction="http://www.fm8844.com/InsertSelTQBuyQS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="serverWJNLYBZJJK">
+      <soap:operation soapAction="http://www.fm8844.com/serverWJNLYBZJJK" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ServerHTQMJK">
+      <soap:operation soapAction="http://www.fm8844.com/ServerHTQMJK" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ServerMYJJRKS">
+      <soap:operation soapAction="http://www.fm8844.com/ServerMYJJRKS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="serverRunZDQS">
+      <soap:operation soapAction="http://www.fm8844.com/serverRunZDQS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WTYCL">
+      <soap:operation soapAction="http://www.fm8844.com/WTYCL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNewUserState">
+      <soap:operation soapAction="http://www.fm8844.com/GetNewUserState" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSHWJinfo">
+      <soap:operation soapAction="http://www.fm8844.com/GetSHWJinfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelPicture">
+      <soap:operation soapAction="http://www.fm8844.com/DelPicture" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HWqs_ycinfo">
+      <soap:operation soapAction="http://www.fm8844.com/HWqs_ycinfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DWControversial">
+      <soap:operation soapAction="http://www.fm8844.com/DWControversial" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DWConfirm">
+      <soap:operation soapAction="http://www.fm8844.com/DWConfirm" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetYDDcaogaoinfo">
+      <soap:operation soapAction="http://www.fm8844.com/GetYDDcaogaoinfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TBD_GetCGinfo">
+      <soap:operation soapAction="http://www.fm8844.com/TBD_GetCGinfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TBDYDDbzh_GetCGinfo">
+      <soap:operation soapAction="http://www.fm8844.com/TBDYDDbzh_GetCGinfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DBZBXXinfoget">
+      <soap:operation soapAction="http://www.fm8844.com/DBZBXXinfoget" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ws2013Soap12" type="tns:ws2013Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AccontMoney">
+      <soap12:operation soapAction="http://www.fm8844.com/AccontMoney" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccontsMoneys">
+      <soap12:operation soapAction="http://www.fm8844.com/AccontsMoneys" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TransferAccounts">
+      <soap12:operation soapAction="http://www.fm8844.com/TransferAccounts" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDZGHHTXX">
+      <soap12:operation soapAction="http://www.fm8844.com/GetDZGHHTXX" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckFormTrayMsg">
+      <soap12:operation soapAction="http://www.fm8844.com/CheckFormTrayMsg" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPublisDsData">
+      <soap12:operation soapAction="http://www.fm8844.com/GetPublisDsData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CMyXls">
+      <soap12:operation soapAction="http://www.fm8844.com/CMyXls" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="demotest">
+      <soap12:operation soapAction="http://www.fm8844.com/demotest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="serverZBJK">
+      <soap12:operation soapAction="http://www.fm8844.com/serverZBJK" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="serverRunFHYC">
+      <soap12:operation soapAction="http://www.fm8844.com/serverRunFHYC" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="serverRunFPYC">
+      <soap12:operation soapAction="http://www.fm8844.com/serverRunFPYC" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="serverRunLYBZJbuzu">
+      <soap12:operation soapAction="http://www.fm8844.com/serverRunLYBZJbuzu" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkJJRzt">
+      <soap12:operation soapAction="http://www.fm8844.com/checkJJRzt" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkLoginIn">
+      <soap12:operation soapAction="http://www.fm8844.com/checkLoginIn" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestMethod">
+      <soap12:operation soapAction="http://www.fm8844.com/TestMethod" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGLJG">
+      <soap12:operation soapAction="http://www.fm8844.com/GetGLJG" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitJJRDW">
+      <soap12:operation soapAction="http://www.fm8844.com/SubmitJJRDW" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitJJRGR">
+      <soap12:operation soapAction="http://www.fm8844.com/SubmitJJRGR" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitMMJDW">
+      <soap12:operation soapAction="http://www.fm8844.com/SubmitMMJDW" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitMMJGR">
+      <soap12:operation soapAction="http://www.fm8844.com/SubmitMMJGR" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateJJRDW">
+      <soap12:operation soapAction="http://www.fm8844.com/UpdateJJRDW" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateJJRGR">
+      <soap12:operation soapAction="http://www.fm8844.com/UpdateJJRGR" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMMJDW">
+      <soap12:operation soapAction="http://www.fm8844.com/UpdateMMJDW" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMMJGR">
+      <soap12:operation soapAction="http://www.fm8844.com/UpdateMMJGR" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="JJRPassMMJ">
+      <soap12:operation soapAction="http://www.fm8844.com/JJRPassMMJ" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="JJRRejectMMJ">
+      <soap12:operation soapAction="http://www.fm8844.com/JJRRejectMMJ" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMMJData">
+      <soap12:operation soapAction="http://www.fm8844.com/GetMMJData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMMJZHZLData">
+      <soap12:operation soapAction="http://www.fm8844.com/GetMMJZHZLData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetJJRData">
+      <soap12:operation soapAction="http://www.fm8844.com/GetJJRData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetJJRYHXX">
+      <soap12:operation soapAction="http://www.fm8844.com/GetJJRYHXX" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMMJJYZHData">
+      <soap12:operation soapAction="http://www.fm8844.com/GetMMJJYZHData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetJYZHSHData">
+      <soap12:operation soapAction="http://www.fm8844.com/GetJYZHSHData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetJJRZGZS">
+      <soap12:operation soapAction="http://www.fm8844.com/GetJJRZGZS" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetYSTP">
+      <soap12:operation soapAction="http://www.fm8844.com/GetYSTP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZT_HF_XYHSH">
+      <soap12:operation soapAction="http://www.fm8844.com/ZT_HF_XYHSH" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZT_HF_XYHSHCSZT">
+      <soap12:operation soapAction="http://www.fm8844.com/ZT_HF_XYHSHCSZT" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetZTHFYHXYW">
+      <soap12:operation soapAction="http://www.fm8844.com/SetZTHFYHXYW" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSiftJJRData">
+      <soap12:operation soapAction="http://www.fm8844.com/GetSiftJJRData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSelectJudgeJJRData">
+      <soap12:operation soapAction="http://www.fm8844.com/GetSelectJudgeJJRData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetJYZHDQZT">
+      <soap12:operation soapAction="http://www.fm8844.com/GetJYZHDQZT" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Jhjx_db">
+      <soap12:operation soapAction="http://www.fm8844.com/Jhjx_db" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Jhjx_hwqs">
+      <soap12:operation soapAction="http://www.fm8844.com/Jhjx_hwqs" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UserRegister">
+      <soap12:operation soapAction="http://www.fm8844.com/UserRegister" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UserChangeRegister">
+      <soap12:operation soapAction="http://www.fm8844.com/UserChangeRegister" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="reSendValNum">
+      <soap12:operation soapAction="http://www.fm8844.com/reSendValNum" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccountID">
+      <soap12:operation soapAction="http://www.fm8844.com/AccountID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendValNumber">
+      <soap12:operation soapAction="http://www.fm8844.com/SendValNumber" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChangePassword">
+      <soap12:operation soapAction="http://www.fm8844.com/ChangePassword" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTHDFP">
+      <soap12:operation soapAction="http://www.fm8844.com/GetTHDFP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveTHD">
+      <soap12:operation soapAction="http://www.fm8844.com/SaveTHD" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CKTHD">
+      <soap12:operation soapAction="http://www.fm8844.com/CKTHD" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGLJJRGLJG">
+      <soap12:operation soapAction="http://www.fm8844.com/GetGLJJRGLJG" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetZJCXinfo">
+      <soap12:operation soapAction="http://www.fm8844.com/GetZJCXinfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PsdChange">
+      <soap12:operation soapAction="http://www.fm8844.com/PsdChange" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTongJi">
+      <soap12:operation soapAction="http://www.fm8844.com/GetTongJi" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetTBD">
+      <soap12:operation soapAction="http://www.fm8844.com/SetTBD" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TBD_CX">
+      <soap12:operation soapAction="http://www.fm8844.com/TBD_CX" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YDD_CX">
+      <soap12:operation soapAction="http://www.fm8844.com/YDD_CX" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="YDD_XG">
+      <soap12:operation soapAction="http://www.fm8844.com/YDD_XG" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TBD_XG">
+      <soap12:operation soapAction="http://www.fm8844.com/TBD_XG" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetYDD">
+      <soap12:operation soapAction="http://www.fm8844.com/SetYDD" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetYDDCG">
+      <soap12:operation soapAction="http://www.fm8844.com/SetYDDCG" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetTBDCG">
+      <soap12:operation soapAction="http://www.fm8844.com/SetTBDCG" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SCFHD">
+      <soap12:operation soapAction="http://www.fm8844.com/SCFHD" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CKFHD">
+      <soap12:operation soapAction="http://www.fm8844.com/CKFHD" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AccountActivate">
+      <soap12:operation soapAction="http://www.fm8844.com/AccountActivate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LRFHXX">
+      <soap12:operation soapAction="http://www.fm8844.com/LRFHXX" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LRFPXX">
+      <soap12:operation soapAction="http://www.fm8844.com/LRFPXX" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertSelTQBuyQS">
+      <soap12:operation soapAction="http://www.fm8844.com/InsertSelTQBuyQS" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="serverWJNLYBZJJK">
+      <soap12:operation soapAction="http://www.fm8844.com/serverWJNLYBZJJK" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ServerHTQMJK">
+      <soap12:operation soapAction="http://www.fm8844.com/ServerHTQMJK" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ServerMYJJRKS">
+      <soap12:operation soapAction="http://www.fm8844.com/ServerMYJJRKS" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="serverRunZDQS">
+      <soap12:operation soapAction="http://www.fm8844.com/serverRunZDQS" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WTYCL">
+      <soap12:operation soapAction="http://www.fm8844.com/WTYCL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNewUserState">
+      <soap12:operation soapAction="http://www.fm8844.com/GetNewUserState" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSHWJinfo">
+      <soap12:operation soapAction="http://www.fm8844.com/GetSHWJinfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelPicture">
+      <soap12:operation soapAction="http://www.fm8844.com/DelPicture" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HWqs_ycinfo">
+      <soap12:operation soapAction="http://www.fm8844.com/HWqs_ycinfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DWControversial">
+      <soap12:operation soapAction="http://www.fm8844.com/DWControversial" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DWConfirm">
+      <soap12:operation soapAction="http://www.fm8844.com/DWConfirm" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetYDDcaogaoinfo">
+      <soap12:operation soapAction="http://www.fm8844.com/GetYDDcaogaoinfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TBD_GetCGinfo">
+      <soap12:operation soapAction="http://www.fm8844.com/TBD_GetCGinfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TBDYDDbzh_GetCGinfo">
+      <soap12:operation soapAction="http://www.fm8844.com/TBDYDDbzh_GetCGinfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DBZBXXinfoget">
+      <soap12:operation soapAction="http://www.fm8844.com/DBZBXXinfoget" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ws2013">
+    <wsdl:port name="ws2013Soap" binding="tns:ws2013Soap">
+      <soap:address location="http://pt.fm8844.com/pingtaiservices/ws2013.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ws2013Soap12" binding="tns:ws2013Soap12">
+      <soap12:address location="http://pt.fm8844.com/pingtaiservices/ws2013.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

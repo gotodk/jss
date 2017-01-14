@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CPKCXXB" targetNamespace="http://tempuri.org/CPKCXXB.xsd" xmlns:mstns="http://tempuri.org/CPKCXXB.xsd" xmlns="http://tempuri.org/CPKCXXB.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="FMOPConn" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="FMOPConn (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.FMOPConn.ConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SCJHB_CPKCXXBTableAdapter" Name="SCJHB_CPKCXXB">
+            <MainSource>
+              <DbSource ConnectionRef="FMOPConn (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="False" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="False">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>SELECT 
+	xsd.CSZX,
+	wym.CPBH,
+	wym.CPPL,
+	wym.CPXH,
+	(
+		select count(*) from scjhb_stock a inner join yxsyb_cpxsd b on a.xsdh=b.number where a.cpbh= wym.cpbh and b.cszx=xsd.cszx 
+		and a.state=1
+	)  - 
+	(
+		select count(*) from scjhb_stock a inner join yxsyb_cpxsd b on a.xsdh=b.number where a.cpbh= wym.cpbh and b.cszx=xsd.cszx 
+		and a.state=2
+	)
+	AS QCKCSL
+	, ISNULL(
+				(	
+					(
+						select count(*) from scjhb_stock a inner join yxsyb_cpxsd b on a.xsdh=b.number where a.cpbh= wym.cpbh and b.cszx=xsd.cszx and a.state=1
+							and 
+							DateName (Yy,a.RUSJ)+'-'+DateName(Mm,a.RUSJ) = DateName (Yy,getdate())+'-'+DateName(Mm,getdate())
+							and
+							DateName (Yy,a.CKSJ)+'-'+DateName(Mm,a.CKSJ) = DateName (Yy,getdate())+'-'+DateName(Mm,getdate())
+					)  - 
+					(
+					select count(*) from scjhb_stock a inner join yxsyb_cpxsd b on a.xsdh=b.number where a.cpbh= wym.cpbh and b.cszx=xsd.cszx and a.state=2
+					)
+				)
+				* 
+				(
+					select DJ from system_products WHERE system_Products.Number = wym.cpbh 
+				)
+			,0) 
+	AS QCKCJE
+   ,
+	(
+		select 
+				count(*) 
+		from 
+				scjhb_stock a 
+		inner join 
+				yxsyb_cpxsd b on a.xsdh=b.number 
+		where 
+				a.cpbh= wym.cpbh 
+			and 
+				b.cszx=xsd.cszx 
+			and 
+				a.state=1
+	)
+	AS BQRKSL
+	,ISNULL(	
+		(
+			select 
+					count(*) 
+			from 
+					scjhb_stock a inner join yxsyb_cpxsd b on a.xsdh=b.number 
+			where 
+					a.cpbh= wym.cpbh 
+				and 
+					b.cszx=xsd.cszx 
+				and 
+					a.state=1 
+				and 
+					DateName (Yy,a.RUSJ)+'-'+DateName(Mm,a.RUSJ) = DateName (Yy,getdate())+'-'+DateName(Mm,getdate())
+		)
+		* 
+		(
+			select DJ from system_products WHERE system_Products.Number = wym.cpbh 
+		)
+	 ,0) 
+	AS BQRKJE
+   ,
+	(
+		select 
+				count(*) 
+		from 
+				scjhb_stock a 
+		inner join 
+				yxsyb_cpxsd b on a.xsdh=b.number 
+		where 
+				a.cpbh= wym.cpbh 
+			and 
+				b.cszx=xsd.cszx 
+			and 
+				a.state=1
+	)
+	AS BQXSSL
+	,ISNULL(	
+		(
+			select 
+					count(*) 
+			from 
+					scjhb_stock a inner join yxsyb_cpxsd b on a.xsdh=b.number 
+			where 
+					a.cpbh= wym.cpbh 
+				and 
+					b.cszx=xsd.cszx 
+				and 
+					a.state=1 
+				and 
+					DateName (Yy,a.RUSJ)+'-'+DateName(Mm,a.RUSJ) = DateName (Yy,getdate())+'-'+DateName(Mm,getdate())
+		)
+		* 
+		(
+			select DJ from system_products WHERE system_Products.Number = wym.cpbh 
+		)
+	 ,0) 
+	AS BQXSJE
+	,0 AS KCYLSL
+	,0 AS KCYLJE
+	,0 AS FXKCSL
+	,0 AS FXKCJE
+	,0 AS ZZSL
+	,0 AS ZZJE
+	-- 在途 : 销售单已产生，未入库的
+	,(
+		select 
+				count(*) 
+		from 
+				scjhb_stock a 
+		inner join 
+				yxsyb_cpxsd b on a.xsdh=b.number 
+		where 
+				a.cpbh= wym.cpbh 
+			and 
+				b.cszx=xsd.cszx 
+			and 
+				b.XSDZT = '产生'
+	)
+	AS ZTSL
+	,ISNULL(	
+		(
+			select 
+					count(*) 
+			from 
+					scjhb_stock a inner join yxsyb_cpxsd b on a.xsdh=b.number 
+			where 
+					a.cpbh= wym.cpbh 
+				and 
+					b.cszx=xsd.cszx 
+				and 
+					b.XSDZT = '产生'
+		)
+		* 
+		(
+			select DJ from system_products WHERE system_Products.Number = wym.cpbh 
+		)
+	 ,0) 
+	AS ZTJE
+   ,
+	(
+		select 
+				count(*) 
+		from 
+				scjhb_stock a 
+		inner join 
+				yxsyb_cpxsd b on a.xsdh=b.number 
+		where 
+				a.cpbh= wym.cpbh 
+			and 
+				b.cszx=xsd.cszx 
+			and 
+				a.state=3
+	)
+	AS THSL
+	,ISNULL(	
+		(
+			select 
+					count(*) 
+			from 
+					scjhb_stock a inner join yxsyb_cpxsd b on a.xsdh=b.number 
+			where 
+					a.cpbh= wym.cpbh 
+				and 
+					b.cszx=xsd.cszx 
+				and 
+					a.state=3 
+				and 
+					DateName (Yy,a.RUSJ)+'-'+DateName(Mm,a.RUSJ) = DateName (Yy,getdate())+'-'+DateName(Mm,getdate())
+		)
+		* 
+		(
+			select DJ from system_products WHERE system_Products.Number = wym.cpbh 
+		)
+	 ,0) 
+	AS THJE
+	,
+
+	(
+		select 
+				count(*) 
+		from 
+				scjhb_stock a 
+		inner join 
+				yxsyb_cpxsd b on a.xsdh=b.number 
+		where 
+				a.cpbh= wym.cpbh 
+			and 
+				b.cszx=xsd.cszx 
+			and 
+				a.cpzt=2
+	)
+	AS BLPSL
+	,ISNULL(	
+		(
+			select 
+					count(*) 
+			from 
+					scjhb_stock a inner join yxsyb_cpxsd b on a.xsdh=b.number 
+			where 
+					a.cpbh= wym.cpbh 
+				and 
+					b.cszx=xsd.cszx 
+				and 
+					a.cpzt=2 
+				and 
+					DateName (Yy,a.RUSJ)+'-'+DateName(Mm,a.RUSJ) = DateName (Yy,getdate())+'-'+DateName(Mm,getdate())
+		)
+		* 
+		(
+			select DJ from system_products WHERE system_Products.Number = wym.cpbh 
+		)
+	 ,0) 
+	AS BLPJE
+FROM 
+	SCJHB_STOCK wym INNER JOIN YXSYB_CPXSD xsd ON wym.xsdh=xsd.number
+GROUP BY 
+		cszx,cpbh,cppl,cpxh
+ORDER BY 
+		cszx</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="CPPL" DataSetColumn="CPPL" />
+              <Mapping SourceColumn="CPXH" DataSetColumn="CPXH" />
+              <Mapping SourceColumn="ZTSL" DataSetColumn="ZTSL" />
+              <Mapping SourceColumn="ZZSL" DataSetColumn="ZZSL" />
+              <Mapping SourceColumn="THSL" DataSetColumn="THSL" />
+              <Mapping SourceColumn="BLPSL" DataSetColumn="BLPSL" />
+              <Mapping SourceColumn="CPBH" DataSetColumn="CPBH" />
+              <Mapping SourceColumn="QCKCSL" DataSetColumn="QCKCSL" />
+              <Mapping SourceColumn="BQRKSL" DataSetColumn="BQRKSL" />
+              <Mapping SourceColumn="BQXSSL" DataSetColumn="BQXSSL" />
+              <Mapping SourceColumn="KCYLSL" DataSetColumn="KCYLSL" />
+              <Mapping SourceColumn="KCYLJE" DataSetColumn="KCYLJE" />
+              <Mapping SourceColumn="FXKCSL" DataSetColumn="FXKCSL" />
+              <Mapping SourceColumn="FXKCJE" DataSetColumn="FXKCJE" />
+              <Mapping SourceColumn="ZZJE" DataSetColumn="ZZJE" />
+              <Mapping SourceColumn="CSZX" DataSetColumn="CSZX" />
+              <Mapping SourceColumn="QCKCJE" DataSetColumn="QCKCJE" />
+              <Mapping SourceColumn="BQRKJE" DataSetColumn="BQRKJE" />
+              <Mapping SourceColumn="BQXSJE" DataSetColumn="BQXSJE" />
+              <Mapping SourceColumn="ZTJE" DataSetColumn="ZTJE" />
+              <Mapping SourceColumn="THJE" DataSetColumn="THJE" />
+              <Mapping SourceColumn="BLPJE" DataSetColumn="BLPJE" />
+            </Mappings>
+            <Sources>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CPKCXXB" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SCJHB_CPKCXXB">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CPPL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CPXH" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ZTSL" type="xs:int" minOccurs="0" />
+              <xs:element name="ZZSL" type="xs:int" minOccurs="0" />
+              <xs:element name="THSL" type="xs:int" minOccurs="0" />
+              <xs:element name="BLPSL" type="xs:int" minOccurs="0" />
+              <xs:element name="CPBH" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="QCKCSL" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="BQRKSL" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="BQXSSL" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="KCYLSL" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="KCYLJE" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="FXKCSL" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="FXKCJE" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="ZZJE" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="CSZX" msdata:ReadOnly="true">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="QCKCJE" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+              <xs:element name="BQRKJE" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+              <xs:element name="BQXSJE" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+              <xs:element name="ZTJE" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+              <xs:element name="THJE" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+              <xs:element name="BLPJE" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

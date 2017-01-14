@@ -1,0 +1,11 @@
+F:\富美开发项目\2011工作副本\银行接口协议测试\银行接口协议测试\bin\Debug\银行接口协议测试.exe
+F:\富美开发项目\2011工作副本\银行接口协议测试\银行接口协议测试\bin\Debug\银行接口协议测试.pdb
+F:\富美开发项目\2011工作副本\银行接口协议测试\银行接口协议测试\obj\Debug\银行接口协议测试.csprojResolveAssemblyReference.cache
+F:\富美开发项目\2011工作副本\银行接口协议测试\银行接口协议测试\obj\Debug\银行接口协议测试.Properties.Resources.resources
+F:\富美开发项目\2011工作副本\银行接口协议测试\银行接口协议测试\obj\Debug\银行接口协议测试.csproj.GenerateResource.Cache
+F:\富美开发项目\2011工作副本\银行接口协议测试\银行接口协议测试\obj\Debug\银行接口协议测试.exe
+F:\富美开发项目\2011工作副本\银行接口协议测试\银行接口协议测试\obj\Debug\银行接口协议测试.pdb
+F:\富美开发项目\2011工作副本\银行接口协议测试\银行接口协议测试\obj\Debug\银行接口协议测试.FormTest.resources
+F:\富美开发项目\2011工作副本\银行接口协议测试\银行接口协议测试\bin\Debug\FMBANKpufa.dll
+F:\富美开发项目\2011工作副本\银行接口协议测试\银行接口协议测试\bin\Debug\FMBANKpufa.pdb
+F:\富美开发项目\2011工作副本\银行接口协议测试\银行接口协议测试\obj\Debug\银行接口协议测试.FormXML.resources

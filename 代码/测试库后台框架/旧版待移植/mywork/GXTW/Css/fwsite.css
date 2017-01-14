@@ -1,0 +1,39 @@
+@charset "gb2312";
+body,html{
+	FONT-FAMILY: "Verdana","Tamoda","宋体";
+    FONT-SIZE: 12px;
+    text-decoration: none;
+    line-height: 150%;
+    background:#FFFFFF;
+	color:#464646;
+	padding:0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+	margin-left: 0px;
+	PADDING-TOP:0px;	
+	TEXT-ALIGN:center;	
+	background-color:#FFFFFF;
+	scrollbar-shadow-color: #FFFFFF; 
+scrollbar-highlight-color: #FFFFFF; 
+scrollbar-arrow-color: #FFFFFF; 
+scrollbar-face-color: #59ADBB; 
+scrollbar-track-color: #FFFFFF; 
+scrollbar-3dlight-color: #59ADBB; 
+scrollbar-darkshadow-color: #59ADBB;
+ border: 0px; 
+
+}
+ table,br,div,th,tr,p,TD,td{	FONT-SIZE: 12px;COLOR: #464646;	FONT-FAMILY: "Verdana","Tamoda","宋体";
+  
+}
+
+/*服务平台新闻样式*/
+.newstop{background:url(../image/newbg.jpg);background-repeat: repeat-x; }
+
+/*整站的链接*/
+a:link {color:#464646;line-height:150%;text-decoration: none;	}
+a:visited {color:#464646;text-decoration: none;	}
+a:hover {color:#3399FF;	text-decoration: underline;}
+
+

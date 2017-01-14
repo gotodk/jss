@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:intf="http://192.168.100.11:8080/forever/infocenter/callCenterWeb.jws" xmlns:impl="http://192.168.100.11:8080/forever/infocenter/callCenterWeb.jws" targetNamespace="http://192.168.100.11:8080/forever/infocenter/callCenterWeb.jws" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types />
+  <wsdl:message name="updateComplaintsResponse">
+    <wsdl:part name="updateComplaintsReturn" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="updateComplaintsRequest">
+    <wsdl:part name="complaintsxml" type="xsd:string" />
+    <wsdl:part name="Flag" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="updateReturnsRequest">
+    <wsdl:part name="returnsxml" type="xsd:string" />
+    <wsdl:part name="Flag" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="updateFaultResponse">
+    <wsdl:part name="updateFaultReturn" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="updateReturnsResponse">
+    <wsdl:part name="updateReturnsReturn" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="updateConsultationRequest">
+    <wsdl:part name="ConsultationXml" type="xsd:string" />
+    <wsdl:part name="Flag" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="updateFaultRequest">
+    <wsdl:part name="failurexml" type="xsd:string" />
+    <wsdl:part name="Flag" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="updateConsultationResponse">
+    <wsdl:part name="updateConsultationReturn" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="updateOrderRequest">
+    <wsdl:part name="orderXml" type="xsd:string" />
+    <wsdl:part name="Flag" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="updateOrderResponse">
+    <wsdl:part name="updateOrderReturn" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="updateAgentsResponse">
+    <wsdl:part name="updateAgentsReturn" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="updateAgentsRequest">
+    <wsdl:part name="agentsxml" type="xsd:string" />
+    <wsdl:part name="Flag" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:portType name="callCenterWeb">
+    <wsdl:operation name="updateOrder" parameterOrder="orderXml Flag">
+      <wsdl:input name="updateOrderRequest" message="impl:updateOrderRequest" />
+      <wsdl:output name="updateOrderResponse" message="impl:updateOrderResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="updateConsultation" parameterOrder="ConsultationXml Flag">
+      <wsdl:input name="updateConsultationRequest" message="impl:updateConsultationRequest" />
+      <wsdl:output name="updateConsultationResponse" message="impl:updateConsultationResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="updateFault" parameterOrder="failurexml Flag">
+      <wsdl:input name="updateFaultRequest" message="impl:updateFaultRequest" />
+      <wsdl:output name="updateFaultResponse" message="impl:updateFaultResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="updateAgents" parameterOrder="agentsxml Flag">
+      <wsdl:input name="updateAgentsRequest" message="impl:updateAgentsRequest" />
+      <wsdl:output name="updateAgentsResponse" message="impl:updateAgentsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="updateReturns" parameterOrder="returnsxml Flag">
+      <wsdl:input name="updateReturnsRequest" message="impl:updateReturnsRequest" />
+      <wsdl:output name="updateReturnsResponse" message="impl:updateReturnsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="updateComplaints" parameterOrder="complaintsxml Flag">
+      <wsdl:input name="updateComplaintsRequest" message="impl:updateComplaintsRequest" />
+      <wsdl:output name="updateComplaintsResponse" message="impl:updateComplaintsResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="callCenterWebSoapBinding" type="impl:callCenterWeb">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="updateOrder">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="updateOrderRequest">
+        <wsdlsoap:body use="encoded" namespace="http://DefaultNamespace" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="updateOrderResponse">
+        <wsdlsoap:body use="encoded" namespace="http://192.168.100.11:8080/forever/infocenter/callCenterWeb.jws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateConsultation">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="updateConsultationRequest">
+        <wsdlsoap:body use="encoded" namespace="http://DefaultNamespace" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="updateConsultationResponse">
+        <wsdlsoap:body use="encoded" namespace="http://192.168.100.11:8080/forever/infocenter/callCenterWeb.jws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateFault">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="updateFaultRequest">
+        <wsdlsoap:body use="encoded" namespace="http://DefaultNamespace" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="updateFaultResponse">
+        <wsdlsoap:body use="encoded" namespace="http://192.168.100.11:8080/forever/infocenter/callCenterWeb.jws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateAgents">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="updateAgentsRequest">
+        <wsdlsoap:body use="encoded" namespace="http://DefaultNamespace" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="updateAgentsResponse">
+        <wsdlsoap:body use="encoded" namespace="http://192.168.100.11:8080/forever/infocenter/callCenterWeb.jws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateReturns">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="updateReturnsRequest">
+        <wsdlsoap:body use="encoded" namespace="http://DefaultNamespace" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="updateReturnsResponse">
+        <wsdlsoap:body use="encoded" namespace="http://192.168.100.11:8080/forever/infocenter/callCenterWeb.jws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateComplaints">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="updateComplaintsRequest">
+        <wsdlsoap:body use="encoded" namespace="http://DefaultNamespace" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="updateComplaintsResponse">
+        <wsdlsoap:body use="encoded" namespace="http://192.168.100.11:8080/forever/infocenter/callCenterWeb.jws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="callCenterWebService">
+    <wsdl:port name="callCenterWeb" binding="impl:callCenterWebSoapBinding">
+      <wsdlsoap:address location="http://192.168.100.11:8080/forever/infocenter/callCenterWeb.jws" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

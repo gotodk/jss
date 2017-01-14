@@ -1,0 +1,188 @@
+/* WRAPPER SETTINGS */
+
+.radInput_Gold
+{
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.radInput_Gold table,
+.radInput_Gold table td
+{
+	width: 179px;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.radInput_Gold .inputCell 
+{
+	padding: 0 4px 0 0;	
+}
+
+.radInput_Gold .inputCell input,
+.radInput_Gold .inputCell textarea
+{	
+	margin: 0;
+}
+
+.radInput_Gold .imageCell
+{
+	padding-left: 2px;
+}
+
+.radInput_Gold .spinImgCell
+{
+	padding-left: 2px;
+}
+
+/* SPIN BUTTONS */
+.radInput_Gold a.spinbutton
+{
+	display: block;
+	text-indent: -9999px;
+	width: 12px;
+	height: 9px; 
+	line-height: 9px;
+	background: transparent url("Img/SpinButtonSprites.gif") no-repeat;
+	font-size: 1px;
+	top: 2px;
+	position: relative;
+	*position: inherit; /*IE fix*/
+	outline: none;	
+}
+
+.radInput_Gold a.spinbutton.up
+{
+	background-position: center 0;
+}
+
+.radInput_Gold a.spinbutton.down
+{
+	background-position: center -9px;
+}
+
+.radInput_Gold a.gobutton
+{
+	display: block;
+	text-indent: -9999px;
+	width: 18px;
+	height: 16px; 
+	line-height: 16px;
+	background: transparent url("Img/button.gif") no-repeat;
+	font-size: 1px;
+	position: relative;
+	*position: inherit; /*IE fix*/
+	outline: none;
+}
+
+/* END OF WRAPPER SETTINGS */
+
+
+
+/* INPUT STYLES SETTINGS */
+.radEnabledCss_Gold 
+{
+	width: 179px;
+	color: #666;
+	border-bottom: solid 1px #cec494;
+	border-right: solid 1px #cec494;
+	border-top: solid 1px #ebe8d3;
+	border-left: solid 1px #ebe8d3;
+	background-color: #f4f3e7;
+}
+
+.radHoverCss_Gold 
+{
+	width: 179px;
+	color: #242424;
+	border-bottom: solid 1px #948957;
+	border-right: solid 1px #948957;
+	border-top: solid 1px #d9d6c1;
+	border-left: solid 1px #d9d6c1;
+	background-color: #f4f3e7;
+}
+
+.radDisabledCss_Gold
+{
+	width: 179px;
+	color: #ccc;
+	border: solid 1px #ccc; 
+	background-color: #e3e3e3;	
+}
+
+.radDisabledCss_Gold a.gobutton,
+.radDisabledCss_Gold a.spinbutton
+{
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=30);
+	opacity: .3; 
+	-moz-opacity: .3;
+	cursor: no-drop;
+}
+
+.radEmptyMessageCss_Gold
+{
+	width: 179px;
+	color: #000000;
+	border: solid 1px #c4dbf9; 
+	background-color: #e0eeff;
+}
+
+
+.radFocusedCss_Gold
+{
+	width: 179px;
+	color: #000000;
+	background-color: #fff !important;
+	border-bottom: solid 1px #cec494;
+	border-right: solid 1px #cec494;
+	border-top: solid 1px #ebe8d3;
+	border-left: solid 1px #ebe8d3;
+	background-color: #f4f3e7;
+}
+
+.radNegativeCss_Gold
+{
+	width: 179px;
+	color:  #ff9900;
+	border: solid 1px #ff9900; 
+	background-color: #f4f3e7;
+}
+
+.radInvalidCss_Gold
+{
+	width: 179px;
+	color: #FF9900;
+	border-bottom: solid 1px #cec494;
+	border-right: solid 1px #cec494;
+	border-top: solid 1px #ebe8d3;
+	border-left: solid 1px #ebe8d3;
+	background: #f4f3e7 url('Img/error-sign.gif') no-repeat center right;
+}
+
+.radLabelCss_Gold
+{
+	color: #FF9900; 
+	padding-right: 5px; 
+	white-space:nowrap;
+}
+
+.radHint_Gold 
+{
+	background: infobackground;
+	margin-top: 5px;
+	border: solid 1px black;
+	text-align: left;
+	overflow: auto; 
+}
+
+.radHint_Gold a,
+.radHint_Gold a:visited,
+.radHint_Gold a:hover
+{
+	margin: 2px;
+	color: black;
+	text-decoration: none;
+	font-size: small;
+}

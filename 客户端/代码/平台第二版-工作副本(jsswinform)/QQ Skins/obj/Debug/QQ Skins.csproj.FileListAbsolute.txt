@@ -1,0 +1,41 @@
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Skins\bin\Debug\Skins.dll
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Skins\bin\Debug\Skins.pdb
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.BasicForm.resources
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.BasicForm1.resources
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.BasicMsgBoxForm.resources
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.BasicTextBox.resources
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.IChatForm.resources
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.BasicCheckBox.resources
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.BasicComboBox.resources
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.ILogonForm.resources
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.BasicMainForm.resources
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.BasicTabBtn.resources
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.BasicTabControl.resources
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.Properties.Resources.resources
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.BasicControl.resources
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.TextControl.resources
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.BasicLogonForm2010.resources
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Skins\obj\Debug\QQ Skins.csproj.GenerateResource.Cache
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Skins\obj\Debug\Skins.dll
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Skins\obj\Debug\Skins.pdb
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Skins\bin\Debug\Skins.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Skins\bin\Debug\Skins.pdb
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.BasicForm.resources
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.BasicForm1.resources
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.BasicMsgBoxForm.resources
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.BasicTextBox.resources
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.IChatForm.resources
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.BasicCheckBox.resources
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.BasicComboBox.resources
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.ILogonForm.resources
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.BasicMainForm.resources
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.BasicTabBtn.resources
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.BasicTabControl.resources
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.Properties.Resources.resources
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.BasicControl.resources
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.TextControl.resources
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Skins\obj\Debug\Com.Seezt.Skins.BasicLogonForm2010.resources
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Skins\obj\Debug\QQ Skins.csproj.GenerateResource.Cache
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Skins\obj\Debug\Skins.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Skins\obj\Debug\Skins.pdb
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Skins\obj\Debug\QQ Skins.csprojResolveAssemblyReference.cache

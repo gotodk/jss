@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="getsymain.aspx.cs" Inherits="mywork_getsymain" ResponseEncoding="gb2312" %>

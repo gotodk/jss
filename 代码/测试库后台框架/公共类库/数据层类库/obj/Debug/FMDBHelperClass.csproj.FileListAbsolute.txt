@@ -1,0 +1,12 @@
+D:\富美集团新框架\公共类库\数据层类库\bin\Debug\FMDBHelperClass.dll
+D:\富美集团新框架\公共类库\数据层类库\bin\Debug\FMDBHelperClass.pdb
+D:\富美集团新框架\公共类库\数据层类库\obj\Debug\FMDBHelperClass.csprojResolveAssemblyReference.cache
+D:\富美集团新框架\公共类库\数据层类库\obj\Debug\FMDBHelperClass.dll
+D:\富美集团新框架\公共类库\数据层类库\obj\Debug\FMDBHelperClass.pdb
+D:\富美集团新框架\公共类库\数据层类库\bin\Debug\FMPublicClass.dll
+D:\富美集团新框架\公共类库\数据层类库\bin\Debug\ServiceStack.Common.dll
+D:\富美集团新框架\公共类库\数据层类库\bin\Debug\ServiceStack.Interfaces.dll
+D:\富美集团新框架\公共类库\数据层类库\bin\Debug\ServiceStack.Redis.dll
+D:\富美集团新框架\公共类库\数据层类库\bin\Debug\ServiceStack.Text.dll
+D:\富美集团新框架\公共类库\数据层类库\bin\Debug\FMPublicClass.pdb
+D:\富美集团新框架\公共类库\数据层类库\bin\Debug\FMPublicClass.xml

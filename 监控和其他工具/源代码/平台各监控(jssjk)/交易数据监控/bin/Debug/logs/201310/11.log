@@ -1,0 +1,1074 @@
+2013-10-11 14-30-31     ---     执行任务名称:中标监控(三个月一年),开始时间:2013/10/11 14:30:30,结束时间:2013/10/11 14:30:31,执行结果:ok没有过冷静期的数据!,其他描述:
+
+2013-10-11 14-30-32     ---     执行任务名称:即时交易监控,开始时间:2013/10/11 14:30:31,结束时间:2013/10/11 14:30:32,执行结果:ok无中标或冷静期操作执行！,其他描述:
+
+2013-10-11 14-30-32     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/11 14:30:32,结束时间:2013/10/11 14:30:32,执行结果:ok生成完成,其他描述:
+
+2013-10-11 14-30-32     ---     执行任务名称:预订单过期,开始时间:2013/10/11 14:30:32,结束时间:2013/10/11 14:30:32,执行结果:ok发现需要撤销的数据，成功执行撤销操作。,其他描述:
+
+2013-10-11 14-30-33     ---     执行任务名称:延迟发货监控,开始时间:2013/10/11 14:30:32,结束时间:2013/10/11 14:30:33,执行结果:ok处理了1条延迟发货提货单，共计12天延迟!,其他描述:
+
+2013-10-11 14-30-33     ---     执行任务名称:延迟发票监控,开始时间:2013/10/11 14:30:33,结束时间:2013/10/11 14:30:33,执行结果:ok没有要处理的延迟发票寄送数据!,其他描述:
+
+2013-10-11 14-30-33     ---     执行任务名称:即时延迟发货,开始时间:2013/10/11 14:30:33,结束时间:2013/10/11 14:30:33,执行结果:ok没有要处理的延迟发货数据!,其他描述:
+
+2013-10-11 14-30-33     ---     执行任务名称:计算履约保证金不足的合同,开始时间:2013/10/11 14:30:33,结束时间:2013/10/11 14:30:33,执行结果:ok履约保证金不足废标1条被处理成功!,其他描述:
+
+2013-10-11 14-30-33     ---     执行任务名称:提醒后自动签收,开始时间:2013/10/11 14:30:33,结束时间:2013/10/11 14:30:33,执行结果:ok未获取到需要默认无异议收货的信息！,其他描述:
+
+2013-10-11 14-30-34     ---     执行任务名称:计算经纪人收益扣税,开始时间:2013/10/11 14:30:33,结束时间:2013/10/11 14:30:34,执行结果:ok执行经纪人扣税监控成功，时间2013/10/11 14:29:58！,其他描述:
+
+2013-10-11 14-30-39     ---     执行任务名称:合同期满处理,开始时间:2013/10/11 14:30:34,结束时间:2013/10/11 14:30:39,执行结果:ok执行成功!,其他描述:
+
+2013-10-11 14-30-40     ---     执行任务名称:超期未缴纳履约保证金监控,开始时间:2013/10/11 14:30:39,结束时间:2013/10/11 14:30:40,执行结果:ok执行成功！,其他描述:
+
+2013-10-11 14-30-57     ---     执行任务名称:中标监控(三个月一年),开始时间:2013/10/11 14:30:57,结束时间:2013/10/11 14:30:57,执行结果:ok没有过冷静期的数据!,其他描述:
+
+2013-10-11 14-30-57     ---     执行任务名称:即时交易监控,开始时间:2013/10/11 14:30:57,结束时间:2013/10/11 14:30:57,执行结果:ok无中标或冷静期操作执行！,其他描述:
+
+2013-10-11 14-30-57     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/11 14:30:57,结束时间:2013/10/11 14:30:57,执行结果:ok生成完成,其他描述:
+
+2013-10-11 14-31-02     ---     执行任务名称:中标监控(三个月一年),开始时间:2013/10/11 14:31:02,结束时间:2013/10/11 14:31:02,执行结果:ok没有过冷静期的数据!,其他描述:
+
+2013-10-11 14-31-03     ---     执行任务名称:即时交易监控,开始时间:2013/10/11 14:31:02,结束时间:2013/10/11 14:31:03,执行结果:ok无中标或冷静期操作执行！,其他描述:
+
+2013-10-11 14-31-03     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/11 14:31:03,结束时间:2013/10/11 14:31:03,执行结果:ok生成完成,其他描述:
+
+2013-10-11 14-31-08     ---     执行任务名称:中标监控(三个月一年),开始时间:2013/10/11 14:31:08,结束时间:2013/10/11 14:31:08,执行结果:ok没有过冷静期的数据!,其他描述:
+
+2013-10-11 14-31-08     ---     执行任务名称:即时交易监控,开始时间:2013/10/11 14:31:08,结束时间:2013/10/11 14:31:08,执行结果:ok无中标或冷静期操作执行！,其他描述:
+
+2013-10-11 14-31-08     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/11 14:31:08,结束时间:2013/10/11 14:31:08,执行结果:ok生成完成,其他描述:
+
+2013-10-11 14-46-55     ---     执行任务名称:中标监控(三个月一年),开始时间:2013/10/11 14:46:54,结束时间:2013/10/11 14:46:54,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 无法识别的配置节 httpRuntime。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 3)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   在 System.Configuration.ClientConfigurationSystem.PrepareClientConfigSystem(String sectionName)
+   在 System.Configuration.ClientConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String sectionName)
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Configuration.PrivilegedConfigurationManager.GetSection(String sectionName)
+   在 System.Diagnostics.DiagnosticsConfiguration.Initialize()
+   在 System.Diagnostics.Switch.InitializeConfigSettings()
+   在 System.Diagnostics.Switch.InitializeWithStatus()
+   在 System.Diagnostics.Switch.get_SwitchSetting()
+   在 System.Diagnostics.BooleanSwitch.get_Enabled()
+   在 System.Xml.Serialization.RecursionLimiter..ctor()
+   在 System.Xml.Serialization.XmlReflectionImporter.IncludeTypes(ICustomAttributeProvider provider)
+   在 System.Web.Services.WebMethodReflector.IncludeTypes(LogicalMethodInfo method, XmlReflectionImporter importer)
+   在 System.Web.Services.WebMethodReflector.IncludeTypes(LogicalMethodInfo[] methods, XmlReflectionImporter importer)
+   在 System.Web.Services.Protocols.SoapClientType.GenerateXmlMappings(Type type, ArrayList soapMethodList, String serviceNamespace, Boolean serviceDefaultIsEncoded, ArrayList mappings)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-46-55     ---     执行任务名称:即时交易监控,开始时间:2013/10/11 14:46:55,结束时间:2013/10/11 14:46:55,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 无法识别的配置节 httpRuntime。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 3)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Xml.Serialization.XmlSerializerCompilerParameters.Create(String location)
+   在 System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location, Evidence evidence)
+   在 System.Xml.Serialization.XmlSerializer.GetSerializersFromCache(XmlMapping[] mappings, Type type)
+   在 System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-46-55     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/11 14:46:55,结束时间:2013/10/11 14:46:55,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 无法识别的配置节 httpRuntime。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 3)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Xml.Serialization.XmlSerializerCompilerParameters.Create(String location)
+   在 System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location, Evidence evidence)
+   在 System.Xml.Serialization.XmlSerializer.GetSerializersFromCache(XmlMapping[] mappings, Type type)
+   在 System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-47-00     ---     执行任务名称:中标监控(三个月一年),开始时间:2013/10/11 14:47:00,结束时间:2013/10/11 14:47:00,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 无法识别的配置节 httpRuntime。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 3)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Xml.Serialization.XmlSerializerCompilerParameters.Create(String location)
+   在 System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location, Evidence evidence)
+   在 System.Xml.Serialization.XmlSerializer.GetSerializersFromCache(XmlMapping[] mappings, Type type)
+   在 System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-47-00     ---     执行任务名称:即时交易监控,开始时间:2013/10/11 14:47:00,结束时间:2013/10/11 14:47:00,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 无法识别的配置节 httpRuntime。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 3)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Xml.Serialization.XmlSerializerCompilerParameters.Create(String location)
+   在 System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location, Evidence evidence)
+   在 System.Xml.Serialization.XmlSerializer.GetSerializersFromCache(XmlMapping[] mappings, Type type)
+   在 System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-47-00     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/11 14:47:00,结束时间:2013/10/11 14:47:00,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 无法识别的配置节 httpRuntime。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 3)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Xml.Serialization.XmlSerializerCompilerParameters.Create(String location)
+   在 System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location, Evidence evidence)
+   在 System.Xml.Serialization.XmlSerializer.GetSerializersFromCache(XmlMapping[] mappings, Type type)
+   在 System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-47-18     ---     执行任务名称:中标监控(三个月一年),开始时间:2013/10/11 14:47:17,结束时间:2013/10/11 14:47:18,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 无法识别的配置节 httpRuntime。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 3)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   在 System.Configuration.ClientConfigurationSystem.PrepareClientConfigSystem(String sectionName)
+   在 System.Configuration.ClientConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String sectionName)
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Configuration.PrivilegedConfigurationManager.GetSection(String sectionName)
+   在 System.Diagnostics.DiagnosticsConfiguration.Initialize()
+   在 System.Diagnostics.Switch.InitializeConfigSettings()
+   在 System.Diagnostics.Switch.InitializeWithStatus()
+   在 System.Diagnostics.Switch.get_SwitchSetting()
+   在 System.Diagnostics.BooleanSwitch.get_Enabled()
+   在 System.Xml.Serialization.RecursionLimiter..ctor()
+   在 System.Xml.Serialization.XmlReflectionImporter.IncludeTypes(ICustomAttributeProvider provider)
+   在 System.Web.Services.WebMethodReflector.IncludeTypes(LogicalMethodInfo method, XmlReflectionImporter importer)
+   在 System.Web.Services.WebMethodReflector.IncludeTypes(LogicalMethodInfo[] methods, XmlReflectionImporter importer)
+   在 System.Web.Services.Protocols.SoapClientType.GenerateXmlMappings(Type type, ArrayList soapMethodList, String serviceNamespace, Boolean serviceDefaultIsEncoded, ArrayList mappings)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-47-18     ---     执行任务名称:即时交易监控,开始时间:2013/10/11 14:47:18,结束时间:2013/10/11 14:47:18,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 无法识别的配置节 httpRuntime。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 3)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Xml.Serialization.XmlSerializerCompilerParameters.Create(String location)
+   在 System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location, Evidence evidence)
+   在 System.Xml.Serialization.XmlSerializer.GetSerializersFromCache(XmlMapping[] mappings, Type type)
+   在 System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-47-18     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/11 14:47:18,结束时间:2013/10/11 14:47:18,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 无法识别的配置节 httpRuntime。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 3)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Xml.Serialization.XmlSerializerCompilerParameters.Create(String location)
+   在 System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location, Evidence evidence)
+   在 System.Xml.Serialization.XmlSerializer.GetSerializersFromCache(XmlMapping[] mappings, Type type)
+   在 System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-47-37     ---     执行任务名称:中标监控(三个月一年),开始时间:2013/10/11 14:47:37,结束时间:2013/10/11 14:47:37,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 无法识别的配置节 applicationSettings/httpRuntime。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 10)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   在 System.Configuration.ClientConfigurationSystem.PrepareClientConfigSystem(String sectionName)
+   在 System.Configuration.ClientConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String sectionName)
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Configuration.PrivilegedConfigurationManager.GetSection(String sectionName)
+   在 System.Diagnostics.DiagnosticsConfiguration.Initialize()
+   在 System.Diagnostics.Switch.InitializeConfigSettings()
+   在 System.Diagnostics.Switch.InitializeWithStatus()
+   在 System.Diagnostics.Switch.get_SwitchSetting()
+   在 System.Diagnostics.BooleanSwitch.get_Enabled()
+   在 System.Xml.Serialization.RecursionLimiter..ctor()
+   在 System.Xml.Serialization.XmlReflectionImporter.IncludeTypes(ICustomAttributeProvider provider)
+   在 System.Web.Services.WebMethodReflector.IncludeTypes(LogicalMethodInfo method, XmlReflectionImporter importer)
+   在 System.Web.Services.WebMethodReflector.IncludeTypes(LogicalMethodInfo[] methods, XmlReflectionImporter importer)
+   在 System.Web.Services.Protocols.SoapClientType.GenerateXmlMappings(Type type, ArrayList soapMethodList, String serviceNamespace, Boolean serviceDefaultIsEncoded, ArrayList mappings)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-47-37     ---     执行任务名称:即时交易监控,开始时间:2013/10/11 14:47:37,结束时间:2013/10/11 14:47:37,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 无法识别的配置节 applicationSettings/httpRuntime。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 10)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Xml.Serialization.XmlSerializerCompilerParameters.Create(String location)
+   在 System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location, Evidence evidence)
+   在 System.Xml.Serialization.XmlSerializer.GetSerializersFromCache(XmlMapping[] mappings, Type type)
+   在 System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-47-37     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/11 14:47:37,结束时间:2013/10/11 14:47:37,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 无法识别的配置节 applicationSettings/httpRuntime。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 10)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Xml.Serialization.XmlSerializerCompilerParameters.Create(String location)
+   在 System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location, Evidence evidence)
+   在 System.Xml.Serialization.XmlSerializer.GetSerializersFromCache(XmlMapping[] mappings, Type type)
+   在 System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-47-55     ---     执行任务名称:中标监控(三个月一年),开始时间:2013/10/11 14:47:54,结束时间:2013/10/11 14:47:55,执行结果:ok没有过冷静期的数据!,其他描述:
+
+2013-10-11 14-47-55     ---     执行任务名称:即时交易监控,开始时间:2013/10/11 14:47:55,结束时间:2013/10/11 14:47:55,执行结果:ok无中标或冷静期操作执行！,其他描述:
+
+2013-10-11 14-47-55     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/11 14:47:55,结束时间:2013/10/11 14:47:55,执行结果:ok生成完成,其他描述:
+
+2013-10-11 14-49-25     ---     执行任务名称:中标监控(三个月一年),开始时间:2013/10/11 14:49:24,结束时间:2013/10/11 14:49:25,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 无法识别的元素“httpRuntime”。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 18)
+   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Configuration.ClientConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String sectionName)
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Configuration.ClientSettingsStore.ReadSettings(String sectionName, Boolean isUserScoped)
+   在 System.Configuration.LocalFileSettingsProvider.GetPropertyValues(SettingsContext context, SettingsPropertyCollection properties)
+   在 System.Configuration.SettingsBase.GetPropertiesFromProvider(SettingsProvider provider)
+   在 System.Configuration.SettingsBase.GetPropertyValueByName(String propertyName)
+   在 System.Configuration.SettingsBase.get_Item(String propertyName)
+   在 System.Configuration.ApplicationSettingsBase.GetPropertyValue(String propertyName)
+   在 System.Configuration.ApplicationSettingsBase.get_Item(String propertyName)
+   在 交易数据监控.Properties.Settings.get_交易数据监控_ceshi2013_fm8844_com_ws2013() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Properties\Settings.Designer.cs:行号 32
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 293
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-49-25     ---     执行任务名称:即时交易监控,开始时间:2013/10/11 14:49:25,结束时间:2013/10/11 14:49:25,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 无法识别的元素“httpRuntime”。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 18)
+   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Configuration.ClientConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String sectionName)
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Configuration.ClientSettingsStore.ReadSettings(String sectionName, Boolean isUserScoped)
+   在 System.Configuration.LocalFileSettingsProvider.GetPropertyValues(SettingsContext context, SettingsPropertyCollection properties)
+   在 System.Configuration.SettingsBase.GetPropertiesFromProvider(SettingsProvider provider)
+   在 System.Configuration.SettingsBase.GetPropertyValueByName(String propertyName)
+   在 System.Configuration.SettingsBase.get_Item(String propertyName)
+   在 System.Configuration.ApplicationSettingsBase.GetPropertyValue(String propertyName)
+   在 System.Configuration.ApplicationSettingsBase.get_Item(String propertyName)
+   在 交易数据监控.Properties.Settings.get_交易数据监控_ceshi2013_fm8844_com_ws2013() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Properties\Settings.Designer.cs:行号 32
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 293
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-49-25     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/11 14:49:25,结束时间:2013/10/11 14:49:25,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 无法识别的元素“httpRuntime”。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 18)
+   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Configuration.ClientConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String sectionName)
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Configuration.ClientSettingsStore.ReadSettings(String sectionName, Boolean isUserScoped)
+   在 System.Configuration.LocalFileSettingsProvider.GetPropertyValues(SettingsContext context, SettingsPropertyCollection properties)
+   在 System.Configuration.SettingsBase.GetPropertiesFromProvider(SettingsProvider provider)
+   在 System.Configuration.SettingsBase.GetPropertyValueByName(String propertyName)
+   在 System.Configuration.SettingsBase.get_Item(String propertyName)
+   在 System.Configuration.ApplicationSettingsBase.GetPropertyValue(String propertyName)
+   在 System.Configuration.ApplicationSettingsBase.get_Item(String propertyName)
+   在 交易数据监控.Properties.Settings.get_交易数据监控_ceshi2013_fm8844_com_ws2013() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Properties\Settings.Designer.cs:行号 32
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 293
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-53-38     ---     执行任务名称:中标监控(三个月一年),开始时间:2013/10/11 14:53:38,结束时间:2013/10/11 14:53:38,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 每个配置文件中只允许存在一个 <configSections> 元素，并且，如果存在该元素，它还必须是根 <configuration> 元素的第一个子元素。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 8)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   在 System.Configuration.ClientConfigurationSystem.PrepareClientConfigSystem(String sectionName)
+   在 System.Configuration.ClientConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String sectionName)
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Configuration.PrivilegedConfigurationManager.GetSection(String sectionName)
+   在 System.Diagnostics.DiagnosticsConfiguration.Initialize()
+   在 System.Diagnostics.Switch.InitializeConfigSettings()
+   在 System.Diagnostics.Switch.InitializeWithStatus()
+   在 System.Diagnostics.Switch.get_SwitchSetting()
+   在 System.Diagnostics.BooleanSwitch.get_Enabled()
+   在 System.Xml.Serialization.RecursionLimiter..ctor()
+   在 System.Xml.Serialization.XmlReflectionImporter.IncludeTypes(ICustomAttributeProvider provider)
+   在 System.Web.Services.WebMethodReflector.IncludeTypes(LogicalMethodInfo method, XmlReflectionImporter importer)
+   在 System.Web.Services.WebMethodReflector.IncludeTypes(LogicalMethodInfo[] methods, XmlReflectionImporter importer)
+   在 System.Web.Services.Protocols.SoapClientType.GenerateXmlMappings(Type type, ArrayList soapMethodList, String serviceNamespace, Boolean serviceDefaultIsEncoded, ArrayList mappings)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-53-38     ---     执行任务名称:即时交易监控,开始时间:2013/10/11 14:53:38,结束时间:2013/10/11 14:53:38,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 每个配置文件中只允许存在一个 <configSections> 元素，并且，如果存在该元素，它还必须是根 <configuration> 元素的第一个子元素。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 8)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Xml.Serialization.XmlSerializerCompilerParameters.Create(String location)
+   在 System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location, Evidence evidence)
+   在 System.Xml.Serialization.XmlSerializer.GetSerializersFromCache(XmlMapping[] mappings, Type type)
+   在 System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-53-38     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/11 14:53:38,结束时间:2013/10/11 14:53:38,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 每个配置文件中只允许存在一个 <configSections> 元素，并且，如果存在该元素，它还必须是根 <configuration> 元素的第一个子元素。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 8)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Xml.Serialization.XmlSerializerCompilerParameters.Create(String location)
+   在 System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location, Evidence evidence)
+   在 System.Xml.Serialization.XmlSerializer.GetSerializersFromCache(XmlMapping[] mappings, Type type)
+   在 System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-53-58     ---     执行任务名称:中标监控(三个月一年),开始时间:2013/10/11 14:53:58,结束时间:2013/10/11 14:53:58,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 每个配置文件中只允许存在一个 <configSections> 元素，并且，如果存在该元素，它还必须是根 <configuration> 元素的第一个子元素。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 8)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   在 System.Configuration.ClientConfigurationSystem.PrepareClientConfigSystem(String sectionName)
+   在 System.Configuration.ClientConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String sectionName)
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Configuration.PrivilegedConfigurationManager.GetSection(String sectionName)
+   在 System.Diagnostics.DiagnosticsConfiguration.Initialize()
+   在 System.Diagnostics.Switch.InitializeConfigSettings()
+   在 System.Diagnostics.Switch.InitializeWithStatus()
+   在 System.Diagnostics.Switch.get_SwitchSetting()
+   在 System.Diagnostics.BooleanSwitch.get_Enabled()
+   在 System.Xml.Serialization.RecursionLimiter..ctor()
+   在 System.Xml.Serialization.XmlReflectionImporter.IncludeTypes(ICustomAttributeProvider provider)
+   在 System.Web.Services.WebMethodReflector.IncludeTypes(LogicalMethodInfo method, XmlReflectionImporter importer)
+   在 System.Web.Services.WebMethodReflector.IncludeTypes(LogicalMethodInfo[] methods, XmlReflectionImporter importer)
+   在 System.Web.Services.Protocols.SoapClientType.GenerateXmlMappings(Type type, ArrayList soapMethodList, String serviceNamespace, Boolean serviceDefaultIsEncoded, ArrayList mappings)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-53-58     ---     执行任务名称:即时交易监控,开始时间:2013/10/11 14:53:58,结束时间:2013/10/11 14:53:58,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 每个配置文件中只允许存在一个 <configSections> 元素，并且，如果存在该元素，它还必须是根 <configuration> 元素的第一个子元素。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 8)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Xml.Serialization.XmlSerializerCompilerParameters.Create(String location)
+   在 System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location, Evidence evidence)
+   在 System.Xml.Serialization.XmlSerializer.GetSerializersFromCache(XmlMapping[] mappings, Type type)
+   在 System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-53-58     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/11 14:53:58,结束时间:2013/10/11 14:53:58,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 每个配置文件中只允许存在一个 <configSections> 元素，并且，如果存在该元素，它还必须是根 <configuration> 元素的第一个子元素。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 8)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Xml.Serialization.XmlSerializerCompilerParameters.Create(String location)
+   在 System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location, Evidence evidence)
+   在 System.Xml.Serialization.XmlSerializer.GetSerializersFromCache(XmlMapping[] mappings, Type type)
+   在 System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-54-32     ---     执行任务名称:中标监控(三个月一年),开始时间:2013/10/11 14:54:31,结束时间:2013/10/11 14:54:32,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 每个配置文件中只允许存在一个 <configSections> 元素，并且，如果存在该元素，它还必须是根 <configuration> 元素的第一个子元素。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 6)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   在 System.Configuration.ClientConfigurationSystem.PrepareClientConfigSystem(String sectionName)
+   在 System.Configuration.ClientConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String sectionName)
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Configuration.PrivilegedConfigurationManager.GetSection(String sectionName)
+   在 System.Diagnostics.DiagnosticsConfiguration.Initialize()
+   在 System.Diagnostics.Switch.InitializeConfigSettings()
+   在 System.Diagnostics.Switch.InitializeWithStatus()
+   在 System.Diagnostics.Switch.get_SwitchSetting()
+   在 System.Diagnostics.BooleanSwitch.get_Enabled()
+   在 System.Xml.Serialization.RecursionLimiter..ctor()
+   在 System.Xml.Serialization.XmlReflectionImporter.IncludeTypes(ICustomAttributeProvider provider)
+   在 System.Web.Services.WebMethodReflector.IncludeTypes(LogicalMethodInfo method, XmlReflectionImporter importer)
+   在 System.Web.Services.WebMethodReflector.IncludeTypes(LogicalMethodInfo[] methods, XmlReflectionImporter importer)
+   在 System.Web.Services.Protocols.SoapClientType.GenerateXmlMappings(Type type, ArrayList soapMethodList, String serviceNamespace, Boolean serviceDefaultIsEncoded, ArrayList mappings)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-54-32     ---     执行任务名称:即时交易监控,开始时间:2013/10/11 14:54:32,结束时间:2013/10/11 14:54:32,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 每个配置文件中只允许存在一个 <configSections> 元素，并且，如果存在该元素，它还必须是根 <configuration> 元素的第一个子元素。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 6)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Xml.Serialization.XmlSerializerCompilerParameters.Create(String location)
+   在 System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location, Evidence evidence)
+   在 System.Xml.Serialization.XmlSerializer.GetSerializersFromCache(XmlMapping[] mappings, Type type)
+   在 System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-54-32     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/11 14:54:32,结束时间:2013/10/11 14:54:32,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 每个配置文件中只允许存在一个 <configSections> 元素，并且，如果存在该元素，它还必须是根 <configuration> 元素的第一个子元素。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 6)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Xml.Serialization.XmlSerializerCompilerParameters.Create(String location)
+   在 System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location, Evidence evidence)
+   在 System.Xml.Serialization.XmlSerializer.GetSerializersFromCache(XmlMapping[] mappings, Type type)
+   在 System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-54-37     ---     执行任务名称:中标监控(三个月一年),开始时间:2013/10/11 14:54:37,结束时间:2013/10/11 14:54:37,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 每个配置文件中只允许存在一个 <configSections> 元素，并且，如果存在该元素，它还必须是根 <configuration> 元素的第一个子元素。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 6)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Xml.Serialization.XmlSerializerCompilerParameters.Create(String location)
+   在 System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location, Evidence evidence)
+   在 System.Xml.Serialization.XmlSerializer.GetSerializersFromCache(XmlMapping[] mappings, Type type)
+   在 System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-54-37     ---     执行任务名称:即时交易监控,开始时间:2013/10/11 14:54:37,结束时间:2013/10/11 14:54:37,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 每个配置文件中只允许存在一个 <configSections> 元素，并且，如果存在该元素，它还必须是根 <configuration> 元素的第一个子元素。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 6)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Xml.Serialization.XmlSerializerCompilerParameters.Create(String location)
+   在 System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location, Evidence evidence)
+   在 System.Xml.Serialization.XmlSerializer.GetSerializersFromCache(XmlMapping[] mappings, Type type)
+   在 System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-54-37     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/11 14:54:37,结束时间:2013/10/11 14:54:37,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 每个配置文件中只允许存在一个 <configSections> 元素，并且，如果存在该元素，它还必须是根 <configuration> 元素的第一个子元素。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 6)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Xml.Serialization.XmlSerializerCompilerParameters.Create(String location)
+   在 System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location, Evidence evidence)
+   在 System.Xml.Serialization.XmlSerializer.GetSerializersFromCache(XmlMapping[] mappings, Type type)
+   在 System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-54-53     ---     执行任务名称:中标监控(三个月一年),开始时间:2013/10/11 14:54:53,结束时间:2013/10/11 14:54:53,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 每个配置文件中只允许存在一个 <configSections> 元素，并且，如果存在该元素，它还必须是根 <configuration> 元素的第一个子元素。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 6)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   在 System.Configuration.ClientConfigurationSystem.PrepareClientConfigSystem(String sectionName)
+   在 System.Configuration.ClientConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String sectionName)
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Configuration.PrivilegedConfigurationManager.GetSection(String sectionName)
+   在 System.Diagnostics.DiagnosticsConfiguration.Initialize()
+   在 System.Diagnostics.Switch.InitializeConfigSettings()
+   在 System.Diagnostics.Switch.InitializeWithStatus()
+   在 System.Diagnostics.Switch.get_SwitchSetting()
+   在 System.Diagnostics.BooleanSwitch.get_Enabled()
+   在 System.Xml.Serialization.RecursionLimiter..ctor()
+   在 System.Xml.Serialization.XmlReflectionImporter.IncludeTypes(ICustomAttributeProvider provider)
+   在 System.Web.Services.WebMethodReflector.IncludeTypes(LogicalMethodInfo method, XmlReflectionImporter importer)
+   在 System.Web.Services.WebMethodReflector.IncludeTypes(LogicalMethodInfo[] methods, XmlReflectionImporter importer)
+   在 System.Web.Services.Protocols.SoapClientType.GenerateXmlMappings(Type type, ArrayList soapMethodList, String serviceNamespace, Boolean serviceDefaultIsEncoded, ArrayList mappings)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-54-53     ---     执行任务名称:即时交易监控,开始时间:2013/10/11 14:54:53,结束时间:2013/10/11 14:54:53,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 每个配置文件中只允许存在一个 <configSections> 元素，并且，如果存在该元素，它还必须是根 <configuration> 元素的第一个子元素。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 6)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Xml.Serialization.XmlSerializerCompilerParameters.Create(String location)
+   在 System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location, Evidence evidence)
+   在 System.Xml.Serialization.XmlSerializer.GetSerializersFromCache(XmlMapping[] mappings, Type type)
+   在 System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-54-53     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/11 14:54:53,结束时间:2013/10/11 14:54:53,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 每个配置文件中只允许存在一个 <configSections> 元素，并且，如果存在该元素，它还必须是根 <configuration> 元素的第一个子元素。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 6)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Xml.Serialization.XmlSerializerCompilerParameters.Create(String location)
+   在 System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location, Evidence evidence)
+   在 System.Xml.Serialization.XmlSerializer.GetSerializersFromCache(XmlMapping[] mappings, Type type)
+   在 System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-55-10     ---     执行任务名称:中标监控(三个月一年),开始时间:2013/10/11 14:55:09,结束时间:2013/10/11 14:55:10,执行结果:ok没有过冷静期的数据!,其他描述:
+
+2013-10-11 14-55-10     ---     执行任务名称:即时交易监控,开始时间:2013/10/11 14:55:10,结束时间:2013/10/11 14:55:10,执行结果:ok无中标或冷静期操作执行！,其他描述:
+
+2013-10-11 14-55-10     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/11 14:55:10,结束时间:2013/10/11 14:55:10,执行结果:ok生成完成,其他描述:
+
+2013-10-11 14-58-30     ---     执行任务名称:中标监控(三个月一年),开始时间:2013/10/11 14:58:30,结束时间:2013/10/11 14:58:30,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 每个配置文件中只允许存在一个 <configSections> 元素，并且，如果存在该元素，它还必须是根 <configuration> 元素的第一个子元素。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 6)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   在 System.Configuration.ClientConfigurationSystem.PrepareClientConfigSystem(String sectionName)
+   在 System.Configuration.ClientConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String sectionName)
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Configuration.PrivilegedConfigurationManager.GetSection(String sectionName)
+   在 System.Diagnostics.DiagnosticsConfiguration.Initialize()
+   在 System.Diagnostics.Switch.InitializeConfigSettings()
+   在 System.Diagnostics.Switch.InitializeWithStatus()
+   在 System.Diagnostics.Switch.get_SwitchSetting()
+   在 System.Diagnostics.BooleanSwitch.get_Enabled()
+   在 System.Xml.Serialization.RecursionLimiter..ctor()
+   在 System.Xml.Serialization.XmlReflectionImporter.IncludeTypes(ICustomAttributeProvider provider)
+   在 System.Web.Services.WebMethodReflector.IncludeTypes(LogicalMethodInfo method, XmlReflectionImporter importer)
+   在 System.Web.Services.WebMethodReflector.IncludeTypes(LogicalMethodInfo[] methods, XmlReflectionImporter importer)
+   在 System.Web.Services.Protocols.SoapClientType.GenerateXmlMappings(Type type, ArrayList soapMethodList, String serviceNamespace, Boolean serviceDefaultIsEncoded, ArrayList mappings)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-58-30     ---     执行任务名称:即时交易监控,开始时间:2013/10/11 14:58:30,结束时间:2013/10/11 14:58:30,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 每个配置文件中只允许存在一个 <configSections> 元素，并且，如果存在该元素，它还必须是根 <configuration> 元素的第一个子元素。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 6)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Xml.Serialization.XmlSerializerCompilerParameters.Create(String location)
+   在 System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location, Evidence evidence)
+   在 System.Xml.Serialization.XmlSerializer.GetSerializersFromCache(XmlMapping[] mappings, Type type)
+   在 System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-58-31     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/11 14:58:30,结束时间:2013/10/11 14:58:31,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 每个配置文件中只允许存在一个 <configSections> 元素，并且，如果存在该元素，它还必须是根 <configuration> 元素的第一个子元素。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 6)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Xml.Serialization.XmlSerializerCompilerParameters.Create(String location)
+   在 System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location, Evidence evidence)
+   在 System.Xml.Serialization.XmlSerializer.GetSerializersFromCache(XmlMapping[] mappings, Type type)
+   在 System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-58-36     ---     执行任务名称:中标监控(三个月一年),开始时间:2013/10/11 14:58:36,结束时间:2013/10/11 14:58:36,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 每个配置文件中只允许存在一个 <configSections> 元素，并且，如果存在该元素，它还必须是根 <configuration> 元素的第一个子元素。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 6)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Xml.Serialization.XmlSerializerCompilerParameters.Create(String location)
+   在 System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location, Evidence evidence)
+   在 System.Xml.Serialization.XmlSerializer.GetSerializersFromCache(XmlMapping[] mappings, Type type)
+   在 System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-58-36     ---     执行任务名称:即时交易监控,开始时间:2013/10/11 14:58:36,结束时间:2013/10/11 14:58:36,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 每个配置文件中只允许存在一个 <configSections> 元素，并且，如果存在该元素，它还必须是根 <configuration> 元素的第一个子元素。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 6)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Xml.Serialization.XmlSerializerCompilerParameters.Create(String location)
+   在 System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location, Evidence evidence)
+   在 System.Xml.Serialization.XmlSerializer.GetSerializersFromCache(XmlMapping[] mappings, Type type)
+   在 System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-58-36     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/11 14:58:36,结束时间:2013/10/11 14:58:36,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 每个配置文件中只允许存在一个 <configSections> 元素，并且，如果存在该元素，它还必须是根 <configuration> 元素的第一个子元素。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 6)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Xml.Serialization.XmlSerializerCompilerParameters.Create(String location)
+   在 System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location, Evidence evidence)
+   在 System.Xml.Serialization.XmlSerializer.GetSerializersFromCache(XmlMapping[] mappings, Type type)
+   在 System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-58-53     ---     执行任务名称:中标监控(三个月一年),开始时间:2013/10/11 14:58:53,结束时间:2013/10/11 14:58:53,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 每个配置文件中只允许存在一个 <configSections> 元素，并且，如果存在该元素，它还必须是根 <configuration> 元素的第一个子元素。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 6)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   在 System.Configuration.ClientConfigurationSystem.PrepareClientConfigSystem(String sectionName)
+   在 System.Configuration.ClientConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String sectionName)
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Configuration.PrivilegedConfigurationManager.GetSection(String sectionName)
+   在 System.Diagnostics.DiagnosticsConfiguration.Initialize()
+   在 System.Diagnostics.Switch.InitializeConfigSettings()
+   在 System.Diagnostics.Switch.InitializeWithStatus()
+   在 System.Diagnostics.Switch.get_SwitchSetting()
+   在 System.Diagnostics.BooleanSwitch.get_Enabled()
+   在 System.Xml.Serialization.RecursionLimiter..ctor()
+   在 System.Xml.Serialization.XmlReflectionImporter.IncludeTypes(ICustomAttributeProvider provider)
+   在 System.Web.Services.WebMethodReflector.IncludeTypes(LogicalMethodInfo method, XmlReflectionImporter importer)
+   在 System.Web.Services.WebMethodReflector.IncludeTypes(LogicalMethodInfo[] methods, XmlReflectionImporter importer)
+   在 System.Web.Services.Protocols.SoapClientType.GenerateXmlMappings(Type type, ArrayList soapMethodList, String serviceNamespace, Boolean serviceDefaultIsEncoded, ArrayList mappings)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-58-53     ---     执行任务名称:即时交易监控,开始时间:2013/10/11 14:58:53,结束时间:2013/10/11 14:58:53,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 每个配置文件中只允许存在一个 <configSections> 元素，并且，如果存在该元素，它还必须是根 <configuration> 元素的第一个子元素。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 6)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Xml.Serialization.XmlSerializerCompilerParameters.Create(String location)
+   在 System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location, Evidence evidence)
+   在 System.Xml.Serialization.XmlSerializer.GetSerializersFromCache(XmlMapping[] mappings, Type type)
+   在 System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-58-53     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/11 14:58:53,结束时间:2013/10/11 14:58:53,执行结果:System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.Configuration.ConfigurationErrorsException: 配置系统未能初始化 ---> System.Configuration.ConfigurationErrorsException: 每个配置文件中只允许存在一个 <configSections> 元素，并且，如果存在该元素，它还必须是根 <configuration> 元素的第一个子元素。 (F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config line 6)
+   在 System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   在 System.Configuration.BaseConfigurationRecord.ThrowIfInitErrors()
+   在 System.Configuration.ClientConfigurationSystem.EnsureInit(String configKey)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   在 System.Xml.Serialization.XmlSerializerCompilerParameters.Create(String location)
+   在 System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location, Evidence evidence)
+   在 System.Xml.Serialization.XmlSerializer.GetSerializersFromCache(XmlMapping[] mappings, Type type)
+   在 System.Xml.Serialization.XmlSerializer.FromMappings(XmlMapping[] mappings, Type type)
+   在 System.Web.Services.Protocols.SoapClientType..ctor(Type type)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol..ctor()
+   在 交易数据监控.ceshi2013.fm8844.com.ws2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\Web References\ceshi2013.fm8844.com\Reference.cs:行号 292
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 交易数据监控.WebServicesCenter2013..ctor() 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 76
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 167,其他描述:
+
+2013-10-11 14-59-51     ---     执行任务名称:中标监控(三个月一年),开始时间:2013/10/11 14:59:50,结束时间:2013/10/11 14:59:51,执行结果:ok没有过冷静期的数据!,其他描述:
+
+2013-10-11 14-59-51     ---     执行任务名称:即时交易监控,开始时间:2013/10/11 14:59:51,结束时间:2013/10/11 14:59:51,执行结果:ok无中标或冷静期操作执行！,其他描述:
+
+2013-10-11 14-59-52     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/11 14:59:51,结束时间:2013/10/11 14:59:52,执行结果:ok生成完成,其他描述:
+
+2013-10-11 15-00-08     ---     执行任务名称:中标监控(三个月一年),开始时间:2013/10/11 15:00:07,结束时间:2013/10/11 15:00:08,执行结果:ok没有过冷静期的数据!,其他描述:
+
+2013-10-11 15-00-08     ---     执行任务名称:即时交易监控,开始时间:2013/10/11 15:00:08,结束时间:2013/10/11 15:00:08,执行结果:ok无中标或冷静期操作执行！,其他描述:
+
+2013-10-11 15-00-09     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/11 15:00:08,结束时间:2013/10/11 15:00:09,执行结果:ok生成完成,其他描述:
+
+2013-10-11 15-19-56     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/11 15:19:54,结束时间:2013/10/11 15:19:56,执行结果:ok生成完成,其他描述:
+
+2013-10-11 15-21-46     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/11 15:20:15,结束时间:2013/10/11 15:21:46,执行结果:ok生成完成,其他描述:
+
+2013-10-11 15-23-54     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/11 15:22:44,结束时间:2013/10/11 15:23:54,执行结果:ok生成完成,其他描述:
+

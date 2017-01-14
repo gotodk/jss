@@ -1,0 +1,517 @@
+/* border style definition */
+.RadSplitter_Windows2000,
+.RadSplitter_Windows2000 .resizeBar,
+.RadSplitter_Windows2000 .slideContainerResize,
+.RadSplitter_Windows2000 .resizeBarOver,
+.RadSplitter_Windows2000 .slideContainerResizeOver,
+.RadSplitter_Windows2000 .resizeBarInactive,
+.RadSplitter_Windows2000 .resizeBarHorizontal,
+.RadSplitter_Windows2000 .resizeBarOverHorizontal,
+.RadSplitter_Windows2000 .resizeBarInactiveHorizontal,
+.RadSplitter_Windows2000 .slideContainerResizeHorizontal,
+.RadSplitter_Windows2000 .slideContainerResizeOverHorizontal,
+.RadSplitter_Windows2000 .pane, 
+.RadSplitter_Windows2000 .paneHorizontal
+{
+	border: 1px solid #aca899;
+}
+
+.RadSplitter_Windows2000
+{
+	border-collapse: collapse;
+	border-bottom:1px; /* half the size of the border, but at least 1px */
+}
+
+/* splitter table wrapper */
+.RadSplitter_Windows2000
+{
+	border-collapse: collapse;
+}
+
+.RadSplitter_Windows2000 .pane,
+.RadSplitter_Windows2000 .paneHorizontal
+{
+	padding: 0px;
+	text-align:left;
+}
+
+.RadSplitter_Windows2000 .resizeBar,
+.RadSplitter_Windows2000 .slideContainerResize,
+.RadSplitter_Windows2000 .resizeBarOver,
+.RadSplitter_Windows2000 .slideContainerResizeOver,
+.RadSplitter_Windows2000 .slideContainerResizeHorizontal,
+.RadSplitter_Windows2000 .slideContainerResizeOverHorizontal,
+.RadSplitter_Windows2000 .resizeBarInactive,
+.RadSplitter_Windows2000 .resizeBarHorizontal,
+.RadSplitter_Windows2000 .resizeBarOverHorizontal,
+.RadSplitter_Windows2000 .resizeBarInactiveHorizontal
+{
+	padding: 0px;
+	font-size:1px;
+	background: #ece9d8;
+	text-align:center;
+}
+
+.RadSplitter_Windows2000 .resizeBar,
+.RadSplitter_Windows2000 .slideContainerResize,
+.RadSplitter_Windows2000 .resizeBarOver,
+.RadSplitter_Windows2000 .slideContainerResizeOver,
+.RadSplitter_Windows2000 .resizeBarInactive
+{
+	width:6px;	
+}
+
+.RadSplitter_Windows2000 .resizeBarHorizontal,
+.RadSplitter_Windows2000 .slideContainerResizeHorizontal,
+.RadSplitter_Windows2000 .resizeBarInactiveHorizontal
+{
+	height:6px;
+}
+
+.RadSplitter_Windows2000 .resizeBarOver,
+.RadSplitter_Windows2000 .slideContainerResizeOverHorizontal,
+.RadSplitter_Windows2000 .resizeBarOverHorizontal
+{
+}
+/********************* Helper Bar ******************************/
+.RadSplitter_Windows2000 .helperBarDrag, 
+.RadSplitter_Windows2000 .helperBarSlideDrag,
+.RadSplitter_Windows2000 .helperBarSlideDragHorizontal,
+.RadSplitter_Windows2000 .helperBarDragHorizontal
+{
+	font-size:1px;
+	background-color:#ccc;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60); 
+	opacity: 0.6;
+}
+
+/* resize bar onerror */
+.RadSplitter_Windows2000 .helperBarError, 
+.RadSplitter_Windows2000 .helperBarSlideError,
+.RadSplitter_Windows2000 .helperBarErrorHorizontal
+{
+	font-size:1px;
+	background-color: #f60;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60); 
+	opacity: 0.6;
+}
+
+/********************* Colapse Bar *****************************/
+
+.RadSplitter_Windows2000 .collapseBar
+{	
+
+}
+
+.RadSplitter_Windows2000 .collapseBarHorizontal
+{	
+
+}
+
+.RadSplitter_Windows2000 .collapseBarOver
+{
+	background: #f5f3ea;
+	border-top: groove 2px white;
+	border-bottom: groove 2px white;
+}
+
+.RadSplitter_Windows2000 .collapseBarOverHorizontal
+{
+	background: #f5f3ea;
+	border-left: groove 2px white;
+	border-right: groove 2px white;
+}
+.RadSplitter_Windows2000 .collapseBarError, 
+.RadSplitter_Windows2000 .collapseBarErrorHorizontal
+{
+	background-color:red;
+}
+
+/***********************************************/
+/*             SLIDE                           */
+/***********************************************/
+
+/************************************************
+	sliding zone 
+*/
+.RadSplitter_Windows2000 .slideZone
+{
+	background: white;
+}
+
+/************************************************ 
+	pane tabs 
+*/
+.RadSplitter_Windows2000 .tabsContainer 
+{
+	color: #333;
+}
+
+.RadSplitter_Windows2000 .paneTabContainer,
+.RadSplitter_Windows2000 .paneTabContainerExpanded,
+.RadSplitter_Windows2000 .paneTabContainerDocked,
+.RadSplitter_Windows2000 .paneTabContainerHorizontal,
+.RadSplitter_Windows2000 .paneTabContainerExpandedHorizontal,
+.RadSplitter_Windows2000 .paneTabContainerDockedHorizontal
+{
+	width: 20px;
+	height:auto;
+	overflow:hidden;
+	cursor:default;
+	text-align:center;
+	font: bold 11px Arial, Verdana, Sans-serif;
+	color: black;
+	padding: 6px 0px;
+	background: #ece9d8;
+	border-top: solid 1px white;
+	border-left: solid 1px white;
+	border-bottom: solid 1px #aca899;
+	border-right: solid 1px #aca899;
+}
+
+.RadSplitter_Windows2000 .paneTabContainerExpanded
+{
+	background: #b6bdd2;
+	border: solid 1px #869bb3;
+	border-left: 0px;
+	border-top: 0px;
+	color: black;
+	font: bold 11px Arial, Verdana, Sans-serif;
+	width: 20px;
+	border: solid 1px #0a246a;
+}
+
+.RadSplitter_Windows2000 .paneTabContainerDocked
+{
+	background: white;
+	border-left: solid 1px #right;
+	border-top: solid 1px black;
+}
+
+/***** tabs on right position *******/
+
+
+.RadSplitter_Windows2000 .tabsContainer.right
+{
+}
+
+
+.RadSplitter_Windows2000 .right .paneTabContainer,
+.RadSplitter_Windows2000 .right .paneTabContainerDocked
+{
+	background: #ece9d8;
+	border-top: solid 1px white;
+	border-left: solid 1px #aca899;
+	border-bottom: solid 1px #aca899;
+	border-right: solid 1px white;
+}
+
+.RadSplitter_Windows2000 .right .paneTabContainerDocked
+{
+	background: white;
+	border-left: solid 1px #aca899;
+	border-top: solid 1px black;
+}
+
+.RadSplitter_Windows2000 .right .paneTabContainerExpanded
+{
+	background: #b6bdd2;
+}
+
+/*****  -- End tabs on right position *******/
+
+/***** tabs on top position *******/
+
+.RadSplitter_Windows2000 .tabsContainer .top
+{
+}
+
+.RadSplitter_Windows2000 .top .paneTabContainer,
+.RadSplitter_Windows2000 .top .paneTabContainerDocked
+{
+	background: #ece9d8;
+	border-left: solid 1px white;
+	border-top: solid 1px #aca899;
+	border-right: solid 1px #aca899;
+	border-bottom: solid 1px white;		
+	float: left;
+	padding: 0px 6px;
+	height: 20px;
+	width: auto;
+}
+
+.RadSplitter_Windows2000 .top .paneTabContainerDocked
+{
+	background: white;
+	border-top: solid 1px #aca899;
+	border-left: solid 1px black;
+}
+
+.RadSplitter_Windows2000 .top .paneTabContainerExpanded
+{
+	background: #b6bdd2;
+	float: left;
+	padding: 0px 6px;
+	height: 20px;
+	width: auto;
+}										
+
+.RadSplitter_Windows2000 .top .paneTabText
+{
+	writing-mode: lr-tb;/* default */
+}
+
+.RadSplitter_Windows2000 .top .paneTabIcon
+{
+	display: block; 
+	float: left
+}
+
+/***** tabs on bottom position *******/
+
+.RadSplitter_Windows2000 .tabsContainer .bottom
+{
+}
+
+.RadSplitter_Windows2000 .bottom .paneTabContainer,
+.RadSplitter_Windows2000 .bottom .paneTabContainerDocked
+{
+	background: #ece9d8;
+	border-left: solid 1px white;
+	border-bottom: solid 1px #aca899;
+	border-right: solid 1px #aca899;
+	border-top: solid 1px white;		
+	float:left;
+	padding: 0px 6px;
+	height: 20px;
+	width:auto;
+}
+
+.RadSplitter_Windows2000 .bottom .paneTabContainerDocked
+{
+	background: white;
+	border-bottom: solid 1px #aca899;
+	border-left: solid 1px black;
+}
+
+.RadSplitter_Windows2000 .bottom .paneTabContainerExpanded
+{
+	background: #b6bdd2;
+	float: left;
+	padding: 0px 6px;
+	height: 20px;
+	width: auto;
+}										
+
+.RadSplitter_Windows2000 .bottom .paneTabText
+{
+	writing-mode: lr-tb;/* default */
+}
+
+.RadSplitter_Windows2000 .bottom .paneTabIcon
+{
+	display: block; 
+	float: left
+}
+
+/*****  -- End tabs on bottom position *******/
+
+.RadSplitter_Windows2000 .paneTabText
+{
+	writing-mode: tb-rl;
+	font:10px Verdana, Arial, Helvetica;
+	white-space:nowrap;
+	margin:2px;
+}
+
+.RadSplitter_Windows2000 .paneTabIcon
+{
+	margin:2px;
+}
+
+/************************************************ 
+	slide/dock containers 
+*/
+.RadSplitter_Windows2000 .slideContainer 
+{
+	border:0px solid #e5e5e5;
+	border-collapse:collapse;
+}
+
+.RadSplitter_Windows2000 .slideContainerDocked
+{
+	
+}
+
+.RadSplitter_Windows2000 .slideHeader, 
+.RadSplitter_Windows2000 .slideHeaderDocked
+{
+	background: #0a246a;
+}
+
+.RadSplitter_Windows2000 .slideContainerResize
+{ 
+     background: #e1e6eb none;
+     border-left: solid 1px #a9aeb2;
+     border-right: solid 1px #a9aeb2;
+     width: 2px;
+}
+.RadSplitter_Windows2000 .slideContainerResizeHorizontal
+{
+	 background: #e1e6eb none;
+     border-left: solid 1px #a9aeb2;
+     border-right: solid 1px #a9aeb2;
+     height: 2px;
+}
+
+.RadSplitter_Windows2000 .slideContainerResizeOver,
+.RadSplitter_Windows2000 .slideContainerResizeOverHorizontal
+{
+	background:#fff none;
+}
+
+.RadSplitter_Windows2000 .slideContainerResize,
+.RadSplitter_Windows2000 .slideContainerResizeOver
+{
+	border-top:0px;
+	border-bottom:0px;
+}
+
+.RadSplitter_Windows2000 .slideContainerResizeHorizontal,
+.RadSplitter_Windows2000 .slideContainerResizeOverHorizontal
+{
+	border-left:0px;
+	border-right:0px;
+}
+
+.RadSplitter_Windows2000 .slideHeaderIcon,
+.RadSplitter_Windows2000 .slideHeaderIconOver
+{
+	cursor: hand;
+	cursor: pointer;
+	margin-right: 3px;
+} 
+
+.RadSplitter_Windows2000 .slideTitle, 
+.RadSplitter_Windows2000 .slideTitleDocked 
+{
+	font: bold 11px Arial, Verdana, Sans-serif;
+	color: white;
+	white-space:nowrap;
+	margin-left:5px;
+	margin-right:5px;
+	text-align:left;
+	line-height: 25px;
+	cursor: pointer;
+	cursor: default;
+}
+
+.RadSplitter_Windows2000 .slideTitleContainer
+{
+	background-color:#0a246a;
+}
+
+.RadSplitter_Windows2000 .slideContent, 
+.RadSplitter_Windows2000 .slideContentDocked
+{
+	font:10px Verdana;
+	color:black;
+	background-color:white;
+	padding:5px;
+	text-align:left;
+}
+
+.RadSplitter_Windows2000 .helperBarSlideDrag,
+.RadSplitter_Windows2000 .slideContainerResize,
+.RadSplitter_Windows2000 .slideContainerResizeOver
+{
+	cursor:w-resize;
+}
+
+.RadSplitter_Windows2000 .helperBarSlideDragHorizontal,
+.RadSplitter_Windows2000 .slideContainerResizeHorizontal,
+.RadSplitter_Windows2000 .slideContainerResizeOverHorizontal
+{
+	cursor:n-resize;
+}
+
+
+/*****************************************************************************/
+/* these below are not skin/border size specific. Shared between all skins */
+/*****************************************************************************/
+.nested,
+.nestedHorizontal 
+{
+	border-width: 0px;
+}
+
+/************ nested vertical ****************/
+.nested .pane, 
+.nested .resizeBar,
+.nested .resizeBarOver,
+.nested .resizeBarInactive  
+{
+	border-top: 0px;
+	border-bottom: 0px;
+}
+
+.nested .pane.firstItem,
+.nested .resizeBar.firstItem,
+.nested .resizeBarOver.firstItem,
+.nested .resizeBarInactive.firstItem
+{
+	border-left: 0px;
+}
+
+.nested .pane.lastItem, 
+.nested .resizeBar.lastItem,
+.nested .resizeBarOver.lastItem,
+.nested .resizeBarInactive.lastItem
+{
+	border-right: 0px;
+}
+
+.nested .pane.firstItem.lastItem, 
+.nested .resizeBar.firstItem.lastItem,
+.nested .resizeBarOver.firstItem.lastItem,
+.nested .resizeBarInactive.firstItem.lastItem
+{
+	border-left: 0px;
+	border-right: 0px;
+}
+
+/************ nested horizontal ****************/
+
+.nestedHorizontal .paneHorizontal, 
+.nestedHorizontal .resizeBarHorizontal,
+.nestedHorizontal .resizeBarOverHorizontal,
+.nestedHorizontal .resizeBarInactiveHorizontal
+{
+	border-left: 0px;
+	border-right: 0px;
+}
+
+.nestedHorizontal .paneHorizontal.firstItem,
+.nestedHorizontal .resizeBarHorizontal.firstItem,
+.nestedHorizontal .resizeBarOverHorizontal.firstItem,
+.nestedHorizontal .resizeBarInactiveHorizontal.firstItem
+{
+	border-top: 0px;
+}
+
+.nestedHorizontal .paneHorizontal.lastItem, 
+.nestedHorizontal .resizeBarHorizontal.lastItem,
+.nestedHorizontal .resizeBarOverHorizontal.lastItem,
+.nestedHorizontal .resizeBarInactiveHorizontal.lastItem
+{
+	border-bottom: 0px;
+}
+
+.nestedHorizontal .paneHorizontal.firstItem.lastItem, 
+.nestedHorizontal .resizeBarHorizontal.firstItem.lastItem,
+.nestedHorizontal .resizeBarOverHorizontal.firstItem.lastItem,
+.nestedHorizontal .resizeBarInactiveHorizontal.firstItem.lastItem
+{
+	border-top: 0px;
+	border-bottom: 0px;
+}

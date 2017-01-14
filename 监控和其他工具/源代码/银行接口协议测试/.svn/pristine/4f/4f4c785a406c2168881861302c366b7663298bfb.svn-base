@@ -1,0 +1,99 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Net;
+using System.Net.Sockets;
+using System.Text;
+
+namespace 银行接口协议测试
+{
+    class ClassAcceptorMsg
+    {
+
+                        //向线程传递的回调参数
+        private delegateForThread DForThread;
+        //向线程传递的数据参数
+        private Hashtable InPutHT;
+        /// <summary>
+        /// 构造函数
+        /// </summary>
+        /// <param name="PHT">需要传入线程的参数</param>
+        /// <param name="DFT">线程委托</param>
+        public ClassAcceptorMsg(Hashtable PHT, delegateForThread DFT)
+        {
+            //
+            // TODO: 在此处添加构造函数逻辑
+            //
+            DForThread = DFT;
+            InPutHT = PHT;
+        }
+
+
+        public void AcceptorTest()
+        {
+            IPAddress serverIP = IPAddress.Parse(InPutHT["接口IP"].ToString());//设置接收IP
+            IPEndPoint serverFullAddr = new IPEndPoint(serverIP, int.Parse(InPutHT["接口端口"].ToString()));//设置接收IP，接收端口
+            Socket sock = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            try
+            {
+
+                //指定本地主机地址和端口号
+                sock.Bind(serverFullAddr);
+                //完成接收服务器启动的回调
+                //填充传入参数哈希表
+                Hashtable OutPutHT = new Hashtable();
+                OutPutHT["测试返回值"] = "启动监听成功";//测试参数
+                DForThread(OutPutHT);
+            }
+            catch (Exception se)
+            {
+                //出错的回调
+                //.........................
+                //填充传入参数哈希表
+                Hashtable OutPutHT = new Hashtable();
+                OutPutHT["测试返回值"] = se.ToString();//测试参数
+                DForThread(OutPutHT);
+
+            }
+
+            byte[] message = new byte[1024];
+            string mess = "";
+            string mess_re = "";
+            while (true)
+            {
+                try
+                {
+                    sock.Listen(5);//设置监听频率
+                    Socket newSocket = sock.Accept();//阻塞方式
+                    int bytes = newSocket.Receive(message);//接收数据
+                    mess = Encoding.Default.GetString(message, 0, bytes);//对接收字节编码（S与C 两端编码格式必须一致不然中文乱码）
+
+                    if (mess.IndexOf("F") >= 0)
+                    {
+                        newSocket.Send(Encoding.GetEncoding("GB2312").GetBytes("F028000016005000000088888888"));//想客户端发送数据
+                                                                   
+                        newSocket.Send(Encoding.GetEncoding("GB2312").GetBytes("abcdefg"));//想客户端发送数据
+                        //填充传入参数哈希表
+                        Hashtable OutPutHT = new Hashtable();
+                        OutPutHT["测试返回值"] = mess;//测试参数
+                        DForThread(OutPutHT);
+                    }
+
+                   
+
+                }
+                catch (Exception se)
+                {
+                    //出错的回调
+                    //.........................
+                    //填充传入参数哈希表
+                    Hashtable OutPutHT = new Hashtable();
+                    OutPutHT["测试返回值"] = se.ToString();//测试参数
+                    DForThread(OutPutHT);
+
+                }
+            }
+        }
+
+    }
+}

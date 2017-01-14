@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:intf="http://192.168.100.11:8080/forever/infocenter/CustInfoAdd.jws" xmlns:impl="http://192.168.100.11:8080/forever/infocenter/CustInfoAdd.jws" targetNamespace="http://192.168.100.11:8080/forever/infocenter/CustInfoAdd.jws" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types />
+  <wsdl:message name="delCustomerResponse">
+    <wsdl:part name="delCustomerReturn" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="addCustomerResponse">
+    <wsdl:part name="addCustomerReturn" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="addCustomerRequest">
+    <wsdl:part name="customerxml" type="xsd:string" />
+    <wsdl:part name="Flag" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="updateCustomerRequest">
+    <wsdl:part name="customerxml" type="xsd:string" />
+    <wsdl:part name="Flag" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="updateCustomerResponse">
+    <wsdl:part name="updateCustomerReturn" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="delCustomerRequest">
+    <wsdl:part name="custId" type="xsd:string" />
+    <wsdl:part name="Flag" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:portType name="CustInfoAdd">
+    <wsdl:operation name="addCustomer" parameterOrder="customerxml Flag">
+      <wsdl:input name="addCustomerRequest" message="impl:addCustomerRequest" />
+      <wsdl:output name="addCustomerResponse" message="impl:addCustomerResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="updateCustomer" parameterOrder="customerxml Flag">
+      <wsdl:input name="updateCustomerRequest" message="impl:updateCustomerRequest" />
+      <wsdl:output name="updateCustomerResponse" message="impl:updateCustomerResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="delCustomer" parameterOrder="custId Flag">
+      <wsdl:input name="delCustomerRequest" message="impl:delCustomerRequest" />
+      <wsdl:output name="delCustomerResponse" message="impl:delCustomerResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CustInfoAddSoapBinding" type="impl:CustInfoAdd">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="addCustomer">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="addCustomerRequest">
+        <wsdlsoap:body use="encoded" namespace="http://DefaultNamespace" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="addCustomerResponse">
+        <wsdlsoap:body use="encoded" namespace="http://192.168.100.11:8080/forever/infocenter/CustInfoAdd.jws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateCustomer">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="updateCustomerRequest">
+        <wsdlsoap:body use="encoded" namespace="http://DefaultNamespace" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="updateCustomerResponse">
+        <wsdlsoap:body use="encoded" namespace="http://192.168.100.11:8080/forever/infocenter/CustInfoAdd.jws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="delCustomer">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="delCustomerRequest">
+        <wsdlsoap:body use="encoded" namespace="http://DefaultNamespace" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="delCustomerResponse">
+        <wsdlsoap:body use="encoded" namespace="http://192.168.100.11:8080/forever/infocenter/CustInfoAdd.jws" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CustInfoAddService">
+    <wsdl:port name="CustInfoAdd" binding="impl:CustInfoAddSoapBinding">
+      <wsdlsoap:address location="http://192.168.100.11:8080/forever/infocenter/CustInfoAdd.jws" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

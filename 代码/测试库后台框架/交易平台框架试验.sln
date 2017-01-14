@@ -1,0 +1,575 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsServiceIPCyibu", "WindowsServiceIPCyibu\WindowsServiceIPCyibu.csproj", "{5A8A5DFC-97DD-46A6-AD96-B5C12E1D7F2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "异步处理测试和管理", "异步处理测试和管理\异步处理测试和管理.csproj", "{B4C2FFF5-1154-4D1D-A517-E4F3EAB9C44A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "客户端", "客户端\客户端.csproj", "{A440A443-76A0-4CEF-B89A-DA0F9DE21CB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMPublicClass", "公共类库\辅助类库\FMPublicClass.csproj", "{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMipcClass", "公共类库\接口聚合类库\FMipcClass.csproj", "{329DC493-9959-4539-8248-48A68733BB5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMLogClass", "公共类库\日志类库\FMLogClass.csproj", "{0346164C-8A23-4B47-BC01-895C816A46CC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B32A0B2C-526A-4F50-809A-A284DCC4CA14} = {B32A0B2C-526A-4F50-809A-A284DCC4CA14}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMDBHelperClass", "公共类库\数据层类库\FMDBHelperClass.csproj", "{B32A0B2C-526A-4F50-809A-A284DCC4CA14}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "IPC服务接口聚合", "IPC服务接口聚合\", "{E377079B-24A8-44DD-9A6A-0522D7AD5560}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{b32a0b2c-526a-4f50-809a-a284dcc4ca14}|FMDBHelperClass.dll;{329dc493-9959-4539-8248-48a68733bb5c}|FMipcClass.dll;{0346164C-8A23-4B47-BC01-895C816A46CC}|FMLogClass.dll;{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}|FMPublicClass.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/IPC服务接口聚合"
+		Debug.AspNetCompiler.PhysicalPath = "IPC服务接口聚合\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\IPC服务接口聚合\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/IPC服务接口聚合"
+		Release.AspNetCompiler.PhysicalPath = "IPC服务接口聚合\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\IPC服务接口聚合\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "10966"
+		SlnRelativePath = "IPC服务接口聚合\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ServerDemo1", "ServerDemo1\", "{60919058-64BF-4F0F-81B0-7B3D7F6045BB}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{b32a0b2c-526a-4f50-809a-a284dcc4ca14}|FMDBHelperClass.dll;{329dc493-9959-4539-8248-48a68733bb5c}|FMipcClass.dll;{0346164C-8A23-4B47-BC01-895C816A46CC}|FMLogClass.dll;{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}|FMPublicClass.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/ServerDemo1"
+		Debug.AspNetCompiler.PhysicalPath = "ServerDemo1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ServerDemo1\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ServerDemo1"
+		Release.AspNetCompiler.PhysicalPath = "ServerDemo1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ServerDemo1\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "10983"
+		SlnRelativePath = "ServerDemo1\"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{B32A0B2C-526A-4F50-809A-A284DCC4CA14} = {B32A0B2C-526A-4F50-809A-A284DCC4CA14}
+		{0346164C-8A23-4B47-BC01-895C816A46CC} = {0346164C-8A23-4B47-BC01-895C816A46CC}
+		{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D} = {CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}
+		{329DC493-9959-4539-8248-48A68733BB5C} = {329DC493-9959-4539-8248-48A68733BB5C}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ServerDemo2", "ServerDemo2\", "{839B96E8-D201-469E-932E-D13825E52594}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{cf9bf75c-ad15-4c5d-82fb-d1eb98c9f10d}|FMPublicClass.dll;{0346164c-8a23-4b47-bc01-895c816a46cc}|FMLogClass.dll;{329dc493-9959-4539-8248-48a68733bb5c}|FMipcClass.dll;{B32A0B2C-526A-4F50-809A-A284DCC4CA14}|FMDBHelperClass.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/ServerDemo2"
+		Debug.AspNetCompiler.PhysicalPath = "ServerDemo2\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ServerDemo2\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ServerDemo2"
+		Release.AspNetCompiler.PhysicalPath = "ServerDemo2\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ServerDemo2\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "10984"
+		SlnRelativePath = "ServerDemo2\"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{B32A0B2C-526A-4F50-809A-A284DCC4CA14} = {B32A0B2C-526A-4F50-809A-A284DCC4CA14}
+		{0346164C-8A23-4B47-BC01-895C816A46CC} = {0346164C-8A23-4B47-BC01-895C816A46CC}
+		{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D} = {CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}
+		{329DC493-9959-4539-8248-48A68733BB5C} = {329DC493-9959-4539-8248-48A68733BB5C}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Server成交处理中心", "Server成交处理中心\", "{3CF3F233-A4D5-47E1-914B-1251EDB7C973}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{b32a0b2c-526a-4f50-809a-a284dcc4ca14}|FMDBHelperClass.dll;{329dc493-9959-4539-8248-48a68733bb5c}|FMipcClass.dll;{0346164C-8A23-4B47-BC01-895C816A46CC}|FMLogClass.dll;{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}|FMPublicClass.dll;{3c37a8fe-5c85-435f-bf5f-00797bd360b5}|RedisReLoad.ShareDBcache.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Server成交处理中心"
+		Debug.AspNetCompiler.PhysicalPath = "Server成交处理中心\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Server成交处理中心\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Server成交处理中心"
+		Release.AspNetCompiler.PhysicalPath = "Server成交处理中心\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Server成交处理中心\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "10985"
+		SlnRelativePath = "Server成交处理中心\"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{B32A0B2C-526A-4F50-809A-A284DCC4CA14} = {B32A0B2C-526A-4F50-809A-A284DCC4CA14}
+		{0346164C-8A23-4B47-BC01-895C816A46CC} = {0346164C-8A23-4B47-BC01-895C816A46CC}
+		{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D} = {CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}
+		{329DC493-9959-4539-8248-48A68733BB5C} = {329DC493-9959-4539-8248-48A68733BB5C}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Server成交履约中心", "Server成交履约中心\", "{BFB41358-9169-4488-A7F1-E558B1EFB127}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{b32a0b2c-526a-4f50-809a-a284dcc4ca14}|FMDBHelperClass.dll;{329dc493-9959-4539-8248-48a68733bb5c}|FMipcClass.dll;{0346164C-8A23-4B47-BC01-895C816A46CC}|FMLogClass.dll;{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}|FMPublicClass.dll;{3c37a8fe-5c85-435f-bf5f-00797bd360b5}|RedisReLoad.ShareDBcache.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Server成交履约中心"
+		Debug.AspNetCompiler.PhysicalPath = "Server成交履约中心\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Server成交履约中心\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Server成交履约中心"
+		Release.AspNetCompiler.PhysicalPath = "Server成交履约中心\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Server成交履约中心\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "10986"
+		SlnRelativePath = "Server成交履约中心\"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{B32A0B2C-526A-4F50-809A-A284DCC4CA14} = {B32A0B2C-526A-4F50-809A-A284DCC4CA14}
+		{0346164C-8A23-4B47-BC01-895C816A46CC} = {0346164C-8A23-4B47-BC01-895C816A46CC}
+		{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D} = {CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}
+		{329DC493-9959-4539-8248-48A68733BB5C} = {329DC493-9959-4539-8248-48A68733BB5C}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Server辅助业务中心", "Server辅助业务中心\", "{462801F4-B389-4772-A2C6-EFA999D24FE5}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{b32a0b2c-526a-4f50-809a-a284dcc4ca14}|FMDBHelperClass.dll;{329dc493-9959-4539-8248-48a68733bb5c}|FMipcClass.dll;{0346164C-8A23-4B47-BC01-895C816A46CC}|FMLogClass.dll;{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}|FMPublicClass.dll;{3c37a8fe-5c85-435f-bf5f-00797bd360b5}|RedisReLoad.ShareDBcache.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Server辅助业务中心"
+		Debug.AspNetCompiler.PhysicalPath = "Server辅助业务中心\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Server辅助业务中心\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Server辅助业务中心"
+		Release.AspNetCompiler.PhysicalPath = "Server辅助业务中心\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Server辅助业务中心\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "10987"
+		SlnRelativePath = "Server辅助业务中心\"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{B32A0B2C-526A-4F50-809A-A284DCC4CA14} = {B32A0B2C-526A-4F50-809A-A284DCC4CA14}
+		{0346164C-8A23-4B47-BC01-895C816A46CC} = {0346164C-8A23-4B47-BC01-895C816A46CC}
+		{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D} = {CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}
+		{329DC493-9959-4539-8248-48A68733BB5C} = {329DC493-9959-4539-8248-48A68733BB5C}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Server交易指令中心", "Server交易指令中心\", "{02F67C04-8959-4850-8BDD-018539D5DB9A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{cf9bf75c-ad15-4c5d-82fb-d1eb98c9f10d}|FMPublicClass.dll;{0346164c-8a23-4b47-bc01-895c816a46cc}|FMLogClass.dll;{329dc493-9959-4539-8248-48a68733bb5c}|FMipcClass.dll;{B32A0B2C-526A-4F50-809A-A284DCC4CA14}|FMDBHelperClass.dll;{3c37a8fe-5c85-435f-bf5f-00797bd360b5}|RedisReLoad.ShareDBcache.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Server交易指令中心"
+		Debug.AspNetCompiler.PhysicalPath = "Server交易指令中心\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Server交易指令中心\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Server交易指令中心"
+		Release.AspNetCompiler.PhysicalPath = "Server交易指令中心\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Server交易指令中心\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "10989"
+		SlnRelativePath = "Server交易指令中心\"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{B32A0B2C-526A-4F50-809A-A284DCC4CA14} = {B32A0B2C-526A-4F50-809A-A284DCC4CA14}
+		{0346164C-8A23-4B47-BC01-895C816A46CC} = {0346164C-8A23-4B47-BC01-895C816A46CC}
+		{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D} = {CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}
+		{329DC493-9959-4539-8248-48A68733BB5C} = {329DC493-9959-4539-8248-48A68733BB5C}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Server开放平台中心", "Server开放平台中心\", "{084A419F-6434-4D15-B4FD-3AFCD551E406}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{b32a0b2c-526a-4f50-809a-a284dcc4ca14}|FMDBHelperClass.dll;{329dc493-9959-4539-8248-48a68733bb5c}|FMipcClass.dll;{0346164C-8A23-4B47-BC01-895C816A46CC}|FMLogClass.dll;{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}|FMPublicClass.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Server开放平台中心"
+		Debug.AspNetCompiler.PhysicalPath = "Server开放平台中心\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Server开放平台中心\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Server开放平台中心"
+		Release.AspNetCompiler.PhysicalPath = "Server开放平台中心\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Server开放平台中心\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "10990"
+		SlnRelativePath = "Server开放平台中心\"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{B32A0B2C-526A-4F50-809A-A284DCC4CA14} = {B32A0B2C-526A-4F50-809A-A284DCC4CA14}
+		{0346164C-8A23-4B47-BC01-895C816A46CC} = {0346164C-8A23-4B47-BC01-895C816A46CC}
+		{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D} = {CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}
+		{329DC493-9959-4539-8248-48A68733BB5C} = {329DC493-9959-4539-8248-48A68733BB5C}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Server客户端专用中心", "Server客户端专用中心\", "{1AC8EE1C-164F-4DB2-B67B-354F4DF668D1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{b32a0b2c-526a-4f50-809a-a284dcc4ca14}|FMDBHelperClass.dll;{329dc493-9959-4539-8248-48a68733bb5c}|FMipcClass.dll;{0346164C-8A23-4B47-BC01-895C816A46CC}|FMLogClass.dll;{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}|FMPublicClass.dll;{3c37a8fe-5c85-435f-bf5f-00797bd360b5}|RedisReLoad.ShareDBcache.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Server客户端专用中心"
+		Debug.AspNetCompiler.PhysicalPath = "Server客户端专用中心\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Server客户端专用中心\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Server客户端专用中心"
+		Release.AspNetCompiler.PhysicalPath = "Server客户端专用中心\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Server客户端专用中心\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "10991"
+		SlnRelativePath = "Server客户端专用中心\"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{B32A0B2C-526A-4F50-809A-A284DCC4CA14} = {B32A0B2C-526A-4F50-809A-A284DCC4CA14}
+		{0346164C-8A23-4B47-BC01-895C816A46CC} = {0346164C-8A23-4B47-BC01-895C816A46CC}
+		{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D} = {CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}
+		{329DC493-9959-4539-8248-48A68733BB5C} = {329DC493-9959-4539-8248-48A68733BB5C}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Server数据分析中心", "Server数据分析中心\", "{5C1D4A40-D13F-41AE-BAE0-407058D85DF9}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{b32a0b2c-526a-4f50-809a-a284dcc4ca14}|FMDBHelperClass.dll;{329dc493-9959-4539-8248-48a68733bb5c}|FMipcClass.dll;{0346164C-8A23-4B47-BC01-895C816A46CC}|FMLogClass.dll;{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}|FMPublicClass.dll;{3c37a8fe-5c85-435f-bf5f-00797bd360b5}|RedisReLoad.ShareDBcache.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Server数据分析中心"
+		Debug.AspNetCompiler.PhysicalPath = "Server数据分析中心\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Server数据分析中心\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Server数据分析中心"
+		Release.AspNetCompiler.PhysicalPath = "Server数据分析中心\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Server数据分析中心\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "10992"
+		SlnRelativePath = "Server数据分析中心\"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{B32A0B2C-526A-4F50-809A-A284DCC4CA14} = {B32A0B2C-526A-4F50-809A-A284DCC4CA14}
+		{0346164C-8A23-4B47-BC01-895C816A46CC} = {0346164C-8A23-4B47-BC01-895C816A46CC}
+		{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D} = {CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}
+		{329DC493-9959-4539-8248-48A68733BB5C} = {329DC493-9959-4539-8248-48A68733BB5C}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Server系统控制中心", "Server系统控制中心\", "{C4B5FF0E-A3C5-4D49-AFA8-CAF9F1BA01D6}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{b32a0b2c-526a-4f50-809a-a284dcc4ca14}|FMDBHelperClass.dll;{329dc493-9959-4539-8248-48a68733bb5c}|FMipcClass.dll;{0346164C-8A23-4B47-BC01-895C816A46CC}|FMLogClass.dll;{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}|FMPublicClass.dll;{3c37a8fe-5c85-435f-bf5f-00797bd360b5}|RedisReLoad.ShareDBcache.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Server系统控制中心"
+		Debug.AspNetCompiler.PhysicalPath = "Server系统控制中心\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Server系统控制中心\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Server系统控制中心"
+		Release.AspNetCompiler.PhysicalPath = "Server系统控制中心\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Server系统控制中心\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "10993"
+		SlnRelativePath = "Server系统控制中心\"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{B32A0B2C-526A-4F50-809A-A284DCC4CA14} = {B32A0B2C-526A-4F50-809A-A284DCC4CA14}
+		{0346164C-8A23-4B47-BC01-895C816A46CC} = {0346164C-8A23-4B47-BC01-895C816A46CC}
+		{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D} = {CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}
+		{329DC493-9959-4539-8248-48A68733BB5C} = {329DC493-9959-4539-8248-48A68733BB5C}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Server银行合作中心", "Server银行合作中心\", "{A91EF5BC-1081-4696-9712-A84FF4A5266B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{329dc493-9959-4539-8248-48a68733bb5c}|FMipcClass.dll;{B32A0B2C-526A-4F50-809A-A284DCC4CA14}|FMDBHelperClass.dll;{0346164C-8A23-4B47-BC01-895C816A46CC}|FMLogClass.dll;{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}|FMPublicClass.dll;{3c37a8fe-5c85-435f-bf5f-00797bd360b5}|RedisReLoad.ShareDBcache.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Server银行合作中心"
+		Debug.AspNetCompiler.PhysicalPath = "Server银行合作中心\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Server银行合作中心\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Server银行合作中心"
+		Release.AspNetCompiler.PhysicalPath = "Server银行合作中心\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Server银行合作中心\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "10996"
+		SlnRelativePath = "Server银行合作中心\"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{B32A0B2C-526A-4F50-809A-A284DCC4CA14} = {B32A0B2C-526A-4F50-809A-A284DCC4CA14}
+		{0346164C-8A23-4B47-BC01-895C816A46CC} = {0346164C-8A23-4B47-BC01-895C816A46CC}
+		{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D} = {CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}
+		{329DC493-9959-4539-8248-48A68733BB5C} = {329DC493-9959-4539-8248-48A68733BB5C}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Server用户控制中心", "Server用户控制中心\", "{7D22D070-B6DF-4E24-A94B-5913F51321A2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{b32a0b2c-526a-4f50-809a-a284dcc4ca14}|FMDBHelperClass.dll;{329dc493-9959-4539-8248-48a68733bb5c}|FMipcClass.dll;{0346164C-8A23-4B47-BC01-895C816A46CC}|FMLogClass.dll;{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}|FMPublicClass.dll;{3c37a8fe-5c85-435f-bf5f-00797bd360b5}|RedisReLoad.ShareDBcache.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Server用户控制中心"
+		Debug.AspNetCompiler.PhysicalPath = "Server用户控制中心\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Server用户控制中心\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Server用户控制中心"
+		Release.AspNetCompiler.PhysicalPath = "Server用户控制中心\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Server用户控制中心\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "10999"
+		SlnRelativePath = "Server用户控制中心\"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{B32A0B2C-526A-4F50-809A-A284DCC4CA14} = {B32A0B2C-526A-4F50-809A-A284DCC4CA14}
+		{0346164C-8A23-4B47-BC01-895C816A46CC} = {0346164C-8A23-4B47-BC01-895C816A46CC}
+		{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D} = {CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}
+		{329DC493-9959-4539-8248-48A68733BB5C} = {329DC493-9959-4539-8248-48A68733BB5C}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "旧版待移植", "旧版待移植\", "{D107DDE2-45DA-4F8B-940C-29021AE76BFA}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{b32a0b2c-526a-4f50-809a-a284dcc4ca14}|FMDBHelperClass.dll;{329dc493-9959-4539-8248-48a68733bb5c}|FMipcClass.dll;{0346164C-8A23-4B47-BC01-895C816A46CC}|FMLogClass.dll;{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}|FMPublicClass.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/旧版待移植"
+		Debug.AspNetCompiler.PhysicalPath = "旧版待移植\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\旧版待移植\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/旧版待移植"
+		Release.AspNetCompiler.PhysicalPath = "旧版待移植\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\旧版待移植\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1140"
+		SlnRelativePath = "旧版待移植\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPC配置更新工具", "IPC配置更新工具\IPC配置更新工具.csproj", "{9B14976B-70DC-447C-85CC-F56A48B9A295}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RedisReLoad", "RedisReLoad", "{B57806B6-388C-486C-9F92-D5F0AF38DA0B}"
+	ProjectSection(SolutionItems) = preProject
+		RedisReLoad\ServiceStack.Common.dll = RedisReLoad\ServiceStack.Common.dll
+		RedisReLoad\ServiceStack.Interfaces.dll = RedisReLoad\ServiceStack.Interfaces.dll
+		RedisReLoad\ServiceStack.Redis.dll = RedisReLoad\ServiceStack.Redis.dll
+		RedisReLoad\ServiceStack.Text.dll = RedisReLoad\ServiceStack.Text.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisFormTest", "RedisReLoad\RedisFormTest\RedisFormTest.csproj", "{E9E9D489-038B-47EA-9C7E-D282B12760ED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0346164C-8A23-4B47-BC01-895C816A46CC} = {0346164C-8A23-4B47-BC01-895C816A46CC}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShareDBcache", "RedisReLoad\ShareDBcache\ShareDBcache.csproj", "{3C37A8FE-5C85-435F-BF5F-00797BD360B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlRedisForFMDBHelper_AAA_DLZHXXB", "RedisReLoad\SqlRedisForFMDBHelper_AAA_DLZHXXB\SqlRedisForFMDBHelper_AAA_DLZHXXB.csproj", "{234A7BC7-7067-4B1D-80D5-11E5307CDE03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlRedisForFMDBHelper_AAA_TBD", "RedisReLoad\SqlRedisForFMDBHelper_AAA_TBD\SqlRedisForFMDBHelper_AAA_TBD.csproj", "{6FC04D5E-4124-479A-B206-B2A059582EB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlRedisForFMDBHelper_AAA_THDYFHDXXB", "RedisReLoad\SqlRedisForFMDBHelper_AAA_THDYFHDXXB\SqlRedisForFMDBHelper_AAA_THDYFHDXXB.csproj", "{44F0585C-B907-4E8F-9ABC-E58C53BF7304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlRedisForFMDBHelper_AAA_YDDXXB", "RedisReLoad\SqlRedisForFMDBHelper_AAA_YDDXXB\SqlRedisForFMDBHelper_AAA_YDDXXB.csproj", "{21CA0597-83F8-4475-BB80-4ADD65B900AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlRedisForFMDBHelper_AAA_ZBDBXXB", "RedisReLoad\SqlRedisForFMDBHelper_AAA_ZBDBXXB\SqlRedisForFMDBHelper_AAA_ZBDBXXB.csproj", "{A41EC90F-AFD7-467C-8577-5036AFA43077}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlRedisForFMDBHelper_AAA_ZKLSMXB", "RedisReLoad\SqlRedisForFMDBHelper_AAA_ZKLSMXB\SqlRedisForFMDBHelper_AAA_ZKLSMXB.csproj", "{9FD53F5B-CC65-4441-982D-2360BCA0ACEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A8A5DFC-97DD-46A6-AD96-B5C12E1D7F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A8A5DFC-97DD-46A6-AD96-B5C12E1D7F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A8A5DFC-97DD-46A6-AD96-B5C12E1D7F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A8A5DFC-97DD-46A6-AD96-B5C12E1D7F2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4C2FFF5-1154-4D1D-A517-E4F3EAB9C44A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C2FFF5-1154-4D1D-A517-E4F3EAB9C44A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C2FFF5-1154-4D1D-A517-E4F3EAB9C44A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C2FFF5-1154-4D1D-A517-E4F3EAB9C44A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A440A443-76A0-4CEF-B89A-DA0F9DE21CB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A440A443-76A0-4CEF-B89A-DA0F9DE21CB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A440A443-76A0-4CEF-B89A-DA0F9DE21CB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A440A443-76A0-4CEF-B89A-DA0F9DE21CB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF9BF75C-AD15-4C5D-82FB-D1EB98C9F10D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{329DC493-9959-4539-8248-48A68733BB5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329DC493-9959-4539-8248-48A68733BB5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329DC493-9959-4539-8248-48A68733BB5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329DC493-9959-4539-8248-48A68733BB5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0346164C-8A23-4B47-BC01-895C816A46CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0346164C-8A23-4B47-BC01-895C816A46CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0346164C-8A23-4B47-BC01-895C816A46CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0346164C-8A23-4B47-BC01-895C816A46CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B32A0B2C-526A-4F50-809A-A284DCC4CA14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B32A0B2C-526A-4F50-809A-A284DCC4CA14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B32A0B2C-526A-4F50-809A-A284DCC4CA14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B32A0B2C-526A-4F50-809A-A284DCC4CA14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E377079B-24A8-44DD-9A6A-0522D7AD5560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E377079B-24A8-44DD-9A6A-0522D7AD5560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E377079B-24A8-44DD-9A6A-0522D7AD5560}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E377079B-24A8-44DD-9A6A-0522D7AD5560}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{60919058-64BF-4F0F-81B0-7B3D7F6045BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60919058-64BF-4F0F-81B0-7B3D7F6045BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60919058-64BF-4F0F-81B0-7B3D7F6045BB}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{60919058-64BF-4F0F-81B0-7B3D7F6045BB}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{839B96E8-D201-469E-932E-D13825E52594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{839B96E8-D201-469E-932E-D13825E52594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{839B96E8-D201-469E-932E-D13825E52594}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{839B96E8-D201-469E-932E-D13825E52594}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{3CF3F233-A4D5-47E1-914B-1251EDB7C973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CF3F233-A4D5-47E1-914B-1251EDB7C973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CF3F233-A4D5-47E1-914B-1251EDB7C973}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CF3F233-A4D5-47E1-914B-1251EDB7C973}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{BFB41358-9169-4488-A7F1-E558B1EFB127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB41358-9169-4488-A7F1-E558B1EFB127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB41358-9169-4488-A7F1-E558B1EFB127}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB41358-9169-4488-A7F1-E558B1EFB127}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{462801F4-B389-4772-A2C6-EFA999D24FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{462801F4-B389-4772-A2C6-EFA999D24FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{462801F4-B389-4772-A2C6-EFA999D24FE5}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{462801F4-B389-4772-A2C6-EFA999D24FE5}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{02F67C04-8959-4850-8BDD-018539D5DB9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02F67C04-8959-4850-8BDD-018539D5DB9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02F67C04-8959-4850-8BDD-018539D5DB9A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{02F67C04-8959-4850-8BDD-018539D5DB9A}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{084A419F-6434-4D15-B4FD-3AFCD551E406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{084A419F-6434-4D15-B4FD-3AFCD551E406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{084A419F-6434-4D15-B4FD-3AFCD551E406}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{084A419F-6434-4D15-B4FD-3AFCD551E406}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{1AC8EE1C-164F-4DB2-B67B-354F4DF668D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AC8EE1C-164F-4DB2-B67B-354F4DF668D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AC8EE1C-164F-4DB2-B67B-354F4DF668D1}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AC8EE1C-164F-4DB2-B67B-354F4DF668D1}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{5C1D4A40-D13F-41AE-BAE0-407058D85DF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C1D4A40-D13F-41AE-BAE0-407058D85DF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C1D4A40-D13F-41AE-BAE0-407058D85DF9}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C1D4A40-D13F-41AE-BAE0-407058D85DF9}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C4B5FF0E-A3C5-4D49-AFA8-CAF9F1BA01D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B5FF0E-A3C5-4D49-AFA8-CAF9F1BA01D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B5FF0E-A3C5-4D49-AFA8-CAF9F1BA01D6}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B5FF0E-A3C5-4D49-AFA8-CAF9F1BA01D6}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A91EF5BC-1081-4696-9712-A84FF4A5266B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A91EF5BC-1081-4696-9712-A84FF4A5266B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A91EF5BC-1081-4696-9712-A84FF4A5266B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A91EF5BC-1081-4696-9712-A84FF4A5266B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{7D22D070-B6DF-4E24-A94B-5913F51321A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D22D070-B6DF-4E24-A94B-5913F51321A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D22D070-B6DF-4E24-A94B-5913F51321A2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D22D070-B6DF-4E24-A94B-5913F51321A2}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D107DDE2-45DA-4F8B-940C-29021AE76BFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D107DDE2-45DA-4F8B-940C-29021AE76BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D107DDE2-45DA-4F8B-940C-29021AE76BFA}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D107DDE2-45DA-4F8B-940C-29021AE76BFA}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9B14976B-70DC-447C-85CC-F56A48B9A295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B14976B-70DC-447C-85CC-F56A48B9A295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B14976B-70DC-447C-85CC-F56A48B9A295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B14976B-70DC-447C-85CC-F56A48B9A295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9E9D489-038B-47EA-9C7E-D282B12760ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9E9D489-038B-47EA-9C7E-D282B12760ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9E9D489-038B-47EA-9C7E-D282B12760ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9E9D489-038B-47EA-9C7E-D282B12760ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C37A8FE-5C85-435F-BF5F-00797BD360B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C37A8FE-5C85-435F-BF5F-00797BD360B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C37A8FE-5C85-435F-BF5F-00797BD360B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C37A8FE-5C85-435F-BF5F-00797BD360B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{234A7BC7-7067-4B1D-80D5-11E5307CDE03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{234A7BC7-7067-4B1D-80D5-11E5307CDE03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{234A7BC7-7067-4B1D-80D5-11E5307CDE03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{234A7BC7-7067-4B1D-80D5-11E5307CDE03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FC04D5E-4124-479A-B206-B2A059582EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FC04D5E-4124-479A-B206-B2A059582EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FC04D5E-4124-479A-B206-B2A059582EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FC04D5E-4124-479A-B206-B2A059582EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44F0585C-B907-4E8F-9ABC-E58C53BF7304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F0585C-B907-4E8F-9ABC-E58C53BF7304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F0585C-B907-4E8F-9ABC-E58C53BF7304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F0585C-B907-4E8F-9ABC-E58C53BF7304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21CA0597-83F8-4475-BB80-4ADD65B900AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21CA0597-83F8-4475-BB80-4ADD65B900AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21CA0597-83F8-4475-BB80-4ADD65B900AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21CA0597-83F8-4475-BB80-4ADD65B900AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A41EC90F-AFD7-467C-8577-5036AFA43077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A41EC90F-AFD7-467C-8577-5036AFA43077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A41EC90F-AFD7-467C-8577-5036AFA43077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A41EC90F-AFD7-467C-8577-5036AFA43077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FD53F5B-CC65-4441-982D-2360BCA0ACEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD53F5B-CC65-4441-982D-2360BCA0ACEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD53F5B-CC65-4441-982D-2360BCA0ACEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD53F5B-CC65-4441-982D-2360BCA0ACEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E9E9D489-038B-47EA-9C7E-D282B12760ED} = {B57806B6-388C-486C-9F92-D5F0AF38DA0B}
+		{3C37A8FE-5C85-435F-BF5F-00797BD360B5} = {B57806B6-388C-486C-9F92-D5F0AF38DA0B}
+		{234A7BC7-7067-4B1D-80D5-11E5307CDE03} = {B57806B6-388C-486C-9F92-D5F0AF38DA0B}
+		{6FC04D5E-4124-479A-B206-B2A059582EB5} = {B57806B6-388C-486C-9F92-D5F0AF38DA0B}
+		{44F0585C-B907-4E8F-9ABC-E58C53BF7304} = {B57806B6-388C-486C-9F92-D5F0AF38DA0B}
+		{21CA0597-83F8-4475-BB80-4ADD65B900AA} = {B57806B6-388C-486C-9F92-D5F0AF38DA0B}
+		{A41EC90F-AFD7-467C-8577-5036AFA43077} = {B57806B6-388C-486C-9F92-D5F0AF38DA0B}
+		{9FD53F5B-CC65-4441-982D-2360BCA0ACEA} = {B57806B6-388C-486C-9F92-D5F0AF38DA0B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal

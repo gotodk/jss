@@ -1,0 +1,1482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://bank.ipc.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://bank.ipc.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">V1.00-&gt;银行合作中心业务类接口</wsdl:documentation>
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://bank.ipc.com/">
+      <s:element name="onlinetest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="temp" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="onlinetestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="onlinetestResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="多银行框架-客户预制定签约">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ds">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="多银行框架-客户预制定签约Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="多银行框架-客户预制定签约Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="多银行框架-券商发起资金转账">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="多银行框架-券商发起资金转账Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="多银行框架-券商发起资金转账Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="多银行框架-银行发起客户签约">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ds">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="khbh" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ssbank" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="多银行框架-银行发起客户签约Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="多银行框架-银行发起客户签约Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="多银行框架-银行查客户余额">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ds">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="khbh" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ssbank" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="多银行框架-银行查客户余额Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="多银行框架-银行查客户余额Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="多银行框架-银行发起银转商">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ds">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="khbh" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ssbank" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="多银行框架-银行发起银转商Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="多银行框架-银行发起银转商Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="多银行框架-银行发起商转银">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ds">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="khbh" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ssbank" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="多银行框架-银行发起商转银Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="多银行框架-银行发起商转银Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="多银行框架-银行发起变更银行账户">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ds">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="khbh" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ssbank" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="多银行框架-银行发起变更银行账户Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="多银行框架-银行发起变更银行账户Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="多银行框架-券商发起变更银行账户">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="多银行框架-券商发起变更银行账户Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="多银行框架-券商发起变更银行账户Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="多银行框架-监控冲商转银">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ds">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="khbh" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ssbank" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="多银行框架-监控冲商转银Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="多银行框架-监控冲商转银Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="多银行框架-监控冲银转商">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ds">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="khbh" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ssbank" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="多银行框架-监控冲银转商Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="多银行框架-监控冲银转商Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="浦发银行-闭市时间外是否存在数据">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ht">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="浦发银行-闭市时间外是否存在数据Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="浦发银行-闭市时间外是否存在数据Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="浦发银行-获取交易资金净额清算数据">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="浦发银行-获取交易资金净额清算数据Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="浦发银行-获取交易资金净额清算数据Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="浦发银行-获取批量利息入帐数据">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="浦发银行-获取批量利息入帐数据Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="浦发银行-获取批量利息入帐数据Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="浦发银行-获取资金余额明细">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="浦发银行-获取资金余额明细Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="浦发银行-获取资金余额明细Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="浦发银行-存管汇总账户资金交收汇总文件格式">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="浦发银行-存管汇总账户资金交收汇总文件格式Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="浦发银行-存管汇总账户资金交收汇总文件格式Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="浦发银行-获取结算文件需发送数据">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="浦发银行-获取结算文件需发送数据Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="浦发银行-获取结算文件需发送数据Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="浦发银行-获取银证转账对账数据">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="浦发银行-获取银证转账对账数据Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="浦发银行-获取银证转账对账数据Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="浦发银行-日终闭市清算">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="浦发银行-日终闭市清算Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="浦发银行-日终闭市清算Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="平安银行-签到签退">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="type" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="平安银行-签到签退Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="平安银行-签到签退Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="平安银行-获取客户编号">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CustAcctId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="平安银行-获取客户编号Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="平安银行-获取客户编号Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="平安银行-开销户流水匹配">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtParams">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="平安银行-开销户流水匹配Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="平安银行-开销户流水匹配Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="平安银行-对账数据处理">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtParams">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="FuncId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="filename" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="平安银行-对账数据处理Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="平安银行-对账数据处理Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="平安银行-获取清算数据">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="date" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="平安银行-获取清算数据Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="平安银行-获取清算数据Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="平安银行-发起清算请求">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsParams">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="平安银行-发起清算请求Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="平安银行-发起清算请求Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="平安银行-查询银行清算进度">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="type" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="date" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="平安银行-查询银行清算进度Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="平安银行-查询银行清算进度Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="onlinetestSoapIn">
+    <wsdl:part name="parameters" element="tns:onlinetest" />
+  </wsdl:message>
+  <wsdl:message name="onlinetestSoapOut">
+    <wsdl:part name="parameters" element="tns:onlinetestResponse" />
+  </wsdl:message>
+  <wsdl:message name="多银行框架-客户预制定签约SoapIn">
+    <wsdl:part name="parameters" element="tns:多银行框架-客户预制定签约" />
+  </wsdl:message>
+  <wsdl:message name="多银行框架-客户预制定签约SoapOut">
+    <wsdl:part name="parameters" element="tns:多银行框架-客户预制定签约Response" />
+  </wsdl:message>
+  <wsdl:message name="多银行框架-券商发起资金转账SoapIn">
+    <wsdl:part name="parameters" element="tns:多银行框架-券商发起资金转账" />
+  </wsdl:message>
+  <wsdl:message name="多银行框架-券商发起资金转账SoapOut">
+    <wsdl:part name="parameters" element="tns:多银行框架-券商发起资金转账Response" />
+  </wsdl:message>
+  <wsdl:message name="多银行框架-银行发起客户签约SoapIn">
+    <wsdl:part name="parameters" element="tns:多银行框架-银行发起客户签约" />
+  </wsdl:message>
+  <wsdl:message name="多银行框架-银行发起客户签约SoapOut">
+    <wsdl:part name="parameters" element="tns:多银行框架-银行发起客户签约Response" />
+  </wsdl:message>
+  <wsdl:message name="多银行框架-银行查客户余额SoapIn">
+    <wsdl:part name="parameters" element="tns:多银行框架-银行查客户余额" />
+  </wsdl:message>
+  <wsdl:message name="多银行框架-银行查客户余额SoapOut">
+    <wsdl:part name="parameters" element="tns:多银行框架-银行查客户余额Response" />
+  </wsdl:message>
+  <wsdl:message name="多银行框架-银行发起银转商SoapIn">
+    <wsdl:part name="parameters" element="tns:多银行框架-银行发起银转商" />
+  </wsdl:message>
+  <wsdl:message name="多银行框架-银行发起银转商SoapOut">
+    <wsdl:part name="parameters" element="tns:多银行框架-银行发起银转商Response" />
+  </wsdl:message>
+  <wsdl:message name="多银行框架-银行发起商转银SoapIn">
+    <wsdl:part name="parameters" element="tns:多银行框架-银行发起商转银" />
+  </wsdl:message>
+  <wsdl:message name="多银行框架-银行发起商转银SoapOut">
+    <wsdl:part name="parameters" element="tns:多银行框架-银行发起商转银Response" />
+  </wsdl:message>
+  <wsdl:message name="多银行框架-银行发起变更银行账户SoapIn">
+    <wsdl:part name="parameters" element="tns:多银行框架-银行发起变更银行账户" />
+  </wsdl:message>
+  <wsdl:message name="多银行框架-银行发起变更银行账户SoapOut">
+    <wsdl:part name="parameters" element="tns:多银行框架-银行发起变更银行账户Response" />
+  </wsdl:message>
+  <wsdl:message name="多银行框架-券商发起变更银行账户SoapIn">
+    <wsdl:part name="parameters" element="tns:多银行框架-券商发起变更银行账户" />
+  </wsdl:message>
+  <wsdl:message name="多银行框架-券商发起变更银行账户SoapOut">
+    <wsdl:part name="parameters" element="tns:多银行框架-券商发起变更银行账户Response" />
+  </wsdl:message>
+  <wsdl:message name="多银行框架-监控冲商转银SoapIn">
+    <wsdl:part name="parameters" element="tns:多银行框架-监控冲商转银" />
+  </wsdl:message>
+  <wsdl:message name="多银行框架-监控冲商转银SoapOut">
+    <wsdl:part name="parameters" element="tns:多银行框架-监控冲商转银Response" />
+  </wsdl:message>
+  <wsdl:message name="多银行框架-监控冲银转商SoapIn">
+    <wsdl:part name="parameters" element="tns:多银行框架-监控冲银转商" />
+  </wsdl:message>
+  <wsdl:message name="多银行框架-监控冲银转商SoapOut">
+    <wsdl:part name="parameters" element="tns:多银行框架-监控冲银转商Response" />
+  </wsdl:message>
+  <wsdl:message name="浦发银行-闭市时间外是否存在数据SoapIn">
+    <wsdl:part name="parameters" element="tns:浦发银行-闭市时间外是否存在数据" />
+  </wsdl:message>
+  <wsdl:message name="浦发银行-闭市时间外是否存在数据SoapOut">
+    <wsdl:part name="parameters" element="tns:浦发银行-闭市时间外是否存在数据Response" />
+  </wsdl:message>
+  <wsdl:message name="浦发银行-获取交易资金净额清算数据SoapIn">
+    <wsdl:part name="parameters" element="tns:浦发银行-获取交易资金净额清算数据" />
+  </wsdl:message>
+  <wsdl:message name="浦发银行-获取交易资金净额清算数据SoapOut">
+    <wsdl:part name="parameters" element="tns:浦发银行-获取交易资金净额清算数据Response" />
+  </wsdl:message>
+  <wsdl:message name="浦发银行-获取批量利息入帐数据SoapIn">
+    <wsdl:part name="parameters" element="tns:浦发银行-获取批量利息入帐数据" />
+  </wsdl:message>
+  <wsdl:message name="浦发银行-获取批量利息入帐数据SoapOut">
+    <wsdl:part name="parameters" element="tns:浦发银行-获取批量利息入帐数据Response" />
+  </wsdl:message>
+  <wsdl:message name="浦发银行-获取资金余额明细SoapIn">
+    <wsdl:part name="parameters" element="tns:浦发银行-获取资金余额明细" />
+  </wsdl:message>
+  <wsdl:message name="浦发银行-获取资金余额明细SoapOut">
+    <wsdl:part name="parameters" element="tns:浦发银行-获取资金余额明细Response" />
+  </wsdl:message>
+  <wsdl:message name="浦发银行-存管汇总账户资金交收汇总文件格式SoapIn">
+    <wsdl:part name="parameters" element="tns:浦发银行-存管汇总账户资金交收汇总文件格式" />
+  </wsdl:message>
+  <wsdl:message name="浦发银行-存管汇总账户资金交收汇总文件格式SoapOut">
+    <wsdl:part name="parameters" element="tns:浦发银行-存管汇总账户资金交收汇总文件格式Response" />
+  </wsdl:message>
+  <wsdl:message name="浦发银行-获取结算文件需发送数据SoapIn">
+    <wsdl:part name="parameters" element="tns:浦发银行-获取结算文件需发送数据" />
+  </wsdl:message>
+  <wsdl:message name="浦发银行-获取结算文件需发送数据SoapOut">
+    <wsdl:part name="parameters" element="tns:浦发银行-获取结算文件需发送数据Response" />
+  </wsdl:message>
+  <wsdl:message name="浦发银行-获取银证转账对账数据SoapIn">
+    <wsdl:part name="parameters" element="tns:浦发银行-获取银证转账对账数据" />
+  </wsdl:message>
+  <wsdl:message name="浦发银行-获取银证转账对账数据SoapOut">
+    <wsdl:part name="parameters" element="tns:浦发银行-获取银证转账对账数据Response" />
+  </wsdl:message>
+  <wsdl:message name="浦发银行-日终闭市清算SoapIn">
+    <wsdl:part name="parameters" element="tns:浦发银行-日终闭市清算" />
+  </wsdl:message>
+  <wsdl:message name="浦发银行-日终闭市清算SoapOut">
+    <wsdl:part name="parameters" element="tns:浦发银行-日终闭市清算Response" />
+  </wsdl:message>
+  <wsdl:message name="平安银行-签到签退SoapIn">
+    <wsdl:part name="parameters" element="tns:平安银行-签到签退" />
+  </wsdl:message>
+  <wsdl:message name="平安银行-签到签退SoapOut">
+    <wsdl:part name="parameters" element="tns:平安银行-签到签退Response" />
+  </wsdl:message>
+  <wsdl:message name="平安银行-获取客户编号SoapIn">
+    <wsdl:part name="parameters" element="tns:平安银行-获取客户编号" />
+  </wsdl:message>
+  <wsdl:message name="平安银行-获取客户编号SoapOut">
+    <wsdl:part name="parameters" element="tns:平安银行-获取客户编号Response" />
+  </wsdl:message>
+  <wsdl:message name="平安银行-开销户流水匹配SoapIn">
+    <wsdl:part name="parameters" element="tns:平安银行-开销户流水匹配" />
+  </wsdl:message>
+  <wsdl:message name="平安银行-开销户流水匹配SoapOut">
+    <wsdl:part name="parameters" element="tns:平安银行-开销户流水匹配Response" />
+  </wsdl:message>
+  <wsdl:message name="平安银行-对账数据处理SoapIn">
+    <wsdl:part name="parameters" element="tns:平安银行-对账数据处理" />
+  </wsdl:message>
+  <wsdl:message name="平安银行-对账数据处理SoapOut">
+    <wsdl:part name="parameters" element="tns:平安银行-对账数据处理Response" />
+  </wsdl:message>
+  <wsdl:message name="平安银行-获取清算数据SoapIn">
+    <wsdl:part name="parameters" element="tns:平安银行-获取清算数据" />
+  </wsdl:message>
+  <wsdl:message name="平安银行-获取清算数据SoapOut">
+    <wsdl:part name="parameters" element="tns:平安银行-获取清算数据Response" />
+  </wsdl:message>
+  <wsdl:message name="平安银行-发起清算请求SoapIn">
+    <wsdl:part name="parameters" element="tns:平安银行-发起清算请求" />
+  </wsdl:message>
+  <wsdl:message name="平安银行-发起清算请求SoapOut">
+    <wsdl:part name="parameters" element="tns:平安银行-发起清算请求Response" />
+  </wsdl:message>
+  <wsdl:message name="平安银行-查询银行清算进度SoapIn">
+    <wsdl:part name="parameters" element="tns:平安银行-查询银行清算进度" />
+  </wsdl:message>
+  <wsdl:message name="平安银行-查询银行清算进度SoapOut">
+    <wsdl:part name="parameters" element="tns:平安银行-查询银行清算进度Response" />
+  </wsdl:message>
+  <wsdl:portType name="bankSoap">
+    <wsdl:operation name="onlinetest">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">测试该接口是否还活着(每个接口必备)</wsdl:documentation>
+      <wsdl:input message="tns:onlinetestSoapIn" />
+      <wsdl:output message="tns:onlinetestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DsSendQianYue">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">客户预制定签约</wsdl:documentation>
+      <wsdl:input name="多银行框架-客户预制定签约" message="tns:多银行框架-客户预制定签约SoapIn" />
+      <wsdl:output name="多银行框架-客户预制定签约" message="tns:多银行框架-客户预制定签约SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TransferAccounts">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">用户多银行框架--资金转账</wsdl:documentation>
+      <wsdl:input name="多银行框架-券商发起资金转账" message="tns:多银行框架-券商发起资金转账SoapIn" />
+      <wsdl:output name="多银行框架-券商发起资金转账" message="tns:多银行框架-券商发起资金转账SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CompareUInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">适用于多银行框架--银行发起的客户签约处理</wsdl:documentation>
+      <wsdl:input name="多银行框架-银行发起客户签约" message="tns:多银行框架-银行发起客户签约SoapIn" />
+      <wsdl:output name="多银行框架-银行发起客户签约" message="tns:多银行框架-银行发起客户签约SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUMoneyByBANK">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">适用于多银行框架--查询客户余额（银行发起）</wsdl:documentation>
+      <wsdl:input name="多银行框架-银行查客户余额" message="tns:多银行框架-银行查客户余额SoapIn" />
+      <wsdl:output name="多银行框架-银行查客户余额" message="tns:多银行框架-银行查客户余额SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BankToS">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">适用于多银行框架--银行端发起-银转商</wsdl:documentation>
+      <wsdl:input name="多银行框架-银行发起银转商" message="tns:多银行框架-银行发起银转商SoapIn" />
+      <wsdl:output name="多银行框架-银行发起银转商" message="tns:多银行框架-银行发起银转商SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SToBank">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">适用于多银行框架--银行端发起-商转银</wsdl:documentation>
+      <wsdl:input name="多银行框架-银行发起商转银" message="tns:多银行框架-银行发起商转银SoapIn" />
+      <wsdl:output name="多银行框架-银行发起商转银" message="tns:多银行框架-银行发起商转银SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BankRequest_UpdateBankAccount">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">适用于多银行框架--银行端发起-变更银行账户</wsdl:documentation>
+      <wsdl:input name="多银行框架-银行发起变更银行账户" message="tns:多银行框架-银行发起变更银行账户SoapIn" />
+      <wsdl:output name="多银行框架-银行发起变更银行账户" message="tns:多银行框架-银行发起变更银行账户SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SRequest_UpdateBankAccount">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">适用于多银行框架--券商端发起-变更银行账户</wsdl:documentation>
+      <wsdl:input name="多银行框架-券商发起变更银行账户" message="tns:多银行框架-券商发起变更银行账户SoapIn" />
+      <wsdl:output name="多银行框架-券商发起变更银行账户" message="tns:多银行框架-券商发起变更银行账户SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CSToBank">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">适用于多银行框架--冲证券转银行23704</wsdl:documentation>
+      <wsdl:input name="多银行框架-监控冲商转银" message="tns:多银行框架-监控冲商转银SoapIn" />
+      <wsdl:output name="多银行框架-监控冲商转银" message="tns:多银行框架-监控冲商转银SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CBankToS">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">适用于多银行框架--冲银行转证券23703</wsdl:documentation>
+      <wsdl:input name="多银行框架-监控冲银转商" message="tns:多银行框架-监控冲银转商SoapIn" />
+      <wsdl:output name="多银行框架-监控冲银转商" message="tns:多银行框架-监控冲银转商SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dsishav">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">判断银行闭式时间外是否存在数据</wsdl:documentation>
+      <wsdl:input name="浦发银行-闭市时间外是否存在数据" message="tns:浦发银行-闭市时间外是否存在数据SoapIn" />
+      <wsdl:output name="浦发银行-闭市时间外是否存在数据" message="tns:浦发银行-闭市时间外是否存在数据SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Getcgkhjyzijefile">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取存管客户交易资金净额清算文件数据</wsdl:documentation>
+      <wsdl:input name="浦发银行-获取交易资金净额清算数据" message="tns:浦发银行-获取交易资金净额清算数据SoapIn" />
+      <wsdl:output name="浦发银行-获取交易资金净额清算数据" message="tns:浦发银行-获取交易资金净额清算数据SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Getcgkhpllx">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">存管客户批量利息入帐文件</wsdl:documentation>
+      <wsdl:input name="浦发银行-获取批量利息入帐数据" message="tns:浦发银行-获取批量利息入帐数据SoapIn" />
+      <wsdl:output name="浦发银行-获取批量利息入帐数据" message="tns:浦发银行-获取批量利息入帐数据SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Getcgkhzjmc">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">存管客户资金余额明细文件</wsdl:documentation>
+      <wsdl:input name="浦发银行-获取资金余额明细" message="tns:浦发银行-获取资金余额明细SoapIn" />
+      <wsdl:output name="浦发银行-获取资金余额明细" message="tns:浦发银行-获取资金余额明细SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Getcghzzhzjjs">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">存管汇总账户资金交收汇总文件格式</wsdl:documentation>
+      <wsdl:input name="浦发银行-存管汇总账户资金交收汇总文件格式" message="tns:浦发银行-存管汇总账户资金交收汇总文件格式SoapIn" />
+      <wsdl:output name="浦发银行-存管汇总账户资金交收汇总文件格式" message="tns:浦发银行-存管汇总账户资金交收汇总文件格式SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStrwhere">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取此次结算文件需发送数据信息</wsdl:documentation>
+      <wsdl:input name="浦发银行-获取结算文件需发送数据" message="tns:浦发银行-获取结算文件需发送数据SoapIn" />
+      <wsdl:output name="浦发银行-获取结算文件需发送数据" message="tns:浦发银行-获取结算文件需发送数据SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetYHZZXX">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取银证转账对账数据</wsdl:documentation>
+      <wsdl:input name="浦发银行-获取银证转账对账数据" message="tns:浦发银行-获取银证转账对账数据SoapIn" />
+      <wsdl:output name="浦发银行-获取银证转账对账数据" message="tns:浦发银行-获取银证转账对账数据SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WCQS">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">对每天银行闭市后的数据进行清算</wsdl:documentation>
+      <wsdl:input name="浦发银行-日终闭市清算" message="tns:浦发银行-日终闭市清算SoapIn" />
+      <wsdl:output name="浦发银行-日终闭市清算" message="tns:浦发银行-日终闭市清算SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PingAn_Sign">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">平安银行--签到签退</wsdl:documentation>
+      <wsdl:input name="平安银行-签到签退" message="tns:平安银行-签到签退SoapIn" />
+      <wsdl:output name="平安银行-签到签退" message="tns:平安银行-签到签退SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PingAn_GetCustId">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">平安银行-通过子账户账号获取交易网会员代码（即客户编号）</wsdl:documentation>
+      <wsdl:input name="平安银行-获取客户编号" message="tns:平安银行-获取客户编号SoapIn" />
+      <wsdl:output name="平安银行-获取客户编号" message="tns:平安银行-获取客户编号SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PingAn_AcctAndMnyMatch">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">平安银行--开销户流水匹配</wsdl:documentation>
+      <wsdl:input name="平安银行-开销户流水匹配" message="tns:平安银行-开销户流水匹配SoapIn" />
+      <wsdl:output name="平安银行-开销户流水匹配" message="tns:平安银行-开销户流水匹配SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PingAn_DataMatch">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">平安银行--对账数据处理</wsdl:documentation>
+      <wsdl:input name="平安银行-对账数据处理" message="tns:平安银行-对账数据处理SoapIn" />
+      <wsdl:output name="平安银行-对账数据处理" message="tns:平安银行-对账数据处理SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPingAnQSDsData">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">平安银行--获取清算数据</wsdl:documentation>
+      <wsdl:input name="平安银行-获取清算数据" message="tns:平安银行-获取清算数据SoapIn" />
+      <wsdl:output name="平安银行-获取清算数据" message="tns:平安银行-获取清算数据SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PingAn_RunQingSuan">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">平安银行--发起清算请求</wsdl:documentation>
+      <wsdl:input name="平安银行-发起清算请求" message="tns:平安银行-发起清算请求SoapIn" />
+      <wsdl:output name="平安银行-发起清算请求" message="tns:平安银行-发起清算请求SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PingAn_BankStateQuery">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">平安银行--查询银行清算进度</wsdl:documentation>
+      <wsdl:input name="平安银行-查询银行清算进度" message="tns:平安银行-查询银行清算进度SoapIn" />
+      <wsdl:output name="平安银行-查询银行清算进度" message="tns:平安银行-查询银行清算进度SoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="bankSoap" type="tns:bankSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="onlinetest">
+      <soap:operation soapAction="http://bank.ipc.com/onlinetest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DsSendQianYue">
+      <soap:operation soapAction="http://bank.ipc.com/多银行框架-客户预制定签约" style="document" />
+      <wsdl:input name="多银行框架-客户预制定签约">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="多银行框架-客户预制定签约">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TransferAccounts">
+      <soap:operation soapAction="http://bank.ipc.com/多银行框架-券商发起资金转账" style="document" />
+      <wsdl:input name="多银行框架-券商发起资金转账">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="多银行框架-券商发起资金转账">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CompareUInfo">
+      <soap:operation soapAction="http://bank.ipc.com/多银行框架-银行发起客户签约" style="document" />
+      <wsdl:input name="多银行框架-银行发起客户签约">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="多银行框架-银行发起客户签约">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUMoneyByBANK">
+      <soap:operation soapAction="http://bank.ipc.com/多银行框架-银行查客户余额" style="document" />
+      <wsdl:input name="多银行框架-银行查客户余额">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="多银行框架-银行查客户余额">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BankToS">
+      <soap:operation soapAction="http://bank.ipc.com/多银行框架-银行发起银转商" style="document" />
+      <wsdl:input name="多银行框架-银行发起银转商">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="多银行框架-银行发起银转商">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SToBank">
+      <soap:operation soapAction="http://bank.ipc.com/多银行框架-银行发起商转银" style="document" />
+      <wsdl:input name="多银行框架-银行发起商转银">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="多银行框架-银行发起商转银">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BankRequest_UpdateBankAccount">
+      <soap:operation soapAction="http://bank.ipc.com/多银行框架-银行发起变更银行账户" style="document" />
+      <wsdl:input name="多银行框架-银行发起变更银行账户">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="多银行框架-银行发起变更银行账户">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SRequest_UpdateBankAccount">
+      <soap:operation soapAction="http://bank.ipc.com/多银行框架-券商发起变更银行账户" style="document" />
+      <wsdl:input name="多银行框架-券商发起变更银行账户">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="多银行框架-券商发起变更银行账户">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CSToBank">
+      <soap:operation soapAction="http://bank.ipc.com/多银行框架-监控冲商转银" style="document" />
+      <wsdl:input name="多银行框架-监控冲商转银">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="多银行框架-监控冲商转银">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CBankToS">
+      <soap:operation soapAction="http://bank.ipc.com/多银行框架-监控冲银转商" style="document" />
+      <wsdl:input name="多银行框架-监控冲银转商">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="多银行框架-监控冲银转商">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsishav">
+      <soap:operation soapAction="http://bank.ipc.com/浦发银行-闭市时间外是否存在数据" style="document" />
+      <wsdl:input name="浦发银行-闭市时间外是否存在数据">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="浦发银行-闭市时间外是否存在数据">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Getcgkhjyzijefile">
+      <soap:operation soapAction="http://bank.ipc.com/浦发银行-获取交易资金净额清算数据" style="document" />
+      <wsdl:input name="浦发银行-获取交易资金净额清算数据">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="浦发银行-获取交易资金净额清算数据">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Getcgkhpllx">
+      <soap:operation soapAction="http://bank.ipc.com/浦发银行-获取批量利息入帐数据" style="document" />
+      <wsdl:input name="浦发银行-获取批量利息入帐数据">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="浦发银行-获取批量利息入帐数据">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Getcgkhzjmc">
+      <soap:operation soapAction="http://bank.ipc.com/浦发银行-获取资金余额明细" style="document" />
+      <wsdl:input name="浦发银行-获取资金余额明细">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="浦发银行-获取资金余额明细">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Getcghzzhzjjs">
+      <soap:operation soapAction="http://bank.ipc.com/浦发银行-存管汇总账户资金交收汇总文件格式" style="document" />
+      <wsdl:input name="浦发银行-存管汇总账户资金交收汇总文件格式">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="浦发银行-存管汇总账户资金交收汇总文件格式">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStrwhere">
+      <soap:operation soapAction="http://bank.ipc.com/浦发银行-获取结算文件需发送数据" style="document" />
+      <wsdl:input name="浦发银行-获取结算文件需发送数据">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="浦发银行-获取结算文件需发送数据">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetYHZZXX">
+      <soap:operation soapAction="http://bank.ipc.com/浦发银行-获取银证转账对账数据" style="document" />
+      <wsdl:input name="浦发银行-获取银证转账对账数据">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="浦发银行-获取银证转账对账数据">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WCQS">
+      <soap:operation soapAction="http://bank.ipc.com/浦发银行-日终闭市清算" style="document" />
+      <wsdl:input name="浦发银行-日终闭市清算">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="浦发银行-日终闭市清算">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PingAn_Sign">
+      <soap:operation soapAction="http://bank.ipc.com/平安银行-签到签退" style="document" />
+      <wsdl:input name="平安银行-签到签退">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="平安银行-签到签退">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PingAn_GetCustId">
+      <soap:operation soapAction="http://bank.ipc.com/平安银行-获取客户编号" style="document" />
+      <wsdl:input name="平安银行-获取客户编号">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="平安银行-获取客户编号">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PingAn_AcctAndMnyMatch">
+      <soap:operation soapAction="http://bank.ipc.com/平安银行-开销户流水匹配" style="document" />
+      <wsdl:input name="平安银行-开销户流水匹配">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="平安银行-开销户流水匹配">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PingAn_DataMatch">
+      <soap:operation soapAction="http://bank.ipc.com/平安银行-对账数据处理" style="document" />
+      <wsdl:input name="平安银行-对账数据处理">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="平安银行-对账数据处理">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPingAnQSDsData">
+      <soap:operation soapAction="http://bank.ipc.com/平安银行-获取清算数据" style="document" />
+      <wsdl:input name="平安银行-获取清算数据">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="平安银行-获取清算数据">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PingAn_RunQingSuan">
+      <soap:operation soapAction="http://bank.ipc.com/平安银行-发起清算请求" style="document" />
+      <wsdl:input name="平安银行-发起清算请求">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="平安银行-发起清算请求">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PingAn_BankStateQuery">
+      <soap:operation soapAction="http://bank.ipc.com/平安银行-查询银行清算进度" style="document" />
+      <wsdl:input name="平安银行-查询银行清算进度">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="平安银行-查询银行清算进度">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="bankSoap12" type="tns:bankSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="onlinetest">
+      <soap12:operation soapAction="http://bank.ipc.com/onlinetest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DsSendQianYue">
+      <soap12:operation soapAction="http://bank.ipc.com/多银行框架-客户预制定签约" style="document" />
+      <wsdl:input name="多银行框架-客户预制定签约">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="多银行框架-客户预制定签约">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TransferAccounts">
+      <soap12:operation soapAction="http://bank.ipc.com/多银行框架-券商发起资金转账" style="document" />
+      <wsdl:input name="多银行框架-券商发起资金转账">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="多银行框架-券商发起资金转账">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CompareUInfo">
+      <soap12:operation soapAction="http://bank.ipc.com/多银行框架-银行发起客户签约" style="document" />
+      <wsdl:input name="多银行框架-银行发起客户签约">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="多银行框架-银行发起客户签约">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUMoneyByBANK">
+      <soap12:operation soapAction="http://bank.ipc.com/多银行框架-银行查客户余额" style="document" />
+      <wsdl:input name="多银行框架-银行查客户余额">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="多银行框架-银行查客户余额">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BankToS">
+      <soap12:operation soapAction="http://bank.ipc.com/多银行框架-银行发起银转商" style="document" />
+      <wsdl:input name="多银行框架-银行发起银转商">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="多银行框架-银行发起银转商">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SToBank">
+      <soap12:operation soapAction="http://bank.ipc.com/多银行框架-银行发起商转银" style="document" />
+      <wsdl:input name="多银行框架-银行发起商转银">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="多银行框架-银行发起商转银">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BankRequest_UpdateBankAccount">
+      <soap12:operation soapAction="http://bank.ipc.com/多银行框架-银行发起变更银行账户" style="document" />
+      <wsdl:input name="多银行框架-银行发起变更银行账户">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="多银行框架-银行发起变更银行账户">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SRequest_UpdateBankAccount">
+      <soap12:operation soapAction="http://bank.ipc.com/多银行框架-券商发起变更银行账户" style="document" />
+      <wsdl:input name="多银行框架-券商发起变更银行账户">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="多银行框架-券商发起变更银行账户">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CSToBank">
+      <soap12:operation soapAction="http://bank.ipc.com/多银行框架-监控冲商转银" style="document" />
+      <wsdl:input name="多银行框架-监控冲商转银">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="多银行框架-监控冲商转银">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CBankToS">
+      <soap12:operation soapAction="http://bank.ipc.com/多银行框架-监控冲银转商" style="document" />
+      <wsdl:input name="多银行框架-监控冲银转商">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="多银行框架-监控冲银转商">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dsishav">
+      <soap12:operation soapAction="http://bank.ipc.com/浦发银行-闭市时间外是否存在数据" style="document" />
+      <wsdl:input name="浦发银行-闭市时间外是否存在数据">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="浦发银行-闭市时间外是否存在数据">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Getcgkhjyzijefile">
+      <soap12:operation soapAction="http://bank.ipc.com/浦发银行-获取交易资金净额清算数据" style="document" />
+      <wsdl:input name="浦发银行-获取交易资金净额清算数据">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="浦发银行-获取交易资金净额清算数据">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Getcgkhpllx">
+      <soap12:operation soapAction="http://bank.ipc.com/浦发银行-获取批量利息入帐数据" style="document" />
+      <wsdl:input name="浦发银行-获取批量利息入帐数据">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="浦发银行-获取批量利息入帐数据">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Getcgkhzjmc">
+      <soap12:operation soapAction="http://bank.ipc.com/浦发银行-获取资金余额明细" style="document" />
+      <wsdl:input name="浦发银行-获取资金余额明细">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="浦发银行-获取资金余额明细">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Getcghzzhzjjs">
+      <soap12:operation soapAction="http://bank.ipc.com/浦发银行-存管汇总账户资金交收汇总文件格式" style="document" />
+      <wsdl:input name="浦发银行-存管汇总账户资金交收汇总文件格式">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="浦发银行-存管汇总账户资金交收汇总文件格式">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStrwhere">
+      <soap12:operation soapAction="http://bank.ipc.com/浦发银行-获取结算文件需发送数据" style="document" />
+      <wsdl:input name="浦发银行-获取结算文件需发送数据">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="浦发银行-获取结算文件需发送数据">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetYHZZXX">
+      <soap12:operation soapAction="http://bank.ipc.com/浦发银行-获取银证转账对账数据" style="document" />
+      <wsdl:input name="浦发银行-获取银证转账对账数据">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="浦发银行-获取银证转账对账数据">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WCQS">
+      <soap12:operation soapAction="http://bank.ipc.com/浦发银行-日终闭市清算" style="document" />
+      <wsdl:input name="浦发银行-日终闭市清算">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="浦发银行-日终闭市清算">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PingAn_Sign">
+      <soap12:operation soapAction="http://bank.ipc.com/平安银行-签到签退" style="document" />
+      <wsdl:input name="平安银行-签到签退">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="平安银行-签到签退">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PingAn_GetCustId">
+      <soap12:operation soapAction="http://bank.ipc.com/平安银行-获取客户编号" style="document" />
+      <wsdl:input name="平安银行-获取客户编号">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="平安银行-获取客户编号">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PingAn_AcctAndMnyMatch">
+      <soap12:operation soapAction="http://bank.ipc.com/平安银行-开销户流水匹配" style="document" />
+      <wsdl:input name="平安银行-开销户流水匹配">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="平安银行-开销户流水匹配">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PingAn_DataMatch">
+      <soap12:operation soapAction="http://bank.ipc.com/平安银行-对账数据处理" style="document" />
+      <wsdl:input name="平安银行-对账数据处理">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="平安银行-对账数据处理">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPingAnQSDsData">
+      <soap12:operation soapAction="http://bank.ipc.com/平安银行-获取清算数据" style="document" />
+      <wsdl:input name="平安银行-获取清算数据">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="平安银行-获取清算数据">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PingAn_RunQingSuan">
+      <soap12:operation soapAction="http://bank.ipc.com/平安银行-发起清算请求" style="document" />
+      <wsdl:input name="平安银行-发起清算请求">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="平安银行-发起清算请求">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PingAn_BankStateQuery">
+      <soap12:operation soapAction="http://bank.ipc.com/平安银行-查询银行清算进度" style="document" />
+      <wsdl:input name="平安银行-查询银行清算进度">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="平安银行-查询银行清算进度">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="bank">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">V1.00-&gt;银行合作中心业务类接口</wsdl:documentation>
+    <wsdl:port name="bankSoap" binding="tns:bankSoap">
+      <soap:address location="http://bank.ipc.com/bank.asmx" />
+    </wsdl:port>
+    <wsdl:port name="bankSoap12" binding="tns:bankSoap12">
+      <soap12:address location="http://bank.ipc.com/bank.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

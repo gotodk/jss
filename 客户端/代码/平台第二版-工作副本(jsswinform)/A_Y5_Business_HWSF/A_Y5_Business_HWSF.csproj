@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C3D27094-2BB3-4AF8-B005-9DDACC5CC155}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>请自行修改命名空间</RootNamespace>
+    <AssemblyName>Y5_Business_HWSF</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DZGHHT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DZGHHT.designer.cs">
+      <DependentUpon>DZGHHT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FHDDY.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FHDDY.designer.cs">
+      <DependentUpon>FHDDY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HWQSFBinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HWQSFBinfo.designer.cs">
+      <DependentUpon>HWQSFBinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jhjx_hwqsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jhjx_hwqsForm.designer.cs">
+      <DependentUpon>jhjx_hwqsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jhjx_hwqswtclForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jhjx_hwqswtclForm.designer.cs">
+      <DependentUpon>jhjx_hwqswtclForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LRBFBZ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LRBFBZ.designer.cs">
+      <DependentUpon>LRBFBZ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LRFHXX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LRFHXX.designer.cs">
+      <DependentUpon>LRFHXX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LRFPXX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LRFPXX.designer.cs">
+      <DependentUpon>LRFPXX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SCFHD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SCFHD.designer.cs">
+      <DependentUpon>SCFHD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="THDDY.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="THDDY.designer.cs">
+      <DependentUpon>THDDY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tihuodanPutIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tihuodanPutIn.designer.cs">
+      <DependentUpon>tihuodanPutIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TQBuyWYYSH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TQBuyWYYSH.designer.cs">
+      <DependentUpon>TQBuyWYYSH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucHWFC_C.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucHWFC_C.designer.cs">
+      <DependentUpon>ucHWFC_C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucHWQS_B.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucHWQS_B.designer.cs">
+      <DependentUpon>ucHWQS_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucHWQS_C.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucHWQS_C.designer.cs">
+      <DependentUpon>ucHWQS_C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucHWSFGK_C.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucHWSFGK_C.designer.cs">
+      <DependentUpon>ucHWSFGK_C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucLRFHXX_B.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucLRFHXX_B.designer.cs">
+      <DependentUpon>ucLRFHXX_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucSCFHD_C.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucSCFHD_C.designer.cs">
+      <DependentUpon>ucSCFHD_C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucTQMJQS_B.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucTQMJQS_B.designer.cs">
+      <DependentUpon>ucTQMJQS_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucWTYCL_B.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucWTYCL_B.designer.cs">
+      <DependentUpon>ucWTYCL_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucWTYCL_C.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucWTYCL_C.designer.cs">
+      <DependentUpon>ucWTYCL_C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucXDTHD_B.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucXDTHD_B.designer.cs">
+      <DependentUpon>ucXDTHD_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucYXDTHD_C.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucYXDTHD_C.designer.cs">
+      <DependentUpon>ucYXDTHD_C.cs</DependentUpon>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DZGHHT.resx">
+      <DependentUpon>DZGHHT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FHDDY.resx">
+      <DependentUpon>FHDDY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HWQSFBinfo.resx">
+      <DependentUpon>HWQSFBinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jhjx_hwqsForm.resx">
+      <DependentUpon>jhjx_hwqsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jhjx_hwqswtclForm.resx">
+      <DependentUpon>jhjx_hwqswtclForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LRBFBZ.resx">
+      <DependentUpon>LRBFBZ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LRFHXX.resx">
+      <DependentUpon>LRFHXX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LRFPXX.resx">
+      <DependentUpon>LRFPXX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SCFHD.resx">
+      <DependentUpon>SCFHD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="THDDY.resx">
+      <DependentUpon>THDDY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tihuodanPutIn.resx">
+      <DependentUpon>tihuodanPutIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TQBuyWYYSH.resx">
+      <DependentUpon>TQBuyWYYSH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucHWFC_C.resx">
+      <DependentUpon>ucHWFC_C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucHWQS_B.resx">
+      <DependentUpon>ucHWQS_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucHWQS_C.resx">
+      <DependentUpon>ucHWQS_C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucHWSFGK_C.resx">
+      <DependentUpon>ucHWSFGK_C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucLRFHXX_B.resx">
+      <DependentUpon>ucLRFHXX_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucSCFHD_C.resx">
+      <DependentUpon>ucSCFHD_C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucTQMJQS_B.resx">
+      <DependentUpon>ucTQMJQS_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucWTYCL_B.resx">
+      <DependentUpon>ucWTYCL_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucWTYCL_C.resx">
+      <DependentUpon>ucWTYCL_C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucXDTHD_B.resx">
+      <DependentUpon>ucXDTHD_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucYXDTHD_C.resx">
+      <DependentUpon>ucYXDTHD_C.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\A_B1_ Variable\A_B1_ Variable.csproj">
+      <Project>{db32a8f2-e323-4bb9-a27d-e9c811ff0eb9}</Project>
+      <Name>A_B1_ Variable</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_B2_Variable\A_B2_Variable.csproj">
+      <Project>{3d121940-630b-4455-93a5-58adfa05e06b}</Project>
+      <Name>A_B2_Variable</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_K1_Controll_D\A_K1_Controll_D.csproj">
+      <Project>{a71e85d3-b3e9-48f9-945e-31cf5f4a4298}</Project>
+      <Name>A_K1_Controll_D</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_K1_Control_G\A_K1_Control_G.csproj">
+      <Project>{c1ecfba3-9903-4b9d-8da1-e4ef6d481947}</Project>
+      <Name>A_K1_Control_G</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_K2_Control_G\A_K2_Control_G.csproj">
+      <Project>{0557a9f7-a746-4ada-9b61-4e5c7c9e7326}</Project>
+      <Name>A_K2_Control_G</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_K3_Conteol_D\A_K3_Conteol_D.csproj">
+      <Project>{8edd3892-a165-4428-b931-ea9bec97c203}</Project>
+      <Name>A_K3_Conteol_D</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_K3_Control_G\A_K3_Control_G.csproj">
+      <Project>{697f2156-027f-4307-b723-71febcfb5e04}</Project>
+      <Name>A_K3_Control_G</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_P1_Support\A_P1_Support.csproj">
+      <Project>{c3220c8d-a8e2-4332-9271-392f7059cfe0}</Project>
+      <Name>A_P1_Support</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_Y2_Business_New\A_Y2_Business_New.csproj">
+      <Project>{14cbb1d0-aa2b-4400-a0fb-a4af20ce71d1}</Project>
+      <Name>A_Y2_Business_New</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_Y3_Business_Muban\A_Y3_Business_Muban.csproj">
+      <Project>{97a81270-e1e6-4cfc-8a89-a5c3b7989d62}</Project>
+      <Name>A_Y3_Business_Muban</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QQ Skins\QQ Skins.csproj">
+      <Project>{ca97a4a8-003a-4215-afd3-9ad4939d48f5}</Project>
+      <Name>QQ Skins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

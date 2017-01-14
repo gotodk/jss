@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="交易网发起出入金流水对账及会员开销户流水匹配_x0023_1006" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="交易网发起出入金流水对账及会员开销户流水匹配_x0023_1006">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FuncFlag" msdata:Caption="功能标志" type="xs:string" default="x" />
+                <xs:element name="SupAcctId" msdata:Caption="资金汇总账号" type="xs:string" default="x" />
+                <xs:element name="BeginDateTime" msdata:Caption="开始时间" type="xs:string" default="x" />
+                <xs:element name="EndDateTime" msdata:Caption="结束时间" type="xs:string" default="x" />
+                <xs:element name="Reserve" msdata:Caption="保留域" type="xs:string" default="" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <交易网发起出入金流水对账及会员开销户流水匹配_x0023_1006>
+    <FuncFlag>x</FuncFlag>
+    <SupAcctId>x</SupAcctId>
+    <BeginDateTime>x</BeginDateTime>
+    <EndDateTime>x</EndDateTime>
+    <Reserve />
+  </交易网发起出入金流水对账及会员开销户流水匹配_x0023_1006>
+</NewDataSet>

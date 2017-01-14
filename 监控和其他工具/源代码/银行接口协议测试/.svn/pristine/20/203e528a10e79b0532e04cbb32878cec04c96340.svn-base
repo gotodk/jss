@@ -1,0 +1,110 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Threading;
+using System.Windows.Forms;
+
+namespace 银行接口协议测试
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //填充传入参数哈希表
+            Hashtable InPutHT = new Hashtable();
+            InPutHT["报文头"] = textBox1.Text;
+            InPutHT["包体1"] = textBox2.Text;
+            InPutHT["包体2"] = textBox3.Text;
+            InPutHT["包体3"] = textBox4.Text;
+
+            InPutHT["接口IP"] = comboBox1.Text;
+            InPutHT["接口端口"] = textBox6.Text;
+
+            InPutHT["编码方式测试"] = comboBox2.Text;
+
+
+            //实例化委托,并参数传递给线程执行类开始执行线程
+            delegateForThread tempDFT = new delegateForThread(ShowThreadResult);
+            银行接口协议测试.ClassSendMsg RCT = new 银行接口协议测试.ClassSendMsg(InPutHT, tempDFT);
+            Thread trd = new Thread(new ThreadStart(RCT.Sendtest));
+            trd.IsBackground = true;
+            trd.Start();
+        }
+
+        //显示线程处理结果的函数(用于处理线程返回数据)
+        private void ShowThreadResult(Hashtable OutPutHT)
+        {
+            try
+            {
+
+                //调用异步委托
+                Invoke(new delegateForThreadShow(ShowThreadResult_Invoke), new Hashtable[] { OutPutHT });
+
+            }
+            catch (Exception ex)
+            {
+                richTextBox1.AppendText("委托回调错误：" + ex.ToString() + "\r\n");
+            }
+        }
+
+        //处理非线程创建的控件
+        private void ShowThreadResult_Invoke(Hashtable OutPutHT)
+        {
+            richTextBox1.AppendText(OutPutHT["测试返回值"].ToString() + "\r\n");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+                        //填充传入参数哈希表
+            Hashtable InPutHT = new Hashtable();
+            InPutHT["接口IP"] = comboBox1.Text;
+            InPutHT["接口端口"] = textBox6.Text;
+            //实例化委托,并参数传递给线程执行类开始执行线程
+            delegateForThread tempDFT = new delegateForThread(ShowThreadResultSSSS);
+            银行接口协议测试.ClassAcceptorMsg RCT = new 银行接口协议测试.ClassAcceptorMsg(InPutHT, tempDFT);
+            Thread trd = new Thread(new ThreadStart(RCT.AcceptorTest));
+            trd.IsBackground = true;
+            trd.Start();
+        }
+
+        //显示线程处理结果的函数(用于处理线程返回数据)
+        private void ShowThreadResultSSSS(Hashtable OutPutHT)
+        {
+            try
+            {
+
+                //调用异步委托
+                Invoke(new delegateForThreadShow(ShowThreadResultSSSS_Invoke), new Hashtable[] { OutPutHT });
+
+            }
+            catch (Exception ex)
+            {
+                richTextBox2.AppendText("委托回调错误：" + ex.ToString() + "\r\n");
+            }
+        }
+
+        //处理非线程创建的控件
+        private void ShowThreadResultSSSS_Invoke(Hashtable OutPutHT)
+        {
+            richTextBox2.AppendText(OutPutHT["测试返回值"].ToString() + "\r\n");
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            string mess = "F028000126005000000000000000";
+            //MessageBox.Show(mess.Substring(4, 5));
+        }
+
+
+
+    }
+}

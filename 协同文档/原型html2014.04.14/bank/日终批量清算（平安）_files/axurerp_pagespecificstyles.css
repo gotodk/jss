@@ -1,0 +1,1010 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../日终批量清算（平安）_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:70px;
+    top:110px;
+    width:300px;
+    height:40px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:306px;
+    height:46px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:296px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2c0 {
+    background-image: url('../日终批量清算（平安）_files/u2c0.png');
+}
+
+.u2c0 {
+    position:absolute;
+    left:210px;
+    top:146px;
+    width:20px;
+    height:54px;
+}
+
+.u3 {
+    position:absolute;
+    left:-50px;
+    top:12px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4 {
+    position:absolute;
+    left:82px;
+    top:38px;
+    width:488px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5_normal {
+    background-image: url('../日终批量清算（平安）_files/u5_normal.png');
+}
+
+.u5_container {
+    position:absolute;
+    left:70px;
+    top:190px;
+    width:300px;
+    height:60px;
+}
+
+#u5_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:306px;
+    height:66px;
+}
+
+.u6 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:296px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7 {
+    position:absolute;
+    left:440px;
+    top:690px;
+    width:740px;
+    height:96px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8_normal {
+    background-image: url('../日终批量清算（平安）_files/u8_normal.png');
+}
+
+.u8_container {
+    position:absolute;
+    left:66px;
+    top:840px;
+    width:307px;
+    height:60px;
+}
+
+#u8_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:313px;
+    height:66px;
+}
+
+.u9 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:303px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10c0 {
+    background-image: url('../日终批量清算（平安）_files/u10c0.png');
+}
+
+.u10c0 {
+    position:absolute;
+    left:214px;
+    top:1016px;
+    width:20px;
+    height:84px;
+}
+
+.u10c1 {
+    background-image: url('../日终批量清算（平安）_files/u10c1.png');
+}
+
+.u10c1 {
+    position:absolute;
+    left:206px;
+    top:1080px;
+    width:28px;
+    height:20px;
+}
+
+.u10c2 {
+    background-image: url('../日终批量清算（平安）_files/u10c2.png');
+}
+
+.u10c2 {
+    position:absolute;
+    left:206px;
+    top:1080px;
+    width:20px;
+    height:24px;
+}
+
+.u11 {
+    position:absolute;
+    left:-50px;
+    top:36px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12_normal {
+    background-image: url('../日终批量清算（平安）_files/u12_normal.png');
+}
+
+.u12_container {
+    position:absolute;
+    left:130px;
+    top:918px;
+    width:188px;
+    height:102px;
+}
+
+#u12_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:194px;
+    height:108px;
+}
+
+.u13 {
+    position:absolute;
+    left:2px;
+    top:27px;
+    width:184px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_normal {
+    background-image: url('../日终批量清算（平安）_files/u14_normal.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:433px;
+    top:957px;
+    width:90px;
+    height:26px;
+}
+
+#u14_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:96px;
+    height:32px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:86px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16c0 {
+    background-image: url('../日终批量清算（平安）_files/u16c0.png');
+}
+
+.u16c0 {
+    position:absolute;
+    left:210px;
+    top:896px;
+    width:20px;
+    height:24px;
+}
+
+.u16c1 {
+    background-image: url('../日终批量清算（平安）_files/u16c1.png');
+}
+
+.u16c1 {
+    position:absolute;
+    left:210px;
+    top:900px;
+    width:24px;
+    height:20px;
+}
+
+.u16c2 {
+    background-image: url('../日终批量清算（平安）_files/u16c2.png');
+}
+
+.u16c2 {
+    position:absolute;
+    left:214px;
+    top:900px;
+    width:20px;
+    height:22px;
+}
+
+.u17 {
+    position:absolute;
+    left:-49px;
+    top:2px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18c0 {
+    background-image: url('../日终批量清算（平安）_files/u18c0.png');
+}
+
+.u18c0 {
+    position:absolute;
+    left:314px;
+    top:959px;
+    width:119px;
+    height:20px;
+}
+
+.u18c1 {
+    background-image: url('../日终批量清算（平安）_files/u18c1.png');
+}
+
+.u18c1 {
+    position:absolute;
+    left:413px;
+    top:959px;
+    width:20px;
+    height:21px;
+}
+
+.u18c2 {
+    background-image: url('../日终批量清算（平安）_files/u18c2.png');
+}
+
+.u18c2 {
+    position:absolute;
+    left:413px;
+    top:960px;
+    width:24px;
+    height:20px;
+}
+
+.u19 {
+    position:absolute;
+    left:8px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20_normal {
+    background-image: url('../日终批量清算（平安）_files/u20_normal.png');
+}
+
+.u20_container {
+    position:absolute;
+    left:70px;
+    top:670px;
+    width:307px;
+    height:110px;
+}
+
+#u20_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:313px;
+    height:116px;
+}
+
+.u21 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:303px;
+    height:80px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22_normal {
+    background-image: url('../日终批量清算（平安）_files/u8_normal.png');
+}
+
+.u22_container {
+    position:absolute;
+    left:63px;
+    top:1100px;
+    width:307px;
+    height:60px;
+}
+
+#u22_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:313px;
+    height:66px;
+}
+
+.u23 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:303px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24c0 {
+    background-image: url('../日终批量清算（平安）_files/u24c0.png');
+}
+
+.u24c0 {
+    position:absolute;
+    left:214px;
+    top:776px;
+    width:20px;
+    height:64px;
+}
+
+.u24c1 {
+    background-image: url('../日终批量清算（平安）_files/u24c1.png');
+}
+
+.u24c1 {
+    position:absolute;
+    left:210px;
+    top:820px;
+    width:24px;
+    height:20px;
+}
+
+.u24c2 {
+    background-image: url('../日终批量清算（平安）_files/u24c2.png');
+}
+
+.u24c2 {
+    position:absolute;
+    left:210px;
+    top:820px;
+    width:20px;
+    height:24px;
+}
+
+.u25 {
+    position:absolute;
+    left:-50px;
+    top:24px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26_normal {
+    background-image: url('../日终批量清算（平安）_files/u26_normal.png');
+}
+
+.u26_container {
+    position:absolute;
+    left:683px;
+    top:408px;
+    width:267px;
+    height:42px;
+}
+
+#u26_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:273px;
+    height:48px;
+}
+
+.u27 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:263px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28_normal {
+    background-image: url('../日终批量清算（平安）_files/u8_normal.png');
+}
+
+.u28_container {
+    position:absolute;
+    left:70px;
+    top:280px;
+    width:307px;
+    height:60px;
+}
+
+#u28_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:313px;
+    height:66px;
+}
+
+.u29 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:303px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30_normal {
+    background-image: url('../日终批量清算（平安）_files/u30_normal.png');
+}
+
+.u30_container {
+    position:absolute;
+    left:433px;
+    top:400px;
+    width:240px;
+    height:50px;
+}
+
+#u30_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:246px;
+    height:56px;
+}
+
+.u31 {
+    position:absolute;
+    left:2px;
+    top:9px;
+    width:236px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32c0 {
+    background-image: url('../日终批量清算（平安）_files/u32c0.png');
+}
+
+.u32c0 {
+    position:absolute;
+    left:210px;
+    top:246px;
+    width:20px;
+    height:34px;
+}
+
+.u32c1 {
+    background-image: url('../日终批量清算（平安）_files/u32c1.png');
+}
+
+.u32c1 {
+    position:absolute;
+    left:210px;
+    top:260px;
+    width:24px;
+    height:20px;
+}
+
+.u32c2 {
+    background-image: url('../日终批量清算（平安）_files/u32c2.png');
+}
+
+.u32c2 {
+    position:absolute;
+    left:214px;
+    top:260px;
+    width:20px;
+    height:24px;
+}
+
+.u33 {
+    position:absolute;
+    left:-50px;
+    top:9px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34c0 {
+    background-image: url('../日终批量清算（平安）_files/u34c0.png');
+}
+
+.u34c0 {
+    position:absolute;
+    left:214px;
+    top:336px;
+    width:20px;
+    height:34px;
+}
+
+.u34c1 {
+    background-image: url('../日终批量清算（平安）_files/u34c1.png');
+}
+
+.u34c1 {
+    position:absolute;
+    left:210px;
+    top:350px;
+    width:24px;
+    height:20px;
+}
+
+.u34c2 {
+    background-image: url('../日终批量清算（平安）_files/u34c2.png');
+}
+
+.u34c2 {
+    position:absolute;
+    left:210px;
+    top:350px;
+    width:20px;
+    height:24px;
+}
+
+.u35 {
+    position:absolute;
+    left:-50px;
+    top:9px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36_normal {
+    background-image: url('../日终批量清算（平安）_files/u36_normal.png');
+}
+
+.u36_container {
+    position:absolute;
+    left:114px;
+    top:370px;
+    width:213px;
+    height:110px;
+}
+
+#u36_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:219px;
+    height:116px;
+}
+
+.u37 {
+    position:absolute;
+    left:2px;
+    top:39px;
+    width:209px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u38c0 {
+    background-image: url('../日终批量清算（平安）_files/u38c0.png');
+}
+
+.u38c0 {
+    position:absolute;
+    left:323px;
+    top:415px;
+    width:120px;
+    height:20px;
+}
+
+.u39 {
+    position:absolute;
+    left:3px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40c0 {
+    background-image: url('../日终批量清算（平安）_files/u40c0.png');
+}
+
+.u40c0 {
+    position:absolute;
+    left:543px;
+    top:210px;
+    width:20px;
+    height:194px;
+}
+
+.u40c1 {
+    background-image: url('../日终批量清算（平安）_files/u40c1.png');
+}
+
+.u40c1 {
+    position:absolute;
+    left:366px;
+    top:210px;
+    width:197px;
+    height:20px;
+}
+
+.u41 {
+    position:absolute;
+    left:-52px;
+    top:-196px;
+    width:100px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42_normal {
+    background-image: url('../日终批量清算（平安）_files/u5_normal.png');
+}
+
+.u42_container {
+    position:absolute;
+    left:70px;
+    top:560px;
+    width:300px;
+    height:60px;
+}
+
+#u42_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:306px;
+    height:66px;
+}
+
+.u43 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:296px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u44c0 {
+    background-image: url('../日终批量清算（平安）_files/u44c0.png');
+}
+
+.u44c0 {
+    position:absolute;
+    left:210px;
+    top:476px;
+    width:20px;
+    height:94px;
+}
+
+.u45 {
+    position:absolute;
+    left:-50px;
+    top:32px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u46c0 {
+    background-image: url('../日终批量清算（平安）_files/u46c0.png');
+}
+
+.u46c0 {
+    position:absolute;
+    left:210px;
+    top:616px;
+    width:20px;
+    height:54px;
+}
+
+.u46c1 {
+    background-image: url('../日终批量清算（平安）_files/u46c1.png');
+}
+
+.u46c1 {
+    position:absolute;
+    left:210px;
+    top:650px;
+    width:24px;
+    height:20px;
+}
+
+.u46c2 {
+    background-image: url('../日终批量清算（平安）_files/u46c2.png');
+}
+
+.u46c2 {
+    position:absolute;
+    left:214px;
+    top:650px;
+    width:20px;
+    height:24px;
+}
+
+.u47 {
+    position:absolute;
+    left:-50px;
+    top:19px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48_normal {
+    background-image: url('../日终批量清算（平安）_files/u48_normal.png');
+}
+
+.u48_container {
+    position:absolute;
+    left:70px;
+    top:1240px;
+    width:320px;
+    height:110px;
+}
+
+#u48_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:326px;
+    height:116px;
+}
+
+.u49 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:316px;
+    height:80px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u50c0 {
+    background-image: url('../日终批量清算（平安）_files/u50c0.png');
+}
+
+.u50c0 {
+    position:absolute;
+    left:206px;
+    top:1156px;
+    width:20px;
+    height:84px;
+}
+
+.u50c1 {
+    background-image: url('../日终批量清算（平安）_files/u50c1.png');
+}
+
+.u50c1 {
+    position:absolute;
+    left:206px;
+    top:1220px;
+    width:34px;
+    height:20px;
+}
+
+.u50c2 {
+    background-image: url('../日终批量清算（平安）_files/u50c2.png');
+}
+
+.u50c2 {
+    position:absolute;
+    left:220px;
+    top:1220px;
+    width:20px;
+    height:24px;
+}
+
+.u51 {
+    position:absolute;
+    left:-50px;
+    top:39px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

@@ -1,0 +1,106 @@
+.ig_LucidDreamControl
+{
+	background-color:White;
+	font-size:xx-small;
+	font-family: verdana;
+	border:solid 1px #ABC1DE;
+	cursor:default;
+	color:Black;
+}
+
+
+.ig_LucidDreamItem
+{
+	background-color:White;
+	font-size:10px;
+	font-family: verdana;
+	padding-left:1px;
+}
+
+
+.ig_LucidDreamButton
+{
+	cursor:hand;
+}
+
+
+.ig_LucidDreamButtonHover
+{
+}
+
+
+.ig_LucidDreamButtonPressed
+{
+}
+
+
+.ig_LucidDreamButtonDisabled
+{
+}
+
+
+.ig_LucidDreamHover
+{
+}
+
+
+.ig_LucidDreamSelected
+{
+}
+
+
+.ig_LucidDreamDisabled
+{
+}
+
+
+.ig_LucidDreamHeader
+{
+}
+
+
+.ig_LucidDreamFooter
+{
+}
+
+
+.ig_LucidDreamEditWithButtons
+{
+}
+
+
+.ig_LucidDreamEdit
+{
+}
+
+
+.ig_LucidDreamEditInContainer
+{
+}
+
+
+.ig_LucidDreamAlt
+{
+	border-top:solid 1px #E3EFFF;
+	border-right:solid 0px #FFFFFF;
+	border-bottom:solid 1px #E3EFFF;
+	border-left:solid 0px #FFFFFF;
+}
+
+
+.ig_LucidDreamDropDown
+{
+}
+
+
+.ig_LucidDreamEditSelected
+{
+}
+
+
+Body
+{
+	cursor:default;
+}
+
+

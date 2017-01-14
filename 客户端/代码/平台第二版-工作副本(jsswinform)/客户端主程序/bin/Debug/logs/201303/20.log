@@ -1,0 +1,10 @@
+2013-03-20 11-49-34     ---     委托回调错误：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.SubForm.CenterForm.Buyer.SelectTBWarse.ShowThreadResult_BeginBind(Hashtable returnHT) 位置 f:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\SubForm\CenterForm\Buyer\SelectTBWarse.cs:行号 162
+
+2013-03-20 11-51-00     ---     委托回调错误：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.SubForm.CenterForm.Buyer.SelectTBWarse.ShowThreadResult_BeginBind(Hashtable returnHT) 位置 f:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\SubForm\CenterForm\Buyer\SelectTBWarse.cs:行号 162
+

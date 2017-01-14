@@ -1,0 +1,11 @@
+F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.exe
+F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.pdb
+F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\obj\Debug\交易数据监控.Form1.resources
+F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\obj\Debug\交易数据监控.Properties.Resources.resources
+F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\obj\Debug\交易数据监控.csproj.GenerateResource.Cache
+F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\obj\Debug\交易数据监控.exe
+F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\obj\Debug\交易数据监控.pdb
+F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.exe.config
+F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\FMDBHelperClass.dll
+F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\FMPublicClass.dll
+F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\obj\Debug\交易数据监控.csprojResolveAssemblyReference.cache

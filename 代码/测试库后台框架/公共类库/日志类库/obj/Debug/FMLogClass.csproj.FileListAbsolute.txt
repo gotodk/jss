@@ -1,0 +1,5 @@
+D:\富美集团新框架\公共类库\日志类库\bin\Debug\FMLogClass.XML
+D:\富美集团新框架\公共类库\日志类库\bin\Debug\FMLogClass.dll
+D:\富美集团新框架\公共类库\日志类库\bin\Debug\FMLogClass.pdb
+D:\富美集团新框架\公共类库\日志类库\obj\Debug\FMLogClass.dll
+D:\富美集团新框架\公共类库\日志类库\obj\Debug\FMLogClass.pdb

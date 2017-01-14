@@ -1,0 +1,117 @@
+
+
+
+select 当前交易统计_列分割,当前交易统计_商品种类数,当前交易统计_买家数量,当前交易统计_卖家数量,当前交易统计_预订单金额,
+'当前交易统计_买家区域覆盖率'=convert(varchar(20),ROUND(convert(float,当前交易统计_买家区域量n)/convert(float,区域总量n)*100,2)) + '%',
+'当前交易统计_卖家区域覆盖率'=convert(varchar(20),ROUND(convert(float,当前交易统计_卖家区域量n)/convert(float,区域总量n)*100,2)) + '%',
+今日新增统计_列分割,今日新增统计_商品种类数,今日新增统计_买家数量,今日新增统计_卖家数量,今日新增统计_预订单金额,今日新增统计_定标商品数量,
+今日新增统计_定标金额,今日新增统计_下达提货单金额,
+'今日新增统计_买家区域覆盖率' = convert(varchar(20),ROUND(convert(float,今日新增统计_买家区域量n)/convert(float,区域总量n)*100,2)) + '%',
+'今日新增统计_卖家区域覆盖率' = convert(varchar(20),ROUND(convert(float,今日新增统计_卖家区域量n)/convert(float,区域总量n)*100,2)) + '%',
+今年累计统计_列分割,今年累计统计_商品种类数,今年累计统计_买家数量,今年累计统计_卖家数量,今年累计统计_预订单金额,今年累计统计_定标商品数量,
+今年累计统计_定标金额,今年累计统计_下达提货单金额,
+'今年累计统计_买家区域覆盖率' = convert(varchar(20),ROUND(convert(float,今年累计统计_买家区域量n)/convert(float,区域总量n)*100,2)) + '%',
+'今年累计统计_卖家区域覆盖率' = convert(varchar(20),ROUND(convert(float,今年累计统计_卖家区域量n)/convert(float,区域总量n)*100,2)) + '%' 
+ from (
+select 
+'隐藏数据_列分割' = '隐藏数据',  
+'区域总量n'= isnull((select count(QU.ID) from  AAA_CityList_qu as QU),0),  
+
+'当前交易统计_买家区域量n'= isnull((select count(distinct QQ.I_SSQYQ) from AAA_DLZHXXB as QQ where QQ.J_BUYJSBH in ( select distinct Y.MJJSBH from AAA_YDDXXB as Y where   Y.ZT = '竞标' )),0), 
+ 
+'当前交易统计_卖家区域量n'= isnull((select count(distinct QQ.I_SSQYQ) from AAA_DLZHXXB as QQ where QQ.J_SELJSBH in ( select distinct Y.MJJSBH from AAA_TBD as Y  where  Y.ZT = '竞标' )),0),  
+
+'今日新增统计_买家区域量n'= isnull((select count(distinct QQ.I_SSQYQ) from AAA_DLZHXXB as QQ where QQ.J_BUYJSBH in ( select distinct JSBH from (
+select 'JSBH'=MJJSBH from  AAA_YDDXXB where DateDiff(dd,TJSJ,getdate())=0 
+union all 
+select 'JSBH'=Y_YSYDDMJJSBH from  AAA_ZBDBXXB where DateDiff(dd,Z_ZBSJ,getdate())=0  or DateDiff(dd,Z_DBSJ,getdate())=0 or DateDiff(dd,Z_FBSJ,getdate())=0  )
+as tab )),0), 
+
+'今日新增统计_卖家区域量n'= isnull((select count(distinct QQ.I_SSQYQ) from AAA_DLZHXXB as QQ where QQ.J_SELJSBH in ( select distinct JSBH from (
+select 'JSBH'=MJJSBH from  AAA_TBD where DateDiff(dd,TJSJ,getdate())=0 
+union all 
+select 'JSBH'=T_YSTBDMJJSBH from  AAA_ZBDBXXB where DateDiff(dd,Z_ZBSJ,getdate())=0  or DateDiff(dd,Z_DBSJ,getdate())=0 or DateDiff(dd,Z_FBSJ,getdate())=0  )
+as tab )),0), 
+
+'今年累计统计_买家区域量n'= isnull((select count(distinct QQ.I_SSQYQ) from AAA_DLZHXXB as QQ where QQ.J_BUYJSBH in ( select distinct JSBH from (
+select 'JSBH'=MJJSBH from  AAA_YDDXXB where DateDiff(yy,TJSJ,getdate())=0 
+union all 
+select 'JSBH'=Y_YSYDDMJJSBH from  AAA_ZBDBXXB where DateDiff(yy,Z_ZBSJ,getdate())=0  or DateDiff(yy,Z_DBSJ,getdate())=0 or DateDiff(yy,Z_FBSJ,getdate())=0  )
+as tab )),0), 
+
+'今年累计统计_卖家区域量n'= isnull((select count(distinct QQ.I_SSQYQ) from AAA_DLZHXXB as QQ where QQ.J_SELJSBH in ( select distinct JSBH from (
+select 'JSBH'=MJJSBH from  AAA_TBD where DateDiff(yy,TJSJ,getdate())=0 
+union all 
+select 'JSBH'=T_YSTBDMJJSBH from  AAA_ZBDBXXB where DateDiff(yy,Z_ZBSJ,getdate())=0  or DateDiff(yy,Z_DBSJ,getdate())=0 or DateDiff(yy,Z_FBSJ,getdate())=0  )
+as tab )),0), 
+
+'当前交易统计_列分割' = '当前交易统计',  
+'当前交易统计_商品种类数'= isnull((select count(distinct SPBH) from (
+select 'SPBH'=SPBH from  AAA_TBD where ZT='竞标' 
+union all 
+select 'SPBH'=SPBH from  AAA_YDDXXB where ZT='竞标' 
+ 
+ )
+as tab ),0),  
+'当前交易统计_买家数量' = isnull((select count( distinct MJJSBH) from AAA_YDDXXB where ZT='竞标'),0), 
+'当前交易统计_卖家数量' = isnull((select count( distinct MJJSBH) from AAA_TBD where ZT='竞标'),0),  
+'当前交易统计_预订单金额' = isnull((select sum(NDGJE) from AAA_YDDXXB where ZT='竞标'),0),  
+
+'今日新增统计_列分割' = '今日新增统计',
+'今日新增统计_商品种类数' = isnull((select count(distinct SPBH) from (
+select 'SPBH'=SPBH from  AAA_TBD where DateDiff(dd,TJSJ,getdate())=0 
+union all 
+select 'SPBH'=SPBH from  AAA_YDDXXB where DateDiff(dd,TJSJ,getdate())=0 
+union all 
+select 'SPBH'=Z_SPBH from  AAA_ZBDBXXB where DateDiff(dd,Z_ZBSJ,getdate())=0  or DateDiff(dd,Z_DBSJ,getdate())=0 or DateDiff(dd,Z_FBSJ,getdate())=0  )
+as tab ),0),
+
+'今日新增统计_买家数量' = 
+isnull((select count(distinct JSBH) from (
+select 'JSBH'=MJJSBH from  AAA_YDDXXB where DateDiff(dd,TJSJ,getdate())=0 
+union all 
+select 'JSBH'=Y_YSYDDMJJSBH from  AAA_ZBDBXXB where DateDiff(dd,Z_ZBSJ,getdate())=0  or DateDiff(dd,Z_DBSJ,getdate())=0 or DateDiff(dd,Z_FBSJ,getdate())=0  )
+as tab ),0),
+
+'今日新增统计_卖家数量' = isnull((select count(distinct JSBH) from (
+select 'JSBH'=MJJSBH from  AAA_TBD where DateDiff(dd,TJSJ,getdate())=0 
+union all 
+select 'JSBH'=T_YSTBDMJJSBH from  AAA_ZBDBXXB where DateDiff(dd,Z_ZBSJ,getdate())=0  or DateDiff(dd,Z_DBSJ,getdate())=0 or DateDiff(dd,Z_FBSJ,getdate())=0  )
+as tab ),0),
+
+'今日新增统计_预订单金额' = isnull((select sum(NDGJE) from AAA_YDDXXB where DateDiff(dd,TJSJ,getdate())=0 ),0),
+'今日新增统计_定标商品数量' = isnull((select count(distinct Z_SPBH) from  AAA_ZBDBXXB where DateDiff(dd,Z_DBSJ,getdate())=0  ),0),
+'今日新增统计_定标金额' = isnull((select sum(Z_ZBJE) from  AAA_ZBDBXXB where DateDiff(dd,Z_DBSJ,getdate())=0  ),0),
+'今日新增统计_下达提货单金额' = isnull((select sum(T_DJHKJE) from  AAA_THDYFHDXXB where DateDiff(dd,T_THDXDSJ,getdate())=0 ),0),
+
+'今年累计统计_列分割' = '今年累计统计',
+'今年累计统计_商品种类数' = isnull((select count(distinct SPBH) from (
+select 'SPBH'=SPBH from  AAA_TBD where DateDiff(yy,TJSJ,getdate())=0 
+union all 
+select 'SPBH'=SPBH from  AAA_YDDXXB where DateDiff(yy,TJSJ,getdate())=0 
+union all 
+select 'SPBH'=Z_SPBH from  AAA_ZBDBXXB where DateDiff(yy,Z_ZBSJ,getdate())=0  or DateDiff(yy,Z_DBSJ,getdate())=0 or DateDiff(yy,Z_FBSJ,getdate())=0  )
+as tab ),0),
+
+'今年累计统计_买家数量' = 
+isnull((select count(distinct JSBH) from (
+select 'JSBH'=MJJSBH from  AAA_YDDXXB where DateDiff(yy,TJSJ,getdate())=0 
+union all 
+select 'JSBH'=Y_YSYDDMJJSBH from  AAA_ZBDBXXB where DateDiff(yy,Z_ZBSJ,getdate())=0  or DateDiff(yy,Z_DBSJ,getdate())=0 or DateDiff(yy,Z_FBSJ,getdate())=0  )
+as tab ),0),
+
+'今年累计统计_卖家数量' = isnull((select count(distinct JSBH) from (
+select 'JSBH'=MJJSBH from  AAA_TBD where DateDiff(yy,TJSJ,getdate())=0 
+union all 
+select 'JSBH'=T_YSTBDMJJSBH from  AAA_ZBDBXXB where DateDiff(yy,Z_ZBSJ,getdate())=0  or DateDiff(yy,Z_DBSJ,getdate())=0 or DateDiff(yy,Z_FBSJ,getdate())=0  )
+as tab ),0),
+'今年累计统计_预订单金额' = isnull((select sum(NDGJE) from AAA_YDDXXB where DateDiff(yy,TJSJ,getdate())=0 ),0),
+'今年累计统计_定标商品数量' = isnull((select count(distinct Z_SPBH) from  AAA_ZBDBXXB where DateDiff(yy,Z_DBSJ,getdate())=0  ),0),
+'今年累计统计_定标金额' = isnull((select sum(Z_ZBJE) from  AAA_ZBDBXXB where DateDiff(yy,Z_DBSJ,getdate())=0  ),0),
+'今年累计统计_下达提货单金额' = isnull((select sum(T_DJHKJE) from  AAA_THDYFHDXXB where DateDiff(yy,T_THDXDSJ,getdate())=0 ),0)
+
+) as tabtop
+
+
+
+

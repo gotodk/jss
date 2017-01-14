@@ -1,0 +1,247 @@
+DIV{ font-size:12px;
+     
+     }
+BODY 
+{
+	FONT-SIZE: 12px;
+	margin: 0px;
+
+ scrollbar-highlight-color: #ACD373; scrollbar-shadow-color: #ACD373; scrollbar-arrow-color: #ACD373; scrollbar-face-color: #FFFFFF; scrollbar-3dlight-color: #FFFFFF; scrollbar-darkshadow-color: #FFFFFF; scrollbar-track-color: #FFFFFF;
+
+}
+TH {FONT-SIZE: 12px;}
+TD {FONT-SIZE: 12px;}
+
+A img{border:none}
+
+.links 
+{
+	color: #000000;
+	text-decoration: underline;
+}
+.news 
+{
+	font-size: 14px;
+	line-height: 150%;
+	color: #333333;
+}
+.input1 
+{
+	BACKGROUND-COLOR: transparent; 
+	BORDER-BOTTOM: #B3B3B3 1px solid; 
+	BORDER-LEFT: transparent 0px solid; 
+	BORDER-RIGHT: transparent 0px solid; 
+	BORDER-TOP: #D8D8D8 0px solid; COLOR: #666666;
+	margin-bottom:0px;  
+}
+.login_table_text1_input{
+	width:172px;
+	border:#0a8fda 1px solid;
+	background-color:#E8F9FF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	padding:5px 3px
+}
+
+.inputSubTable 
+{
+	BACKGROUND-COLOR: transparent; 
+	BORDER-BOTTOM: #B3B3B3 1px solid; 
+	BORDER-LEFT: transparent 0px solid; 
+	BORDER-RIGHT: transparent 0px solid; 
+	BORDER-TOP: #D8D8D8 0px solid; COLOR: #666666;
+	margin-bottom:0px;
+	height:20px;
+	width: 70%;
+}
+   
+.inputTextArea 
+{
+	height:100px;
+	width:98%; 
+}
+
+.Title
+{
+    color:#FF6600; 
+    font-size:14px;
+}
+.Caption
+{
+		font: normal 14px 宋体;
+		font-weight:bold; 
+		color: #000000;
+}
+.button, button 
+{
+	border-left: 1px solid #D5D5D5;
+	border-top: 1px solid #D5D5D5;
+	border-bottom: 1px solid #C2C2C2;
+	border-right: 1px solid #C2C2C2;
+	font-family: 宋体;
+		font-size:13px;
+		font-weight:bold;
+		color:#464646;
+	background-image:url('../Images/buttonBg.gif');
+	background-position:50%  center;
+		background-color:white;
+		width:50px;
+     	 cursor: hand;
+     	 height:25px;
+	}
+
+ .btn{background-color:transparent;border: 0px;font-size: 12px; color:#3A5EB6}
+ .btn a:hover{color:#EA5503;text-decoration:underline; cursor: hand;}
+ .btnbk{border:1px solid #DEDFE0;line-height:18px; height:20px;    margin-top: 0px; cursor: hand;}
+ .btnhui{border:1px solid #AAACAF;height:20px;  cursor: hand;}
+ .btnhong{background-color:transparent;border: 0px;font-size: 12px; color:red}
+  .btnzc{background-color:transparent;border: 0px;font-size: 12px;}
+ .btnhong a:hover{color:#EA5503;text-decoration:underline; cursor: hand;}
+ 
+.buttonlong, buttonlong 
+{
+	border-left: 1px solid #D5D5D5;
+	border-top: 1px solid #D5D5D5;
+	border-bottom: 1px solid #C2C2C2;
+	border-right: 1px solid #C2C2C2;
+	font-family: 宋体;
+		font-size:12px;
+		font-weight:bold;
+		color:#666666;
+	background-image:url('../Images/buttonBg.gif');
+	background-position:50% top;
+		background-color:white;
+		width:80px;
+		vertical-align:middle;
+     	text-align :center; 
+}
+.largebutton
+{
+	border:1px solid #D5D5D5;
+	border-bottom: 1px solid #C2C2C2;
+	border-right: 1px solid #C2C2C2;
+	font-family: 宋体;
+	font-size:12px;
+	font-weight:bold;
+	color:#666666;
+	background-image:url(../Images/buttonBg.gif);
+	background-position:top;
+	background-color:white;
+	height:20px;
+	width:60px;
+	vertical-align:middle;
+     text-align :center; 
+}
+
+.smallbutton
+{
+	border:1px solid #D5D5D5;
+	border-bottom: 1px solid #C2C2C2;
+	border-right: 1px solid #C2C2C2;
+	font-family: 宋体;
+	font-size:12px;
+	font-weight:bold;
+	color:#666666;
+	background-image:url(../Images/buttonBg.gif);
+	background-position:top;
+	background-color:white;
+	height:20px;
+	width:20px;
+	vertical-align:middle;
+     text-align :center; 
+}
+
+.GridHeader {
+	font-family: 宋体;
+	font: bold 12px;
+	background: white url('../images/GridHeaderBg.gif') repeat-x bottom;
+	border-top: solid 1px #e5e5e5;
+	border-bottom: solid 1px #bbb;
+	padding-left: 6px; /*more than items to compensate for item borders!*/
+
+}
+.GridPager 
+{
+	background: white;
+	border: solid 1px white;
+	border-top: 1px solid #c7c7c7;
+	height: 21px;
+	color: #000000;
+	font-size:14px;    
+}
+.FormView
+{
+	background: #f7f7f7;
+	border: solid 1px #e5e5e5;
+	border-right: solid 2px #e5e5e5;
+	border-top: 1px;
+	font: normal 12px 宋体;
+}
+.TableTitle
+{
+	color: #2D6C98;
+	font:bold;
+	text-align:center;
+	}
+
+.SubTitle
+{
+	color: #2D6C98;
+	font:bold;	
+	}
+
+.deleteImage input
+{
+    cursor:hand;
+}
+
+.tdImage
+{
+	text-align:center;
+	background-image: url(../images/jpg/headerbg.jpg);
+}
+
+.tdDate
+{
+	text-align:center;
+	font-size:14px;
+	color:Black;
+}
+
+.tdLeft
+{
+	width:20%;
+	color:Black;
+	text-align:right;
+	font-size:14px;	
+}
+
+.tdRight
+{
+	width:30%;
+	color:Green;
+	text-align:left;
+	font-size:14px;	
+}
+.FormView1
+{
+	background: #f7f7f7;
+	border-right: #999999 2px solid;
+	border-top: #999999 2px solid;
+	font: 15px/20pt 宋体;
+	border-left: #999999 2px solid;
+	border-bottom: #999999 2px solid;
+}
+.FormView2
+{
+	background: #f7f7f7;
+	font: 15px/20pt 宋体;
+	border:1px solid:
+	border-collapse: collapse;
+}
+
+
+a:link {color:#069; text-decoration:none; font-size:9pt;}     /* 未被访问的链接 红色 没有下划线*/
+a:visited {color:#069; text-decoration:none; font-size:9pt;}  /* 已被访问过的链接 绿色 没有下划线*/
+a:hover {color:#F30;text-decoration:underline; font-size:9pt;}   /* 鼠标悬浮在上的链接 橙色 有下划线 下划线为underline 上划线为overline 无下划线为none*/
+a:active {color:#069; text-decoration:none; font-size:9pt;}   /* 鼠标点中激活链接 蓝色 没有下划线*/

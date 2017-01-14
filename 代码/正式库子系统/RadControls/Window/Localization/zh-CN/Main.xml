@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <string id="Maximize">最大化</string> 
+  <string id="Minimize">最小化</string> 
+  <string id="Close">关闭</string> 
+  <string id="Restore">恢复</string> 
+  <string id="PinOff">锁定</string> 
+  <string id="PinOn">解锁</string> 
+  <string id="ConfirmMessage">是否确定?</string> 
+  <string id="PromptMessage">输入数值:</string> 
+  <string id="Ok">确实</string> 
+  <string id="Cancel">取消</string> 
+  <string id="Yes">是</string> 
+  <string id="No">否</string> 
+  <string id="Loading"> 读取中...</string> 
+  <string id="Reload">刷新</string> 
+  <string id="Alert">警告</string> 
+  <string id="Prompt">提示</string> 
+  <string id="Confirm">确认</string> 
+</localization>

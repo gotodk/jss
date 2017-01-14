@@ -1,0 +1,84 @@
+2014-11-01 00-39-59     ---     调用webservices错误,方法名：[重新生成大盘监控]：System.IO.FileNotFoundException: 未能加载文件或程序集“ServiceStack.Redis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。
+文件名:“ServiceStack.Redis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS)
+   在 FMipcClass.IPC.Call(String FF_yewuname, Object[] objCS)
+   在 交易数据监控.WebServicesCenter2013.RunAtServicesBase(String MethodName, Object[] CSarr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 122
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+
+2014-11-01 00-42-37     ---     调用webservices错误,方法名：[重新生成大盘监控]：System.IO.FileNotFoundException: 未能加载文件或程序集“ServiceStack.Redis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。
+文件名:“ServiceStack.Redis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS)
+   在 FMipcClass.IPC.Call(String FF_yewuname, Object[] objCS)
+   在 交易数据监控.WebServicesCenter2013.RunAtServicesBase(String MethodName, Object[] CSarr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 122
+
+=== 预绑定状态信息 ===
+日志: DisplayName = ServiceStack.Redis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+ (Fully-specified)
+日志: Appbase = file:///F:/富美开发项目/2011工作副本/平台各监控/交易数据监控/bin/Debug/
+日志: 初始 PrivatePath = NULL
+调用程序集: FMipcClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null。
+===
+日志: 此绑定从 default 加载上下文开始。
+日志: 正在使用应用程序配置文件: F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config
+日志: 使用主机配置文件: 
+日志: 使用 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\config\machine.config 的计算机配置文件。
+日志: 此时没有为引用应用策略(私有、自定义、分部或基于位置的程序集绑定)。
+日志: 尝试下载新的 URL file:///F:/富美开发项目/2011工作副本/平台各监控/交易数据监控/bin/Debug/ServiceStack.Redis.DLL。
+日志: 尝试下载新的 URL file:///F:/富美开发项目/2011工作副本/平台各监控/交易数据监控/bin/Debug/ServiceStack.Redis/ServiceStack.Redis.DLL。
+日志: 尝试下载新的 URL file:///F:/富美开发项目/2011工作副本/平台各监控/交易数据监控/bin/Debug/ServiceStack.Redis.EXE。
+日志: 尝试下载新的 URL file:///F:/富美开发项目/2011工作副本/平台各监控/交易数据监控/bin/Debug/ServiceStack.Redis/ServiceStack.Redis.EXE。
+
+
+2014-11-01 00-49-03     ---     调用webservices错误,方法名：[重新生成大盘监控]：System.IO.FileNotFoundException: 未能加载文件或程序集“ServiceStack.Redis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。
+文件名:“ServiceStack.Redis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS)
+   在 FMipcClass.IPC.Call(String FF_yewuname, Object[] objCS)
+   在 交易数据监控.WebServicesCenter2013.RunAtServicesBase(String MethodName, Object[] CSarr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 122
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+
+2014-11-01 00-51-32     ---     调用webservices错误,方法名：[重新生成大盘监控]：System.IO.FileNotFoundException: 未能加载文件或程序集“ServiceStack.Redis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。
+文件名:“ServiceStack.Redis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS)
+   在 FMipcClass.IPC.Call(String FF_yewuname, Object[] objCS)
+   在 交易数据监控.WebServicesCenter2013.RunAtServicesBase(String MethodName, Object[] CSarr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 122
+
+=== 预绑定状态信息 ===
+日志: DisplayName = ServiceStack.Redis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+ (Fully-specified)
+日志: Appbase = file:///F:/富美开发项目/2011工作副本/平台各监控/交易数据监控/bin/Debug/
+日志: 初始 PrivatePath = NULL
+调用程序集: FMipcClass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null。
+===
+日志: 此绑定从 default 加载上下文开始。
+日志: 正在使用应用程序配置文件: F:\富美开发项目\2011工作副本\平台各监控\交易数据监控\bin\Debug\交易数据监控.vshost.exe.Config
+日志: 使用主机配置文件: 
+日志: 使用 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\config\machine.config 的计算机配置文件。
+日志: 此时没有为引用应用策略(私有、自定义、分部或基于位置的程序集绑定)。
+日志: 尝试下载新的 URL file:///F:/富美开发项目/2011工作副本/平台各监控/交易数据监控/bin/Debug/ServiceStack.Redis.DLL。
+日志: 尝试下载新的 URL file:///F:/富美开发项目/2011工作副本/平台各监控/交易数据监控/bin/Debug/ServiceStack.Redis/ServiceStack.Redis.DLL。
+日志: 尝试下载新的 URL file:///F:/富美开发项目/2011工作副本/平台各监控/交易数据监控/bin/Debug/ServiceStack.Redis.EXE。
+日志: 尝试下载新的 URL file:///F:/富美开发项目/2011工作副本/平台各监控/交易数据监控/bin/Debug/ServiceStack.Redis/ServiceStack.Redis.EXE。
+
+
+2014-11-01 00-54-20     ---     调用webservices错误,方法名：[重新生成大盘监控]：System.IO.FileNotFoundException: 未能加载文件或程序集“ServiceStack.Redis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。
+文件名:“ServiceStack.Redis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS)
+   在 FMipcClass.IPC.Call(String FF_yewuname, Object[] objCS)
+   在 交易数据监控.WebServicesCenter2013.RunAtServicesBase(String MethodName, Object[] CSarr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 122
+
+警告: 程序集绑定日志记录被关闭。
+要启用程序集绑定失败日志记录，请将注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD)设置为 1。
+注意: 会有一些与程序集绑定失败日志记录关联的性能损失。
+要关闭此功能，请移除注册表值 [HKLM\Software\Microsoft\Fusion!EnableLog]。
+
+

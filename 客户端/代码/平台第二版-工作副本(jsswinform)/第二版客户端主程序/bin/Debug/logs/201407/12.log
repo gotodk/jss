@@ -1,0 +1,5 @@
+2014-07-12 11-38-31     ---     调用webservices错误,方法名：[C测试接口存活]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_C(DataSet dsipc, DataTable dtone, String IPCurl, DateTime dtbegin, String FF_yewuname, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 296
+   在 FMipcClass.IPC.Call(String FF_yewuname, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 64
+   在 客户端主程序.NewDataControl.WebServicesCenter2013.RunAtServicesBase(String MethodName, Object[] CSarr) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\WebServicesCenter2013.cs:行号 79
+

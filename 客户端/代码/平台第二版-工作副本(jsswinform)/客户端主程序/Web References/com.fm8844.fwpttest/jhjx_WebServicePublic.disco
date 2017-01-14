@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://fwpttest.fm8844.com/JHJXPT/webservices/jhjx_WebServicePublic.asmx?wsdl" docRef="http://fwpttest.fm8844.com/JHJXPT/webservices/jhjx_WebServicePublic.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://fwpttest.fm8844.com/JHJXPT/webservices/jhjx_WebServicePublic.asmx" xmlns:q1="http://www.fm8844.com/" binding="q1:jhjx_WebServicePublicSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://fwpttest.fm8844.com/JHJXPT/webservices/jhjx_WebServicePublic.asmx" xmlns:q2="http://www.fm8844.com/" binding="q2:jhjx_WebServicePublicSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

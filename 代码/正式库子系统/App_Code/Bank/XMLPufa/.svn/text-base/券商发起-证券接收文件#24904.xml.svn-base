@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="券商发起-证券接收文件_x0023_24904" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="券商发起-证券接收文件_x0023_24904">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FunctionId" msdata:Caption="功能号" type="xs:string" default="24904" />
+                <xs:element name="ExSerial" msdata:Caption="外部流水号" type="xs:string" default="xxxx" />
+                <xs:element name="sOrganId" msdata:Caption="证券公司编号" type="xs:string" default="60050000" />
+                <xs:element name="Files" msdata:Caption="传送文件名" type="xs:string" default="" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <券商发起-证券接收文件_x0023_24904>
+    <FunctionId>24904</FunctionId>
+    <ExSerial>xxxx</ExSerial>
+    <sOrganId>60050000</sOrganId>
+    <Files />
+  </券商发起-证券接收文件_x0023_24904>
+</NewDataSet>

@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Us_Reply_1019" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Us_Reply_1019">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CustAcctId" msdata:Caption="子账户" type="xs:string" default="0" />
+                <xs:element name="ThirdCustId" msdata:Caption="交易网会员代码" type="xs:string" default="0" />
+                <xs:element name="CustName" msdata:Caption="子账户名称" type="xs:string" default="0" />
+                <xs:element name="TotalAmount" msdata:Caption="账户总余额" type="xs:string" default="0" />
+                <xs:element name="TotalBalance" msdata:Caption="账户可用余额" type="xs:string" default="0" />
+                <xs:element name="TotalFreezeAmount" msdata:Caption="账户总冻结金额" type="xs:string" default="0" />
+                <xs:element name="TranDate" msdata:Caption="维护日期" type="xs:string" default="0" />
+                <xs:element name="Reserve" msdata:Caption="保留域" type="xs:string" default="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Us_Reply_1019>
+    <CustAcctId>0</CustAcctId>
+    <ThirdCustId>0</ThirdCustId>
+    <CustName>0</CustName>
+    <TotalAmount>0</TotalAmount>
+    <TotalBalance>0</TotalBalance>
+    <TotalFreezeAmount>0</TotalFreezeAmount>
+    <TranDate>0</TranDate>
+    <Reserve>0</Reserve>
+  </Us_Reply_1019>
+</NewDataSet>

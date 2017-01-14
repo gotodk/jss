@@ -1,0 +1,5 @@
+F:\富美开发项目\2011工作副本\银行接口协议测试\FMBANKpufa\bin\Debug\FMBANKpufa.dll
+F:\富美开发项目\2011工作副本\银行接口协议测试\FMBANKpufa\bin\Debug\FMBANKpufa.pdb
+F:\富美开发项目\2011工作副本\银行接口协议测试\FMBANKpufa\obj\Debug\FMBANKpufa.dll
+F:\富美开发项目\2011工作副本\银行接口协议测试\FMBANKpufa\obj\Debug\FMBANKpufa.pdb
+F:\富美开发项目\2011工作副本\银行接口协议测试\FMBANKpufa\obj\Debug\FMBANKpufa.csprojResolveAssemblyReference.cache

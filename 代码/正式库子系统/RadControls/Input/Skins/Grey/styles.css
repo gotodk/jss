@@ -1,0 +1,187 @@
+/* WRAPPER SETTINGS */
+
+.radInput_Grey
+{
+	font-family: Arial, Verdana, Tahoma, Sans-Serif;
+	font-size: 12px;
+	font-weight: normal;
+	vertical-align: top;
+}
+
+.radInput_Grey table,
+.radInput_Grey table td
+{
+	width: 179px;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.radInput_Grey .inputCell 
+{
+	padding: 0 2px 0 0;	
+	*padding: 0 4px 0 0; /*IE hack*/	
+}
+
+.radInput_Grey .inputCell input,
+.radInput_Grey .inputCell textarea
+{	
+	margin: 0;
+}
+
+.radInput_Grey .imageCell
+{
+	padding-left: 2px;
+}
+
+.radInput_Grey .spinImgCell
+{
+	padding-left: 2px;
+}
+
+/* SPIN BUTTONS */
+
+.radInput_Grey a.spinbutton
+{
+	display: block;
+	text-indent: -9999px;
+	width: 12px;
+	height: 9px; 
+	line-height: 9px;
+	background: transparent url('Img/SpinButtonSprites.gif') no-repeat;
+	font-size: 1px;
+	top: 2px;
+	position: relative;
+	*position: inherit; /*IE fix*/
+	outline: none;	
+}
+
+.radInput_Grey a.spinbutton.up
+{
+	background-position: center 0;
+}
+
+.radInput_Grey a.spinbutton.down
+{
+	background-position: center -9px;
+}
+
+.radInput_Grey a.gobutton
+{
+	display: block;
+	text-indent: -9999px;
+	width: 20px;
+	height: 17px; 
+	line-height: 17px;
+	background: transparent url('Img/button.gif') no-repeat;
+	font-size: 1px;
+	position: relative;
+	*position: inherit; /*IE fix*/
+	outline: none;
+}
+
+/* END OF WRAPPER SETTINGS */
+
+
+
+/* INPUT STYLES SETTINGS */
+.radEnabledCss_Grey 
+{
+	width: 179px;
+	color: #666;
+	border-bottom: solid 1px #cccccc;
+	border-right: solid 1px #cccccc;
+	border-top: solid 1px #e2e2e2;
+	border-left: solid 1px #e2e2e2;
+	background-color: #fefefe;
+}
+
+.radHoverCss_Grey 
+{
+	width: 179px;
+	color: #242424;
+	border-bottom: solid 1px #cccccc;
+	border-right: solid 1px #cccccc;
+	border-top: solid 1px #e2e2e2;
+	border-left: solid 1px #e2e2e2;
+	background-color: #fefefe;
+}
+
+.radDisabledCss_Grey
+{
+	width: 179px;
+	color: #ccc;
+	border: solid 1px #ccc; 
+	background-color: #e3e3e3;
+}
+
+.radDisabledCss_Default a.gobutton,
+.radDisabledCss_Default a.spinbutton
+{
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=30);
+	opacity: .3; 
+	-moz-opacity: .3;
+	cursor: no-drop;
+}
+
+.radEmptyMessageCss_Grey
+{
+	width: 179px;
+	color: #000000;
+	border: solid 1px #c4dbf9; 
+	background-color: #e0eeff;	
+}
+
+
+.radFocusedCss_Grey
+{
+	width: 179px;
+	color: #000000;
+	background-color: #fff;
+	border-bottom: solid 1px #cec494;
+	border-right: solid 1px #cec494;
+	border-top: solid 1px #ebe8d3;
+	border-left: solid 1px #ebe8d3;	
+}
+
+.radNegativeCss_Grey
+{
+	width: 179px;
+	color: #f00;
+	border: solid 1px #ff9900;
+	background-color: #fefefe;
+}
+
+.radInvalidCss_Grey
+{
+	width: 179px;
+	color: #f00;
+	border: solid 1px #e5e5e5;
+	background: #f4f3e7 url('Img/error-sign.gif') no-repeat center right;
+}
+
+.radLabelCss_Grey
+{
+	color: #000; 
+	padding-right: 5px; 
+	white-space:nowrap;
+}
+
+.radHint_Grey 
+{
+	background: infobackground;
+	margin-top: 5px;
+	border: solid 1px black;
+	text-align: left;
+	overflow: auto; 
+}
+
+.radHint_Grey a,
+.radHint_Grey a:visited,
+.radHint_Grey a:hover
+{
+	margin: 2px;
+	color: black;
+	text-decoration: none;
+	font-size: small;
+}

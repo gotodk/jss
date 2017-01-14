@@ -1,0 +1,21 @@
+2014-07-17 09-56-01     ---     调用webservices错误,方法名：[C当前经纪人状态]：找不到匹配关系！
+
+2014-07-17 09-56-01     ---     委托回调错误：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.SRT_checkJJRzt(Hashtable OutPutHT) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\第二版客户端主程序\FormMainPublic.cs:行号 2626
+
+2014-07-17 09-56-07     ---     调用webservices错误,方法名：[C当前经纪人状态]：找不到匹配关系！
+
+2014-07-17 09-56-07     ---     委托回调错误：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.SRT_checkJJRzt(Hashtable OutPutHT) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\第二版客户端主程序\FormMainPublic.cs:行号 2626
+
+2014-07-17 09-56-09     ---     调用webservices错误,方法名：[C当前经纪人状态]：找不到匹配关系！
+
+2014-07-17 09-56-09     ---     委托回调错误：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.SRT_checkJJRzt(Hashtable OutPutHT) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\第二版客户端主程序\FormMainPublic.cs:行号 2626
+

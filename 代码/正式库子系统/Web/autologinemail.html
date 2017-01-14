@@ -1,0 +1,123 @@
+
+
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=gb_2312-80">
+
+<title>电子邮局邮件系统</title>
+
+<SCRIPT LANGUAGE=javascript>
+<!--
+
+function   GetQueryString(name)   
+  {   
+      var   reg   =   new   RegExp("(^|&)"+   name   +"=([^&]*)(&|$)");   
+      var   r   =   window.location.search.substr(1).match(reg);   
+      if   (r!=null)   return   unescape(r[2]);   return   null;   
+  }  
+  
+  function autologin()
+  {
+	  var un = GetQueryString("un");   
+	  var pw = GetQueryString("pw");
+	  if (un == null || pw == null)
+	{
+         return;
+	}
+	else
+	{
+		document.getElementById("usernameshow").value = un;
+	  document.getElementById("pwshow").value = pw;
+	  
+	  gook();
+		}
+	  
+	  }
+function gook() {
+	var S;
+
+	S = document.getElementById("usernameshow");
+	if (S.value == "")
+	{
+		alert("用户名不可为空");
+		S.focus();
+		return ;
+	}
+
+	S = document.getElementById("pwshow");
+	if (S.value == "")
+	{
+		alert("密码不可为空");
+		S.focus();
+		return ;
+	}
+
+
+	S = document.getElementById("usernameshow");
+	document.f1.username.value = S.value;
+
+	S = document.getElementById("showsaveUser");
+	document.f1.saveUser.value = S.checked;
+
+	S = document.getElementById("showSecEx");
+	document.f1.SecEx.value = S.checked;
+
+	S = document.getElementById("pwshow");
+	document.f1.pwhidden.value = encode(S.value, parseInt(document.f1.picnum.value));
+
+	document.f1.submit();
+}
+
+function encode(datastr, bassnum) {
+	var tempstr;
+	var tchar;
+	var newdata = "";
+
+	for (var i = 0; i < datastr.length; i++)
+	{
+		tchar = 65535 + bassnum - datastr.charCodeAt(i);
+		tchar = tchar.toString();
+
+		while(tchar.length < 5)
+		{
+			tchar = "0" + tchar;
+		}
+
+		newdata = newdata + tchar;
+	}
+
+	return newdata;
+}
+//-->
+</SCRIPT>
+<style type="text/css">
+<!--
+.STYLE3 {font-size: 12px}
+-->
+</style>
+</head>
+
+<body onLoad="autologin();">
+<br>
+<br>
+<p align="center">&nbsp;</p>
+<form name="f1" method="post" action="http://192.168.0.4:8080/default_fm.asp">
+<input type="hidden" name="username">
+<input type="hidden" name="pwhidden">
+<input type="hidden" name="picnum" value="9166">
+<input type="hidden" name="saveUser">
+<input type="hidden" name="SecEx">
+</form>
+<br><br>
+<font class="s"><b>用户名:&nbsp;</b></font><input type="text" id="usernameshow" name="usernameshow" maxlength="64" class="textbox"> 
+<br><br>
+<font class="s"><b>密&nbsp;&nbsp;码:&nbsp;</b></font><input type="password" id="pwshow" name="pwshow" maxlength="32" class="textbox">
+<br><br>  
+ <font class="s" color="#000000"><input type="checkbox" id="showSecEx" name="showSecEx">增强安全性&nbsp;&nbsp;
+			<input type="checkbox" id="showsaveUser" name="showsaveUser">记住用户名</font>      
+             <input class="Bsbttn" type=submit value=" 确定 " onClick="javascript:gook()">
+
+</body>
+</html>
+
+

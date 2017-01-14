@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5887373D-9657-4D21-BCF1-26BDB3D9F0D7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>银行监控平安</RootNamespace>
+    <AssemblyName>银行监控平安</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>damotouicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar.Keyboard, Version=11.5.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Schedule, Version=11.5.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.SuperGrid, Version=11.5.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=11.5.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevComponents.Instrumentation, Version=11.5.0.0, Culture=neutral, PublicKeyToken=bc4a9d761ea44ef0, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevComponents.SuperGrid.Design, Version=11.5.0.0, Culture=neutral, PublicKeyToken=1fea3f5d8d482bff, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevComponents.TreeGX, Version=11.5.0.0, Culture=neutral, PublicKeyToken=cfcbd7476b2389d1, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FMipcClass, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\FMipcClass.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="org.in2bits.MyXls, Version=0.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\org.in2bits.MyXls.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CMyXls.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CMyXls.Designer.cs">
+      <DependentUpon>CMyXls.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Core.cs" />
+    <Compile Include="FileFTP.cs" />
+    <Compile Include="FormCenter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCenter.Designer.cs">
+      <DependentUpon>FormCenter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyOpaqueLayer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyXlsClass.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Route.cs" />
+    <Compile Include="RunThread.cs" />
+    <Compile Include="StringOP.cs" />
+    <Compile Include="test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="test.Designer.cs">
+      <DependentUpon>test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="test2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="test2.Designer.cs">
+      <DependentUpon>test2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ceshi.fm8844.com\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\pt.fm8844.com\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="WebServicesCenter.cs" />
+    <EmbeddedResource Include="CMyXls.resx">
+      <DependentUpon>CMyXls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCenter.resx">
+      <DependentUpon>FormCenter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\银行监控平安.FormMain.resources" />
+    <EmbeddedResource Include="obj\Debug\银行监控平安.Properties.Resources.resources" />
+    <EmbeddedResource Include="obj\Debug\银行监控平安.test.resources" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="test.resx">
+      <DependentUpon>test.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="bin\Debug\银行监控平安.vshost.exe.config" />
+    <None Include="bin\Debug\银行监控平安.vshost.exe.manifest" />
+    <None Include="bin\Debug\ForIPC\ForIPC\IPClist.config" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\银行监控平安.csproj.GenerateResource.Cache" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Web References\ceshi.fm8844.com\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ceshi.fm8844.com\ws2013.wsdl" />
+    <None Include="Web References\pt.fm8844.com\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\pt.fm8844.com\ws2013.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\DevComponents.DotNetBar.Keyboard.dll" />
+    <Content Include="bin\Debug\DevComponents.DotNetBar.Keyboard.xml" />
+    <Content Include="bin\Debug\DevComponents.DotNetBar.Schedule.dll" />
+    <Content Include="bin\Debug\DevComponents.DotNetBar.Schedule.xml" />
+    <Content Include="bin\Debug\DevComponents.DotNetBar.SuperGrid.dll" />
+    <Content Include="bin\Debug\DevComponents.DotNetBar.SuperGrid.xml" />
+    <Content Include="bin\Debug\DevComponents.DotNetBar2.dll" />
+    <Content Include="bin\Debug\DevComponents.DotNetBar2.xml" />
+    <Content Include="bin\Debug\DevComponents.Instrumentation.dll" />
+    <Content Include="bin\Debug\DevComponents.Instrumentation.xml" />
+    <Content Include="bin\Debug\DevComponents.SuperGrid.Design.dll" />
+    <Content Include="bin\Debug\DevComponents.TreeGX.dll" />
+    <Content Include="bin\Debug\XML\Pingan_Reply_1003.xml" />
+    <Content Include="bin\Debug\XML\Pingan_Reply_1004.xml" />
+    <Content Include="bin\Debug\XML\Pingan_Reply_1006.xml" />
+    <Content Include="bin\Debug\XML\Pingan_Reply_1010.xml" />
+    <Content Include="bin\Debug\XML\Pingan_Reply_1012.xml" />
+    <Content Include="bin\Debug\XML\Pingan_Reply_1013.xml" />
+    <Content Include="bin\Debug\XML\Pingan_Reply_1014.xml" />
+    <Content Include="bin\Debug\XML\Pingan_Reply_1015.xml" />
+    <Content Include="bin\Debug\XML\Pingan_Reply_1016.xml" />
+    <Content Include="bin\Debug\XML\Pingan_Reply_1020.xml" />
+    <Content Include="bin\Debug\XML\Pingan_Reply_1316.xml" />
+    <Content Include="bin\Debug\XML\Pingan_Reply_1318.xml" />
+    <Content Include="bin\Debug\XML\Pingan_Reply_1330.xml" />
+    <Content Include="bin\Debug\XML\Pingan_Send_1005.xml" />
+    <Content Include="bin\Debug\XML\Pingan_Send_1019.xml" />
+    <Content Include="bin\Debug\XML\Pingan_Send_1301.xml" />
+    <Content Include="bin\Debug\XML\Pingan_Send_1310.xml" />
+    <Content Include="bin\Debug\XML\Pingan_Send_1312.xml" />
+    <Content Include="bin\Debug\XML\Pingan_Send_1315.xml" />
+    <Content Include="bin\Debug\XML\Pingan_Send_1317.xml" />
+    <Content Include="bin\Debug\XML\Us_Reply_1005.xml" />
+    <Content Include="bin\Debug\XML\Us_Reply_1019.xml" />
+    <Content Include="bin\Debug\XML\Us_Reply_1301.xml" />
+    <Content Include="bin\Debug\XML\Us_Reply_1310.xml" />
+    <Content Include="bin\Debug\XML\Us_Reply_1312.xml" />
+    <Content Include="bin\Debug\XML\Us_Reply_1315.xml" />
+    <Content Include="bin\Debug\XML\Us_Reply_1317.xml" />
+    <Content Include="bin\Debug\XML\Us_Send_1003.xml" />
+    <Content Include="bin\Debug\XML\Us_Send_1004.xml" />
+    <Content Include="bin\Debug\XML\Us_Send_1006.xml" />
+    <Content Include="bin\Debug\XML\Us_Send_1010.xml" />
+    <Content Include="bin\Debug\XML\Us_Send_1012.xml" />
+    <Content Include="bin\Debug\XML\Us_Send_1013.xml" />
+    <Content Include="bin\Debug\XML\Us_Send_1014.xml" />
+    <Content Include="bin\Debug\XML\Us_Send_1015.xml" />
+    <Content Include="bin\Debug\XML\Us_Send_1016.xml" />
+    <Content Include="bin\Debug\XML\Us_Send_1020.xml" />
+    <Content Include="bin\Debug\XML\Us_Send_1316.xml" />
+    <Content Include="bin\Debug\XML\Us_Send_1318.xml" />
+    <Content Include="bin\Debug\XML\Us_Send_1330.xml" />
+    <Content Include="bin\Debug\XML\壮哉我大平安报文头.xml" />
+    <Content Include="bin\Debug\银行监控平安.vshost.exe" />
+    <Content Include="damotouicon.ico" />
+    <Content Include="bin\Debug\ForIPC\ForIPC\FMWSDL__fmwscenter__65F4DB002FCEA26F4E24B33CA999E10F.dll" />
+    <Content Include="bin\Debug\ForIPC\ForIPC\FMWSDL__ws2013__82A0CBC2394164F3D0894F9278E19092.dll" />
+    <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Web References.ceshi.fm8844.com.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Web References.pt.fm8844.com.Reference.cs.dll" />
+    <Content Include="obj\Debug\银行监控平安.csproj.FileListAbsolute.txt" />
+    <None Include="Web References\pt.fm8844.com\ws2013.disco" />
+    <None Include="Web References\ceshi.fm8844.com\ws2013.disco" />
+    <None Include="Resources\loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost:1140/%25E6%2597%25A7%25E7%2589%2588%25E5%25BE%2585%25E7%25A7%25BB%25E6%25A4%258D/pingtaiservices/ws2013.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ceshi.fm8844.com\</RelPath>
+      <UpdateFromURL>http://localhost:1140/%25E6%2597%25A7%25E7%2589%2588%25E5%25BE%2585%25E7%25A7%25BB%25E6%25A4%258D/pingtaiservices/ws2013.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>银行监控平安_ceshi_fm8844_com_ws2013</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://pt.fm8844.com/pingtaiservices/ws2013.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\pt.fm8844.com\</RelPath>
+      <UpdateFromURL>http://pt.fm8844.com/pingtaiservices/ws2013.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>银行监控平安_pt_fm8844_com_ws2013</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

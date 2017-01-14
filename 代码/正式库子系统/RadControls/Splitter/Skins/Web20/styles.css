@@ -1,0 +1,518 @@
+/* r.a.d.splitter Web 2.0 skin */
+
+/* border style definition */
+
+.RadSplitter_Web20,
+.RadSplitter_Web20 .resizeBar,
+.RadSplitter_Web20 .slideContainerResize,
+.RadSplitter_Web20 .resizeBarOver,
+.RadSplitter_Web20 .slideContainerResizeOver,
+.RadSplitter_Web20 .resizeBarInactive,
+.RadSplitter_Web20 .resizeBarHorizontal,
+.RadSplitter_Web20 .resizeBarOverHorizontal,
+.RadSplitter_Web20 .slideContainerResizeHorizontal,
+.RadSplitter_Web20 .slideContainerResizeOverHorizontal,
+.RadSplitter_Web20 .resizeBarInactiveHorizontal,
+.RadSplitter_Web20 .pane, 
+.RadSplitter_Web20 .paneHorizontal
+{
+	border: 1px solid #6788be;
+}
+
+.RadSplitter_Web20
+{
+	border-collapse: collapse;
+	border-bottom: 1px; /* half the size of the border, but at least 1px */
+}
+
+/* splitter table wrapper */
+
+.RadSplitter_Web20 .pane,
+.RadSplitter_Web20 .paneHorizontal
+{
+	padding: 0px;
+	text-align:left;
+}
+
+.RadSplitter_Web20 .resizeBar,
+.RadSplitter_Web20 .slideContainerResize,
+.RadSplitter_Web20 .resizeBarOver,
+.RadSplitter_Web20 .slideContainerResizeOver,
+.RadSplitter_Web20 .resizeBarInactive,
+.RadSplitter_Web20 .slideContainerResizeHorizontal,
+.RadSplitter_Web20 .slideContainerResizeOverHorizontal,
+.RadSplitter_Web20 .resizeBarHorizontal,
+.RadSplitter_Web20 .resizeBarOverHorizontal,
+.RadSplitter_Web20 .resizeBarInactiveHorizontal
+{
+	padding: 0px;
+	font-size:1px;
+	text-align:center;
+}
+
+.RadSplitter_Web20 .resizeBar,
+.RadSplitter_Web20 .slideContainerResize,
+.RadSplitter_Web20 .resizeBarOver,
+.RadSplitter_Web20 .slideContainerResizeOver,
+.RadSplitter_Web20 .resizeBarInactive
+{
+	width:6px;	
+	background: #92b4e0;
+	border-right: solid 1px #6788be;
+}
+
+.RadSplitter_Web20 .resizeBarHorizontal,
+.RadSplitter_Web20 .slideContainerResizeHorizontal,
+.RadSplitter_Web20 .resizeBarInactiveHorizontal
+{
+	height:6px;
+	background: #92b4e0;
+	border-bottom: solid 1px #6788be;
+}
+
+.RadSplitter_Web20 .resizeBarOver,
+.RadSplitter_Web20 .slideContainerResizeOverHorizontal,
+.RadSplitter_Web20 .resizeBarOverHorizontal
+{
+	background: #92b4e0;
+	border-right: solid 1px #6788be;
+	border-bottom: solid 1px #6788be;
+}
+/********************* Helper Bar ******************************/
+.RadSplitter_Web20 .helperBarDrag, 
+.RadSplitter_Web20 .helperBarSlideDrag,
+.RadSplitter_Web20 .helperBarSlideDragHorizontal,
+.RadSplitter_Web20 .helperBarDragHorizontal
+{
+	font-size:1px;
+	background-color:#ccc;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60); 
+	opacity: 0.6;
+}
+
+/* resize bar onerror */
+.RadSplitter_Web20 .helperBarError, 
+.RadSplitter_Web20 .helperBarSlideError,
+.RadSplitter_Web20 .helperBarErrorHorizontal
+{
+	font-size:1px;
+	background-color: #f60;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60); 
+	opacity: 0.6;
+}
+
+/********************* Colapse Bar *****************************/
+
+.RadSplitter_Web20 .collapseBar
+{	
+	
+}
+
+.RadSplitter_Web20 .collapseBarHorizontal
+{	
+	
+}
+
+.RadSplitter_Web20 .collapseBarOver
+{
+	
+}
+
+.RadSplitter_Web20 .collapseBarOverHorizontal
+{
+	
+}
+.RadSplitter_Web20 .collapseBarError, 
+.RadSplitter_Web20 .collapseBarErrorHorizontal
+{
+	background-color:red;
+}
+
+
+/***********************************************/
+/*             SLIDE                           */
+/***********************************************/
+
+/************************************************
+	sliding zone 
+*/
+.RadSplitter_Web20 .slideZone
+{
+	background: white;
+}
+
+/************************************************ 
+	pane tabs 
+*/
+.RadSplitter_Web20 .tabsContainer 
+{
+	color: #333;
+}
+
+.RadSplitter_Web20 .paneTabContainer,
+.RadSplitter_Web20 .paneTabContainerExpanded,
+.RadSplitter_Web20 .paneTabContainerDocked,
+.RadSplitter_Web20 .paneTabContainerHorizontal,
+.RadSplitter_Web20 .paneTabContainerExpandedHorizontal,
+.RadSplitter_Web20 .paneTabContainerDockedHorizontal
+{
+	width: 21px;
+	height:auto;
+	overflow:hidden;
+	cursor:default;
+	text-align:center;
+	font: bold 11px Arial, Verdana, Sans-serif;
+	color: #000066;
+	padding: 6px 0px;
+	background: #bccde6 url('Img/paneTabContainer.gif') repeat-y;
+	border-top: solid 1px #6788be;
+	border-bottom: solid 1px #6788be;
+	border-right: solid 1px #6788be;
+}
+
+.RadSplitter_Web20 .paneTabContainerExpanded
+{
+	background: url('Img/paneTabContainerExpanded.gif') repeat-y;
+	color: #000066;
+	font: bold 11px Arial, Verdana, Sans-serif;
+	width: 21px;
+}
+
+.RadSplitter_Web20 .paneTabContainerDocked
+{
+	background: white url('Img/paneTabContainerDocked.gif') repeat-y;
+	border-top: solid 1px #597603;
+	border-bottom: solid 1px #597603;
+	border-right: solid 1px #597603;
+	color: #000;
+}
+
+/***** tabs on right position *******/
+
+
+.RadSplitter_Web20 .tabsContainer.right
+{
+}
+
+
+.RadSplitter_Web20 .right .paneTabContainer,
+.RadSplitter_Web20 .right .paneTabContainerExpanded
+{
+	background: url('Img/paneTabContainerRight.gif') repeat-y;
+	border-top: solid 1px #6788be;
+	border-bottom: solid 1px #6788be;
+	border-left: solid 1px #6788be;
+	border-right: 0px;
+}
+
+.RadSplitter_Web20 .right .paneTabContainerDocked
+{
+	background: url('Img/paneTabContainerDockedRight.gif') repeat-y;
+	border-top: solid 1px #597603;
+	border-bottom: solid 1px #597603;
+	border-left: solid 1px #597603;
+	border-right: 0px;
+}
+
+.RadSplitter_Web20 .right .paneTabContainerExpanded
+{
+	background: #e1e6eb url('Img/paneTabContainerExpandedRight.gif') right;
+}
+
+/*****  -- End tabs on right position *******/
+
+/***** tabs on top position *******/
+
+.RadSplitter_Web20 .tabsContainer .top
+{
+}
+
+
+.RadSplitter_Web20 .top .paneTabContainer,
+.RadSplitter_Web20 .top .paneTabContainerExpanded
+{
+	background: url('Img/paneTabContainerTop.gif') repeat-x top;
+	border-right: solid 1px #6788be;
+	border-left: solid 1px #6788be;
+	border-top: solid 1px #6788be;
+	border-bottom: 0px;											
+	float:left;
+	padding: 0px 6px;
+	height: 21px;
+	width:auto;
+}
+
+.RadSplitter_Web20 .top .paneTabContainerDocked
+{
+	background: url('Img/paneTabContainerDockedTop.gif') repeat-x top;
+	border-right: solid 1px #597603;
+	border-left: solid 1px #597603;
+	border-top: solid 1px #597603;
+	border-bottom: 0px;											
+	float:left;
+	padding: 0px 6px;
+	height: 21px;
+	width:auto;
+}
+
+
+.RadSplitter_Web20 .top .paneTabContainerExpanded
+{
+	background: #e1e6eb url('Img/paneTabContainerExpandedTop.gif') repeat-x top;
+}										
+
+.RadSplitter_Web20 .top .paneTabText
+{
+	writing-mode: lr-tb;/* default */
+}
+
+.RadSplitter_Web20 .top .paneTabIcon
+{
+	display: block; 
+	float: left
+}
+
+/***** tabs on bottom position *******/
+
+.RadSplitter_Web20 .tabsContainer .bottom
+{
+}
+
+.RadSplitter_Web20 .bottom .paneTabContainer,
+.RadSplitter_Web20 .bottom .paneTabContainerExpanded
+{
+	background: url('Img/paneTabContainerBottom.gif') repeat-x top;
+	border-right: solid 1px #6788be;
+	border-left: solid 1px #6788be;
+	border-bottom: solid 1px #6788be;
+	border-top: 0px;											
+	float:left;
+	padding: 0px 6px;
+	height: 21px;
+	width:auto;
+}
+
+.RadSplitter_Web20 .bottom .paneTabContainerDocked
+{
+	background: url('Img/paneTabContainerDockedBottom.gif') repeat-x top;
+	border-right: solid 1px #597603;
+	border-left: solid 1px #597603;
+	border-bottom: solid 1px #597603;
+	border-top: 0px;											
+	float:left;
+	padding: 0px 6px;
+	height: 21px;
+	width:auto;
+}
+
+
+.RadSplitter_Web20 .bottom .paneTabContainerExpanded
+{
+	background: #e1e6eb url('Img/paneTabContainerExpandedBottom.gif') repeat-x top;
+}										
+
+.RadSplitter_Web20 .bottom .paneTabText
+{
+	writing-mode: lr-tb;/* default */
+}
+
+.RadSplitter_Web20 .bottom .paneTabIcon
+{
+	display: block; 
+	float: left
+}
+
+/*****  -- End tabs on bottom position *******/
+
+.RadSplitter_Web20 .paneTabText
+{
+	writing-mode: tb-rl;
+	font:10px Verdana, Arial, Helvetica;
+	white-space:nowrap;
+	margin:2px;
+}
+
+.RadSplitter_Web20 .paneTabIcon
+{
+	margin:2px;
+}
+
+/************************************************ 
+	slide/dock containers 
+*/
+.RadSplitter_Web20 .slideContainer 
+{
+	border:0px solid #e5e5e5;
+	border-collapse:collapse;
+}
+
+.RadSplitter_Web20 .slideContainerDocked
+{
+	
+}
+
+.RadSplitter_Web20 .slideHeader, 
+.RadSplitter_Web20 .slideHeaderDocked
+{
+	background: url('Img/slideHeader.gif') repeat-x;
+	height: 31px;
+}
+
+.RadSplitter_Web20 .slideContainerResize,
+.RadSplitter_Web20 .slideContainerResizeHorizontal,
+.RadSplitter_Web20 .slideContainerResizeOver,
+.RadSplitter_Web20 .slideContainerResizeOverHorizontal
+{ 
+     background: #92b4e0;
+     border-left: solid 1px #1583bd;
+     border-right: solid 1px #7fbbdb;
+     width: 3px;
+}
+
+.RadSplitter_Web20 .slideContainerResize,
+.RadSplitter_Web20 .slideContainerResizeOver
+{
+	border-top:0px;
+	border-bottom:0px;
+}
+
+.RadSplitter_Web20 .slideContainerResizeHorizontal,
+.RadSplitter_Web20 .slideContainerResizeOverHorizontal
+{
+	border-left:0px;
+	border-right:0px;
+}
+
+.RadSplitter_Web20 .slideHeaderIcon,
+.RadSplitter_Web20 .slideHeaderIconOver
+{
+	cursor: hand;
+	cursor: pointer;
+	margin-right: 10px;
+} 
+
+.RadSplitter_Web20 .slideTitle, 
+.RadSplitter_Web20 .slideTitleDocked 
+{
+	font: bold 11px Arial, Verdana, Sans-serif;
+	color: white;
+	white-space:nowrap;
+	margin-left:5px;
+	margin-right:5px;
+	text-align:left;
+	line-height: 31px;
+	cursor: pointer;
+	cursor: default;
+}
+
+.RadSplitter_Web20 .slideTitleContainer
+{
+	background-color:#f7f7f7;
+	background: url(Img/slideHeader.gif) repeat-x;
+}
+
+.RadSplitter_Web20 .slideContent, 
+.RadSplitter_Web20 .slideContentDocked
+{
+	font:10px Verdana;
+	color:black;
+	background-color:white;
+	padding:5px;
+	text-align:left;
+}
+
+.RadSplitter_Web20 .helperBarSlideDrag,
+.RadSplitter_Web20 .slideContainerResize,
+.RadSplitter_Web20 .slideContainerResizeOver
+{
+	cursor:w-resize;
+}
+
+.RadSplitter_Web20 .helperBarSlideDragHorizontal,
+.RadSplitter_Web20 .slideContainerResizeHorizontal,
+.RadSplitter_Web20 .slideContainerResizeOverHorizontal
+{
+	cursor:n-resize;
+}
+
+
+/*****************************************************************************/
+/* these below are not skin/border size specific. Shared between all skins */
+/*****************************************************************************/
+.nested,
+.nestedHorizontal 
+{
+	border-width: 0px;
+}
+
+/************ nested vertical ****************/
+.nested .pane, 
+.nested .resizeBar,
+.nested .resizeBarOver,
+.nested .resizeBarInactive  
+{
+	border-top: 0px;
+	border-bottom: 0px;
+}
+
+.nested .pane.firstItem,
+.nested .resizeBar.firstItem,
+.nested .resizeBarOver.firstItem,
+.nested .resizeBarInactive.firstItem
+{
+	border-left: 0px;
+}
+
+.nested .pane.lastItem, 
+.nested .resizeBar.lastItem,
+.nested .resizeBarOver.lastItem,
+.nested .resizeBarInactive.lastItem
+{
+	border-right: 0px;
+}
+
+.nested .pane.firstItem.lastItem, 
+.nested .resizeBar.firstItem.lastItem,
+.nested .resizeBarOver.firstItem.lastItem,
+.nested .resizeBarInactive.firstItem.lastItem
+{
+	border-left: 0px;
+	border-right: 0px;
+}
+
+/************ nested horizontal ****************/
+
+.nestedHorizontal .paneHorizontal, 
+.nestedHorizontal .resizeBarHorizontal,
+.nestedHorizontal .resizeBarOverHorizontal,
+.nestedHorizontal .resizeBarInactiveHorizontal
+{
+	border-left: 0px;
+	border-right: 0px;
+}
+
+.nestedHorizontal .paneHorizontal.firstItem,
+.nestedHorizontal .resizeBarHorizontal.firstItem,
+.nestedHorizontal .resizeBarOverHorizontal.firstItem,
+.nestedHorizontal .resizeBarInactiveHorizontal.firstItem
+{
+	border-top: 0px;
+}
+
+.nestedHorizontal .paneHorizontal.lastItem, 
+.nestedHorizontal .resizeBarHorizontal.lastItem,
+.nestedHorizontal .resizeBarOverHorizontal.lastItem,
+.nestedHorizontal .resizeBarInactiveHorizontal.lastItem
+{
+	border-bottom: 0px;
+}
+
+.nestedHorizontal .paneHorizontal.firstItem.lastItem, 
+.nestedHorizontal .resizeBarHorizontal.firstItem.lastItem,
+.nestedHorizontal .resizeBarOverHorizontal.firstItem.lastItem,
+.nestedHorizontal .resizeBarInactiveHorizontal.firstItem.lastItem
+{
+	border-top: 0px;
+	border-bottom: 0px;
+}
+

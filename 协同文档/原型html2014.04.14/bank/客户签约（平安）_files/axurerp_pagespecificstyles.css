@@ -1,0 +1,1168 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../客户签约（平安）_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:144px;
+    top:100px;
+    width:306px;
+    height:40px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:312px;
+    height:46px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:302px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../客户签约（平安）_files/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:232px;
+    top:180px;
+    width:129px;
+    height:73px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:135px;
+    height:79px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:20px;
+    width:125px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4c0 {
+    background-image: url('../客户签约（平安）_files/u4c0.png');
+}
+
+.u4c0 {
+    position:absolute;
+    left:357px;
+    top:206px;
+    width:56px;
+    height:20px;
+}
+
+.u4c1 {
+    background-image: url('../客户签约（平安）_files/u4c1.png');
+}
+
+.u4c1 {
+    position:absolute;
+    left:393px;
+    top:206px;
+    width:20px;
+    height:59px;
+}
+
+.u4c2 {
+    background-image: url('../客户签约（平安）_files/u4c2.png');
+}
+
+.u4c2 {
+    position:absolute;
+    left:393px;
+    top:245px;
+    width:24px;
+    height:20px;
+}
+
+.u5 {
+    position:absolute;
+    left:-8px;
+    top:-4px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6c0 {
+    background-image: url('../客户签约（平安）_files/u6c0.png');
+}
+
+.u6c0 {
+    position:absolute;
+    left:238px;
+    top:130px;
+    width:68px;
+    height:20px;
+}
+
+.u6c1 {
+    background-image: url('../客户签约（平安）_files/u6c1.png');
+}
+
+.u6c1 {
+    position:absolute;
+    left:286px;
+    top:130px;
+    width:20px;
+    height:54px;
+}
+
+.u7 {
+    position:absolute;
+    left:-3px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8_normal {
+    background-image: url('../客户签约（平安）_files/u8_normal.png');
+}
+
+.u8_container {
+    position:absolute;
+    left:413px;
+    top:240px;
+    width:97px;
+    height:30px;
+}
+
+#u8_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:103px;
+    height:36px;
+}
+
+.u9 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:93px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10_normal {
+    background-image: url('../客户签约（平安）_files/u10_normal.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:186px;
+    top:530px;
+    width:191px;
+    height:30px;
+}
+
+#u10_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:197px;
+    height:36px;
+}
+
+.u11 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:187px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12c0 {
+    background-image: url('../客户签约（平安）_files/u12c0.png');
+}
+
+.u12c0 {
+    position:absolute;
+    left:286px;
+    top:249px;
+    width:20px;
+    height:91px;
+}
+
+.u12c1 {
+    background-image: url('../客户签约（平安）_files/u12c1.png');
+}
+
+.u12c1 {
+    position:absolute;
+    left:286px;
+    top:320px;
+    width:21px;
+    height:20px;
+}
+
+.u12c2 {
+    background-image: url('../客户签约（平安）_files/u12c2.png');
+}
+
+.u12c2 {
+    position:absolute;
+    left:287px;
+    top:320px;
+    width:20px;
+    height:24px;
+}
+
+.u13 {
+    position:absolute;
+    left:-50px;
+    top:36px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_normal {
+    background-image: url('../客户签约（平安）_files/u0_normal.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:144px;
+    top:340px;
+    width:306px;
+    height:40px;
+}
+
+#u14_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:312px;
+    height:46px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:302px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16_normal {
+    background-image: url('../客户签约（平安）_files/u16_normal.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:232px;
+    top:410px;
+    width:119px;
+    height:70px;
+}
+
+#u16_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:125px;
+    height:76px;
+}
+
+.u17 {
+    position:absolute;
+    left:2px;
+    top:27px;
+    width:115px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18c0 {
+    background-image: url('../客户签约（平安）_files/u18c0.png');
+}
+
+.u18c0 {
+    position:absolute;
+    left:287px;
+    top:376px;
+    width:20px;
+    height:34px;
+}
+
+.u18c1 {
+    background-image: url('../客户签约（平安）_files/u18c1.png');
+}
+
+.u18c1 {
+    position:absolute;
+    left:282px;
+    top:390px;
+    width:25px;
+    height:20px;
+}
+
+.u18c2 {
+    background-image: url('../客户签约（平安）_files/u18c2.png');
+}
+
+.u18c2 {
+    position:absolute;
+    left:282px;
+    top:390px;
+    width:20px;
+    height:24px;
+}
+
+.u19 {
+    position:absolute;
+    left:-50px;
+    top:10px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20c0 {
+    background-image: url('../客户签约（平安）_files/u20c0.png');
+}
+
+.u20c0 {
+    position:absolute;
+    left:282px;
+    top:476px;
+    width:20px;
+    height:54px;
+}
+
+.u20c1 {
+    background-image: url('../客户签约（平安）_files/u20c1.png');
+}
+
+.u20c1 {
+    position:absolute;
+    left:272px;
+    top:510px;
+    width:30px;
+    height:20px;
+}
+
+.u20c2 {
+    background-image: url('../客户签约（平安）_files/u20c2.png');
+}
+
+.u20c2 {
+    position:absolute;
+    left:272px;
+    top:510px;
+    width:20px;
+    height:24px;
+}
+
+.u21 {
+    position:absolute;
+    left:-50px;
+    top:22px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22c0 {
+    background-image: url('../客户签约（平安）_files/u22c0.png');
+}
+
+.u22c0 {
+    position:absolute;
+    left:347px;
+    top:435px;
+    width:41px;
+    height:20px;
+}
+
+.u22c1 {
+    background-image: url('../客户签约（平安）_files/u22c1.png');
+}
+
+.u22c1 {
+    position:absolute;
+    left:368px;
+    top:435px;
+    width:20px;
+    height:60px;
+}
+
+.u22c2 {
+    background-image: url('../客户签约（平安）_files/u22c2.png');
+}
+
+.u22c2 {
+    position:absolute;
+    left:368px;
+    top:475px;
+    width:24px;
+    height:20px;
+}
+
+.u23 {
+    position:absolute;
+    left:-23px;
+    top:4px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24_normal {
+    background-image: url('../客户签约（平安）_files/u24_normal.png');
+}
+
+.u24_container {
+    position:absolute;
+    left:388px;
+    top:470px;
+    width:161px;
+    height:30px;
+}
+
+#u24_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:167px;
+    height:36px;
+}
+
+.u25 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:157px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26 {
+    position:absolute;
+    left:570px;
+    top:200px;
+    width:640px;
+    height:240px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27 {
+    position:absolute;
+    left:144px;
+    top:48px;
+    width:450px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28_normal {
+    background-image: url('../客户签约（平安）_files/u0_normal.png');
+}
+
+.u28_container {
+    position:absolute;
+    left:144px;
+    top:610px;
+    width:306px;
+    height:40px;
+}
+
+#u28_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:312px;
+    height:46px;
+}
+
+.u29 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:302px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30_normal {
+    background-image: url('../客户签约（平安）_files/u30_normal.png');
+}
+
+.u30_container {
+    position:absolute;
+    left:132px;
+    top:840px;
+    width:330px;
+    height:70px;
+}
+
+#u30_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:336px;
+    height:76px;
+}
+
+.u31 {
+    position:absolute;
+    left:2px;
+    top:11px;
+    width:326px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32_normal {
+    background-image: url('../客户签约（平安）_files/u2_normal.png');
+}
+
+.u32_container {
+    position:absolute;
+    left:232px;
+    top:710px;
+    width:129px;
+    height:73px;
+}
+
+#u32_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:135px;
+    height:79px;
+}
+
+.u33 {
+    position:absolute;
+    left:2px;
+    top:28px;
+    width:125px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34_normal {
+    background-image: url('../客户签约（平安）_files/u8_normal.png');
+}
+
+.u34_container {
+    position:absolute;
+    left:420px;
+    top:720px;
+    width:97px;
+    height:30px;
+}
+
+#u34_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:103px;
+    height:36px;
+}
+
+.u35 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:93px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36c0 {
+    background-image: url('../客户签约（平安）_files/u36c0.png');
+}
+
+.u36c0 {
+    position:absolute;
+    left:286px;
+    top:779px;
+    width:20px;
+    height:61px;
+}
+
+.u36c1 {
+    background-image: url('../客户签约（平安）_files/u36c1.png');
+}
+
+.u36c1 {
+    position:absolute;
+    left:286px;
+    top:820px;
+    width:21px;
+    height:20px;
+}
+
+.u36c2 {
+    background-image: url('../客户签约（平安）_files/u36c2.png');
+}
+
+.u36c2 {
+    position:absolute;
+    left:287px;
+    top:820px;
+    width:20px;
+    height:24px;
+}
+
+.u37 {
+    position:absolute;
+    left:-50px;
+    top:21px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u38c0 {
+    background-image: url('../客户签约（平安）_files/u38c0.png');
+}
+
+.u38c0 {
+    position:absolute;
+    left:272px;
+    top:556px;
+    width:20px;
+    height:54px;
+}
+
+.u38c1 {
+    background-image: url('../客户签约（平安）_files/u38c1.png');
+}
+
+.u38c1 {
+    position:absolute;
+    left:272px;
+    top:590px;
+    width:35px;
+    height:20px;
+}
+
+.u38c2 {
+    background-image: url('../客户签约（平安）_files/u38c2.png');
+}
+
+.u38c2 {
+    position:absolute;
+    left:287px;
+    top:590px;
+    width:20px;
+    height:24px;
+}
+
+.u39 {
+    position:absolute;
+    left:-50px;
+    top:24px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40c0 {
+    background-image: url('../客户签约（平安）_files/u40c0.png');
+}
+
+.u40c0 {
+    position:absolute;
+    left:287px;
+    top:646px;
+    width:20px;
+    height:64px;
+}
+
+.u40c1 {
+    background-image: url('../客户签约（平安）_files/u40c1.png');
+}
+
+.u40c1 {
+    position:absolute;
+    left:286px;
+    top:690px;
+    width:21px;
+    height:20px;
+}
+
+.u40c2 {
+    background-image: url('../客户签约（平安）_files/u40c2.png');
+}
+
+.u40c2 {
+    position:absolute;
+    left:286px;
+    top:690px;
+    width:20px;
+    height:24px;
+}
+
+.u41 {
+    position:absolute;
+    left:-50px;
+    top:22px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42c0 {
+    background-image: url('../客户签约（平安）_files/u42c0.png');
+}
+
+.u42c0 {
+    position:absolute;
+    left:357px;
+    top:736px;
+    width:63px;
+    height:20px;
+}
+
+.u42c1 {
+    background-image: url('../客户签约（平安）_files/u42c1.png');
+}
+
+.u42c1 {
+    position:absolute;
+    left:400px;
+    top:725px;
+    width:20px;
+    height:31px;
+}
+
+.u42c2 {
+    background-image: url('../客户签约（平安）_files/u42c2.png');
+}
+
+.u42c2 {
+    position:absolute;
+    left:400px;
+    top:725px;
+    width:24px;
+    height:20px;
+}
+
+.u43 {
+    position:absolute;
+    left:-15px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u44 {
+    position:absolute;
+    left:580px;
+    top:710px;
+    width:550px;
+    height:160px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u45_normal {
+    background-image: url('../客户签约（平安）_files/u10_normal.png');
+}
+
+.u45_container {
+    position:absolute;
+    left:110px;
+    top:1080px;
+    width:191px;
+    height:30px;
+}
+
+#u45_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:197px;
+    height:36px;
+}
+
+.u46 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:187px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u47_normal {
+    background-image: url('../客户签约（平安）_files/u47_normal.png');
+}
+
+.u47_container {
+    position:absolute;
+    left:222px;
+    top:950px;
+    width:155px;
+    height:93px;
+}
+
+#u47_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:161px;
+    height:99px;
+}
+
+.u48 {
+    position:absolute;
+    left:2px;
+    top:38px;
+    width:151px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u49c0 {
+    background-image: url('../客户签约（平安）_files/u49c0.png');
+}
+
+.u49c0 {
+    position:absolute;
+    left:290px;
+    top:1039px;
+    width:20px;
+    height:41px;
+}
+
+.u49c1 {
+    background-image: url('../客户签约（平安）_files/u49c1.png');
+}
+
+.u49c1 {
+    position:absolute;
+    left:196px;
+    top:1060px;
+    width:114px;
+    height:20px;
+}
+
+.u49c2 {
+    background-image: url('../客户签约（平安）_files/u49c2.png');
+}
+
+.u49c2 {
+    position:absolute;
+    left:196px;
+    top:1060px;
+    width:20px;
+    height:24px;
+}
+
+.u50 {
+    position:absolute;
+    left:-88px;
+    top:19px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u51c0 {
+    background-image: url('../客户签约（平安）_files/u51c0.png');
+}
+
+.u51c0 {
+    position:absolute;
+    left:373px;
+    top:986px;
+    width:71px;
+    height:20px;
+}
+
+.u51c1 {
+    background-image: url('../客户签约（平安）_files/u51c1.png');
+}
+
+.u51c1 {
+    position:absolute;
+    left:424px;
+    top:986px;
+    width:20px;
+    height:96px;
+}
+
+.u52 {
+    position:absolute;
+    left:7px;
+    top:4px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u53_normal {
+    background-image: url('../客户签约（平安）_files/u10_normal.png');
+}
+
+.u53_container {
+    position:absolute;
+    left:339px;
+    top:1078px;
+    width:191px;
+    height:30px;
+}
+
+#u53_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:197px;
+    height:36px;
+}
+
+.u54 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:187px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u55c0 {
+    background-image: url('../客户签约（平安）_files/u55c0.png');
+}
+
+.u55c0 {
+    position:absolute;
+    left:287px;
+    top:906px;
+    width:20px;
+    height:44px;
+}
+
+.u55c1 {
+    background-image: url('../客户签约（平安）_files/u55c1.png');
+}
+
+.u55c1 {
+    position:absolute;
+    left:287px;
+    top:930px;
+    width:23px;
+    height:20px;
+}
+
+.u55c2 {
+    background-image: url('../客户签约（平安）_files/u55c2.png');
+}
+
+.u55c2 {
+    position:absolute;
+    left:290px;
+    top:930px;
+    width:20px;
+    height:24px;
+}
+
+.u56 {
+    position:absolute;
+    left:-50px;
+    top:14px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

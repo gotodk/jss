@@ -1,0 +1,1 @@
+ILmerge /ndebug /target:winexe /out:中国商品批发交易平台new.exe /log 中国商品批发交易平台.exe org.in2bits.MyXls.dll Skins.dll

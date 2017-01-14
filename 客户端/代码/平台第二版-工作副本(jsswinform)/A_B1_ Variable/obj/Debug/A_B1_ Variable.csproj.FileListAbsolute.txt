@@ -1,0 +1,5 @@
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_B1_ Variable\bin\Debug\B1_Variable.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_B1_ Variable\bin\Debug\B1_Variable.pdb
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_B1_ Variable\obj\Debug\B1_Variable.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_B1_ Variable\obj\Debug\B1_Variable.pdb
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_B1_ Variable\obj\Debug\A_B1_ Variable.csprojResolveAssemblyReference.cache

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="fwzd_jxgys" targetNamespace="http://tempuri.org/fwzd_jxgys.xsd" xmlns:mstns="http://tempuri.org/fwzd_jxgys.xsd" xmlns="http://tempuri.org/fwzd_jxgys.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="fmConnection" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="fmConnection (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.fmConnection.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="FMOPConn" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="FMOPConn (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.FMOPConn.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="FM_YHZTCCPJGBTableAdapter" GeneratorDataComponentClassName="FM_YHZTCCPJGBTableAdapter" Name="FM_YHZTCCPJGB" UserDataComponentName="FM_YHZTCCPJGBTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="FMOPConn (Web.config)" DbObjectName="testFMOP.dbo.FM_YHZTCCPJGB" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT DISTINCT CPXH FROM FM_YHZTCCPJGB</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="CPXH" DataSetColumn="CPXH" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="fwzd_jxgys" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="fwzd_jxgys" msprop:Generator_UserDSName="fwzd_jxgys">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="FM_YHZTCCPJGB" msprop:Generator_TableClassName="FM_YHZTCCPJGBDataTable" msprop:Generator_TableVarName="tableFM_YHZTCCPJGB" msprop:Generator_TablePropName="FM_YHZTCCPJGB" msprop:Generator_RowDeletingName="FM_YHZTCCPJGBRowDeleting" msprop:Generator_UserTableName="FM_YHZTCCPJGB" msprop:Generator_RowChangingName="FM_YHZTCCPJGBRowChanging" msprop:Generator_RowEvHandlerName="FM_YHZTCCPJGBRowChangeEventHandler" msprop:Generator_RowDeletedName="FM_YHZTCCPJGBRowDeleted" msprop:Generator_RowEvArgName="FM_YHZTCCPJGBRowChangeEvent" msprop:Generator_RowChangedName="FM_YHZTCCPJGBRowChanged" msprop:Generator_RowClassName="FM_YHZTCCPJGBRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CPXH" msprop:Generator_ColumnVarNameInTable="columnCPXH" msprop:Generator_ColumnPropNameInRow="CPXH" msprop:Generator_ColumnPropNameInTable="CPXHColumn" msprop:Generator_UserColumnName="CPXH">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="FM_YHJFJXG" msprop:Generator_TableClassName="FM_YHJFJXGDataTable" msprop:Generator_TableVarName="tableFM_YHJFJXG" msprop:Generator_TablePropName="FM_YHJFJXG" msprop:Generator_RowDeletingName="FM_YHJFJXGRowDeleting" msprop:Generator_UserTableName="FM_YHJFJXG" msprop:Generator_RowChangingName="FM_YHJFJXGRowChanging" msprop:Generator_RowEvHandlerName="FM_YHJFJXGRowChangeEventHandler" msprop:Generator_RowDeletedName="FM_YHJFJXGRowDeleted" msprop:Generator_RowEvArgName="FM_YHJFJXGRowChangeEvent" msprop:Generator_RowChangedName="FM_YHJFJXGRowChanged" msprop:Generator_RowClassName="FM_YHJFJXGRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KHBH" msprop:Generator_ColumnVarNameInTable="columnKHBH" msprop:Generator_ColumnPropNameInRow="KHBH" msprop:Generator_ColumnPropNameInTable="KHBHColumn" msprop:Generator_UserColumnName="KHBH" type="xs:string" minOccurs="0" />
+              <xs:element name="KHMC" msprop:Generator_ColumnVarNameInTable="columnKHMC" msprop:Generator_ColumnPropNameInRow="KHMC" msprop:Generator_ColumnPropNameInTable="KHMCColumn" msprop:Generator_UserColumnName="KHMC" type="xs:string" minOccurs="0" />
+              <xs:element name="DH" msprop:Generator_ColumnVarNameInTable="columnDH" msprop:Generator_ColumnPropNameInRow="DH" msprop:Generator_ColumnPropNameInTable="DHColumn" msprop:Generator_UserColumnName="DH" type="xs:string" minOccurs="0" />
+              <xs:element name="JDDZ" msprop:Generator_ColumnVarNameInTable="columnJDDZ" msprop:Generator_ColumnPropNameInRow="JDDZ" msprop:Generator_ColumnPropNameInTable="JDDZColumn" msprop:Generator_UserColumnName="JDDZ" type="xs:string" minOccurs="0" />
+              <xs:element name="FWZDBH" msprop:Generator_ColumnVarNameInTable="columnFWZDBH" msprop:Generator_ColumnPropNameInRow="FWZDBH" msprop:Generator_ColumnPropNameInTable="FWZDBHColumn" msprop:Generator_UserColumnName="FWZDBH" type="xs:string" minOccurs="0" />
+              <xs:element name="FWZDMC" msprop:Generator_ColumnVarNameInTable="columnFWZDMC" msprop:Generator_ColumnPropNameInRow="FWZDMC" msprop:Generator_ColumnPropNameInTable="FWZDMCColumn" msprop:Generator_UserColumnName="FWZDMC" type="xs:string" minOccurs="0" />
+              <xs:element name="createtime" msprop:Generator_ColumnVarNameInTable="columncreatetime" msprop:Generator_ColumnPropNameInRow="createtime" msprop:Generator_ColumnPropNameInTable="createtimeColumn" msprop:Generator_UserColumnName="createtime" type="xs:string" minOccurs="0" />
+              <xs:element name="QWSMSJ" msprop:Generator_ColumnVarNameInTable="columnQWSMSJ" msprop:Generator_ColumnPropNameInRow="QWSMSJ" msprop:Generator_ColumnPropNameInTable="QWSMSJColumn" msprop:Generator_UserColumnName="QWSMSJ" type="xs:string" minOccurs="0" />
+              <xs:element name="JXGSL" msprop:Generator_ColumnVarNameInTable="columnJXGSL" msprop:Generator_ColumnPropNameInRow="JXGSL" msprop:Generator_ColumnPropNameInTable="JXGSLColumn" msprop:Generator_UserColumnName="JXGSL" type="xs:string" minOccurs="0" />
+              <xs:element name="LXR" msprop:Generator_ColumnVarNameInTable="columnLXR" msprop:Generator_ColumnPropNameInRow="LXR" msprop:Generator_ColumnPropNameInTable="LXRColumn" msprop:Generator_UserColumnName="LXR" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

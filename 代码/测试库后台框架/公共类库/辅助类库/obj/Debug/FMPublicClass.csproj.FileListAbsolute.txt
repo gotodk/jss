@@ -1,0 +1,7 @@
+D:\富美集团新框架\公共类库\辅助类库\bin\Debug\FMPublicClass.XML
+D:\富美集团新框架\公共类库\辅助类库\bin\Debug\FMPublicClass.dll
+D:\富美集团新框架\公共类库\辅助类库\bin\Debug\FMPublicClass.pdb
+D:\富美集团新框架\公共类库\辅助类库\obj\Debug\FMPublicClass.csprojResolveAssemblyReference.cache
+D:\富美集团新框架\公共类库\辅助类库\obj\Debug\FMPublicClass.dll
+D:\富美集团新框架\公共类库\辅助类库\obj\Debug\FMPublicClass.pdb
+D:\富美集团新框架\公共类库\辅助类库\bin\Debug\URLRewriter.dll

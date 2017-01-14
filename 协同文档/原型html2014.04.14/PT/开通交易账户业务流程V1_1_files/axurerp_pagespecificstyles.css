@@ -1,0 +1,1298 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+#u0 {
+    position:absolute;
+    left:10px;
+    top:59px;
+    width:844px;
+    height:916px
+}
+
+.u1_normal {
+    background-image: url('../开通交易账户_files/u1_normal.png');
+}
+
+.u1_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:240px;
+    height:46px;
+}
+
+#u1_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:246px;
+    height:52px;
+}
+
+.u2 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:236px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u3_normal {
+    background-image: url('../开通交易账户_files/u3_normal.png');
+}
+
+.u3_container {
+    position:absolute;
+    left:240px;
+    top:0px;
+    width:200px;
+    height:46px;
+}
+
+#u3_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:206px;
+    height:52px;
+}
+
+.u4 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:196px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5_normal {
+    background-image: url('../开通交易账户_files/u3_normal.png');
+}
+
+.u5_container {
+    position:absolute;
+    left:440px;
+    top:0px;
+    width:200px;
+    height:46px;
+}
+
+#u5_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:206px;
+    height:52px;
+}
+
+.u6 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:196px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7_normal {
+    background-image: url('../开通交易账户_files/u3_normal.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:640px;
+    top:0px;
+    width:200px;
+    height:46px;
+}
+
+#u7_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:206px;
+    height:52px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:196px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9_normal {
+    background-image: url('../开通交易账户_files/u9_normal.png');
+}
+
+.u9_container {
+    position:absolute;
+    left:0px;
+    top:46px;
+    width:240px;
+    height:865px;
+}
+
+#u9_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:246px;
+    height:871px;
+}
+
+.u10 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:236px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11_normal {
+    background-image: url('../开通交易账户_files/u11_normal.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:240px;
+    top:46px;
+    width:200px;
+    height:865px;
+}
+
+#u11_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:206px;
+    height:871px;
+}
+
+.u12 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:196px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13_normal {
+    background-image: url('../开通交易账户_files/u11_normal.png');
+}
+
+.u13_container {
+    position:absolute;
+    left:440px;
+    top:46px;
+    width:200px;
+    height:865px;
+}
+
+#u13_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:206px;
+    height:871px;
+}
+
+.u14 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:196px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15_normal {
+    background-image: url('../开通交易账户_files/u11_normal.png');
+}
+
+.u15_container {
+    position:absolute;
+    left:640px;
+    top:46px;
+    width:200px;
+    height:865px;
+}
+
+#u15_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:206px;
+    height:871px;
+}
+
+.u16 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:196px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18 {
+    position:absolute;
+    left:318px;
+    top:16px;
+    width:172px;
+    height:27px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19_normal {
+    background-image: url('../开通交易账户业务流程V1_1_files/u19_normal.png');
+}
+
+.u19_container {
+    position:absolute;
+    left:49px;
+    top:120px;
+    width:140px;
+    height:59px;
+}
+
+#u19_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:65px;
+}
+
+.u20 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:136px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21_normal {
+    background-image: url('../开通交易账户业务流程V1_1_files/u21_normal.png');
+}
+
+.u21_container {
+    position:absolute;
+    left:44px;
+    top:200px;
+    width:150px;
+    height:40px;
+}
+
+#u21_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:46px;
+}
+
+.u22 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:146px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u23_normal {
+    background-image: url('../开通交易账户业务流程V1_1_files/u21_normal.png');
+}
+
+.u23_container {
+    position:absolute;
+    left:270px;
+    top:270px;
+    width:150px;
+    height:40px;
+}
+
+#u23_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:46px;
+}
+
+.u24 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:146px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u25_normal {
+    background-image: url('../开通交易账户业务流程V1_1_files/u21_normal.png');
+}
+
+.u25_container {
+    position:absolute;
+    left:54px;
+    top:637px;
+    width:150px;
+    height:40px;
+}
+
+#u25_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:46px;
+}
+
+.u26 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:146px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27_normal {
+    background-image: url('../开通交易账户业务流程V1_1_files/u27_normal.png');
+}
+
+.u27_container {
+    position:absolute;
+    left:59px;
+    top:709px;
+    width:140px;
+    height:62px;
+}
+
+#u27_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:68px;
+}
+
+.u28 {
+    position:absolute;
+    left:2px;
+    top:24px;
+    width:136px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29_normal {
+    background-image: url('../开通交易账户业务流程V1_1_files/u21_normal.png');
+}
+
+.u29_container {
+    position:absolute;
+    left:469px;
+    top:440px;
+    width:150px;
+    height:40px;
+}
+
+#u29_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:46px;
+}
+
+.u30 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:146px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31c0 {
+    background-image: url('../开通交易账户业务流程V1_1_files/u31c0.png');
+}
+
+.u31c0 {
+    position:absolute;
+    left:109px;
+    top:175px;
+    width:20px;
+    height:35px;
+}
+
+.u32 {
+    position:absolute;
+    left:-50px;
+    top:2px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u33c0 {
+    background-image: url('../开通交易账户业务流程V1_1_files/u33c0.png');
+}
+
+.u33c0 {
+    position:absolute;
+    left:119px;
+    top:673px;
+    width:20px;
+    height:46px;
+}
+
+.u34 {
+    position:absolute;
+    left:-50px;
+    top:8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u35c0 {
+    background-image: url('../开通交易账户业务流程V1_1_files/u35c0.png');
+}
+
+.u35c0 {
+    position:absolute;
+    left:109px;
+    top:236px;
+    width:20px;
+    height:34px;
+}
+
+.u35c1 {
+    background-image: url('../开通交易账户业务流程V1_1_files/u35c1.png');
+}
+
+.u35c1 {
+    position:absolute;
+    left:109px;
+    top:250px;
+    width:246px;
+    height:20px;
+}
+
+.u35c2 {
+    background-image: url('../开通交易账户业务流程V1_1_files/u35c2.png');
+}
+
+.u35c2 {
+    position:absolute;
+    left:335px;
+    top:250px;
+    width:20px;
+    height:24px;
+}
+
+.u36 {
+    position:absolute;
+    left:58px;
+    top:12px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u37_normal {
+    background-image: url('../开通交易账户业务流程V1_1_files/u21_normal.png');
+}
+
+.u37_container {
+    position:absolute;
+    left:681px;
+    top:637px;
+    width:150px;
+    height:40px;
+}
+
+#u37_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:46px;
+}
+
+.u38 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:146px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u39_normal {
+    background-image: url('../开通交易账户业务流程V1_1_files/u21_normal.png');
+}
+
+.u39_container {
+    position:absolute;
+    left:681px;
+    top:896px;
+    width:150px;
+    height:40px;
+}
+
+#u39_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:46px;
+}
+
+.u40 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:146px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u41_normal {
+    background-image: url('../开通交易账户业务流程V1_1_files/u41_normal.png');
+}
+
+.u41_container {
+    position:absolute;
+    left:293px;
+    top:336px;
+    width:105px;
+    height:64px;
+}
+
+#u41_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:111px;
+    height:70px;
+}
+
+.u42 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:101px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u43c0 {
+    background-image: url('../开通交易账户业务流程V1_1_files/u43c0.png');
+}
+
+.u43c0 {
+    position:absolute;
+    left:336px;
+    top:396px;
+    width:20px;
+    height:74px;
+}
+
+.u43c1 {
+    background-image: url('../开通交易账户业务流程V1_1_files/u43c1.png');
+}
+
+.u43c1 {
+    position:absolute;
+    left:336px;
+    top:450px;
+    width:137px;
+    height:20px;
+}
+
+.u44 {
+    position:absolute;
+    left:-18px;
+    top:50px;
+    width:100px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u45c0 {
+    background-image: url('../开通交易账户业务流程V1_1_files/u45c0.png');
+}
+
+.u45c0 {
+    position:absolute;
+    left:336px;
+    top:300px;
+    width:18px;
+    height:20px;
+}
+
+.u45c1 {
+    background-image: url('../开通交易账户业务流程V1_1_files/u45c1.png');
+}
+
+.u45c1 {
+    position:absolute;
+    left:336px;
+    top:300px;
+    width:20px;
+    height:40px;
+}
+
+.u46 {
+    position:absolute;
+    left:-54px;
+    top:3px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u47_normal {
+    background-image: url('../开通交易账户业务流程V1_1_files/u41_normal.png');
+}
+
+.u47_container {
+    position:absolute;
+    left:492px;
+    top:536px;
+    width:105px;
+    height:64px;
+}
+
+#u47_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:111px;
+    height:70px;
+}
+
+.u48 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:101px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u49_normal {
+    background-image: url('../开通交易账户业务流程V1_1_files/u41_normal.png');
+}
+
+.u49_container {
+    position:absolute;
+    left:704px;
+    top:755px;
+    width:105px;
+    height:64px;
+}
+
+#u49_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:111px;
+    height:70px;
+}
+
+.u50 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:101px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u51c0 {
+    background-image: url('../开通交易账户业务流程V1_1_files/u51c0.png');
+}
+
+.u51c0 {
+    position:absolute;
+    left:534px;
+    top:476px;
+    width:20px;
+    height:70px;
+}
+
+.u52 {
+    position:absolute;
+    left:-50px;
+    top:20px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u53c0 {
+    background-image: url('../开通交易账户业务流程V1_1_files/u53c0.png');
+}
+
+.u53c0 {
+    position:absolute;
+    left:534px;
+    top:596px;
+    width:20px;
+    height:71px;
+}
+
+.u53c1 {
+    background-image: url('../开通交易账户业务流程V1_1_files/u53c1.png');
+}
+
+.u53c1 {
+    position:absolute;
+    left:200px;
+    top:647px;
+    width:354px;
+    height:20px;
+}
+
+.u54 {
+    position:absolute;
+    left:-192px;
+    top:48px;
+    width:100px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u55c0 {
+    background-image: url('../开通交易账户业务流程V1_1_files/u55c0.png');
+}
+
+.u55c0 {
+    position:absolute;
+    left:593px;
+    top:558px;
+    width:46px;
+    height:20px;
+}
+
+.u55c1 {
+    background-image: url('../开通交易账户业务流程V1_1_files/u55c1.png');
+}
+
+.u55c1 {
+    position:absolute;
+    left:619px;
+    top:450px;
+    width:20px;
+    height:128px;
+}
+
+.u55c2 {
+    background-image: url('../开通交易账户业务流程V1_1_files/u55c2.png');
+}
+
+.u55c2 {
+    position:absolute;
+    left:615px;
+    top:450px;
+    width:24px;
+    height:20px;
+}
+
+.u56 {
+    position:absolute;
+    left:-18px;
+    top:-52px;
+    width:100px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u57c0 {
+    background-image: url('../开通交易账户业务流程V1_1_files/u57c0.png');
+}
+
+.u57c0 {
+    position:absolute;
+    left:746px;
+    top:673px;
+    width:20px;
+    height:92px;
+}
+
+.u58 {
+    position:absolute;
+    left:-50px;
+    top:31px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u59c0 {
+    background-image: url('../开通交易账户业务流程V1_1_files/u59c0.png');
+}
+
+.u59c0 {
+    position:absolute;
+    left:746px;
+    top:815px;
+    width:20px;
+    height:91px;
+}
+
+.u60 {
+    position:absolute;
+    left:-50px;
+    top:29px;
+    width:100px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u61c0 {
+    background-image: url('../开通交易账户业务流程V1_1_files/u61c0.png');
+}
+
+.u61c0 {
+    position:absolute;
+    left:394px;
+    top:358px;
+    width:46px;
+    height:20px;
+}
+
+.u61c1 {
+    background-image: url('../开通交易账户业务流程V1_1_files/u61c1.png');
+}
+
+.u61c1 {
+    position:absolute;
+    left:420px;
+    top:280px;
+    width:20px;
+    height:98px;
+}
+
+.u61c2 {
+    background-image: url('../开通交易账户业务流程V1_1_files/u61c2.png');
+}
+
+.u61c2 {
+    position:absolute;
+    left:416px;
+    top:280px;
+    width:24px;
+    height:20px;
+}
+
+.u62 {
+    position:absolute;
+    left:-18px;
+    top:-38px;
+    width:100px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u63c0 {
+    background-image: url('../开通交易账户业务流程V1_1_files/u63c0.png');
+}
+
+.u63c0 {
+    position:absolute;
+    left:534px;
+    top:596px;
+    width:20px;
+    height:71px;
+}
+
+.u63c1 {
+    background-image: url('../开通交易账户业务流程V1_1_files/u63c1.png');
+}
+
+.u63c1 {
+    position:absolute;
+    left:534px;
+    top:647px;
+    width:151px;
+    height:20px;
+}
+
+.u64 {
+    position:absolute;
+    left:-10px;
+    top:48px;
+    width:100px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u65c0 {
+    background-image: url('../开通交易账户业务流程V1_1_files/u65c0.png');
+}
+
+.u65c0 {
+    position:absolute;
+    left:119px;
+    top:777px;
+    width:589px;
+    height:20px;
+}
+
+.u65c1 {
+    background-image: url('../开通交易账户业务流程V1_1_files/u65c1.png');
+}
+
+.u65c1 {
+    position:absolute;
+    left:119px;
+    top:767px;
+    width:20px;
+    height:30px;
+}
+
+.u66 {
+    position:absolute;
+    left:-346px;
+    top:-10px;
+    width:100px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u67_normal {
+    background-image: url('../开通交易账户业务流程V1_1_files/u67_normal.png');
+}
+
+.u67_container {
+    position:absolute;
+    left:68px;
+    top:70px;
+    width:25px;
+    height:25px;
+}
+
+#u67_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:25px;
+    height:25px;
+}
+
+.u68 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:21px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u69_normal {
+    background-image: url('../开通交易账户业务流程V1_1_files/u69_normal.png');
+}
+
+.u69_container {
+    position:absolute;
+    left:285px;
+    top:73px;
+    width:25px;
+    height:22px;
+}
+
+#u69_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:25px;
+    height:22px;
+}
+
+.u70 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:21px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u71_normal {
+    background-image: url('../开通交易账户业务流程V1_1_files/u71_normal.png');
+}
+
+.u71_container {
+    position:absolute;
+    left:500px;
+    top:70px;
+    width:25px;
+    height:25px;
+}
+
+#u71_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:25px;
+    height:25px;
+}
+
+.u72 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:21px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u73_normal {
+    background-image: url('../开通交易账户业务流程V1_1_files/u71_normal.png');
+}
+
+.u73_container {
+    position:absolute;
+    left:699px;
+    top:72px;
+    width:25px;
+    height:25px;
+}
+
+#u73_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:25px;
+    height:25px;
+}
+
+.u74 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:21px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

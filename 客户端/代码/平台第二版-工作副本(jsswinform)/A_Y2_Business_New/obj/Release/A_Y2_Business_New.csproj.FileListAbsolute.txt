@@ -1,0 +1,16 @@
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_Y2_Business_New\bin\Release\Y2_Business_New.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_Y2_Business_New\bin\Release\Y2_Business_New.pdb
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_Y2_Business_New\bin\Release\B1_Variable.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_Y2_Business_New\bin\Release\B2_Variable.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_Y2_Business_New\bin\Release\P1_Support.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_Y2_Business_New\bin\Release\W1_Services.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_Y2_Business_New\bin\Release\ICSharpCode.SharpZipLib.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_Y2_Business_New\bin\Release\org.in2bits.MyXls.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_Y2_Business_New\bin\Release\B1_Variable.pdb
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_Y2_Business_New\bin\Release\B2_Variable.pdb
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_Y2_Business_New\bin\Release\P1_Support.pdb
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_Y2_Business_New\bin\Release\W1_Services.pdb
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_Y2_Business_New\bin\Release\W1_Services.XmlSerializers.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_Y2_Business_New\obj\Release\A_Y2_Business_New.csprojResolveAssemblyReference.cache
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_Y2_Business_New\obj\Release\Y2_Business_New.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_Y2_Business_New\obj\Release\Y2_Business_New.pdb

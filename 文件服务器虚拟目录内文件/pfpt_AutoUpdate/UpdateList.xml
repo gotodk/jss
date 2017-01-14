@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<AutoUpdater>
+	<Description>中国商品批发交易平台 autoUpdate</Description>
+	<Updater>
+		<Url>http://capi.fm8844.com/JHJXPT/AutoUpdate/</Url>
+		<LastUpdateTime>2014-08-23</LastUpdateTime>
+	</Updater>
+	<Application applicationId = "中国商品批发交易平台">
+		<EntryPoint>中国商品批发交易平台.exe</EntryPoint>
+		<Location>.</Location>
+		<Version>2.0.0.0</Version>
+	</Application>
+	<Files>
+		<File Ver="2.0.0.0" Name= "ForIPC\FMWSDL__capiGetPager__02BF8D56CF7B6A85FFD69188658BBD60.dll" />
+		<File Ver="2.0.1.1" Name= "ForIPC\FMWSDL__capi__D38A552563F7892F3AE72091049CDEBB.dll" />
+		<File Ver="2.0.0.0" Name= "ForIPC\FMWSDL__fmwscenter__A1B3AF48D7577E719350E6FCF750C3B0.dll" />
+		<File Ver="2.0.1.1" Name= "ForIPC\IPClist.config" />
+		<File Ver="2.0.0.0" Name= "skin\cuowu.png" />
+		<File Ver="2.0.0.0" Name= "skin\duihao.png" />
+		<File Ver="2.0.0.0" Name= "skin\huangguanxing.png" />
+		<File Ver="2.0.0.0" Name= "skin\hy.jpg" />
+		<File Ver="2.0.0.0" Name= "skin\hz.jpg" />
+		<File Ver="2.0.0.0" Name= "skin\ji.ico" />
+		<File Ver="2.0.0.0" Name= "skin\landian.gif" />
+		<File Ver="2.0.0.0" Name= "skin\loginbg.jpg" />
+		<File Ver="2.0.0.0" Name= "skin\myxz.gif" />
+		<File Ver="2.0.0.0" Name= "skin\myxz_jishi.png" />
+		<File Ver="2.0.0.0" Name= "skin\myxz_sangeyue.png" />
+		<File Ver="2.0.0.0" Name= "skin\myxz_yinian.png" />
+		<File Ver="2.0.0.0" Name= "skin\pagerload.gif" />
+		<File Ver="2.0.0.0" Name= "skin\qx.jpg" />
+		<File Ver="2.0.0.0" Name= "skin\qz.jpg" />
+		<File Ver="2.0.0.0" Name= "skin\tanhao.png" />
+		<File Ver="2.0.0.0" Name= "skin\tupianshuiyin.png" />
+		<File Ver="2.0.0.0" Name= "skin\vipxing.png" />
+		<File Ver="2.0.0.0" Name= "skin\wenhao.jpg" />
+		<File Ver="2.0.0.0" Name= "skin\wenhao.png" />
+		<File Ver="2.0.0.0" Name= "skin\xg.jpg" />
+		<File Ver="2.0.0.0" Name= "skin\xinxing.png" />
+		<File Ver="2.0.0.0" Name= "skin\yun001.png" />
+		<File Ver="2.0.0.0" Name= "skin\yun002.png" />
+		<File Ver="2.0.0.0" Name= "skin\yun003.png" />
+		<File Ver="2.0.0.0" Name= "skin\zhzx.png" />
+		<File Ver="2.0.0.0" Name= "skin\zuanxing.png" />
+		<File Ver="2.0.0.0" Name= "skin\zy.jpg" />
+		<File Ver="2.0.0.0" Name= "skin\z_bannian.png" />
+		<File Ver="2.0.0.0" Name= "skin\z_dingliang.png" />
+		<File Ver="2.0.0.0" Name= "skin\z_yinian.png" />
+		<File Ver="2.0.0.0" Name= "skin\z_zixuan.png" />
+		<File Ver="2.0.0.0" Name= "B1_Variable.dll" />
+		<File Ver="2.0.0.0" Name= "B2_Variable.dll" />
+		<File Ver="2.0.0.0" Name= "Config.xml" />
+		<File Ver="2.0.0.0" Name= "ICSharpCode.SharpZipLib.dll" />
+		<File Ver="2.0.0.0" Name= "Infragistics2.Shared.v8.2.dll" />
+		<File Ver="2.0.0.0" Name= "Infragistics2.Win.Misc.v8.2.dll" />
+		<File Ver="2.0.0.0" Name= "Infragistics2.Win.UltraWinChart.v8.2.dll" />
+		<File Ver="2.0.0.0" Name= "Infragistics2.Win.v8.2.dll" />
+		<File Ver="2.0.0.0" Name= "initfile.dll" />
+		<File Ver="2.0.0.2" Name= "K1_Controll_D.dll" />
+		<File Ver="2.0.0.2" Name= "K1_Control_G.dll" />
+		<File Ver="2.0.0.2" Name= "K2_Control_G.dll" />
+		<File Ver="2.0.0.2" Name= "K3_Conteol_D.dll" />
+		<File Ver="2.0.0.2" Name= "K3_Control_G.dll" />
+		<File Ver="2.0.0.0" Name= "O2S.Components.PDFRender4NET.dll" />
+		<File Ver="2.0.0.0" Name= "O2S.Components.PDFView4NET.dll" />
+		<File Ver="2.0.0.0" Name= "org.in2bits.MyXls.dll" />
+		<File Ver="2.0.0.1" Name= "P1_Support.dll" />
+		<File Ver="2.0.0.1" Name= "P2_Support.dll" />
+		<File Ver="2.0.0.1" Name= "P3_Support.dll" />
+		<File Ver="2.0.0.1" Name= "P4_Support.dll" />
+		<File Ver="2.0.0.0" Name= "Skins.dll" />
+		<File Ver="2.0.0.0" Name= "System.Core.dll" />
+		<File Ver="2.0.0.0" Name= "System.Data.DataSetExtensions.dll" />
+		<File Ver="2.0.0.0" Name= "System.Web.Extensions.dll" />
+		<File Ver="2.0.0.2" Name= "W1_Services.dll" />
+		<File Ver="2.0.0.3" Name= "Y1_Business_Old.dll" />
+		<File Ver="2.0.0.3" Name= "Y2_Business_New.dll" />
+		<File Ver="2.0.0.3" Name= "Y3_Business_Muban.dll" />
+		<File Ver="2.0.0.3" Name= "Y4_Business_SPMM.dll" />
+		<File Ver="2.0.0.3" Name= "Y5_Business_HWSF.dll" />
+		<File Ver="2.0.0.3" Name= "Y6_Business_JJRYWGL.dll" />
+		<File Ver="2.0.0.3" Name= "Y7_Business_ZHWH.dll" />
+		<File Ver="2.0.0.4" Name= "中国商品批发交易平台.exe" />
+		<File Ver="2.0.0.0" Name= "中国商品批发交易平台.exe.config" />
+		<File Ver="2.0.0.0" Name= "公用通讯协议类库.dll" />
+	</Files>
+</AutoUpdater>

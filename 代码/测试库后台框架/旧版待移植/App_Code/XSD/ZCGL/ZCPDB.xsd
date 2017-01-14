@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ZCPDB" targetNamespace="http://tempuri.org/ZCPDB.xsd" xmlns:mstns="http://tempuri.org/ZCPDB.xsd" xmlns="http://tempuri.org/ZCPDB.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="FMOPConn" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="FMOPConn (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.FMOPConn.ConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" Name="DataTable1">
+            <MainSource>
+              <DbSource ConnectionRef="FMOPConn (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="False" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="False">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>select Number,RQ,PDR,JPR,BMFZR,ZCBM,ZCMC,XH,GG,DW,DJ,ZMSL,PDSL,SLYK,YKJE,CFDD,SYR,KYZT from ZCGL_ZCPD INNER JOIN 
+ZCPDLB
+ON ZCGL_ZCPD .Number = ZCPDLB.parentNumber</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Number" DataSetColumn="Number" />
+              <Mapping SourceColumn="RQ" DataSetColumn="RQ" />
+              <Mapping SourceColumn="PDR" DataSetColumn="PDR" />
+              <Mapping SourceColumn="JPR" DataSetColumn="JPR" />
+              <Mapping SourceColumn="BMFZR" DataSetColumn="BMFZR" />
+              <Mapping SourceColumn="ZCBM" DataSetColumn="ZCBM" />
+              <Mapping SourceColumn="ZCMC" DataSetColumn="ZCMC" />
+              <Mapping SourceColumn="XH" DataSetColumn="XH" />
+              <Mapping SourceColumn="GG" DataSetColumn="GG" />
+              <Mapping SourceColumn="DW" DataSetColumn="DW" />
+              <Mapping SourceColumn="DJ" DataSetColumn="DJ" />
+              <Mapping SourceColumn="ZMSL" DataSetColumn="ZMSL" />
+              <Mapping SourceColumn="PDSL" DataSetColumn="PDSL" />
+              <Mapping SourceColumn="SLYK" DataSetColumn="SLYK" />
+              <Mapping SourceColumn="YKJE" DataSetColumn="YKJE" />
+              <Mapping SourceColumn="CFDD" DataSetColumn="CFDD" />
+              <Mapping SourceColumn="SYR" DataSetColumn="SYR" />
+              <Mapping SourceColumn="KYZT" DataSetColumn="KYZT" />
+            </Mappings>
+            <Sources>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ZCPDB" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Number">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RQ" type="xs:dateTime" />
+              <xs:element name="PDR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JPR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BMFZR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ZCBM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ZCMC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="XH" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DW" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DJ" type="xs:double" minOccurs="0" />
+              <xs:element name="ZMSL" type="xs:double" minOccurs="0" />
+              <xs:element name="PDSL" type="xs:double" minOccurs="0" />
+              <xs:element name="SLYK" type="xs:double" minOccurs="0" />
+              <xs:element name="YKJE" type="xs:double" minOccurs="0" />
+              <xs:element name="CFDD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SYR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KYZT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable1" />
+      <xs:field xpath="mstns:Number" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

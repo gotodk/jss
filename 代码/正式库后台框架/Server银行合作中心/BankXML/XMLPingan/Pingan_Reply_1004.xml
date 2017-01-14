@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Pingan_Reply_1004" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Pingan_Reply_1004">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="RecordCount" msdata:Caption="批量次数" type="xs:string" default="0" />
+                <xs:element name="ResultFlag" msdata:Caption="处理结果标识" type="xs:string" default="0" />
+                <xs:element name="TranDate" msdata:Caption="交易日期" type="xs:string" default="0" />
+                <xs:element name="TranTime" msdata:Caption="交易时间" type="xs:string" default="0" />
+                <xs:element name="BatFileName" msdata:Caption="原批量文件名" type="xs:string" default="0" />
+                <xs:element name="FailMsg" msdata:Caption="处理失败原因" type="xs:string" default="0" />
+                <xs:element name="TotalCount" msdata:Caption="总笔数" type="xs:string" default="0" />
+                <xs:element name="SucTotal" msdata:Caption="成功笔数" type="xs:string" default="0" />
+                <xs:element name="FailTotal" msdata:Caption="失败笔数" type="xs:string" default="0" />
+                <xs:element name="FailFilesName" msdata:Caption="失败结果文件名" type="xs:string" default="0" />
+                <xs:element name="Reserve" msdata:Caption="保留域" type="xs:string" default="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Pingan_Reply_1004>
+    <RecordCount>0</RecordCount>
+    <ResultFlag>0</ResultFlag>
+    <TranDate>0</TranDate>
+    <TranTime>0</TranTime>
+    <BatFileName>0</BatFileName>
+    <FailMsg>0</FailMsg>
+    <TotalCount>0</TotalCount>
+    <SucTotal>0</SucTotal>
+    <FailTotal>0</FailTotal>
+    <FailFilesName>0</FailFilesName>
+    <Reserve>0</Reserve>
+  </Pingan_Reply_1004>
+</NewDataSet>

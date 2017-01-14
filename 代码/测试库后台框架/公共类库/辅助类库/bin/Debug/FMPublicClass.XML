@@ -1,0 +1,523 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FMPublicClass</name>
+    </assembly>
+    <members>
+        <member name="T:Helper">
+            <summary>
+            Helper 的摘要说明
+            </summary>
+        </member>
+        <member name="M:Helper.DataTableToJson(System.Data.DataTable)">
+            <summary>
+            把DataTable序列化成Json（郭拓 2013-08-09）
+            </summary>
+            <param name="dt">要被序列化的数据表</param>
+            <returns>序列化后的Json字符串</returns>
+        </member>
+        <member name="M:Helper.JsonToDatatable(System.String)">
+            <summary>
+            把Json序列化成DataTable（郭拓 2013-08-09）
+            </summary>
+            <param name="jsonStr">要被序列化的Json字符串</param>
+            <returns>序列化后的DataTable</returns>
+        </member>
+        <member name="M:Helper.DataTableToXML(System.Data.DataTable)">
+            <summary>
+            把DataTable序列化成XML（郭拓 2013-08-09）
+            </summary>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Helper.XMLToDataTable(System.String)">
+            <summary>
+            把XML序列化成DataTable（郭拓 2013-08-09）
+            </summary>
+            <param name="xmlStr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Helper.GetBinaryFormatData(System.Data.DataSet)">
+            <summary>
+            将DataSet格式化成字节数组byte[]
+            </summary>
+            <param name="dsOriginal">DataSet对象</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:Helper.GetBinaryFormatDataCompress(System.Data.DataSet)">
+            <summary>
+            将DataSet格式化成字节数组byte[]，并且已经经过压缩
+            </summary>
+            <param name="dsOriginal">DataSet对象</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:Helper.Decompress(System.Byte[])">
+            <summary>
+            解压数据
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Helper.Compress(System.Byte[])">
+            <summary>
+            压缩数据
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Helper.RetrieveDataSet(System.Byte[])">
+            <summary>
+            将字节数组反序列化成DataSet对象
+            </summary>
+            <param name="binaryData">字节数组</param>
+            <returns>DataSet对象</returns>
+        </member>
+        <member name="M:Helper.RetrieveDataSetDecompress(System.Byte[])">
+            <summary>
+            将字节数组反解压后序列化成DataSet对象
+            </summary>
+            <param name="binaryData">字节数组</param>
+            <returns>DataSet对象</returns>
+        </member>
+        <member name="M:Helper.GetBinaryFormatData(System.Object)">
+            <summary>
+            将object格式化成字节数组byte[]
+            </summary>
+            <param name="dsOriginal">object对象</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:Helper.GetBinaryFormatDataCompress(System.Object)">
+            <summary>
+            将objec格式化成字节数组byte[]，并压缩
+            </summary>
+            <param name="dsOriginal">object对象</param>
+            <returns>字节数组</returns>
+        </member>
+        <member name="M:Helper.RetrieveObject(System.Byte[])">
+            <summary>
+            将字节数组反序列化成object对象
+            </summary>
+            <param name="binaryData">字节数组</param>
+            <returns>object对象</returns>
+        </member>
+        <member name="M:Helper.RetrieveObjectDecompress(System.Byte[])">
+            <summary>
+            将字节数组解压后反序列化成object对象
+            </summary>
+            <param name="binaryData">字节数组</param>
+            <returns>object对象</returns>
+        </member>
+        <member name="M:Helper.DataSet2Byte(System.Data.DataSet)">
+            <summary>
+            将DataSet序列化成byte[]（强制压缩） 2013-09-10 guotuo
+            </summary>
+            <param name="ds">要序列化的DataSet</param>
+            <returns></returns>
+        </member>
+        <member name="M:Helper.Byte2DataSet(System.Byte[])">
+            <summary>
+            将byte[]（压缩后）序列化为DataSet 2013-09-10 guotuo
+            </summary>
+            <param name="b">要序列化的压缩后的byte[]</param>
+            <returns></returns>
+        </member>
+        <member name="M:Helper.Byte2DataSet(System.Byte[],System.Collections.Hashtable)">
+            <summary>
+            将byte[]（压缩后）序列化为DataSet 2013-09-11 于海滨复制修改
+            </summary>
+            <param name="b">要序列化的压缩后的byte[]</param>
+            <param name="HTspColumns">要特殊设置的列类型key是列名，值是类型标记（例如System.Int32）</param>
+            <returns></returns>
+        </member>
+        <member name="F:Helper.pyValue">
+            <summary>
+            汉字的机内码数组
+            </summary>
+        </member>
+        <member name="F:Helper.pyName">
+            <summary>
+            机内码对应的拼音数组
+            </summary>
+        </member>
+        <member name="M:Helper.Convert(System.String)">
+            <summary>
+            把汉字转换成拼音(全拼)
+            </summary>
+            <param name="hzString">汉字字符串</param>
+            <returns>转换后的拼音(全拼)字符串</returns>
+        </member>
+        <member name="M:Helper.ConvertWithBlank(System.String)">
+            <summary>
+            把汉字转换成拼音(全拼)
+            </summary>
+            <param name="hzString">汉字字符串</param>
+            <returns>转换后的拼音(全拼)字符串</returns>
+        </member>
+        <member name="M:Helper.ConvertWithSplitChar(System.String,System.String)">
+            <summary>
+            把汉字转换成拼音(全拼)
+            </summary>
+            <param name="hzString">汉字字符串</param>
+            <returns>转换后的拼音(全拼)字符串</returns>
+        </member>
+        <member name="M:Helper.GetSpellStringLower(System.String)">
+            <summary>
+            汉字转拼音缩写
+            </summary>
+            <param name="str">要转换的汉字字符串</param>
+            <returns>拼音缩写</returns>
+        </member>
+        <member name="M:Helper.GetSpellStringLowerSplitWithBlank(System.String)">
+            <summary>
+            汉字转拼音缩写 (字符串) (小写) (空格间隔)
+            </summary>
+            <param name="str">要转换的汉字字符串</param>
+            <returns>拼音缩写</returns>
+        </member>
+        <member name="M:Helper.GetSpellStringSupper(System.String)">
+            <summary>
+            汉字转拼音缩写 (大写)
+            </summary>
+            <param name="str">要转换的汉字字符串</param>
+            <returns>拼音缩写</returns>
+        </member>
+        <member name="M:Helper.GetSpellStringSupperSplitWithBlank(System.String)">
+            <summary>
+            汉字转拼音缩写  (字符串)(大写)(空格间隔)
+            </summary>
+            <param name="str">要转换的汉字字符串</param>
+            <returns>拼音缩写</returns>
+        </member>
+        <member name="M:Helper.GetSpellCharSupper(System.String)">
+            <summary>
+            取单个字符的拼音声母
+            </summary>
+            <param name="c">要转换的单个汉字</param>
+            <returns>拼音声母</returns>
+        </member>
+        <member name="M:Helper.GetSpellCharLower(System.String)">
+            <summary>
+            取单个字符的拼音声母
+            </summary>
+            <param name="c">要转换的单个汉字</param>
+            <returns>拼音声母</returns>
+        </member>
+        <member name="M:Helper.GetHeadLetters(System.String)">
+            <summary>
+            获取汉字字符串的首字母，例如：白菜->BC
+            </summary>
+            <param name="str">汉字字符串</param>
+            <returns></returns>
+        </member>
+        <member name="F:FMPublicClass.PTHelper.pyValue">
+            <summary>
+            汉字的机内码数组
+            </summary>
+        </member>
+        <member name="F:FMPublicClass.PTHelper.pyName">
+            <summary>
+            机内码对应的拼音数组
+            </summary>
+        </member>
+        <member name="M:FMPublicClass.PTHelper.Convert(System.String)">
+            <summary>
+            把汉字转换成拼音(全拼)
+            </summary>
+            <param name="hzString">汉字字符串</param>
+            <returns>转换后的拼音(全拼)字符串</returns>
+        </member>
+        <member name="M:FMPublicClass.PTHelper.ConvertWithBlank(System.String)">
+            <summary>
+            把汉字转换成拼音(全拼)
+            </summary>
+            <param name="hzString">汉字字符串</param>
+            <returns>转换后的拼音(全拼)字符串</returns>
+        </member>
+        <member name="M:FMPublicClass.PTHelper.ConvertWithSplitChar(System.String,System.String)">
+            <summary>
+            把汉字转换成拼音(全拼)
+            </summary>
+            <param name="hzString">汉字字符串</param>
+            <returns>转换后的拼音(全拼)字符串</returns>
+        </member>
+        <member name="M:FMPublicClass.PTHelper.GetSpellStringLower(System.String)">
+            <summary>
+            汉字转拼音缩写
+            </summary>
+            <param name="str">要转换的汉字字符串</param>
+            <returns>拼音缩写</returns>
+        </member>
+        <member name="M:FMPublicClass.PTHelper.GetSpellStringLowerSplitWithBlank(System.String)">
+            <summary>
+            汉字转拼音缩写 (字符串) (小写) (空格间隔)
+            </summary>
+            <param name="str">要转换的汉字字符串</param>
+            <returns>拼音缩写</returns>
+        </member>
+        <member name="M:FMPublicClass.PTHelper.GetSpellStringSupper(System.String)">
+            <summary>
+            汉字转拼音缩写 (大写)
+            </summary>
+            <param name="str">要转换的汉字字符串</param>
+            <returns>拼音缩写</returns>
+        </member>
+        <member name="M:FMPublicClass.PTHelper.GetSpellStringSupperSplitWithBlank(System.String)">
+            <summary>
+            汉字转拼音缩写  (字符串)(大写)(空格间隔)
+            </summary>
+            <param name="str">要转换的汉字字符串</param>
+            <returns>拼音缩写</returns>
+        </member>
+        <member name="M:FMPublicClass.PTHelper.GetSpellCharSupper(System.String)">
+            <summary>
+            取单个字符的拼音声母
+            </summary>
+            <param name="c">要转换的单个汉字</param>
+            <returns>拼音声母</returns>
+        </member>
+        <member name="M:FMPublicClass.PTHelper.GetSpellCharLower(System.String)">
+            <summary>
+            取单个字符的拼音声母
+            </summary>
+            <param name="c">要转换的单个汉字</param>
+            <returns>拼音声母</returns>
+        </member>
+        <member name="M:FMPublicClass.PTHelper.GetHeadLetters(System.String)">
+            <summary>
+            获取汉字字符串的首字母，例如：白菜->BC
+            </summary>
+            <param name="str">汉字字符串</param>
+            <returns></returns>
+        </member>
+        <member name="T:FMPublicClass.StringOP">
+            <summary>
+            字符串相关操作验证支持类
+            </summary>
+        </member>
+        <member name="M:FMPublicClass.StringOP.GenerateRandom(System.Int32)">
+            <summary>
+            产生随即英文字符
+            </summary>
+            <param name="Length"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FMPublicClass.StringOP.IsNumeric(System.String)">
+            <summary>
+            验证是否正整数
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FMPublicClass.StringOP.IsNumberXS(System.String,System.Int32,System.Int32)">
+            <summary>   
+            判断一个字符串是否为合法数字(指定整数位数和小数位数)   
+            </summary>   
+            <param name="s">字符串</param>   
+            <param name="precision">整数位数</param>   
+            <param name="scale">小数位数</param>   
+            <returns></returns>   
+        </member>
+        <member name="M:FMPublicClass.StringOP.GetEmailData(System.String)">
+            <summary>
+            验证邮箱字符串
+            </summary>
+            <param name="Email"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FMPublicClass.StringOP.ReBuildUrl(System.String,System.String,System.String)">
+            <summary>
+            url里有key的值，就替换为value,没有的话就追加.
+            </summary>
+            <param name="url">原始URL</param>
+            <param name="ParamText">参数名称</param>
+            <param name="ParamValue">要替换或增加的参数值</param>
+            <returns></returns>
+        </member>
+        <member name="M:FMPublicClass.StringOP.serializeTobyte(System.Object)">
+            <summary>
+            对象序列化为byte[]
+            </summary>
+            <param name="o">对象object</param>
+            <returns>byte[]</returns>
+        </member>
+        <member name="M:FMPublicClass.StringOP.serializeTobyte(System.Object[])">
+            <summary>
+            对象序列化为byte[]
+            </summary>
+            <param name="o">对象object[]</param>
+            <returns>byte[]</returns>
+        </member>
+        <member name="M:FMPublicClass.StringOP.serializeTobyteDG(System.Object[])">
+            <summary>
+            多个对象，合并后序列化为byte[]
+            </summary>
+            <param name="o">对象object[]</param>
+            <returns></returns>
+        </member>
+        <member name="M:FMPublicClass.StringOP.GetMD5forjava(System.String)">
+            <summary>
+            java专用md5
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FMPublicClass.StringOP.GetMD5(System.Object[])">
+            <summary>
+            根据参数，获的md5值
+            </summary>
+            <param name="ccccc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FMPublicClass.StringOP.encMe(System.String,System.String)">
+            <summary>
+            加密测试函数
+            </summary>
+            <param name="beinetstr">待加密的字符串</param>
+            <param name="beinetkey">密钥</param>
+            <returns></returns>
+        </member>
+        <member name="M:FMPublicClass.StringOP.uncMe(System.String,System.String)">
+            <summary>
+            解密测试函数
+            </summary>
+            <param name="beinetstr">待解密的字符串</param>
+            <param name="beinetkey">密钥</param>
+            <returns></returns>
+        </member>
+        <member name="M:FMPublicClass.StringOP.stringToHex(System.String)">
+            <summary>
+            把字符串转换为16进制字符串
+            如：a变成61（即10进制的97）；abc变成616263
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FMPublicClass.StringOP.HexTostring(System.String)">
+            <summary>
+            16进制字符串转换为字符串
+            如：61（即10进制的97）变成a；616263变成abc
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FMPublicClass.StringOP.RM(System.Int32,System.Int32)">
+            <summary>
+            带符号位右移（类似于js的>>>）
+            </summary>
+            <param name="a">用于右移的操作数</param>
+            <param name="bit">右移位数</param>
+            <returns></returns>
+        </member>
+        <member name="M:FMPublicClass.StringOP.des(System.String,System.String,System.Boolean,System.Boolean,System.String)">
+            <summary>
+            加解密主调方法
+            </summary>
+            <param name="beinetkey">密钥</param>
+            <param name="message">加密时为string，解密时为byte[]</param>
+            <param name="encrypt">true：加密；false：解密</param>
+            <param name="mode">true：CBC mode；false：非CBC mode</param>
+            <param name="iv">初始化向量</param>
+            <returns></returns>
+        </member>
+        <member name="M:FMPublicClass.StringOP.des_createKeys(System.String)">
+            <summary>
+            this takes as input a 64 bit beinetkey(even though only 56 bits are used)
+            as an array of 2 integers,and returns 16 48 bit keys
+            </summary>
+            <param name="beinetkey"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FMPublicClass.StringOP.GetJsDesMethod">
+            <summary>
+            返回JS版本的Des加解密方法字符串
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FMPublicClass.StringOP.MatchRegexCut(System.String,System.String)">
+            <summary>
+            用正则表达式截取字符串
+            </summary>
+            <param name="s">要截取的字符串</param>
+            <param name="r">正则表达式</param>
+            <returns>截取结果</returns>
+        </member>
+        <member name="M:FMPublicClass.StringOP.WriteLog(System.String)">
+            <summary>
+            写入运行日志
+            </summary>
+            <param name="strLog"></param>
+        </member>
+        <member name="M:FMPublicClass.StringOP.OpenUrl(System.String)">
+            <summary>
+            用浏览器打开一个网址，默认IE,找不到IE，用其他默认浏览器打开
+            </summary>
+            <param name="urlstr">网址</param>
+        </member>
+        <member name="M:FMPublicClass.StringOP.GetDataTableFormHashtable(System.Collections.Hashtable)">
+            <summary>
+            将哈希表转化成只有一行的数据表，用于webservices参数，只能用字符串值，其他类型参数单独声明
+            </summary>
+            <param name="HTforParameter">要转化的哈希表</param>
+            <returns></returns>
+        </member>
+        <member name="M:FMPublicClass.StringOP.GetstrArryFromHashtable(System.Collections.Hashtable)">
+            <summary>
+            将哈希表转化成二维交错数组，用于webservices参数，只能用字符串值
+            </summary>
+            <param name="HTforParameter">要转化的哈希表</param>
+            <returns></returns>
+        </member>
+        <member name="M:FMPublicClass.StringOP.GetHashtableFromstrArry(System.String[][])">
+            <summary>
+            将二维交错数组转化成哈希表，用于webservices参数，只能用字符串值
+            </summary>
+            <param name="strArray">要转化的二维数组</param>
+            <returns></returns>
+        </member>
+        <member name="M:FMPublicClass.StringOP.GetRandomNumber(System.Int32,System.Boolean)">
+            <summary>
+            生成随机验证码（数字、字母混合）大小写已失效20130116。
+            </summary>
+            <param name="length">验证码长度</param>
+            <param name="isUperLower">是否区分大小写（不区分都为小写）</param>
+            <returns></returns>
+        </member>
+        <member name="M:FMPublicClass.StringOP.ValPwd(System.String)">
+            <summary>
+            交易平台密码规则
+            </summary>
+            <param name="pwd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FMPublicClass.StringOP.DataToByte(System.Data.DataSet)">
+            <summary>
+            将Dataset序列化成byte[]
+            </summary>
+            <param name="ds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FMPublicClass.StringOP.ByteToDataset(System.Byte[])">
+            <summary>
+            将byte[]反序列化成Dataset
+            </summary>
+            <param name="bArrayResult"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FMPublicClass.StringOP.Serialize``1(``0)">
+            <summary>
+            将类型序列化为byte数组
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="t">要序列化的类型</param>
+            <returns>byte数组</returns>
+        </member>
+        <member name="M:FMPublicClass.StringOP.Deserialize``1(System.Byte[])">
+            <summary>
+            将byte数组反序列化为类型
+            </summary>
+            <typeparam name="TResult"></typeparam>
+            <param name="s">byte数组</param>
+            <returns>类型</returns>
+        </member>
+    </members>
+</doc>

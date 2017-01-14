@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Us_Send_1006" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Us_Send_1006">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FunctionId" msdata:Caption="接口编号" type="xs:string" default="1006" />
+                <xs:element name="FuncFlag" msdata:Caption="功能标志" type="xs:string" default="0" />
+                <xs:element name="SupAcctId" msdata:Caption="资金汇总账号" type="xs:string" default="0" />
+                <xs:element name="BeginDateTime" msdata:Caption="开始时间" type="xs:string" default="0" />
+                <xs:element name="EndDateTime" msdata:Caption="结束时间" type="xs:string" default="0" />
+                <xs:element name="Reserve" msdata:Caption="保留域" type="xs:string" default="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Us_Send_1006>
+    <FunctionId>1006</FunctionId>
+    <FuncFlag>0</FuncFlag>
+    <SupAcctId>0</SupAcctId>
+    <BeginDateTime>0</BeginDateTime>
+    <EndDateTime>0</EndDateTime>
+    <Reserve>0</Reserve>
+  </Us_Send_1006>
+</NewDataSet>

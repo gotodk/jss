@@ -1,0 +1,978 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0 {
+    position:absolute;
+    left:371px;
+    top:60px;
+    width:272px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u1_normal {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u1_normal.png');
+}
+
+.u1_container {
+    position:absolute;
+    left:330px;
+    top:260px;
+    width:120px;
+    height:40px;
+}
+
+#u1_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:46px;
+}
+
+.u2 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:116px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u3c0 {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u3c0.png');
+}
+
+.u3c0 {
+    position:absolute;
+    left:500px;
+    top:140px;
+    width:275px;
+    height:20px;
+}
+
+.u3c1 {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u3c1.png');
+}
+
+.u3c1 {
+    position:absolute;
+    left:755px;
+    top:140px;
+    width:20px;
+    height:125px;
+}
+
+.u4 {
+    position:absolute;
+    left:136px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5_normal {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u1_normal.png');
+}
+
+.u5_container {
+    position:absolute;
+    left:252px;
+    top:715px;
+    width:120px;
+    height:40px;
+}
+
+#u5_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:46px;
+}
+
+.u6 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:116px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7_normal {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u7_normal.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:329px;
+    top:590px;
+    width:110px;
+    height:70px;
+}
+
+#u7_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:116px;
+    height:76px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:106px;
+    height:42px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9c0 {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u9c0.png');
+}
+
+.u9c0 {
+    position:absolute;
+    left:374px;
+    top:656px;
+    width:20px;
+    height:59px;
+}
+
+.u9c1 {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u9c1.png');
+}
+
+.u9c1 {
+    position:absolute;
+    left:302px;
+    top:695px;
+    width:92px;
+    height:20px;
+}
+
+.u9c2 {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u9c2.png');
+}
+
+.u9c2 {
+    position:absolute;
+    left:302px;
+    top:695px;
+    width:20px;
+    height:24px;
+}
+
+.u10 {
+    position:absolute;
+    left:-68px;
+    top:37px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11c0 {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u11c0.png');
+}
+
+.u11c0 {
+    position:absolute;
+    left:435px;
+    top:615px;
+    width:44px;
+    height:20px;
+}
+
+.u11c1 {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u11c1.png');
+}
+
+.u11c1 {
+    position:absolute;
+    left:459px;
+    top:615px;
+    width:20px;
+    height:105px;
+}
+
+.u12 {
+    position:absolute;
+    left:-20px;
+    top:22px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13_normal {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u13_normal.png');
+}
+
+.u13_container {
+    position:absolute;
+    left:347px;
+    top:120px;
+    width:157px;
+    height:60px;
+}
+
+#u13_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:163px;
+    height:66px;
+}
+
+.u14 {
+    position:absolute;
+    left:2px;
+    top:23px;
+    width:153px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15_normal {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u15_normal.png');
+}
+
+.u15_container {
+    position:absolute;
+    left:420px;
+    top:715px;
+    width:120px;
+    height:86px;
+}
+
+#u15_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:92px;
+}
+
+.u16 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:116px;
+    height:80px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u17_normal {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u17_normal.png');
+}
+
+.u17_container {
+    position:absolute;
+    left:841px;
+    top:519px;
+    width:100px;
+    height:40px;
+}
+
+#u17_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:46px;
+}
+
+.u18 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:96px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19_normal {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u19_normal.png');
+}
+
+.u19_container {
+    position:absolute;
+    left:690px;
+    top:261px;
+    width:150px;
+    height:40px;
+}
+
+#u19_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:46px;
+}
+
+.u20 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:146px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21_normal {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u21_normal.png');
+}
+
+.u21_container {
+    position:absolute;
+    left:694px;
+    top:400px;
+    width:92px;
+    height:65px;
+}
+
+#u21_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:98px;
+    height:71px;
+}
+
+.u22 {
+    position:absolute;
+    left:2px;
+    top:23px;
+    width:88px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u23_normal {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u23_normal.png');
+}
+
+.u23_container {
+    position:absolute;
+    left:690px;
+    top:519px;
+    width:113px;
+    height:37px;
+}
+
+#u23_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:119px;
+    height:43px;
+}
+
+.u24 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:109px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u25c0 {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u25c0.png');
+}
+
+.u25c0 {
+    position:absolute;
+    left:755px;
+    top:297px;
+    width:20px;
+    height:103px;
+}
+
+.u25c1 {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u25c1.png');
+}
+
+.u25c1 {
+    position:absolute;
+    left:730px;
+    top:380px;
+    width:45px;
+    height:20px;
+}
+
+.u25c2 {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u25c2.png');
+}
+
+.u25c2 {
+    position:absolute;
+    left:730px;
+    top:380px;
+    width:20px;
+    height:24px;
+}
+
+.u26 {
+    position:absolute;
+    left:-50px;
+    top:54px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27c0 {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u27c0.png');
+}
+
+.u27c0 {
+    position:absolute;
+    left:730px;
+    top:461px;
+    width:20px;
+    height:68px;
+}
+
+.u28 {
+    position:absolute;
+    left:-50px;
+    top:19px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29c0 {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u29c0.png');
+}
+
+.u29c0 {
+    position:absolute;
+    left:782px;
+    top:422px;
+    width:119px;
+    height:20px;
+}
+
+.u29c1 {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u29c1.png');
+}
+
+.u29c1 {
+    position:absolute;
+    left:881px;
+    top:422px;
+    width:20px;
+    height:101px;
+}
+
+.u30 {
+    position:absolute;
+    left:46px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31c0 {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u31c0.png');
+}
+
+.u31c0 {
+    position:absolute;
+    left:416px;
+    top:176px;
+    width:20px;
+    height:84px;
+}
+
+.u31c1 {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u31c1.png');
+}
+
+.u31c1 {
+    position:absolute;
+    left:380px;
+    top:240px;
+    width:56px;
+    height:20px;
+}
+
+.u31c2 {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u31c2.png');
+}
+
+.u31c2 {
+    position:absolute;
+    left:380px;
+    top:240px;
+    width:20px;
+    height:24px;
+}
+
+.u32 {
+    position:absolute;
+    left:-50px;
+    top:50px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u33_normal {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u7_normal.png');
+}
+
+.u33_container {
+    position:absolute;
+    left:335px;
+    top:340px;
+    width:110px;
+    height:70px;
+}
+
+#u33_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:116px;
+    height:76px;
+}
+
+.u34 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:106px;
+    height:42px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u35_normal {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u35_normal.png');
+}
+
+.u35_container {
+    position:absolute;
+    left:220px;
+    top:477px;
+    width:160px;
+    height:37px;
+}
+
+#u35_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:166px;
+    height:43px;
+}
+
+.u36 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:156px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u37_normal {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u37_normal.png');
+}
+
+.u37_container {
+    position:absolute;
+    left:440px;
+    top:490px;
+    width:135px;
+    height:37px;
+}
+
+#u37_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:141px;
+    height:43px;
+}
+
+.u38 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:131px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u39c0 {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u39c0.png');
+}
+
+.u39c0 {
+    position:absolute;
+    left:380px;
+    top:296px;
+    width:20px;
+    height:54px;
+}
+
+.u40 {
+    position:absolute;
+    left:-50px;
+    top:12px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u41c0 {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u41c0.png');
+}
+
+.u41c0 {
+    position:absolute;
+    left:380px;
+    top:406px;
+    width:20px;
+    height:71px;
+}
+
+.u41c1 {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u41c1.png');
+}
+
+.u41c1 {
+    position:absolute;
+    left:290px;
+    top:457px;
+    width:110px;
+    height:20px;
+}
+
+.u41c2 {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u41c2.png');
+}
+
+.u41c2 {
+    position:absolute;
+    left:290px;
+    top:457px;
+    width:20px;
+    height:24px;
+}
+
+.u42 {
+    position:absolute;
+    left:-72px;
+    top:49px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u43c0 {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u43c0.png');
+}
+
+.u43c0 {
+    position:absolute;
+    left:290px;
+    top:510px;
+    width:20px;
+    height:80px;
+}
+
+.u43c1 {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u43c1.png');
+}
+
+.u43c1 {
+    position:absolute;
+    left:290px;
+    top:570px;
+    width:104px;
+    height:20px;
+}
+
+.u43c2 {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u43c2.png');
+}
+
+.u43c2 {
+    position:absolute;
+    left:374px;
+    top:570px;
+    width:20px;
+    height:24px;
+}
+
+.u44 {
+    position:absolute;
+    left:-36px;
+    top:58px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u45c0 {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u45c0.png');
+}
+
+.u45c0 {
+    position:absolute;
+    left:441px;
+    top:365px;
+    width:77px;
+    height:20px;
+}
+
+.u45c1 {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u45c1.png');
+}
+
+.u45c1 {
+    position:absolute;
+    left:498px;
+    top:365px;
+    width:20px;
+    height:129px;
+}
+
+.u46 {
+    position:absolute;
+    left:13px;
+    top:18px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u47c0 {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u47c0.png');
+}
+
+.u47c0 {
+    position:absolute;
+    left:498px;
+    top:523px;
+    width:20px;
+    height:67px;
+}
+
+.u47c1 {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u47c1.png');
+}
+
+.u47c1 {
+    position:absolute;
+    left:374px;
+    top:570px;
+    width:144px;
+    height:20px;
+}
+
+.u47c2 {
+    background-image: url('../买方未签收卖方业务流程V1_2_未实施_files/u47c2.png');
+}
+
+.u47c2 {
+    position:absolute;
+    left:374px;
+    top:570px;
+    width:20px;
+    height:24px;
+}
+
+.u48 {
+    position:absolute;
+    left:-90px;
+    top:45px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u49 {
+    position:absolute;
+    left:860px;
+    top:284px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u50 {
+    position:absolute;
+    left:100px;
+    top:164px;
+    width:150px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

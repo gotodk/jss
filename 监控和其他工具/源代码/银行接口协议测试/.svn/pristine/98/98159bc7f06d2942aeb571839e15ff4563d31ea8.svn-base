@@ -1,0 +1,165 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+using FMBANKpufa;
+using System.Collections;
+using System.IO;
+namespace 银行接口协议测试
+{
+    public partial class FormTest : Form
+    {
+        public FormTest()
+        {
+            InitializeComponent();
+        }
+
+        //查看加密前的包体
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DataTable dtthis = (DataTable)(dataGridViewSet.DataSource);
+            if (dtthis == null)
+            { return; }
+
+            RTBlog.AppendText("未加密的包:=================" + Environment.NewLine);
+            //转化查看
+            FMBANKpufa.ClassSend CS = new ClassSend();
+            Hashtable reHT = CS.Get_ByteAndString_From_DataTable(dtthis, false, "");
+            byte[] bb = (byte[])(reHT["字节流"]);
+            string ss = reHT["视觉检测字符串"].ToString();
+            RTBlog.AppendText(ss + Environment.NewLine);
+
+            RTBlog.AppendText("============================" + Environment.NewLine);
+        }
+
+
+        //查看加密后的包体
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        //发送数据包
+        private void button3_Click(object sender, EventArgs e)
+        {
+         
+                DataTable dtthis = (DataTable)(dataGridViewSet.DataSource);
+                if (dtthis == null)
+                { return; }
+
+                FMBANKpufa.ClassSend CS = new ClassSend();
+                Hashtable HT = CS.Get_ByteAndString_From_DataTable(dtthis, false, "");
+                byte[] bb = (byte[])(HT["字节流"]);
+                string ss = HT["视觉检测字符串"].ToString();
+                Hashtable reHT = CS.BeginSend(CBIP.Text, TBDK.Text, bb);
+                RTBlog.AppendText(reHT["发包函数执行阶段"].ToString() + Environment.NewLine);
+                RTBlog.AppendText(reHT["返回的日志"].ToString() + Environment.NewLine);
+
+
+                Hashtable reHT2 = CS.Get_BaotouAndDataTableAndString_From_Byte((byte[])(reHT["返回的数据包"]), false, "");
+                string show1 = reHT2["包头视觉检测字符串"].ToString();
+                string show2 = reHT2["包体视觉检测字符串"].ToString();
+                DataTable dtshow = (DataTable)reHT2["包体数据集"];
+                dataGridViewShow.DataSource = dtshow;
+                RTBlog.AppendText("返回的包头包体视觉检测：" + Environment.NewLine + show1 + show2 + Environment.NewLine);
+      
+        }
+
+ 
+
+
+        private void FormTest_Load(object sender, EventArgs e)
+        {
+            //清理下拉框
+            CBgongneng.Items.Clear();
+            CBgongneng.Items.Add("");
+            //从目录加载xml配置对照文件，便于测试
+            string savepath = System.AppDomain.CurrentDomain.SetupInformation.ApplicationBase + @"\浦发\";
+            List<FileInfo> FI = GetAllFilesInDirectory(savepath);
+            foreach (FileInfo file in FI)
+            {
+                CBgongneng.Items.Add(file);
+            }
+             
+        }
+
+        private void CBgongneng_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //选择配置后，加载到测试区域
+            if (CBgongneng.SelectedItem.ToString() == "")
+            {
+                dataGridViewSet.DataSource = null;
+                return;
+            }
+            FileInfo FI = (FileInfo)(CBgongneng.SelectedItem);
+            DataTable dtthis = new DataTable();
+            dtthis.ReadXml(FI.FullName);
+
+            dataGridViewSet.DataSource = dtthis;
+            for (int i = 0; i < dataGridViewSet.Columns.Count; i++)
+            {
+                dataGridViewSet.Columns[i].SortMode = DataGridViewColumnSortMode.NotSortable;
+                dataGridViewSet.Columns[i].ToolTipText = dtthis.Columns[i].Caption;
+            }
+
+        }
+
+        /// <summary>
+        /// asciiCode转字符串
+        /// </summary>
+        /// <param name="asciiCode"></param>
+        /// <returns></returns>
+        private string Chr(int asciiCode)
+        {
+            if (asciiCode >= 0 && asciiCode <= 255)
+            {
+                System.Text.ASCIIEncoding asciiEncoding = new System.Text.ASCIIEncoding();
+                byte[] byteArray = new byte[] { (byte)asciiCode };
+                string strCharacter = asciiEncoding.GetString(byteArray);
+                return (strCharacter);
+            }
+            else
+            {
+                return "";
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FormXML FX = new FormXML();
+            FX.Show();
+        }
+
+
+        /// <summary>
+        /// 返回指定目录下的所有文件信息
+        /// </summary>
+        /// <param name="strDirectory"></param>
+        /// <returns></returns>
+        private List<FileInfo> GetAllFilesInDirectory(string strDirectory)
+        {
+            List<FileInfo> listFiles = new List<FileInfo>(); //保存所有的文件信息  
+            DirectoryInfo directory = new DirectoryInfo(strDirectory);
+            DirectoryInfo[] directoryArray = directory.GetDirectories();
+            FileInfo[] fileInfoArray = directory.GetFiles();
+            if (fileInfoArray.Length > 0) listFiles.AddRange(fileInfoArray);
+            foreach (DirectoryInfo _directoryInfo in directoryArray)
+            {
+                DirectoryInfo directoryA = new DirectoryInfo(_directoryInfo.FullName);
+                DirectoryInfo[] directoryArrayA = directoryA.GetDirectories();
+                FileInfo[] fileInfoArrayA = directoryA.GetFiles();
+                if (fileInfoArrayA.Length > 0) listFiles.AddRange(fileInfoArrayA);
+                GetAllFilesInDirectory(_directoryInfo.FullName);//递归遍历  
+            }
+            return listFiles;
+        }
+
+
+
+
+
+    }
+}

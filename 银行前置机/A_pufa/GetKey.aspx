@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="GetKey.aspx.cs" Inherits="GetKey" %>

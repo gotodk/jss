@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Us_Send_1003" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Us_Send_1003">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FunctionId" msdata:Caption="接口编号" type="xs:string" default="1003" />
+                <xs:element name="FuncFlag" msdata:Caption="批量标识" type="xs:string" default="0" />
+                <xs:element name="FileName" msdata:Caption="批量文件名" type="xs:string" default="0" />
+                <xs:element name="FileSize" msdata:Caption="文件大小" type="xs:string" default="0" />
+                <xs:element name="SupAcctId" msdata:Caption="资金汇总账号" type="xs:string" default="0" />
+                <xs:element name="QsZcAmount" msdata:Caption="清收买卖货款扎差金额" type="xs:string" default="0" />
+                <xs:element name="FreezeAmount" msdata:Caption="冻结总金额" type="xs:string" default="0" />
+                <xs:element name="UnfreezeAmount" msdata:Caption="解冻总金额" type="xs:string" default="0" />
+                <xs:element name="SyZcAmount" msdata:Caption="损益扎差数" type="xs:string" default="0" />
+                <xs:element name="Reserve" msdata:Caption="保留域" type="xs:string" default="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Us_Send_1003>
+    <FunctionId>1003</FunctionId>
+    <FuncFlag>0</FuncFlag>
+    <FileName>0</FileName>
+    <FileSize>0</FileSize>
+    <SupAcctId>0</SupAcctId>
+    <QsZcAmount>0</QsZcAmount>
+    <FreezeAmount>0</FreezeAmount>
+    <UnfreezeAmount>0</UnfreezeAmount>
+    <SyZcAmount>0</SyZcAmount>
+    <Reserve>0</Reserve>
+  </Us_Send_1003>
+</NewDataSet>

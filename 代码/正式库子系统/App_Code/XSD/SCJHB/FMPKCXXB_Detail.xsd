@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="FMPKCXXB_Detail" targetNamespace="http://tempuri.org/FMPKCXXB_Detail.xsd" xmlns:mstns="http://tempuri.org/FMPKCXXB_Detail.xsd" xmlns="http://tempuri.org/FMPKCXXB_Detail.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="FMOPConn" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="FMOPConn (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.FMOPConn.ConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="CSZX_FMPSTOCKTableAdapter" Name="CSZX_FMPSTOCK">
+            <MainSource>
+              <DbSource ConnectionRef="FMOPConn (Web.config)" DbObjectName="FMOP.dbo.CSZX_FMPSTOCK" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="False" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="False">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>select Top 0 Ucode,RKSJ,CKSJ from CSZX_FMPStock FMP
+INNER JOIN cszx_FMPCKD  CKD ON  FMP.CKDH = CKD.Number
+INNER JOIN cszx_FMPRKD	RKD ON	FMP. RCDH = RKD.Number</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Ucode" DataSetColumn="Ucode" />
+              <Mapping SourceColumn="RKSJ" DataSetColumn="RKSJ" />
+              <Mapping SourceColumn="CKSJ" DataSetColumn="CKSJ" />
+            </Mappings>
+            <Sources>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="FMPKCXXB_Detail" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CSZX_FMPSTOCK">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Ucode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RKSJ" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CKSJ" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:CSZX_FMPSTOCK" />
+      <xs:field xpath="mstns:Ucode" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,170 @@
+﻿/* WRAPPER SETTINGS */
+
+.radInput_Vista
+{
+	font: normal 11px "segoe ui",arial,verdana,tahoma,sans-serif;	
+	vertical-align: middle;
+}
+
+.radInput_Vista table,
+.radInput_Vista table td
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.radInput_Vista .spinImgCell,
+.radInput_Vista .imageCell
+{
+	vertical-align:top;		
+	padding-bottom: 2px;
+}
+
+.radInput_Vista .inputCell 
+{		
+	padding: 0 2px 0 0;	
+	*padding: 0 4px 4px 0; /*IE hack*/	
+}
+
+/* SPIN BUTTONS */
+.radInput_Vista a.spinbutton
+{
+	display: block;
+	text-indent: -9999px;
+	width: 14px;
+	height: 8px; 
+	line-height: 8px;
+	background: transparent url('Img/SpinButtonSprites.gif') center 2px no-repeat;
+	font-size: 1px;
+	position: relative;
+	*position: inherit; /*IE fix*/
+	top: 5px;
+	outline: none;	
+}
+
+.radInput_Vista a.spinbutton.up
+{
+	background-position: center 0;
+}
+
+.radInput_Vista a.spinbutton.down
+{
+	background-position: center -10px;
+}
+
+.radInput_Vista a.gobutton
+{
+	display: block;
+	text-indent: -9999px;
+	width: 20px;
+	height: 17px; 
+	line-height: 17px;
+	background: transparent url('Img/button.gif') no-repeat;
+	font-size: 1px;
+	position: relative;
+	*position: inherit; /*IE fix*/
+	outline: none;
+}
+
+/* END OF WRAPPER SETTINGS */
+
+
+
+/* INPUT STYLES SETTINGS */
+
+.radEnabledCss_Vista,
+.radEmptyMessageCss_Vista,
+.radHoverCss_Vista,
+.radFocusedCss_Vista,
+.radNegativeCss_Vista,
+.radDisabledCss_Vista,
+.radInvalidCss_Vista
+{
+	font: normal 11px/16px "segoe ui",arial,verdana,tahoma,sans-serif;
+	padding-top:2px;
+	height:18px;
+}
+
+.radEnabledCss_Vista 
+{
+	color:#000;
+	border:solid 1px;
+	border-color:#abadb3 #dbdfe6 #e3e9ef #e2e3ea;
+}
+
+.radHoverCss_Vista 
+{
+	color:#000;	
+	border:solid 1px;
+	border-color:#5794bf #b7d5ea #c7e2f1 #c5daed;
+}
+
+.radDisabledCss_Vista
+{
+	color:#ccc;
+	border:solid 1px #aeaeae;
+}
+
+.radEmptyMessageCss_Vista
+{
+	color: #333;
+	border:1px solid;
+	border-color:#abadb3 #dbdfe6 #e3e9ef #e2e3ea;
+}
+
+.radFocusedCss_Vista
+{
+	border:1px solid;
+	border-color:#3d7bad #a4c9e3 #b7d9ed #b5cfe7;
+	color:#000;	
+}
+
+.radNegativeCss_Vista 
+{
+	color:#333;
+	border:solid 1px;
+	border-color:#abadb3 #dbdfe6 #e3e9ef #e2e3ea;
+}
+
+.radInvalidCss_Vista 
+{
+	border:1px solid;
+	border-color:#abadb3 #dbdfe6 #e3e9ef #e2e3ea;
+	color: #ff4800;
+}
+
+.radLabelCss_Vista
+{	  
+	color: #000;
+	font: normal 11px "segoe ui",arial,tahoma,sans-serif;
+	white-space:nowrap;
+}
+
+.radHint_Vista 
+{
+	background:url(Img/hintBg.gif) repeat-x #e4e5f0;
+	border:1px solid #959598;
+	margin:5px 0 0 5px;
+	padding:4px;
+	font:normal 11px "segoe ui",arial,tahoma,sans-serif;
+	text-align:left;
+}
+
+.radHint_Vista a,
+.radHint_Vista a:visited,
+.radHint_Vista a:hover
+{
+	margin: 2px;
+	color: black;
+	text-decoration: none;
+}
+
+.radDisabledCss_Vista a.gobutton,
+.radDisabledCss_Vista a.spinbutton
+{
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=30);
+	opacity: .3; 
+	-moz-opacity: .3;
+	cursor: no-drop;
+}

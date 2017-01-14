@@ -1,0 +1,506 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../客户签约确认（浦发）_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:110px;
+    top:100px;
+    width:320px;
+    height:40px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:326px;
+    height:46px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:316px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../客户签约确认（浦发）_files/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:192px;
+    top:170px;
+    width:155px;
+    height:93px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:161px;
+    height:99px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:30px;
+    width:151px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4c0 {
+    background-image: url('../客户签约确认（浦发）_files/u4c0.png');
+}
+
+.u4c0 {
+    position:absolute;
+    left:343px;
+    top:206px;
+    width:87px;
+    height:20px;
+}
+
+.u4c1 {
+    background-image: url('../客户签约确认（浦发）_files/u4c1.png');
+}
+
+.u4c1 {
+    position:absolute;
+    left:410px;
+    top:206px;
+    width:20px;
+    height:21px;
+}
+
+.u4c2 {
+    background-image: url('../客户签约确认（浦发）_files/u4c2.png');
+}
+
+.u4c2 {
+    position:absolute;
+    left:410px;
+    top:207px;
+    width:24px;
+    height:20px;
+}
+
+.u5 {
+    position:absolute;
+    left:-8px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6c0 {
+    background-image: url('../客户签约确认（浦发）_files/u6c0.png');
+}
+
+.u6c0 {
+    position:absolute;
+    left:260px;
+    top:136px;
+    width:20px;
+    height:44px;
+}
+
+.u7 {
+    position:absolute;
+    left:-50px;
+    top:7px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8_normal {
+    background-image: url('../客户签约确认（浦发）_files/u8_normal.png');
+}
+
+.u8_container {
+    position:absolute;
+    left:430px;
+    top:202px;
+    width:97px;
+    height:30px;
+}
+
+#u8_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:103px;
+    height:36px;
+}
+
+.u9 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:93px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10_normal {
+    background-image: url('../客户签约确认（浦发）_files/u10_normal.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:70px;
+    top:580px;
+    width:191px;
+    height:30px;
+}
+
+#u10_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:197px;
+    height:36px;
+}
+
+.u11 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:187px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12c0 {
+    background-image: url('../客户签约确认（浦发）_files/u12c0.png');
+}
+
+.u12c0 {
+    position:absolute;
+    left:260px;
+    top:259px;
+    width:20px;
+    height:91px;
+}
+
+.u13 {
+    position:absolute;
+    left:-50px;
+    top:30px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_normal {
+    background-image: url('../客户签约确认（浦发）_files/u14_normal.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:110px;
+    top:340px;
+    width:320px;
+    height:70px;
+}
+
+#u14_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:326px;
+    height:76px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:19px;
+    width:316px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16_normal {
+    background-image: url('../客户签约确认（浦发）_files/u2_normal.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:192px;
+    top:457px;
+    width:155px;
+    height:93px;
+}
+
+#u16_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:161px;
+    height:99px;
+}
+
+.u17 {
+    position:absolute;
+    left:2px;
+    top:38px;
+    width:151px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18c0 {
+    background-image: url('../客户签约确认（浦发）_files/u18c0.png');
+}
+
+.u18c0 {
+    position:absolute;
+    left:260px;
+    top:406px;
+    width:20px;
+    height:61px;
+}
+
+.u19 {
+    position:absolute;
+    left:-50px;
+    top:16px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20c0 {
+    background-image: url('../客户签约确认（浦发）_files/u20c0.png');
+}
+
+.u20c0 {
+    position:absolute;
+    left:260px;
+    top:546px;
+    width:20px;
+    height:34px;
+}
+
+.u20c1 {
+    background-image: url('../客户签约确认（浦发）_files/u20c1.png');
+}
+
+.u20c1 {
+    position:absolute;
+    left:156px;
+    top:560px;
+    width:124px;
+    height:20px;
+}
+
+.u20c2 {
+    background-image: url('../客户签约确认（浦发）_files/u20c2.png');
+}
+
+.u20c2 {
+    position:absolute;
+    left:156px;
+    top:560px;
+    width:20px;
+    height:24px;
+}
+
+.u21 {
+    position:absolute;
+    left:-97px;
+    top:12px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22c0 {
+    background-image: url('../客户签约确认（浦发）_files/u22c0.png');
+}
+
+.u22c0 {
+    position:absolute;
+    left:343px;
+    top:494px;
+    width:61px;
+    height:20px;
+}
+
+.u22c1 {
+    background-image: url('../客户签约确认（浦发）_files/u22c1.png');
+}
+
+.u22c1 {
+    position:absolute;
+    left:384px;
+    top:494px;
+    width:20px;
+    height:88px;
+}
+
+.u23 {
+    position:absolute;
+    left:-3px;
+    top:6px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24_normal {
+    background-image: url('../客户签约确认（浦发）_files/u10_normal.png');
+}
+
+.u24_container {
+    position:absolute;
+    left:299px;
+    top:578px;
+    width:191px;
+    height:30px;
+}
+
+#u24_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:197px;
+    height:36px;
+}
+
+.u25 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:187px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26 {
+    position:absolute;
+    left:580px;
+    top:110px;
+    width:550px;
+    height:240px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27 {
+    position:absolute;
+    left:144px;
+    top:48px;
+    width:450px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

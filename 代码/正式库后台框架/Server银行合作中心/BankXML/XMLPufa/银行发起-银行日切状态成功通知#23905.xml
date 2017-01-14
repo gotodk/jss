@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="银行发起-银行日切状态成功通知_x0023_23905" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="银行发起-银行日切状态成功通知_x0023_23905">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FunctionId" msdata:Caption="功能号" type="xs:string" default="23905" />
+                <xs:element name="ExSerial" msdata:Caption="外部流水号" type="xs:string" default="xxxx" />
+                <xs:element name="bOrganId" msdata:Caption="银行类型" type="xs:string" default="6" />
+                <xs:element name="sOrganId" msdata:Caption="证券公司编号" type="xs:string" default="60050000" />
+                <xs:element name="MachineDate" msdata:Caption="自然日日期" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="Date" msdata:Caption="交易日期" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="Time" msdata:Caption="发生时间" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="Summary" msdata:Caption="摘要" type="xs:string" default="" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <银行发起-银行日切状态成功通知_x0023_23905>
+    <FunctionId>23905</FunctionId>
+    <ExSerial>xxxx</ExSerial>
+    <bOrganId>6</bOrganId>
+    <sOrganId>60050000</sOrganId>
+    <MachineDate />
+    <Date />
+    <Time />
+    <Summary />
+  </银行发起-银行日切状态成功通知_x0023_23905>
+</NewDataSet>

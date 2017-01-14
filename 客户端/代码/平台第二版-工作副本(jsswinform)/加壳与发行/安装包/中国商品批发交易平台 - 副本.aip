@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="11.0" version="11.0" Modules="enterprise" RootPath="." Language="zh" Id="{D02DEB56-EE79-48BC-84EA-6A8C2B6918A5}">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="AI_CF_FrameBottomLeft" Value="frame_bottom_left.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameBottomLeftInactive" Value="frame_bottom_left_inactive.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameBottomMid" Value="frame_bottom_mid.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameBottomMidInactive" Value="frame_bottom_mid_inactive.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameBottomRight" Value="frame_bottom_right.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameBottomRightInactive" Value="frame_bottom_right_inactive.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameCaption" Value="frame_caption.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameCaptionInactive" Value="frame_caption_inactive.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameLeft" Value="frame_left.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameLeftInactive" Value="frame_left_inactive.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameRight" Value="frame_right.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameRightInactive" Value="frame_right_inactive.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameTopLeft" Value="frame_top_left.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameTopLeftInactive" Value="frame_top_left_inactive.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameTopMid" Value="frame_top_mid.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameTopMidInactive" Value="frame_top_mid_inactive.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameTopRight" Value="frame_top_right.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameTopRightInactive" Value="frame_top_right_inactive.bmp" Type="1"/>
+    <ROW Property="AI_CF_SysCloseDown" Value="sys_close_down.bmp" Type="1"/>
+    <ROW Property="AI_CF_SysCloseHot" Value="sys_close_hot.bmp" Type="1"/>
+    <ROW Property="AI_CF_SysCloseInactive" Value="sys_close_inactive.bmp" Type="1"/>
+    <ROW Property="AI_CF_SysCloseNormal" Value="sys_close_normal.bmp" Type="1"/>
+    <ROW Property="AI_CF_SysMinDown" Value="sys_min_down.bmp" Type="1"/>
+    <ROW Property="AI_CF_SysMinHot" Value="sys_min_hot.bmp" Type="1"/>
+    <ROW Property="AI_CF_SysMinInactive" Value="sys_min_inactive.bmp" Type="1"/>
+    <ROW Property="AI_CF_SysMinNormal" Value="sys_min_normal.bmp" Type="1"/>
+    <ROW Property="AI_CF_TYPE" Value="0" MultiBuildValue="DefaultBuild:1" Type="4"/>
+    <ROW Property="AI_FINDEXE_TITLE" Value="选择 [|ProductName] 安装包" ValueLocId="AI.Property.FindExeTitle"/>
+    <ROW Property="AI_FrameBtnsColor" Value="powderblue" MultiBuildValue="DefaultBuild:mediumorchid" MsiKey="AI_FrameBtnsColor"/>
+    <ROW Property="AI_FrameColor" Value="powderblue" MultiBuildValue="DefaultBuild:deepskyblue" MsiKey="AI_FrameColor"/>
+    <ROW Property="AI_MINDOTNETVERSION" MultiBuildValue="DefaultBuild:2.0" ValueLocId="-"/>
+    <ROW Property="AI_PRODUCTNAME_ARP" Value="中国商品批发交易平台"/>
+    <ROW Property="AI_UNINSTALLER" Value="msiexec.exe"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value=" " ValueLocId="*"/>
+    <ROW Property="ARPCONTACT" Value=" "/>
+    <ROW Property="ARPHELPLINK" Value="http://www.fm8844.com"/>
+    <ROW Property="ARPHELPTELEPHONE" Value="400-688-8844"/>
+    <ROW Property="ARPPRODUCTICON" Value="ji.exe" Type="8"/>
+    <ROW Property="ARPURLINFOABOUT" Value="http://www.fm8844.com"/>
+    <ROW Property="ARPURLUPDATEINFO" Value="http://www.fm8844.com"/>
+    <ROW Property="AppLogoIcon" Value="applogoicon" Type="1" MsiKey="AppLogoIcon"/>
+    <ROW Property="CTRLS" Value="2"/>
+    <ROW Property="DefaultUIFont" Value="DlgFont8" Type="2" Options="65536" MsiKey="DefaultUIFont"/>
+    <ROW Property="Manufacturer" Value="富美科技集团有限公司"/>
+    <ROW Property="ProductCode" Value="2052:{D3743E56-AE75-4480-A9A6-0C9D67931FEC} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="2052"/>
+    <ROW Property="ProductName" Value="中国商品批发交易平台"/>
+    <ROW Property="ProductVersion" Value="1.0.0" Type="32"/>
+    <ROW Property="REBOOT" MultiBuildValue="DefaultBuild:ReallySuppress"/>
+    <ROW Property="RUNAPPLICATION" Value="1" Type="4"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND;AI_SETUPEXEPATH;SETUPEXEDIR"/>
+    <ROW Property="UpgradeCode" Value="{8BAF0FF3-8C08-4CE1-A79D-52A794EC2D89}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="ForIPC_Dir" Directory_Parent="APPDIR" DefaultDir="ForIPC"/>
+    <ROW Directory="ProgramMenuFolder" Directory_Parent="TARGETDIR" DefaultDir="PROGRA~1|ProgramMenuFolder" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="skin_Dir" Directory_Parent="APPDIR" DefaultDir="skin"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="AI_CustomARPName" ComponentId="{E20D26B2-F01C-400F-8FF6-5C8559CB964C}" Directory_="APPDIR" Attributes="4" KeyPath="DisplayName" Options="1"/>
+    <ROW Component="AI_ExePath" ComponentId="{5C1194A6-9541-4453-B69A-D0E09EA31CD5}" Directory_="APPDIR" Attributes="4" KeyPath="AI_ExePath"/>
+    <ROW Component="B1_Variable.dll" ComponentId="{62E118BF-ECC5-47C3-AE57-4E7F35485408}" Directory_="APPDIR" Attributes="0" KeyPath="B1_Variable.dll"/>
+    <ROW Component="B2_Variable.dll" ComponentId="{27CF20BD-AF85-45F4-95FC-5929A391F2E6}" Directory_="APPDIR" Attributes="0" KeyPath="B2_Variable.dll"/>
+    <ROW Component="BeginCopyUp.exe" ComponentId="{A49F0B32-4B0C-4547-99EE-EE840C3B884D}" Directory_="APPDIR" Attributes="0" KeyPath="BeginCopyUp.exe"/>
+    <ROW Component="FMWSDL__capiGetPager__02BF8D56CF7B6A85FF" ComponentId="{E1F10329-5796-4CDA-A954-5BF6E6A016EB}" Directory_="ForIPC_Dir" Attributes="0" KeyPath="FMWSDL__capiGetPager__02BF8D56CF7B6A85FFD69188658BBD60.dll"/>
+    <ROW Component="FMWSDL__capi__D38A552563F7892F3AE7209104" ComponentId="{077056F2-C56C-42D1-8EA7-43829ED524FB}" Directory_="ForIPC_Dir" Attributes="0" KeyPath="FMWSDL__capi__D38A552563F7892F3AE72091049CDEBB.dll"/>
+    <ROW Component="FMWSDL__fmwscenter__A1B3AF48D7577E719350" ComponentId="{1BE566E9-005B-46B3-9D46-18429BB47A67}" Directory_="ForIPC_Dir" Attributes="0" KeyPath="FMWSDL__fmwscenter__A1B3AF48D7577E719350E6FCF750C3B0.dll"/>
+    <ROW Component="ICSharpCode.SharpZipLib.dll" ComponentId="{32DA2131-4D74-45DF-A6FE-296CDCD7359D}" Directory_="APPDIR" Attributes="0" KeyPath="ICSharpCode.SharpZipLib.dll"/>
+    <ROW Component="IPClist.config" ComponentId="{0C84B256-C4E7-4FAC-8F20-2B3C9B3A4081}" Directory_="ForIPC_Dir" Attributes="0" KeyPath="IPClist.config" Type="0"/>
+    <ROW Component="Infragistics2.Shared.v8.2.dll" ComponentId="{59463671-210F-4F35-A3B9-35FA0933DED8}" Directory_="APPDIR" Attributes="0" KeyPath="Infragistics2.Shared.v8.2.dll"/>
+    <ROW Component="Infragistics2.Win.Misc.v8.2.dll" ComponentId="{4777618A-75AF-4469-BF93-F50C79919F0B}" Directory_="APPDIR" Attributes="0" KeyPath="Infragistics2.Win.Misc.v8.2.dll"/>
+    <ROW Component="Infragistics2.Win.UltraWinChart.v8.2.dll" ComponentId="{EF825694-F52B-4B9D-B83C-FED4A104B64D}" Directory_="APPDIR" Attributes="0" KeyPath="Infragistics2.Win.UltraWinChart.v8.2.dll"/>
+    <ROW Component="Infragistics2.Win.v8.2.dll" ComponentId="{87201485-37E9-40A2-948C-E0BA82073D01}" Directory_="APPDIR" Attributes="0" KeyPath="Infragistics2.Win.v8.2.dll"/>
+    <ROW Component="K1_Control_G.dll" ComponentId="{A56CE01E-93BE-43F5-B5FE-2F37B4F683E0}" Directory_="APPDIR" Attributes="0" KeyPath="K1_Control_G.dll"/>
+    <ROW Component="K1_Controll_D.dll" ComponentId="{F16800C8-7814-46F3-B79E-D78165D610AF}" Directory_="APPDIR" Attributes="0" KeyPath="K1_Controll_D.dll"/>
+    <ROW Component="K2_Control_G.dll" ComponentId="{2EAA44FE-834C-47AC-A08A-EB9F5F89959B}" Directory_="APPDIR" Attributes="0" KeyPath="K2_Control_G.dll"/>
+    <ROW Component="K3_Conteol_D.dll" ComponentId="{C7203809-6453-4D4F-8406-E005DD62C827}" Directory_="APPDIR" Attributes="0" KeyPath="K3_Conteol_D.dll"/>
+    <ROW Component="K3_Control_G.dll" ComponentId="{064C59C8-1E65-46A0-BA4B-849FE8366780}" Directory_="APPDIR" Attributes="0" KeyPath="K3_Control_G.dll"/>
+    <ROW Component="O2S.Components.PDFRender4NET.dll" ComponentId="{B0CDD892-239F-4C5F-B2ED-5394C2413F55}" Directory_="APPDIR" Attributes="0" KeyPath="O2S.Components.PDFRender4NET.dll"/>
+    <ROW Component="O2S.Components.PDFView4NET.dll" ComponentId="{A0772575-6E02-4ED4-BD6D-88B8413B6D1B}" Directory_="APPDIR" Attributes="0" KeyPath="O2S.Components.PDFView4NET.dll"/>
+    <ROW Component="P1_Support.dll" ComponentId="{A1C8CA3B-3A40-4AA6-9FDB-1A666FE0620E}" Directory_="APPDIR" Attributes="0" KeyPath="P1_Support.dll"/>
+    <ROW Component="P2_Support.dll" ComponentId="{B16E9E7D-D52C-4557-A7A8-0BA64BD507C9}" Directory_="APPDIR" Attributes="0" KeyPath="P2_Support.dll"/>
+    <ROW Component="P3_Support.dll" ComponentId="{223D0D0E-C0C0-48D3-A1DF-1584042741E6}" Directory_="APPDIR" Attributes="0" KeyPath="P3_Support.dll"/>
+    <ROW Component="P4_Support.dll" ComponentId="{FA290B98-8EED-4784-8D9E-B2BBD271FF43}" Directory_="APPDIR" Attributes="0" KeyPath="P4_Support.dll"/>
+    <ROW Component="ProductInformation" ComponentId="{AFEE7EDB-2B7C-407C-86CC-114A510398C3}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="Skins.dll" ComponentId="{6C7C936D-DDF3-455A-94B7-4A16710EB1DB}" Directory_="APPDIR" Attributes="0" KeyPath="Skins.dll"/>
+    <ROW Component="System.Core.dll" ComponentId="{3E3443E3-E1D5-494F-B9BD-E02DF0657366}" Directory_="APPDIR" Attributes="0" KeyPath="System.Core.dll"/>
+    <ROW Component="System.Data.DataSetExtensions.dll" ComponentId="{EAB92EB5-31A6-426B-AD27-A21E27A96086}" Directory_="APPDIR" Attributes="0" KeyPath="System.Data.DataSetExtensions.dll"/>
+    <ROW Component="System.Web.Extensions.dll" ComponentId="{24CBB1A7-EA5B-4A12-B527-764B9574746E}" Directory_="APPDIR" Attributes="0" KeyPath="System.Web.Extensions.dll"/>
+    <ROW Component="W1_Services.dll" ComponentId="{2043BD13-F016-4ADA-A399-25E1C472554E}" Directory_="APPDIR" Attributes="0" KeyPath="W1_Services.dll"/>
+    <ROW Component="Y1_Business_Old.dll" ComponentId="{AF1DB6F0-8455-4172-AADC-DBAF5E606ED3}" Directory_="APPDIR" Attributes="0" KeyPath="Y1_Business_Old.dll"/>
+    <ROW Component="Y2_Business_New.dll" ComponentId="{299BF023-CFA0-4FE6-BC81-F5AB6B5D2B14}" Directory_="APPDIR" Attributes="0" KeyPath="Y2_Business_New.dll"/>
+    <ROW Component="Y3_Business_Muban.dll" ComponentId="{BA642713-C8F2-42D4-BBE6-DDF28CF94581}" Directory_="APPDIR" Attributes="0" KeyPath="Y3_Business_Muban.dll"/>
+    <ROW Component="Y4_Business_SPMM.dll" ComponentId="{481A07CD-A0AC-4731-8A8A-474EF0B9FA89}" Directory_="APPDIR" Attributes="0" KeyPath="Y4_Business_SPMM.dll"/>
+    <ROW Component="Y5_Business_HWSF.dll" ComponentId="{BDC63DC0-116D-4C60-A67B-539D7D49927D}" Directory_="APPDIR" Attributes="0" KeyPath="Y5_Business_HWSF.dll"/>
+    <ROW Component="Y6_Business_JJRYWGL.dll" ComponentId="{3F7EA081-581C-46E2-8E91-9FC63FA1B746}" Directory_="APPDIR" Attributes="0" KeyPath="Y6_Business_JJRYWGL.dll"/>
+    <ROW Component="Y7_Business_ZHWH.dll" ComponentId="{4EB54816-3024-4AA1-9F75-A03FF8C65610}" Directory_="APPDIR" Attributes="0" KeyPath="Y7_Business_ZHWH.dll"/>
+    <ROW Component="cuowu.png" ComponentId="{98C50DCA-F3F2-4757-B205-0B1F0EE19169}" Directory_="skin_Dir" Attributes="0" KeyPath="cuowu.png" Type="0"/>
+    <ROW Component="dll" ComponentId="{FD3D3410-D61A-4475-B3E5-DAFF3D9D2AD9}" Directory_="APPDIR" Attributes="0" KeyPath="dll"/>
+    <ROW Component="exe" ComponentId="{30D2776B-484C-439C-9C26-7D12C18976F9}" Directory_="APPDIR" Attributes="0" KeyPath="exe"/>
+    <ROW Component="exe.config" ComponentId="{6FD9EBB3-71EE-40A2-AC39-BCA292A308C2}" Directory_="APPDIR" Attributes="0" KeyPath="exe.config" Type="0"/>
+    <ROW Component="initfile.dll" ComponentId="{692AC98E-746E-4E66-95CC-1F2F96E9E733}" Directory_="APPDIR" Attributes="0" KeyPath="initfile.dll"/>
+    <ROW Component="org.in2bits.MyXls.dll" ComponentId="{E36AB266-FEBA-4E99-A635-21BABCD8C7E6}" Directory_="APPDIR" Attributes="0" KeyPath="org.in2bits.MyXls.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0" Components="AI_CustomARPName AI_ExePath B1_Variable.dll B2_Variable.dll BeginCopyUp.exe FMWSDL__capiGetPager__02BF8D56CF7B6A85FF FMWSDL__capi__D38A552563F7892F3AE7209104 FMWSDL__fmwscenter__A1B3AF48D7577E719350 ICSharpCode.SharpZipLib.dll IPClist.config Infragistics2.Shared.v8.2.dll Infragistics2.Win.Misc.v8.2.dll Infragistics2.Win.UltraWinChart.v8.2.dll Infragistics2.Win.v8.2.dll K1_Control_G.dll K1_Controll_D.dll K2_Control_G.dll K3_Conteol_D.dll K3_Control_G.dll O2S.Components.PDFRender4NET.dll O2S.Components.PDFView4NET.dll P1_Support.dll P2_Support.dll P3_Support.dll P4_Support.dll ProductInformation Skins.dll System.Core.dll System.Data.DataSetExtensions.dll System.Web.Extensions.dll W1_Services.dll Y1_Business_Old.dll Y2_Business_New.dll Y3_Business_Muban.dll Y4_Business_SPMM.dll Y5_Business_HWSF.dll Y6_Business_JJRYWGL.dll Y7_Business_ZHWH.dll cuowu.png dll exe exe.config initfile.dll org.in2bits.MyXls.dll"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="B1_Variable.dll" Component_="B1_Variable.dll" FileName="B1_VAR~1.DLL|B1_Variable.dll" Attributes="0" SourcePath="目录文件\B1_Variable.dll" SelfReg="false" NextFile="B2_Variable.dll"/>
+    <ROW File="B2_Variable.dll" Component_="B2_Variable.dll" FileName="B2_VAR~1.DLL|B2_Variable.dll" Attributes="0" SourcePath="目录文件\B2_Variable.dll" SelfReg="false" NextFile="BeginCopyUp.exe"/>
+    <ROW File="BeginCopyUp.exe" Component_="BeginCopyUp.exe" FileName="BEGINC~1.EXE|BeginCopyUp.exe" Attributes="0" SourcePath="目录文件\BeginCopyUp.exe" SelfReg="false" NextFile="ICSharpCode.SharpZipLib.dll" DigSign="true"/>
+    <ROW File="Config.xml" Component_="exe.config" FileName="Config.xml" Attributes="0" SourcePath="目录文件\Config.xml" SelfReg="false" NextFile="UpdateList.xml"/>
+    <ROW File="FMWSDL__capiGetPager__02BF8D56CF7B6A85FFD69188658BBD60.dll" Component_="FMWSDL__capiGetPager__02BF8D56CF7B6A85FF" FileName="FMWSDL~2.DLL|FMWSDL__capiGetPager__02BF8D56CF7B6A85FFD69188658BBD60.dll" Attributes="0" SourcePath="D:\新建文件夹\ForIPC\FMWSDL__capiGetPager__02BF8D56CF7B6A85FFD69188658BBD60.dll" SelfReg="false" NextFile="FMWSDL__fmwscenter__A1B3AF48D7577E719350E6FCF750C3B0.dll"/>
+    <ROW File="FMWSDL__capi__D38A552563F7892F3AE72091049CDEBB.dll" Component_="FMWSDL__capi__D38A552563F7892F3AE7209104" FileName="FMWSDL~1.DLL|FMWSDL__capi__D38A552563F7892F3AE72091049CDEBB.dll" Attributes="0" SourcePath="D:\新建文件夹\ForIPC\FMWSDL__capi__D38A552563F7892F3AE72091049CDEBB.dll" SelfReg="false" NextFile="FMWSDL__capiGetPager__02BF8D56CF7B6A85FFD69188658BBD60.dll"/>
+    <ROW File="FMWSDL__fmwscenter__A1B3AF48D7577E719350E6FCF750C3B0.dll" Component_="FMWSDL__fmwscenter__A1B3AF48D7577E719350" FileName="FMWSDL~3.DLL|FMWSDL__fmwscenter__A1B3AF48D7577E719350E6FCF750C3B0.dll" Attributes="0" SourcePath="D:\新建文件夹\ForIPC\FMWSDL__fmwscenter__A1B3AF48D7577E719350E6FCF750C3B0.dll" SelfReg="false" NextFile="IPClist.config"/>
+    <ROW File="ICSharpCode.SharpZipLib.dll" Component_="ICSharpCode.SharpZipLib.dll" FileName="ICSHAR~1.DLL|ICSharpCode.SharpZipLib.dll" Attributes="0" SourcePath="目录文件\ICSharpCode.SharpZipLib.dll" SelfReg="false" NextFile="Infragistics2.Shared.v8.2.dll"/>
+    <ROW File="IPClist.config" Component_="IPClist.config" FileName="IPCLIS~1.CON|IPClist.config" Attributes="0" SourcePath="D:\新建文件夹\ForIPC\IPClist.config" SelfReg="false" NextFile="cuowu.png"/>
+    <ROW File="Infragistics2.Shared.v8.2.dll" Component_="Infragistics2.Shared.v8.2.dll" FileName="INFRAG~1.DLL|Infragistics2.Shared.v8.2.dll" Attributes="0" SourcePath="目录文件\Infragistics2.Shared.v8.2.dll" SelfReg="false" NextFile="Infragistics2.Win.Misc.v8.2.dll"/>
+    <ROW File="Infragistics2.Win.Misc.v8.2.dll" Component_="Infragistics2.Win.Misc.v8.2.dll" FileName="INFRAG~2.DLL|Infragistics2.Win.Misc.v8.2.dll" Attributes="0" SourcePath="目录文件\Infragistics2.Win.Misc.v8.2.dll" SelfReg="false" NextFile="Infragistics2.Win.UltraWinChart.v8.2.dll"/>
+    <ROW File="Infragistics2.Win.UltraWinChart.v8.2.dll" Component_="Infragistics2.Win.UltraWinChart.v8.2.dll" FileName="INFRAG~3.DLL|Infragistics2.Win.UltraWinChart.v8.2.dll" Attributes="0" SourcePath="目录文件\Infragistics2.Win.UltraWinChart.v8.2.dll" SelfReg="false" NextFile="Infragistics2.Win.v8.2.dll"/>
+    <ROW File="Infragistics2.Win.v8.2.dll" Component_="Infragistics2.Win.v8.2.dll" FileName="INFRAG~4.DLL|Infragistics2.Win.v8.2.dll" Attributes="0" SourcePath="目录文件\Infragistics2.Win.v8.2.dll" SelfReg="false" NextFile="initfile.dll"/>
+    <ROW File="K1_Control_G.dll" Component_="K1_Control_G.dll" FileName="K1_CON~1.DLL|K1_Control_G.dll" Attributes="0" SourcePath="目录文件\K1_Control_G.dll" SelfReg="false" NextFile="K1_Controll_D.dll"/>
+    <ROW File="K1_Controll_D.dll" Component_="K1_Controll_D.dll" FileName="K1_CON~2.DLL|K1_Controll_D.dll" Attributes="0" SourcePath="目录文件\K1_Controll_D.dll" SelfReg="false" NextFile="K2_Control_G.dll"/>
+    <ROW File="K2_Control_G.dll" Component_="K2_Control_G.dll" FileName="K2_CON~1.DLL|K2_Control_G.dll" Attributes="0" SourcePath="目录文件\K2_Control_G.dll" SelfReg="false" NextFile="K3_Conteol_D.dll"/>
+    <ROW File="K3_Conteol_D.dll" Component_="K3_Conteol_D.dll" FileName="K3_CON~1.DLL|K3_Conteol_D.dll" Attributes="0" SourcePath="目录文件\K3_Conteol_D.dll" SelfReg="false" NextFile="K3_Control_G.dll"/>
+    <ROW File="K3_Control_G.dll" Component_="K3_Control_G.dll" FileName="K3_CON~2.DLL|K3_Control_G.dll" Attributes="0" SourcePath="目录文件\K3_Control_G.dll" SelfReg="false" NextFile="O2S.Components.PDFRender4NET.dll"/>
+    <ROW File="O2S.Components.PDFRender4NET.dll" Component_="O2S.Components.PDFRender4NET.dll" FileName="O2SCOM~1.DLL|O2S.Components.PDFRender4NET.dll" Attributes="0" SourcePath="目录文件\O2S.Components.PDFRender4NET.dll" SelfReg="false" NextFile="O2S.Components.PDFView4NET.dll"/>
+    <ROW File="O2S.Components.PDFView4NET.dll" Component_="O2S.Components.PDFView4NET.dll" FileName="O2SCOM~2.DLL|O2S.Components.PDFView4NET.dll" Attributes="0" SourcePath="目录文件\O2S.Components.PDFView4NET.dll" SelfReg="false" NextFile="org.in2bits.MyXls.dll"/>
+    <ROW File="P1_Support.dll" Component_="P1_Support.dll" FileName="P1_SUP~1.DLL|P1_Support.dll" Attributes="0" SourcePath="目录文件\P1_Support.dll" SelfReg="false" NextFile="P2_Support.dll"/>
+    <ROW File="P2_Support.dll" Component_="P2_Support.dll" FileName="P2_SUP~1.DLL|P2_Support.dll" Attributes="0" SourcePath="目录文件\P2_Support.dll" SelfReg="false" NextFile="P3_Support.dll"/>
+    <ROW File="P3_Support.dll" Component_="P3_Support.dll" FileName="P3_SUP~1.DLL|P3_Support.dll" Attributes="0" SourcePath="目录文件\P3_Support.dll" SelfReg="false" NextFile="P4_Support.dll"/>
+    <ROW File="P4_Support.dll" Component_="P4_Support.dll" FileName="P4_SUP~1.DLL|P4_Support.dll" Attributes="0" SourcePath="目录文件\P4_Support.dll" SelfReg="false" NextFile="Skins.dll"/>
+    <ROW File="Skins.dll" Component_="Skins.dll" FileName="Skins.dll" Attributes="0" SourcePath="目录文件\Skins.dll" SelfReg="false" NextFile="System.Core.dll"/>
+    <ROW File="System.Core.dll" Component_="System.Core.dll" FileName="SYSTEM~1.DLL|System.Core.dll" Attributes="0" SourcePath="目录文件\System.Core.dll" SelfReg="false" NextFile="System.Data.DataSetExtensions.dll"/>
+    <ROW File="System.Data.DataSetExtensions.dll" Component_="System.Data.DataSetExtensions.dll" FileName="SYSTEM~2.DLL|System.Data.DataSetExtensions.dll" Attributes="0" SourcePath="目录文件\System.Data.DataSetExtensions.dll" SelfReg="false" NextFile="System.Web.Extensions.dll"/>
+    <ROW File="System.Web.Extensions.dll" Component_="System.Web.Extensions.dll" FileName="SYSTEM~3.DLL|System.Web.Extensions.dll" Attributes="0" SourcePath="目录文件\System.Web.Extensions.dll" SelfReg="false" NextFile="W1_Services.dll"/>
+    <ROW File="UpdateList.xml" Component_="exe.config" FileName="UPDATE~1.XML|UpdateList.xml" Attributes="0" SourcePath="目录文件\UpdateList.xml" SelfReg="false"/>
+    <ROW File="W1_Services.dll" Component_="W1_Services.dll" FileName="W1_SER~1.DLL|W1_Services.dll" Attributes="0" SourcePath="目录文件\W1_Services.dll" SelfReg="false" NextFile="Y1_Business_Old.dll"/>
+    <ROW File="Y1_Business_Old.dll" Component_="Y1_Business_Old.dll" FileName="Y1_BUS~1.DLL|Y1_Business_Old.dll" Attributes="0" SourcePath="目录文件\Y1_Business_Old.dll" SelfReg="false" NextFile="Y2_Business_New.dll"/>
+    <ROW File="Y2_Business_New.dll" Component_="Y2_Business_New.dll" FileName="Y2_BUS~1.DLL|Y2_Business_New.dll" Attributes="0" SourcePath="目录文件\Y2_Business_New.dll" SelfReg="false" NextFile="Y3_Business_Muban.dll"/>
+    <ROW File="Y3_Business_Muban.dll" Component_="Y3_Business_Muban.dll" FileName="Y3_BUS~1.DLL|Y3_Business_Muban.dll" Attributes="0" SourcePath="目录文件\Y3_Business_Muban.dll" SelfReg="false" NextFile="Y4_Business_SPMM.dll"/>
+    <ROW File="Y4_Business_SPMM.dll" Component_="Y4_Business_SPMM.dll" FileName="Y4_BUS~1.DLL|Y4_Business_SPMM.dll" Attributes="0" SourcePath="目录文件\Y4_Business_SPMM.dll" SelfReg="false" NextFile="Y5_Business_HWSF.dll"/>
+    <ROW File="Y5_Business_HWSF.dll" Component_="Y5_Business_HWSF.dll" FileName="Y5_BUS~1.DLL|Y5_Business_HWSF.dll" Attributes="0" SourcePath="目录文件\Y5_Business_HWSF.dll" SelfReg="false" NextFile="Y6_Business_JJRYWGL.dll"/>
+    <ROW File="Y6_Business_JJRYWGL.dll" Component_="Y6_Business_JJRYWGL.dll" FileName="Y6_BUS~1.DLL|Y6_Business_JJRYWGL.dll" Attributes="0" SourcePath="目录文件\Y6_Business_JJRYWGL.dll" SelfReg="false" NextFile="Y7_Business_ZHWH.dll"/>
+    <ROW File="Y7_Business_ZHWH.dll" Component_="Y7_Business_ZHWH.dll" FileName="Y7_BUS~1.DLL|Y7_Business_ZHWH.dll" Attributes="0" SourcePath="目录文件\Y7_Business_ZHWH.dll" SelfReg="false" NextFile="dll"/>
+    <ROW File="cuowu.png" Component_="cuowu.png" FileName="cuowu.png" Attributes="0" SourcePath="D:\新建文件夹\skin\cuowu.png" SelfReg="false" NextFile="duihao.png"/>
+    <ROW File="dll" Component_="dll" FileName="公用通讯协议类库.dll" Attributes="0" SourcePath="目录文件\公用通讯协议类库.dll" SelfReg="false" NextFile="exe.config"/>
+    <ROW File="duihao.png" Component_="cuowu.png" FileName="duihao.png" Attributes="0" SourcePath="D:\新建文件夹\skin\duihao.png" SelfReg="false" NextFile="huangguanxing.png"/>
+    <ROW File="exe" Component_="exe" FileName="中国商品批发~1.EXE|中国商品批发交易平台.exe" Attributes="0" SourcePath="目录文件\中国商品批发交易平台.exe" SelfReg="false" NextFile="FMWSDL__capi__D38A552563F7892F3AE72091049CDEBB.dll" DigSign="true"/>
+    <ROW File="exe.config" Component_="exe.config" FileName="中国商品批发~1.CON|中国商品批发交易平台.exe.config" Attributes="0" SourcePath="目录文件\中国商品批发交易平台.exe.config" SelfReg="false" NextFile="Config.xml"/>
+    <ROW File="huangguanxing.png" Component_="cuowu.png" FileName="HUANGG~1.PNG|huangguanxing.png" Attributes="0" SourcePath="D:\新建文件夹\skin\huangguanxing.png" SelfReg="false" NextFile="hy.jpg"/>
+    <ROW File="hy.jpg" Component_="cuowu.png" FileName="hy.jpg" Attributes="0" SourcePath="D:\新建文件夹\skin\hy.jpg" SelfReg="false" NextFile="hz.jpg"/>
+    <ROW File="hz.jpg" Component_="cuowu.png" FileName="hz.jpg" Attributes="0" SourcePath="D:\新建文件夹\skin\hz.jpg" SelfReg="false" NextFile="ji.ico"/>
+    <ROW File="initfile.dll" Component_="initfile.dll" FileName="initfile.dll" Attributes="0" SourcePath="目录文件\initfile.dll" SelfReg="false" NextFile="K1_Control_G.dll"/>
+    <ROW File="ji.ico" Component_="cuowu.png" FileName="ji.ico" Attributes="0" SourcePath="D:\新建文件夹\skin\ji.ico" SelfReg="false" NextFile="landian.gif"/>
+    <ROW File="landian.gif" Component_="cuowu.png" FileName="landian.gif" Attributes="0" SourcePath="D:\新建文件夹\skin\landian.gif" SelfReg="false" NextFile="loginbg.jpg"/>
+    <ROW File="loginbg.jpg" Component_="cuowu.png" FileName="loginbg.jpg" Attributes="0" SourcePath="D:\新建文件夹\skin\loginbg.jpg" SelfReg="false" NextFile="myxz.gif"/>
+    <ROW File="myxz.gif" Component_="cuowu.png" FileName="myxz.gif" Attributes="0" SourcePath="D:\新建文件夹\skin\myxz.gif" SelfReg="false" NextFile="myxz_jishi.png"/>
+    <ROW File="myxz_jishi.png" Component_="cuowu.png" FileName="MYXZ_J~1.PNG|myxz_jishi.png" Attributes="0" SourcePath="D:\新建文件夹\skin\myxz_jishi.png" SelfReg="false" NextFile="myxz_sangeyue.png"/>
+    <ROW File="myxz_sangeyue.png" Component_="cuowu.png" FileName="MYXZ_S~1.PNG|myxz_sangeyue.png" Attributes="0" SourcePath="D:\新建文件夹\skin\myxz_sangeyue.png" SelfReg="false" NextFile="myxz_yinian.png"/>
+    <ROW File="myxz_yinian.png" Component_="cuowu.png" FileName="MYXZ_Y~1.PNG|myxz_yinian.png" Attributes="0" SourcePath="D:\新建文件夹\skin\myxz_yinian.png" SelfReg="false" NextFile="pagerload.gif"/>
+    <ROW File="org.in2bits.MyXls.dll" Component_="org.in2bits.MyXls.dll" FileName="ORGIN2~1.DLL|org.in2bits.MyXls.dll" Attributes="0" SourcePath="目录文件\org.in2bits.MyXls.dll" SelfReg="false" NextFile="P1_Support.dll"/>
+    <ROW File="pagerload.gif" Component_="cuowu.png" FileName="PAGERL~1.GIF|pagerload.gif" Attributes="0" SourcePath="D:\新建文件夹\skin\pagerload.gif" SelfReg="false" NextFile="qx.jpg"/>
+    <ROW File="qx.jpg" Component_="cuowu.png" FileName="qx.jpg" Attributes="0" SourcePath="D:\新建文件夹\skin\qx.jpg" SelfReg="false" NextFile="qz.jpg"/>
+    <ROW File="qz.jpg" Component_="cuowu.png" FileName="qz.jpg" Attributes="0" SourcePath="D:\新建文件夹\skin\qz.jpg" SelfReg="false" NextFile="tanhao.png"/>
+    <ROW File="tanhao.png" Component_="cuowu.png" FileName="tanhao.png" Attributes="0" SourcePath="D:\新建文件夹\skin\tanhao.png" SelfReg="false" NextFile="tupianshuiyin.png"/>
+    <ROW File="tupianshuiyin.png" Component_="cuowu.png" FileName="TUPIAN~1.PNG|tupianshuiyin.png" Attributes="0" SourcePath="D:\新建文件夹\skin\tupianshuiyin.png" SelfReg="false" NextFile="vipxing.png"/>
+    <ROW File="vipxing.png" Component_="cuowu.png" FileName="vipxing.png" Attributes="0" SourcePath="D:\新建文件夹\skin\vipxing.png" SelfReg="false" NextFile="wenhao.jpg"/>
+    <ROW File="wenhao.jpg" Component_="cuowu.png" FileName="wenhao.jpg" Attributes="0" SourcePath="D:\新建文件夹\skin\wenhao.jpg" SelfReg="false" NextFile="wenhao.png"/>
+    <ROW File="wenhao.png" Component_="cuowu.png" FileName="wenhao.png" Attributes="0" SourcePath="D:\新建文件夹\skin\wenhao.png" SelfReg="false" NextFile="xg.jpg"/>
+    <ROW File="xg.jpg" Component_="cuowu.png" FileName="xg.jpg" Attributes="0" SourcePath="D:\新建文件夹\skin\xg.jpg" SelfReg="false" NextFile="xinxing.png"/>
+    <ROW File="xinxing.png" Component_="cuowu.png" FileName="xinxing.png" Attributes="0" SourcePath="D:\新建文件夹\skin\xinxing.png" SelfReg="false" NextFile="yun001.png"/>
+    <ROW File="yun001.png" Component_="cuowu.png" FileName="yun001.png" Attributes="0" SourcePath="D:\新建文件夹\skin\yun001.png" SelfReg="false" NextFile="yun002.png"/>
+    <ROW File="yun002.png" Component_="cuowu.png" FileName="yun002.png" Attributes="0" SourcePath="D:\新建文件夹\skin\yun002.png" SelfReg="false" NextFile="yun003.png"/>
+    <ROW File="yun003.png" Component_="cuowu.png" FileName="yun003.png" Attributes="0" SourcePath="D:\新建文件夹\skin\yun003.png" SelfReg="false" NextFile="z_bannian.png"/>
+    <ROW File="z_bannian.png" Component_="cuowu.png" FileName="Z_BANN~1.PNG|z_bannian.png" Attributes="0" SourcePath="D:\新建文件夹\skin\z_bannian.png" SelfReg="false" NextFile="z_dingliang.png"/>
+    <ROW File="z_dingliang.png" Component_="cuowu.png" FileName="Z_DING~1.PNG|z_dingliang.png" Attributes="0" SourcePath="D:\新建文件夹\skin\z_dingliang.png" SelfReg="false" NextFile="z_yinian.png"/>
+    <ROW File="z_yinian.png" Component_="cuowu.png" FileName="z_yinian.png" Attributes="0" SourcePath="D:\新建文件夹\skin\z_yinian.png" SelfReg="false" NextFile="z_zixuan.png"/>
+    <ROW File="z_zixuan.png" Component_="cuowu.png" FileName="z_zixuan.png" Attributes="0" SourcePath="D:\新建文件夹\skin\z_zixuan.png" SelfReg="false" NextFile="zhzx.png"/>
+    <ROW File="zhzx.png" Component_="cuowu.png" FileName="zhzx.png" Attributes="0" SourcePath="D:\新建文件夹\skin\zhzx.png" SelfReg="false" NextFile="zuanxing.png"/>
+    <ROW File="zuanxing.png" Component_="cuowu.png" FileName="zuanxing.png" Attributes="0" SourcePath="D:\新建文件夹\skin\zuanxing.png" SelfReg="false" NextFile="zy.jpg"/>
+    <ROW File="zy.jpg" Component_="cuowu.png" FileName="zy.jpg" Attributes="0" SourcePath="D:\新建文件夹\skin\zy.jpg" SelfReg="false" NextFile="B1_Variable.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" GeneralOptions="bh" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" EulaPathLocId="*" IntroTextPathLocId="*"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="1" Languages="zh" InstallationType="2" CabsLocation="1" UseLzma="true" LzmaMethod="2" LzmaCompressionLevel="2" PackageType="1" FilesInsideExe="true" ExeIconPath="目录文件\skin\ji.ico" ExtractionFolder="[AppDataFolder][|Manufacturer]\[|ProductName] [|ProductVersion]\install" ExtUI="true" UseLargeSchema="true" ExeName="中国商品批发交易平台安装文件"/>
+    <ATTRIBUTE name="CurrentBuild" value="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_zh.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;azure\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;azure\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;azure\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;azure\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;azure\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;azure\fragments\VerifyRepairDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiActionTextComponent">
+    <ROW Action="AI_DeleteLzma" Description="正在删除从档案中提取的文件" DescriptionLocId="ActionText.Description.AI_DeleteLzma" TemplateLocId="-"/>
+    <ROW Action="AI_DeleteRLzma" Description="正在删除从档案中提取的文件" DescriptionLocId="ActionText.Description.AI_DeleteLzma" TemplateLocId="-"/>
+    <ROW Action="AI_ExtractFiles" Description="正在从档案中提取文件" DescriptionLocId="ActionText.Description.AI_ExtractLzma" TemplateLocId="-"/>
+    <ROW Action="AI_ExtractLzma" Description="正在从档案中提取文件" DescriptionLocId="ActionText.Description.AI_ExtractLzma" TemplateLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiAppSearchComponent">
+    <ROW Property="AI_DOTNET20_SEARCH" Signature_="AI_DotNet20SearchSgn" Builds="DefaultBuild"/>
+    <ROW Property="AI_DOTNET30_SEARCH" Signature_="AI_DotNet30SearchSgn" Builds="DefaultBuild"/>
+    <ROW Property="AI_DOTNET35_CLIENTPROFILE_SEARCH" Signature_="AI_DotNet35ClientProfileSearchSgn" Builds="DefaultBuild"/>
+    <ROW Property="AI_DOTNET35_SEARCH" Signature_="AI_DotNet35SearchSgn" Builds="DefaultBuild"/>
+    <ROW Property="AI_DOTNET40_CLIENTPROFILE_SEARCH" Signature_="AI_DotNet40ClientProfileSearchSgn" Builds="DefaultBuild"/>
+    <ROW Property="AI_DOTNET40_SEARCH" Signature_="AI_DotNet40SearchSgn" Builds="DefaultBuild"/>
+    <ROW Property="AI_DOTNET451_SEARCH" Signature_="AI_DotNet451SearchSgn" Builds="DefaultBuild"/>
+    <ROW Property="AI_DOTNET45_SEARCH" Signature_="AI_DotNet45SearchSgn" Builds="DefaultBuild"/>
+    <ROW Property="AI_SETUPEXEPATH" Signature_="AI_EXE_PATH_CU" Builds="DefaultBuild"/>
+    <ROW Property="AI_SETUPEXEPATH" Signature_="AI_EXE_PATH_LM" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="Prereq.dll" SourcePath="&lt;AI_CUSTACTS&gt;Prereq.dll"/>
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+    <ROW Name="frame_bottom_left.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_bottom_left.bmp"/>
+    <ROW Name="frame_bottom_left_inactive.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_bottom_left_inactive.bmp"/>
+    <ROW Name="frame_bottom_mid.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_bottom_mid.bmp"/>
+    <ROW Name="frame_bottom_mid_inactive.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_bottom_mid_inactive.bmp"/>
+    <ROW Name="frame_bottom_right.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_bottom_right.bmp"/>
+    <ROW Name="frame_bottom_right_inactive.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_bottom_right_inactive.bmp"/>
+    <ROW Name="frame_caption.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_caption.bmp"/>
+    <ROW Name="frame_caption_inactive.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_caption_inactive.bmp"/>
+    <ROW Name="frame_left.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_left.bmp"/>
+    <ROW Name="frame_left_inactive.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_left_inactive.bmp"/>
+    <ROW Name="frame_right.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_right.bmp"/>
+    <ROW Name="frame_right_inactive.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_right_inactive.bmp"/>
+    <ROW Name="frame_top_left.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_top_left.bmp"/>
+    <ROW Name="frame_top_left_inactive.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_top_left_inactive.bmp"/>
+    <ROW Name="frame_top_mid.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_top_mid.bmp"/>
+    <ROW Name="frame_top_mid_inactive.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_top_mid_inactive.bmp"/>
+    <ROW Name="frame_top_right.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_top_right.bmp"/>
+    <ROW Name="frame_top_right_inactive.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_top_right_inactive.bmp"/>
+    <ROW Name="lzmaextractor.dll" SourcePath="&lt;AI_CUSTACTS&gt;lzmaextractor.dll"/>
+    <ROW Name="sys_close_down.bmp" SourcePath="&lt;AI_FRAME_BTNS&gt;sys_close_down.bmp"/>
+    <ROW Name="sys_close_hot.bmp" SourcePath="&lt;AI_FRAME_BTNS&gt;sys_close_hot.bmp"/>
+    <ROW Name="sys_close_inactive.bmp" SourcePath="&lt;AI_FRAME_BTNS&gt;sys_close_inactive.bmp"/>
+    <ROW Name="sys_close_normal.bmp" SourcePath="&lt;AI_FRAME_BTNS&gt;sys_close_normal.bmp"/>
+    <ROW Name="sys_min_down.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;sys_min_down.bmp"/>
+    <ROW Name="sys_min_hot.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;sys_min_hot.bmp"/>
+    <ROW Name="sys_min_inactive.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;sys_min_inactive.bmp"/>
+    <ROW Name="sys_min_normal.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;sys_min_normal.bmp"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="CancelDlg" Control="No" Type="PushButton" X="235" Y="90" Width="56" Height="17" Attributes="3" Text="[ButtonText_No]" Order="100" TextLocId="-" MsiKey="CancelDlg#No"/>
+    <ROW Dialog_="CancelDlg" Control="Yes" Type="PushButton" X="175" Y="90" Width="56" Height="17" Attributes="3" Text="[ButtonText_Yes]" Order="200" TextLocId="-" MsiKey="CancelDlg#Yes"/>
+    <ROW Dialog_="CancelDlg" Control="Icon" Type="Icon" X="18" Y="18" Width="36" Height="36" Attributes="7340033" Text="[InfoIcon]" Help="信息图标|" Order="300" HelpLocId="Control.Help.CancelDlg#Icon" MsiKey="CancelDlg#Icon"/>
+    <ROW Dialog_="CancelDlg" Control="Text" Type="Text" X="60" Y="20" Width="254" Height="50" Attributes="196611" Text="您确实要取消 [ProductName] 安装吗？" TextStyle="BlueText" Order="400" TextLocId="Control.Text.CancelDlg#Text" MsiKey="CancelDlg#Text"/>
+    <ROW Dialog_="CancelDlg" Control="Line" Type="Line" X="0" Y="79" Width="330" Height="2" Attributes="1" Order="500" MsiKey="CancelDlg#Line"/>
+    <ROW Dialog_="ExitDialog" Control="LaunchProdCheckBox" Type="PushButton" X="112" Y="218" Width="226" Height="26" Attributes="3" Property="RUNAPPLICATION" Text="启动 [ProductName]" Order="200" TextLocId="Azure.Control.Text.ExitDialog#LaunchProdCheckBox" MsiKey="ExitDialog#LaunchProdCheckBox" Options="1"/>
+    <ROW Dialog_="FolderDlg" Control="FolderDlgDialogInitializer" Type="DialogInitializer" X="0" Y="0" Width="0" Height="0" Attributes="0" Order="-1" TextLocId="-" HelpLocId="-" ExtDataLocId="-"/>
+    <ROW Dialog_="FolderDlg" Control="Text" Type="Text" X="29" Y="76" Width="408" Height="50" Attributes="196611" Text="要安装到此文件夹，请单击 &quot;[Text_Next]&quot;，要安装到不同文件夹，请在下面输入或单击 &quot;浏览&quot; 按钮。" Order="700" TextLocId="Control.Text.FolderDlg#Text" MsiKey="FolderDlg#Text"/>
+    <ROW Dialog_="ProgressDlg" Control="ProgressBar" Type="ProgressBar" X="55" Y="153" Width="325" Height="17" Attributes="1" Text="安装进度" Order="600" TextLocId="Control.Text.ProgressDlg#ProgressBar" MsiKey="ProgressDlg#ProgressBar"/>
+    <ROW Dialog_="WaitForCostingDlg" Control="Bitmap" Type="Bitmap" X="0" Y="0" Width="349" Height="80" Attributes="1048577" Text="[WhiteBackround]" Order="100" MsiKey="WaitForCostingDlg#Bitmap"/>
+    <ROW Dialog_="WaitForCostingDlg" Control="Text" Type="Text" X="60" Y="20" Width="254" Height="50" Attributes="196611" Text="安装程序正在确定需要的磁盘空间，请等待。" TextStyle="BlueText" Order="300" TextLocId="Control.Text.WaitForCostingDlg#Text" MsiKey="WaitForCostingDlg#Text"/>
+    <ATTRIBUTE name="DeletedRows" value="CancelDlg#Bitmap"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfRbDiskDlg" Condition="AI_INSTALL AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND (PROMPTROLLBACKCOST=&quot;P&quot; OR NOT PROMPTROLLBACKCOST)" Ordering="202" Options="2"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="EnableRollback" Argument="False" Condition="AI_INSTALL AND OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 0 AND PROMPTROLLBACKCOST=&quot;D&quot;" Ordering="203" Options="2"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="SpawnDialog" Argument="OutOfDiskDlg" Condition="AI_INSTALL AND ( (OutOfDiskSpace = 1 AND OutOfNoRbDiskSpace = 1) OR (OutOfDiskSpace = 1 AND PROMPTROLLBACKCOST=&quot;F&quot;) )" Ordering="204" Options="2"/>
+    <ROW Dialog_="FolderDlg" Control_="FolderDlgDialogInitializer" Event="[AI_ButtonText_Next_Orig]" Argument="[ButtonText_Next]" Condition="AI_INSTALL" Ordering="0" Options="2"/>
+    <ROW Dialog_="FolderDlg" Control_="FolderDlgDialogInitializer" Event="[ButtonText_Next]" Argument="[[AI_CommitButton]]" Condition="AI_INSTALL" Ordering="1" Options="2"/>
+    <ROW Dialog_="FolderDlg" Control_="FolderDlgDialogInitializer" Event="[AI_Text_Next_Orig]" Argument="[Text_Next]" Condition="AI_INSTALL" Ordering="2" Options="2"/>
+    <ROW Dialog_="FolderDlg" Control_="FolderDlgDialogInitializer" Event="[Text_Next]" Argument="[Text_Install]" Condition="AI_INSTALL" Ordering="3" Options="2"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="[ButtonText_Next]" Argument="[AI_ButtonText_Next_Orig]" Condition="AI_INSTALL" Ordering="2" Options="2"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="[Text_Next]" Argument="[AI_Text_Next_Orig]" Condition="AI_INSTALL" Ordering="3" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Type="51" Source="AI_SETUPEXEPATH_ORIGINAL" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DATA_SETTER" Type="51" Source="AI_ExtractFiles" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DeleteCadLzma" Type="51" Source="AI_DeleteLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DeleteLzma" Type="1025" Source="lzmaextractor.dll" Target="DeleteLZMAFiles"/>
+    <ROW Action="AI_DeleteRCadLzma" Type="51" Source="AI_DeleteRLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_DeleteRLzma" Type="1281" Source="lzmaextractor.dll" Target="DeleteLZMAFiles"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EstimateExtractFiles" Type="1" Source="Prereq.dll" Target="EstimateExtractFiles"/>
+    <ROW Action="AI_ExtractCadLzma" Type="51" Source="AI_ExtractLzma" Target="[AI_SETUPEXEPATH]"/>
+    <ROW Action="AI_ExtractFiles" Type="1025" Source="Prereq.dll" Target="ExtractSourceFiles" AdditionalSeq="AI_DATA_SETTER"/>
+    <ROW Action="AI_ExtractLzma" Type="1025" Source="lzmaextractor.dll" Target="ExtractLZMAFiles"/>
+    <ROW Action="AI_FindExeLzma" Type="1" Source="lzmaextractor.dll" Target="FindEXE"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_LaunchApp" Type="1" Source="aicustact.dll" Target="[#exe]"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Type="51" Source="AI_SETUPEXEPATH" Target="[AI_SETUPEXEPATH_ORIGINAL]"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_RunFinishActions" Type="1" Source="aicustact.dll" Target="RunFinishActions" WithoutSeq="true"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]" MultiBuildTarget="DefaultBuild:[AppDataFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDialogComponent">
+    <ROW Dialog="CancelDlg" HCentering="50" VCentering="50" Width="377" Height="115" Attributes="3" Title="[ProductName] [Setup]" Control_Default="No" Control_Cancel="No" TitleLocId="Dialog.CancelDlg" MsiKey="CancelDlg"/>
+    <ROW Dialog="WaitForCostingDlg" HCentering="50" VCentering="50" Width="377" Height="115" Attributes="3" Title="[ProductName] [Setup]" Control_Default="Return" Control_Cancel="Return" TitleLocId="Dialog.WaitForCostingDlg" MsiKey="WaitForCostingDlg"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="ji.exe" SourcePath="目录文件\skin\ji.ico" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="51"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Sequence="99" Builds="DefaultBuild"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Condition="AI_SETUPEXEPATH_ORIGINAL" Sequence="101" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="199" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteRCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="198" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractCadLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="197" Builds="DefaultBuild"/>
+    <ROW Action="AI_FindExeLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="196" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="1549" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteRLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="1548" Builds="DefaultBuild"/>
+    <ROW Action="AI_DeleteLzma" Condition="SETUPEXEDIR=&quot;&quot; AND Installed AND (REMOVE&lt;&gt;&quot;ALL&quot;) AND (AI_INSTALL_MODE&lt;&gt;&quot;Remove&quot;) AND (NOT PATCH)" Sequence="6599" Builds="DefaultBuild"/>
+    <ROW Action="AI_ExtractFiles" Sequence="3998" Builds="DefaultBuild"/>
+    <ROW Action="AI_DATA_SETTER" Sequence="3997"/>
+    <ROW Action="AI_EstimateExtractFiles" Sequence="3999" Builds="DefaultBuild"/>
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="201"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_DpiContentScale" Sequence="51"/>
+    <ROW Action="AI_BACKUP_AI_SETUPEXEPATH" Sequence="99"/>
+    <ROW Action="AI_RESTORE_AI_SETUPEXEPATH" Condition="AI_SETUPEXEPATH_ORIGINAL" Sequence="101"/>
+    <ROW Action="MaintenanceTypeDlg" Condition="AI_MAINT" Sequence="1250" SeqType="3" MsiKey="MaintenanceWelcomeDlg"/>
+    <ROW Action="FolderDlg" Condition="AI_INSTALL" Sequence="1230" SeqType="3" MsiKey="WelcomeDlg"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="(AI_DOTNET20_SEARCH = &quot;#1&quot;) OR (AI_DOTNET30_SEARCH = &quot;#1&quot;) OR (AI_DOTNET35_SEARCH = &quot;#1&quot;) OR (AI_DOTNET40_CLIENTPROFILE_SEARCH = &quot;#1&quot;) OR (AI_DOTNET45_SEARCH &gt;= &quot;4.5&quot;) OR (AI_DOTNET451_SEARCH = &quot;#378758&quot;) OR (AI_DOTNET451_SEARCH = &quot;#378675&quot;)" Description="[ProductName] 无法安装在 .NET Framework 版本低于 [AI_MINDOTNETVERSION] 的系统上。" DescriptionLocId="AI.LaunchCondition.DotNET" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNT40Display]" DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]" DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegLocatorComponent">
+    <ROW Signature_="AI_DotNet20SearchSgn" Root="2" Key="SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727" Name="Install" Type="2"/>
+    <ROW Signature_="AI_DotNet30SearchSgn" Root="2" Key="SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0\Setup" Name="InstallSuccess" Type="2"/>
+    <ROW Signature_="AI_DotNet35ClientProfileSearchSgn" Root="2" Key="SOFTWARE\Microsoft\NET Framework Setup\DotNetClient\v3.5" Name="Install" Type="2"/>
+    <ROW Signature_="AI_DotNet35SearchSgn" Root="2" Key="SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5" Name="Install" Type="2"/>
+    <ROW Signature_="AI_DotNet40ClientProfileSearchSgn" Root="2" Key="SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client" Name="Install" Type="2"/>
+    <ROW Signature_="AI_DotNet40SearchSgn" Root="2" Key="SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full" Name="Install" Type="2"/>
+    <ROW Signature_="AI_DotNet451SearchSgn" Root="2" Key="SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full" Name="Release" Type="2"/>
+    <ROW Signature_="AI_DotNet45SearchSgn" Root="2" Key="SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full" Name="Version" Type="2"/>
+    <ROW Signature_="AI_EXE_PATH_CU" Root="1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Type="2"/>
+    <ROW Signature_="AI_EXE_PATH_LM" Root="2" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Type="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="AI_ExePath" Root="-1" Key="Software\Caphyon\Advanced Installer\LZMA\[ProductCode]\[ProductVersion]" Name="AI_ExePath" Value="[AI_SETUPEXEPATH]" Component_="AI_ExePath"/>
+    <ROW Registry="Comments" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="Comments" Value="[ARPCOMMENTS]" Component_="AI_CustomARPName"/>
+    <ROW Registry="Contact" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="Contact" Value="[ARPCONTACT]" Component_="AI_CustomARPName"/>
+    <ROW Registry="DisplayIcon" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="DisplayIcon" Value="[ARP_ICON_PATH]" Component_="AI_CustomARPName"/>
+    <ROW Registry="DisplayName" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="DisplayName" Value="[AI_PRODUCTNAME_ARP]" Component_="AI_CustomARPName"/>
+    <ROW Registry="DisplayVersion" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="DisplayVersion" Value="[ProductVersion]" Component_="AI_CustomARPName"/>
+    <ROW Registry="HelpLink" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="HelpLink" Value="[ARPHELPLINK]" Component_="AI_CustomARPName"/>
+    <ROW Registry="HelpTelephone" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="HelpTelephone" Value="[ARPHELPTELEPHONE]" Component_="AI_CustomARPName"/>
+    <ROW Registry="InstallLocation" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="InstallLocation" Value="[APPDIR]" Component_="AI_CustomARPName"/>
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="Publisher" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="Publisher" Value="[Manufacturer]" Component_="AI_CustomARPName"/>
+    <ROW Registry="URLInfoAbout" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="URLInfoAbout" Value="[ARPURLINFOABOUT]" Component_="AI_CustomARPName"/>
+    <ROW Registry="URLUpdateInfo" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="URLUpdateInfo" Value="[ARPURLUPDATEINFO]" Component_="AI_CustomARPName"/>
+    <ROW Registry="UninstallPath" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="UninstallPath" Value="[AI_UNINSTALLER] /x [ProductCode]" Component_="AI_CustomARPName"/>
+    <ROW Registry="UninstallString" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="UninstallString" Value="[AI_UNINSTALLER] /x [ProductCode]" Component_="AI_CustomARPName"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+    <ROW Registry="VersionMajor" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="VersionMajor" Value="#1" Component_="AI_CustomARPName"/>
+    <ROW Registry="VersionMinor" Root="-1" Key="Software\Microsoft\Windows\CurrentVersion\Uninstall\[ProductName] [ProductVersion]" Name="VersionMinor" Value="#0" Component_="AI_CustomARPName"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="_" Directory_="DesktopFolder" Name="中国商品批发~1|中国商品批发交易平台" Component_="exe" Target="[#exe]" Hotkey="0" Icon_="ji.exe" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+    <ROW Shortcut="__1" Directory_="ProgramMenuFolder" Name="中国商品批发~1|中国商品批发交易平台" Component_="exe" Target="[#exe]" Hotkey="0" Icon_="ji.exe" IconIndex="0" ShowCmd="1" WkDir="APPDIR"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiTextStyleComponent">
+    <ROW TextStyle="songti" FaceName="微软雅黑" Size="12" Color="0" StyleBits="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="azure"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMax="[|ProductVersion]" Attributes="1025" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>

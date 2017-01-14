@@ -1,0 +1,37 @@
+2014-09-22 17-02-38     ---     调用webservices错误,方法名：[C下达预订单]：查询业务调用失败，业务接口出现问题：System.Net.WebException: 基础连接已经关闭: 服务器关闭了本应保持活动状态的连接。 ---> System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.PooledStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.Connection.SyncRead(HttpWebRequest request, Boolean userRetrievedStream, Boolean probeRead)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.Services.Protocols.WebClientProtocol.GetWebResponse(WebRequest request)
+   在 System.Web.Services.Protocols.HttpWebClientProtocol.GetWebResponse(WebRequest request)
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 FMWSDL__capi__.capi.SetYDD(DataSet ds, String SPstring)
+   在 (Object , Object[] )
+   在 FMipcClass.FMWScenter.ExecuteQuery(String methodName, Object[] param) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\FMWScenter.cs:行号 328
+   在 FMipcClass.IPC.Call_C(DataSet dsipc, DataTable dtone, String IPCurl, DateTime dtbegin, String FF_yewuname, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 294无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。
+
+2014-09-22 17-02-38     ---     委托回调错误：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.SubForm.NewCenterForm.SUBUC.SPMM.ucSPMR_B2.SRT_demo(Hashtable OutPutHT) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_Y4_Business_SPMM\ucSPMR_B2.cs:行号 164
+
+2014-09-22 17-02-44     ---     调用webservices错误,方法名：[C下达预订单]：查询业务调用失败，业务接口出现问题：System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:10991
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   在 FMWSDL__capi__.capi.SetYDD(DataSet ds, String SPstring)
+   在 (Object , Object[] )
+   在 FMipcClass.FMWScenter.ExecuteQuery(String methodName, Object[] param) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\FMWScenter.cs:行号 328
+   在 FMipcClass.IPC.Call_C(DataSet dsipc, DataTable dtone, String IPCurl, DateTime dtbegin, String FF_yewuname, Object[] objCS) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_W1_Services\IPC.cs:行号 294由于目标计算机积极拒绝，无法连接。 127.0.0.1:10991
+
+2014-09-22 17-02-44     ---     委托回调错误：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.SubForm.NewCenterForm.SUBUC.SPMM.ucSPMR_B2.SRT_demo(Hashtable OutPutHT) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_Y4_Business_SPMM\ucSPMR_B2.cs:行号 164
+

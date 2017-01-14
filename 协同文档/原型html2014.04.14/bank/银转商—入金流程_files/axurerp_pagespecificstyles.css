@@ -1,0 +1,520 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0 {
+    position:absolute;
+    left:124px;
+    top:30px;
+    width:386px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u1 {
+    position:absolute;
+    left:530px;
+    top:50px;
+    width:640px;
+    height:400px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../银转商—入金流程_files/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:124px;
+    top:80px;
+    width:196px;
+    height:40px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:202px;
+    height:46px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:192px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../银转商—入金流程_files/u4_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:144px;
+    top:150px;
+    width:155px;
+    height:93px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:161px;
+    height:99px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:30px;
+    width:151px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6c0 {
+    background-image: url('../银转商—入金流程_files/u6c0.png');
+}
+
+.u6c0 {
+    position:absolute;
+    left:295px;
+    top:186px;
+    width:78px;
+    height:20px;
+}
+
+.u6c1 {
+    background-image: url('../银转商—入金流程_files/u6c1.png');
+}
+
+.u6c1 {
+    position:absolute;
+    left:353px;
+    top:186px;
+    width:20px;
+    height:21px;
+}
+
+.u6c2 {
+    background-image: url('../银转商—入金流程_files/u6c2.png');
+}
+
+.u6c2 {
+    position:absolute;
+    left:353px;
+    top:187px;
+    width:24px;
+    height:20px;
+}
+
+.u7 {
+    position:absolute;
+    left:-12px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8c0 {
+    background-image: url('../银转商—入金流程_files/u8c0.png');
+}
+
+.u8c0 {
+    position:absolute;
+    left:212px;
+    top:116px;
+    width:20px;
+    height:44px;
+}
+
+.u9 {
+    position:absolute;
+    left:-50px;
+    top:7px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10_normal {
+    background-image: url('../银转商—入金流程_files/u10_normal.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:373px;
+    top:182px;
+    width:97px;
+    height:30px;
+}
+
+#u10_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:103px;
+    height:36px;
+}
+
+.u11 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:93px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12_normal {
+    background-image: url('../银转商—入金流程_files/u12_normal.png');
+}
+
+.u12_container {
+    position:absolute;
+    left:50px;
+    top:560px;
+    width:191px;
+    height:30px;
+}
+
+#u12_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:197px;
+    height:36px;
+}
+
+.u13 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:187px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14c0 {
+    background-image: url('../银转商—入金流程_files/u14c0.png');
+}
+
+.u14c0 {
+    position:absolute;
+    left:212px;
+    top:239px;
+    width:20px;
+    height:81px;
+}
+
+.u15 {
+    position:absolute;
+    left:-50px;
+    top:26px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16 {
+    position:absolute;
+    left:550px;
+    top:470px;
+    width:490px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u17_normal {
+    background-image: url('../银转商—入金流程_files/u2_normal.png');
+}
+
+.u17_container {
+    position:absolute;
+    left:124px;
+    top:310px;
+    width:196px;
+    height:40px;
+}
+
+#u17_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:202px;
+    height:46px;
+}
+
+.u18 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:192px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19_normal {
+    background-image: url('../银转商—入金流程_files/u4_normal.png');
+}
+
+.u19_container {
+    position:absolute;
+    left:144px;
+    top:387px;
+    width:155px;
+    height:93px;
+}
+
+#u19_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:161px;
+    height:99px;
+}
+
+.u20 {
+    position:absolute;
+    left:2px;
+    top:38px;
+    width:151px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21c0 {
+    background-image: url('../银转商—入金流程_files/u21c0.png');
+}
+
+.u21c0 {
+    position:absolute;
+    left:212px;
+    top:346px;
+    width:20px;
+    height:51px;
+}
+
+.u22 {
+    position:absolute;
+    left:-50px;
+    top:10px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u23c0 {
+    background-image: url('../银转商—入金流程_files/u23c0.png');
+}
+
+.u23c0 {
+    position:absolute;
+    left:212px;
+    top:476px;
+    width:20px;
+    height:84px;
+}
+
+.u23c1 {
+    background-image: url('../银转商—入金流程_files/u23c1.png');
+}
+
+.u23c1 {
+    position:absolute;
+    left:136px;
+    top:540px;
+    width:96px;
+    height:20px;
+}
+
+.u23c2 {
+    background-image: url('../银转商—入金流程_files/u23c2.png');
+}
+
+.u23c2 {
+    position:absolute;
+    left:136px;
+    top:540px;
+    width:20px;
+    height:24px;
+}
+
+.u24 {
+    position:absolute;
+    left:-58px;
+    top:62px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u25c0 {
+    background-image: url('../银转商—入金流程_files/u25c0.png');
+}
+
+.u25c0 {
+    position:absolute;
+    left:295px;
+    top:424px;
+    width:89px;
+    height:20px;
+}
+
+.u25c1 {
+    background-image: url('../银转商—入金流程_files/u25c1.png');
+}
+
+.u25c1 {
+    position:absolute;
+    left:364px;
+    top:424px;
+    width:20px;
+    height:138px;
+}
+
+.u26 {
+    position:absolute;
+    left:25px;
+    top:16px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27_normal {
+    background-image: url('../银转商—入金流程_files/u12_normal.png');
+}
+
+.u27_container {
+    position:absolute;
+    left:279px;
+    top:558px;
+    width:191px;
+    height:30px;
+}
+
+#u27_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:197px;
+    height:36px;
+}
+
+.u28 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:187px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

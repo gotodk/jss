@@ -1,0 +1,57 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Us_Send_1318" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Us_Send_1318">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FunctionId" msdata:Caption="接口编号" type="xs:string" default="1318" />
+                <xs:element name="TranWebName" msdata:Caption="交易网名称" type="xs:string" default="0" />
+                <xs:element name="ThirdCustId" msdata:Caption="交易网会员代码" type="xs:string" default="0" />
+                <xs:element name="IdType" msdata:Caption="会员证件类型" type="xs:string" default="0" />
+                <xs:element name="IdCode" msdata:Caption="会员证件号码" type="xs:string" default="0" />
+                <xs:element name="TranOutType" msdata:Caption="出金类型" type="xs:string" default="1" />
+                <xs:element name="CustAcctId" msdata:Caption="子账户账号" type="xs:string" default="0" />
+                <xs:element name="CustName" msdata:Caption="子账户名称" type="xs:string" default="0" />
+                <xs:element name="SupAcctId" msdata:Caption="资金汇总账号" type="xs:string" default="11014172692009 " />
+                <xs:element name="TranType" msdata:Caption="转账方式" type="xs:string" default="1" />
+                <xs:element name="OutAcctId" msdata:Caption="出金账号" type="xs:string" default="0" />
+                <xs:element name="OutAcctIdName" msdata:Caption="出金账户名称" type="xs:string" default="0" />
+                <xs:element name="OutAcctIdBankName" msdata:Caption="出金账号开户行名" type="xs:string" default="0" />
+                <xs:element name="OutAcctIdBankCode" msdata:Caption="出金账号开户联行号" type="xs:string" default="0" />
+                <xs:element name="Address" msdata:Caption="出金账号开户行地址" type="xs:string" default="0" />
+                <xs:element name="CcyCode" msdata:Caption="币种" type="xs:string" default="RMB" />
+                <xs:element name="TranAmount" msdata:Caption="申请出金金额" type="xs:string" default="0" />
+                <xs:element name="FeeOutCustId" msdata:Caption="支付转账手续费的子账号" type="xs:string" default="0" />
+                <xs:element name="Reserve" msdata:Caption="保留域" type="xs:string" default="" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Us_Send_1318>
+    <FunctionId>1318</FunctionId>
+    <TranWebName>0</TranWebName>
+    <ThirdCustId>0</ThirdCustId>
+    <IdType>0</IdType>
+    <IdCode>0</IdCode>
+    <TranOutType>1</TranOutType>
+    <CustAcctId>0</CustAcctId>
+    <CustName>0</CustName>
+    <SupAcctId>11014172692009</SupAcctId>
+    <TranType>1</TranType>
+    <OutAcctId>0</OutAcctId>
+    <OutAcctIdName>0</OutAcctIdName>
+    <OutAcctIdBankName>0</OutAcctIdBankName>
+    <OutAcctIdBankCode>0</OutAcctIdBankCode>
+    <Address>0</Address>
+    <CcyCode>RMB</CcyCode>
+    <TranAmount>0</TranAmount>
+    <FeeOutCustId>0</FeeOutCustId>
+    <Reserve></Reserve>
+  </Us_Send_1318>
+</NewDataSet>

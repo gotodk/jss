@@ -1,0 +1,159 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Net;
+using System.Net.Sockets;
+using System.Text;
+
+namespace 银行接口协议测试
+{
+    class ClassSendMsg
+    {
+
+        //向线程传递的回调参数
+        private delegateForThread DForThread;
+        //向线程传递的数据参数
+        private Hashtable InPutHT;
+        /// <summary>
+        /// 构造函数
+        /// </summary>
+        /// <param name="PHT">需要传入线程的参数</param>
+        /// <param name="DFT">线程委托</param>
+        public ClassSendMsg(Hashtable PHT, delegateForThread DFT)
+        {
+            //
+            // TODO: 在此处添加构造函数逻辑
+            //
+            DForThread = DFT;
+            InPutHT = PHT;
+        }
+
+        public void Sendtest()
+        {
+            IPAddress serverIP = IPAddress.Parse(InPutHT["接口IP"].ToString());//设置发送目标IP
+            IPEndPoint serverFullAddr = new IPEndPoint(serverIP, int.Parse(InPutHT["接口端口"].ToString()));//设置发送目标IP，端口
+            Socket sock = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            try
+            {
+
+                //指定本地主机地址和端口号
+                sock.Connect(serverFullAddr);
+                //完成连接发送目标的回调
+                //.........................
+
+                //开始发送数据
+                string allmsg = "";
+                //造一个指令
+                //数据包头部，F＋3位包头长度＋5位包体长度＋8位券商号＋3位密码加密标志＋8位MAC值（每一段前补0，共28位长度）。
+                //string tou = "F028555558888888800088888888";
+                //string baoti1 = "8<SOH>1<SOH>";
+                //string baoti2 = "FunctionId<SOH>ExSerial<SOH>bCustAcct<SOH>sOrganId<SOH>sCustAcct<SOH>MoneyType<SOH>Date<SOH>BusinType<SOH>";
+                //string baoti3 = "24603<SOH>xxxxtest123<SOH>9843011000070739<SOH>60050000<SOH>xxxxtest999<SOH>0<SOH>20130627<SOH>1<SOH>";
+
+
+                string tou = InPutHT["报文头"].ToString();
+                tou = tou.Replace("<SOH>", Chr(1));
+                string baoti1 = InPutHT["包体1"].ToString();
+                baoti1 = baoti1.Replace("<SOH>", Chr(1));
+                string baoti2 = InPutHT["包体2"].ToString();
+                baoti2 = baoti2.Replace("<SOH>", Chr(1));
+                string baoti3 = InPutHT["包体3"].ToString();
+                baoti3 = baoti3.Replace("<SOH>", Chr(1));
+                baoti3 = baoti3.Replace("外部流水号", "201300001");
+
+
+                string changdu = (baoti1 + baoti2 + baoti3).Length.ToString();
+                allmsg = tou + baoti1 + baoti2 + baoti3;
+                allmsg = allmsg.Replace("包体长度", changdu.PadLeft(5, '0'));
+
+
+                byte[] byteSend = System.Text.Encoding.GetEncoding("GB2312").GetBytes(allmsg);
+                byte[] message = new byte[9999];
+                string mess = "";//返回值
+                
+
+                //发送数据
+                int f = sock.Send(byteSend);
+
+                //填充传入参数哈希表
+                Hashtable OutPutHT = new Hashtable();
+                OutPutHT["测试返回值"] = "发送标志:"+f.ToString();//测试参数
+                DForThread(OutPutHT);
+
+                //填充传入参数哈希表
+                OutPutHT = new Hashtable();
+                OutPutHT["测试返回值"] = "发送内容输出:" + allmsg;//测试参数
+                DForThread(OutPutHT);
+
+                int bytes = 0;
+     
+                    bytes = sock.Receive(message);//接收数据
+
+                //接收消息，在加密功能增加前，需要强制补零
+                    mess = Encoding.GetEncoding("GB2312").GetString(message, 0, 28 - 8) + "00000000" + Encoding.GetEncoding("GB2312").GetString(message, 28, bytes - 28);
+        
+               
+
+                //包体长度
+       
+                //填充传入参数哈希表
+                OutPutHT = new Hashtable();
+                OutPutHT["测试返回值"] = "接收包标志：" + bytes.ToString();//测试参数
+                DForThread(OutPutHT);
+
+                OutPutHT = new Hashtable();
+                OutPutHT["测试返回值"] = "接收反馈包内容：" + mess;//测试参数
+                DForThread(OutPutHT);
+
+                //int bytes2 = 0;
+                //byte[] message2 = new byte[Convert.ToInt32(baotichangdu)];
+                //bytes2 = sock.Receive(message);//接收数据
+                //string mess2 = Encoding.GetEncoding("GB2312").GetString(message2, 0, bytes2);
+                ////填充传入参数哈希表
+                //OutPutHT = new Hashtable();
+                //OutPutHT["测试返回值"] = "接收包体标志：" + bytes2.ToString();//测试参数
+                //DForThread(OutPutHT);
+                //OutPutHT = new Hashtable();
+                //OutPutHT["测试返回值"] = "接收反馈包体内容：" + mess2;//测试参数
+                //DForThread(OutPutHT);
+
+
+                //do
+                //{
+                //    bytes = newSocket.Receive(message, message.Length, 0);
+                //    mess = mess + Encoding.ASCII.GetString(message, 0, bytes);
+                //}
+                // while (bytes > 0);
+                //tbxMessage.Text = mess;
+            }
+            catch (Exception ex)
+            {
+                //出错的回调
+                //.........................
+                //填充传入参数哈希表
+                Hashtable OutPutHT = new Hashtable();
+                OutPutHT["测试返回值"] = "出错" + ex.ToString();//测试参数
+                DForThread(OutPutHT);
+            }
+            sock.Close();
+        }
+
+
+        public  string Chr(int asciiCode)
+        {
+            if (asciiCode >= 0 && asciiCode <= 255)
+            {
+                System.Text.ASCIIEncoding asciiEncoding = new System.Text.ASCIIEncoding();
+                byte[] byteArray = new byte[] { (byte)asciiCode };
+                string strCharacter = asciiEncoding.GetString(byteArray);
+                return (strCharacter);
+            }
+            else
+            {
+                throw new Exception("ASCII Code is not valid.");
+            }
+        }
+
+
+    }
+}

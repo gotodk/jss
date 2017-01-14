@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F0835632-A262-4A9E-ADCD-232393B1755E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>公用通讯协议类库</RootNamespace>
+    <AssemblyName>公用通讯协议类库</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="C2S类库\CSMessage.cs" />
+    <Compile Include="C2S类库\GetUsersMessage.cs" />
+    <Compile Include="C2S类库\LoginMessage.cs" />
+    <Compile Include="C2S类库\LogoutMessage.cs" />
+    <Compile Include="P2P类库\ACKMessage.cs" />
+    <Compile Include="P2P类库\ACKOpenTscMessage.cs" />
+    <Compile Include="P2P类库\ACKTrashMessage.cs" />
+    <Compile Include="P2P类库\OpenTscMessage.cs" />
+    <Compile Include="P2P类库\PPMessage.cs" />
+    <Compile Include="P2P类库\TrashMessage.cs" />
+    <Compile Include="P2P类库\WorkMessage.cs" />
+    <Compile Include="P2P类库\文件传输消息类\ACKGetDiskInfoMessage.cs" />
+    <Compile Include="P2P类库\文件传输消息类\ACKGetFilesInfoMessage.cs" />
+    <Compile Include="P2P类库\文件传输消息类\AddFolderMessage.cs" />
+    <Compile Include="P2P类库\文件传输消息类\ApplyUpLoadMessage.cs" />
+    <Compile Include="P2P类库\文件传输消息类\DeleteFilesMessage.cs" />
+    <Compile Include="P2P类库\文件传输消息类\GetDiskInfoMessage.cs" />
+    <Compile Include="P2P类库\文件传输消息类\GetFilesInfoMessage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="S2C类库\ACKLoginMessage.cs" />
+    <Compile Include="S2C类库\GetUsersResponseMessage.cs" />
+    <Compile Include="S2C类库\SCMessage.cs" />
+    <Compile Include="共用类库\Collection2DataTable.cs" />
+    <Compile Include="共用类库\DataSetHelper.cs" />
+    <Compile Include="共用类库\FilesInfo.cs" />
+    <Compile Include="共用类库\FilesInfoCollection.cs" />
+    <Compile Include="共用类库\MessageBase.cs" />
+    <Compile Include="共用类库\FormatterHelper.cs" />
+    <Compile Include="共用类库\UserCollection.cs" />
+    <Compile Include="共用类库\User.cs" />
+    <Compile Include="共用类库\P2PConsts.cs" />
+    <Compile Include="消息片类库\FileRevieveATC.cs" />
+    <Compile Include="消息片类库\MsgSlice.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="P2P类库\文件传输消息类\TextFile1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

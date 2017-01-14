@@ -1,0 +1,107 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+using FMBANKpufa;
+using System.Collections;
+namespace 银行接口协议测试
+{
+    public partial class FormTest : Form
+    {
+        public FormTest()
+        {
+            InitializeComponent();
+        }
+
+        //查看加密前的包体
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+        //查看加密后的包体
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        //发送数据包
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormTest_Load(object sender, EventArgs e)
+        {
+            string baoti_str = "4<SOH>2<SOH>列1<SOH>咧咧2<SOH>咧咧咧3<SOH>咧咧咧咧4<SOH>1<SOH>2<SOH>3<SOH>4<SOH>5<SOH>6<SOH>7<SOH>8<SOH>";
+            baoti_str = baoti_str.Replace("<SOH>", Chr(1));
+           
+
+
+            ////把包体字符串，转化成数据集
+            //string[] baoti_Arr = baoti_str.Split(Chr(1).ToCharArray()[0]);
+            //DataTable dt = new DataTable();
+            ////得到有多少列
+            //int Cols = Convert.ToInt32(baoti_Arr[0]);
+            ////得到有多少行
+            //int Rows = Convert.ToInt32(baoti_Arr[1]);
+            ////生成列,从第三个数组元素开始，取到列数结束
+            //for (int lie = 2; lie < Cols + 2; lie++)
+            //{
+            //    dt.Columns.Add(baoti_Arr[lie]);
+            //}
+            ////生成行，根据有几行和有几列，跳过前两个数组元素。取到每行的数据
+            //DataRow dr = dt.NewRow();
+            //for (int p = 1; p <= Rows; p++)
+            //{
+            //    dr = dt.NewRow();
+            //    for (int i = 0; i < Cols; i++)
+            //    {
+            //        //填充值
+            //        dr[i] = baoti_Arr[2 + p * Cols + i];
+            //    }
+            //    dt.Rows.Add(dr);
+            //}
+
+            //dataGridViewShow.DataSource = dt.DefaultView;
+            //for (int i = 0; i < dataGridViewShow.Columns.Count; i++)
+            //{
+            //    dataGridViewShow.Columns[i].SortMode = DataGridViewColumnSortMode.NotSortable;
+            //}
+
+            //ClassSend CS = new ClassSend();
+            //Hashtable ht = CS.Get_ByteAndString_From_DataTable(dt, false, "");
+            //if (ht["字节流"] != null)
+            //{
+            //    byte[] aaaa = (byte[])ht["字节流"];
+            //}
+            //RTBlog.AppendText(ht["视觉检测字符串"].ToString());
+
+        }
+
+        /// <summary>
+        /// asciiCode转字符串
+        /// </summary>
+        /// <param name="asciiCode"></param>
+        /// <returns></returns>
+        private string Chr(int asciiCode)
+        {
+            if (asciiCode >= 0 && asciiCode <= 255)
+            {
+                System.Text.ASCIIEncoding asciiEncoding = new System.Text.ASCIIEncoding();
+                byte[] byteArray = new byte[] { (byte)asciiCode };
+                string strCharacter = asciiEncoding.GetString(byteArray);
+                return (strCharacter);
+            }
+            else
+            {
+                return "";
+            }
+        }
+
+    }
+}

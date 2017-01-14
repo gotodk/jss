@@ -1,0 +1,30 @@
+2013-03-02 16-22-43     ---     委托回调错误：System.IndexOutOfRangeException: 在位置 9 处没有任何行。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult_FLerji(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 760
+
+2013-03-02 16-22-45     ---     委托回调错误：System.IndexOutOfRangeException: 在位置 8 处没有任何行。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult_FLerji(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 760
+
+2013-03-02 16-22-51     ---     委托回调错误：System.IndexOutOfRangeException: 在位置 4 处没有任何行。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult_FLerji(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 760
+
+2013-03-02 16-22-55     ---     委托回调错误：System.IndexOutOfRangeException: 在位置 9 处没有任何行。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult_FLerji(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 760
+
+2013-03-02 16-22-56     ---     委托回调错误：System.IndexOutOfRangeException: 在位置 8 处没有任何行。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult_FLerji(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 760
+
+2013-03-02 16-22-57     ---     委托回调错误：System.IndexOutOfRangeException: 在位置 6 处没有任何行。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult_FLerji(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 760
+

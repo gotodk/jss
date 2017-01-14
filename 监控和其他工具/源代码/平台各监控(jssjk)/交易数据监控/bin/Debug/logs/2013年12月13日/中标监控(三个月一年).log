@@ -1,0 +1,33 @@
+2013-12-13 22-20-33     ---     执行任务名称:中标监控(三个月一年),开始时间:2013/12/13 22:20:32,结束时间:2013/12/13 22:20:33,执行结果:errSystem.Exception: “SPBH”附近有语法错误。
+   在 FMOP.DB.DbHelperSQL.ExecSqlTran(ArrayList SQLStringList) 位置 d:\测试库各主程序\测试库中国商品批发交易平台处理后台\App_Code\DbHelperSQL.cs:行号 906
+   在 ws2013.serverZBJK() 位置 d:\测试库各主程序\测试库中国商品批发交易平台处理后台\App_Code\ws2013.cs:行号 405,其他描述:
+
+2013-12-13 22-20-46     ---     执行任务名称:中标监控(三个月一年),开始时间:2013/12/13 22:20:45,结束时间:2013/12/13 22:20:46,执行结果:errSystem.Exception: “SPBH”附近有语法错误。
+   在 FMOP.DB.DbHelperSQL.ExecSqlTran(ArrayList SQLStringList) 位置 d:\测试库各主程序\测试库中国商品批发交易平台处理后台\App_Code\DbHelperSQL.cs:行号 906
+   在 ws2013.serverZBJK() 位置 d:\测试库各主程序\测试库中国商品批发交易平台处理后台\App_Code\ws2013.cs:行号 405,其他描述:
+
+2013-12-13 22-21-11     ---     执行任务名称:中标监控(三个月一年),开始时间:2013/12/13 22:21:11,结束时间:2013/12/13 22:21:11,执行结果:errSystem.Exception: “SPBH”附近有语法错误。
+   在 FMOP.DB.DbHelperSQL.ExecSqlTran(ArrayList SQLStringList) 位置 d:\测试库各主程序\测试库中国商品批发交易平台处理后台\App_Code\DbHelperSQL.cs:行号 906
+   在 ws2013.serverZBJK() 位置 d:\测试库各主程序\测试库中国商品批发交易平台处理后台\App_Code\ws2013.cs:行号 405,其他描述:
+
+2013-12-13 22-25-45     ---     执行任务名称:中标监控(三个月一年),开始时间:2013/12/13 22:25:45,结束时间:2013/12/13 22:25:45,执行结果:errSystem.Exception: “SPBH”附近有语法错误。
+   在 FMOP.DB.DbHelperSQL.ExecSqlTran(ArrayList SQLStringList) 位置 d:\测试库各主程序\测试库中国商品批发交易平台处理后台\App_Code\DbHelperSQL.cs:行号 906
+   在 ws2013.serverZBJK() 位置 d:\测试库各主程序\测试库中国商品批发交易平台处理后台\App_Code\ws2013.cs:行号 411___     select '有中标数据产生'     select '有商品离开冷静期'     select '有中标数据产生'     select '有商品离开冷静期'     select '有商品离开冷静期'   
+ INSERT INTO AAA_ZBDBXXB ( [Number],[Z_HTBH],[Z_HTQX],[Z_HTZT],[Z_QPZT],[Z_SPBH],[Z_SPMC],[Z_GG],[Z_JJDW],[Z_PTSDZDJJPL],[Z_ZBSJ],[Z_ZBSL],[Z_YTHSL],[Z_RJZGFHL],[Z_ZBJG],[Z_ZBJE],[Z_DBSJ],[Z_HTJSRQ],[Z_SFDJLYBZJ],[Z_LYBZJBL],[Z_LYBZJJE],[Z_DJJE],[Z_BZHBL],[Z_BZHJE],[T_YSTBDBH],[T_YSTBDDLYX],[T_YSTBDJSZHLX],[T_YSTBDMJJSBH],[T_YSTBDGLJJRYX],[T_YSTBDGLJJRYHM],[T_YSTBDGLJJRJSBH],[YSTBDGLJJRPTGLJG],[T_YSTBDMJSDJJPL],[T_YSTBDGHQY],[T_YSTBDTBNSL],[T_YSTBDTBJG],[T_YSTBDTBJE],[T_YSTBDMJTBBZJBL],[T_YSTBDMJTBBZJZXZ],[T_YSTBDDJTBBZJ],[YSTBDTJSJ],[Y_YSYDDBH],[Y_YSYDDDLYX],[Y_YSYDDJSZHLX],[Y_YSYDDMJJSBH],[Y_YSYDDGLJJRYX],[Y_YSYDDGLJJRYHM],[Y_YSYDDGLJJRJSBH],[YSYDDGLJJRPTGLJG],[Y_YSYDDSHQY],[Y_YSYDDSHQYsheng],[Y_YSYDDSHQYshi],[Y_YSYDDNMRJG],[Y_YSYDDNDGSL],[Y_YSYDDYZBSL],[Y_YSYDDNDGJE],[Y_YSYDDMJDJBL],[Y_YSYDDDJDJ],[YSYDDTJSJ],[Q_QPZMSCSJ],[Q_ZMSCFDLYX],[Q_ZMSCFJSZHLX],[Q_ZMSCFJSBH],[Q_ZMWJLJ],[Q_ZFLYZH],[Q_ZFMBZH],[Q_ZFJE],[Q_SFYQR],[Q_QRSJ],[NextChecker],[CheckState],[CreateUser],[CreateTime],[CheckLimitTime]) VALUES('M131213001347','HTM131213001347','一年','中标','未开始清盘','7L0010','棉籽','三级 GB/T 11763-2008','公斤','5000','2013/12/13 22:25:26','50000','0','0','12','600000',null,null,'否','0.035','21000','42000','0.05','30000','131212001323','chuanzhi10@163.com','买家卖家交易账户','B131206000497','chuanzhi10@126.com','asde','J131206000496','天津分公司','5000','|新疆维吾尔自治区|广西省|甘肃省|青海省|陕西省|宁夏回族自治区|黑龙江省|吉林省|辽宁省|贵州省|西藏自治区|云南省|四川省|重庆市|河南省|湖北省|湖南省|福建省|江西省|山东省|安徽省|浙江省|江苏省|上海市|海南省|广东省|内蒙古自治区|山西省|河北省|天津市|北京市|','50000','12','600000','0.0005','1000','1000','2013/12/12 20:16:29','131212001381','chuanzhi10@126.com','经纪人交易账户','C131206000496','chuanzhi10@126.com','asde','J131206000496','天津分公司','|天津市天津市辖区|','天津市','天津市辖区','12','50000','0','600000','0.07','42000','2013/12/12 20:17:26',null,null,null,null,null,null,null,null,null,null,null,'1','admin','2013/12/13 22:25:26','2013/12/13 22:25:26')
+update AAA_YDDXXB set ZT = '中标',YZBSL=YZBSL+ 50000   where Number = '131212001381' 
+update AAA_TBD set ZT = '中标'  where Number = '131212001323' 
+update AAA_ZBDBXXB set Z_RJZGFHL = 165  where T_YSTBDBH = '131212001323' 
+ update AAA_DaPanTJTime set LastYXBGtime = getdate()  SPBH='7L0010'  
+ update AAA_LJQDQZTXXB set SFJRLJQ = '否',LJQKSSJ = null,LJQJSSJ=null where  HTQX = '一年' and SPBH  = '7L0010' 
+ INSERT INTO AAA_LJQBGLSJLB (Number,SPBH,HTQX,LJQKSSJBGW,LJQJSSJBGW,SFZLJQZTBGW) VALUES ('131213000523','7L0010','一年',null,null,'否') 
+ INSERT INTO AAA_ZBDBXXB ( [Number],[Z_HTBH],[Z_HTQX],[Z_HTZT],[Z_QPZT],[Z_SPBH],[Z_SPMC],[Z_GG],[Z_JJDW],[Z_PTSDZDJJPL],[Z_ZBSJ],[Z_ZBSL],[Z_YTHSL],[Z_RJZGFHL],[Z_ZBJG],[Z_ZBJE],[Z_DBSJ],[Z_HTJSRQ],[Z_SFDJLYBZJ],[Z_LYBZJBL],[Z_LYBZJJE],[Z_DJJE],[Z_BZHBL],[Z_BZHJE],[T_YSTBDBH],[T_YSTBDDLYX],[T_YSTBDJSZHLX],[T_YSTBDMJJSBH],[T_YSTBDGLJJRYX],[T_YSTBDGLJJRYHM],[T_YSTBDGLJJRJSBH],[YSTBDGLJJRPTGLJG],[T_YSTBDMJSDJJPL],[T_YSTBDGHQY],[T_YSTBDTBNSL],[T_YSTBDTBJG],[T_YSTBDTBJE],[T_YSTBDMJTBBZJBL],[T_YSTBDMJTBBZJZXZ],[T_YSTBDDJTBBZJ],[YSTBDTJSJ],[Y_YSYDDBH],[Y_YSYDDDLYX],[Y_YSYDDJSZHLX],[Y_YSYDDMJJSBH],[Y_YSYDDGLJJRYX],[Y_YSYDDGLJJRYHM],[Y_YSYDDGLJJRJSBH],[YSYDDGLJJRPTGLJG],[Y_YSYDDSHQY],[Y_YSYDDSHQYsheng],[Y_YSYDDSHQYshi],[Y_YSYDDNMRJG],[Y_YSYDDNDGSL],[Y_YSYDDYZBSL],[Y_YSYDDNDGJE],[Y_YSYDDMJDJBL],[Y_YSYDDDJDJ],[YSYDDTJSJ],[Q_QPZMSCSJ],[Q_ZMSCFDLYX],[Q_ZMSCFJSZHLX],[Q_ZMSCFJSBH],[Q_ZMWJLJ],[Q_ZFLYZH],[Q_ZFMBZH],[Q_ZFJE],[Q_SFYQR],[Q_QRSJ],[NextChecker],[CheckState],[CreateUser],[CreateTime],[CheckLimitTime]) VALUES('L131213001348','HTL131213001348','三个月','中标','未开始清盘','36L0296','轮胎/轿车','245/45ZR19 98Y / GB/T 2978-2008','条','1','2013/12/13 22:25:26','12','0','0','10','120',null,null,'否','0.035','4.2','8.4','0.05','6','131212001321','chuanzhi10@163.com','买家卖家交易账户','B131206000497','chuanzhi10@126.com','asde','J131206000496','天津分公司','1','|新疆维吾尔自治区|广西省|甘肃省|青海省|陕西省|宁夏回族自治区|黑龙江省|吉林省|辽宁省|贵州省|西藏自治区|云南省|四川省|重庆市|河南省|湖北省|湖南省|福建省|江西省|山东省|安徽省|浙江省|江苏省|上海市|海南省|广东省|内蒙古自治区|山西省|河北省|天津市|北京市|','12','10','120','0.0005','1000','1000','2013/12/12 19:57:16','131212001380','chuanzhi10@126.com','经纪人交易账户','C131206000496','chuanzhi10@126.com','asde','J131206000496','天津分公司','|内蒙古自治区赤峰市|','内蒙古自治区','赤峰市','10','12','0','120','0.07','8.4','2013/12/12 20:03:28',null,null,null,null,null,null,null,null,null,null,null,'1','admin','2013/12/13 22:25:26','2013/12/13 22:25:26')
+update AAA_YDDXXB set ZT = '中标',YZBSL=YZBSL+ 12   where Number = '131212001380' 
+update AAA_TBD set ZT = '中标'  where Number = '131212001321' 
+update AAA_ZBDBXXB set Z_RJZGFHL = 1  where T_YSTBDBH = '131212001321' 
+ update AAA_DaPanTJTime set LastYXBGtime = getdate()  SPBH='36L0296'  
+ update AAA_LJQDQZTXXB set SFJRLJQ = '否',LJQKSSJ = null,LJQJSSJ=null where  HTQX = '三个月' and SPBH  = '36L0296' 
+ INSERT INTO AAA_LJQBGLSJLB (Number,SPBH,HTQX,LJQKSSJBGW,LJQJSSJBGW,SFZLJQZTBGW) VALUES ('131213000524','36L0296','三个月',null,null,'否') 
+ update AAA_LJQDQZTXXB set SFJRLJQ = '否',LJQKSSJ = null,LJQJSSJ=null where  HTQX = '一年' and SPBH  = '36L0296' 
+ INSERT INTO AAA_LJQBGLSJLB (Number,SPBH,HTQX,LJQKSSJBGW,LJQJSSJBGW,SFZLJQZTBGW) VALUES ('131213000525','36L0296','一年',null,null,'否') 
+,其他描述:
+

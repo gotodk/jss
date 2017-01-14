@@ -1,0 +1,17 @@
+2014-11-19 11-46-47     ---     委托回调错误：System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.SubForm.fmNMRSP.ShowThreadResult_BeginBind(Hashtable returnHT) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_Y4_Business_SPMM\fmNMRSP.cs:行号 193
+
+2014-11-19 11-46-47     ---     委托回调错误：System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.SubForm.UCPager.ShowThreadResult_pager(Hashtable returnHT) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_K1_Control_G\UCPager.cs:行号 96
+
+2014-11-19 11-52-52     ---     调用webservices错误,方法名：[C下达预订单]：查询业务调用失败，空返回值！
+
+2014-11-19 11-52-53     ---     委托回调错误：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.SubForm.NewCenterForm.SUBUC.SPMM.ucSPMR_B2.SRT_demo(Hashtable OutPutHT) 位置 f:\富美开发项目\2011工作副本\平台第二版-工作副本\A_Y4_Business_SPMM\ucSPMR_B2.cs:行号 164
+

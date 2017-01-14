@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="会员开销户确认_x0023_1301" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="会员开销户确认_x0023_1301">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FuncFlag" msdata:Caption="功能标志" type="xs:string" default="1" />
+                <xs:element name="SupAcctId" msdata:Caption="资金汇总账号" type="xs:string" default="x" />
+                <xs:element name="CustAcctId" msdata:Caption="子账户账号" type="xs:string" default="x" />
+                <xs:element name="CustName" msdata:Caption="子账户名称" type="xs:string" default="x" />
+                <xs:element name="ThirdCustId" msdata:Caption="交易网会员代码" type="xs:string" default="x" />
+                <xs:element name="IdType" msdata:Caption="子账户证件类型" type="xs:string" default="x" />
+                <xs:element name="IdCode" msdata:Caption="子账户证件号码" type="xs:string" default="x" />
+                <xs:element name="CustFlag" msdata:Caption="子账户性质" type="xs:string" default="x" />
+                <xs:element name="TotalAmount" msdata:Caption="初始总金额" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="TotalBalance" msdata:Caption="初始可用余额" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="TotalFreezeAmount" msdata:Caption="初始冻结金额" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="Reserve" msdata:Caption="保留域" type="xs:string" default="	" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <会员开销户确认_x0023_1301>
+    <FuncFlag>1</FuncFlag>
+    <SupAcctId>x</SupAcctId>
+    <CustAcctId>x</CustAcctId>
+    <CustName>x</CustName>
+    <ThirdCustId>x</ThirdCustId>
+    <IdType>x</IdType>
+    <IdCode>x</IdCode>
+    <CustFlag>x</CustFlag>
+    <TotalAmount />
+    <TotalBalance />
+    <TotalFreezeAmount />
+    <Reserve xml:space="preserve">	</Reserve>
+  </会员开销户确认_x0023_1301>
+</NewDataSet>

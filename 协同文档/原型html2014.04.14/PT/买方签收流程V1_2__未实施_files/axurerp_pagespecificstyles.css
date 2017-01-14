@@ -1,0 +1,1866 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../买方签收流程V1_2__未实施_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:300px;
+    top:330px;
+    width:150px;
+    height:40px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:46px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:146px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../买方签收流程V1_2__未实施_files/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:640px;
+    top:185px;
+    width:150px;
+    height:75px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:81px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:27px;
+    width:146px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../买方签收流程V1_2__未实施_files/u0_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:540px;
+    top:330px;
+    width:150px;
+    height:40px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:46px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:146px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6_normal {
+    background-image: url('../买方签收流程V1_2__未实施_files/u6_normal.png');
+}
+
+.u6_container {
+    position:absolute;
+    left:460px;
+    top:416px;
+    width:110px;
+    height:70px;
+}
+
+#u6_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:116px;
+    height:76px;
+}
+
+.u7 {
+    position:absolute;
+    left:2px;
+    top:26px;
+    width:106px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8_normal {
+    background-image: url('../买方签收流程V1_2__未实施_files/u0_normal.png');
+}
+
+.u8_container {
+    position:absolute;
+    left:397px;
+    top:540px;
+    width:150px;
+    height:40px;
+}
+
+#u8_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:46px;
+}
+
+.u9 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:146px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10_normal {
+    background-image: url('../买方签收流程V1_2__未实施_files/u10_normal.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:600px;
+    top:542px;
+    width:140px;
+    height:40px;
+}
+
+#u10_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:46px;
+}
+
+.u11 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:136px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12_normal {
+    background-image: url('../买方签收流程V1_2__未实施_files/u12_normal.png');
+}
+
+.u12_container {
+    position:absolute;
+    left:350px;
+    top:684px;
+    width:100px;
+    height:40px;
+}
+
+#u12_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:46px;
+}
+
+.u13 {
+    position:absolute;
+    left:2px;
+    top:1px;
+    width:96px;
+    height:38px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_normal {
+    background-image: url('../买方签收流程V1_2__未实施_files/u12_normal.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:492px;
+    top:683px;
+    width:100px;
+    height:40px;
+}
+
+#u14_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:46px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:1px;
+    width:96px;
+    height:38px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16_normal {
+    background-image: url('../买方签收流程V1_2__未实施_files/u16_normal.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:496px;
+    top:744px;
+    width:92px;
+    height:65px;
+}
+
+#u16_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:98px;
+    height:71px;
+}
+
+.u17 {
+    position:absolute;
+    left:2px;
+    top:23px;
+    width:88px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18_normal {
+    background-image: url('../买方签收流程V1_2__未实施_files/u18_normal.png');
+}
+
+.u18_container {
+    position:absolute;
+    left:487px;
+    top:851px;
+    width:113px;
+    height:37px;
+}
+
+#u18_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:119px;
+    height:43px;
+}
+
+.u19 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:109px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20c0 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u20c0.png');
+}
+
+.u20c0 {
+    position:absolute;
+    left:390px;
+    top:623px;
+    width:86px;
+    height:20px;
+}
+
+.u20c1 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u20c1.png');
+}
+
+.u20c1 {
+    position:absolute;
+    left:390px;
+    top:623px;
+    width:20px;
+    height:65px;
+}
+
+.u21 {
+    position:absolute;
+    left:-112px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22c0 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u22c0.png');
+}
+
+.u22c0 {
+    position:absolute;
+    left:468px;
+    top:623px;
+    width:84px;
+    height:20px;
+}
+
+.u22c1 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u22c1.png');
+}
+
+.u22c1 {
+    position:absolute;
+    left:532px;
+    top:623px;
+    width:20px;
+    height:64px;
+}
+
+.u23 {
+    position:absolute;
+    left:10px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24c0 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u24c0.png');
+}
+
+.u24c0 {
+    position:absolute;
+    left:532px;
+    top:719px;
+    width:20px;
+    height:35px;
+}
+
+.u25 {
+    position:absolute;
+    left:-50px;
+    top:2px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26c0 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u26c0.png');
+}
+
+.u26c0 {
+    position:absolute;
+    left:532px;
+    top:805px;
+    width:20px;
+    height:46px;
+}
+
+.u26c1 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u26c1.png');
+}
+
+.u26c1 {
+    position:absolute;
+    left:532px;
+    top:831px;
+    width:22px;
+    height:20px;
+}
+
+.u26c2 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u26c2.png');
+}
+
+.u26c2 {
+    position:absolute;
+    left:534px;
+    top:831px;
+    width:20px;
+    height:24px;
+}
+
+.u27 {
+    position:absolute;
+    left:-50px;
+    top:14px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28c0 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u28c0.png');
+}
+
+.u28c0 {
+    position:absolute;
+    left:390px;
+    top:766px;
+    width:110px;
+    height:20px;
+}
+
+.u28c1 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u28c1.png');
+}
+
+.u28c1 {
+    position:absolute;
+    left:390px;
+    top:720px;
+    width:20px;
+    height:66px;
+}
+
+.u29 {
+    position:absolute;
+    left:-124px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30_normal {
+    background-image: url('../买方签收流程V1_2__未实施_files/u6_normal.png');
+}
+
+.u30_container {
+    position:absolute;
+    left:810px;
+    top:413px;
+    width:110px;
+    height:70px;
+}
+
+#u30_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:116px;
+    height:76px;
+}
+
+.u31 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:106px;
+    height:38px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32_normal {
+    background-image: url('../买方签收流程V1_2__未实施_files/u32_normal.png');
+}
+
+.u32_container {
+    position:absolute;
+    left:800px;
+    top:543px;
+    width:130px;
+    height:40px;
+}
+
+#u32_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:136px;
+    height:46px;
+}
+
+.u33 {
+    position:absolute;
+    left:2px;
+    top:1px;
+    width:126px;
+    height:38px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34c0 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u34c0.png');
+}
+
+.u34c0 {
+    position:absolute;
+    left:365px;
+    top:212px;
+    width:279px;
+    height:20px;
+}
+
+.u34c1 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u34c1.png');
+}
+
+.u34c1 {
+    position:absolute;
+    left:365px;
+    top:212px;
+    width:20px;
+    height:122px;
+}
+
+.u35 {
+    position:absolute;
+    left:-236px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36c0 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u36c0.png');
+}
+
+.u36c0 {
+    position:absolute;
+    left:605px;
+    top:366px;
+    width:20px;
+    height:50px;
+}
+
+.u36c1 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u36c1.png');
+}
+
+.u36c1 {
+    position:absolute;
+    left:505px;
+    top:396px;
+    width:120px;
+    height:20px;
+}
+
+.u36c2 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u36c2.png');
+}
+
+.u36c2 {
+    position:absolute;
+    left:505px;
+    top:396px;
+    width:20px;
+    height:24px;
+}
+
+.u37 {
+    position:absolute;
+    left:-87px;
+    top:28px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u38c0 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u38c0.png');
+}
+
+.u38c0 {
+    position:absolute;
+    left:505px;
+    top:482px;
+    width:20px;
+    height:58px;
+}
+
+.u38c1 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u38c1.png');
+}
+
+.u38c1 {
+    position:absolute;
+    left:462px;
+    top:520px;
+    width:63px;
+    height:20px;
+}
+
+.u38c2 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u38c2.png');
+}
+
+.u38c2 {
+    position:absolute;
+    left:462px;
+    top:520px;
+    width:20px;
+    height:24px;
+}
+
+.u39 {
+    position:absolute;
+    left:-54px;
+    top:36px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40c0 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u40c0.png');
+}
+
+.u40c0 {
+    position:absolute;
+    left:686px;
+    top:340px;
+    width:189px;
+    height:20px;
+}
+
+.u40c1 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u40c1.png');
+}
+
+.u40c1 {
+    position:absolute;
+    left:855px;
+    top:340px;
+    width:20px;
+    height:77px;
+}
+
+.u41 {
+    position:absolute;
+    left:69px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42c0 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u42c0.png');
+}
+
+.u42c0 {
+    position:absolute;
+    left:462px;
+    top:576px;
+    width:20px;
+    height:64px;
+}
+
+.u42c1 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u42c1.png');
+}
+
+.u42c1 {
+    position:absolute;
+    left:466px;
+    top:620px;
+    width:16px;
+    height:20px;
+}
+
+.u43 {
+    position:absolute;
+    left:-50px;
+    top:18px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u44c0 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u44c0.png');
+}
+
+.u44c0 {
+    position:absolute;
+    left:740px;
+    top:438px;
+    width:74px;
+    height:20px;
+}
+
+.u44c1 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u44c1.png');
+}
+
+.u44c1 {
+    position:absolute;
+    left:740px;
+    top:438px;
+    width:20px;
+    height:134px;
+}
+
+.u44c2 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u44c2.png');
+}
+
+.u44c2 {
+    position:absolute;
+    left:736px;
+    top:552px;
+    width:24px;
+    height:20px;
+}
+
+.u45 {
+    position:absolute;
+    left:-110px;
+    top:24px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u46c0 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u46c0.png');
+}
+
+.u46c0 {
+    position:absolute;
+    left:855px;
+    top:479px;
+    width:20px;
+    height:74px;
+}
+
+.u47 {
+    position:absolute;
+    left:-50px;
+    top:22px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48c0 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u48c0.png');
+}
+
+.u48c0 {
+    position:absolute;
+    left:576px;
+    top:440px;
+    width:104px;
+    height:20px;
+}
+
+.u48c1 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u48c1.png');
+}
+
+.u48c1 {
+    position:absolute;
+    left:660px;
+    top:440px;
+    width:20px;
+    height:106px;
+}
+
+.u49 {
+    position:absolute;
+    left:40px;
+    top:-7px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u50 {
+    position:absolute;
+    left:398px;
+    top:36px;
+    width:150px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u51_normal {
+    background-image: url('../买方签收流程V1_2__未实施_files/u6_normal.png');
+}
+
+.u51_container {
+    position:absolute;
+    left:1093px;
+    top:417px;
+    width:110px;
+    height:70px;
+}
+
+#u51_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:116px;
+    height:76px;
+}
+
+.u52 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:106px;
+    height:42px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u53_normal {
+    background-image: url('../买方签收流程V1_2__未实施_files/u53_normal.png');
+}
+
+.u53_container {
+    position:absolute;
+    left:1046px;
+    top:543px;
+    width:120px;
+    height:40px;
+}
+
+#u53_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:46px;
+}
+
+.u54 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:116px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u55c0 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u55c0.png');
+}
+
+.u55c0 {
+    position:absolute;
+    left:1138px;
+    top:483px;
+    width:20px;
+    height:60px;
+}
+
+.u55c1 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u55c1.png');
+}
+
+.u55c1 {
+    position:absolute;
+    left:1096px;
+    top:523px;
+    width:62px;
+    height:20px;
+}
+
+.u55c2 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u55c2.png');
+}
+
+.u55c2 {
+    position:absolute;
+    left:1096px;
+    top:523px;
+    width:20px;
+    height:24px;
+}
+
+.u56 {
+    position:absolute;
+    left:-53px;
+    top:38px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u57c0 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u57c0.png');
+}
+
+.u57c0 {
+    position:absolute;
+    left:1199px;
+    top:442px;
+    width:101px;
+    height:20px;
+}
+
+.u57c1 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u57c1.png');
+}
+
+.u57c1 {
+    position:absolute;
+    left:1280px;
+    top:442px;
+    width:20px;
+    height:107px;
+}
+
+.u58 {
+    position:absolute;
+    left:37px;
+    top:-5px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u59c0 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u59c0.png');
+}
+
+.u59c0 {
+    position:absolute;
+    left:1138px;
+    top:369px;
+    width:20px;
+    height:58px;
+}
+
+.u60 {
+    position:absolute;
+    left:-50px;
+    top:14px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u61_normal {
+    background-image: url('../买方签收流程V1_2__未实施_files/u61_normal.png');
+}
+
+.u61_container {
+    position:absolute;
+    left:1073px;
+    top:333px;
+    width:150px;
+    height:40px;
+}
+
+#u61_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:46px;
+}
+
+.u62 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:146px;
+    height:28px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u63_normal {
+    background-image: url('../买方签收流程V1_2__未实施_files/u53_normal.png');
+}
+
+.u63_container {
+    position:absolute;
+    left:946px;
+    top:749px;
+    width:120px;
+    height:40px;
+}
+
+#u63_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:46px;
+}
+
+.u64 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:116px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u65_normal {
+    background-image: url('../买方签收流程V1_2__未实施_files/u6_normal.png');
+}
+
+.u65_container {
+    position:absolute;
+    left:1023px;
+    top:625px;
+    width:110px;
+    height:70px;
+}
+
+#u65_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:116px;
+    height:76px;
+}
+
+.u66 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:106px;
+    height:38px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u67_normal {
+    background-image: url('../买方签收流程V1_2__未实施_files/u53_normal.png');
+}
+
+.u67_container {
+    position:absolute;
+    left:1103px;
+    top:751px;
+    width:120px;
+    height:40px;
+}
+
+#u67_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:46px;
+}
+
+.u68 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:116px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u69c0 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u69c0.png');
+}
+
+.u69c0 {
+    position:absolute;
+    left:1096px;
+    top:579px;
+    width:20px;
+    height:46px;
+}
+
+.u69c1 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u69c1.png');
+}
+
+.u69c1 {
+    position:absolute;
+    left:1068px;
+    top:605px;
+    width:48px;
+    height:20px;
+}
+
+.u69c2 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u69c2.png');
+}
+
+.u69c2 {
+    position:absolute;
+    left:1068px;
+    top:605px;
+    width:20px;
+    height:24px;
+}
+
+.u70 {
+    position:absolute;
+    left:-53px;
+    top:24px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u71c0 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u71c0.png');
+}
+
+.u71c0 {
+    position:absolute;
+    left:1068px;
+    top:691px;
+    width:20px;
+    height:58px;
+}
+
+.u71c1 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u71c1.png');
+}
+
+.u71c1 {
+    position:absolute;
+    left:996px;
+    top:729px;
+    width:92px;
+    height:20px;
+}
+
+.u71c2 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u71c2.png');
+}
+
+.u71c2 {
+    position:absolute;
+    left:996px;
+    top:729px;
+    width:20px;
+    height:24px;
+}
+
+.u72 {
+    position:absolute;
+    left:-69px;
+    top:36px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u73c0 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u73c0.png');
+}
+
+.u73c0 {
+    position:absolute;
+    left:1129px;
+    top:650px;
+    width:44px;
+    height:20px;
+}
+
+.u73c1 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u73c1.png');
+}
+
+.u73c1 {
+    position:absolute;
+    left:1153px;
+    top:650px;
+    width:20px;
+    height:105px;
+}
+
+.u74 {
+    position:absolute;
+    left:-20px;
+    top:22px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u75_normal {
+    background-image: url('../买方签收流程V1_2__未实施_files/u75_normal.png');
+}
+
+.u75_container {
+    position:absolute;
+    left:1230px;
+    top:545px;
+    width:120px;
+    height:86px;
+}
+
+#u75_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:92px;
+}
+
+.u76 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:116px;
+    height:80px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u77c0 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u77c0.png');
+}
+
+.u77c0 {
+    position:absolute;
+    left:705px;
+    top:256px;
+    width:20px;
+    height:74px;
+}
+
+.u77c1 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u77c1.png');
+}
+
+.u77c1 {
+    position:absolute;
+    left:605px;
+    top:310px;
+    width:120px;
+    height:20px;
+}
+
+.u77c2 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u77c2.png');
+}
+
+.u77c2 {
+    position:absolute;
+    left:605px;
+    top:310px;
+    width:20px;
+    height:24px;
+}
+
+.u78 {
+    position:absolute;
+    left:-75px;
+    top:52px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u79c0 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u79c0.png');
+}
+
+.u79c0 {
+    position:absolute;
+    left:786px;
+    top:212px;
+    width:372px;
+    height:20px;
+}
+
+.u79c1 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u79c1.png');
+}
+
+.u79c1 {
+    position:absolute;
+    left:1138px;
+    top:212px;
+    width:20px;
+    height:121px;
+}
+
+.u80 {
+    position:absolute;
+    left:182px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u81_normal {
+    background-image: url('../买方签收流程V1_2__未实施_files/u81_normal.png');
+}
+
+.u81_container {
+    position:absolute;
+    left:620px;
+    top:80px;
+    width:190px;
+    height:80px;
+}
+
+#u81_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:196px;
+    height:86px;
+}
+
+.u82 {
+    position:absolute;
+    left:2px;
+    top:33px;
+    width:186px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u83c0 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u83c0.png');
+}
+
+.u83c0 {
+    position:absolute;
+    left:705px;
+    top:156px;
+    width:20px;
+    height:39px;
+}
+
+.u84 {
+    position:absolute;
+    left:-50px;
+    top:4px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u85_normal {
+    background-image: url('../买方签收流程V1_2__未实施_files/u85_normal.png');
+}
+
+.u85_container {
+    position:absolute;
+    left:70px;
+    top:380px;
+    width:160px;
+    height:106px;
+}
+
+#u85_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:166px;
+    height:112px;
+}
+
+.u86 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:156px;
+    height:96px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u87_normal {
+    background-image: url('../买方签收流程V1_2__未实施_files/u87_normal.png');
+}
+
+.u87_container {
+    position:absolute;
+    left:640px;
+    top:684px;
+    width:180px;
+    height:116px;
+}
+
+#u87_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:122px;
+}
+
+.u88 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:176px;
+    height:112px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u89_normal {
+    background-image: url('../买方签收流程V1_2__未实施_files/u12_normal.png');
+}
+
+.u89_container {
+    position:absolute;
+    left:630px;
+    top:620px;
+    width:100px;
+    height:40px;
+}
+
+#u89_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:46px;
+}
+
+.u90 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:96px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u91c0 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u91c0.png');
+}
+
+.u91c0 {
+    position:absolute;
+    left:660px;
+    top:578px;
+    width:20px;
+    height:42px;
+}
+
+.u91c1 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u91c1.png');
+}
+
+.u91c1 {
+    position:absolute;
+    left:660px;
+    top:600px;
+    width:30px;
+    height:20px;
+}
+
+.u91c2 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u91c2.png');
+}
+
+.u91c2 {
+    position:absolute;
+    left:670px;
+    top:600px;
+    width:20px;
+    height:24px;
+}
+
+.u92 {
+    position:absolute;
+    left:-50px;
+    top:16px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u93_normal {
+    background-image: url('../买方签收流程V1_2__未实施_files/u93_normal.png');
+}
+
+.u93_container {
+    position:absolute;
+    left:946px;
+    top:801px;
+    width:114px;
+    height:60px;
+}
+
+#u93_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:120px;
+    height:66px;
+}
+
+.u94 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:110px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u95c0 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u95c0.png');
+}
+
+.u95c0 {
+    position:absolute;
+    left:543px;
+    top:550px;
+    width:57px;
+    height:20px;
+}
+
+.u95c1 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u95c1.png');
+}
+
+.u95c1 {
+    position:absolute;
+    left:580px;
+    top:550px;
+    width:20px;
+    height:22px;
+}
+
+.u95c2 {
+    background-image: url('../买方签收流程V1_2__未实施_files/u95c2.png');
+}
+
+.u95c2 {
+    position:absolute;
+    left:580px;
+    top:552px;
+    width:24px;
+    height:20px;
+}
+
+.u96 {
+    position:absolute;
+    left:-22px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u97 {
+    position:absolute;
+    left:75px;
+    top:580px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u98 {
+    position:absolute;
+    left:120px;
+    top:274px;
+    width:150px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

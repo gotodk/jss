@@ -1,0 +1,15 @@
+D:\富美集团新框架\RedisReLoad\SqlRedisForFMDBHelper_AAA_THDYFHDXXB\bin\Debug\SqlRedisForFMDBHelper_AAA_THDYFHDXXB.dll
+D:\富美集团新框架\RedisReLoad\SqlRedisForFMDBHelper_AAA_THDYFHDXXB\bin\Debug\SqlRedisForFMDBHelper_AAA_THDYFHDXXB.pdb
+D:\富美集团新框架\RedisReLoad\SqlRedisForFMDBHelper_AAA_THDYFHDXXB\bin\Debug\FMDBHelperClass.dll
+D:\富美集团新框架\RedisReLoad\SqlRedisForFMDBHelper_AAA_THDYFHDXXB\bin\Debug\RedisReLoad.ShareDBcache.dll
+D:\富美集团新框架\RedisReLoad\SqlRedisForFMDBHelper_AAA_THDYFHDXXB\bin\Debug\ServiceStack.Common.dll
+D:\富美集团新框架\RedisReLoad\SqlRedisForFMDBHelper_AAA_THDYFHDXXB\bin\Debug\ServiceStack.Interfaces.dll
+D:\富美集团新框架\RedisReLoad\SqlRedisForFMDBHelper_AAA_THDYFHDXXB\bin\Debug\ServiceStack.Redis.dll
+D:\富美集团新框架\RedisReLoad\SqlRedisForFMDBHelper_AAA_THDYFHDXXB\bin\Debug\ServiceStack.Text.dll
+D:\富美集团新框架\RedisReLoad\SqlRedisForFMDBHelper_AAA_THDYFHDXXB\bin\Debug\FMPublicClass.dll
+D:\富美集团新框架\RedisReLoad\SqlRedisForFMDBHelper_AAA_THDYFHDXXB\bin\Debug\RedisReLoad.ShareDBcache.pdb
+D:\富美集团新框架\RedisReLoad\SqlRedisForFMDBHelper_AAA_THDYFHDXXB\bin\Debug\FMDBHelperClass.pdb
+D:\富美集团新框架\RedisReLoad\SqlRedisForFMDBHelper_AAA_THDYFHDXXB\bin\Debug\FMPublicClass.pdb
+D:\富美集团新框架\RedisReLoad\SqlRedisForFMDBHelper_AAA_THDYFHDXXB\bin\Debug\FMPublicClass.xml
+D:\富美集团新框架\RedisReLoad\SqlRedisForFMDBHelper_AAA_THDYFHDXXB\obj\Debug\SqlRedisForFMDBHelper_AAA_THDYFHDXXB.dll
+D:\富美集团新框架\RedisReLoad\SqlRedisForFMDBHelper_AAA_THDYFHDXXB\obj\Debug\SqlRedisForFMDBHelper_AAA_THDYFHDXXB.pdb

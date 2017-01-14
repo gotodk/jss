@@ -1,0 +1,5 @@
+﻿DECLARE	@return_value int
+
+EXEC	@return_value = [dbo].[AAA_DaPanTongJi]
+
+SELECT	'Return Value' = @return_value

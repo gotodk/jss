@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Pingan_Reply_1012" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Pingan_Reply_1012">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TotalCount" msdata:Caption="总记录数" type="xs:string" default="0" />
+                <xs:element name="BeginNum" msdata:Caption="起始记录号" type="xs:string" default="0" />
+                <xs:element name="LastPage" msdata:Caption="是否结束包" type="xs:string" default="0" />
+                <xs:element name="RecordNum" msdata:Caption="账户个数" type="xs:string" default="0" />
+                <xs:element name="CustAcctId" msdata:Caption="账号" type="xs:string" default="0" />
+                <xs:element name="AcctFlag" msdata:Caption="账号性质" type="xs:string" default="0" />
+                <xs:element name="TranType" msdata:Caption="转账方式" type="xs:string" default="0" />
+                <xs:element name="AcctName" msdata:Caption="账号名称" type="xs:string" default="0" />
+                <xs:element name="BankCode" msdata:Caption="联行号" type="xs:string" default="0" />
+                <xs:element name="BankName" msdata:Caption="开户行名称" type="xs:string" default="0" />
+                <xs:element name="Address" msdata:Caption="地址" type="xs:string" default="0" />
+                <xs:element name="TranDate" msdata:Caption="建立日期" type="xs:string" default="0" />
+                <xs:element name="Reserve" msdata:Caption="保留域" type="xs:string" default="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Pingan_Reply_1012>
+    <TotalCount>0</TotalCount>
+    <BeginNum>0</BeginNum>
+    <LastPage>0</LastPage>
+    <RecordNum>0</RecordNum>
+    <CustAcctId>0</CustAcctId>
+    <AcctFlag>0</AcctFlag>
+    <TranType>0</TranType>
+    <AcctName>0</AcctName>
+    <BankCode>0</BankCode>
+    <BankName>0</BankName>
+    <Address>0</Address>
+    <TranDate>0</TranDate>
+    <Reserve>0</Reserve>
+  </Pingan_Reply_1012>
+</NewDataSet>

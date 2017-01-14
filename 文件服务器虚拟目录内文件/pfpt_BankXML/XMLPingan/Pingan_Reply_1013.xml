@@ -1,0 +1,75 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Pingan_Reply_1013" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Pingan_Reply_1013">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TotalCount" msdata:Caption="总记录数" type="xs:string" default="0" />
+                <xs:element name="BeginNum" msdata:Caption="起始记录号" type="xs:string" default="0" />
+                <xs:element name="LastPage" msdata:Caption="是否结束包" type="xs:string" default="0" />
+                <xs:element name="OutTranCount" msdata:Caption="出金总笔数" type="xs:string" default="0" />
+                <xs:element name="InTranCount" msdata:Caption="入金总笔数" type="xs:string" default="0" />
+                <xs:element name="DontKownCount" msdata:Caption="挂账总笔数" type="xs:string" default="0" />
+                <xs:element name="HandleFeeCount" msdata:Caption="手续费总笔数" type="xs:string" default="0" />
+                <xs:element name="OutAmount" msdata:Caption="出金总金额" type="xs:string" default="0" />
+                <xs:element name="InAmount" msdata:Caption="入金总金额" type="xs:string" default="0" />
+                <xs:element name="DontKownAmount" msdata:Caption="挂账总金额" type="xs:string" default="0" />
+                <xs:element name="TotalHandleFee" msdata:Caption="手续费总金额" type="xs:string" default="0" />
+                <xs:element name="RecordNum" msdata:Caption="本次返回流水笔数" type="xs:string" default="0" />
+                <xs:element name="TranFlag" msdata:Caption="记账标志" type="xs:string" default="0" />
+                <xs:element name="TranStatus" msdata:Caption="交易状态" type="xs:string" default="0" />
+                <xs:element name="FuncMsg" msdata:Caption="记账说明" type="xs:string" default="0" />
+                <xs:element name="MainAcctId" msdata:Caption="入账监管账号" type="xs:string" default="0" />
+                <xs:element name="ThirdCustId" msdata:Caption="交易网会员代码" type="xs:string" default="0" />
+                <xs:element name="CustAcctId" msdata:Caption="子账户" type="xs:string" default="0" />
+                <xs:element name="CustName" msdata:Caption="子账户名称" type="xs:string" default="0" />
+                <xs:element name="TranAmount" msdata:Caption="交易金额" type="xs:string" default="0" />
+                <xs:element name="HandleFee" msdata:Caption="手续费" type="xs:string" default="0" />
+                <xs:element name="MailFee" msdata:Caption="邮电费" type="xs:string" default="0" />
+                <xs:element name="FeeCustAcctId" msdata:Caption="支付手续费子账号" type="xs:string" default="0" />
+                <xs:element name="TranDate" msdata:Caption="交易日期" type="xs:string" default="0" />
+                <xs:element name="TranTime" msdata:Caption="交易时间" type="xs:string" default="0" />
+                <xs:element name="FrontLogNo" msdata:Caption="前置流水号" type="xs:string" default="0" />
+                <xs:element name="Note" msdata:Caption="备注" type="xs:string" default="0" />
+                <xs:element name="Reserve" msdata:Caption="保留域" type="xs:string" default="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Pingan_Reply_1013>
+    <TotalCount>0</TotalCount>
+    <BeginNum>0</BeginNum>
+    <LastPage>0</LastPage>
+    <OutTranCount>0</OutTranCount>
+    <InTranCount>0</InTranCount>
+    <DontKownCount>0</DontKownCount>
+    <HandleFeeCount>0</HandleFeeCount>
+    <OutAmount>0</OutAmount>
+    <InAmount>0</InAmount>
+    <DontKownAmount>0</DontKownAmount>
+    <TotalHandleFee>0</TotalHandleFee>
+    <RecordNum>0</RecordNum>
+    <TranFlag>0</TranFlag>
+    <TranStatus>0</TranStatus>
+    <FuncMsg>0</FuncMsg>
+    <MainAcctId>0</MainAcctId>
+    <ThirdCustId>0</ThirdCustId>
+    <CustAcctId>0</CustAcctId>
+    <CustName>0</CustName>
+    <TranAmount>0</TranAmount>
+    <HandleFee>0</HandleFee>
+    <MailFee>0</MailFee>
+    <FeeCustAcctId>0</FeeCustAcctId>
+    <TranDate>0</TranDate>
+    <TranTime>0</TranTime>
+    <FrontLogNo>0</FrontLogNo>
+    <Note>0</Note>
+    <Reserve>0</Reserve>
+  </Pingan_Reply_1013>
+</NewDataSet>

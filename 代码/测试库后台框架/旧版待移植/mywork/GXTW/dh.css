@@ -1,0 +1,130 @@
+body,html{
+	FONT-FAMILY: "Verdana","Tamoda","宋体";
+    FONT-SIZE: 12px;
+    text-decoration: none;
+    line-height: 150%;
+    background:#FFFFFF;
+	color:#464646;
+	padding:0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+	margin-left: 0px;
+	PADDING-TOP:0px;	
+	TEXT-ALIGN:center;	
+	background-color:#FFFFFF;
+	scrollbar-shadow-color: #FFFFFF; 
+scrollbar-highlight-color: #FFFFFF; 
+scrollbar-arrow-color: #FFFFFF; 
+scrollbar-face-color: #59ADBB; 
+scrollbar-track-color: #FFFFFF; 
+scrollbar-3dlight-color: #59ADBB; 
+scrollbar-darkshadow-color: #59ADBB;
+ border: 0px; 
+
+}
+.tab1 {
+	HEIGHT: 24px; BORDER-BOTTOM: #007fca 2px solid;
+}
+.tab1 UL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+.tab1 LI {
+	CURSOR: pointer; FONT-SIZE: 13px; HEIGHT: 24px; FLOAT: left; FONT-WEIGHT: bold; COLOR: #014fa1; TEXT-ALIGN: center; LINE-HEIGHT: 24px; WIDTH: 150px;list-style-type:none
+}
+.tab1 LI.now {
+	BACKGROUND-IMAGE: url(tablibg.gif)
+}
+
+.tab1 LI a {
+	CURSOR: pointer; FONT-SIZE: 13px; HEIGHT: 24px; FLOAT: left; FONT-WEIGHT: bold; COLOR: #014fa1; TEXT-ALIGN: center; LINE-HEIGHT: 24px; WIDTH: 150px;text-decoration:none;
+}
+.tab1 LI a:link;tab li a:visited{FONT-WEIGHT: bold; COLOR: #014fa1; TEXT-ALIGN: center; }
+
+.title{COLOR: #014fa1; font-size:13px; font-weight:bold;}
+.linkb{color: #014fa1; text-decoration:none}
+.tj_input
+ {
+     height: 22px;
+     border-width: 1px;
+     border-style: solid;
+     border-color: #D1CFCF;
+     line-height: 22px;
+     overflow: hidden;
+ } 
+ .tj_input_M
+ {     
+     border-width: 1px;
+     border-style: solid;
+     border-color: #D1CFCF;
+     line-height: 20px;     
+ } 
+ 
+  .tj_bt_da
+ {
+     border:1px solid #D1CFCF;
+     background: url("tablibg.gif");
+     color :#014fa1;     
+ }
+ 
+ .table_nr
+ {
+     margin-left:15px;
+     margin-top:15px;
+     margin-bottom:15px;      
+     margin-right:15px;
+     width :670px;
+     border :0;
+     FONT-FAMILY: "Verdana","Tamoda","宋体";
+     FONT-SIZE: 12px;
+}
+.FHTheadThAlign
+{
+   border-bottom:1px solid  #BEBCBF;
+   border-right:1px solid  #BEBCBF;
+   border-top:1px solid  #BEBCBF;
+   white-space: nowrap;
+   overflow: hidden;
+   background-color: #D6E3F3;
+}
+
+/*20131014--周丽加--start*/
+ .content_nr_cx
+ {
+     border:1px solid  #99BBE8;
+     background-color: #D3E0F0;
+     margin-top:5px;
+     border-collapse:collapse;
+ }
+ .content_nr_cx tr
+ {
+     height: 32px;
+   }
+
+   .tj_bt
+ {
+     height: 22px;
+     border:1px solid #999999;
+     
+     padding-left:3px;
+     padding-right:3px;
+     width: auto;   
+    _width: 0;   
+    overflow:visible !ie; 
+    
+     background-image: url("image/huibg.jpg");   
+ }
+ .tj_bt:hover
+ {
+      padding-left:3px;
+     padding-right:3px;
+     width: auto;   
+    _width: 0;   
+    overflow:visible !ie;
+     
+     border-color: #7e9cb6;
+     cursor: pointer;
+     background: url("image/lanbg.jpg");
+ }
+
+ /*20131014--周丽加--end*/

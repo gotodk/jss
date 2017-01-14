@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="交易网触发银行进行清算与对账或获取会员余额文件_x0023_1003" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="交易网触发银行进行清算与对账或获取会员余额文件_x0023_1003">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FuncFlag" msdata:Caption="批量标识" type="xs:string" default="x" />
+                <xs:element name="FileName" msdata:Caption="批量文件名" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="FileSize" msdata:Caption="文件大小" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="SupAcctId" msdata:Caption="资金汇总账号" type="xs:string" default="x" />
+                <xs:element name="QsZcAmount" msdata:Caption="清收买卖货款扎差金额" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="FreezeAmount" msdata:Caption="冻结总金额" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="UnfreezeAmount" msdata:Caption="解冻总金额" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="SyZcAmount" msdata:Caption="损益扎差数" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="Reserve" msdata:Caption="保留域" type="xs:string" default="	" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <交易网触发银行进行清算与对账或获取会员余额文件_x0023_1003>
+    <FuncFlag>x</FuncFlag>
+    <FileName />
+    <FileSize />
+    <SupAcctId>x</SupAcctId>
+    <QsZcAmount />
+    <FreezeAmount />
+    <UnfreezeAmount />
+    <SyZcAmount />
+    <Reserve xml:space="preserve">	</Reserve>
+  </交易网触发银行进行清算与对账或获取会员余额文件_x0023_1003>
+</NewDataSet>

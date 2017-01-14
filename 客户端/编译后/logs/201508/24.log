@@ -1,0 +1,20 @@
+2015-08-24 09-06-27     ---     委托回调错误：System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.SubForm.fmNMRSP.ShowThreadResult_BeginBind(Hashtable returnHT)
+
+2015-08-24 09-06-27     ---     委托回调错误：System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.SubForm.UCPager.ShowThreadResult_pager(Hashtable returnHT)
+
+2015-08-24 09-06-27     ---     委托回调错误：System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.SubForm.fmNMRSP.ShowThreadResult_BeginBind(Hashtable returnHT)
+
+2015-08-24 09-06-27     ---     委托回调错误：System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.SubForm.UCPager.ShowThreadResult_pager(Hashtable returnHT)
+

@@ -1,0 +1,492 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../加工定制_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:190px;
+    top:98px;
+    width:130px;
+    height:62px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:136px;
+    height:68px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:126px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../加工定制_files/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:140px;
+    top:282px;
+    width:225px;
+    height:45px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:231px;
+    height:51px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:221px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../加工定制_files/u4_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:122px;
+    top:356px;
+    width:285px;
+    height:100px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:291px;
+    height:106px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:281px;
+    height:80px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6_normal {
+    background-image: url('../加工定制_files/u6_normal.png');
+}
+
+.u6_container {
+    position:absolute;
+    left:132px;
+    top:194px;
+    width:238px;
+    height:64px;
+}
+
+#u6_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:244px;
+    height:70px;
+}
+
+.u7 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:234px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8 {
+    position:absolute;
+    left:135px;
+    top:31px;
+    width:235px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9_normal {
+    background-image: url('../加工定制_files/u9_normal.png');
+}
+
+.u9_container {
+    position:absolute;
+    left:132px;
+    top:500px;
+    width:250px;
+    height:90px;
+}
+
+#u9_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:256px;
+    height:96px;
+}
+
+.u10 {
+    position:absolute;
+    left:2px;
+    top:13px;
+    width:246px;
+    height:64px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11c0 {
+    background-image: url('../加工定制_files/u11c0.png');
+}
+
+.u11c0 {
+    position:absolute;
+    left:254px;
+    top:452px;
+    width:20px;
+    height:48px;
+}
+
+.u11c1 {
+    background-image: url('../加工定制_files/u11c1.png');
+}
+
+.u11c1 {
+    position:absolute;
+    left:247px;
+    top:480px;
+    width:27px;
+    height:20px;
+}
+
+.u11c2 {
+    background-image: url('../加工定制_files/u11c2.png');
+}
+
+.u11c2 {
+    position:absolute;
+    left:247px;
+    top:480px;
+    width:20px;
+    height:24px;
+}
+
+.u12 {
+    position:absolute;
+    left:-50px;
+    top:18px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13c0 {
+    background-image: url('../加工定制_files/u13c0.png');
+}
+
+.u13c0 {
+    position:absolute;
+    left:245px;
+    top:156px;
+    width:20px;
+    height:38px;
+}
+
+.u13c1 {
+    background-image: url('../加工定制_files/u13c1.png');
+}
+
+.u13c1 {
+    position:absolute;
+    left:241px;
+    top:174px;
+    width:24px;
+    height:20px;
+}
+
+.u13c2 {
+    background-image: url('../加工定制_files/u13c2.png');
+}
+
+.u13c2 {
+    position:absolute;
+    left:241px;
+    top:174px;
+    width:20px;
+    height:24px;
+}
+
+.u14 {
+    position:absolute;
+    left:-50px;
+    top:11px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15_normal {
+    background-image: url('../加工定制_files/u2_normal.png');
+}
+
+.u15_container {
+    position:absolute;
+    left:144px;
+    top:635px;
+    width:225px;
+    height:45px;
+}
+
+#u15_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:231px;
+    height:51px;
+}
+
+.u16 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:221px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u17c0 {
+    background-image: url('../加工定制_files/u17c0.png');
+}
+
+.u17c0 {
+    position:absolute;
+    left:241px;
+    top:254px;
+    width:20px;
+    height:28px;
+}
+
+.u17c1 {
+    background-image: url('../加工定制_files/u17c1.png');
+}
+
+.u17c1 {
+    position:absolute;
+    left:241px;
+    top:262px;
+    width:21px;
+    height:20px;
+}
+
+.u17c2 {
+    background-image: url('../加工定制_files/u17c2.png');
+}
+
+.u17c2 {
+    position:absolute;
+    left:242px;
+    top:262px;
+    width:20px;
+    height:24px;
+}
+
+.u18 {
+    position:absolute;
+    left:-50px;
+    top:4px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19c0 {
+    background-image: url('../加工定制_files/u19c0.png');
+}
+
+.u19c0 {
+    position:absolute;
+    left:247px;
+    top:586px;
+    width:20px;
+    height:49px;
+}
+
+.u19c1 {
+    background-image: url('../加工定制_files/u19c1.png');
+}
+
+.u19c1 {
+    position:absolute;
+    left:246px;
+    top:615px;
+    width:21px;
+    height:20px;
+}
+
+.u19c2 {
+    background-image: url('../加工定制_files/u19c2.png');
+}
+
+.u19c2 {
+    position:absolute;
+    left:246px;
+    top:615px;
+    width:20px;
+    height:24px;
+}
+
+.u20 {
+    position:absolute;
+    left:-50px;
+    top:15px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21c0 {
+    background-image: url('../加工定制_files/u21c0.png');
+}
+
+.u21c0 {
+    position:absolute;
+    left:242px;
+    top:323px;
+    width:20px;
+    height:33px;
+}
+
+.u21c1 {
+    background-image: url('../加工定制_files/u21c1.png');
+}
+
+.u21c1 {
+    position:absolute;
+    left:242px;
+    top:336px;
+    width:32px;
+    height:20px;
+}
+
+.u21c2 {
+    background-image: url('../加工定制_files/u21c2.png');
+}
+
+.u21c2 {
+    position:absolute;
+    left:254px;
+    top:336px;
+    width:20px;
+    height:24px;
+}
+
+.u22 {
+    position:absolute;
+    left:-48px;
+    top:11px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

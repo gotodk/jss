@@ -1,0 +1,403 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Diagnostics;
+using System.Drawing;
+using System.IO;
+using System.Net.Sockets;
+using System.Runtime.InteropServices;
+using System.Text;
+using System.Threading;
+using System.Windows.Forms;
+
+namespace RDP
+{
+
+
+    public partial class Form1 : Form
+    {
+        private delegate bool WNDENUMPROC(IntPtr hWnd, int lParam);
+        [DllImport("user32.dll")]
+        private static extern bool EnumWindows(WNDENUMPROC lpEnumFunc, int lParam);
+        //[DllImport("user32.dll")]
+        //private static extern IntPtr FindWindowW(string lpClassName, string lpWindowName);
+        [DllImport("user32.dll")]
+        private static extern int GetWindowTextW(IntPtr hWnd, [MarshalAs(UnmanagedType.LPWStr)]StringBuilder lpString, int nMaxCount);
+        [DllImport("user32.dll")]
+        private static extern int GetClassNameW(IntPtr hWnd, [MarshalAs(UnmanagedType.LPWStr)]StringBuilder lpString, int nMaxCount);
+
+        /// <summary>
+        /// The FindWindow API
+        /// </summary>
+        /// <param name="lpClassName">the class name for the window to search for</param>
+        /// <param name="lpWindowName">指向一个指定了窗口名（窗口标题）的空结束字符串。
+        /// 如果该参数为空，则为所有窗口全匹配。</param>
+        /// <returns>如果函数成功，返回值为具有指定类名和窗口名的窗口句柄；如果函数失败，返回值为NULL</returns>
+        [DllImport("User32.dll", CharSet = CharSet.Auto, EntryPoint = "FindWindow", SetLastError = true)]
+        public static extern IntPtr FindWindow(String lpClassName, String lpWindowName);
+
+        /// <summary>
+        /// 函数功能：该函数获得一个窗口的句柄，该窗口的类名和窗口名与给定的字符串相匹配。
+        /// 这个函数查找子窗口，从排在给定的子窗口后面的下一个子窗口开始。在查找时不区分大小写。
+        /// </summary>
+        /// <param name="hwndParent">要查找子窗口的父窗口句柄。
+        ///  如果hwnjParent为NULL，则函数以桌面窗口为父窗口，查找桌面窗口的所有子窗口。
+        ///</param>
+        /// <param name="hwndChildAfter">子窗口句柄。查找从在Z序中的下一个子窗口开始。
+        /// 子窗口必须为hwndPareRt窗口的直接子窗口而非后代窗口。
+        /// 如果HwndChildAfter为NULL，查找从hwndParent的第一个子窗口开始。
+        /// 如果hwndParent 和 hwndChildAfter同时为NULL，
+        /// 则函数查找所有的顶层窗口及消息窗口。</param>
+        /// <param name="lpszClass"></param>
+        /// <param name="lpszWindow"></param>
+        /// <returns></returns>
+        [DllImport("user32.dll", EntryPoint = "FindWindowEx")]
+        public static extern IntPtr FindWindowEx(int hwndParent, int hwndChildAfter, string lpszClass, string lpszWindow);
+
+        /// <summary>
+        /// 该函数设置指定窗口的显示状态。
+        /// </summary>
+        /// <param name="hWnd">窗口句柄</param>
+        /// <param name="nCmdShow">指定窗口如何显示</param>
+        /// <returns></returns>
+        [DllImport("user32.dll", EntryPoint = "ShowWindow")]
+        public static extern IntPtr ShowWindow(IntPtr hWnd, int nCmdShow);
+
+
+        /// <summary>
+        /// 函数功能：该函数将创建指定窗口的线程设置到前台，
+        /// 并且激活该窗口。键盘输入转向该窗口，并为用户改各种可视的记号。
+        /// 系统给创建前台窗口的线程分配的权限稍高于其他线程。
+        /// </summary>
+        /// <param name="hWnd">将被激活并被调入前台的窗口句柄</param>
+        /// <returns>如果窗口设入了前台，返回值为非零；如果窗口未被设入前台，返回值为零</returns> 
+        [DllImport("user32.dll", EntryPoint = "SetForegroundWindow")]
+        public static extern bool SetForegroundWindow(IntPtr hWnd);
+
+        public struct WindowInfo
+        {
+            public IntPtr hWnd;
+            public string szWindowName;
+            public string szClassName;
+        }
+
+        /// <summary>
+        /// 获得包含类名和标题的窗体句柄
+        /// </summary>
+        /// <param name="cnname">类名</param>
+        /// <param name="formtitle">标题</param>
+        /// <returns></returns>
+        private WindowInfo[] GetAllDesktopWindows(string cnname ,string formtitle)
+        {
+            List<WindowInfo> wndList = new List<WindowInfo>();
+
+            //enum all desktop windows
+            EnumWindows(delegate(IntPtr hWnd, int lParam)
+            {
+                WindowInfo wnd = new WindowInfo();
+                StringBuilder sb = new StringBuilder(256);
+                //get hwnd
+                wnd.hWnd = hWnd;
+                //get window name
+                GetWindowTextW(hWnd, sb, sb.Capacity);
+                wnd.szWindowName = sb.ToString();
+                //get window class
+                GetClassNameW(hWnd, sb, sb.Capacity);
+                wnd.szClassName = sb.ToString();
+                //add it into list
+                if (cnname == "" && formtitle == "")
+                {
+                    wndList.Add(wnd);
+                }
+                if (cnname == "" && formtitle != "")
+                {
+                    if (wnd.szWindowName.IndexOf(formtitle) >= 0)
+                    {
+                        wndList.Add(wnd);
+                    }
+                }
+                if (cnname != "" && formtitle == "")
+                {
+                    if (wnd.szClassName.IndexOf(cnname) >= 0)
+                    {
+                        wndList.Add(wnd);
+                    }
+                }
+                if (cnname != "" && formtitle != "")
+                {
+                    if (wnd.szClassName.IndexOf(cnname) >= 0 && wnd.szWindowName.IndexOf(formtitle) >= 0)
+                    {
+                        wndList.Add(wnd);
+                    }
+                }
+                return true;
+            }, 0);
+
+            return wndList.ToArray();
+        }
+
+
+        public Form1()
+        {
+            InitializeComponent();
+
+            this.notifyIcon1.Icon = new Icon(System.AppDomain.CurrentDomain.SetupInformation.ApplicationBase + @"\xiao.ico");
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
+
+        }
+        protected void BeginConnect(string ip)
+        {
+            try
+            {
+                TcpClient tcp = new TcpClient(ip, 3389);
+               
+            }
+            catch (Exception ex)
+            {
+                // 标记失败
+ 
+            }
+        }
+        private bool open3389(string ip)
+        {
+            try
+            {
+                ThreadStart BC = delegate { BeginConnect(ip); };
+                Thread thread = new Thread(BC);
+                thread.Name = "gogo_BeginConnect";
+                thread.IsBackground = true;
+                thread.Start();
+
+                bool f = thread.Join(100);
+                if (f)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+
+                //tcp.GetStream();
+                //MessageBox.Show("连接");
+               
+            }
+            catch
+            {
+                //MessageBox.Show("连接不上");
+                return false;
+            }
+        }
+
+
+        private void timerOnline_Tick(object sender, EventArgs e)
+        {
+
+        }
+
+        /// <summary>
+        /// 加载菜单
+        /// </summary>
+        private void loadMenu()
+        {
+            WindowInfo[] WI = GetAllDesktopWindows("TscShellContainerClass", "远程桌面连接");
+
+            //得到目录下的文件
+            FileInfo[] arrFile = new DirectoryInfo(System.AppDomain.CurrentDomain.SetupInformation.ApplicationBase + @"\alldrp\").GetFiles();
+            Array.Sort(arrFile, new MyDateSorter()); 
+            //清理菜单
+            contextMenuStrip1.Items.Clear();
+            if (arrFile != null && arrFile.Length > 0)
+            {
+                //遍历文件生成菜单
+                for (int i = 0; i < arrFile.Length; i++)
+                {
+                    //rdp文件
+                    if (arrFile[i].Extension.ToLower() == ".rdp")
+                    {
+                        ToolStripMenuItem ToolStripMenuItem001 = new System.Windows.Forms.ToolStripMenuItem();
+                        contextMenuStrip1.Items.Add(ToolStripMenuItem001);
+                        ToolStripMenuItem001.Name = arrFile[i].Name;
+                        ToolStripMenuItem001.Text = arrFile[i].Name.Replace(".rdp", "");
+                        Hashtable ht_tag = new Hashtable();
+                        ht_tag["运行路径"] = arrFile[i].FullName;
+                        string[] str_arr = arrFile[i].Name.Replace(".rdp", "").Split('^');
+                        ht_tag["显示名"] = str_arr[0];
+                        ht_tag["地址标记"] = str_arr[1].Trim();
+                        ToolStripMenuItem001.Tag = ht_tag;
+
+                        //检测服务器是否还活着，即3389端口是否打开着。
+                        if (open3389(str_arr[1].Trim()))
+                        {
+                            ToolStripMenuItem001.Text = "在线_"+ToolStripMenuItem001.Text;
+                        }
+                        else
+                        {
+                            ToolStripMenuItem001.Text = "挂了_" + ToolStripMenuItem001.Text;
+                        }
+
+                        IntPtr winfrom = IntPtr.Zero;
+                        for (int p = 0; p < WI.Length; p++)
+                        {
+                            if (WI[p].szWindowName.IndexOf(" " + ht_tag["地址标记"].ToString() + " ") >= 0)
+                            {
+                                winfrom = WI[p].hWnd;
+
+                            }
+                        }
+                        if (winfrom == IntPtr.Zero)
+                        {
+                            ToolStripMenuItem001.Image = new Bitmap(System.AppDomain.CurrentDomain.SetupInformation.ApplicationBase + @"\add.png");
+                        }
+                        else
+                        {
+                            ToolStripMenuItem001.Image = new Bitmap(System.AppDomain.CurrentDomain.SetupInformation.ApplicationBase + @"\ok.png");
+                        }
+
+                        ToolStripMenuItem001.MouseUp += new System.Windows.Forms.MouseEventHandler(SP_ToolStripMenuItem_Click);
+                    }
+                }
+            }
+
+            ToolStripMenuItem ToolStripMenuItem002 = new System.Windows.Forms.ToolStripMenuItem();
+            contextMenuStrip1.Items.Add(ToolStripMenuItem002);
+            ToolStripMenuItem002.Name = "exit";
+            ToolStripMenuItem002.Text = "退出工具";
+            ToolStripMenuItem002.MouseUp += new System.Windows.Forms.MouseEventHandler(SP_ToolStripMenuItem_Click);
+
+
+            //启动计时器，检测是否在线
+            //timerOnline.Enabled = true;
+
+
+        }
+
+
+   
+
+
+        private void SP_ToolStripMenuItem_Click(object sender, MouseEventArgs e)
+        {
+
+            
+
+
+            ToolStripMenuItem TSM = (ToolStripMenuItem)sender;
+
+            //退出
+            if (TSM.Name == "exit")
+            {
+                this.Close();
+                return;
+            }
+
+
+            Hashtable ht_tag = (Hashtable)(TSM.Tag);
+
+            //鼠标左键打开新桌面,若已打开就激活
+            if (e.Button == System.Windows.Forms.MouseButtons.Left)
+            {
+                WindowInfo[] WI = GetAllDesktopWindows("TscShellContainerClass", "远程桌面连接");
+                IntPtr winfrom = IntPtr.Zero;
+                for (int p = 0; p < WI.Length; p++)
+                {
+                    if (WI[p].szWindowName.IndexOf(" " + ht_tag["地址标记"].ToString() + " ") >= 0)
+                    {
+                        winfrom = WI[p].hWnd;
+                    }
+                }
+                //IntPtr winfrom = FindWindow(ht_tag["句柄类"].ToString(), ht_tag["窗体标题"].ToString());
+                if (winfrom == IntPtr.Zero)
+                {
+                    //没有打开过窗体
+                    Process.Start(ht_tag["运行路径"].ToString(), null);
+                }
+                else
+                {
+                    ShowWindow(winfrom, APINameHelper.SW_NORMAL);
+                    SetForegroundWindow(winfrom);
+                }
+
+            }
+ 
+            //鼠标右键打开新桌面,无论有没有打开，强制打开
+            if (e.Button == System.Windows.Forms.MouseButtons.Right)
+            {
+                Process.Start(ht_tag["运行路径"].ToString(), null);
+            }
+            
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+             
+
+
+        }
+
+        private void notifyIcon1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void notifyIcon1_MouseClick(object sender, MouseEventArgs e)
+        {
+            
+            
+            //if (e.Button == System.Windows.Forms.MouseButtons.Left)
+            //{
+            //    contextMenuStrip1.Show(Cursor.Position);
+            //}
+        }
+
+        private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
+        {
+            loadMenu();
+        }
+
+
+ 
+
+
+    }
+
+
+
+    //一些常量
+    public class APINameHelper
+    {
+        public const int SW_HIDE = 0; //隐藏窗口，活动状态给令一个窗口 
+        /// <summary>
+        /// 用原来的大小和位置显示一个窗口，同时令其进入活动状态
+        /// </summary>
+        public const int SW_SHOWNORMAL = 1;
+        public const int SW_NORMAL = 1;
+        public const int SW_SHOWMINIMIZED = 2;
+        public const int SW_SHOWMAXIMIZED = 3;
+        public const int SW_MAXIMIZE = 3;
+        public const int SW_SHOWNOACTIVATE = 4; //用最近的大小和位置显示一个窗口，同时不改变活动窗口
+        public const int SW_SHOW = 5;//用当前的大小和位置显示一个窗口，同时令其进入活动状态
+        public const int SW_MINIMIZE = 6;//最小化窗口，活动状态给令一个窗口
+        public const int SW_SHOWMINNOACTIVE = 7;//最小化一个窗口，同时不改变活动窗口
+        public const int SW_SHOWNA = 8;//用当前的大小和位置显示一个窗口，不改变活动窗口
+        public const int SW_RESTORE = 9; //与 SW_SHOWNORMAL  1 相同
+        public const int SW_SHOWDEFAULT = 10;
+        public const int SW_FORCEMINIMIZE = 11;
+        public const int SW_MAX = 11;
+
+
+        public const int WM_CHAR = 0x0102;
+        public const int WM_KEYDOWN = 0x0100;
+        public const int WM_KEYUP = 0x0101;
+
+        public const int WM_PASTE = 0x0302;
+        public const int WM_CLEAR = 0x0303;
+    }
+}

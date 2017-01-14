@@ -1,0 +1,976 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../主盘右键_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:182px;
+    top:120px;
+    width:85px;
+    height:30px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:91px;
+    height:36px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:81px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../主盘右键_files/u0_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:182px;
+    top:220px;
+    width:85px;
+    height:30px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:91px;
+    height:36px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:81px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../主盘右键_files/u4_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:182px;
+    top:369px;
+    width:100px;
+    height:30px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:36px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6_normal {
+    background-image: url('../主盘右键_files/u6_normal.png');
+}
+
+.u6_container {
+    position:absolute;
+    left:338px;
+    top:236px;
+    width:140px;
+    height:85px;
+}
+
+#u6_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:91px;
+}
+
+.u7 {
+    position:absolute;
+    left:2px;
+    top:34px;
+    width:136px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8 {
+    position:absolute;
+    left:341px;
+    top:244px;
+    width:137px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9_normal {
+    background-image: url('../主盘右键_files/u9_normal.png');
+}
+
+.u9_container {
+    position:absolute;
+    left:352px;
+    top:270px;
+    width:112px;
+    height:43px;
+}
+
+#u9_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:49px;
+}
+
+.u10 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:108px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11_normal {
+    background-image: url('../主盘右键_files/u11_normal.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:338px;
+    top:350px;
+    width:140px;
+    height:100px;
+}
+
+#u11_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:106px;
+}
+
+.u12 {
+    position:absolute;
+    left:2px;
+    top:42px;
+    width:136px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13 {
+    position:absolute;
+    left:341px;
+    top:359px;
+    width:137px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_normal {
+    background-image: url('../主盘右键_files/u14_normal.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:352px;
+    top:385px;
+    width:112px;
+    height:59px;
+}
+
+#u14_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:65px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:108px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16_normal {
+    background-image: url('../主盘右键_files/u16_normal.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:313px;
+    top:99px;
+    width:95px;
+    height:52px;
+}
+
+#u16_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:101px;
+    height:58px;
+}
+
+.u17 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:91px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18_normal {
+    background-image: url('../主盘右键_files/u6_normal.png');
+}
+
+.u18_container {
+    position:absolute;
+    left:458px;
+    top:35px;
+    width:140px;
+    height:85px;
+}
+
+#u18_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:91px;
+}
+
+.u19 {
+    position:absolute;
+    left:2px;
+    top:34px;
+    width:136px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20 {
+    position:absolute;
+    left:461px;
+    top:43px;
+    width:123px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21_normal {
+    background-image: url('../主盘右键_files/u21_normal.png');
+}
+
+.u21_container {
+    position:absolute;
+    left:479px;
+    top:67px;
+    width:98px;
+    height:35px;
+}
+
+#u21_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:104px;
+    height:41px;
+}
+
+.u22 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:94px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u23_normal {
+    background-image: url('../主盘右键_files/u23_normal.png');
+}
+
+.u23_container {
+    position:absolute;
+    left:472px;
+    top:77px;
+    width:112px;
+    height:35px;
+}
+
+#u23_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:41px;
+}
+
+.u24 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:108px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u25c0 {
+    background-image: url('../主盘右键_files/u25c0.png');
+}
+
+.u25c0 {
+    position:absolute;
+    left:130px;
+    top:125px;
+    width:20px;
+    height:47px;
+}
+
+.u25c1 {
+    background-image: url('../主盘右键_files/u25c1.png');
+}
+
+.u25c1 {
+    position:absolute;
+    left:130px;
+    top:125px;
+    width:56px;
+    height:20px;
+}
+
+.u26 {
+    position:absolute;
+    left:-46px;
+    top:-41px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27c0 {
+    background-image: url('../主盘右键_files/u27c0.png');
+}
+
+.u27c0 {
+    position:absolute;
+    left:263px;
+    top:125px;
+    width:50px;
+    height:20px;
+}
+
+.u27c1 {
+    background-image: url('../主盘右键_files/u27c1.png');
+}
+
+.u27c1 {
+    position:absolute;
+    left:293px;
+    top:115px;
+    width:20px;
+    height:30px;
+}
+
+.u27c2 {
+    background-image: url('../主盘右键_files/u27c2.png');
+}
+
+.u27c2 {
+    position:absolute;
+    left:293px;
+    top:115px;
+    width:24px;
+    height:20px;
+}
+
+.u28 {
+    position:absolute;
+    left:-22px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29c0 {
+    background-image: url('../主盘右键_files/u29c0.png');
+}
+
+.u29c0 {
+    position:absolute;
+    left:404px;
+    top:115px;
+    width:24px;
+    height:20px;
+}
+
+.u29c1 {
+    background-image: url('../主盘右键_files/u29c1.png');
+}
+
+.u29c1 {
+    position:absolute;
+    left:408px;
+    top:68px;
+    width:20px;
+    height:67px;
+}
+
+.u29c2 {
+    background-image: url('../主盘右键_files/u29c2.png');
+}
+
+.u29c2 {
+    position:absolute;
+    left:408px;
+    top:68px;
+    width:54px;
+    height:20px;
+}
+
+.u30 {
+    position:absolute;
+    left:-40px;
+    top:-46px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31_normal {
+    background-image: url('../主盘右键_files/u6_normal.png');
+}
+
+.u31_container {
+    position:absolute;
+    left:462px;
+    top:143px;
+    width:140px;
+    height:85px;
+}
+
+#u31_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:91px;
+}
+
+.u32 {
+    position:absolute;
+    left:2px;
+    top:34px;
+    width:136px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u33 {
+    position:absolute;
+    left:465px;
+    top:151px;
+    width:123px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34_normal {
+    background-image: url('../主盘右键_files/u21_normal.png');
+}
+
+.u34_container {
+    position:absolute;
+    left:483px;
+    top:175px;
+    width:98px;
+    height:35px;
+}
+
+#u34_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:104px;
+    height:41px;
+}
+
+.u35 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:94px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36_normal {
+    background-image: url('../主盘右键_files/u23_normal.png');
+}
+
+.u36_container {
+    position:absolute;
+    left:476px;
+    top:185px;
+    width:112px;
+    height:35px;
+}
+
+#u36_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:41px;
+}
+
+.u37 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:108px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u38c0 {
+    background-image: url('../主盘右键_files/u38c0.png');
+}
+
+.u38c0 {
+    position:absolute;
+    left:350px;
+    top:147px;
+    width:20px;
+    height:49px;
+}
+
+.u38c1 {
+    background-image: url('../主盘右键_files/u38c1.png');
+}
+
+.u38c1 {
+    position:absolute;
+    left:350px;
+    top:176px;
+    width:116px;
+    height:20px;
+}
+
+.u39 {
+    position:absolute;
+    left:-16px;
+    top:27px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40c0 {
+    background-image: url('../主盘右键_files/u40c0.png');
+}
+
+.u40c0 {
+    position:absolute;
+    left:130px;
+    top:164px;
+    width:20px;
+    height:81px;
+}
+
+.u40c1 {
+    background-image: url('../主盘右键_files/u40c1.png');
+}
+
+.u40c1 {
+    position:absolute;
+    left:130px;
+    top:225px;
+    width:56px;
+    height:20px;
+}
+
+.u41 {
+    position:absolute;
+    left:-50px;
+    top:46px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42c0 {
+    background-image: url('../主盘右键_files/u42c0.png');
+}
+
+.u42c0 {
+    position:absolute;
+    left:130px;
+    top:164px;
+    width:20px;
+    height:230px;
+}
+
+.u42c1 {
+    background-image: url('../主盘右键_files/u42c1.png');
+}
+
+.u42c1 {
+    position:absolute;
+    left:130px;
+    top:374px;
+    width:56px;
+    height:20px;
+}
+
+.u43 {
+    position:absolute;
+    left:-50px;
+    top:121px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u44c0 {
+    background-image: url('../主盘右键_files/u44c0.png');
+}
+
+.u44c0 {
+    position:absolute;
+    left:278px;
+    top:374px;
+    width:24px;
+    height:20px;
+}
+
+.u44c1 {
+    background-image: url('../主盘右键_files/u44c1.png');
+}
+
+.u44c1 {
+    position:absolute;
+    left:282px;
+    top:374px;
+    width:20px;
+    height:36px;
+}
+
+.u44c2 {
+    background-image: url('../主盘右键_files/u44c2.png');
+}
+
+.u44c2 {
+    position:absolute;
+    left:282px;
+    top:390px;
+    width:60px;
+    height:20px;
+}
+
+.u45 {
+    position:absolute;
+    left:-30px;
+    top:8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u46c0 {
+    background-image: url('../主盘右键_files/u46c0.png');
+}
+
+.u46c0 {
+    position:absolute;
+    left:263px;
+    top:225px;
+    width:24px;
+    height:20px;
+}
+
+.u46c1 {
+    background-image: url('../主盘右键_files/u46c1.png');
+}
+
+.u46c1 {
+    position:absolute;
+    left:267px;
+    top:225px;
+    width:20px;
+    height:63px;
+}
+
+.u46c2 {
+    background-image: url('../主盘右键_files/u46c2.png');
+}
+
+.u46c2 {
+    position:absolute;
+    left:267px;
+    top:268px;
+    width:75px;
+    height:20px;
+}
+
+.u47 {
+    position:absolute;
+    left:-36px;
+    top:35px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48_normal {
+    background-image: url('../主盘右键_files/u48_normal.png');
+}
+
+.u48_container {
+    position:absolute;
+    left:780px;
+    top:90px;
+    width:100px;
+    height:60px;
+}
+
+#u48_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u49 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:96px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u50_normal {
+    background-image: url('../主盘右键_files/u0_normal.png');
+}
+
+.u50_container {
+    position:absolute;
+    left:40px;
+    top:210px;
+    width:85px;
+    height:30px;
+}
+
+#u50_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:91px;
+    height:36px;
+}
+
+.u51 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:81px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

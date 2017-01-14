@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ZB_YDXQHZB" targetNamespace="http://tempuri.org/ZB_YDXQHZB.xsd" xmlns:mstns="http://tempuri.org/ZB_YDXQHZB.xsd" xmlns="http://tempuri.org/ZB_YDXQHZB.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="FMOPConn" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="FMOPConn (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.FMOPConn.ConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" Name="DataTable1">
+            <MainSource>
+              <DbSource ConnectionRef="FMOPConn (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="False" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="False">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="False">
+                    <CommandText>SELECT z.NF, z.YF, m.parentNumber, m.CPBM, m.CPXH, m.YS, m.SLZ, m.CSXSGS, 
+      m.QDFL, m.YQDHSJ, m.JTYQJJSCSLXR, m.BZ
+FROM ZB_YDCPXQHZB AS z INNER JOIN
+      ZB_YDCPXQHZB_CPMXB AS m ON z.Number = m.parentNumber</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="NF" DataSetColumn="NF" />
+              <Mapping SourceColumn="YF" DataSetColumn="YF" />
+              <Mapping SourceColumn="parentNumber" DataSetColumn="parentNumber" />
+              <Mapping SourceColumn="CPBM" DataSetColumn="CPBM" />
+              <Mapping SourceColumn="CPXH" DataSetColumn="CPXH" />
+              <Mapping SourceColumn="YS" DataSetColumn="YS" />
+              <Mapping SourceColumn="SLZ" DataSetColumn="SLZ" />
+              <Mapping SourceColumn="CSXSGS" DataSetColumn="CSXSGS" />
+              <Mapping SourceColumn="QDFL" DataSetColumn="QDFL" />
+              <Mapping SourceColumn="YQDHSJ" DataSetColumn="YQDHSJ" />
+              <Mapping SourceColumn="JTYQJJSCSLXR" DataSetColumn="JTYQJJSCSLXR" />
+              <Mapping SourceColumn="BZ" DataSetColumn="BZ" />
+            </Mappings>
+            <Sources>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ZB_YDXQHZB" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NF" type="xs:int" />
+              <xs:element name="YF" type="xs:int" />
+              <xs:element name="parentNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CPBM">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CPXH">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YS">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SLZ" type="xs:int" />
+              <xs:element name="CSXSGS">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="QDFL">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YQDHSJ" type="xs:dateTime" />
+              <xs:element name="JTYQJJSCSLXR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BZ" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

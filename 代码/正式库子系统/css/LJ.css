@@ -1,0 +1,18 @@
+﻿.gridview 
+{
+ margin:auto; 
+ width:98%; 
+ overflow:scroll; 
+ _height:expression(this.scrollHeight>365?"365px":"auto"); 
+
+}
+.checktable {
+border-right: #3E8529 1px solid; 
+border-top: #639517 1px solid;
+border-left: #3E8529 1px solid; 
+border-bottom: #3E8529 1px solid;
+background: #f7f7f7;
+font: normal 12px 宋体;
+}
+
+

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/FMOP/!svn/ver/6815/App_WebReferences/BankPF
+END
+Service.disco
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/FMOP/!svn/ver/6101/App_WebReferences/BankPF/Service.disco
+END
+Service.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/FMOP/!svn/ver/6815/App_WebReferences/BankPF/Service.wsdl
+END
+Service.discomap
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/FMOP/!svn/ver/6101/App_WebReferences/BankPF/Service.discomap
+END

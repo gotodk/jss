@@ -1,0 +1,40 @@
+2014-06-12 15:43:03合同到期监控执行语句：
+---提醒：cs02@qq.com→尊敬的cs02，您HTN140516000016《电子购货合同》已履行完毕，系统已给予自动清盘，您可在“交易账户”查看有关情况。
+
+---提醒：cs02@qq.com→尊敬的cs02，您HTN140516000016《电子购货合同》已履行完毕，系统已给予自动清盘，您可在“交易账户”查看有关情况。
+
+---提醒：786qi0@qq.com→尊敬的786qi00，您HTN140516000025《电子购货合同》已履行完毕，系统已给予自动清盘，您可在“交易账户”查看有关情况。
+
+---提醒：786qi0@qq.com→尊敬的786qi00，您HTN140516000025《电子购货合同》已履行完毕，系统已给予自动清盘，您可在“交易账户”查看有关情况。
+
+---update AAA_ZBDBXXB set Z_HTZT='定标合同到期',Z_QPZT='清盘中',Z_QPKSSJ='2014/6/12 15:43:00' where Number='L140612000030'
+
+---update AAA_ZBDBXXB set Z_HTZT='定标合同到期',Z_QPZT='清盘中',Z_QPKSSJ='2014/6/12 15:43:00' where Number='N140516000028'
+
+---INSERT INTO [AAA_ZKLSMXB]([Number],[DLYX],[JSZHLX],[JSBH],[LYYWLX],[LYDH],[LSCSSJ],[YSLX],[JE],[XM],[XZ],[ZY],[JKBH],[QTBZ],[SJLX],[CheckState],[CreateUser],[CreateTime],[CheckLimitTime]) VALUES ('140612000572','cs02@qq.com','买家卖家交易账户','C140515000008','AAA_ZBDBXXB','N140516000016','2014/6/12 15:43:00','解冻',7.00,'订金','合同期满解冻','HTN140516000016《电子购货合同》期满','合同到期监控','','实',1,'admin','2014/6/12 15:43:00','2014/6/12 15:43:00')
+
+---INSERT INTO [AAA_ZKLSMXB]([Number],[DLYX],[JSZHLX],[JSBH],[LYYWLX],[LYDH],[LSCSSJ],[YSLX],[JE],[XM],[XZ],[ZY],[JKBH],[QTBZ],[SJLX],[CheckState],[CreateUser],[CreateTime],[CheckLimitTime]) VALUES ('140612000573','cs02@qq.com','买家卖家交易账户','C140515000008','AAA_ZBDBXXB','N140516000016','2014/6/12 15:43:00','扣减',4.00,'违约赔偿金','买方违约赔偿给卖方','HTN140516000016《电子购货合同》期满买方没有下完提货单','合同到期监控','','实',1,'admin','2014/6/12 15:43:00','2014/6/12 15:43:00')
+
+---INSERT INTO [AAA_ZKLSMXB]([Number],[DLYX],[JSZHLX],[JSBH],[LYYWLX],[LYDH],[LSCSSJ],[YSLX],[JE],[XM],[XZ],[ZY],[JKBH],[QTBZ],[SJLX],[CheckState],[CreateUser],[CreateTime],[CheckLimitTime]) VALUES ('140612000574','cs02@qq.com','买家卖家交易账户','B140515000008','AAA_ZBDBXXB','N140516000016','2014/6/12 15:43:00','增加',4.00,'补偿收益','收到买方违约补偿','HTN140516000016《电子购货合同》期满买方未完成提货','合同到期监控','','实',1,'admin','2014/6/12 15:43:00','2014/6/12 15:43:00')
+
+---INSERT INTO [AAA_ZKLSMXB]([Number],[DLYX],[JSZHLX],[JSBH],[LYYWLX],[LYDH],[LSCSSJ],[YSLX],[JE],[XM],[XZ],[ZY],[JKBH],[QTBZ],[SJLX],[CheckState],[CreateUser],[CreateTime],[CheckLimitTime]) VALUES ('140612000575','cs02@qq.com','买家卖家交易账户','C140515000008','AAA_ZBDBXXB','N140516000016','2014/6/12 15:43:00','扣减',1.60,'技术服务费','买方违约赔偿','HTN140516000016《电子购货合同》期满买方未完成提货','合同到期监控','','实',1,'admin','2014/6/12 15:43:00','2014/6/12 15:43:00')
+
+---INSERT INTO [AAA_ZKLSMXB]([Number],[DLYX],[JSZHLX],[JSBH],[LYYWLX],[LYDH],[LSCSSJ],[YSLX],[JE],[XM],[XZ],[ZY],[JKBH],[QTBZ],[SJLX],[CheckState],[CreateUser],[CreateTime],[CheckLimitTime]) VALUES ('140612000576','cs02@qq.com','买家卖家交易账户','B140515000008','AAA_ZBDBXXB','N140516000016','2014/6/12 15:43:00','解冻',2.8,'履约保证金','履约保证金解冻','HTN140516000016《电子购货合同》终止，所有问题已全部处理完毕，即清盘结束时——包括但不限于“请重新发货”、“部分收货”、“有异议收货”等情况已有最终处理结果。','合同到期监控','','实',1,'admin','2014/6/12 15:43:00','2014/6/12 15:43:00')
+
+---update AAA_ZBDBXXB set Z_HTZT='定标合同到期',Z_QPZT='清盘结束',Z_QPKSSJ='2014/6/12 15:43:00',Z_QPJSSJ='2014/6/12 15:43:00' where number='N140516000016'
+
+---INSERT INTO [AAA_ZKLSMXB]([Number],[DLYX],[JSZHLX],[JSBH],[LYYWLX],[LYDH],[LSCSSJ],[YSLX],[JE],[XM],[XZ],[ZY],[JKBH],[QTBZ],[SJLX],[CheckState],[CreateUser],[CreateTime],[CheckLimitTime]) VALUES ('140612000577','786qi0@qq.com','买家卖家交易账户','C140515000034','AAA_ZBDBXXB','N140516000025','2014/6/12 15:43:01','解冻',66.50,'订金','合同期满解冻','HTN140516000025《电子购货合同》期满','合同到期监控','','实',1,'admin','2014/6/12 15:43:01','2014/6/12 15:43:01')
+
+---INSERT INTO [AAA_ZKLSMXB]([Number],[DLYX],[JSZHLX],[JSBH],[LYYWLX],[LYDH],[LSCSSJ],[YSLX],[JE],[XM],[XZ],[ZY],[JKBH],[QTBZ],[SJLX],[CheckState],[CreateUser],[CreateTime],[CheckLimitTime]) VALUES ('140612000578','786qi0@qq.com','买家卖家交易账户','C140515000034','AAA_ZBDBXXB','N140516000025','2014/6/12 15:43:01','扣减',47.50,'违约赔偿金','买方违约赔偿给卖方','HTN140516000025《电子购货合同》期满买方没有下完提货单','合同到期监控','','实',1,'admin','2014/6/12 15:43:01','2014/6/12 15:43:01')
+
+---INSERT INTO [AAA_ZKLSMXB]([Number],[DLYX],[JSZHLX],[JSBH],[LYYWLX],[LYDH],[LSCSSJ],[YSLX],[JE],[XM],[XZ],[ZY],[JKBH],[QTBZ],[SJLX],[CheckState],[CreateUser],[CreateTime],[CheckLimitTime]) VALUES ('140612000579','786qi0@qq.com','买家卖家交易账户','B140515000034','AAA_ZBDBXXB','N140516000025','2014/6/12 15:43:01','增加',47.50,'补偿收益','收到买方违约补偿','HTN140516000025《电子购货合同》期满买方未完成提货','合同到期监控','','实',1,'admin','2014/6/12 15:43:01','2014/6/12 15:43:01')
+
+---INSERT INTO [AAA_ZKLSMXB]([Number],[DLYX],[JSZHLX],[JSBH],[LYYWLX],[LYDH],[LSCSSJ],[YSLX],[JE],[XM],[XZ],[ZY],[JKBH],[QTBZ],[SJLX],[CheckState],[CreateUser],[CreateTime],[CheckLimitTime]) VALUES ('140612000580','786qi0@qq.com','买家卖家交易账户','C140515000034','AAA_ZBDBXXB','N140516000025','2014/6/12 15:43:01','扣减',19.00,'技术服务费','买方违约赔偿','HTN140516000025《电子购货合同》期满买方未完成提货','合同到期监控','','实',1,'admin','2014/6/12 15:43:01','2014/6/12 15:43:01')
+
+---INSERT INTO [AAA_ZKLSMXB]([Number],[DLYX],[JSZHLX],[JSBH],[LYYWLX],[LYDH],[LSCSSJ],[YSLX],[JE],[XM],[XZ],[ZY],[JKBH],[QTBZ],[SJLX],[CheckState],[CreateUser],[CreateTime],[CheckLimitTime]) VALUES ('140612000581','786qi0@qq.com','买家卖家交易账户','B140515000034','AAA_ZBDBXXB','N140516000025','2014/6/12 15:43:01','解冻',33.25,'履约保证金','履约保证金解冻','HTN140516000025《电子购货合同》终止，所有问题已全部处理完毕，即清盘结束时——包括但不限于“请重新发货”、“部分收货”、“有异议收货”等情况已有最终处理结果。','合同到期监控','','实',1,'admin','2014/6/12 15:43:01','2014/6/12 15:43:01')
+
+---update AAA_ZBDBXXB set Z_HTZT='定标合同到期',Z_QPZT='清盘结束',Z_QPKSSJ='2014/6/12 15:43:01',Z_QPJSSJ='2014/6/12 15:43:01' where number='N140516000025'
+
+---update AAA_ZBDBXXB set Z_HTZT='定标合同到期',Z_QPZT='清盘中',Z_QPKSSJ='2014/6/12 15:43:03' where Number='N140519000031'
+
+

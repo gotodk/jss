@@ -1,0 +1,2534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.fm8844.com" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.fm8844.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.fm8844.com">
+      <s:element name="GetKey">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetKeyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetKeyResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_ModifyBankCard">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_ModifyBankCardResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_ModifyBankCardResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_ModifyBankCard">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_ModifyBankCardResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Set_ModifyBankCardResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_UMoneyInBank">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_UMoneyInBankResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_UMoneyInBankResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_UMoneyInBank">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_UMoneyInBankResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Set_UMoneyInBankResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_CBankToSecurities">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_CBankToSecuritiesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_CBankToSecuritiesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_CBankToSecurities">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_CBankToSecuritiesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Set_CBankToSecuritiesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_CSecuritiesToBank">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_CSecuritiesToBankResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_CSecuritiesToBankResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_CSecuritiesToBank">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_CSecuritiesToBankResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Set_CSecuritiesToBankResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_ModifyBank">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_ModifyBankResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_ModifyBankResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_ModifyBank">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_ModifyBankResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Set_ModifyBankResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Deal">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_DealResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_DealResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_Deal">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_DealResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Set_DealResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_Active">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_ActiveResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_ActiveResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_Active">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_ActiveResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Set_ActiveResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_UserInterest">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_UserInterestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_UserInterestResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_UserInterest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_UserInterestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Set_UserInterestResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_DealBroked">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_DealBrokedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_DealBrokedResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_DealBroked">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_DealBrokedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Set_DealBrokedResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_DealAerify">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_DealAerifyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_DealAerifyResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_DealAerify">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_DealAerifyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Set_DealAerifyResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_BankMoneyDetails">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_BankMoneyDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_BankMoneyDetailsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_BankMoneyDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_BankMoneyDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Set_BankMoneyDetailsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_ModifyUserInfo">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_ModifyUserInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_ModifyUserInfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_ModifyUserInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_ModifyUserInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Set_ModifyUserInfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_BankToSecurities">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_BankToSecuritiesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_BankToSecuritiesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_BankToSecurities">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_BankToSecuritiesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Set_BankToSecuritiesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_BankTraDealBroked">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_BankTraDealBrokedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_BankTraDealBrokedResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_BankTraDealBroked">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_BankTraDealBrokedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Set_BankTraDealBrokedResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_BankTraDeal">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_BankTraDealResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_BankTraDealResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_BankTraDeal">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_BankTraDealResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Set_BankTraDealResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_BankTraToMain">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_BankTraToMainResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_BankTraToMainResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_BankTraToMain">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_BankTraToMainResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Set_BankTraToMainResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_BankTraSignIn">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_BankTraSignInResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_BankTraSignInResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_BankTraSignIn">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_BankTraSignInResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Set_BankTraSignInResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_BankTraSignOut">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_BankTraSignOutResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_BankTraSignOutResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_BankTraSignOut">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_BankTraSignOutResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Set_BankTraSignOutResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_SecuritiesSendFile">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_SecuritiesSendFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_SecuritiesSendFileResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_SecuritiesSendFile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_SecuritiesSendFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Set_SecuritiesSendFileResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_SecuritiesSendFileEnd">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_SecuritiesSendFileEndResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_SecuritiesSendFileEndResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_SecuritiesSendFileEnd">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_SecuritiesSendFileEndResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Set_SecuritiesSendFileEndResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_SecuritiesGetFile">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_SecuritiesGetFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_SecuritiesGetFileResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_SecuritiesGetFile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_SecuritiesGetFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Set_SecuritiesGetFileResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_SecuritiesGetFileEnd">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_SecuritiesGetFileEndResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_SecuritiesGetFileEndResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_SecuritiesGetFileEnd">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_SecuritiesGetFileEndResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Set_SecuritiesGetFileEndResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_SecuritiesToBank">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_SecuritiesToBankResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_SecuritiesToBankResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_SecuritiesToBank">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_SecuritiesToBankResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Set_SecuritiesToBankResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_SecuritiesKey">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get_SecuritiesKeyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get_SecuritiesKeyResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_SecuritiesKey">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dt">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Set_SecuritiesKeyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Set_SecuritiesKeyResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetKeySoapIn">
+    <wsdl:part name="parameters" element="tns:GetKey" />
+  </wsdl:message>
+  <wsdl:message name="GetKeySoapOut">
+    <wsdl:part name="parameters" element="tns:GetKeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_ModifyBankCardSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_ModifyBankCard" />
+  </wsdl:message>
+  <wsdl:message name="Get_ModifyBankCardSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_ModifyBankCardResponse" />
+  </wsdl:message>
+  <wsdl:message name="Set_ModifyBankCardSoapIn">
+    <wsdl:part name="parameters" element="tns:Set_ModifyBankCard" />
+  </wsdl:message>
+  <wsdl:message name="Set_ModifyBankCardSoapOut">
+    <wsdl:part name="parameters" element="tns:Set_ModifyBankCardResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_UMoneyInBankSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_UMoneyInBank" />
+  </wsdl:message>
+  <wsdl:message name="Get_UMoneyInBankSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_UMoneyInBankResponse" />
+  </wsdl:message>
+  <wsdl:message name="Set_UMoneyInBankSoapIn">
+    <wsdl:part name="parameters" element="tns:Set_UMoneyInBank" />
+  </wsdl:message>
+  <wsdl:message name="Set_UMoneyInBankSoapOut">
+    <wsdl:part name="parameters" element="tns:Set_UMoneyInBankResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_CBankToSecuritiesSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_CBankToSecurities" />
+  </wsdl:message>
+  <wsdl:message name="Get_CBankToSecuritiesSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_CBankToSecuritiesResponse" />
+  </wsdl:message>
+  <wsdl:message name="Set_CBankToSecuritiesSoapIn">
+    <wsdl:part name="parameters" element="tns:Set_CBankToSecurities" />
+  </wsdl:message>
+  <wsdl:message name="Set_CBankToSecuritiesSoapOut">
+    <wsdl:part name="parameters" element="tns:Set_CBankToSecuritiesResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_CSecuritiesToBankSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_CSecuritiesToBank" />
+  </wsdl:message>
+  <wsdl:message name="Get_CSecuritiesToBankSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_CSecuritiesToBankResponse" />
+  </wsdl:message>
+  <wsdl:message name="Set_CSecuritiesToBankSoapIn">
+    <wsdl:part name="parameters" element="tns:Set_CSecuritiesToBank" />
+  </wsdl:message>
+  <wsdl:message name="Set_CSecuritiesToBankSoapOut">
+    <wsdl:part name="parameters" element="tns:Set_CSecuritiesToBankResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_ModifyBankSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_ModifyBank" />
+  </wsdl:message>
+  <wsdl:message name="Get_ModifyBankSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_ModifyBankResponse" />
+  </wsdl:message>
+  <wsdl:message name="Set_ModifyBankSoapIn">
+    <wsdl:part name="parameters" element="tns:Set_ModifyBank" />
+  </wsdl:message>
+  <wsdl:message name="Set_ModifyBankSoapOut">
+    <wsdl:part name="parameters" element="tns:Set_ModifyBankResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_DealSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_Deal" />
+  </wsdl:message>
+  <wsdl:message name="Get_DealSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_DealResponse" />
+  </wsdl:message>
+  <wsdl:message name="Set_DealSoapIn">
+    <wsdl:part name="parameters" element="tns:Set_Deal" />
+  </wsdl:message>
+  <wsdl:message name="Set_DealSoapOut">
+    <wsdl:part name="parameters" element="tns:Set_DealResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_ActiveSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_Active" />
+  </wsdl:message>
+  <wsdl:message name="Get_ActiveSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_ActiveResponse" />
+  </wsdl:message>
+  <wsdl:message name="Set_ActiveSoapIn">
+    <wsdl:part name="parameters" element="tns:Set_Active" />
+  </wsdl:message>
+  <wsdl:message name="Set_ActiveSoapOut">
+    <wsdl:part name="parameters" element="tns:Set_ActiveResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_UserInterestSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_UserInterest" />
+  </wsdl:message>
+  <wsdl:message name="Get_UserInterestSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_UserInterestResponse" />
+  </wsdl:message>
+  <wsdl:message name="Set_UserInterestSoapIn">
+    <wsdl:part name="parameters" element="tns:Set_UserInterest" />
+  </wsdl:message>
+  <wsdl:message name="Set_UserInterestSoapOut">
+    <wsdl:part name="parameters" element="tns:Set_UserInterestResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_DealBrokedSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_DealBroked" />
+  </wsdl:message>
+  <wsdl:message name="Get_DealBrokedSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_DealBrokedResponse" />
+  </wsdl:message>
+  <wsdl:message name="Set_DealBrokedSoapIn">
+    <wsdl:part name="parameters" element="tns:Set_DealBroked" />
+  </wsdl:message>
+  <wsdl:message name="Set_DealBrokedSoapOut">
+    <wsdl:part name="parameters" element="tns:Set_DealBrokedResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_DealAerifySoapIn">
+    <wsdl:part name="parameters" element="tns:Get_DealAerify" />
+  </wsdl:message>
+  <wsdl:message name="Get_DealAerifySoapOut">
+    <wsdl:part name="parameters" element="tns:Get_DealAerifyResponse" />
+  </wsdl:message>
+  <wsdl:message name="Set_DealAerifySoapIn">
+    <wsdl:part name="parameters" element="tns:Set_DealAerify" />
+  </wsdl:message>
+  <wsdl:message name="Set_DealAerifySoapOut">
+    <wsdl:part name="parameters" element="tns:Set_DealAerifyResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_BankMoneyDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_BankMoneyDetails" />
+  </wsdl:message>
+  <wsdl:message name="Get_BankMoneyDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_BankMoneyDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="Set_BankMoneyDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:Set_BankMoneyDetails" />
+  </wsdl:message>
+  <wsdl:message name="Set_BankMoneyDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:Set_BankMoneyDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_ModifyUserInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_ModifyUserInfo" />
+  </wsdl:message>
+  <wsdl:message name="Get_ModifyUserInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_ModifyUserInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="Set_ModifyUserInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:Set_ModifyUserInfo" />
+  </wsdl:message>
+  <wsdl:message name="Set_ModifyUserInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:Set_ModifyUserInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_BankToSecuritiesSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_BankToSecurities" />
+  </wsdl:message>
+  <wsdl:message name="Get_BankToSecuritiesSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_BankToSecuritiesResponse" />
+  </wsdl:message>
+  <wsdl:message name="Set_BankToSecuritiesSoapIn">
+    <wsdl:part name="parameters" element="tns:Set_BankToSecurities" />
+  </wsdl:message>
+  <wsdl:message name="Set_BankToSecuritiesSoapOut">
+    <wsdl:part name="parameters" element="tns:Set_BankToSecuritiesResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_BankTraDealBrokedSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_BankTraDealBroked" />
+  </wsdl:message>
+  <wsdl:message name="Get_BankTraDealBrokedSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_BankTraDealBrokedResponse" />
+  </wsdl:message>
+  <wsdl:message name="Set_BankTraDealBrokedSoapIn">
+    <wsdl:part name="parameters" element="tns:Set_BankTraDealBroked" />
+  </wsdl:message>
+  <wsdl:message name="Set_BankTraDealBrokedSoapOut">
+    <wsdl:part name="parameters" element="tns:Set_BankTraDealBrokedResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_BankTraDealSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_BankTraDeal" />
+  </wsdl:message>
+  <wsdl:message name="Get_BankTraDealSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_BankTraDealResponse" />
+  </wsdl:message>
+  <wsdl:message name="Set_BankTraDealSoapIn">
+    <wsdl:part name="parameters" element="tns:Set_BankTraDeal" />
+  </wsdl:message>
+  <wsdl:message name="Set_BankTraDealSoapOut">
+    <wsdl:part name="parameters" element="tns:Set_BankTraDealResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_BankTraToMainSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_BankTraToMain" />
+  </wsdl:message>
+  <wsdl:message name="Get_BankTraToMainSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_BankTraToMainResponse" />
+  </wsdl:message>
+  <wsdl:message name="Set_BankTraToMainSoapIn">
+    <wsdl:part name="parameters" element="tns:Set_BankTraToMain" />
+  </wsdl:message>
+  <wsdl:message name="Set_BankTraToMainSoapOut">
+    <wsdl:part name="parameters" element="tns:Set_BankTraToMainResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_BankTraSignInSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_BankTraSignIn" />
+  </wsdl:message>
+  <wsdl:message name="Get_BankTraSignInSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_BankTraSignInResponse" />
+  </wsdl:message>
+  <wsdl:message name="Set_BankTraSignInSoapIn">
+    <wsdl:part name="parameters" element="tns:Set_BankTraSignIn" />
+  </wsdl:message>
+  <wsdl:message name="Set_BankTraSignInSoapOut">
+    <wsdl:part name="parameters" element="tns:Set_BankTraSignInResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_BankTraSignOutSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_BankTraSignOut" />
+  </wsdl:message>
+  <wsdl:message name="Get_BankTraSignOutSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_BankTraSignOutResponse" />
+  </wsdl:message>
+  <wsdl:message name="Set_BankTraSignOutSoapIn">
+    <wsdl:part name="parameters" element="tns:Set_BankTraSignOut" />
+  </wsdl:message>
+  <wsdl:message name="Set_BankTraSignOutSoapOut">
+    <wsdl:part name="parameters" element="tns:Set_BankTraSignOutResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_SecuritiesSendFileSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_SecuritiesSendFile" />
+  </wsdl:message>
+  <wsdl:message name="Get_SecuritiesSendFileSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_SecuritiesSendFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="Set_SecuritiesSendFileSoapIn">
+    <wsdl:part name="parameters" element="tns:Set_SecuritiesSendFile" />
+  </wsdl:message>
+  <wsdl:message name="Set_SecuritiesSendFileSoapOut">
+    <wsdl:part name="parameters" element="tns:Set_SecuritiesSendFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_SecuritiesSendFileEndSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_SecuritiesSendFileEnd" />
+  </wsdl:message>
+  <wsdl:message name="Get_SecuritiesSendFileEndSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_SecuritiesSendFileEndResponse" />
+  </wsdl:message>
+  <wsdl:message name="Set_SecuritiesSendFileEndSoapIn">
+    <wsdl:part name="parameters" element="tns:Set_SecuritiesSendFileEnd" />
+  </wsdl:message>
+  <wsdl:message name="Set_SecuritiesSendFileEndSoapOut">
+    <wsdl:part name="parameters" element="tns:Set_SecuritiesSendFileEndResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_SecuritiesGetFileSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_SecuritiesGetFile" />
+  </wsdl:message>
+  <wsdl:message name="Get_SecuritiesGetFileSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_SecuritiesGetFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="Set_SecuritiesGetFileSoapIn">
+    <wsdl:part name="parameters" element="tns:Set_SecuritiesGetFile" />
+  </wsdl:message>
+  <wsdl:message name="Set_SecuritiesGetFileSoapOut">
+    <wsdl:part name="parameters" element="tns:Set_SecuritiesGetFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_SecuritiesGetFileEndSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_SecuritiesGetFileEnd" />
+  </wsdl:message>
+  <wsdl:message name="Get_SecuritiesGetFileEndSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_SecuritiesGetFileEndResponse" />
+  </wsdl:message>
+  <wsdl:message name="Set_SecuritiesGetFileEndSoapIn">
+    <wsdl:part name="parameters" element="tns:Set_SecuritiesGetFileEnd" />
+  </wsdl:message>
+  <wsdl:message name="Set_SecuritiesGetFileEndSoapOut">
+    <wsdl:part name="parameters" element="tns:Set_SecuritiesGetFileEndResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_SecuritiesToBankSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_SecuritiesToBank" />
+  </wsdl:message>
+  <wsdl:message name="Get_SecuritiesToBankSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_SecuritiesToBankResponse" />
+  </wsdl:message>
+  <wsdl:message name="Set_SecuritiesToBankSoapIn">
+    <wsdl:part name="parameters" element="tns:Set_SecuritiesToBank" />
+  </wsdl:message>
+  <wsdl:message name="Set_SecuritiesToBankSoapOut">
+    <wsdl:part name="parameters" element="tns:Set_SecuritiesToBankResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_SecuritiesKeySoapIn">
+    <wsdl:part name="parameters" element="tns:Get_SecuritiesKey" />
+  </wsdl:message>
+  <wsdl:message name="Get_SecuritiesKeySoapOut">
+    <wsdl:part name="parameters" element="tns:Get_SecuritiesKeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="Set_SecuritiesKeySoapIn">
+    <wsdl:part name="parameters" element="tns:Set_SecuritiesKey" />
+  </wsdl:message>
+  <wsdl:message name="Set_SecuritiesKeySoapOut">
+    <wsdl:part name="parameters" element="tns:Set_SecuritiesKeyResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="GetKey">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取当前最新的Pin、Mac</wsdl:documentation>
+      <wsdl:input message="tns:GetKeySoapIn" />
+      <wsdl:output message="tns:GetKeySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_ModifyBankCard">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">变更银行帐户_请求_26710</wsdl:documentation>
+      <wsdl:input message="tns:Get_ModifyBankCardSoapIn" />
+      <wsdl:output message="tns:Get_ModifyBankCardSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_ModifyBankCard">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">变更银行帐户_发送_26710</wsdl:documentation>
+      <wsdl:input message="tns:Set_ModifyBankCardSoapIn" />
+      <wsdl:output message="tns:Set_ModifyBankCardSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_UMoneyInBank">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取用户银行资金余额_请求_24603</wsdl:documentation>
+      <wsdl:input message="tns:Get_UMoneyInBankSoapIn" />
+      <wsdl:output message="tns:Get_UMoneyInBankSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_UMoneyInBank">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取用户资金余额_发送_24603</wsdl:documentation>
+      <wsdl:input message="tns:Set_UMoneyInBankSoapIn" />
+      <wsdl:output message="tns:Set_UMoneyInBankSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_CBankToSecurities">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">冲银行转证券_请求_24703</wsdl:documentation>
+      <wsdl:input message="tns:Get_CBankToSecuritiesSoapIn" />
+      <wsdl:output message="tns:Get_CBankToSecuritiesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_CBankToSecurities">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">冲银行转证券_发送_24703</wsdl:documentation>
+      <wsdl:input message="tns:Set_CBankToSecuritiesSoapIn" />
+      <wsdl:output message="tns:Set_CBankToSecuritiesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_CSecuritiesToBank">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-冲证券转银行#24704</wsdl:documentation>
+      <wsdl:input message="tns:Get_CSecuritiesToBankSoapIn" />
+      <wsdl:output message="tns:Get_CSecuritiesToBankSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_CSecuritiesToBank">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-冲证券转银行#24704</wsdl:documentation>
+      <wsdl:input message="tns:Set_CSecuritiesToBankSoapIn" />
+      <wsdl:output message="tns:Set_CSecuritiesToBankSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_ModifyBank">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-客户变更存管银行#26713</wsdl:documentation>
+      <wsdl:input message="tns:Get_ModifyBankSoapIn" />
+      <wsdl:output message="tns:Get_ModifyBankSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_ModifyBank">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-客户变更存管银行#26713</wsdl:documentation>
+      <wsdl:input message="tns:Set_ModifyBankSoapIn" />
+      <wsdl:output message="tns:Set_ModifyBankSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_Deal">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-客户存管签约#26701</wsdl:documentation>
+      <wsdl:input message="tns:Get_DealSoapIn" />
+      <wsdl:output message="tns:Get_DealSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_Deal">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-客户存管签约#26701</wsdl:documentation>
+      <wsdl:input message="tns:Set_DealSoapIn" />
+      <wsdl:output message="tns:Set_DealSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_Active">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-客户登记激活#26611</wsdl:documentation>
+      <wsdl:input message="tns:Get_ActiveSoapIn" />
+      <wsdl:output message="tns:Get_ActiveSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_Active">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-客户登记激活#26611</wsdl:documentation>
+      <wsdl:input message="tns:Set_ActiveSoapIn" />
+      <wsdl:output message="tns:Set_ActiveSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_UserInterest">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-客户结息#26712</wsdl:documentation>
+      <wsdl:input message="tns:Get_UserInterestSoapIn" />
+      <wsdl:output message="tns:Get_UserInterestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_UserInterest">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-客户结息#26712</wsdl:documentation>
+      <wsdl:input message="tns:Set_UserInterestSoapIn" />
+      <wsdl:output message="tns:Set_UserInterestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_DealBroked">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-客户解约#26703</wsdl:documentation>
+      <wsdl:input message="tns:Get_DealBrokedSoapIn" />
+      <wsdl:output message="tns:Get_DealBrokedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_DealBroked">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-客户解约#26703</wsdl:documentation>
+      <wsdl:input message="tns:Set_DealBrokedSoapIn" />
+      <wsdl:output message="tns:Set_DealBrokedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_DealAerify">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-客户预指定存管签约确认#26702</wsdl:documentation>
+      <wsdl:input message="tns:Get_DealAerifySoapIn" />
+      <wsdl:output message="tns:Get_DealAerifySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_DealAerify">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-客户预指定存管签约确认#26702</wsdl:documentation>
+      <wsdl:input message="tns:Set_DealAerifySoapIn" />
+      <wsdl:output message="tns:Set_DealAerifySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_BankMoneyDetails">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-取银行转帐明细#24710</wsdl:documentation>
+      <wsdl:input message="tns:Get_BankMoneyDetailsSoapIn" />
+      <wsdl:output message="tns:Get_BankMoneyDetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_BankMoneyDetails">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-取银行转帐明细#24710</wsdl:documentation>
+      <wsdl:input message="tns:Set_BankMoneyDetailsSoapIn" />
+      <wsdl:output message="tns:Set_BankMoneyDetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_ModifyUserInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-修改客户资料#26704</wsdl:documentation>
+      <wsdl:input message="tns:Get_ModifyUserInfoSoapIn" />
+      <wsdl:output message="tns:Get_ModifyUserInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_ModifyUserInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-修改客户资料#26704</wsdl:documentation>
+      <wsdl:input message="tns:Set_ModifyUserInfoSoapIn" />
+      <wsdl:output message="tns:Set_ModifyUserInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_BankToSecurities">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-银行转证券#24701</wsdl:documentation>
+      <wsdl:input message="tns:Get_BankToSecuritiesSoapIn" />
+      <wsdl:output message="tns:Get_BankToSecuritiesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_BankToSecurities">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-银行转证券#24701</wsdl:documentation>
+      <wsdl:input message="tns:Set_BankToSecuritiesSoapIn" />
+      <wsdl:output message="tns:Set_BankToSecuritiesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_BankTraDealBroked">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-银证转帐解约#26715</wsdl:documentation>
+      <wsdl:input message="tns:Get_BankTraDealBrokedSoapIn" />
+      <wsdl:output message="tns:Get_BankTraDealBrokedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_BankTraDealBroked">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-银证转帐解约#26715</wsdl:documentation>
+      <wsdl:input message="tns:Set_BankTraDealBrokedSoapIn" />
+      <wsdl:output message="tns:Set_BankTraDealBrokedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_BankTraDeal">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-银证转帐签约#26714</wsdl:documentation>
+      <wsdl:input message="tns:Get_BankTraDealSoapIn" />
+      <wsdl:output message="tns:Get_BankTraDealSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_BankTraDeal">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-银证转帐签约#26714</wsdl:documentation>
+      <wsdl:input message="tns:Set_BankTraDealSoapIn" />
+      <wsdl:output message="tns:Set_BankTraDealSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_BankTraToMain">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-银证转账对总账#24708</wsdl:documentation>
+      <wsdl:input message="tns:Get_BankTraToMainSoapIn" />
+      <wsdl:output message="tns:Get_BankTraToMainSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_BankTraToMain">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-银证转账对总账#24708</wsdl:documentation>
+      <wsdl:input message="tns:Set_BankTraToMainSoapIn" />
+      <wsdl:output message="tns:Set_BankTraToMainSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_BankTraSignIn">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-银证转账证券签到#24901</wsdl:documentation>
+      <wsdl:input message="tns:Get_BankTraSignInSoapIn" />
+      <wsdl:output message="tns:Get_BankTraSignInSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_BankTraSignIn">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-银证转账证券签到#24901</wsdl:documentation>
+      <wsdl:input message="tns:Set_BankTraSignInSoapIn" />
+      <wsdl:output message="tns:Set_BankTraSignInSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_BankTraSignOut">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-银证转账证券签退#24902</wsdl:documentation>
+      <wsdl:input message="tns:Get_BankTraSignOutSoapIn" />
+      <wsdl:output message="tns:Get_BankTraSignOutSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_BankTraSignOut">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-银证转账证券签退#24902</wsdl:documentation>
+      <wsdl:input message="tns:Set_BankTraSignOutSoapIn" />
+      <wsdl:output message="tns:Set_BankTraSignOutSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_SecuritiesSendFile">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-证券发送文件#24903</wsdl:documentation>
+      <wsdl:input message="tns:Get_SecuritiesSendFileSoapIn" />
+      <wsdl:output message="tns:Get_SecuritiesSendFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_SecuritiesSendFile">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-证券发送文件#24903</wsdl:documentation>
+      <wsdl:input message="tns:Set_SecuritiesSendFileSoapIn" />
+      <wsdl:output message="tns:Set_SecuritiesSendFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_SecuritiesSendFileEnd">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-证券发送文件完毕通知#24909</wsdl:documentation>
+      <wsdl:input message="tns:Get_SecuritiesSendFileEndSoapIn" />
+      <wsdl:output message="tns:Get_SecuritiesSendFileEndSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_SecuritiesSendFileEnd">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-证券发送文件完毕通知#24909</wsdl:documentation>
+      <wsdl:input message="tns:Set_SecuritiesSendFileEndSoapIn" />
+      <wsdl:output message="tns:Set_SecuritiesSendFileEndSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_SecuritiesGetFile">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-证券接收文件#24904</wsdl:documentation>
+      <wsdl:input message="tns:Get_SecuritiesGetFileSoapIn" />
+      <wsdl:output message="tns:Get_SecuritiesGetFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_SecuritiesGetFile">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-证券接收文件#24904</wsdl:documentation>
+      <wsdl:input message="tns:Set_SecuritiesGetFileSoapIn" />
+      <wsdl:output message="tns:Set_SecuritiesGetFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_SecuritiesGetFileEnd">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-证券文件生成完毕通知#24908</wsdl:documentation>
+      <wsdl:input message="tns:Get_SecuritiesGetFileEndSoapIn" />
+      <wsdl:output message="tns:Get_SecuritiesGetFileEndSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_SecuritiesGetFileEnd">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-证券文件生成完毕通知#24908</wsdl:documentation>
+      <wsdl:input message="tns:Set_SecuritiesGetFileEndSoapIn" />
+      <wsdl:output message="tns:Set_SecuritiesGetFileEndSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_SecuritiesToBank">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-证券转银行#24702</wsdl:documentation>
+      <wsdl:input message="tns:Get_SecuritiesToBankSoapIn" />
+      <wsdl:output message="tns:Get_SecuritiesToBankSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_SecuritiesToBank">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-证券转银行#24702</wsdl:documentation>
+      <wsdl:input message="tns:Set_SecuritiesToBankSoapIn" />
+      <wsdl:output message="tns:Set_SecuritiesToBankSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_SecuritiesKey">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-软加密密钥交换#26700</wsdl:documentation>
+      <wsdl:input message="tns:Get_SecuritiesKeySoapIn" />
+      <wsdl:output message="tns:Get_SecuritiesKeySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_SecuritiesKey">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">券商发起-软加密密钥交换#26700</wsdl:documentation>
+      <wsdl:input message="tns:Set_SecuritiesKeySoapIn" />
+      <wsdl:output message="tns:Set_SecuritiesKeySoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="tns:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetKey">
+      <soap:operation soapAction="http://www.fm8844.com/GetKey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_ModifyBankCard">
+      <soap:operation soapAction="http://www.fm8844.com/Get_ModifyBankCard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_ModifyBankCard">
+      <soap:operation soapAction="http://www.fm8844.com/Set_ModifyBankCard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_UMoneyInBank">
+      <soap:operation soapAction="http://www.fm8844.com/Get_UMoneyInBank" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_UMoneyInBank">
+      <soap:operation soapAction="http://www.fm8844.com/Set_UMoneyInBank" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_CBankToSecurities">
+      <soap:operation soapAction="http://www.fm8844.com/Get_CBankToSecurities" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_CBankToSecurities">
+      <soap:operation soapAction="http://www.fm8844.com/Set_CBankToSecurities" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_CSecuritiesToBank">
+      <soap:operation soapAction="http://www.fm8844.com/Get_CSecuritiesToBank" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_CSecuritiesToBank">
+      <soap:operation soapAction="http://www.fm8844.com/Set_CSecuritiesToBank" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_ModifyBank">
+      <soap:operation soapAction="http://www.fm8844.com/Get_ModifyBank" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_ModifyBank">
+      <soap:operation soapAction="http://www.fm8844.com/Set_ModifyBank" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Deal">
+      <soap:operation soapAction="http://www.fm8844.com/Get_Deal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_Deal">
+      <soap:operation soapAction="http://www.fm8844.com/Set_Deal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Active">
+      <soap:operation soapAction="http://www.fm8844.com/Get_Active" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_Active">
+      <soap:operation soapAction="http://www.fm8844.com/Set_Active" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_UserInterest">
+      <soap:operation soapAction="http://www.fm8844.com/Get_UserInterest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_UserInterest">
+      <soap:operation soapAction="http://www.fm8844.com/Set_UserInterest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_DealBroked">
+      <soap:operation soapAction="http://www.fm8844.com/Get_DealBroked" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_DealBroked">
+      <soap:operation soapAction="http://www.fm8844.com/Set_DealBroked" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_DealAerify">
+      <soap:operation soapAction="http://www.fm8844.com/Get_DealAerify" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_DealAerify">
+      <soap:operation soapAction="http://www.fm8844.com/Set_DealAerify" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_BankMoneyDetails">
+      <soap:operation soapAction="http://www.fm8844.com/Get_BankMoneyDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_BankMoneyDetails">
+      <soap:operation soapAction="http://www.fm8844.com/Set_BankMoneyDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_ModifyUserInfo">
+      <soap:operation soapAction="http://www.fm8844.com/Get_ModifyUserInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_ModifyUserInfo">
+      <soap:operation soapAction="http://www.fm8844.com/Set_ModifyUserInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_BankToSecurities">
+      <soap:operation soapAction="http://www.fm8844.com/Get_BankToSecurities" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_BankToSecurities">
+      <soap:operation soapAction="http://www.fm8844.com/Set_BankToSecurities" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_BankTraDealBroked">
+      <soap:operation soapAction="http://www.fm8844.com/Get_BankTraDealBroked" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_BankTraDealBroked">
+      <soap:operation soapAction="http://www.fm8844.com/Set_BankTraDealBroked" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_BankTraDeal">
+      <soap:operation soapAction="http://www.fm8844.com/Get_BankTraDeal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_BankTraDeal">
+      <soap:operation soapAction="http://www.fm8844.com/Set_BankTraDeal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_BankTraToMain">
+      <soap:operation soapAction="http://www.fm8844.com/Get_BankTraToMain" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_BankTraToMain">
+      <soap:operation soapAction="http://www.fm8844.com/Set_BankTraToMain" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_BankTraSignIn">
+      <soap:operation soapAction="http://www.fm8844.com/Get_BankTraSignIn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_BankTraSignIn">
+      <soap:operation soapAction="http://www.fm8844.com/Set_BankTraSignIn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_BankTraSignOut">
+      <soap:operation soapAction="http://www.fm8844.com/Get_BankTraSignOut" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_BankTraSignOut">
+      <soap:operation soapAction="http://www.fm8844.com/Set_BankTraSignOut" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_SecuritiesSendFile">
+      <soap:operation soapAction="http://www.fm8844.com/Get_SecuritiesSendFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_SecuritiesSendFile">
+      <soap:operation soapAction="http://www.fm8844.com/Set_SecuritiesSendFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_SecuritiesSendFileEnd">
+      <soap:operation soapAction="http://www.fm8844.com/Get_SecuritiesSendFileEnd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_SecuritiesSendFileEnd">
+      <soap:operation soapAction="http://www.fm8844.com/Set_SecuritiesSendFileEnd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_SecuritiesGetFile">
+      <soap:operation soapAction="http://www.fm8844.com/Get_SecuritiesGetFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_SecuritiesGetFile">
+      <soap:operation soapAction="http://www.fm8844.com/Set_SecuritiesGetFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_SecuritiesGetFileEnd">
+      <soap:operation soapAction="http://www.fm8844.com/Get_SecuritiesGetFileEnd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_SecuritiesGetFileEnd">
+      <soap:operation soapAction="http://www.fm8844.com/Set_SecuritiesGetFileEnd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_SecuritiesToBank">
+      <soap:operation soapAction="http://www.fm8844.com/Get_SecuritiesToBank" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_SecuritiesToBank">
+      <soap:operation soapAction="http://www.fm8844.com/Set_SecuritiesToBank" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_SecuritiesKey">
+      <soap:operation soapAction="http://www.fm8844.com/Get_SecuritiesKey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_SecuritiesKey">
+      <soap:operation soapAction="http://www.fm8844.com/Set_SecuritiesKey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="tns:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetKey">
+      <soap12:operation soapAction="http://www.fm8844.com/GetKey" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_ModifyBankCard">
+      <soap12:operation soapAction="http://www.fm8844.com/Get_ModifyBankCard" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_ModifyBankCard">
+      <soap12:operation soapAction="http://www.fm8844.com/Set_ModifyBankCard" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_UMoneyInBank">
+      <soap12:operation soapAction="http://www.fm8844.com/Get_UMoneyInBank" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_UMoneyInBank">
+      <soap12:operation soapAction="http://www.fm8844.com/Set_UMoneyInBank" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_CBankToSecurities">
+      <soap12:operation soapAction="http://www.fm8844.com/Get_CBankToSecurities" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_CBankToSecurities">
+      <soap12:operation soapAction="http://www.fm8844.com/Set_CBankToSecurities" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_CSecuritiesToBank">
+      <soap12:operation soapAction="http://www.fm8844.com/Get_CSecuritiesToBank" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_CSecuritiesToBank">
+      <soap12:operation soapAction="http://www.fm8844.com/Set_CSecuritiesToBank" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_ModifyBank">
+      <soap12:operation soapAction="http://www.fm8844.com/Get_ModifyBank" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_ModifyBank">
+      <soap12:operation soapAction="http://www.fm8844.com/Set_ModifyBank" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Deal">
+      <soap12:operation soapAction="http://www.fm8844.com/Get_Deal" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_Deal">
+      <soap12:operation soapAction="http://www.fm8844.com/Set_Deal" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_Active">
+      <soap12:operation soapAction="http://www.fm8844.com/Get_Active" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_Active">
+      <soap12:operation soapAction="http://www.fm8844.com/Set_Active" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_UserInterest">
+      <soap12:operation soapAction="http://www.fm8844.com/Get_UserInterest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_UserInterest">
+      <soap12:operation soapAction="http://www.fm8844.com/Set_UserInterest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_DealBroked">
+      <soap12:operation soapAction="http://www.fm8844.com/Get_DealBroked" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_DealBroked">
+      <soap12:operation soapAction="http://www.fm8844.com/Set_DealBroked" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_DealAerify">
+      <soap12:operation soapAction="http://www.fm8844.com/Get_DealAerify" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_DealAerify">
+      <soap12:operation soapAction="http://www.fm8844.com/Set_DealAerify" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_BankMoneyDetails">
+      <soap12:operation soapAction="http://www.fm8844.com/Get_BankMoneyDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_BankMoneyDetails">
+      <soap12:operation soapAction="http://www.fm8844.com/Set_BankMoneyDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_ModifyUserInfo">
+      <soap12:operation soapAction="http://www.fm8844.com/Get_ModifyUserInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_ModifyUserInfo">
+      <soap12:operation soapAction="http://www.fm8844.com/Set_ModifyUserInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_BankToSecurities">
+      <soap12:operation soapAction="http://www.fm8844.com/Get_BankToSecurities" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_BankToSecurities">
+      <soap12:operation soapAction="http://www.fm8844.com/Set_BankToSecurities" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_BankTraDealBroked">
+      <soap12:operation soapAction="http://www.fm8844.com/Get_BankTraDealBroked" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_BankTraDealBroked">
+      <soap12:operation soapAction="http://www.fm8844.com/Set_BankTraDealBroked" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_BankTraDeal">
+      <soap12:operation soapAction="http://www.fm8844.com/Get_BankTraDeal" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_BankTraDeal">
+      <soap12:operation soapAction="http://www.fm8844.com/Set_BankTraDeal" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_BankTraToMain">
+      <soap12:operation soapAction="http://www.fm8844.com/Get_BankTraToMain" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_BankTraToMain">
+      <soap12:operation soapAction="http://www.fm8844.com/Set_BankTraToMain" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_BankTraSignIn">
+      <soap12:operation soapAction="http://www.fm8844.com/Get_BankTraSignIn" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_BankTraSignIn">
+      <soap12:operation soapAction="http://www.fm8844.com/Set_BankTraSignIn" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_BankTraSignOut">
+      <soap12:operation soapAction="http://www.fm8844.com/Get_BankTraSignOut" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_BankTraSignOut">
+      <soap12:operation soapAction="http://www.fm8844.com/Set_BankTraSignOut" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_SecuritiesSendFile">
+      <soap12:operation soapAction="http://www.fm8844.com/Get_SecuritiesSendFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_SecuritiesSendFile">
+      <soap12:operation soapAction="http://www.fm8844.com/Set_SecuritiesSendFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_SecuritiesSendFileEnd">
+      <soap12:operation soapAction="http://www.fm8844.com/Get_SecuritiesSendFileEnd" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_SecuritiesSendFileEnd">
+      <soap12:operation soapAction="http://www.fm8844.com/Set_SecuritiesSendFileEnd" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_SecuritiesGetFile">
+      <soap12:operation soapAction="http://www.fm8844.com/Get_SecuritiesGetFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_SecuritiesGetFile">
+      <soap12:operation soapAction="http://www.fm8844.com/Set_SecuritiesGetFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_SecuritiesGetFileEnd">
+      <soap12:operation soapAction="http://www.fm8844.com/Get_SecuritiesGetFileEnd" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_SecuritiesGetFileEnd">
+      <soap12:operation soapAction="http://www.fm8844.com/Set_SecuritiesGetFileEnd" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_SecuritiesToBank">
+      <soap12:operation soapAction="http://www.fm8844.com/Get_SecuritiesToBank" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_SecuritiesToBank">
+      <soap12:operation soapAction="http://www.fm8844.com/Set_SecuritiesToBank" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_SecuritiesKey">
+      <soap12:operation soapAction="http://www.fm8844.com/Get_SecuritiesKey" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_SecuritiesKey">
+      <soap12:operation soapAction="http://www.fm8844.com/Set_SecuritiesKey" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
+      <soap:address location="http://192.168.16.34/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
+      <soap12:address location="http://192.168.16.34/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,554 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0 {
+    position:absolute;
+    left:125px;
+    top:34px;
+    width:386px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u1_normal {
+    background-image: url('../冲证券转银行（冲出金-浦发）_files/u1_normal.png');
+}
+
+.u1_container {
+    position:absolute;
+    left:124px;
+    top:80px;
+    width:266px;
+    height:40px;
+}
+
+#u1_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:272px;
+    height:46px;
+}
+
+.u2 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:262px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u3_normal {
+    background-image: url('../冲证券转银行（冲出金-浦发）_files/u3_normal.png');
+}
+
+.u3_container {
+    position:absolute;
+    left:114px;
+    top:330px;
+    width:276px;
+    height:80px;
+}
+
+#u3_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:282px;
+    height:86px;
+}
+
+.u4 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:272px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5_normal {
+    background-image: url('../冲证券转银行（冲出金-浦发）_files/u5_normal.png');
+}
+
+.u5_container {
+    position:absolute;
+    left:160px;
+    top:460px;
+    width:155px;
+    height:93px;
+}
+
+#u5_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:161px;
+    height:99px;
+}
+
+.u6 {
+    position:absolute;
+    left:2px;
+    top:38px;
+    width:151px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7c0 {
+    background-image: url('../冲证券转银行（冲出金-浦发）_files/u7c0.png');
+}
+
+.u7c0 {
+    position:absolute;
+    left:321px;
+    top:197px;
+    width:103px;
+    height:20px;
+}
+
+.u8 {
+    position:absolute;
+    left:-6px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9_normal {
+    background-image: url('../冲证券转银行（冲出金-浦发）_files/u9_normal.png');
+}
+
+.u9_container {
+    position:absolute;
+    left:50px;
+    top:600px;
+    width:191px;
+    height:30px;
+}
+
+#u9_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:197px;
+    height:36px;
+}
+
+.u10 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:187px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11c0 {
+    background-image: url('../冲证券转银行（冲出金-浦发）_files/u11c0.png');
+}
+
+.u11c0 {
+    position:absolute;
+    left:228px;
+    top:549px;
+    width:20px;
+    height:51px;
+}
+
+.u11c1 {
+    background-image: url('../冲证券转银行（冲出金-浦发）_files/u11c1.png');
+}
+
+.u11c1 {
+    position:absolute;
+    left:136px;
+    top:580px;
+    width:112px;
+    height:20px;
+}
+
+.u11c2 {
+    background-image: url('../冲证券转银行（冲出金-浦发）_files/u11c2.png');
+}
+
+.u11c2 {
+    position:absolute;
+    left:136px;
+    top:580px;
+    width:20px;
+    height:24px;
+}
+
+.u12 {
+    position:absolute;
+    left:-82px;
+    top:29px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13_normal {
+    background-image: url('../冲证券转银行（冲出金-浦发）_files/u5_normal.png');
+}
+
+.u13_container {
+    position:absolute;
+    left:170px;
+    top:160px;
+    width:155px;
+    height:93px;
+}
+
+#u13_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:161px;
+    height:99px;
+}
+
+.u14 {
+    position:absolute;
+    left:2px;
+    top:30px;
+    width:151px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15c0 {
+    background-image: url('../冲证券转银行（冲出金-浦发）_files/u15c0.png');
+}
+
+.u15c0 {
+    position:absolute;
+    left:247px;
+    top:116px;
+    width:20px;
+    height:44px;
+}
+
+.u15c1 {
+    background-image: url('../冲证券转银行（冲出金-浦发）_files/u15c1.png');
+}
+
+.u15c1 {
+    position:absolute;
+    left:238px;
+    top:140px;
+    width:29px;
+    height:20px;
+}
+
+.u15c2 {
+    background-image: url('../冲证券转银行（冲出金-浦发）_files/u15c2.png');
+}
+
+.u15c2 {
+    position:absolute;
+    left:238px;
+    top:140px;
+    width:20px;
+    height:24px;
+}
+
+.u16 {
+    position:absolute;
+    left:-50px;
+    top:16px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u17c0 {
+    background-image: url('../冲证券转银行（冲出金-浦发）_files/u17c0.png');
+}
+
+.u17c0 {
+    position:absolute;
+    left:238px;
+    top:249px;
+    width:20px;
+    height:81px;
+}
+
+.u17c1 {
+    background-image: url('../冲证券转银行（冲出金-浦发）_files/u17c1.png');
+}
+
+.u17c1 {
+    position:absolute;
+    left:238px;
+    top:310px;
+    width:24px;
+    height:20px;
+}
+
+.u17c2 {
+    background-image: url('../冲证券转银行（冲出金-浦发）_files/u17c2.png');
+}
+
+.u17c2 {
+    position:absolute;
+    left:242px;
+    top:310px;
+    width:20px;
+    height:24px;
+}
+
+.u18 {
+    position:absolute;
+    left:-50px;
+    top:32px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19c0 {
+    background-image: url('../冲证券转银行（冲出金-浦发）_files/u19c0.png');
+}
+
+.u19c0 {
+    position:absolute;
+    left:242px;
+    top:406px;
+    width:20px;
+    height:54px;
+}
+
+.u19c1 {
+    background-image: url('../冲证券转银行（冲出金-浦发）_files/u19c1.png');
+}
+
+.u19c1 {
+    position:absolute;
+    left:228px;
+    top:440px;
+    width:34px;
+    height:20px;
+}
+
+.u19c2 {
+    background-image: url('../冲证券转银行（冲出金-浦发）_files/u19c2.png');
+}
+
+.u19c2 {
+    position:absolute;
+    left:228px;
+    top:440px;
+    width:20px;
+    height:24px;
+}
+
+.u20 {
+    position:absolute;
+    left:-50px;
+    top:24px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21c0 {
+    background-image: url('../冲证券转银行（冲出金-浦发）_files/u21c0.png');
+}
+
+.u21c0 {
+    position:absolute;
+    left:311px;
+    top:496px;
+    width:114px;
+    height:20px;
+}
+
+.u21c1 {
+    background-image: url('../冲证券转银行（冲出金-浦发）_files/u21c1.png');
+}
+
+.u21c1 {
+    position:absolute;
+    left:405px;
+    top:496px;
+    width:20px;
+    height:108px;
+}
+
+.u22 {
+    position:absolute;
+    left:47px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u23_normal {
+    background-image: url('../冲证券转银行（冲出金-浦发）_files/u23_normal.png');
+}
+
+.u23_container {
+    position:absolute;
+    left:414px;
+    top:192px;
+    width:97px;
+    height:30px;
+}
+
+#u23_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:103px;
+    height:36px;
+}
+
+.u24 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:93px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u25_normal {
+    background-image: url('../冲证券转银行（冲出金-浦发）_files/u25_normal.png');
+}
+
+.u25_container {
+    position:absolute;
+    left:290px;
+    top:600px;
+    width:250px;
+    height:30px;
+}
+
+#u25_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:256px;
+    height:36px;
+}
+
+.u26 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:246px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27 {
+    position:absolute;
+    left:550px;
+    top:34px;
+    width:590px;
+    height:400px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

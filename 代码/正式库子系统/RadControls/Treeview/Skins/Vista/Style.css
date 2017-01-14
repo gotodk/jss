@@ -1,0 +1,107 @@
+.TreeNode 
+{ 
+	font-family: 'Segoe UI', Tahoma;
+	font-size: 8pt; 
+	color: black;	
+	padding: 2px 5px 3px 1px;
+	margin: 1px 1px 1px 2px;
+	text-decoration: none;	
+}
+
+.TreeNodeOver 
+{
+	font-family: 'Segoe UI', Tahoma;
+	font-size: 8pt;
+	color: black;
+	background: #f8fcfe url(hoverBg.gif) repeat-x bottom;
+	cursor: pointer;
+	cursor: hand;
+	padding: 2px 5px 3px 1px;
+	margin-left: 1px;
+	border: solid 1px #d8f0fa;
+}
+
+.TreeNodeSelect 
+{     
+	font-family: 'Segoe UI', Tahoma; 
+	font-size: 8pt; 
+	color: black; 
+	background: #f6fbfd url(selectedBg.gif) repeat-x bottom;
+	cursor: pointer;
+	cursor: hand;
+	padding: 2px 5px 3px 1px;
+	margin-left: 1px;
+	border: solid 1px #99defd;
+}
+
+.TreeNodeDisabled
+{ 
+	font-family: 'Segoe UI', Tahoma;
+	font-size: 8pt; 
+	color: gray;	
+	padding-left: 3px;
+	padding-right: 5px;
+	text-decoration: none;
+	cursor: default;
+}
+
+.TreeNodeEdit 
+{
+  border: 1px gray solid;
+  font-family: 'Segoe UI', Tahoma; 
+  font-size: 8pt;
+  margin-left: 4px;  
+}
+
+.LoadingMessage
+{
+	font-family: 'Segoe UI', Tahoma; 
+	font-size: 8pt; 
+	background: #d5effc; 
+	border: solid 1px;
+	padding: 2px;
+}
+
+.LoadingMessageBlue
+{
+	font-family: 'Segoe UI', Tahoma; 
+	font-size: 8pt; 
+	color: Blue;
+	padding: 2px;
+}
+
+
+.TreeContextItem
+{ 
+	font-family: 'Segoe UI', Tahoma;
+	font-size:12px;
+	cursor: pointer;
+	cursor: hand;
+	padding-left:8px;
+	height:22px;
+	background: #f0f0f0 url(contextMenu.gif) repeat-y;
+	width:100%; 
+	text-align: left;
+}
+ 
+.TreeContextItemOver
+{
+	font-family: 'Segoe UI', Tahoma;
+	font-size:12px;
+	cursor: pointer;
+	cursor: hand;
+	padding-left:8px;
+	height:22px;
+	background: url(contextHover.gif) repeat-x bottom;
+	width:100%; 
+	text-align: left;
+}
+ 
+.TreeNodeEdit 
+{
+	border:1px gray solid;
+	font-family: 'Segoe UI', Tahoma; 
+	font-size: 8pt;
+	margin-left: 3px;  
+	text-align: left;
+}

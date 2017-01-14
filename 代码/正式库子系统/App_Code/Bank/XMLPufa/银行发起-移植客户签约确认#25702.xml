@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="银行发起-移植客户签约确认_x0023_25702" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="银行发起-移植客户签约确认_x0023_25702">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FunctionId" msdata:Caption="功能号" type="xs:string" default="25702" />
+                <xs:element name="ExSerial" msdata:Caption="外部流水号" type="xs:string" default="xxxx" />
+                <xs:element name="bOrganId" msdata:Caption="银行类型" type="xs:string" default="6" />
+                <xs:element name="bBranchId" msdata:Caption="银行分行号" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="bDeptId" msdata:Caption="银行网点号" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="bCustAcct" msdata:Caption="存管账号/银行账号" type="xs:string" default="xxxx" />
+                <xs:element name="sOrganId" msdata:Caption="证券公司编号" type="xs:string" default="60050000" />
+                <xs:element name="sBranchId" msdata:Caption="营业部编码" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="sCustAcct" msdata:Caption="证券资金账号" type="xs:string" default="xxxx" />
+                <xs:element name="sCustPwd" msdata:Caption="证券交易密码" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="sCustPwd2" msdata:Caption="证券资金密码" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="Name" msdata:Caption="客户姓名" type="xs:string" default="xxxx" />
+                <xs:element name="CardType" msdata:Caption="客户证件类型" type="xs:string" default="xxxx" />
+                <xs:element name="Card" msdata:Caption="客户证件号" type="xs:string" default="xxxx" />
+                <xs:element name="BusinType" msdata:Caption="业务类别" type="xs:string" default="xxxx" />
+                <xs:element name="MoneyType" msdata:Caption="币种" type="xs:string" default="0" />
+                <xs:element name="Date" msdata:Caption="交易日期" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="Time" msdata:Caption="发生时间" type="xs:string" default="" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <银行发起-移植客户签约确认_x0023_25702>
+    <FunctionId>25702</FunctionId>
+    <ExSerial>xxxx</ExSerial>
+    <bOrganId>6</bOrganId>
+    <bBranchId />
+    <bDeptId />
+    <bCustAcct>xxxx</bCustAcct>
+    <sOrganId>60050000</sOrganId>
+    <sBranchId />
+    <sCustAcct>xxxx</sCustAcct>
+    <sCustPwd />
+    <sCustPwd2 />
+    <Name>xxxx</Name>
+    <CardType>xxxx</CardType>
+    <Card>xxxx</Card>
+    <BusinType>xxxx</BusinType>
+    <MoneyType>0</MoneyType>
+    <Date />
+    <Time />
+  </银行发起-移植客户签约确认_x0023_25702>
+</NewDataSet>

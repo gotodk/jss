@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <基本配置>
+    <MSS>客户端主程序.ceshi.fm8844.com.jhjx_WebServicePublic|客户端主程序.ceshi2013.fm8844.com.ws2013|capi.fm8844.com</MSS>
+    <IPURL />
+    <TRY>用户版</TRY>
+    <WWWSITE>http://www.fm8844.com</WWWSITE>
+    <DC>1,40,0.1</DC>
+  </基本配置>
+  <用户本地配置>
+    <UserEmail>a8be217246ad17357251d9018281992e98e34e5196ee6af3</UserEmail>
+    <UserPassWord>83ca0c4f6e8d44c7068d927347b6c107</UserPassWord>
+    <IsSavePassWord>True</IsSavePassWord>
+    <IsAutoLogin>否</IsAutoLogin>
+    <IsAudio>是</IsAudio>
+    <IsT>40,67,70,69,63,66,61,59,65,61,74,75,63,76,85,61,63,60,63,66,60,150,100,100,100,100,100,100,</IsT>
+  </用户本地配置>
+</NewDataSet>

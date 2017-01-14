@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="查时间段会员开销户信息_x0023_1016" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="查时间段会员开销户信息_x0023_1016">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="SupAcctId" msdata:Caption="资金汇总账号" type="xs:string" default="x" />
+                <xs:element name="BeginDate" msdata:Caption="开始日期" type="xs:string" default="x" />
+                <xs:element name="EndDate" msdata:Caption="结束日期" type="xs:string" default="x" />
+                <xs:element name="PageNum" msdata:Caption="第几页" type="xs:string" default="x" />
+                <xs:element name="Reserve" msdata:Caption="保留域" type="xs:string" default="" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <查时间段会员开销户信息_x0023_1016>
+    <SupAcctId>x</SupAcctId>
+    <BeginDate>x</BeginDate>
+    <EndDate>x</EndDate>
+    <PageNum>x</PageNum>
+    <Reserve />
+  </查时间段会员开销户信息_x0023_1016>
+</NewDataSet>

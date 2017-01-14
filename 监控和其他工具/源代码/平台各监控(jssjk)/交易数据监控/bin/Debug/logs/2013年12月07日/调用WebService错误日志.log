@@ -1,0 +1,3 @@
+2013-12-07 16-04-17     ---     调用webservices错误,方法名：[CreatNewDapanList_Group]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 交易数据监控.WebServicesCenter2013.RunAtServices(String MethodName, Object[] CSarr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\WebServicesCenter2013.cs:行号 92
+

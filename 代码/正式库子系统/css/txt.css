@@ -1,0 +1,50 @@
+﻿.FormView
+{
+	background: #f7f7f7;
+	border: solid 1px #e5e5e5;
+	border-right: solid 2px #e5e5e5;
+	border-top: 1px;
+	font: normal 12px 宋体;
+}
+
+BODY 
+{
+	FONT-SIZE: 12px;
+	margin: 0px;
+	scrollbar-face-color: #E9E9E9;
+	scrollbar-highlight-color: white;
+	scrollbar-shadow-color: #E9E9E9;
+	scrollbar-3dlight-color: #DBDBDB;
+	scrollbar-arrow-color: #787878;
+	scrollbar-track-color: #F5F5F5;
+	scrollbar-darkshadow-color: #AEAEAE;
+ 
+
+}
+
+input1 {
+	width: 65px;
+	BACKGROUND-COLOR: transparent; 
+	BORDER-BOTTOM: #B3B3B3 1px solid;; 
+	BORDER-LEFT: transparent 0px solid; 
+	BORDER-RIGHT: transparent 0px solid; 
+	BORDER-TOP: #D8D8D8 0px solid; COLOR: #666666;
+   margin-bottom:4px;  
+}
+.button, button 
+{
+	border:1px solid #D5D5D5;
+	border-bottom: 1px solid #C2C2C2;
+	border-right: 1px solid #C2C2C2;
+	font-family: 宋体;
+	font-size:12px;
+	font-weight:bold;
+	color:#666666;
+	background-image:url(../Images/buttonBg.gif);
+	background-position:top;
+	background-color:white;
+	height:20px;
+	width:50px;
+	vertical-align:middle;
+     text-align :center; 
+}

@@ -1,0 +1,11 @@
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_K1_Controll_D\bin\Debug\K1_Controll_D.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_K1_Controll_D\bin\Debug\K1_Controll_D.pdb
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_K1_Controll_D\bin\Debug\P1_Support.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_K1_Controll_D\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_K1_Controll_D\bin\Debug\org.in2bits.MyXls.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_K1_Controll_D\bin\Debug\P1_Support.pdb
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_K1_Controll_D\obj\Debug\K1_Controll_D.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_K1_Controll_D\obj\Debug\K1_Controll_D.pdb
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_K1_Controll_D\obj\Debug\A_K1_Controll_D.csprojResolveAssemblyReference.cache
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_K1_Controll_D\obj\Debug\客户端主程序.SubForm.ForDP2013.resources
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_K1_Controll_D\obj\Debug\A_K1_Controll_D.csproj.GenerateResource.Cache

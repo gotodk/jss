@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="监管账户信息查询_x0023_1021" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="监管账户信息查询_x0023_1021">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="AcctId" msdata:Caption="资金汇总账号" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="TranWebCode" msdata:Caption="交易网代码" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="Reserve" msdata:Caption="保留域" type="xs:string" default="" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <监管账户信息查询_x0023_1021>
+    <AcctId />
+    <TranWebCode />
+    <Reserve />
+  </监管账户信息查询_x0023_1021>
+</NewDataSet>

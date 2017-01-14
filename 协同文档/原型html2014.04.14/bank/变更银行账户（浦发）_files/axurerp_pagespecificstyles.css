@@ -1,0 +1,330 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0 {
+    position:absolute;
+    left:131px;
+    top:30px;
+    width:488px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u1_normal {
+    background-image: url('../变更银行账户（浦发）_files/u1_normal.png');
+}
+
+.u1_container {
+    position:absolute;
+    left:124px;
+    top:280px;
+    width:190px;
+    height:40px;
+}
+
+#u1_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:196px;
+    height:46px;
+}
+
+.u2 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:186px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u3_normal {
+    background-image: url('../变更银行账户（浦发）_files/u3_normal.png');
+}
+
+.u3_container {
+    position:absolute;
+    left:100px;
+    top:433px;
+    width:140px;
+    height:37px;
+}
+
+#u3_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:43px;
+}
+
+.u4 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:136px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5_normal {
+    background-image: url('../变更银行账户（浦发）_files/u5_normal.png');
+}
+
+.u5_container {
+    position:absolute;
+    left:300px;
+    top:433px;
+    width:120px;
+    height:37px;
+}
+
+#u5_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:43px;
+}
+
+.u6 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:116px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7c0 {
+    background-image: url('../变更银行账户（浦发）_files/u7c0.png');
+}
+
+.u7c0 {
+    position:absolute;
+    left:209px;
+    top:316px;
+    width:20px;
+    height:117px;
+}
+
+.u7c1 {
+    background-image: url('../变更银行账户（浦发）_files/u7c1.png');
+}
+
+.u7c1 {
+    position:absolute;
+    left:160px;
+    top:413px;
+    width:69px;
+    height:20px;
+}
+
+.u7c2 {
+    background-image: url('../变更银行账户（浦发）_files/u7c2.png');
+}
+
+.u7c2 {
+    position:absolute;
+    left:160px;
+    top:413px;
+    width:20px;
+    height:24px;
+}
+
+.u8 {
+    position:absolute;
+    left:-50px;
+    top:73px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9c0 {
+    background-image: url('../变更银行账户（浦发）_files/u9c0.png');
+}
+
+.u9c0 {
+    position:absolute;
+    left:310px;
+    top:290px;
+    width:60px;
+    height:20px;
+}
+
+.u9c1 {
+    background-image: url('../变更银行账户（浦发）_files/u9c1.png');
+}
+
+.u9c1 {
+    position:absolute;
+    left:350px;
+    top:290px;
+    width:20px;
+    height:147px;
+}
+
+.u10 {
+    position:absolute;
+    left:-4px;
+    top:36px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11_normal {
+    background-image: url('../变更银行账户（浦发）_files/u11_normal.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:124px;
+    top:150px;
+    width:190px;
+    height:40px;
+}
+
+#u11_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:196px;
+    height:46px;
+}
+
+.u12 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:186px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13c0 {
+    background-image: url('../变更银行账户（浦发）_files/u13c0.png');
+}
+
+.u13c0 {
+    position:absolute;
+    left:209px;
+    top:186px;
+    width:20px;
+    height:104px;
+}
+
+.u14 {
+    position:absolute;
+    left:-50px;
+    top:29px;
+    width:100px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15 {
+    position:absolute;
+    left:460px;
+    top:150px;
+    width:230px;
+    height:160px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16 {
+    position:absolute;
+    left:700px;
+    top:150px;
+    width:490px;
+    height:160px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u17 {
+    position:absolute;
+    left:131px;
+    top:62px;
+    width:689px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

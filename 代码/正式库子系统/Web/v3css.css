@@ -1,0 +1,80 @@
+body {
+	margin:0px;
+	font-size: 9pt;
+	color: #333;
+	text-decoration: none;
+	overflow-y:hidden;
+	overflow-x:hidden
+scrollbar-highlight-color: #ACD373; scrollbar-shadow-color: #ACD373; scrollbar-arrow-color: #ACD373; scrollbar-face-color: #FFFFFF; scrollbar-3dlight-color: #FFFFFF; scrollbar-darkshadow-color: #FFFFFF; scrollbar-track-color: #FFFFFF;
+
+
+}
+.top_bg_zhongjian {
+	background-image: url(sytp/top_bg_zhongjian.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+.top_bg_youbian {
+	background-image: url(sytp/new/bg_main_right.jpg);
+	background-repeat: repeat-x;
+	background-position: right top;
+}
+.top_aidan_cd3 {
+	background-image: url(sytp/cd3.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+.top_lianjie_bg {
+	font-size: 9pt;
+	background-image: url(sytp/lianjie_m.jpg);
+	background-repeat: repeat-x;
+
+}
+.caidan_zuo_bg {
+	background-image: url(sytp/cd5.jpg);
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+
+.caidan_zzz_bg {
+	background-image: url(sytp/cd_1.jpg);
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+.caidan_you_bg {
+	background-image: url(sytp/cd6.jpg);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+.caidan_yous_bg {
+	background-image: url(sytp/cd4.jpg);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+
+
+
+
+
+
+#loaddiv {
+  position: absolute;
+ color:Red;
+
+  top: 50%;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
+  border: 0px solid #555;
+
+
+}
+
+	
+DIV{ font-size:12px;}
+
+
+a:link {color:#069; text-decoration:none; font-size:9pt;}     /* 未被访问的链接 红色 没有下划线*/
+a:visited {color:#069; text-decoration:none; font-size:9pt;}  /* 已被访问过的链接 绿色 没有下划线*/
+a:hover {color:#F30;text-decoration:underline; font-size:9pt;}   /* 鼠标悬浮在上的链接 橙色 有下划线 下划线为underline 上划线为overline 无下划线为none*/
+a:active {color:#069; text-decoration:none; font-size:9pt;}   /* 鼠标点中激活链接 蓝色 没有下划线*/

@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>js图片查看器(可缩放、旋转、翻转)</title>
+    <script src="CJL.0.1.min.js"></script>
+    <script src="ImageTrans.js"></script>
+    <style>
+        #idContainer
+        {
+            border: 1px solid #000;
+            width: 600px;
+            height: 500px;
+            background: #FFF center no-repeat;
+        }
+    </style>
+</head>
+<body>
+ <!--   js图片查看器(可缩放、旋转、翻转)<br>-->
+    <div id="idContainer">      
+    </div>
+    <input id="idLeft" type="button" value="向左旋转" />
+    <input id="idRight" type="button" value="向右旋转" />
+    <input id="idVertical" type="button" value="垂直翻转" />
+    <input id="idHorizontal" type="button" value="水平翻转" />
+    <input id="idReset" type="button" value="重置" />
+     <input id="idReal" type="button" value="查看原图" />
+    <br>
+   <input id="idSrc" type="hidden" value="2.jpg"  />
+     -<input id="idLoad" type="button" value="换图" />
+    <br>
+    ps：鼠标拖动图片旋转，鼠标滚动滚轮缩放。<br>
+    <br>
+    作者：<a href="http://www.cnblogs.com/cloudgamer/">cloudgamer</a>，<a href="http://www.cnblogs.com/cloudgamer/archive/2010/08/16/ImageTrans.html">程序说明</a>
+    <script>
+        (function () {
+
+            var container = $$("idContainer"), src = "1.jpg",
+	options = {
+	    onPreLoad: function () { container.style.backgroundImage = "url('loading.gif')"; },
+	    onLoad: function () { container.style.backgroundImage = ""; }
+	},
+	it = new ImageTrans(container, options);
+            it.load(src);
+            //垂直翻转
+            $$("idVertical").onclick = function () { it.vertical(); }
+            //水平翻转
+            $$("idHorizontal").onclick = function () { it.horizontal(); }
+            //左旋转
+            $$("idLeft").onclick = function () { it.left(); }
+            //右旋转
+            $$("idRight").onclick = function () { it.right(); }
+            //重置
+            $$("idReset").onclick = function () { it.reset(); }
+            //换图
+            $$("idLoad").onclick = function () { it.load($$("idSrc").value); }
+
+        })()
+    </script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_K3_Conteol_D\bin\Debug\K3_Conteol_D.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_K3_Conteol_D\bin\Debug\K3_Conteol_D.pdb
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_K3_Conteol_D\obj\Debug\K3_Conteol_D.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_K3_Conteol_D\obj\Debug\K3_Conteol_D.pdb
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_K3_Conteol_D\obj\Debug\A_K3_Conteol_D.csprojResolveAssemblyReference.cache

@@ -1,0 +1,25 @@
+2013-10-25 11-20-19     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/25 11:20:17,结束时间:2013/10/25 11:20:19,执行结果:errSystem.ArgumentException: 列“合同期限”不属于基础表“ds”。
+   在 System.Data.DataView.ToTable(String tableName, Boolean distinct, String[] columnNames)
+   在 System.Data.DataView.ToTable(Boolean distinct, String[] columnNames)
+   在 ws2013.CreatNewDapanListTXT() 位置 d:\new wwwfumeiweb\pingtai_test\App_Code\ws2013.cs:行号 599,其他描述:
+
+2013-10-25 11-23-09     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/25 11:22:29,结束时间:2013/10/25 11:23:09,执行结果:ok生成完成,其他描述:
+
+2013-10-25 11-23-14     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/25 11:23:14,结束时间:2013/10/25 11:23:14,执行结果:ok生成完成,其他描述:
+
+2013-10-25 11-23-18     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/25 11:23:17,结束时间:2013/10/25 11:23:18,执行结果:ok生成完成,其他描述:
+
+2013-10-25 21-51-16     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/25 21:51:08,结束时间:2013/10/25 21:51:16,执行结果:errSystem.Exception: 列名 '最低价标的达成率' 无效。
+列名 '最低价标的供货周期' 无效。
+   在 FMOP.DB.DbHelperSQL.Query(String SQLString) 位置 d:\new wwwfumeiweb\pingtai_test\App_Code\DbHelperSQL.cs:行号 732
+   在 HomePage.test_ds_Run(String sp, String lujing) 位置 d:\new wwwfumeiweb\pingtai_test\App_Code\jhjx\HomePage.cs:行号 85
+   在 ws2013.CreatNewDapanListTXT() 位置 d:\new wwwfumeiweb\pingtai_test\App_Code\ws2013.cs:行号 587,其他描述:
+
+2013-10-25 21-54-10     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/25 21:53:49,结束时间:2013/10/25 21:54:10,执行结果:ok生成完成,其他描述:
+
+2013-10-25 21-54-34     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/25 21:54:34,结束时间:2013/10/25 21:54:34,执行结果:ok生成完成,其他描述:
+
+2013-10-25 23-19-58     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/25 23:19:34,结束时间:2013/10/25 23:19:58,执行结果:ok生成完成,其他描述:
+
+2013-10-25 23-20-03     ---     执行任务名称:重新生成大盘监控,开始时间:2013/10/25 23:20:02,结束时间:2013/10/25 23:20:03,执行结果:ok生成完成,其他描述:
+

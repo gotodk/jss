@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/FMOP/!svn/ver/6813/App_Code/Bank/XMLPingan
+END
+出入金账户信息查询#1012.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/FMOP/!svn/ver/6813/App_Code/Bank/XMLPingan/%E5%87%BA%E5%85%A5%E9%87%91%E8%B4%A6%E6%88%B7%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2%231012.xml
+END
+出金确认（用于银行发起的异步出金）#1317.xml
+K 25
+svn:wc:ra_dav:version-url
+V 212
+/svn/FMOP/!svn/ver/6813/App_Code/Bank/XMLPingan/%E5%87%BA%E9%87%91%E7%A1%AE%E8%AE%A4%EF%BC%88%E7%94%A8%E4%BA%8E%E9%93%B6%E8%A1%8C%E5%8F%91%E8%B5%B7%E7%9A%84%E5%BC%82%E6%AD%A5%E5%87%BA%E9%87%91%EF%BC%89%231317.xml
+END
+会员开销户确认#1301.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/FMOP/!svn/ver/6813/App_Code/Bank/XMLPingan/%E4%BC%9A%E5%91%98%E5%BC%80%E9%94%80%E6%88%B7%E7%A1%AE%E8%AE%A4%231301.xml
+END
+查交易网端会员管理账户余额#1019.xml
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/FMOP/!svn/ver/6813/App_Code/Bank/XMLPingan/%E6%9F%A5%E4%BA%A4%E6%98%93%E7%BD%91%E7%AB%AF%E4%BC%9A%E5%91%98%E7%AE%A1%E7%90%86%E8%B4%A6%E6%88%B7%E4%BD%99%E9%A2%9D%231019.xml
+END
+入金（交易网发起）#1316.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/FMOP/!svn/ver/6813/App_Code/Bank/XMLPingan/%E5%85%A5%E9%87%91%EF%BC%88%E4%BA%A4%E6%98%93%E7%BD%91%E5%8F%91%E8%B5%B7%EF%BC%89%231316.xml
+END
+银行通知交易网查看清算失败文件、会员余额文件#1005.xml
+K 25
+svn:wc:ra_dav:version-url
+V 257
+/svn/FMOP/!svn/ver/6813/App_Code/Bank/XMLPingan/%E9%93%B6%E8%A1%8C%E9%80%9A%E7%9F%A5%E4%BA%A4%E6%98%93%E7%BD%91%E6%9F%A5%E7%9C%8B%E6%B8%85%E7%AE%97%E5%A4%B1%E8%B4%A5%E6%96%87%E4%BB%B6%E3%80%81%E4%BC%9A%E5%91%98%E4%BD%99%E9%A2%9D%E6%96%87%E4%BB%B6%231005.xml
+END
+查会员出入金账号的银行余额#1020.xml
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/FMOP/!svn/ver/6813/App_Code/Bank/XMLPingan/%E6%9F%A5%E4%BC%9A%E5%91%98%E5%87%BA%E5%85%A5%E9%87%91%E8%B4%A6%E5%8F%B7%E7%9A%84%E9%93%B6%E8%A1%8C%E4%BD%99%E9%A2%9D%231020.xml
+END
+查时间段会员开销户信息#1016.xml
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/FMOP/!svn/ver/6813/App_Code/Bank/XMLPingan/%E6%9F%A5%E6%97%B6%E9%97%B4%E6%AE%B5%E4%BC%9A%E5%91%98%E5%BC%80%E9%94%80%E6%88%B7%E4%BF%A1%E6%81%AF%231016.xml
+END
+交易网发起出入金流水对账及会员开销户流水匹配#1006.xml
+K 25
+svn:wc:ra_dav:version-url
+V 257
+/svn/FMOP/!svn/ver/6813/App_Code/Bank/XMLPingan/%E4%BA%A4%E6%98%93%E7%BD%91%E5%8F%91%E8%B5%B7%E5%87%BA%E5%85%A5%E9%87%91%E6%B5%81%E6%B0%B4%E5%AF%B9%E8%B4%A6%E5%8F%8A%E4%BC%9A%E5%91%98%E5%BC%80%E9%94%80%E6%88%B7%E6%B5%81%E6%B0%B4%E5%8C%B9%E9%85%8D%231006.xml
+END
+查某笔出入金流水详细信息#1014.xml
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/FMOP/!svn/ver/6813/App_Code/Bank/XMLPingan/%E6%9F%A5%E6%9F%90%E7%AC%94%E5%87%BA%E5%85%A5%E9%87%91%E6%B5%81%E6%B0%B4%E8%AF%A6%E7%BB%86%E4%BF%A1%E6%81%AF%231014.xml
+END
+交易网查询银行清算与对账、获取会员余额文件的进度#1004.xml
+K 25
+svn:wc:ra_dav:version-url
+V 275
+/svn/FMOP/!svn/ver/6813/App_Code/Bank/XMLPingan/%E4%BA%A4%E6%98%93%E7%BD%91%E6%9F%A5%E8%AF%A2%E9%93%B6%E8%A1%8C%E6%B8%85%E7%AE%97%E4%B8%8E%E5%AF%B9%E8%B4%A6%E3%80%81%E8%8E%B7%E5%8F%96%E4%BC%9A%E5%91%98%E4%BD%99%E9%A2%9D%E6%96%87%E4%BB%B6%E7%9A%84%E8%BF%9B%E5%BA%A6%231004.xml
+END
+交易网触发银行进行清算与对账、获取会员余额文件#1003.xml
+K 25
+svn:wc:ra_dav:version-url
+V 266
+/svn/FMOP/!svn/ver/6813/App_Code/Bank/XMLPingan/%E4%BA%A4%E6%98%93%E7%BD%91%E8%A7%A6%E5%8F%91%E9%93%B6%E8%A1%8C%E8%BF%9B%E8%A1%8C%E6%B8%85%E7%AE%97%E4%B8%8E%E5%AF%B9%E8%B4%A6%E3%80%81%E8%8E%B7%E5%8F%96%E4%BC%9A%E5%91%98%E4%BD%99%E9%A2%9D%E6%96%87%E4%BB%B6%231003.xml
+END
+查时间段出入金流水(简单信息）#1013.xml
+K 25
+svn:wc:ra_dav:version-url
+V 186
+/svn/FMOP/!svn/ver/6813/App_Code/Bank/XMLPingan/%E6%9F%A5%E6%97%B6%E9%97%B4%E6%AE%B5%E5%87%BA%E5%85%A5%E9%87%91%E6%B5%81%E6%B0%B4(%E7%AE%80%E5%8D%95%E4%BF%A1%E6%81%AF%EF%BC%89%231013.xml
+END
+出入金账户维护#1315.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/FMOP/!svn/ver/6813/App_Code/Bank/XMLPingan/%E5%87%BA%E5%85%A5%E9%87%91%E8%B4%A6%E6%88%B7%E7%BB%B4%E6%8A%A4%231315.xml
+END
+查银行端会员资金台帐余额#1010.xml
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/FMOP/!svn/ver/6813/App_Code/Bank/XMLPingan/%E6%9F%A5%E9%93%B6%E8%A1%8C%E7%AB%AF%E4%BC%9A%E5%91%98%E8%B5%84%E9%87%91%E5%8F%B0%E5%B8%90%E4%BD%99%E9%A2%9D%231010.xml
+END
+监管账户信息查询#1021.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/FMOP/!svn/ver/6813/App_Code/Bank/XMLPingan/%E7%9B%91%E7%AE%A1%E8%B4%A6%E6%88%B7%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2%231021.xml
+END
+查时间段会员的交易明细#1015.xml
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/FMOP/!svn/ver/6813/App_Code/Bank/XMLPingan/%E6%9F%A5%E6%97%B6%E9%97%B4%E6%AE%B5%E4%BC%9A%E5%91%98%E7%9A%84%E4%BA%A4%E6%98%93%E6%98%8E%E7%BB%86%231015.xml
+END
+出金（银行发起）#1312.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/FMOP/!svn/ver/6813/App_Code/Bank/XMLPingan/%E5%87%BA%E9%87%91%EF%BC%88%E9%93%B6%E8%A1%8C%E5%8F%91%E8%B5%B7%EF%BC%89%231312.xml
+END
+签到、签退#1330.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/FMOP/!svn/ver/6813/App_Code/Bank/XMLPingan/%E7%AD%BE%E5%88%B0%E3%80%81%E7%AD%BE%E9%80%80%231330.xml
+END
+出金（交易网发起）#1318.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/FMOP/!svn/ver/6813/App_Code/Bank/XMLPingan/%E5%87%BA%E9%87%91%EF%BC%88%E4%BA%A4%E6%98%93%E7%BD%91%E5%8F%91%E8%B5%B7%EF%BC%89%231318.xml
+END
+入金（银行发起）#1310.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/FMOP/!svn/ver/6813/App_Code/Bank/XMLPingan/%E5%85%A5%E9%87%91%EF%BC%88%E9%93%B6%E8%A1%8C%E5%8F%91%E8%B5%B7%EF%BC%89%231310.xml
+END

@@ -1,0 +1,157 @@
+﻿/* WRAPPER SETTINGS */
+
+.radInput_Default
+{
+	font: normal 11px Arial, Verdana, Tahoma, Sans-Serif;	
+	vertical-align: middle;	
+	padding-bottom: 2px;	
+	*padding-bottom: 4px;
+}
+
+.radInput_Default table,
+.radInput_Default table td
+{	
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.radInput_Default .inputCell
+{	
+	padding: 0 2px 2px 0;
+	*padding: 0 4px 4px 0;	
+}
+
+.radInput_Default .spinImgCell,
+.radInput_Default .imageCell 
+{
+	padding: 0 0 2px 0;
+	*padding: 0 0 4px 0;	
+}
+
+/* SPIN BUTTONS */
+.radInput_Default a.spinbutton
+{
+	display: block;
+	text-indent: -9999px;
+	width: 17px;
+	height: 9px;
+	line-height: 9px;
+	background: transparent url('Img/SpinButtonSprites.gif') no-repeat;
+	font-size: 1px;
+	outline: none;
+	position: relative;
+	*position: inherit; /*IE fix*/
+}
+
+.radInput_Default a.spinbutton.up
+{
+	background-position: center 0;
+	margin-top: 3px;
+}
+
+.radInput_Default a.spinbutton.down
+{
+	background-position: center -9px;
+	height: 6px;
+}
+
+.radInput_Default a.gobutton
+{
+	display: block;
+	text-indent: -9999px;
+	width: 16px;
+	height: 17px; 
+	line-height: 17px;
+	background: transparent url('Img/button.gif') no-repeat;
+	font-size: 1px;
+	position: relative;
+	*position: inherit; /*IE fix*/
+	outline: none;
+}
+
+/* END OF WRAPPER SETTINGS */
+
+
+
+/* INPUT STYLES SETTINGS */
+.radEnabledCss_Default 
+{
+	color: #333;
+	border: solid 1px #626262;
+}
+
+.radHoverCss_Default 
+{
+	color: #333;
+	border: solid 1px #000;
+}
+
+.radDisabledCss_Default
+{
+	color: #ccc;
+	border: solid 1px #aeaeae;
+}
+
+.radDisabledCss_Default a.gobutton,
+.radDisabledCss_Default a.spinbutton
+{
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=30);
+	opacity: .3; 
+	-moz-opacity: .3;
+	cursor: no-drop;
+}
+
+.radEmptyMessageCss_Default
+{
+	color: #333;
+	border: solid 1px #aeaeae;
+}
+
+.radFocusedCss_Default
+{
+	border: solid 1px #000;
+	color: #000;	
+}
+
+.radNegativeCss_Default 
+{
+	border: solid 1px #aeaeae;
+	color: #333;
+}
+
+.radInvalidCss_Default 
+{
+	background-image: url('Img/errorSign.gif');
+	background-position: center right;
+	background-repeat: no-repeat;
+	border: solid 1px #f32800;
+	color: #f32800;
+}
+
+.radLabelCss_Default
+{	  
+	color: #000;
+	font-size: small;
+	white-space:nowrap;
+}
+
+.radHint_Default 
+{
+	background: infobackground;
+	margin-top: 5px;
+	border: solid 1px black;
+	text-align: left;
+	overflow: auto; 
+}
+
+.radHint_Default a,
+.radHint_Default a:visited,
+.radHint_Default a:hover
+{
+	margin: 2px;
+	color: black;
+	text-decoration: none;
+	font-size: small;
+}
+

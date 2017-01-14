@@ -1,0 +1,396 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../酒店、餐厅、车租赁公司_注册流程_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:191px;
+    top:91px;
+    width:160px;
+    height:60px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:166px;
+    height:66px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:156px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../酒店、餐厅、车租赁公司_注册流程_files/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:400px;
+    top:380px;
+    width:140px;
+    height:30px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:36px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:136px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../酒店、餐厅、车租赁公司_注册流程_files/u4_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:170px;
+    top:435px;
+    width:225px;
+    height:45px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:231px;
+    height:51px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:221px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6_normal {
+    background-image: url('../酒店、餐厅、车租赁公司_注册流程_files/u6_normal.png');
+}
+
+.u6_container {
+    position:absolute;
+    left:200px;
+    top:290px;
+    width:130px;
+    height:70px;
+}
+
+#u6_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:136px;
+    height:76px;
+}
+
+.u7 {
+    position:absolute;
+    left:2px;
+    top:27px;
+    width:126px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8c0 {
+    background-image: url('../酒店、餐厅、车租赁公司_注册流程_files/u8c0.png');
+}
+
+.u8c0 {
+    position:absolute;
+    left:261px;
+    top:147px;
+    width:20px;
+    height:68px;
+}
+
+.u8c1 {
+    background-image: url('../酒店、餐厅、车租赁公司_注册流程_files/u8c1.png');
+}
+
+.u8c1 {
+    position:absolute;
+    left:261px;
+    top:195px;
+    width:21px;
+    height:20px;
+}
+
+.u8c2 {
+    background-image: url('../酒店、餐厅、车租赁公司_注册流程_files/u8c2.png');
+}
+
+.u8c2 {
+    position:absolute;
+    left:262px;
+    top:195px;
+    width:20px;
+    height:24px;
+}
+
+.u9 {
+    position:absolute;
+    left:-50px;
+    top:24px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10c0 {
+    background-image: url('../酒店、餐厅、车租赁公司_注册流程_files/u10c0.png');
+}
+
+.u10c0 {
+    position:absolute;
+    left:264px;
+    top:350px;
+    width:28px;
+    height:20px;
+}
+
+.u10c1 {
+    background-image: url('../酒店、餐厅、车租赁公司_注册流程_files/u10c1.png');
+}
+
+.u10c1 {
+    position:absolute;
+    left:272px;
+    top:350px;
+    width:20px;
+    height:89px;
+}
+
+.u11 {
+    position:absolute;
+    left:-36px;
+    top:22px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12c0 {
+    background-image: url('../酒店、餐厅、车租赁公司_注册流程_files/u12c0.png');
+}
+
+.u12c0 {
+    position:absolute;
+    left:326px;
+    top:315px;
+    width:74px;
+    height:20px;
+}
+
+.u12c1 {
+    background-image: url('../酒店、餐厅、车租赁公司_注册流程_files/u12c1.png');
+}
+
+.u12c1 {
+    position:absolute;
+    left:380px;
+    top:315px;
+    width:20px;
+    height:90px;
+}
+
+.u12c2 {
+    background-image: url('../酒店、餐厅、车租赁公司_注册流程_files/u12c2.png');
+}
+
+.u12c2 {
+    position:absolute;
+    left:380px;
+    top:385px;
+    width:24px;
+    height:20px;
+}
+
+.u13 {
+    position:absolute;
+    left:10px;
+    top:2px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_normal {
+    background-image: url('../酒店、餐厅、车租赁公司_注册流程_files/u4_normal.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:160px;
+    top:215px;
+    width:225px;
+    height:45px;
+}
+
+#u14_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:231px;
+    height:51px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:221px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16c0 {
+    background-image: url('../酒店、餐厅、车租赁公司_注册流程_files/u16c0.png');
+}
+
+.u16c0 {
+    position:absolute;
+    left:262px;
+    top:256px;
+    width:20px;
+    height:34px;
+}
+
+.u16c1 {
+    background-image: url('../酒店、餐厅、车租赁公司_注册流程_files/u16c1.png');
+}
+
+.u16c1 {
+    position:absolute;
+    left:255px;
+    top:270px;
+    width:27px;
+    height:20px;
+}
+
+.u16c2 {
+    background-image: url('../酒店、餐厅、车租赁公司_注册流程_files/u16c2.png');
+}
+
+.u16c2 {
+    position:absolute;
+    left:255px;
+    top:270px;
+    width:20px;
+    height:24px;
+}
+
+.u17 {
+    position:absolute;
+    left:-50px;
+    top:10px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18 {
+    position:absolute;
+    left:410px;
+    top:215px;
+    width:150px;
+    height:64px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

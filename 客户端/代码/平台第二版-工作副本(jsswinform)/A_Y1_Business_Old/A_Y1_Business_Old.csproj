@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B1618213-4AAA-4ADF-B4D6-BD573B0433FF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>客户端主程序.DataControl</RootNamespace>
+    <AssemblyName>Y1_Business_Old</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RunThreadClassCityList.cs" />
+    <Compile Include="RunThreadClassPager.cs" />
+    <Compile Include="RunThreadClassSC.cs" />
+    <Compile Include="RunThreadClassTJFX.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\A_B1_ Variable\A_B1_ Variable.csproj">
+      <Project>{db32a8f2-e323-4bb9-a27d-e9c811ff0eb9}</Project>
+      <Name>A_B1_ Variable</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_B2_Variable\A_B2_Variable.csproj">
+      <Project>{3d121940-630b-4455-93a5-58adfa05e06b}</Project>
+      <Name>A_B2_Variable</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_K2_Control_G\A_K2_Control_G.csproj">
+      <Project>{0557a9f7-a746-4ada-9b61-4e5c7c9e7326}</Project>
+      <Name>A_K2_Control_G</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_P1_Support\A_P1_Support.csproj">
+      <Project>{c3220c8d-a8e2-4332-9271-392f7059cfe0}</Project>
+      <Name>A_P1_Support</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_W1_Services\A_W1_Services.csproj">
+      <Project>{3724ee9b-33df-4c4f-8172-13a55346bd03}</Project>
+      <Name>A_W1_Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QQ Skins\QQ Skins.csproj">
+      <Project>{ca97a4a8-003a-4215-afd3-9ad4939d48f5}</Project>
+      <Name>QQ Skins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

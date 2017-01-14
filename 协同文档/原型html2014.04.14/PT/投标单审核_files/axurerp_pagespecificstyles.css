@@ -1,0 +1,830 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../投标单审核_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:155px;
+    top:100px;
+    width:160px;
+    height:60px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:166px;
+    height:66px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:156px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../投标单审核_files/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:120px;
+    top:450px;
+    width:240px;
+    height:60px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:246px;
+    height:66px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:236px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../投标单审核_files/u4_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:170px;
+    top:550px;
+    width:130px;
+    height:70px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:136px;
+    height:76px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:19px;
+    width:126px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6_normal {
+    background-image: url('../投标单审核_files/u2_normal.png');
+}
+
+.u6_container {
+    position:absolute;
+    left:110px;
+    top:830px;
+    width:240px;
+    height:60px;
+}
+
+#u6_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:246px;
+    height:66px;
+}
+
+.u7 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:236px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8_normal {
+    background-image: url('../投标单审核_files/u2_normal.png');
+}
+
+.u8_container {
+    position:absolute;
+    left:115px;
+    top:680px;
+    width:240px;
+    height:60px;
+}
+
+#u8_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:246px;
+    height:66px;
+}
+
+.u9 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:236px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10c0 {
+    background-image: url('../投标单审核_files/u10c0.png');
+}
+
+.u10c0 {
+    position:absolute;
+    left:225px;
+    top:391px;
+    width:20px;
+    height:59px;
+}
+
+.u10c1 {
+    background-image: url('../投标单审核_files/u10c1.png');
+}
+
+.u10c1 {
+    position:absolute;
+    left:225px;
+    top:430px;
+    width:25px;
+    height:20px;
+}
+
+.u10c2 {
+    background-image: url('../投标单审核_files/u10c2.png');
+}
+
+.u10c2 {
+    position:absolute;
+    left:230px;
+    top:430px;
+    width:20px;
+    height:24px;
+}
+
+.u11 {
+    position:absolute;
+    left:-50px;
+    top:22px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12c0 {
+    background-image: url('../投标单审核_files/u12c0.png');
+}
+
+.u12c0 {
+    position:absolute;
+    left:230px;
+    top:506px;
+    width:20px;
+    height:44px;
+}
+
+.u12c1 {
+    background-image: url('../投标单审核_files/u12c1.png');
+}
+
+.u12c1 {
+    position:absolute;
+    left:225px;
+    top:530px;
+    width:25px;
+    height:20px;
+}
+
+.u12c2 {
+    background-image: url('../投标单审核_files/u12c2.png');
+}
+
+.u12c2 {
+    position:absolute;
+    left:225px;
+    top:530px;
+    width:20px;
+    height:24px;
+}
+
+.u13 {
+    position:absolute;
+    left:-50px;
+    top:14px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14c0 {
+    background-image: url('../投标单审核_files/u14c0.png');
+}
+
+.u14c0 {
+    position:absolute;
+    left:225px;
+    top:616px;
+    width:20px;
+    height:74px;
+}
+
+.u15 {
+    position:absolute;
+    left:-50px;
+    top:22px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16c0 {
+    background-image: url('../投标单审核_files/u16c0.png');
+}
+
+.u16c0 {
+    position:absolute;
+    left:225px;
+    top:736px;
+    width:20px;
+    height:94px;
+}
+
+.u16c1 {
+    background-image: url('../投标单审核_files/u16c1.png');
+}
+
+.u16c1 {
+    position:absolute;
+    left:220px;
+    top:810px;
+    width:25px;
+    height:20px;
+}
+
+.u16c2 {
+    background-image: url('../投标单审核_files/u16c2.png');
+}
+
+.u16c2 {
+    position:absolute;
+    left:220px;
+    top:810px;
+    width:20px;
+    height:24px;
+}
+
+.u17 {
+    position:absolute;
+    left:-50px;
+    top:40px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18c0 {
+    background-image: url('../投标单审核_files/u18c0.png');
+}
+
+.u18c0 {
+    position:absolute;
+    left:296px;
+    top:575px;
+    width:104px;
+    height:20px;
+}
+
+.u19 {
+    position:absolute;
+    left:-5px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20_normal {
+    background-image: url('../投标单审核_files/u20_normal.png');
+}
+
+.u20_container {
+    position:absolute;
+    left:390px;
+    top:570px;
+    width:140px;
+    height:30px;
+}
+
+#u20_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:36px;
+}
+
+.u21 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:136px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22_normal {
+    background-image: url('../投标单审核_files/u4_normal.png');
+}
+
+.u22_container {
+    position:absolute;
+    left:170px;
+    top:200px;
+    width:130px;
+    height:70px;
+}
+
+#u22_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:136px;
+    height:76px;
+}
+
+.u23 {
+    position:absolute;
+    left:2px;
+    top:11px;
+    width:126px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24_normal {
+    background-image: url('../投标单审核_files/u2_normal.png');
+}
+
+.u24_container {
+    position:absolute;
+    left:115px;
+    top:335px;
+    width:240px;
+    height:60px;
+}
+
+#u24_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:246px;
+    height:66px;
+}
+
+.u25 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:236px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26c0 {
+    background-image: url('../投标单审核_files/u26c0.png');
+}
+
+.u26c0 {
+    position:absolute;
+    left:225px;
+    top:156px;
+    width:20px;
+    height:54px;
+}
+
+.u27 {
+    position:absolute;
+    left:-50px;
+    top:12px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28c0 {
+    background-image: url('../投标单审核_files/u28c0.png');
+}
+
+.u28c0 {
+    position:absolute;
+    left:225px;
+    top:266px;
+    width:20px;
+    height:79px;
+}
+
+.u29 {
+    position:absolute;
+    left:-50px;
+    top:24px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30c0 {
+    background-image: url('../投标单审核_files/u30c0.png');
+}
+
+.u30c0 {
+    position:absolute;
+    left:296px;
+    top:225px;
+    width:104px;
+    height:20px;
+}
+
+.u31 {
+    position:absolute;
+    left:-5px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32_normal {
+    background-image: url('../投标单审核_files/u20_normal.png');
+}
+
+.u32_container {
+    position:absolute;
+    left:390px;
+    top:220px;
+    width:140px;
+    height:30px;
+}
+
+#u32_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:36px;
+}
+
+.u33 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:136px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34_normal {
+    background-image: url('../投标单审核_files/u4_normal.png');
+}
+
+.u34_container {
+    position:absolute;
+    left:165px;
+    top:930px;
+    width:130px;
+    height:70px;
+}
+
+#u34_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:136px;
+    height:76px;
+}
+
+.u35 {
+    position:absolute;
+    left:2px;
+    top:27px;
+    width:126px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36c0 {
+    background-image: url('../投标单审核_files/u36c0.png');
+}
+
+.u36c0 {
+    position:absolute;
+    left:220px;
+    top:886px;
+    width:20px;
+    height:54px;
+}
+
+.u37 {
+    position:absolute;
+    left:-50px;
+    top:12px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u38_normal {
+    background-image: url('../投标单审核_files/u38_normal.png');
+}
+
+.u38_container {
+    position:absolute;
+    left:95px;
+    top:1060px;
+    width:270px;
+    height:50px;
+}
+
+#u38_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:276px;
+    height:56px;
+}
+
+.u39 {
+    position:absolute;
+    left:2px;
+    top:9px;
+    width:266px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40c0 {
+    background-image: url('../投标单审核_files/u40c0.png');
+}
+
+.u40c0 {
+    position:absolute;
+    left:220px;
+    top:996px;
+    width:20px;
+    height:74px;
+}
+
+.u41 {
+    position:absolute;
+    left:-50px;
+    top:22px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42c0 {
+    background-image: url('../投标单审核_files/u42c0.png');
+}
+
+.u42c0 {
+    position:absolute;
+    left:291px;
+    top:955px;
+    width:99px;
+    height:20px;
+}
+
+.u42c1 {
+    background-image: url('../投标单审核_files/u42c1.png');
+}
+
+.u42c1 {
+    position:absolute;
+    left:370px;
+    top:956px;
+    width:20px;
+    height:19px;
+}
+
+.u43 {
+    position:absolute;
+    left:-5px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u44_normal {
+    background-image: url('../投标单审核_files/u20_normal.png');
+}
+
+.u44_container {
+    position:absolute;
+    left:370px;
+    top:950px;
+    width:140px;
+    height:30px;
+}
+
+#u44_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:36px;
+}
+
+.u45 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:136px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u46 {
+    position:absolute;
+    left:130px;
+    top:44px;
+    width:460px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u47 {
+    position:absolute;
+    left:380px;
+    top:1060px;
+    width:340px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

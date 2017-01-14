@@ -1,0 +1,35 @@
+2013-12-07 16-04-17     ---     执行任务名称:重新生成大盘监控,开始时间:2013/12/7 16:04:16,结束时间:2013/12/7 16:04:17,执行结果:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 交易数据监控.ClassThreadRun.RunS(DataRow dr) 位置 f:\富美开发项目\2011工作副本\平台各监控\交易数据监控\ClassThreadRun.cs:行号 199,其他描述:
+
+2013-12-07 16-10-45     ---     执行任务名称:重新生成大盘监控,开始时间:2013/12/7 16:10:41,结束时间:2013/12/7 16:10:45,执行结果:ok大盘生成完成,其他描述:
+
+2013-12-07 16-11-18     ---     执行任务名称:重新生成大盘监控,开始时间:2013/12/7 16:11:17,结束时间:2013/12/7 16:11:18,执行结果:ok大盘生成完成,其他描述:
+
+2013-12-07 16-14-18     ---     执行任务名称:重新生成大盘监控,开始时间:2013/12/7 16:14:18,结束时间:2013/12/7 16:14:18,执行结果:err大盘生成完成但有至少一个错误：err_111|222_System.Exception: 找不到存储过程 'AAA_DaPanPrd_Group'。
+   在 FMOP.DB.DbHelperSQL.ExecuteSql(String SQLString) 位置 d:\new wwwfumeiweb\pingtai_test\App_Code\DbHelperSQL.cs:行号 202
+   在 HomePage.BeginDapanOneGroup(Object SPBH) 位置 d:\new wwwfumeiweb\pingtai_test\App_Code\jhjx\HomePage.cs:行号 364,其他描述:
+
+2013-12-07 16-18-47     ---     执行任务名称:重新生成大盘监控,开始时间:2013/12/7 16:18:45,结束时间:2013/12/7 16:18:47,执行结果:ok大盘生成完成,其他描述:
+
+2013-12-07 16-39-04     ---     执行任务名称:重新生成大盘监控,开始时间:2013/12/7 16:38:45,结束时间:2013/12/7 16:39:04,执行结果:ok大盘生成完成,其他描述:
+
+2013-12-07 16-39-32     ---     执行任务名称:重新生成大盘监控,开始时间:2013/12/7 16:39:31,结束时间:2013/12/7 16:39:32,执行结果:err大盘生成完成但有至少一个错误：err_111|222_System.Exception: 找不到存储过程 'AAA_DaPanPrd_Group'。
+   在 FMOP.DB.DbHelperSQL.ExecuteSql(String SQLString) 位置 d:\new wwwfumeiweb\pingtai_test\App_Code\DbHelperSQL.cs:行号 202
+   在 HomePage.BeginDapanOneGroup(Object SPBH) 位置 d:\new wwwfumeiweb\pingtai_test\App_Code\jhjx\HomePage.cs:行号 364,其他描述:
+
+2013-12-07 16-39-36     ---     执行任务名称:重新生成大盘监控,开始时间:2013/12/7 16:39:36,结束时间:2013/12/7 16:39:36,执行结果:err大盘生成完成但有至少一个错误：err_111|222_System.Exception: 找不到存储过程 'AAA_DaPanPrd_Group'。
+   在 FMOP.DB.DbHelperSQL.ExecuteSql(String SQLString) 位置 d:\new wwwfumeiweb\pingtai_test\App_Code\DbHelperSQL.cs:行号 202
+   在 HomePage.BeginDapanOneGroup(Object SPBH) 位置 d:\new wwwfumeiweb\pingtai_test\App_Code\jhjx\HomePage.cs:行号 364,其他描述:
+
+2013-12-07 17-11-45     ---     执行任务名称:重新生成大盘监控,开始时间:2013/12/7 17:11:22,结束时间:2013/12/7 17:11:45,执行结果:err大盘生成完成但有至少一个错误：err_20L0002|20L0001|19L0006|19L0005|19L0004|19L0003|19L0002|19L0001|18L0019|18L0018|18L0017|18L0016|18L0015|18L0014|18L0013|18L0012|18L0011|18L0010|18L0009|18L0008_System.Exception: 找不到存储过程 'AAA_DaPanPrd_Group'。
+   在 FMOP.DB.DbHelperSQL.ExecuteSql(String SQLString) 位置 d:\new wwwfumeiweb\pingtai_test\App_Code\DbHelperSQL.cs:行号 202
+   在 HomePage.BeginDapanOneGroup(Object SPBH) 位置 d:\new wwwfumeiweb\pingtai_test\App_Code\jhjx\HomePage.cs:行号 369,其他描述:
+
+2013-12-07 17-11-49     ---     执行任务名称:重新生成大盘监控,开始时间:2013/12/7 17:11:49,结束时间:2013/12/7 17:11:49,执行结果:err大盘生成完成但有至少一个错误：err_14L0040|14L0039|14L0038|14L0037|14L0036|14L0035|14L0034|14L0033|14L0032|14L0031|14L0030|14L0029|14L0028|14L0027|14L0026|14L0025|14L0024|14L0023|14L0022|14L0021_System.Exception: 找不到存储过程 'AAA_DaPanPrd_Group'。
+   在 FMOP.DB.DbHelperSQL.ExecuteSql(String SQLString) 位置 d:\new wwwfumeiweb\pingtai_test\App_Code\DbHelperSQL.cs:行号 202
+   在 HomePage.BeginDapanOneGroup(Object SPBH) 位置 d:\new wwwfumeiweb\pingtai_test\App_Code\jhjx\HomePage.cs:行号 369,其他描述:
+
+2013-12-07 17-11-50     ---     执行任务名称:重新生成大盘监控,开始时间:2013/12/7 17:11:50,结束时间:2013/12/7 17:11:50,执行结果:err大盘生成完成但有至少一个错误：err_14L0020|14L0019|14L0018|14L0017|14L0016|14L0015|14L0014|14L0013|14L0012|14L0011|14L0010|14L0009|14L0008|14L0007|14L0006|14L0005|14L0004|14L0003|14L0002|14L0001_System.Exception: 找不到存储过程 'AAA_DaPanPrd_Group'。
+   在 FMOP.DB.DbHelperSQL.ExecuteSql(String SQLString) 位置 d:\new wwwfumeiweb\pingtai_test\App_Code\DbHelperSQL.cs:行号 202
+   在 HomePage.BeginDapanOneGroup(Object SPBH) 位置 d:\new wwwfumeiweb\pingtai_test\App_Code\jhjx\HomePage.cs:行号 369,其他描述:
+

@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="HSPKCXXB" targetNamespace="http://tempuri.org/HSPKCXXB.xsd" xmlns:mstns="http://tempuri.org/HSPKCXXB.xsd" xmlns="http://tempuri.org/HSPKCXXB.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="FMOPConn" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="FMOPConn (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.FMOPConn.ConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" Name="DataTable1">
+            <MainSource>
+              <DbSource ConnectionRef="FMOPConn (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="False" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="False">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>SELECT TOP 0
+		RKD.CSZX,
+		WPBH,
+		WPPP,
+		GGXH,
+			(
+				select count(*) from CSZX_HSP_Stock F inner join cszx_HSPRKD R on F.CKDH = R.number where F.WPBH= HSP.WPBH and R.CSZX= RKD.CSZX 
+				and F.state=1
+				and DateName (Yy,F.RKSJ)+'-'+DateName(Mm,F.RKSJ) = DateName (Yy,getdate())+'-'+DateName(Mm,getdate())
+							
+			)  - 
+			(
+				select count(*) from CSZX_HSP_Stock F inner join cszx_HSPCKD C on F.RCDH=C.number where F.WPBH= HSP.WPBH and C.cszx= RKD.CSZX 
+				and F.state=2 
+				and	DateName (Yy,F.CKSJ)+'-'+DateName(Mm,F.CKSJ) = DateName (Yy,getdate())+'-'+DateName(Mm,getdate())
+			)
+		AS QCKCSL,
+		 ISNULL(
+					(
+						(
+							select count(*) from CSZX_HSP_Stock F inner join cszx_HSPRKD R on F.CKDH=R.number where F.WPBH= HSP.WPBH and R.CSZX=RKD.CSZX 
+							and F.state=1
+							and DateName (Yy,F.RKSJ)+'-'+DateName(Mm,F.RKSJ) = DateName (Yy,getdate())+'-'+DateName(Mm,getdate())
+						) 
+						 -
+						(
+							select count(*) from CSZX_HSP_Stock F inner join cszx_HSPCKD C on F.RCDH = C.number where F.WPBH= HSP.WPBH and C.cszx=RKD.CSZX 
+							and F.state=2
+							and DateName (Yy,F.CKSJ)+'-'+DateName(Mm,F.CKSJ) = DateName (Yy,getdate())+'-'+DateName(Mm,getdate())
+						)
+					)
+					*
+					(
+						select DJ from system_products WHERE system_Products.Number = HSP.WPBH 
+					)
+				,0)
+
+		AS QCKCJE,
+		
+		(
+				select count(*) from CSZX_HSP_Stock F inner join cszx_HSPRKD R on F.CKDH = R.number where F.WPBH= HSP.WPBH and R.CSZX= RKD.CSZX 
+				and F.state=1
+				and DateName (Yy,F.RKSJ)+'-'+DateName(Mm,F.RKSJ) = DateName (Yy,getdate())+'-'+DateName(Mm,getdate())		
+		)
+		AS BQRKSL,
+		 ISNULL(
+					(
+						(
+							select count(*) from CSZX_HSP_Stock F inner join cszx_HSPRKD R on F.CKDH=R.number where F.WPBH= HSP.WPBH and R.CSZX=RKD.CSZX 
+							and F.state=1
+							and DateName (Yy,F.RKSJ)+'-'+DateName(Mm,F.RKSJ) = DateName (Yy,getdate())+'-'+DateName(Mm,getdate())
+						) 
+					)
+					*
+					(
+						select DJ from system_products WHERE system_Products.Number = HSP.WPBH 
+					)
+				,0)
+
+		AS BQRKJE,
+		(
+				select count(*) from CSZX_HSP_Stock F inner join cszx_HSPRKD R on F.CKDH = R.number where F.WPBH= HSP.WPBH and R.CSZX= RKD.CSZX 
+				and F.state=1
+				and DateName (Yy,F.RKSJ)+'-'+DateName(Mm,F.RKSJ) = DateName (Yy,getdate())+'-'+DateName(Mm,getdate())		
+			)
+		AS BQXSSL,
+		 ISNULL(
+					(
+						(
+							select count(*) from CSZX_HSP_Stock F inner join cszx_HSPRKD R on F.CKDH=R.number where F.WPBH= HSP.WPBH and R.CSZX=RKD.CSZX 
+							and F.state=1
+							and DateName (Yy,F.RKSJ)+'-'+DateName(Mm,F.RKSJ) = DateName (Yy,getdate())+'-'+DateName(Mm,getdate())
+						) 
+					)
+					*
+					(
+						select DJ from system_products WHERE system_Products.Number = HSP.WPBH 
+					)
+				,0)
+
+		AS BQXSJE,
+		0 AS KCYLSL,
+		0 AS KCYLJE,
+		0 AS FXKCSL,
+		0 AS FXKCJE,
+		0 AS ZTSL,
+		0 AS ZTJE,
+		0 AS ZZSL,
+		0 AS ZZJE,
+		0 AS THSL,
+		0 AS THJE,
+		0 AS BLPSL,
+		0 AS BLPJE
+FROM CSZX_HSP_Stock HSP 
+INNER JOIN cszx_HSPCKD  CKD ON  HSP.CKDH = CKD.Number
+INNER JOIN cszx_HSPRKD	RKD ON	HSP. RCDH = RKD.Number
+GROUP BY
+	RKD.CSZX,WPBH,WPMC,WPPP,GGXH
+ORDER BY RKD.CSZX</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="CSZX" DataSetColumn="CSZX" />
+              <Mapping SourceColumn="WPBH" DataSetColumn="WPBH" />
+              <Mapping SourceColumn="WPPP" DataSetColumn="WPPP" />
+              <Mapping SourceColumn="GGXH" DataSetColumn="GGXH" />
+              <Mapping SourceColumn="QCKCSL" DataSetColumn="QCKCSL" />
+              <Mapping SourceColumn="QCKCJE" DataSetColumn="QCKCJE" />
+              <Mapping SourceColumn="BQRKSL" DataSetColumn="BQRKSL" />
+              <Mapping SourceColumn="BQRKJE" DataSetColumn="BQRKJE" />
+              <Mapping SourceColumn="BQXSSL" DataSetColumn="BQXSSL" />
+              <Mapping SourceColumn="BQXSJE" DataSetColumn="BQXSJE" />
+              <Mapping SourceColumn="KCYLSL" DataSetColumn="KCYLSL" />
+              <Mapping SourceColumn="KCYLJE" DataSetColumn="KCYLJE" />
+              <Mapping SourceColumn="FXKCSL" DataSetColumn="FXKCSL" />
+              <Mapping SourceColumn="FXKCJE" DataSetColumn="FXKCJE" />
+              <Mapping SourceColumn="ZTSL" DataSetColumn="ZTSL" />
+              <Mapping SourceColumn="ZTJE" DataSetColumn="ZTJE" />
+              <Mapping SourceColumn="ZZSL" DataSetColumn="ZZSL" />
+              <Mapping SourceColumn="ZZJE" DataSetColumn="ZZJE" />
+              <Mapping SourceColumn="THSL" DataSetColumn="THSL" />
+              <Mapping SourceColumn="THJE" DataSetColumn="THJE" />
+              <Mapping SourceColumn="BLPSL" DataSetColumn="BLPSL" />
+              <Mapping SourceColumn="BLPJE" DataSetColumn="BLPJE" />
+            </Mappings>
+            <Sources>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="HSPKCXXB" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CSZX">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WPBH" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WPPP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GGXH" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="QCKCSL" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="QCKCJE" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+              <xs:element name="BQRKSL" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="BQRKJE" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+              <xs:element name="BQXSSL" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="BQXSJE" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+              <xs:element name="KCYLSL" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="KCYLJE" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="FXKCSL" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="FXKCJE" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="ZTSL" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="ZTJE" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="ZZSL" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="ZZJE" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="THSL" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="THJE" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="BLPSL" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+              <xs:element name="BLPJE" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,728 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+#u0 {
+    position:absolute;
+    left:58px;
+    top:86px;
+    width:760px;
+    height:117px
+}
+
+.u1_normal {
+    background-image: url('../风险损失列表_files/u1_normal.png');
+}
+
+.u1_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:80px;
+    height:30px;
+}
+
+#u1_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:86px;
+    height:36px;
+}
+
+.u2 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:76px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u3_normal {
+    background-image: url('../风险损失列表_files/u3_normal.png');
+}
+
+.u3_container {
+    position:absolute;
+    left:80px;
+    top:0px;
+    width:120px;
+    height:30px;
+}
+
+#u3_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:36px;
+}
+
+.u4 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:116px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5_normal {
+    background-image: url('../风险损失列表_files/u5_normal.png');
+}
+
+.u5_container {
+    position:absolute;
+    left:200px;
+    top:0px;
+    width:200px;
+    height:30px;
+}
+
+#u5_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:206px;
+    height:36px;
+}
+
+.u6 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:196px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7_normal {
+    background-image: url('../风险损失列表_files/u7_normal.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:400px;
+    top:0px;
+    width:138px;
+    height:30px;
+}
+
+#u7_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:144px;
+    height:36px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:134px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9_normal {
+    background-image: url('../风险损失列表_files/u9_normal.png');
+}
+
+.u9_container {
+    position:absolute;
+    left:537px;
+    top:0px;
+    width:137px;
+    height:30px;
+}
+
+#u9_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:143px;
+    height:36px;
+}
+
+.u10 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:133px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11_normal {
+    background-image: url('../风险损失列表_files/u1_normal.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:675px;
+    top:0px;
+    width:80px;
+    height:30px;
+}
+
+#u11_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:86px;
+    height:36px;
+}
+
+.u12 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:76px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13_normal {
+    background-image: url('../风险损失列表_files/u13_normal.png');
+}
+
+.u13_container {
+    position:absolute;
+    left:0px;
+    top:30px;
+    width:80px;
+    height:52px;
+}
+
+#u13_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:86px;
+    height:58px;
+}
+
+.u14 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:76px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15_normal {
+    background-image: url('../风险损失列表_files/u15_normal.png');
+}
+
+.u15_container {
+    position:absolute;
+    left:80px;
+    top:30px;
+    width:120px;
+    height:52px;
+}
+
+#u15_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:58px;
+}
+
+.u16 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:116px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u17_normal {
+    background-image: url('../风险损失列表_files/u17_normal.png');
+}
+
+.u17_container {
+    position:absolute;
+    left:200px;
+    top:30px;
+    width:200px;
+    height:52px;
+}
+
+#u17_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:206px;
+    height:58px;
+}
+
+.u18 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:196px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19_normal {
+    background-image: url('../风险损失列表_files/u19_normal.png');
+}
+
+.u19_container {
+    position:absolute;
+    left:400px;
+    top:30px;
+    width:138px;
+    height:52px;
+}
+
+#u19_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:144px;
+    height:58px;
+}
+
+.u20 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:134px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21_normal {
+    background-image: url('../风险损失列表_files/u21_normal.png');
+}
+
+.u21_container {
+    position:absolute;
+    left:537px;
+    top:30px;
+    width:137px;
+    height:52px;
+}
+
+#u21_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:143px;
+    height:58px;
+}
+
+.u22 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:133px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u23_normal {
+    background-image: url('../风险损失列表_files/u13_normal.png');
+}
+
+.u23_container {
+    position:absolute;
+    left:675px;
+    top:30px;
+    width:80px;
+    height:52px;
+}
+
+#u23_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:86px;
+    height:58px;
+}
+
+.u24 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:76px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u25_normal {
+    background-image: url('../风险损失列表_files/u1_normal.png');
+}
+
+.u25_container {
+    position:absolute;
+    left:0px;
+    top:82px;
+    width:80px;
+    height:30px;
+}
+
+#u25_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:86px;
+    height:36px;
+}
+
+.u26 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:76px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27_normal {
+    background-image: url('../风险损失列表_files/u3_normal.png');
+}
+
+.u27_container {
+    position:absolute;
+    left:80px;
+    top:82px;
+    width:120px;
+    height:30px;
+}
+
+#u27_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:126px;
+    height:36px;
+}
+
+.u28 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:116px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29_normal {
+    background-image: url('../风险损失列表_files/u5_normal.png');
+}
+
+.u29_container {
+    position:absolute;
+    left:200px;
+    top:82px;
+    width:200px;
+    height:30px;
+}
+
+#u29_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:206px;
+    height:36px;
+}
+
+.u30 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:196px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31_normal {
+    background-image: url('../风险损失列表_files/u7_normal.png');
+}
+
+.u31_container {
+    position:absolute;
+    left:400px;
+    top:82px;
+    width:138px;
+    height:30px;
+}
+
+#u31_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:144px;
+    height:36px;
+}
+
+.u32 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:134px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u33_normal {
+    background-image: url('../风险损失列表_files/u9_normal.png');
+}
+
+.u33_container {
+    position:absolute;
+    left:537px;
+    top:82px;
+    width:137px;
+    height:30px;
+}
+
+#u33_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:143px;
+    height:36px;
+}
+
+.u34 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:133px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u35_normal {
+    background-image: url('../风险损失列表_files/u1_normal.png');
+}
+
+.u35_container {
+    position:absolute;
+    left:675px;
+    top:82px;
+    width:80px;
+    height:30px;
+}
+
+#u35_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:86px;
+    height:36px;
+}
+
+.u36 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:76px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u37 {
+    position:absolute;
+    left:740px;
+    top:132px;
+    width:60px;
+    height:20px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u38 {
+    position:absolute;
+    left:58px;
+    top:55px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u39_normal {
+    background-image: url('../风险损失列表_files/u39_normal.png');
+}
+
+.u39_container {
+    position:absolute;
+    left:260px;
+    top:51px;
+    width:60px;
+    height:25px;
+}
+
+#u39_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:31px;
+}
+
+.u40 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:56px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u41 {
+    position:absolute;
+    left:131px;
+    top:54px;
+    width:114px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+

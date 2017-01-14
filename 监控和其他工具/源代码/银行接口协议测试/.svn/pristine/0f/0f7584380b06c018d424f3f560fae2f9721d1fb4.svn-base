@@ -1,0 +1,205 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+
+namespace 银行接口协议测试
+{
+    public partial class FormXML : Form
+    {
+        public FormXML()
+        {
+            InitializeComponent();
+        }
+
+
+
+        #region richTextBox右键菜单
+
+        private void copy_Click(object sender, EventArgs e)//复制
+        {
+            RichTextBox thisTRB = (RichTextBox)(contextMenuStrip1.Tag);
+            thisTRB.Copy();
+        }
+
+        private void undo_Click(object sender, EventArgs e)//取消
+        {
+            RichTextBox thisTRB = (RichTextBox)(contextMenuStrip1.Tag);
+            if (thisTRB.CanUndo)
+            {
+                thisTRB.Undo();
+            }
+        }
+
+        private void selectall_Click(object sender, EventArgs e)//全选
+        {
+            RichTextBox thisTRB = (RichTextBox)(contextMenuStrip1.Tag);
+            thisTRB.SelectAll();
+        }
+
+        private void delete_Click(object sender, EventArgs e)//清除
+        {
+            RichTextBox thisTRB = (RichTextBox)(contextMenuStrip1.Tag);
+            thisTRB.Clear();
+        }
+
+        private void paste_Click(object sender, EventArgs e)//粘贴
+        {
+            RichTextBox thisTRB = (RichTextBox)(contextMenuStrip1.Tag);
+            if ((thisTRB.SelectionLength > 0) && (MessageBox.Show("是否覆盖选中的文本?", "覆盖", MessageBoxButtons.YesNo) == DialogResult.No))
+                thisTRB.SelectionStart = thisTRB.SelectionStart + thisTRB.SelectionLength;
+            thisTRB.Paste();
+        }
+
+        private void clip_Click(object sender, EventArgs e)//剪切
+        {
+            RichTextBox thisTRB = (RichTextBox)(contextMenuStrip1.Tag);
+            thisTRB.Cut();
+        }
+
+        private void redo_Click(object sender, EventArgs e)//重做
+        {
+            RichTextBox thisTRB = (RichTextBox)(contextMenuStrip1.Tag);
+            if (thisTRB.CanRedo)
+                thisTRB.Redo();
+        }
+
+        private void rtb_MouseUp(object sender, MouseEventArgs e)//控制右键菜单的显示
+        {
+            RichTextBox thisTRB = (RichTextBox)(sender);
+            contextMenuStrip1.Tag = thisTRB;
+            if (e.Button == MouseButtons.Right)
+            {
+                if (thisTRB.CanRedo)//redo
+                    copy.Enabled = true;
+                else
+                    copy.Enabled = false;
+                if (thisTRB.CanUndo)//undo
+                    undo.Enabled = true;
+                else
+                    undo.Enabled = false;
+                if (thisTRB.SelectionLength > 0)
+                {
+                    copy.Enabled = true;
+                    clip.Enabled = true;
+                }
+                else
+                {
+                    copy.Enabled = false;
+                    clip.Enabled = false;
+                }
+                if (Clipboard.GetDataObject().GetDataPresent(DataFormats.Text))
+                    paste.Enabled = true;
+                else
+                    paste.Enabled = false;
+                contextMenuStrip1.Show(thisTRB, new Point(e.X, e.Y));
+            }
+        }
+
+        #endregion
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                //把配置转化成数据集，再转化成xml保存
+                //System.AppDomain.CurrentDomain.SetupInformation.ApplicationBase+ @"\skin\ji.ico"
+
+                folderBrowserDialog1.SelectedPath = System.AppDomain.CurrentDomain.SetupInformation.ApplicationBase;
+                if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
+                {
+                    DataTable dt = new DataTable();
+                    dt.TableName = textBox1.Text;
+                    string[] arrPZ = richTextBox1.Lines;
+                    for (int h = 0; h < arrPZ.Length; h++)
+                    {
+                        string thisrowstr = arrPZ[h];
+                        if (thisrowstr.Trim() != "")
+                        {
+                            string[] thisrowstr_arr = thisrowstr.Split('★');
+                            DataColumn dc = new DataColumn();
+                            dc.ColumnName = thisrowstr_arr[0];
+                            dc.Caption = thisrowstr_arr[1];
+                            if (thisrowstr_arr[2] == "是")
+                            {
+                                dc.AllowDBNull = false;
+                            }
+                            else
+                            {
+                                dc.AllowDBNull = true;
+                            }
+                            dc.DefaultValue = thisrowstr_arr[3];
+                            dt.Columns.Add(dc);
+                        }
+                    }
+                    DataRow dr = dt.NewRow();
+                    dt.Rows.Add(dr);
+                    string savepath = folderBrowserDialog1.SelectedPath + @"\浦发\" + textBox1.Text + ".xml";
+                    dt.WriteXml(savepath, XmlWriteMode.WriteSchema);
+                    MessageBox.Show("生成完成！");
+
+
+                }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("错误："+ ex.ToString());
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+            openFileDialog1.InitialDirectory = System.AppDomain.CurrentDomain.SetupInformation.ApplicationBase + @"浦发";
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                textBox1.Text = "";
+                richTextBox1.Text = "";
+
+               string xmlfile = openFileDialog1.FileName;
+               DataTable dtthis = new DataTable();
+               dtthis.ReadXml(xmlfile);
+               textBox1.Text = dtthis.TableName;
+               for (int i = 0; i < dtthis.Columns.Count; i++)
+               {
+                   string bt = "";
+                   if (dtthis.Columns[i].AllowDBNull)
+                   {
+                       bt = "否";
+                   }
+                   else
+                   {
+                       bt = "是";
+                   }
+                   richTextBox1.AppendText(dtthis.Columns[i].ColumnName + "★" + dtthis.Columns[i].Caption + "★" + bt + "★" + dtthis.Columns[i].DefaultValue.ToString() + Environment.NewLine);
+               }
+            }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("错误：" + ex.ToString());
+            }
+        }
+
+        private void FormXML_Load(object sender, EventArgs e)
+        {
+            //给richTextBox添加右键菜单
+            this.copy.Click += new System.EventHandler(this.copy_Click);
+            this.undo.Click += new System.EventHandler(this.undo_Click);
+            this.selectall.Click += new System.EventHandler(this.selectall_Click);
+            this.delete.Click += new System.EventHandler(this.delete_Click);
+            this.paste.Click += new System.EventHandler(this.paste_Click);
+            this.clip.Click += new System.EventHandler(this.clip_Click);
+            this.redo.Click += new System.EventHandler(this.redo_Click);
+
+
+            richTextBox1.MouseUp += new System.Windows.Forms.MouseEventHandler(rtb_MouseUp);
+        }
+
+      
+    }
+}

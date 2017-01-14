@@ -1,0 +1,10 @@
+F:\富美开发项目\2011工作副本\平台-工作副本\ClassLibraryBusinessMonitor\bin\Debug\ClassLibraryBusinessMonitor.dll.config
+F:\富美开发项目\2011工作副本\平台-工作副本\ClassLibraryBusinessMonitor\bin\Debug\ClassLibraryBusinessMonitor.dll
+F:\富美开发项目\2011工作副本\平台-工作副本\ClassLibraryBusinessMonitor\bin\Debug\ClassLibraryBusinessMonitor.pdb
+F:\富美开发项目\2011工作副本\平台-工作副本\ClassLibraryBusinessMonitor\obj\Debug\ClassLibraryBusinessMonitor.dll
+F:\富美开发项目\2011工作副本\平台-工作副本\ClassLibraryBusinessMonitor\obj\Debug\ClassLibraryBusinessMonitor.pdb
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\ClassLibraryBusinessMonitor\bin\Debug\ClassLibraryBusinessMonitor.dll.config
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\ClassLibraryBusinessMonitor\bin\Debug\ClassLibraryBusinessMonitor.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\ClassLibraryBusinessMonitor\bin\Debug\ClassLibraryBusinessMonitor.pdb
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\ClassLibraryBusinessMonitor\obj\Debug\ClassLibraryBusinessMonitor.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\ClassLibraryBusinessMonitor\obj\Debug\ClassLibraryBusinessMonitor.pdb

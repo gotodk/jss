@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="签到_x3001_签退_x0023_1330" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="签到_x3001_签退_x0023_1330">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FuncFlag" msdata:Caption="请求功能" type="xs:string" default="x" />
+                <xs:element name="TxDate" msdata:Caption="交易日期" type="xs:string" default="x" />
+                <xs:element name="Reserve" msdata:Caption="保留域" type="xs:string" default="" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <签到_x3001_签退_x0023_1330>
+    <FuncFlag>x</FuncFlag>
+    <TxDate>x</TxDate>
+    <Reserve />
+  </签到_x3001_签退_x0023_1330>
+</NewDataSet>

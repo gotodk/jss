@@ -1,0 +1,1436 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0 {
+    position:absolute;
+    left:82px;
+    top:38px;
+    width:488px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u1_normal {
+    background-image: url('../日终批量清算（浦发）_files/u1_normal.png');
+}
+
+.u1_container {
+    position:absolute;
+    left:100px;
+    top:108px;
+    width:300px;
+    height:72px;
+}
+
+#u1_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:306px;
+    height:78px;
+}
+
+.u2 {
+    position:absolute;
+    left:2px;
+    top:-4px;
+    width:296px;
+    height:80px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u3_normal {
+    background-image: url('../日终批量清算（浦发）_files/u3_normal.png');
+}
+
+.u3_container {
+    position:absolute;
+    left:100px;
+    top:220px;
+    width:300px;
+    height:60px;
+}
+
+#u3_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:306px;
+    height:66px;
+}
+
+.u4 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:296px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5_normal {
+    background-image: url('../日终批量清算（浦发）_files/u3_normal.png');
+}
+
+.u5_container {
+    position:absolute;
+    left:100px;
+    top:330px;
+    width:300px;
+    height:60px;
+}
+
+#u5_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:306px;
+    height:66px;
+}
+
+.u6 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:296px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7_normal {
+    background-image: url('../日终批量清算（浦发）_files/u7_normal.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:177px;
+    top:460px;
+    width:146px;
+    height:73px;
+}
+
+#u7_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:152px;
+    height:79px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:20px;
+    width:142px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9 {
+    position:absolute;
+    left:440px;
+    top:242px;
+    width:200px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10_normal {
+    background-image: url('../日终批量清算（浦发）_files/u10_normal.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:40px;
+    top:590px;
+    width:450px;
+    height:130px;
+}
+
+#u10_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:456px;
+    height:136px;
+}
+
+.u11 {
+    position:absolute;
+    left:2px;
+    top:17px;
+    width:446px;
+    height:96px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12_normal {
+    background-image: url('../日终批量清算（浦发）_files/u12_normal.png');
+}
+
+.u12_container {
+    position:absolute;
+    left:460px;
+    top:469px;
+    width:200px;
+    height:64px;
+}
+
+#u12_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:206px;
+    height:70px;
+}
+
+.u13 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:196px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_normal {
+    background-image: url('../日终批量清算（浦发）_files/u12_normal.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:460px;
+    top:326px;
+    width:200px;
+    height:64px;
+}
+
+#u14_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:206px;
+    height:70px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:196px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16c0 {
+    background-image: url('../日终批量清算（浦发）_files/u16c0.png');
+}
+
+.u16c0 {
+    position:absolute;
+    left:319px;
+    top:486px;
+    width:141px;
+    height:20px;
+}
+
+.u16c1 {
+    background-image: url('../日终批量清算（浦发）_files/u16c1.png');
+}
+
+.u16c1 {
+    position:absolute;
+    left:440px;
+    top:486px;
+    width:20px;
+    height:25px;
+}
+
+.u16c2 {
+    background-image: url('../日终批量清算（浦发）_files/u16c2.png');
+}
+
+.u16c2 {
+    position:absolute;
+    left:440px;
+    top:491px;
+    width:24px;
+    height:20px;
+}
+
+.u17 {
+    position:absolute;
+    left:21px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18c0 {
+    background-image: url('../日终批量清算（浦发）_files/u18c0.png');
+}
+
+.u18c0 {
+    position:absolute;
+    left:240px;
+    top:176px;
+    width:20px;
+    height:54px;
+}
+
+.u19 {
+    position:absolute;
+    left:-50px;
+    top:12px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20c0 {
+    background-image: url('../日终批量清算（浦发）_files/u20c0.png');
+}
+
+.u20c0 {
+    position:absolute;
+    left:240px;
+    top:276px;
+    width:20px;
+    height:64px;
+}
+
+.u21 {
+    position:absolute;
+    left:-50px;
+    top:17px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22c0 {
+    background-image: url('../日终批量清算（浦发）_files/u22c0.png');
+}
+
+.u22c0 {
+    position:absolute;
+    left:240px;
+    top:386px;
+    width:20px;
+    height:84px;
+}
+
+.u23 {
+    position:absolute;
+    left:-50px;
+    top:27px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24_normal {
+    background-image: url('../日终批量清算（浦发）_files/u3_normal.png');
+}
+
+.u24_container {
+    position:absolute;
+    left:110px;
+    top:870px;
+    width:300px;
+    height:60px;
+}
+
+#u24_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:306px;
+    height:66px;
+}
+
+.u25 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:296px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26_normal {
+    background-image: url('../日终批量清算（浦发）_files/u3_normal.png');
+}
+
+.u26_container {
+    position:absolute;
+    left:125px;
+    top:1602px;
+    width:300px;
+    height:60px;
+}
+
+#u26_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:306px;
+    height:66px;
+}
+
+.u27 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:296px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28c0 {
+    background-image: url('../日终批量清算（浦发）_files/u28c0.png');
+}
+
+.u28c0 {
+    position:absolute;
+    left:255px;
+    top:716px;
+    width:20px;
+    height:34px;
+}
+
+.u28c1 {
+    background-image: url('../日终批量清算（浦发）_files/u28c1.png');
+}
+
+.u28c1 {
+    position:absolute;
+    left:250px;
+    top:730px;
+    width:25px;
+    height:20px;
+}
+
+.u28c2 {
+    background-image: url('../日终批量清算（浦发）_files/u28c2.png');
+}
+
+.u28c2 {
+    position:absolute;
+    left:250px;
+    top:730px;
+    width:20px;
+    height:24px;
+}
+
+.u29 {
+    position:absolute;
+    left:-50px;
+    top:10px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30c0 {
+    background-image: url('../日终批量清算（浦发）_files/u30c0.png');
+}
+
+.u30c0 {
+    position:absolute;
+    left:240px;
+    top:529px;
+    width:20px;
+    height:61px;
+}
+
+.u30c1 {
+    background-image: url('../日终批量清算（浦发）_files/u30c1.png');
+}
+
+.u30c1 {
+    position:absolute;
+    left:240px;
+    top:570px;
+    width:35px;
+    height:20px;
+}
+
+.u30c2 {
+    background-image: url('../日终批量清算（浦发）_files/u30c2.png');
+}
+
+.u30c2 {
+    position:absolute;
+    left:255px;
+    top:570px;
+    width:20px;
+    height:24px;
+}
+
+.u31 {
+    position:absolute;
+    left:-50px;
+    top:28px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32c0 {
+    background-image: url('../日终批量清算（浦发）_files/u32c0.png');
+}
+
+.u32c0 {
+    position:absolute;
+    left:250px;
+    top:926px;
+    width:20px;
+    height:64px;
+}
+
+.u32c1 {
+    background-image: url('../日终批量清算（浦发）_files/u32c1.png');
+}
+
+.u32c1 {
+    position:absolute;
+    left:250px;
+    top:970px;
+    width:35px;
+    height:20px;
+}
+
+.u32c2 {
+    background-image: url('../日终批量清算（浦发）_files/u32c2.png');
+}
+
+.u32c2 {
+    position:absolute;
+    left:265px;
+    top:970px;
+    width:20px;
+    height:24px;
+}
+
+.u33 {
+    position:absolute;
+    left:-50px;
+    top:30px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34_normal {
+    background-image: url('../日终批量清算（浦发）_files/u34_normal.png');
+}
+
+.u34_container {
+    position:absolute;
+    left:720px;
+    top:333px;
+    width:200px;
+    height:64px;
+}
+
+#u34_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:206px;
+    height:70px;
+}
+
+.u35 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:196px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36c0 {
+    background-image: url('../日终批量清算（浦发）_files/u36c0.png');
+}
+
+.u36c0 {
+    position:absolute;
+    left:550px;
+    top:380px;
+    width:20px;
+    height:93px;
+}
+
+.u37 {
+    position:absolute;
+    left:-50px;
+    top:-48px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u38c0 {
+    background-image: url('../日终批量清算（浦发）_files/u38c0.png');
+}
+
+.u38c0 {
+    position:absolute;
+    left:390px;
+    top:349px;
+    width:74px;
+    height:20px;
+}
+
+.u38c1 {
+    background-image: url('../日终批量清算（浦发）_files/u38c1.png');
+}
+
+.u38c1 {
+    position:absolute;
+    left:390px;
+    top:349px;
+    width:20px;
+    height:16px;
+}
+
+.u39 {
+    position:absolute;
+    left:-81px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40c0 {
+    background-image: url('../日终批量清算（浦发）_files/u40c0.png');
+}
+
+.u40c0 {
+    position:absolute;
+    left:656px;
+    top:491px;
+    width:174px;
+    height:20px;
+}
+
+.u40c1 {
+    background-image: url('../日终批量清算（浦发）_files/u40c1.png');
+}
+
+.u40c1 {
+    position:absolute;
+    left:810px;
+    top:393px;
+    width:20px;
+    height:118px;
+}
+
+.u41 {
+    position:absolute;
+    left:82px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42c0 {
+    background-image: url('../日终批量清算（浦发）_files/u42c0.png');
+}
+
+.u42c0 {
+    position:absolute;
+    left:810px;
+    top:134px;
+    width:20px;
+    height:203px;
+}
+
+.u42c1 {
+    background-image: url('../日终批量清算（浦发）_files/u42c1.png');
+}
+
+.u42c1 {
+    position:absolute;
+    left:396px;
+    top:134px;
+    width:434px;
+    height:20px;
+}
+
+.u43 {
+    position:absolute;
+    left:-166px;
+    top:-197px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u44_normal {
+    background-image: url('../日终批量清算（浦发）_files/u12_normal.png');
+}
+
+.u44_container {
+    position:absolute;
+    left:550px;
+    top:1260px;
+    width:200px;
+    height:64px;
+}
+
+#u44_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:206px;
+    height:70px;
+}
+
+.u45 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:196px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u46c0 {
+    background-image: url('../日终批量清算（浦发）_files/u46c0.png');
+}
+
+.u46c0 {
+    position:absolute;
+    left:329px;
+    top:1296px;
+    width:221px;
+    height:20px;
+}
+
+.u46c1 {
+    background-image: url('../日终批量清算（浦发）_files/u46c1.png');
+}
+
+.u46c1 {
+    position:absolute;
+    left:530px;
+    top:1282px;
+    width:20px;
+    height:34px;
+}
+
+.u46c2 {
+    background-image: url('../日终批量清算（浦发）_files/u46c2.png');
+}
+
+.u46c2 {
+    position:absolute;
+    left:530px;
+    top:1282px;
+    width:24px;
+    height:20px;
+}
+
+.u47 {
+    position:absolute;
+    left:66px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48_normal {
+    background-image: url('../日终批量清算（浦发）_files/u34_normal.png');
+}
+
+.u48_container {
+    position:absolute;
+    left:790px;
+    top:1100px;
+    width:200px;
+    height:64px;
+}
+
+#u48_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:206px;
+    height:70px;
+}
+
+.u49 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:196px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u50c0 {
+    background-image: url('../日终批量清算（浦发）_files/u50c0.png');
+}
+
+.u50c0 {
+    position:absolute;
+    left:746px;
+    top:1282px;
+    width:154px;
+    height:20px;
+}
+
+.u50c1 {
+    background-image: url('../日终批量清算（浦发）_files/u50c1.png');
+}
+
+.u50c1 {
+    position:absolute;
+    left:880px;
+    top:1160px;
+    width:20px;
+    height:142px;
+}
+
+.u51 {
+    position:absolute;
+    left:84px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u52c0 {
+    background-image: url('../日终批量清算（浦发）_files/u52c0.png');
+}
+
+.u52c0 {
+    position:absolute;
+    left:880px;
+    top:645px;
+    width:20px;
+    height:459px;
+}
+
+.u52c1 {
+    background-image: url('../日终批量清算（浦发）_files/u52c1.png');
+}
+
+.u52c1 {
+    position:absolute;
+    left:486px;
+    top:645px;
+    width:414px;
+    height:20px;
+}
+
+.u53 {
+    position:absolute;
+    left:-50px;
+    top:-430px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u54c0 {
+    background-image: url('../日终批量清算（浦发）_files/u54c0.png');
+}
+
+.u54c0 {
+    position:absolute;
+    left:640px;
+    top:1164px;
+    width:20px;
+    height:100px;
+}
+
+.u54c1 {
+    background-image: url('../日终批量清算（浦发）_files/u54c1.png');
+}
+
+.u54c1 {
+    position:absolute;
+    left:630px;
+    top:1164px;
+    width:30px;
+    height:20px;
+}
+
+.u54c2 {
+    background-image: url('../日终批量清算（浦发）_files/u54c2.png');
+}
+
+.u54c2 {
+    position:absolute;
+    left:630px;
+    top:1160px;
+    width:20px;
+    height:24px;
+}
+
+.u55 {
+    position:absolute;
+    left:-50px;
+    top:-61px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u56_normal {
+    background-image: url('../日终批量清算（浦发）_files/u56_normal.png');
+}
+
+.u56_container {
+    position:absolute;
+    left:125px;
+    top:1450px;
+    width:300px;
+    height:102px;
+}
+
+#u56_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:306px;
+    height:108px;
+}
+
+.u57 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:296px;
+    height:96px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u58c0 {
+    background-image: url('../日终批量清算（浦发）_files/u58c0.png');
+}
+
+.u58c0 {
+    position:absolute;
+    left:250px;
+    top:1096px;
+    width:20px;
+    height:184px;
+}
+
+.u59 {
+    position:absolute;
+    left:-50px;
+    top:77px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u60_normal {
+    background-image: url('../日终批量清算（浦发）_files/u60_normal.png');
+}
+
+.u60_container {
+    position:absolute;
+    left:110px;
+    top:990px;
+    width:330px;
+    height:71px;
+}
+
+#u60_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:336px;
+    height:77px;
+}
+
+.u61 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:326px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u62_normal {
+    background-image: url('../日终批量清算（浦发）_files/u3_normal.png');
+}
+
+.u62_container {
+    position:absolute;
+    left:110px;
+    top:1090px;
+    width:300px;
+    height:60px;
+}
+
+#u62_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:306px;
+    height:66px;
+}
+
+.u63 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:296px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u64_normal {
+    background-image: url('../日终批量清算（浦发）_files/u7_normal.png');
+}
+
+.u64_container {
+    position:absolute;
+    left:187px;
+    top:1270px;
+    width:146px;
+    height:73px;
+}
+
+#u64_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:152px;
+    height:79px;
+}
+
+.u65 {
+    position:absolute;
+    left:2px;
+    top:28px;
+    width:142px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u66c0 {
+    background-image: url('../日终批量清算（浦发）_files/u66c0.png');
+}
+
+.u66c0 {
+    position:absolute;
+    left:265px;
+    top:1057px;
+    width:20px;
+    height:33px;
+}
+
+.u66c1 {
+    background-image: url('../日终批量清算（浦发）_files/u66c1.png');
+}
+
+.u66c1 {
+    position:absolute;
+    left:250px;
+    top:1070px;
+    width:35px;
+    height:20px;
+}
+
+.u66c2 {
+    background-image: url('../日终批量清算（浦发）_files/u66c2.png');
+}
+
+.u66c2 {
+    position:absolute;
+    left:250px;
+    top:1070px;
+    width:20px;
+    height:24px;
+}
+
+.u67 {
+    position:absolute;
+    left:-53px;
+    top:11px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u68c0 {
+    background-image: url('../日终批量清算（浦发）_files/u68c0.png');
+}
+
+.u68c0 {
+    position:absolute;
+    left:250px;
+    top:1339px;
+    width:20px;
+    height:111px;
+}
+
+.u68c1 {
+    background-image: url('../日终批量清算（浦发）_files/u68c1.png');
+}
+
+.u68c1 {
+    position:absolute;
+    left:250px;
+    top:1430px;
+    width:35px;
+    height:20px;
+}
+
+.u68c2 {
+    background-image: url('../日终批量清算（浦发）_files/u68c2.png');
+}
+
+.u68c2 {
+    position:absolute;
+    left:265px;
+    top:1430px;
+    width:20px;
+    height:24px;
+}
+
+.u69 {
+    position:absolute;
+    left:-50px;
+    top:53px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u70c0 {
+    background-image: url('../日终批量清算（浦发）_files/u70c0.png');
+}
+
+.u70c0 {
+    position:absolute;
+    left:265px;
+    top:1548px;
+    width:20px;
+    height:64px;
+}
+
+.u71 {
+    position:absolute;
+    left:-50px;
+    top:17px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u72_normal {
+    background-image: url('../日终批量清算（浦发）_files/u12_normal.png');
+}
+
+.u72_container {
+    position:absolute;
+    left:540px;
+    top:1100px;
+    width:200px;
+    height:64px;
+}
+
+#u72_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:206px;
+    height:70px;
+}
+
+.u73 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:196px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u74_normal {
+    background-image: url('../日终批量清算（浦发）_files/u74_normal.png');
+}
+
+.u74_container {
+    position:absolute;
+    left:110px;
+    top:750px;
+    width:300px;
+    height:90px;
+}
+
+#u74_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:306px;
+    height:96px;
+}
+
+.u75 {
+    position:absolute;
+    left:2px;
+    top:21px;
+    width:296px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u76c0 {
+    background-image: url('../日终批量清算（浦发）_files/u76c0.png');
+}
+
+.u76c0 {
+    position:absolute;
+    left:250px;
+    top:836px;
+    width:20px;
+    height:44px;
+}
+
+.u77 {
+    position:absolute;
+    left:-50px;
+    top:7px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

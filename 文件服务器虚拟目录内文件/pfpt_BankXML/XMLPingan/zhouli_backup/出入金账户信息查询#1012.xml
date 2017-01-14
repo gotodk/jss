@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="出入金账户信息查询_x0023_1012" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="出入金账户信息查询_x0023_1012">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CustAcctId" msdata:Caption="子账号" type="xs:string" default="x" />
+                <xs:element name="SelectFlag" msdata:Caption="查询标志" type="xs:string" default="x" />
+                <xs:element name="PageNum" msdata:Caption="第几页" type="xs:string" default="x" />
+                <xs:element name="Reserve" msdata:Caption="保留域" type="xs:string" default="" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <出入金账户信息查询_x0023_1012>
+    <CustAcctId>x</CustAcctId>
+    <SelectFlag>x</SelectFlag>
+    <PageNum>x</PageNum>
+    <Reserve />
+  </出入金账户信息查询_x0023_1012>
+</NewDataSet>

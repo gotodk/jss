@@ -1,0 +1,6 @@
+bin\Debug\Galaxy.ClassLib.DataBaseFactory.dll
+bin\Debug\Galaxy.ClassLib.DataBaseFactory.pdb
+bin\Debug\Galaxy.ClassLib.DataBaseFactory.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Galaxy.ClassLib.DataBaseFactory.dll
+obj\Debug\Galaxy.ClassLib.DataBaseFactory.pdb

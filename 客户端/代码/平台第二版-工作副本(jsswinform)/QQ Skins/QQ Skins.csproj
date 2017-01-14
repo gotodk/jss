@@ -1,0 +1,2901 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CA97A4A8-003A-4215-AFD3-9AD4939D48F5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Com.Seezt.Skins</RootNamespace>
+    <AssemblyName>Skins</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BasicButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BasicButton.Designer.cs">
+      <DependentUpon>BasicButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicComboBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BasicComboBox.Designer.cs">
+      <DependentUpon>BasicComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicContextMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BasicContextMenu.Designer.cs">
+      <DependentUpon>BasicContextMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicLinkButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BasicTabControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BasicTabControl.Designer.cs">
+      <DependentUpon>BasicTabControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicToolStripMenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BasicToolStripSeparator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LoginButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LoginButton.Designer.cs">
+      <DependentUpon>LoginButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicCheckBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BasicCheckBox.Designer.cs">
+      <DependentUpon>BasicCheckBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IChatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IChatForm.Designer.cs">
+      <DependentUpon>IChatForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasicMainForm.Designer.cs">
+      <DependentUpon>BasicMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasicForm1.Designer.cs">
+      <DependentUpon>BasicForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasicLoginForm.Designer.cs">
+      <DependentUpon>BasicLoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ResClass.cs" />
+    <Compile Include="SysMenu.cs" />
+    <Compile Include="BasicForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasicForm.Designer.cs">
+      <DependentUpon>BasicForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicRadioButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BasicRadioButton.Designer.cs">
+      <DependentUpon>BasicRadioButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicQQTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BasicQQTextBox.Designer.cs">
+      <DependentUpon>BasicQQTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicMsgBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasicMsgBoxForm.Designer.cs">
+      <DependentUpon>BasicMsgBoxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MsgBox.cs" />
+    <Compile Include="BasicTabBtn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BasicTabBtn.Designer.cs">
+      <DependentUpon>BasicTabBtn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TextControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TextControl.Designer.cs">
+      <DependentUpon>TextControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Util.cs" />
+    <Compile Include="BasicTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BasicTextBox.Designer.cs">
+      <DependentUpon>BasicTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BasicControl.Designer.cs">
+      <DependentUpon>BasicControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicLoginForm2010.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasicLoginForm2010.Designer.cs">
+      <DependentUpon>BasicLoginForm2010.cs</DependentUpon>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BasicForm.resx">
+      <DependentUpon>BasicForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicForm1.resx">
+      <DependentUpon>BasicForm1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicMsgBoxForm.resx">
+      <DependentUpon>BasicMsgBoxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicTextBox.resx">
+      <DependentUpon>BasicTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IChatForm.resx">
+      <DependentUpon>IChatForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicCheckBox.resx">
+      <DependentUpon>BasicCheckBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicComboBox.resx">
+      <DependentUpon>BasicComboBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicLoginForm.resx">
+      <DependentUpon>BasicLoginForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicMainForm.resx">
+      <DependentUpon>BasicMainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicTabBtn.resx">
+      <DependentUpon>BasicTabBtn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicTabControl.resx">
+      <DependentUpon>BasicTabControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicControl.resx">
+      <DependentUpon>BasicControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextControl.resx">
+      <DependentUpon>TextControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicLoginForm2010.resx">
+      <DependentUpon>BasicLoginForm2010.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\0.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\0fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\1fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\2fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\3fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\4fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\5fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\6.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\6fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\7.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\7fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\8.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\8fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\9.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\9fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\10.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\10fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\11fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\12.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\12fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\13.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\13fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\14.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\14fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\15.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\15fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\16fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\17.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\17fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\18.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\18fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\19.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\19fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\20.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\20fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\21.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\21fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\22.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\22fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\23.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\23fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\24.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\24fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\25.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\25fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\26.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\26fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\27.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\27fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\28.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\28fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\29fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\30.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\30fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\31.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\31fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\32fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\33.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\33fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\34.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\34fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\35.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\35fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\36.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\36fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\37.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\37fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\38.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\38fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\39.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\39fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\40.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\40fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\41.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\41fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\42.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\42fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\43.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\43fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\44.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\44fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\45.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\45fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\46.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\46fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\47.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\47fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\48.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\48fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\49.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\49fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\50.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\50fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\51.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\51fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\52.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\52fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\53.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\53fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\54.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\54fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\55.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\55fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\56.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\56fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\57.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\57fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\58.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\58fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\59.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\59fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\60.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\60fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\61.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\61fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\62.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\62fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\63.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\63fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\64.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\64fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\65.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\65fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\66.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\66fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\67.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\67fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\68.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\68fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\69.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\69fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\70.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\70fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\71.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\71fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\72.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\72fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\73.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\73fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\74.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\74fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\75.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\75fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\76.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\76fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\77.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\77fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\78.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\78fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\79.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\79fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\80.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\80fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\81.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\81fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\82.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\82fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\83.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\83fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\84.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\84fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\85.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\85fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\86.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\86fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\87.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\87fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\88.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\88fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\89.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\89fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\90.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\90fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\91.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\91fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\92.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\92fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\93.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\93fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\94.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\94fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\95.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\95fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\96.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\96fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\97.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\97fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\98.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\98fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\99.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\99fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\100fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\101.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\101fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\102.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\102fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\103.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\103fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\104.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\104fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\105.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\105fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\106.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\106fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\107.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\107fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\108.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\108fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\109.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\109fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\110.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\110fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\111.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\111fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\112.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\112fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\113.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\113fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\114.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\114fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\115.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\115fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\116.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\116fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\117.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\117fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\118.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\118fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\119.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\119fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\120.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\120fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\121.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\121fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\122.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\122fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\123.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\123fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\124.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\124_old.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\124fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\124fix_old.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\125.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\125fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\126.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\126fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\127.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\127fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\128.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\128fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\129.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\129fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\130.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\130fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\131.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\131fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\132.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\132fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\133.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\133fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\134.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face\default\134fix.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\1_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\2_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\3_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\4_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\5_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\6_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\7_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\8_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\9_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\10_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\11_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\12_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\13_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\14_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\15_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\16_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\17_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\18_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\19_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\20_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\21_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\22_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\23_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\24_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\25_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\26_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\27_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\28_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\29_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\30_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\31_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\32_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\33_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\34_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\35_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\36_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\37_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\38_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\39_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\40_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\41_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\42_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\43_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\44_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\45_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\46_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\47_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\48_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\49_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\50_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\51_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\52_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\53_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\54_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\55_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\56_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\57_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\58_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\59_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\60_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\61_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\62_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\63_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\64_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\65_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\66_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\67_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\68_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\69_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\70_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\71_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\72_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\73_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\74_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\75_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\76_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\77_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\78_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\79_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\80_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\81_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\82_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\83_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\84_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\85_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\86_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\87_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\88_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\89_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\90_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\91_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\92_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\93_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\94_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\95_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\96_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\97_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\98_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\99_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\100_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\101_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\102_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\103_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\104_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\105_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\113_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\114_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\115_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\116_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\117_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\118_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\119_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\120_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\121_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\122_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\126_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\127_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\128_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\129_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\130_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\131_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\132_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\133_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\134_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\135_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\136_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\137_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\138_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\139_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\140_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\141_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\142_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\143_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\144_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\145_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\146_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\147_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\148_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\149_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\150_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\151_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\152_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\153_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\154_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\155_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\156_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\157_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\158_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\159_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\160_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\161_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\162_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\163_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\164_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\165_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\166_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\167_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\168_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\169_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\170_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\171_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\172_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\173_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\174_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\175_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\176_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\177_16.bmp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\178_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\179_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\180_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\181_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\182_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\183_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\184_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\185_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\186_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\187_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\188_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\189_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\190_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\191_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\192_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\193_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\194_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\195_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\196_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\197_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\198_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\199_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\200_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\201_16.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big39.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big43.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big44.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big46.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big47.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big49.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big53.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big54.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big55.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big56.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big57.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big58.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big59.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big62.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big63.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big65.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big66.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big67.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big68.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big69.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big70.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big71.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big73.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big74.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big75.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big76.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big77.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big78.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big79.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big81.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big82.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big83.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big84.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big85.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big86.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big87.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big88.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big89.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big91.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big92.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big93.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big94.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big95.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big97.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big98.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big99.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big101.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big102.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big103.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big104.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big105.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big113.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big114.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big115.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big116.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big117.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big118.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big119.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big120.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big121.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big122.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big126.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big127.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big128.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big129.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big130.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big131.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big132.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big133.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big134.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big135.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big136.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big137.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big138.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big139.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big140.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big141.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big142.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big143.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big144.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big145.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big146.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big147.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big148.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big149.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big150.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big151.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big152.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big153.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big154.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big155.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big156.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big157.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big158.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big159.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big160.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big161.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big162.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big163.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big164.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big165.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big166.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big167.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big168.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big169.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big170.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big171.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big172.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big173.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big174.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big174_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big175.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big175_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big176.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big176_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big177.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big177_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big178.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big178_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big179.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big179_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big180.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big180_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big181.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big181_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big182.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big182_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big183.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big183_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big184.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big184_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big185.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big185_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big186.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big186_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big187.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big187_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big188.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big188_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big189.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big189_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big190.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big190_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big191.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big191_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big192.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big192_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big193.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big193_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big194.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big194_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big195.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big195_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big196.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big196_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big197.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big197_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big198.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big198_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big199.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big199_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big200_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head\big201_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\about_logo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\aio_quickbar_cut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\aio_quickbar_face.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\aio_quickbar_font.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\aio_quickbar_sendpic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\aio_quickbar_twitter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\All_down_arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\All_iconbutton_highlightBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\all_iconbutton_pushedBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\All_MainPanel_MainMenuButton_highlight_on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\All_MainPanel_TabButtonBase_pushedBackground2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\All_tabbutton_round_pushedPushedBkg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\All_window_windowBkg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\All_window_windowBkg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\away2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\btn_close_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\btn_close_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\btn_close_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\btn_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\btn_focus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\btn_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\btn_max_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\btn_max_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\btn_max_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\btn_mini_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\btn_mini_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\btn_mini_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\btn_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\btn_restore_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\btn_restore_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\btn_restore_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\busy2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\cb_b_e.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\cb_b_l.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\cb_c_e.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\cb_c_l.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\cb_n_e.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\cb_n_l.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ChatFrame_EditMsgFrame_background.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ChatFrame_QQShow_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ChatFrame_QuickbarFrame_background.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ChatFrame_ShowMsgFrame_background.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ChatFrame_splitter_button_highlightBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ChatFrame_splitter_button_pushedBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ChatFrame_Window_windowBkg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\colour.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\combobox_buttonHighlightDraw.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\combobox_buttonNormalDraw.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\combobox_buttonPushedDraw.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\d_close.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\datum_basic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\datum_more.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\Default_TMShow_0.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\frameBorderEffect_mouseDownDraw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\frameBorderEffect_normalDraw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\friendGroupTitlebg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\friendGroupTitleOpenbg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\hidebtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\hidebtnhight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\holiday_normal.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\imoffline2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\imonline2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\invisible2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\keyboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\Logining.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\LoginPanel_LoginButton_background_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\LoginPanel_LoginButton_background_foreground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\LoginPanel_LoginButton_Focus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\LoginPanel_LoginButton_pushedAction_sb1_background_T0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\LoginPanel_LoginLogoFrame_background.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\LoginPanel_window_windowBkg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\m_close.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\mainleft_diskbtn24_diskbtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\MainPanel_ContactHeadNormal_paddingDraw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\MainPanel_ContactHeadSelect_paddingDraw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\MainPanel_ContactMainTabButton_texture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\MainPanel_ContactMainTabButton_texture2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\MainPanel_Cutline_file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\MainPanel_FolderNode_collapseTexture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\MainPanel_FolderNode_collapseTextureHighlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\MainPanel_FolderNode_expandTexture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\MainPanel_FolderNode_expandTextureHighlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\MainPanel_GroupMainTabButton_texture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\MainPanel_GroupMainTabButton_texture2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\MainPanel_MainHeadImage_mouseOnDraw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\MainPanel_MainHeadImage_paddingDraw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\MainPanel_MainTabBk_paddingDraw.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\MainPanel_RecentMainTabButton_texture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\MainPanel_RecentMainTabButton_texture2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\MainPanel_SearchContact_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\MainPanel_SearchContact_imageNoInputBtnRightNormal.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\MainPanel_TabButtonBase_highlightBackground.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\mainpanel_tabctrl_background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\mainpanel_tabctrl_background1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\MainPanel_window_windowBkg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\MainPanel_window_windowBkg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\MainPanelSideBar_TabButton_pushedHighlightBkg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\MainPanelSideBar_TabButton_pushedNormalBkg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\menuEx_background.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\menuItemEx_seperatorDraw.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\message.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\mune_select_bkg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\mute2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\netsetting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\newid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\panelcenterbtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\Qme2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\QQBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\rb_click.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\rb_click_move.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\rb_no.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\rb_no_move.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\showbtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\showbtnhight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\sysmessagebox_errorFile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\sysmessagebox_inforFile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\sysmessagebox_questionFile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\sysmessagebox_warningFile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\tabbutton_round_AdjustColor_seperator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\tabbutton_round_AdjustColor_unpushedHighlightBkg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\tabbutton_round_AdjustColor_unpushedPushedBkg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\tabctrl_round_background.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\tabctrl_sharp_background.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\Tools.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\window.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\windowBg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\Wireless.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\Png\GG\away.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\Png\GG\away_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\Png\GG\busy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\Png\GG\busy_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\Png\GG\imoffline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\Png\GG\imonline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\Png\GG\imonline_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\Png\GG\invisible.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\Png\GG\mute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\Png\GG\mute_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\Png\GG\Qme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\Png\GG\Qme_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\Png\MM\away.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\Png\MM\busy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\Png\MM\imoffline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\Png\MM\imonline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\Png\MM\invisible.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\Png\MM\mute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\Png\MM\Qme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ico\32\Loading_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ico\32\Loading_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ico\32\Loading_3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ico\32\Loading_4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ico\32\Loading_5.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ico\32\Loading_6.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ico\GG\away.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ico\GG\busy.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ico\GG\imoffline.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ico\GG\imonline.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ico\GG\invisible.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ico\GG\mute.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ico\GG\offline.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ico\GG\Qme.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ico\MM\away.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ico\MM\busy.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ico\MM\imoffline.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ico\MM\imonline.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ico\MM\invisible.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ico\MM\mute.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ico\MM\offline.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\ico\MM\Qme.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\menu_btn_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\menu_btn_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\friendTitlebg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\friendTitleOpenbg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\Button_colse_normal.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\Button_close_highlightBackground.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\Button_close_pushedBackground.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\login_light_bkg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\login_png_bkg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\login_whilt_bkg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\null.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\s1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\s2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\s3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\s4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\s5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\s6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\s7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Skins\default\s8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>无标题页</title>
+    <style type="text/css">
+        .grid_header2
+        {
+            font-size:9pt;
+	        height:28px;
+	        text-align:center;
+	        font-weight:700;
+	        background-image:url(http://www.fm8844.com/services/pic/table_Head.gif);
+	        background-repeat:repeat-x;
+            color:#867B7B
+        }
+        .grid_border
+        {
+            font-size:9pt;
+	        height:35px;
+	        border:0px;
+	        border-bottom-style:solid;
+	        border-bottom-color:#999999;
+	        border-bottom-width:1px;
+	        color:#867B7B
+        }
+    </style>
+</head>
+<body style="font-size:9pt;COLOR:#65696D;width:693px; height:686px;margin:0px">
+    <div style="background-image:url('http://www.fm8844.com/services/pic/mail_bg.gif');width:693px; height:686px;">
+        <div style="margin:148px 59px 110px 59px; text-align:left">
+            <strong style="color:#666666; font-size:11pt">尊敬的{dept}{username}先生/女士，您好！</strong>    
+            <br /><br /><br /><br />
+            <hr size="0" noshade="noshade" style="color:#C4D1EB;"/>
+            <div style=" margin-top:2px; margin-bottom:5px">感谢您通过网络订购产品。我们会在一个工作日内尽快进行处理,核实后会电话通知您。
+            </div>
+            <div style="margin-bottom:30px">若您有疑问请拨打统一客服热线0531-87237111。</div>
+            订单号：<span style="color:#F2718D">{number}</span>
+            <div style="width:100%;text-align:left; height:186px; overflow-x:hidden;overflow-y:scroll">
+                <table width="100%" border="0px"cellpadding="0" cellspacing="0">
+	                <tr class="grid_header2">
+		                <td align="left" valign="middle" style="width:15%">&nbsp;&nbsp;&nbsp;收货人</td>
+		                <td align="left" valign="middle" style="width:15%">付款方式</td>
+		                <td align="left" valign="middle" style="width:15%">结算方式</td>
+		                <td align="left" valign="middle" style="width:15%">总金额</td>
+		                <td align="left" valign="middle" style="width:15%">处理状态</td>
+		                <td align="left" valign="middle" style="width:25%">订购时间</td>
+	                </tr>
+	                {tablerows}
+                </table>
+                <br /><br />
+                配送要求：
+                <div style="width:100%;text-align:left; height:50px">{peisong}</div>
+                您本次可以获得的积分：{jifen}
+            </div>
+            <br />
+            <hr size="0" noshade="noshade" style="color:#C4D1EB;"/>
+            <br /><br />
+            <a href="http://www.fm8844.com" target="_blank"><img alt="fm8844.com" src="http://www.fm8844.com/services/pic/fm8844.gif" style="border:0px" /></a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,499 @@
+/* border style definition */
+.RadSplitter_Default2006,
+.RadSplitter_Default2006 .resizeBar,
+.RadSplitter_Default2006 .slideContainerResize,
+.RadSplitter_Default2006 .slideContainerResizeHorizontal,
+.RadSplitter_Default2006 .resizeBarOver,
+.RadSplitter_Default2006 .slideContainerResizeOver,
+.RadSplitter_Default2006 .slideContainerResizeOverHorizontal,
+.RadSplitter_Default2006 .resizeBarInactive,
+.RadSplitter_Default2006 .resizeBarHorizontal,
+.RadSplitter_Default2006 .resizeBarOverHorizontal,
+.RadSplitter_Default2006 .resizeBarInactiveHorizontal,
+.RadSplitter_Default2006 .pane, 
+.RadSplitter_Default2006 .paneHorizontal
+{
+	border: 1px solid #e5e5e5;
+}
+
+.RadSplitter_Default2006
+{
+	border-collapse: collapse;
+	border-bottom: 1px; /* half the size of the border, but at least 1px */
+}
+
+.RadSplitter_Default2006 .pane, 
+.RadSplitter_Default2006 .paneHorizontal 
+{
+	padding: 0px;
+	text-align:left;
+}
+
+.RadSplitter_Default2006 .resizeBar,
+.RadSplitter_Default2006 .slideContainerResize,
+.RadSplitter_Default2006 .slideContainerResizeHorizontal,
+.RadSplitter_Default2006 .resizeBarOver,
+.RadSplitter_Default2006 .slideContainerResizeOver,
+.RadSplitter_Default2006 .slideContainerResizeOverHorizontal,
+.RadSplitter_Default2006 .resizeBarInactive,
+.RadSplitter_Default2006 .resizeBarHorizontal,
+.RadSplitter_Default2006 .resizeBarOverHorizontal,
+.RadSplitter_Default2006 .resizeBarInactiveHorizontal
+{
+	padding: 0px;
+	background:#f7f7f7;
+	font-size:1px;
+	text-align:center;
+}
+
+
+.RadSplitter_Default2006 .resizeBar,
+.RadSplitter_Default2006 .resizeBarOver,
+.RadSplitter_Default2006 .resizeBarInactive,
+.RadSplitter_Default2006 .slideContainerResize,
+.RadSplitter_Default2006 .slideContainerResizeOver
+{
+	width:4px;	
+}
+
+.RadSplitter_Default2006 .resizeBarHorizontal,
+.RadSplitter_Default2006 .resizeBarOverHorizontal,
+.RadSplitter_Default2006 .resizeBarInactiveHorizontal,
+.RadSplitter_Default2006 .slideContainerResizeHorizontal,
+.RadSplitter_Default2006 .slideContainerResizeOverHorizontal
+{
+	height:4px;
+}
+
+
+.RadSplitter_Default2006 .resizeBarInactiveHorizontal.first
+{
+	border-top: 0px;
+}
+
+
+.RadSplitter_Default2006 .resizeBarOver, 
+.RadSplitter_Default2006 .resizeBarOverHorizontal,
+.RadSplitter_Default2006 .slideContainerResizeOver,
+.RadSplitter_Default2006 .slideContainerResizeOverHorizontal
+{
+	background:#fff;
+}
+
+/********************* Helper Bar ******************************/
+.RadSplitter_Default2006 .helperBarDrag, 
+.RadSplitter_Default2006 .helperBarDragHorizontal,
+.RadSplitter_Default2006 .helperBarSlideDrag,
+.RadSplitter_Default2006 .helperBarSlideDragHorizontal
+
+{
+	font-size:1px;
+	background-color:#ccc;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60); 
+	opacity: 0.6;
+}
+
+/* resize bar onerror */
+.RadSplitter_Default2006 .helperBarError, 
+.RadSplitter_Default2006 .helperBarSlideError,
+.RadSplitter_Default2006 .helperBarErrorHorizontal
+{
+	font-size:1px;
+	background-color: #f60;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60); 
+	opacity: 0.6;
+}
+
+/********************* Colapse Bar *****************************/
+
+.RadSplitter_Default2006 .collapseBar
+{	
+	background: url(Img/splitbarBg.gif);
+}
+
+.RadSplitter_Default2006 .collapseBarHorizontal
+{	
+	background: url(Img/splitbarBgVertical.gif);
+}
+
+.RadSplitter_Default2006 .collapseBarOver, 
+.RadSplitter_Default2006 .collapseBarOverHorizontal
+{
+	background: white;
+}
+
+.RadSplitter_Default2006 .collapseBarError, 
+.RadSplitter_Default2006 .collapseBarErrorHorizontal
+{
+	background-color:red;
+}
+
+
+/***********************************************/
+/*             SLIDE                           */
+/***********************************************/
+
+/************************************************
+	sliding zone 
+*/
+.RadSplitter_Default2006 .slideZone
+{
+	background: white;
+}
+
+/************************************************ 
+	pane tabs 
+*/
+.RadSplitter_Default2006 .tabsContainer 
+{
+	background: white url(Img/slideZoneBg.gif) repeat-y;
+	color: #333;
+}
+
+.RadSplitter_Default2006 .paneTabContainer,
+.RadSplitter_Default2006 .paneTabContainerHorizontal,
+.RadSplitter_Default2006 .paneTabContainerExpanded,
+.RadSplitter_Default2006 .paneTabContainerExpandedHorizontal,
+.RadSplitter_Default2006 .paneTabContainerDocked,
+.RadSplitter_Default2006 .paneTabContainerDockedHorizontal
+{
+	overflow:hidden;
+	cursor:default;
+	text-align:center;
+	font-size:1px;
+	border: 1px solid #e5e5e5;
+	border-left: 0px;
+	border-top: 0px;
+	border-right: solid 1px #c3c3c3;
+	color: #999;
+	padding: 6px 0px;
+	width:21px;
+	height:auto;
+}
+
+.RadSplitter_Default2006 .paneTabContainerExpanded
+{
+	background: white;
+	border-right: solid 1px #a8a8a8;
+	color: #333;
+}
+
+.RadSplitter_Default2006 .paneTabContainerDocked
+{
+	background: white url(Img/slideZoneDockedTab.gif) repeat-y;
+	border-color: #c5c5c5;
+	border-right: solid 1px #8e8e8e;
+	color: #000;
+}
+
+.RadSplitter_Default2006 .paneTabText
+{
+	writing-mode: tb-rl;
+	font:10px Verdana, Arial, Helvetica;
+	white-space:nowrap;
+	margin:2px;
+}
+
+.RadSplitter_Default2006 .paneTabIcon
+{
+	margin:2px;
+}
+
+
+/***** tabs on right position *******/
+
+.RadSplitter_Default2006 .tabsContainer .right
+{
+	background: url(Img/slideZoneBgRight.gif) repeat-y top right;
+}
+
+
+.RadSplitter_Default2006 .right .paneTabContainer,
+.RadSplitter_Default2006 .right .paneTabContainerExpanded,
+.RadSplitter_Default2006 .right .paneTabContainerDocked
+{
+	border-left: solid 1px #c3c3c3;
+	border-right: 0px;
+}
+
+
+.RadSplitter_Default2006 .right .paneTabContainerExpanded
+{
+	border-left: solid 1px #a8a8a8;
+}
+
+.RadSplitter_Default2006 .right .paneTabContainerDocked
+{
+	border-left: solid 1px #8e8e8e;
+}
+
+/***** tabs on top position *******/
+
+.RadSplitter_Default2006 .tabsContainer .top
+{
+	background: url(Img/slideZoneBgTop.gif) repeat-x top;
+}
+
+
+.RadSplitter_Default2006 .top .paneTabContainer,
+.RadSplitter_Default2006 .top .paneTabContainerExpanded,
+.RadSplitter_Default2006 .top .paneTabContainerDocked
+{
+	border-right: solid 1px #c3c3c3;
+	border-top: solid 1px #c3c3c3;
+	border-left: 0px;
+	border-bottom:0px;
+	float:left;
+	padding: 0px 6px;
+	width:auto;
+}
+
+
+.RadSplitter_Default2006 .top .paneTabContainerExpanded
+{
+	border-right: solid 1px #a8a8a8;
+}
+
+.RadSplitter_Default2006 .top .paneTabContainerDocked
+{
+	background: white url(Img/slideZoneDockedTabHorizontal.gif) repeat-x top;
+	border-right: solid 1px #8e8e8e;
+}
+
+.RadSplitter_Default2006 .top .paneTabText
+{
+	writing-mode: lr-tb;/* default */
+}
+
+.RadSplitter_Default2006 .top .paneTabIcon
+{
+	display: block; 
+	float: left
+}
+
+/***** tabs on bottom position *******/
+
+.RadSplitter_Default2006 .tabsContainer .bottom
+{
+	background: url(Img/slideZoneBgBottom.gif) repeat-x bottom;
+}
+
+.RadSplitter_Default2006 .bottom .paneTabContainer,
+.RadSplitter_Default2006 .bottom .paneTabContainerExpanded,
+.RadSplitter_Default2006 .bottom .paneTabContainerDocked
+{
+	border-right: solid 1px #c3c3c3;
+	border-left: 0px;
+	float:left;
+	padding: 0px 6px;
+	width:auto;
+}
+
+
+.RadSplitter_Default2006 .bottom .paneTabContainerExpanded
+{
+	border-right: solid 1px #a8a8a8;
+}
+
+.RadSplitter_Default2006 .bottom .paneTabContainerDocked
+{
+	background: white url(Img/slideZoneDockedTabHorizontal.gif) repeat-x bottom;
+	border-right: solid 1px #8e8e8e;
+}
+
+.RadSplitter_Default2006 .bottom .paneTabText
+{
+	writing-mode: lr-tb;/* default */
+}
+
+.RadSplitter_Default2006 .bottom .paneTabIcon
+{
+	display: block; 
+	float: left
+}
+
+/*****  -- End tabs on bottom position *******/
+
+/************************************************ 
+	slide/dock containers 
+*/
+.RadSplitter_Default2006 .slideContainer 
+{
+	border:0px solid #e5e5e5;
+	border-collapse:collapse;
+}
+
+.RadSplitter_Default2006 .slideContainerDocked
+{
+	
+}
+
+.RadSplitter_Default2006 .slideHeader, 
+.RadSplitter_Default2006 .slideHeaderDocked
+{
+	background-color:#f7f7f7;
+	background: url(Img/slideHeader.gif) repeat-x;
+	
+}
+
+.RadSplitter_Default2006 .slideContainerResize,
+.RadSplitter_Default2006 .slideContainerResizeHorizontal
+{ 
+     background:#f7f7f7 none;
+}
+
+.RadSplitter_Default2006 .slideContainerResizeOver,
+.RadSplitter_Default2006 .slideContainerResizeOverHorizontal
+{
+	background:#fff none;
+}
+
+.RadSplitter_Default2006 .slideContainerResize,
+.RadSplitter_Default2006 .slideContainerResizeOver
+{
+	border-top:0px;
+	border-bottom:0px;
+}
+
+.RadSplitter_Default2006 .slideContainerResizeHorizontal,
+.RadSplitter_Default2006 .slideContainerResizeOverHorizontal
+{
+	border-left:0px;
+	border-right:0px;
+}
+
+.RadSplitter_Default2006 .slideHeaderIcon
+{
+	margin: 1px 3px;
+	border:0px;
+} 
+
+.RadSplitter_Default2006 .slideHeaderIconOver
+{
+	margin: 0px 2px;
+	border:1px solid #c3c3c3;
+	cursor: hand;
+	cursor: pointer;
+} 
+
+.RadSplitter_Default2006 .slideTitle, 
+.RadSplitter_Default2006 .slideTitleDocked 
+{
+	font:11px Verdana;
+	color: #333;
+	white-space:nowrap;
+	margin-left:5px;
+	margin-right:5px;
+	text-align:left;
+	line-height: 25px;
+}
+
+.RadSplitter_Default2006 .slideTitleContainer
+{
+	background-color:#f7f7f7;
+	background: url(Img/slideHeader.gif) repeat-x;
+}
+
+.RadSplitter_Default2006 .slideContent, 
+.RadSplitter_Default2006 .slideContentDocked
+{
+	font:10px Verdana;
+	color:black;
+	background-color:white;
+	padding:5px;
+	text-align:left;
+}
+
+.RadSplitter_Default2006 .helperBarSlideDrag,
+.RadSplitter_Default2006 .slideContainerResize,
+.RadSplitter_Default2006 .slideContainerResizeOver
+{
+	cursor:w-resize;
+}
+
+.RadSplitter_Default2006 .helperBarSlideDragHorizontal,
+.RadSplitter_Default2006 .slideContainerResizeHorizontal,
+.RadSplitter_Default2006 .slideContainerResizeOverHorizontal
+{
+	cursor:n-resize;
+}
+
+/*****************************************************************************/
+/* these below are not skin/border size specific. Shared between all skins */
+/*****************************************************************************/
+.nested,
+.nestedHorizontal 
+{
+	border-width: 0px;
+}
+
+/************ nested vertical ****************/
+.nested .pane, 
+.nested .resizeBar,
+.nested .resizeBarOver,
+.nested .resizeBarInactive  
+{
+	border-top: 0px;
+	border-bottom: 0px;
+}
+
+.nested .pane.firstItem,
+.nested .resizeBar.firstItem,
+.nested .resizeBarOver.firstItem,
+.nested .resizeBarInactive.firstItem
+{
+	border-left: 0px;
+}
+
+.nested .pane.lastItem, 
+.nested .resizeBar.lastItem,
+.nested .resizeBarOver.lastItem,
+.nested .resizeBarInactive.lastItem
+{
+	border-right: 0px;
+}
+
+.nested .pane.firstItem.lastItem, 
+.nested .resizeBar.firstItem.lastItem,
+.nested .resizeBarOver.firstItem.lastItem,
+.nested .resizeBarInactive.firstItem.lastItem
+{
+	border-left: 0px;
+	border-right: 0px;
+}
+
+/************ nested horizontal ****************/
+
+.nestedHorizontal .paneHorizontal, 
+.nestedHorizontal .resizeBarHorizontal,
+.nestedHorizontal .resizeBarOverHorizontal,
+.nestedHorizontal .resizeBarInactiveHorizontal
+{
+	border-left: 0px;
+	border-right: 0px;
+}
+
+.nestedHorizontal .paneHorizontal.firstItem,
+.nestedHorizontal .resizeBarHorizontal.firstItem,
+.nestedHorizontal .resizeBarOverHorizontal.firstItem,
+.nestedHorizontal .resizeBarInactiveHorizontal.firstItem
+{
+	border-top: 0px;
+}
+
+.nestedHorizontal .paneHorizontal.lastItem, 
+.nestedHorizontal .resizeBarHorizontal.lastItem,
+.nestedHorizontal .resizeBarOverHorizontal.lastItem,
+.nestedHorizontal .resizeBarInactiveHorizontal.lastItem
+{
+	border-bottom: 0px;
+}
+
+.nestedHorizontal .paneHorizontal.firstItem.lastItem, 
+.nestedHorizontal .resizeBarHorizontal.firstItem.lastItem,
+.nestedHorizontal .resizeBarOverHorizontal.firstItem.lastItem,
+.nestedHorizontal .resizeBarInactiveHorizontal.firstItem.lastItem
+{
+	border-top: 0px;
+	border-bottom: 0px;
+}

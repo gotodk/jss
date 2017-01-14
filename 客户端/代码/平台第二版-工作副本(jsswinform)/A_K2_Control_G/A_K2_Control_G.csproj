@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0557A9F7-A746-4ADA-9B61-4E5C7C9E7326}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>客户端主程序</RootNamespace>
+    <AssemblyName>K2_Control_G</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormAlertMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlertMessage.Designer.cs">
+      <DependentUpon>FormAlertMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\A_B1_ Variable\A_B1_ Variable.csproj">
+      <Project>{db32a8f2-e323-4bb9-a27d-e9c811ff0eb9}</Project>
+      <Name>A_B1_ Variable</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_K1_Controll_D\A_K1_Controll_D.csproj">
+      <Project>{a71e85d3-b3e9-48f9-945e-31cf5f4a4298}</Project>
+      <Name>A_K1_Controll_D</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_K3_Conteol_D\A_K3_Conteol_D.csproj">
+      <Project>{8edd3892-a165-4428-b931-ea9bec97c203}</Project>
+      <Name>A_K3_Conteol_D</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QQ Skins\QQ Skins.csproj">
+      <Project>{ca97a4a8-003a-4215-afd3-9ad4939d48f5}</Project>
+      <Name>QQ Skins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormAlertMessage.resx">
+      <DependentUpon>FormAlertMessage.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

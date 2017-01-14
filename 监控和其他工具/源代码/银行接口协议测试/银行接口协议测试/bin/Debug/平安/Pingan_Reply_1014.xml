@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Pingan_Reply_1014" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Pingan_Reply_1014">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TranFlag" msdata:Caption="记账标志" type="xs:string" default="0" />
+                <xs:element name="TranStatus" msdata:Caption="交易状态" type="xs:string" default="0" />
+                <xs:element name="TranAmount" msdata:Caption="转账金额" type="xs:string" default="0" />
+                <xs:element name="HandleFee" msdata:Caption="手续费" type="xs:string" default="0" />
+                <xs:element name="MailFee" msdata:Caption="邮电费" type="xs:string" default="0" />
+                <xs:element name="OutAcctNo" msdata:Caption="付款人账号" type="xs:string" default="0" />
+                <xs:element name="OutAcctName" msdata:Caption="付款人名称" type="xs:string" default="0" />
+                <xs:element name="OutAcctBank" msdata:Caption="付款人开户行" type="xs:string" default="0" />
+                <xs:element name="InAcctNo" msdata:Caption="收款人账号" type="xs:string" default="0" />
+                <xs:element name="InAcctName" msdata:Caption="收款人名称" type="xs:string" default="0" />
+                <xs:element name="InAcctBank" msdata:Caption="收款人开户行" type="xs:string" default="0" />
+                <xs:element name="CcyCode" msdata:Caption="转账币种" type="xs:string" default="0" />
+                <xs:element name="AcctDate" msdata:Caption="会计日期" type="xs:string" default="0" />
+                <xs:element name="Reserve" msdata:Caption="保留域" type="xs:string" default="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Pingan_Reply_1014>
+    <TranFlag>0</TranFlag>
+    <TranStatus>0</TranStatus>
+    <TranAmount>0</TranAmount>
+    <HandleFee>0</HandleFee>
+    <MailFee>0</MailFee>
+    <OutAcctNo>0</OutAcctNo>
+    <OutAcctName>0</OutAcctName>
+    <OutAcctBank>0</OutAcctBank>
+    <InAcctNo>0</InAcctNo>
+    <InAcctName>0</InAcctName>
+    <InAcctBank>0</InAcctBank>
+    <CcyCode>0</CcyCode>
+    <AcctDate>0</AcctDate>
+    <Reserve>0</Reserve>
+  </Pingan_Reply_1014>
+</NewDataSet>

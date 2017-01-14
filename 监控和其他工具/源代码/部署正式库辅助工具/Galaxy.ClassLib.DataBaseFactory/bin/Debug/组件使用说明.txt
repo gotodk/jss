@@ -1,0 +1,79 @@
+欢迎使用 银河通用数据库操作组件V1.0
+===============================================================
+http://www.ruscn.net   欢迎访问我的blog     galaxy  2007-1-17  17点17分
+===============================================================
+本组件支持Access和sql2000(包括sql2005)数据库
+
+本组件允许使用最简单的代码连接数据库并获取数据,将数据库操作跟业务逻辑完全分开
+使用抽象工厂模式设计,执行效率较高.
+支持普通sql语句执行并返回结果,支持存储过程,支持存储过程输入/输出参数.
+调用简单方便灵活.
+
+完整例子:
+
+
+配置webconfig中的数据库连接字符串,例如:
+  <appSettings>
+    <!--
+      连接测试数据库SQL2000
+    -->
+    <add key="配置参数的key" value="server=数据库实例;database=数据库名称;user id=登陆帐号;password=密码"/>
+  </appSettings>
+
+
+
+
+执行sql存储过程,并传递参数,返回参数,返回数据集,返回执行错误
+//连接工厂接口
+Galaxy.ClassLib.DataBaseFactory.I_DBFactory I_DBF= new Galaxy.ClassLib.DataBaseFactory.DBFactory();
+//数据库连接接口初始化
+Galaxy.ClassLib.DataBaseFactory.I_Dblink I_DBL= I_DBF.DbLinkAccess("配置参数的key");
+
+
+
+//返回的数据集
+DataSet DataSet_Beuse1 = new DataSet();
+//返回参数的哈希表
+Hashtable return_ht = new Hashtable();
+//传入参数的哈希表
+Hashtable Hashtable_PutIn = new Hashtable();
+//传出参数的哈希表
+Hashtable Hashtable_PutOut = new Hashtable();
+
+
+//设定存储过程传入参数(哈希表键值对应存储过程参数名称,哈希表值对应存储过程参数值)
+//如果是MSsql数据库,哈希表赋值顺序无所谓,键值跟参数名称对应起来就行了.
+//如果是Access数据库,哈希表键值无所谓,但是赋值顺序一定要跟参数顺序对应.
+Hashtable_PutIn.Add("存储过程参数名称1","存储过程参数值1");
+Hashtable_PutIn.Add("存储过程参数名称2","存储过程参数值2");
+
+
+//设定存储过程传出参数(哈希表键值对应存储过程参数名称,哈希表值对应存储过程参数值)
+//如果是MSsql,正常返回值,传入参数的时候使用ref标记.
+//如果是Access,不能使用传出值,因为access不支持存储过程返回值
+Hashtable_PutOut.Add("存储过程参数名称1","存储过程参数值1");
+Hashtable_PutOut.Add("存储过程参数名称2","存储过程参数值2");
+
+
+//执行sql语句(三个重载方法)
+return_ht = I_DBL.RunProc("sql语句",DataSet_Beuse1,"指定返回数据集中表的名字");
+//执行sql存储过程(四个重载方法)
+return_ht = I_DBL.RunProc_CMD("sql语句",DataSet_Beuse1,Hashtable_PutIn,ref Hashtable_PutOut);
+
+
+
+
+return_ht返回的哈希表包含:
+return_ht["return_ds"] = null; 返回的执行结果数据集，DataSet类型
+return_ht["return_float"] = null; 返回的执行结果标志，执行成功并且返回的数据大于0条，则为true
+return_ht["return_errmsg"] = null; 返回的错误捕获信息，string类型.
+return_ht["return_other"] = null; 返回被影响的数据数量,没有被影响的数据则为null
+
+
+
+
+关于每个重载的调用方法,请查看注释文档.注释文档不要删除,导入项目后才可以看到详细注释.
+
+============================================================================================
+如果需要源代码或者有其他疑问的,请访问http://www.ruscn.net 下载最新源代码和详细注释
+

@@ -1,0 +1,509 @@
+﻿   /*最外层div，宽100%，背景#f7f7f7*/
+   body{  font-size: 12px/1.5;
+         font-family: "Tamoda","Arial",Sans-serif,"宋体";
+	margin: 0px;
+ scrollbar-highlight-color: #ACD373; scrollbar-shadow-color: #ACD373; scrollbar-arrow-color: #ACD373; scrollbar-face-color: #FFFFFF; scrollbar-3dlight-color: #FFFFFF; scrollbar-darkshadow-color: #FFFFFF; scrollbar-track-color: #FFFFFF;
+         
+          }
+ *
+ {
+     padding:0px;
+     margin-left: 0px;
+    margin-right: 0px;
+    }
+ #new_content
+ {
+     width: 100%;
+     height:100%;
+     background-color: #f7f7f7;
+ }
+ /*内层div*/
+ #new_zicontent
+ {
+     padding: 15px;
+ }
+ /*内容正文div，用于控制内容宽度，取值为530px、954px、1110px;*/
+ #content_zw
+ {
+     width: 1110px;
+ }
+ /*页面备注内容*/
+ .content_bz
+ {
+     font-size: 12px;
+     line-height: 20px;
+     color: Red;
+ }
+ /*分割线*/
+ .content_lx
+ {
+     height: 1px;
+     background-color: #a5cbe2;
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+ .content_nr
+ {
+     width: 100%;
+ }
+ .tj_input
+ {
+     height: 22px;
+     border-width: 1px;
+     border-style: solid;
+     border-color: #999999;
+     line-height: 22px;
+     overflow: hidden;
+ } 
+ .tj_input:hover
+ {
+     border-color: #7e9cb6;
+ }
+  .tj_input_shuzi
+ {
+      font: 12px/1.5 tahoma,arial,宋体;
+     height: 20px;
+     border-width: 1px;
+     border-style: solid;
+     border-color: #999999;
+     line-height: 20px;
+     overflow: hidden;
+ } 
+ .tj_input_shuzi:hover
+ {
+     border-color: #7e9cb6;
+ }
+
+ .tj_input_dj
+ {
+     height: 20px;
+     border-width: 1px;
+     border-style: solid;
+     border-color: #AAAAAA;
+     line-height: 20px;
+ }
+ .tj_bt
+ {
+     height: 22px;
+     border:1px solid #999999;
+     
+     padding-left:3px;
+     padding-right:3px;
+     width: auto;   
+    _width: 0;   
+    overflow:visible !ie; 
+    
+     background-image: url("/Web/images/standardImageFile/huibg.jpg");     
+ }
+ .tj_bt:hover
+ {
+      padding-left:3px;
+     padding-right:3px;
+     width: auto;   
+    _width: 0;   
+    overflow:visible !ie;
+     
+     border-color: #7e9cb6;
+     cursor: pointer;
+     background: url("/Web/images/standardImageFile/lanbg.jpg");
+ }
+ .tj_bt_da
+ {
+     border:1px solid #999999;
+     
+     
+    padding-left:5px;
+     padding-right:5px;
+     width: auto;   
+    _width: 0;   
+    overflow:visible !ie;  
+     
+     background: url("/Web/images/standardImageFile/huibg2.jpg");
+     
+ }
+ .tj_bt_da:hover
+ {     
+     padding-left:5px;
+     padding-right:5px;
+     width: auto;   
+    _width: 0;   
+    overflow:visible !ie;  
+    
+     border-color: #7e9cb6;
+     cursor: pointer;
+     background: url("/Web/images/standardImageFile/lanbg2.jpg");
+ }
+ .tj_input_search
+ {
+     background-image: url("/Web/images/standardImageFile/search.jpg");
+     background-position: right;
+     background-repeat: no-repeat;    
+     border-width: 1px;
+     border-style: solid;
+     border-color: #999999; 
+     height:22px;
+ }
+ .tj_input_search:hover
+ {
+     background-image: url("/Web/images/standardImageFile/search.jpg");
+     background-position: right;
+     background-repeat: no-repeat;
+     cursor: pointer;
+     border-width: 1px;
+     border-style: solid;
+     border-color: #999999;
+     height:22px;
+ }
+ .tj_input_time
+ {
+     background-image: url("/Web/images/standardImageFile/shijian.jpg");
+     background-position: right;
+     background-repeat: no-repeat;
+ }
+ .content_nr_cx
+ {
+     border:1px solid  #99BBE8;
+     background-color: #D3E0F0;
+     margin-top:5px;
+     border-collapse:collapse;
+ }
+ .content_nr_cx tr
+ {
+     height: 32px;
+   }
+ .content_nr_hj
+ {
+     line-height: 20px;
+     margin:5px 0 5px 0;
+ }
+ .content_nr_hj td
+ {
+     font-weight: bold;
+ }
+ 
+ .tab
+ {
+ }
+ .content_nr_lb
+ {
+     width: 100%;
+     overflow-x: scroll;
+ }
+ 
+ .tab td
+ {
+     height: 26px;
+     vertical-align: middle;
+     line-height: 25px;
+ }
+ .bg
+ {
+     background-color: #D6E3F3;
+ }
+ .bt_bg
+ {
+     background: url(/Web/images/standardImageFile/bg.gif) repeat-x 0 0;
+ }
+ .tou_table td
+ {
+     border-right:1px solid  #BEBCBF;
+ }
+ .nr_table td
+ {
+     border-bottom:1px solid  #DCDCDC;
+     border-right:1px solid  #DCDCDC;
+ }
+ .nr_table tr:hover
+ {
+     background-color: #DFE8F7;
+ }
+ .wei_table td
+ {
+     border-right:1px solid  #BEBCBF;
+ } 
+ 
+ .xiaoshou
+ {
+  cursor:pointer;  
+ }
+ 
+.duiqi{ margin-left:5px; margin-top:auto; margin-bottom:auto;} 
+.duiqi a.xinzeng
+{display:block; overflow:hidden;  _float:left; width:16px; height:16px;  background:url(/Web/images/standardImageFile/xinzeng.png)  0 0;
+ }
+.duiqi a.piliang
+ {
+  display:block; overflow:hidden;  _float:left; width:16px; height:16px;   background:url(/Web/images/standardImageFile/emptyNew.png)  0 0;
+ }   
+    
+ /*
+ 列表
+ */
+ 
+   .aline
+        {
+            position: absolute;
+            width: 1px;
+            height: 100px;
+            background-color: red;
+        }
+        .TheadTh
+        {
+            background: url(/Web/images/standardImageFile/bg.gif) repeat-x 0 0;
+            border-right:1px solid  #BEBCBF;
+            border-bottom:1px solid  #99BBE8;
+            background-color: #C5D9F1;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+       .TheadThTop
+        {
+             border-top:1px solid  #99BBE8;
+            }
+        .TbodyTrAdd td
+        {
+            border-bottom:1px solid  #DCDCDC;
+            border-right:1px solid  #DCDCDC;
+            text-align: center;
+        }
+        .TbodyTr td
+        {
+            border-bottom:1px solid  #DCDCDC;
+            border-right:1px solid  #DCDCDC;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        .TbodyTr span.spanErrorClass
+        {
+            display: inline-block;
+            background: url(/Web/images/standardImageFile/error.png) repeat-x 0 0;
+            width: 17px;
+            height: 17px;
+        }
+        .TbodyTr span.spanRightClass
+        {
+            display: inline-block;
+            background: url(/Web/images/standardImageFile/right.png) repeat-x 0 0;
+            width: 17px;
+            height: 17px;
+        }
+        .TfootTr
+        {
+            background-color: #D6E3F3;
+        }        
+        .TfootTr td
+        {
+            border-top:1px solid  #99BBE8;
+            border-right:1px solid  #BEBCBF;
+        }
+        .TfootTr1
+        {
+            background-color: #D6E3F3;
+        }
+        .TfootTr1 td
+        {
+            border-top:1px solid  #99BBE8;
+            border-right:1px solid  #BEBCBF;
+            border-bottom:1px solid  #BEBCBF;
+        }
+/*Start 周丽2012-11-06
+*/
+
+/*Start提交类*/
+.TitleTh
+        {
+            font-size:14px;     
+            text-align:left;    
+            font-weight:bold;   
+            height:30px;
+            line-height:30px; 
+         }   
+       /* .TheadTh
+        {
+            background: url(/Web/images/standardImageFile/bg.gif) repeat-x 0 0;
+            border-right:1px solid  #BEBCBF;
+            border-bottom :1px solid  #99BBE8;
+        }
+        .TbodyTrAdd td
+        {            
+            border-bottom:1px solid  #DCDCDC;
+            border-right:1px solid  #DCDCDC;
+            text-align:center;
+        }
+         .TbodyTr td
+         {
+            border-bottom:1px solid  #DCDCDC;
+            border-right:1px solid  #DCDCDC;
+            text-align:center;
+            word-wrap:break-word;
+         }  
+         .TfootTr
+         {
+            background-color: #D6E3F3;            
+         }
+         .TfootTr td
+         {
+             border-top:1px solid  #99BBE8;
+             border-right:1px solid  #BEBCBF;
+         }*/ 
+         /* *的样式 */
+         .span
+         {
+              color:Red; 
+              
+          }
+         .Message tr
+        {
+            height: 20px;
+            line-height: 20px;            
+        }
+/*End提交类*/
+/*Start详情类*/
+ .bgColor:hover
+        {
+            background-color:#DFE8F7;              
+        }
+        .bgColor td
+        {
+            background-color:Yellow;           
+             text-align:center;
+             border-bottom:1px solid  #DCDCDC;
+            border-right:1px solid  #DCDCDC;            
+            word-wrap:break-word;
+        }
+        
+        .table
+        {
+            background: url("/Web/images/standardImageFile/bg50.gif") repeat-x 0 0;           
+            border-collapse: collapse; 
+            text-align:center;
+            border:1px solid  #99BBE8;
+            } 
+         .table td
+        {
+            height: 26px;
+            vertical-align: middle;
+            line-height: 25px;
+        }    
+        .THead
+        {     
+            height: 24px;
+            line-height:18px;
+            font-weight:inherit;
+        }
+        .THead tr th
+        {
+            border-right:1px solid  #BEBCBF;
+            border-bottom :1px solid  #99BBE8;
+            }
+         .tr td
+         {
+             height: 24px;
+            line-height:18px;
+            border-right:1px solid  #BEBCBF;
+            border-bottom :1px solid  #99BBE8;
+          }
+          /*标题*/
+          .BT
+          {
+              text-align:center; 
+              vertical-align:middle; 
+              width:100%;
+              font-size: 16px; 
+              font-weight: bold;
+              height: 30px
+           }
+           /*订单号 提交时间*/
+           .BTLeftDD
+           {
+               text-align:left; 
+               font-size: 9pt;
+               width:50%; 
+               height:25px; 
+               padding-left:10px; 
+               vertical-align:bottom;
+           }
+           .BTRightTJTime
+           {
+                text-align:right; 
+                font-size: 9pt;  
+                width:50%; 
+                padding-right:20px; 
+                vertical-align:bottom;
+           }
+           /*列表的标题*/
+           .LBBT
+           {
+               text-align:left; 
+               vertical-align:middle; 
+               font-size: 14px; 
+               font-weight: bold; 
+               height:40px;
+           }
+           /*符合表头*/
+           .FHTheadTh
+            {
+                border-bottom:1px solid  #99BBE8;
+            border-right:1px solid  #BEBCBF;
+            border-top:1px solid  #BEBCBF;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+                
+                background-color: #D6E3F3;
+                
+            }
+             .FHTheadThAlign
+            {
+                border-bottom:1px solid  #BEBCBF;
+            border-right:1px solid  #BEBCBF;
+            border-top:1px solid  #BEBCBF;
+            white-space: nowrap;
+            overflow: hidden;
+                
+                background-color: #D6E3F3;
+                
+            }
+            .FHTheadTh2
+            {
+                border-bottom:1px solid  #99BBE8;
+            border-right:1px solid  #BEBCBF;
+            border-top:1px solid  #BEBCBF;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+                
+                background-color: #D6E3F3;
+                
+            }
+            .FHTheadTh3
+            {
+            
+            border-right:1px solid  #BEBCBF;
+            border-top:1px solid  #BEBCBF;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+                
+                background-color: #D6E3F3;
+                
+            }
+/*End详情类*/
+ /*End 周丽2012-11-06
+*/
+/*style里面的CSS*/
+DIV{ font-size:12px;
+}
+/*分公司对总部质量退换业务受理*/
+/*查询所在table的样式*/
+     
+a:link {color:#069; text-decoration:none; font-size:9pt;}     /* 未被访问的链接 红色 没有下划线*/
+a:visited {color:#069; text-decoration:none; font-size:9pt;}  /* 已被访问过的链接 绿色 没有下划线*/
+a:hover {color:#F30;text-decoration:underline; font-size:9pt;}   /* 鼠标悬浮在上的链接 橙色 有下划线 下划线为underline 上划线为overline 无下划线为none*/
+a:active {color:#069; text-decoration:none; font-size:9pt;}   /* 鼠标点中激活链接 蓝色 没有下划线*/
+
+a.teshu:link{color:#000; text-decoration:none; font-size:9pt;}
+a.teshu:visited{color:#000; text-decoration:none; font-size:9pt;}
+a.teshu:hover {color:#F30;text-decoration:underline; font-size:9pt;}
+a.teshu:active {color:#000;text-decoration:underline; font-size:9pt;}

@@ -1,0 +1,7 @@
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_P1_Support\bin\Debug\P1_Support.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_P1_Support\bin\Debug\P1_Support.pdb
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_P1_Support\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_P1_Support\bin\Debug\org.in2bits.MyXls.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_P1_Support\obj\Debug\P1_Support.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_P1_Support\obj\Debug\P1_Support.pdb
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\A_P1_Support\obj\Debug\A_P1_Support.csprojResolveAssemblyReference.cache

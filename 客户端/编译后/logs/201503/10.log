@@ -1,0 +1,25 @@
+2015-03-10 09-43-25     ---     调用webservices错误,方法名：[C检查右下角提醒]：查询业务调用失败，空返回值！
+
+2015-03-10 09-43-57     ---     调用webservices错误,方法名：[C用户修改密码]：查询业务调用失败，空返回值！
+
+2015-03-10 09-43-57     ---     委托回调错误：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.SubForm.NewCenterForm.SUBUC.ZHWH.ucMMJH_B.SRT_demo(Hashtable OutPutHT)
+
+2015-03-10 09-43-59     ---     调用webservices错误,方法名：[C用户修改密码]：查询业务调用失败，空返回值！
+
+2015-03-10 09-43-59     ---     委托回调错误：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.SubForm.NewCenterForm.SUBUC.ZHWH.ucMMJH_B.SRT_demo(Hashtable OutPutHT)
+
+2015-03-10 09-44-00     ---     调用webservices错误,方法名：[C用户修改密码]：查询业务调用失败，空返回值！
+
+2015-03-10 09-44-00     ---     委托回调错误：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.SubForm.NewCenterForm.SUBUC.ZHWH.ucMMJH_B.SRT_demo(Hashtable OutPutHT)
+
+2015-03-10 09-44-26     ---     调用webservices错误,方法名：[C检查右下角提醒]：查询业务调用失败，空返回值！
+

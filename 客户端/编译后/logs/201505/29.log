@@ -1,0 +1,84 @@
+2015-05-29 11-16-31     ---     调用webservices错误,方法名：[C是否已提请买家签收]：找不到匹配关系！
+
+2015-05-29 11-16-34     ---     调用webservices错误,方法名：[C是否已提请买家签收]：找不到匹配关系！
+
+2015-05-29 11-17-26     ---     调用webservices错误,方法名：[C是否已提请买家签收]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS)
+
+2015-05-29 11-17-36     ---     调用webservices错误,方法名：[C是否已提请买家签收]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS)
+
+2015-05-29 11-17-38     ---     调用webservices错误,方法名：[C是否已提请买家签收]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS)
+
+2015-05-29 11-17-38     ---     调用webservices错误,方法名：[C是否已提请买家签收]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS)
+
+2015-05-29 11-17-57     ---     调用webservices错误,方法名：[C是否已提请买家签收]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS)
+
+2015-05-29 11-20-00     ---     调用webservices错误,方法名：[C是否已提请买家签收]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS)
+
+2015-05-29 11-20-05     ---     调用webservices错误,方法名：[C是否已提请买家签收]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS)
+
+2015-05-29 11-20-07     ---     调用webservices错误,方法名：[C是否已提请买家签收]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS)
+
+2015-05-29 11-22-25     ---     调用webservices错误,方法名：[C是否已提请买家签收]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS)
+
+2015-05-29 11-28-20     ---     调用webservices错误,方法名：[C是否已提请买家签收]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS)
+
+2015-05-29 11-28-26     ---     调用webservices错误,方法名：[C是否已提请买家签收]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS)
+
+2015-05-29 11-28-55     ---     调用webservices错误,方法名：[C大盘底部统计]：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FMipcClass.IPC.Call_NEW(DataTable dtone, String IPCurl, DateTime dtbegin, Object[] objCS)
+
+2015-05-29 11-32-57     ---     下载文件错误：System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 客户端主程序.Support.GetHttpClass.Get_Img(String a_strUrl, Int32 timeout, String filepath, Boolean keepname, Boolean timepath, CookieContainer myCookieContainer)
+
+2015-05-29 11-57-50     ---     下载文件错误：System.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 客户端主程序.Support.GetHttpClass.Get_Img(String a_strUrl, Int32 timeout, String filepath, Boolean keepname, Boolean timepath, CookieContainer myCookieContainer)
+
+2015-05-29 11-57-57     ---     下载文件错误：System.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 客户端主程序.Support.GetHttpClass.Get_Img(String a_strUrl, Int32 timeout, String filepath, Boolean keepname, Boolean timepath, CookieContainer myCookieContainer)
+
+2015-05-29 11-58-36     ---     下载文件错误：System.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 客户端主程序.Support.GetHttpClass.Get_Img(String a_strUrl, Int32 timeout, String filepath, Boolean keepname, Boolean timepath, CookieContainer myCookieContainer)
+
+2015-05-29 11-58-49     ---     下载文件错误：System.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 客户端主程序.Support.GetHttpClass.Get_Img(String a_strUrl, Int32 timeout, String filepath, Boolean keepname, Boolean timepath, CookieContainer myCookieContainer)
+
+2015-05-29 11-59-24     ---     下载文件错误：System.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 客户端主程序.Support.GetHttpClass.Get_Img(String a_strUrl, Int32 timeout, String filepath, Boolean keepname, Boolean timepath, CookieContainer myCookieContainer)
+
+2015-05-29 11-59-42     ---     下载文件错误：System.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 客户端主程序.Support.GetHttpClass.Get_Img(String a_strUrl, Int32 timeout, String filepath, Boolean keepname, Boolean timepath, CookieContainer myCookieContainer)
+
+2015-05-29 12-00-07     ---     下载文件错误：System.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 客户端主程序.Support.GetHttpClass.Get_Img(String a_strUrl, Int32 timeout, String filepath, Boolean keepname, Boolean timepath, CookieContainer myCookieContainer)
+
+2015-05-29 12-01-35     ---     下载文件错误：System.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 客户端主程序.Support.GetHttpClass.Get_Img(String a_strUrl, Int32 timeout, String filepath, Boolean keepname, Boolean timepath, CookieContainer myCookieContainer)
+
+2015-05-29 12-03-21     ---     下载文件错误：System.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 客户端主程序.Support.GetHttpClass.Get_Img(String a_strUrl, Int32 timeout, String filepath, Boolean keepname, Boolean timepath, CookieContainer myCookieContainer)
+
+2015-05-29 12-03-48     ---     下载文件错误：System.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 客户端主程序.Support.GetHttpClass.Get_Img(String a_strUrl, Int32 timeout, String filepath, Boolean keepname, Boolean timepath, CookieContainer myCookieContainer)
+

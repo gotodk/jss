@@ -1,0 +1,1524 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+#u0 {
+    position:absolute;
+    left:80px;
+    top:10px;
+    width:955px;
+    height:1095px
+}
+
+.u1_normal {
+    background-image: url('../酒店预订_files/u1_normal.png');
+}
+
+.u1_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:500px;
+    height:46px;
+}
+
+#u1_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:506px;
+    height:52px;
+}
+
+.u2 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:496px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u3_normal {
+    background-image: url('../酒店预订_files/u3_normal.png');
+}
+
+.u3_container {
+    position:absolute;
+    left:500px;
+    top:0px;
+    width:450px;
+    height:46px;
+}
+
+#u3_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:456px;
+    height:52px;
+}
+
+.u4 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:446px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5_normal {
+    background-image: url('../酒店预订_files/u5_normal.png');
+}
+
+.u5_container {
+    position:absolute;
+    left:0px;
+    top:46px;
+    width:500px;
+    height:1044px;
+}
+
+#u5_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:506px;
+    height:1050px;
+}
+
+.u6 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:496px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7_normal {
+    background-image: url('../酒店预订_files/u7_normal.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:500px;
+    top:46px;
+    width:450px;
+    height:1044px;
+}
+
+#u7_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:456px;
+    height:1050px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:446px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10_normal {
+    background-image: url('../酒店预订业务流程_files/u10_normal.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:170px;
+    top:68px;
+    width:160px;
+    height:60px;
+}
+
+#u10_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:166px;
+    height:66px;
+}
+
+.u11 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:156px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12c0 {
+    background-image: url('../酒店预订业务流程_files/u12c0.png');
+}
+
+.u12c0 {
+    position:absolute;
+    left:240px;
+    top:124px;
+    width:20px;
+    height:46px;
+}
+
+.u13 {
+    position:absolute;
+    left:-50px;
+    top:8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_normal {
+    background-image: url('../酒店预订业务流程_files/u14_normal.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:400px;
+    top:380px;
+    width:140px;
+    height:30px;
+}
+
+#u14_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:36px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:-1px;
+    width:136px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16_normal {
+    background-image: url('../酒店预订业务流程_files/u16_normal.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:140px;
+    top:160px;
+    width:220px;
+    height:50px;
+}
+
+#u16_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:226px;
+    height:56px;
+}
+
+.u17 {
+    position:absolute;
+    left:2px;
+    top:9px;
+    width:216px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18_normal {
+    background-image: url('../酒店预订业务流程_files/u18_normal.png');
+}
+
+.u18_container {
+    position:absolute;
+    left:560px;
+    top:112px;
+    width:160px;
+    height:168px;
+}
+
+#u18_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:166px;
+    height:174px;
+}
+
+.u19 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:156px;
+    height:160px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20_normal {
+    background-image: url('../酒店预订业务流程_files/u20_normal.png');
+}
+
+.u20_container {
+    position:absolute;
+    left:140px;
+    top:262px;
+    width:220px;
+    height:48px;
+}
+
+#u20_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:226px;
+    height:54px;
+}
+
+.u21 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:216px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22_normal {
+    background-image: url('../酒店预订业务流程_files/u22_normal.png');
+}
+
+.u22_container {
+    position:absolute;
+    left:380px;
+    top:256px;
+    width:180px;
+    height:60px;
+}
+
+#u22_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:66px;
+}
+
+.u23 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:176px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24_normal {
+    background-image: url('../酒店预订业务流程_files/u24_normal.png');
+}
+
+.u24_container {
+    position:absolute;
+    left:135px;
+    top:460px;
+    width:225px;
+    height:45px;
+}
+
+#u24_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:231px;
+    height:51px;
+}
+
+.u25 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:221px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26_normal {
+    background-image: url('../酒店预订业务流程_files/u26_normal.png');
+}
+
+.u26_container {
+    position:absolute;
+    left:185px;
+    top:353px;
+    width:130px;
+    height:70px;
+}
+
+#u26_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:136px;
+    height:76px;
+}
+
+.u27 {
+    position:absolute;
+    left:2px;
+    top:27px;
+    width:126px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28c0 {
+    background-image: url('../酒店预订业务流程_files/u28c0.png');
+}
+
+.u28c0 {
+    position:absolute;
+    left:240px;
+    top:206px;
+    width:20px;
+    height:66px;
+}
+
+.u29 {
+    position:absolute;
+    left:-50px;
+    top:18px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30c0 {
+    background-image: url('../酒店预订业务流程_files/u30c0.png');
+}
+
+.u30c0 {
+    position:absolute;
+    left:240px;
+    top:306px;
+    width:20px;
+    height:57px;
+}
+
+.u31 {
+    position:absolute;
+    left:-50px;
+    top:14px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32c0 {
+    background-image: url('../酒店预订业务流程_files/u32c0.png');
+}
+
+.u32c0 {
+    position:absolute;
+    left:240px;
+    top:419px;
+    width:20px;
+    height:41px;
+}
+
+.u32c1 {
+    background-image: url('../酒店预订业务流程_files/u32c1.png');
+}
+
+.u32c1 {
+    position:absolute;
+    left:238px;
+    top:440px;
+    width:22px;
+    height:20px;
+}
+
+.u32c2 {
+    background-image: url('../酒店预订业务流程_files/u32c2.png');
+}
+
+.u32c2 {
+    position:absolute;
+    left:238px;
+    top:440px;
+    width:20px;
+    height:24px;
+}
+
+.u33 {
+    position:absolute;
+    left:-50px;
+    top:12px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34c0 {
+    background-image: url('../酒店预订业务流程_files/u34c0.png');
+}
+
+.u34c0 {
+    position:absolute;
+    left:311px;
+    top:378px;
+    width:89px;
+    height:20px;
+}
+
+.u34c1 {
+    background-image: url('../酒店预订业务流程_files/u34c1.png');
+}
+
+.u34c1 {
+    position:absolute;
+    left:380px;
+    top:378px;
+    width:20px;
+    height:27px;
+}
+
+.u34c2 {
+    background-image: url('../酒店预订业务流程_files/u34c2.png');
+}
+
+.u34c2 {
+    position:absolute;
+    left:380px;
+    top:385px;
+    width:24px;
+    height:20px;
+}
+
+.u35 {
+    position:absolute;
+    left:-4px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36_normal {
+    background-image: url('../酒店预订业务流程_files/u36_normal.png');
+}
+
+.u36_container {
+    position:absolute;
+    left:137px;
+    top:549px;
+    width:220px;
+    height:45px;
+}
+
+#u36_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:226px;
+    height:51px;
+}
+
+.u37 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:216px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u38c0 {
+    background-image: url('../酒店预订业务流程_files/u38c0.png');
+}
+
+.u38c0 {
+    position:absolute;
+    left:238px;
+    top:501px;
+    width:20px;
+    height:48px;
+}
+
+.u38c1 {
+    background-image: url('../酒店预订业务流程_files/u38c1.png');
+}
+
+.u38c1 {
+    position:absolute;
+    left:237px;
+    top:529px;
+    width:21px;
+    height:20px;
+}
+
+.u38c2 {
+    background-image: url('../酒店预订业务流程_files/u38c2.png');
+}
+
+.u38c2 {
+    position:absolute;
+    left:237px;
+    top:529px;
+    width:20px;
+    height:24px;
+}
+
+.u39 {
+    position:absolute;
+    left:-50px;
+    top:14px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40_normal {
+    background-image: url('../酒店预订业务流程_files/u14_normal.png');
+}
+
+.u40_container {
+    position:absolute;
+    left:367px;
+    top:556px;
+    width:140px;
+    height:30px;
+}
+
+#u40_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:36px;
+}
+
+.u41 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:136px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42_normal {
+    background-image: url('../酒店预订业务流程_files/u42_normal.png');
+}
+
+.u42_container {
+    position:absolute;
+    left:380px;
+    top:140px;
+    width:160px;
+    height:65px;
+}
+
+#u42_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:166px;
+    height:71px;
+}
+
+.u43 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:156px;
+    height:64px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u44_normal {
+    background-image: url('../酒店预订业务流程_files/u26_normal.png');
+}
+
+.u44_container {
+    position:absolute;
+    left:587px;
+    top:670px;
+    width:130px;
+    height:70px;
+}
+
+#u44_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:136px;
+    height:76px;
+}
+
+.u45 {
+    position:absolute;
+    left:2px;
+    top:27px;
+    width:126px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u46c0 {
+    background-image: url('../酒店预订业务流程_files/u46c0.png');
+}
+
+.u46c0 {
+    position:absolute;
+    left:642px;
+    top:736px;
+    width:20px;
+    height:44px;
+}
+
+.u46c1 {
+    background-image: url('../酒店预订业务流程_files/u46c1.png');
+}
+
+.u46c1 {
+    position:absolute;
+    left:642px;
+    top:760px;
+    width:22px;
+    height:20px;
+}
+
+.u46c2 {
+    background-image: url('../酒店预订业务流程_files/u46c2.png');
+}
+
+.u46c2 {
+    position:absolute;
+    left:644px;
+    top:760px;
+    width:20px;
+    height:24px;
+}
+
+.u47 {
+    position:absolute;
+    left:-50px;
+    top:13px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48c0 {
+    background-image: url('../酒店预订业务流程_files/u48c0.png');
+}
+
+.u48c0 {
+    position:absolute;
+    left:707px;
+    top:625px;
+    width:20px;
+    height:84px;
+}
+
+.u48c1 {
+    background-image: url('../酒店预订业务流程_files/u48c1.png');
+}
+
+.u48c1 {
+    position:absolute;
+    left:707px;
+    top:625px;
+    width:36px;
+    height:20px;
+}
+
+.u49 {
+    position:absolute;
+    left:-50px;
+    top:-54px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u50_normal {
+    background-image: url('../酒店预订业务流程_files/u50_normal.png');
+}
+
+.u50_container {
+    position:absolute;
+    left:566px;
+    top:890px;
+    width:190px;
+    height:45px;
+}
+
+#u50_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:196px;
+    height:51px;
+}
+
+.u51 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:186px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u52c0 {
+    background-image: url('../酒店预订业务流程_files/u52c0.png');
+}
+
+.u52c0 {
+    position:absolute;
+    left:644px;
+    top:846px;
+    width:20px;
+    height:44px;
+}
+
+.u52c1 {
+    background-image: url('../酒店预订业务流程_files/u52c1.png');
+}
+
+.u52c1 {
+    position:absolute;
+    left:644px;
+    top:870px;
+    width:27px;
+    height:20px;
+}
+
+.u52c2 {
+    background-image: url('../酒店预订业务流程_files/u52c2.png');
+}
+
+.u52c2 {
+    position:absolute;
+    left:651px;
+    top:870px;
+    width:20px;
+    height:24px;
+}
+
+.u53 {
+    position:absolute;
+    left:-50px;
+    top:16px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u54_normal {
+    background-image: url('../酒店预订业务流程_files/u26_normal.png');
+}
+
+.u54_container {
+    position:absolute;
+    left:739px;
+    top:600px;
+    width:130px;
+    height:70px;
+}
+
+#u54_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:136px;
+    height:76px;
+}
+
+.u55 {
+    position:absolute;
+    left:2px;
+    top:27px;
+    width:126px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u56_normal {
+    background-image: url('../酒店预订业务流程_files/u56_normal.png');
+}
+
+.u56_container {
+    position:absolute;
+    left:889px;
+    top:600px;
+    width:141px;
+    height:57px;
+}
+
+#u56_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:147px;
+    height:63px;
+}
+
+.u57 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:137px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u58_normal {
+    background-image: url('../酒店预订业务流程_files/u58_normal.png');
+}
+
+.u58_container {
+    position:absolute;
+    left:1050px;
+    top:620px;
+    width:100px;
+    height:60px;
+}
+
+#u58_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u59 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:96px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u60_normal {
+    background-image: url('../酒店预订业务流程_files/u60_normal.png');
+}
+
+.u60_container {
+    position:absolute;
+    left:889px;
+    top:715px;
+    width:141px;
+    height:45px;
+}
+
+#u60_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:147px;
+    height:51px;
+}
+
+.u61 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:137px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u62_normal {
+    background-image: url('../酒店预订业务流程_files/u26_normal.png');
+}
+
+.u62_container {
+    position:absolute;
+    left:589px;
+    top:780px;
+    width:130px;
+    height:70px;
+}
+
+#u62_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:136px;
+    height:76px;
+}
+
+.u63 {
+    position:absolute;
+    left:2px;
+    top:27px;
+    width:126px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u64_normal {
+    background-image: url('../酒店预订业务流程_files/u64_normal.png');
+}
+
+.u64_container {
+    position:absolute;
+    left:769px;
+    top:800px;
+    width:180px;
+    height:40px;
+}
+
+#u64_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:186px;
+    height:46px;
+}
+
+.u65 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:176px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u66c0 {
+    background-image: url('../酒店预订业务流程_files/u66c0.png');
+}
+
+.u66c0 {
+    position:absolute;
+    left:651px;
+    top:931px;
+    width:20px;
+    height:24px;
+}
+
+.u66c1 {
+    background-image: url('../酒店预订业务流程_files/u66c1.png');
+}
+
+.u66c1 {
+    position:absolute;
+    left:651px;
+    top:935px;
+    width:21px;
+    height:20px;
+}
+
+.u66c2 {
+    background-image: url('../酒店预订业务流程_files/u66c2.png');
+}
+
+.u66c2 {
+    position:absolute;
+    left:652px;
+    top:935px;
+    width:20px;
+    height:19px;
+}
+
+.u67 {
+    position:absolute;
+    left:-50px;
+    top:0px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u68c0 {
+    background-image: url('../酒店预订业务流程_files/u68c0.png');
+}
+
+.u68c0 {
+    position:absolute;
+    left:715px;
+    top:805px;
+    width:54px;
+    height:20px;
+}
+
+.u68c1 {
+    background-image: url('../酒店预订业务流程_files/u68c1.png');
+}
+
+.u68c1 {
+    position:absolute;
+    left:749px;
+    top:805px;
+    width:20px;
+    height:25px;
+}
+
+.u68c2 {
+    background-image: url('../酒店预订业务流程_files/u68c2.png');
+}
+
+.u68c2 {
+    position:absolute;
+    left:749px;
+    top:810px;
+    width:24px;
+    height:20px;
+}
+
+.u69 {
+    position:absolute;
+    left:-22px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u70c0 {
+    background-image: url('../酒店预订业务流程_files/u70c0.png');
+}
+
+.u70c0 {
+    position:absolute;
+    left:865px;
+    top:625px;
+    width:24px;
+    height:20px;
+}
+
+.u70c1 {
+    background-image: url('../酒店预订业务流程_files/u70c1.png');
+}
+
+.u70c1 {
+    position:absolute;
+    left:869px;
+    top:618px;
+    width:20px;
+    height:27px;
+}
+
+.u70c2 {
+    background-image: url('../酒店预订业务流程_files/u70c2.png');
+}
+
+.u70c2 {
+    position:absolute;
+    left:869px;
+    top:618px;
+    width:24px;
+    height:20px;
+}
+
+.u71 {
+    position:absolute;
+    left:-40px;
+    top:-12px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u72c0 {
+    background-image: url('../酒店预订业务流程_files/u72c0.png');
+}
+
+.u72c0 {
+    position:absolute;
+    left:794px;
+    top:666px;
+    width:20px;
+    height:82px;
+}
+
+.u72c1 {
+    background-image: url('../酒店预订业务流程_files/u72c1.png');
+}
+
+.u72c1 {
+    position:absolute;
+    left:794px;
+    top:728px;
+    width:99px;
+    height:20px;
+}
+
+.u73 {
+    position:absolute;
+    left:-42px;
+    top:60px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u74_normal {
+    background-image: url('../酒店预订业务流程_files/u58_normal.png');
+}
+
+.u74_container {
+    position:absolute;
+    left:797px;
+    top:950px;
+    width:100px;
+    height:60px;
+}
+
+#u74_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:66px;
+}
+
+.u75 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:96px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u76_normal {
+    background-image: url('../酒店预订业务流程_files/u10_normal.png');
+}
+
+.u76_container {
+    position:absolute;
+    left:582px;
+    top:950px;
+    width:160px;
+    height:60px;
+}
+
+#u76_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:166px;
+    height:66px;
+}
+
+.u77 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:156px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u78c0 {
+    background-image: url('../酒店预订业务流程_files/u78c0.png');
+}
+
+.u78c0 {
+    position:absolute;
+    left:237px;
+    top:590px;
+    width:20px;
+    height:80px;
+}
+
+.u78c1 {
+    background-image: url('../酒店预订业务流程_files/u78c1.png');
+}
+
+.u78c1 {
+    position:absolute;
+    left:237px;
+    top:650px;
+    width:425px;
+    height:20px;
+}
+
+.u78c2 {
+    background-image: url('../酒店预订业务流程_files/u78c2.png');
+}
+
+.u78c2 {
+    position:absolute;
+    left:642px;
+    top:650px;
+    width:20px;
+    height:24px;
+}
+
+.u79 {
+    position:absolute;
+    left:124px;
+    top:58px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u80c0 {
+    background-image: url('../酒店预订业务流程_files/u80c0.png');
+}
+
+.u80c0 {
+    position:absolute;
+    left:1009px;
+    top:970px;
+    width:24px;
+    height:20px;
+}
+
+.u80c1 {
+    background-image: url('../酒店预订业务流程_files/u80c1.png');
+}
+
+.u80c1 {
+    position:absolute;
+    left:1009px;
+    top:966px;
+    width:20px;
+    height:24px;
+}
+
+.u81 {
+    position:absolute;
+    left:-60px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

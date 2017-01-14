@@ -1,0 +1,660 @@
+2013-03-05 13-17-21     ---     委托回调错误：System.IndexOutOfRangeException: 无法找到列 22。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormSPinfo.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormSPinfo.cs:行号 188
+
+2013-03-05 14-20-26     ---     委托回调错误：System.IndexOutOfRangeException: 无法找到列 22。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormSPinfo.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormSPinfo.cs:行号 188
+
+2013-03-05 14-20-40     ---     委托回调错误：System.IndexOutOfRangeException: 无法找到列 22。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormSPinfo.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormSPinfo.cs:行号 188
+
+2013-03-05 14-21-12     ---     委托回调错误：System.IndexOutOfRangeException: 无法找到列 22。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormSPinfo.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormSPinfo.cs:行号 188
+
+2013-03-05 14-25-14     ---     委托回调错误：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.SubForm.CenterForm.Buyer.SelectTBWarse.ShowThreadResult_BeginBind(Hashtable returnHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\SubForm\CenterForm\Buyer\SelectTBWarse.cs:行号 162
+
+2013-03-05 15-50-09     ---     委托回调错误：System.IndexOutOfRangeException: 无法找到列 22。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormSPinfo.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormSPinfo.cs:行号 188
+
+2013-03-05 15-53-45     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 15-54-23     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 15-54-33     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 15-54-34     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 15-54-35     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 15-54-37     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 15-54-39     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Windows.Forms.SafeNativeMethods.GetWindowThreadProcessId(HandleRef hWnd, Int32& lpdwProcessId)
+   在 System.Windows.Forms.Control.get_CreateThreadId()
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 15-54-40     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 15-54-43     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 15-54-46     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 16-02-36     ---     委托回调错误：System.IndexOutOfRangeException: 在位置 8 处没有任何行。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult_FLerji(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 811
+
+2013-03-05 16-02-43     ---     委托回调错误：System.IndexOutOfRangeException: 在位置 9 处没有任何行。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult_FLerji(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 811
+
+2013-03-05 16-02-45     ---     委托回调错误：System.IndexOutOfRangeException: 在位置 4 处没有任何行。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult_FLerji(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 811
+
+2013-03-05 16-07-32     ---     委托回调错误：System.IndexOutOfRangeException: 在位置 4 处没有任何行。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult_FLerji(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 811
+
+2013-03-05 16-17-53     ---     调用webservices错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   在 System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 客户端主程序.DataControl.WebServicesCenter.test_ds(String sp) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\DataControl\WebServicesCenter.cs:行号 370
+
+2013-03-05 16-36-05     ---     委托回调错误：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.SubForm.CenterForm.Buyer.SelectTBWarse.ShowThreadResult_BeginBind(Hashtable returnHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\SubForm\CenterForm\Buyer\SelectTBWarse.cs:行号 162
+
+2013-03-05 16-43-32     ---     委托回调错误：System.IndexOutOfRangeException: 在位置 4 处没有任何行。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult_FLerji(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 814
+
+2013-03-05 16-43-37     ---     调用webservices错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   在 System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 客户端主程序.DataControl.WebServicesCenter.test_ds(String sp) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\DataControl\WebServicesCenter.cs:行号 370
+
+2013-03-05 16-48-32     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 16-48-41     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 16-48-46     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 16-48-52     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Monitor.Enter(Object obj)
+   在 System.Windows.Forms.Control.FindMarshalingControl()
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 16-48-56     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Windows.Forms.UnsafeNativeMethods.GetExitCodeThread(IntPtr hThread, UInt32& lpExitCode)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 16-50-01     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Monitor.Enter(Object obj)
+   在 System.Windows.Forms.Control.FindMarshalingControl()
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 16-50-06     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 16-52-42     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 16-52-50     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Monitor.Enter(Object obj)
+   在 System.Windows.Forms.Control.FindMarshalingControl()
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 16-52-58     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Monitor.Enter(Object obj)
+   在 System.Windows.Forms.Control.FindMarshalingControl()
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 16-53-08     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Monitor.Enter(Object obj)
+   在 System.Windows.Forms.Control.FindMarshalingControl()
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 16-53-09     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Monitor.Enter(Object obj)
+   在 System.Windows.Forms.Control.FindMarshalingControl()
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 16-53-17     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Monitor.Enter(Object obj)
+   在 System.Windows.Forms.Control.FindMarshalingControl()
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 16-53-19     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Monitor.Enter(Object obj)
+   在 System.Windows.Forms.Control.FindMarshalingControl()
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 16-53-30     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Monitor.Enter(Object obj)
+   在 System.Windows.Forms.Control.FindMarshalingControl()
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 16-54-07     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 16-54-40     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 16-54-46     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Monitor.Enter(Object obj)
+   在 System.Windows.Forms.Control.FindMarshalingControl()
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 16-54-48     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 16-57-03     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Monitor.Enter(Object obj)
+   在 System.Windows.Forms.Control.FindMarshalingControl()
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 16-57-09     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Monitor.Enter(Object obj)
+   在 System.Windows.Forms.Control.FindMarshalingControl()
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 16-57-21     ---     委托回调错误：System.IndexOutOfRangeException: 在位置 4 处没有任何行。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult_FLerji(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 813
+
+2013-03-05 16-57-30     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Monitor.Enter(Object obj)
+   在 System.Windows.Forms.Control.FindMarshalingControl()
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 16-57-35     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 17-04-54     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Monitor.Enter(Object obj)
+   在 System.Windows.Forms.Control.FindMarshalingControl()
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 457
+
+2013-03-05 17-05-01     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Monitor.Enter(Object obj)
+   在 System.Windows.Forms.Control.FindMarshalingControl()
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 457
+
+2013-03-05 17-05-03     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Monitor.Enter(Object obj)
+   在 System.Windows.Forms.Control.FindMarshalingControl()
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 457
+
+2013-03-05 17-05-06     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Monitor.Enter(Object obj)
+   在 System.Windows.Forms.Control.FindMarshalingControl()
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 457
+
+2013-03-05 17-05-09     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Monitor.Enter(Object obj)
+   在 System.Windows.Forms.Control.FindMarshalingControl()
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 457
+
+2013-03-05 17-05-14     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Monitor.Enter(Object obj)
+   在 System.Windows.Forms.Control.FindMarshalingControl()
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 457
+
+2013-03-05 17-05-26     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Monitor.Enter(Object obj)
+   在 System.Windows.Forms.Control.FindMarshalingControl()
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 457
+
+2013-03-05 17-07-12     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 17-07-16     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Monitor.Enter(Object obj)
+   在 System.Windows.Forms.Control.FindMarshalingControl()
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 17-07-21     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Monitor.Enter(Object obj)
+   在 System.Windows.Forms.Control.FindMarshalingControl()
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 17-07-55     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 17-08-58     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 17-09-17     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 17-13-36     ---     委托回调错误：System.IndexOutOfRangeException: 在位置 9 处没有任何行。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult_FLerji(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 813
+
+2013-03-05 17-13-53     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 17-20-19     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 17-20-21     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 17-20-23     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 17-20-26     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 17-20-30     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 17-20-32     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 17-20-37     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 17-23-28     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 456
+
+2013-03-05 17-26-32     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 460
+
+2013-03-05 17-26-38     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 460
+
+2013-03-05 17-26-44     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 460
+
+2013-03-05 17-27-16     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 460
+
+2013-03-05 17-27-17     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 460
+
+2013-03-05 17-27-19     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 460
+
+2013-03-05 17-27-21     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 460
+
+2013-03-05 17-27-22     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 460
+
+2013-03-05 17-27-25     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 460
+
+2013-03-05 17-27-27     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 460
+
+2013-03-05 17-27-30     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 460
+
+2013-03-05 17-27-34     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 460
+
+2013-03-05 17-27-37     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 460
+
+2013-03-05 17-27-39     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 460
+
+2013-03-05 17-27-41     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.WaitHandle.WaitOneNative(SafeWaitHandle waitHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int64 timeout, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 460
+
+2013-03-05 17-27-46     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Windows.Forms.UnsafeNativeMethods.GetExitCodeThread(IntPtr hThread, UInt32& lpExitCode)
+   在 System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 460
+
+2013-03-05 17-27-52     ---     委托回调错误：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Monitor.Enter(Object obj)
+   在 System.Windows.Forms.Control.FindMarshalingControl()
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 客户端主程序.FormMainPublic.ShowThreadResult(Hashtable OutPutHT) 位置 F:\富美开发项目\2011工作副本\平台-工作副本\客户端主程序\FormMainPublic.cs:行号 460
+

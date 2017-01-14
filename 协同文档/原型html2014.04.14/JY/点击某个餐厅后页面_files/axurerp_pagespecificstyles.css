@@ -1,0 +1,823 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../普通页面背景_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:30px;
+    top:20px;
+    width:320px;
+    height:569px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:326px;
+    height:575px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:276px;
+    width:316px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../普通页面背景_files/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:31px;
+    top:22px;
+    width:317px;
+    height:35px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:323px;
+    height:41px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:313px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4 {
+    position:absolute;
+    left:40px;
+    top:21px;
+    width:30px;
+    height:36px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6_line {
+    background-image: url('../点击某个餐厅后页面_files/u6_line.png');
+}
+
+.u6_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:300px;
+    height:3px;
+}
+
+.u6 {
+    position:absolute;
+    left:38px;
+    top:139px;
+    width:300px;
+    height:10px;
+    
+}
+
+.u7 {
+    position:absolute;
+    left:185px;
+    top:91px;
+    width:52px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8_line {
+    background-image: url('../点击某个餐厅后页面_files/u8_line.png');
+}
+
+.u8_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:300px;
+    height:3px;
+}
+
+.u8 {
+    position:absolute;
+    left:38px;
+    top:216px;
+    width:300px;
+    height:10px;
+    
+}
+
+.u9 {
+    position:absolute;
+    left:56px;
+    top:163px;
+    width:204px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10_normal {
+    background-image: url('../点击某个餐厅后页面_files/u10_normal.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:207px;
+    top:88px;
+    width:22px;
+    height:22px;
+}
+
+#u10_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:22px;
+    height:22px;
+}
+
+.u11 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:18px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12 {
+    position:absolute;
+    left:130px;
+    top:28px;
+    width:150px;
+    height:27px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13 {
+    position:absolute;
+    left:56px;
+    top:112px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_normal {
+    background-image: url('../点击某个餐厅后页面_files/u10_normal.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:202px;
+    top:110px;
+    width:22px;
+    height:22px;
+}
+
+#u14_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:22px;
+    height:22px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:18px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16_normal {
+    background-image: url('../点击某个餐厅后页面_files/u16_normal.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:280px;
+    top:163px;
+    width:47px;
+    height:48px;
+}
+
+#u16_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:47px;
+    height:48px;
+}
+
+.u17 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:43px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18_normal {
+    background-image: url('../点击某个餐厅后页面_files/u18_normal.png');
+}
+
+.u18_container {
+    position:absolute;
+    left:250px;
+    top:71px;
+    width:78px;
+    height:61px;
+}
+
+#u18_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:84px;
+    height:67px;
+}
+
+.u19 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:74px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20 {
+    position:absolute;
+    left:58px;
+    top:91px;
+    width:127px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21 {
+    position:absolute;
+    left:62px;
+    top:236px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22_normal {
+    background-image: url('../点击某个餐厅后页面_files/u10_normal.png');
+}
+
+.u22_container {
+    position:absolute;
+    left:299px;
+    top:236px;
+    width:22px;
+    height:22px;
+}
+
+#u22_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:22px;
+    height:22px;
+}
+
+.u23 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:18px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24_line {
+    background-image: url('../点击某个餐厅后页面_files/u24_line.png');
+}
+
+.u24_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:300px;
+    height:3px;
+}
+
+.u24 {
+    position:absolute;
+    left:38px;
+    top:260px;
+    width:300px;
+    height:10px;
+    
+}
+
+.u25_line {
+    background-image: url('../点击某个餐厅后页面_files/u25_line.png');
+}
+
+.u25_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:300px;
+    height:3px;
+}
+
+.u25 {
+    position:absolute;
+    left:40px;
+    top:374px;
+    width:300px;
+    height:10px;
+    
+}
+
+.u26 {
+    position:absolute;
+    left:122px;
+    top:310px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27 {
+    position:absolute;
+    left:122px;
+    top:336px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28 {
+    position:absolute;
+    left:122px;
+    top:356px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29_normal {
+    background-image: url('../点击某个餐厅后页面_files/u10_normal.png');
+}
+
+.u29_container {
+    position:absolute;
+    left:316px;
+    top:330px;
+    width:22px;
+    height:22px;
+}
+
+#u29_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:22px;
+    height:22px;
+}
+
+.u30 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:18px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31_line {
+    background-image: url('../点击某个餐厅后页面_files/u31_line.png');
+}
+
+.u31_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:300px;
+    height:3px;
+}
+
+.u31 {
+    position:absolute;
+    left:40px;
+    top:460px;
+    width:300px;
+    height:10px;
+    
+}
+
+.u32 {
+    position:absolute;
+    left:122px;
+    top:396px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u33 {
+    position:absolute;
+    left:121px;
+    top:438px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34_normal {
+    background-image: url('../点击某个餐厅后页面_files/u10_normal.png');
+}
+
+.u34_container {
+    position:absolute;
+    left:318px;
+    top:412px;
+    width:22px;
+    height:22px;
+}
+
+#u34_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:22px;
+    height:22px;
+}
+
+.u35 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:18px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36_normal {
+    background-image: url('../点击某个餐厅后页面_files/u36_normal.png');
+}
+
+.u36_container {
+    position:absolute;
+    left:49px;
+    top:310px;
+    width:60px;
+    height:60px;
+}
+
+#u36_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:66px;
+}
+
+.u37 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:56px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u38_normal {
+    background-image: url('../点击某个餐厅后页面_files/u36_normal.png');
+}
+
+.u38_container {
+    position:absolute;
+    left:50px;
+    top:395px;
+    width:60px;
+    height:60px;
+}
+
+#u38_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:66px;
+}
+
+.u39 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:56px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40 {
+    position:absolute;
+    left:122px;
+    top:418px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u41 {
+    position:absolute;
+    left:261px;
+    top:350px;
+    width:55px;
+    height:24px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u42 {
+    position:absolute;
+    left:256px;
+    top:434px;
+    width:55px;
+    height:24px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u43_normal {
+    background-image: url('../点击某个餐厅后页面_files/u43_normal.png');
+}
+
+.u43_container {
+    position:absolute;
+    left:316px;
+    top:29px;
+    width:24px;
+    height:24px;
+}
+
+#u43_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:24px;
+    height:24px;
+}
+
+.u44 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:20px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u45_normal {
+    background-image: url('../点击某个餐厅后页面_files/u45_normal.png');
+}
+
+.u45_container {
+    position:absolute;
+    left:279px;
+    top:28px;
+    width:24px;
+    height:24px;
+}
+
+#u45_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:24px;
+    height:24px;
+}
+
+.u46 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:20px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u47_normal {
+    background-image: url('../点击某个餐厅后页面_files/u47_normal.png');
+}
+
+.u47_container {
+    position:absolute;
+    left:380px;
+    top:80px;
+    width:400px;
+    height:169px;
+}
+
+#u47_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:406px;
+    height:175px;
+}
+
+.u48 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:396px;
+    height:160px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

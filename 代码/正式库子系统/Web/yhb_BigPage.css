@@ -1,0 +1,46 @@
+﻿        /* 分页 */
+.yhb_pagebox{overflow:hidden;  font-size:12px; font-family:"宋体",sans-serif;}
+.yhb_pagebox span{float:left; margin-right:2px; overflow:hidden; text-align:center; background:#fff;}
+.yhb_pagebox span a{display:block; overflow:hidden;  _float:left;}
+.yhb_pagebox span.pagebox_pre_nolink{border:1px #ddd solid; width:53px; height:21px; line-height:21px; text-align:center; color:#999; cursor:default;}
+.yhb_pagebox span.pagebox_pre{color:#3568b9; height:23px;}
+.yhb_pagebox span.pagebox_pre a,.yhb_pagebox span.pagebox_pre a:visited,.yhb_pagebox span.pagebox_next a,.yhb_pagebox span.pagebox_next a:visited{border:1px #b8b8b8 solid; color:#b8b8b8; text-decoration:none; text-align:center; width:53px; cursor:pointer; height:21px; line-height:21px;}
+.yhb_pagebox span.pagebox_pre a:hover,.yhb_pagebox span.pagebox_pre a:active,.yhb_pagebox span.pagebox_next a:hover,.yhb_pagebox span.pagebox_next a:active{color:#363636; border:1px #363636 solid;}
+.yhb_pagebox span.pagebox_num_nonce{border:1px #e6f2fe solid; padding:0 8px; height:21px; line-height:21px; color:#000000; cursor:default; background:#e6f2fe;}
+.yhb_pagebox span.pagebox_num{color:#3568b9; height:23px;}
+.yhb_pagebox span.pagebox_num a,.yhb_pagebox span.pagebox_num a:visited{border:1px #b8b8b8 solid; color:#8a8a8a; text-decoration:none; padding:0 8px; cursor:pointer; height:21px; line-height:21px;}
+.yhb_pagebox span.pagebox_num a:hover,.yhb_pagebox span.pagebox_num a:active{border:1px #363636 solid;color:#363636;}
+.yhb_pagebox span.pagebox_num_ellipsis{color:#393733; width:22px; background:none; line-height:23px;}
+.yhb_pagebox span.pagebox_next_nolink{border:1px #ddd solid; width:53px; height:21px; line-height:21px; text-align:center; color:#999; cursor:default;}
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

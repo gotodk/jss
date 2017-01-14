@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Pingan_Reply_1016" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Pingan_Reply_1016">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TotalCount" msdata:Caption="总记录数" type="xs:string" default="0" />
+                <xs:element name="BeginNum" msdata:Caption="起始记录号" type="xs:string" default="0" />
+                <xs:element name="LastPage" msdata:Caption="是否结束包" type="xs:string" default="0" />
+                <xs:element name="RecordNum" msdata:Caption="本次返回流水笔数" type="xs:string" default="0" />
+                <xs:element name="FrontLogNo" msdata:Caption="银行前置流水号" type="xs:string" default="0" />
+                <xs:element name="UserStatus" msdata:Caption="交易状态" type="xs:string" default="0" />
+                <xs:element name="CustAcctId" msdata:Caption="子账户账号" type="xs:string" default="0" />
+                <xs:element name="CustFlag" msdata:Caption="子账户性质" type="xs:string" default="0" />
+                <xs:element name="CustName" msdata:Caption="子账户名称" type="xs:string" default="0" />
+                <xs:element name="ThirdCustId" msdata:Caption="交易网会员代码" type="xs:string" default="0" />
+                <xs:element name="TranDate" msdata:Caption="交易日期" type="xs:string" default="0" />
+                <xs:element name="CounterId" msdata:Caption="操作柜员号" type="xs:string" default="0" />
+                <xs:element name="Reserve" msdata:Caption="保留域" type="xs:string" default="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Pingan_Reply_1016>
+    <TotalCount>0</TotalCount>
+    <BeginNum>0</BeginNum>
+    <LastPage>0</LastPage>
+    <RecordNum>0</RecordNum>
+    <FrontLogNo>0</FrontLogNo>
+    <UserStatus>0</UserStatus>
+    <CustAcctId>0</CustAcctId>
+    <CustFlag>0</CustFlag>
+    <CustName>0</CustName>
+    <ThirdCustId>0</ThirdCustId>
+    <TranDate>0</TranDate>
+    <CounterId>0</CounterId>
+    <Reserve>0</Reserve>
+  </Pingan_Reply_1016>
+</NewDataSet>

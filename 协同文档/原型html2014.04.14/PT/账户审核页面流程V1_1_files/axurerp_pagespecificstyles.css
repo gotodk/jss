@@ -1,0 +1,2000 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:120px;
+    top:160px;
+    width:140px;
+    height:101px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:107px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:42px;
+    width:136px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2 {
+    position:absolute;
+    left:123px;
+    top:172px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u3_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u3_normal.png');
+}
+
+.u3_container {
+    position:absolute;
+    left:134px;
+    top:204px;
+    width:112px;
+    height:41px;
+}
+
+#u3_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:47px;
+}
+
+.u4 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:108px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u5_normal.png');
+}
+
+.u5_container {
+    position:absolute;
+    left:123px;
+    top:314px;
+    width:137px;
+    height:96px;
+}
+
+#u5_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:143px;
+    height:102px;
+}
+
+.u6 {
+    position:absolute;
+    left:2px;
+    top:32px;
+    width:133px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u7_normal.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:356px;
+    top:365px;
+    width:85px;
+    height:30px;
+}
+
+#u7_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:91px;
+    height:36px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:81px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u9_normal.png');
+}
+
+.u9_container {
+    position:absolute;
+    left:493px;
+    top:340px;
+    width:140px;
+    height:75px;
+}
+
+#u9_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:81px;
+}
+
+.u10 {
+    position:absolute;
+    left:2px;
+    top:30px;
+    width:136px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11 {
+    position:absolute;
+    left:496px;
+    top:348px;
+    width:123px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u12_normal.png');
+}
+
+.u12_container {
+    position:absolute;
+    left:514px;
+    top:368px;
+    width:98px;
+    height:31px;
+}
+
+#u12_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:104px;
+    height:37px;
+}
+
+.u13 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:94px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u14_normal.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:507px;
+    top:378px;
+    width:112px;
+    height:31px;
+}
+
+#u14_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:37px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:108px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16c0 {
+    background-image: url('../账户审核页面流程V1_1_files/u16c0.png');
+}
+
+.u16c0 {
+    position:absolute;
+    left:437px;
+    top:370px;
+    width:24px;
+    height:20px;
+}
+
+.u16c1 {
+    background-image: url('../账户审核页面流程V1_1_files/u16c1.png');
+}
+
+.u16c1 {
+    position:absolute;
+    left:441px;
+    top:368px;
+    width:20px;
+    height:22px;
+}
+
+.u16c2 {
+    background-image: url('../账户审核页面流程V1_1_files/u16c2.png');
+}
+
+.u16c2 {
+    position:absolute;
+    left:441px;
+    top:368px;
+    width:56px;
+    height:20px;
+}
+
+.u17 {
+    position:absolute;
+    left:-25px;
+    top:-10px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u18_normal.png');
+}
+
+.u18_container {
+    position:absolute;
+    left:122px;
+    top:564px;
+    width:138px;
+    height:101px;
+}
+
+#u18_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:144px;
+    height:107px;
+}
+
+.u19 {
+    position:absolute;
+    left:2px;
+    top:42px;
+    width:134px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20 {
+    position:absolute;
+    left:126px;
+    top:576px;
+    width:148px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u21_normal.png');
+}
+
+.u21_container {
+    position:absolute;
+    left:136px;
+    top:608px;
+    width:111px;
+    height:41px;
+}
+
+#u21_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:117px;
+    height:47px;
+}
+
+.u22 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:107px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u23_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u7_normal.png');
+}
+
+.u23_container {
+    position:absolute;
+    left:302px;
+    top:630px;
+    width:85px;
+    height:30px;
+}
+
+#u23_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:91px;
+    height:36px;
+}
+
+.u24 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:81px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u25_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u7_normal.png');
+}
+
+.u25_container {
+    position:absolute;
+    left:302px;
+    top:581px;
+    width:85px;
+    height:30px;
+}
+
+#u25_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:91px;
+    height:36px;
+}
+
+.u26 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:81px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u7_normal.png');
+}
+
+.u27_container {
+    position:absolute;
+    left:148px;
+    top:470px;
+    width:85px;
+    height:30px;
+}
+
+#u27_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:91px;
+    height:36px;
+}
+
+.u28 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:81px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u29_normal.png');
+}
+
+.u29_container {
+    position:absolute;
+    left:447px;
+    top:569px;
+    width:145px;
+    height:79px;
+}
+
+#u29_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:151px;
+    height:85px;
+}
+
+.u30 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:141px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u9_normal.png');
+}
+
+.u31_container {
+    position:absolute;
+    left:660px;
+    top:571px;
+    width:140px;
+    height:75px;
+}
+
+#u31_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:81px;
+}
+
+.u32 {
+    position:absolute;
+    left:2px;
+    top:30px;
+    width:136px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u33 {
+    position:absolute;
+    left:663px;
+    top:579px;
+    width:123px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u12_normal.png');
+}
+
+.u34_container {
+    position:absolute;
+    left:681px;
+    top:599px;
+    width:98px;
+    height:31px;
+}
+
+#u34_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:104px;
+    height:37px;
+}
+
+.u35 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:94px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u14_normal.png');
+}
+
+.u36_container {
+    position:absolute;
+    left:674px;
+    top:609px;
+    width:112px;
+    height:31px;
+}
+
+#u36_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:37px;
+}
+
+.u37 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:108px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u38c0 {
+    background-image: url('../账户审核页面流程V1_1_files/u38c0.png');
+}
+
+.u38c0 {
+    position:absolute;
+    left:252px;
+    top:634px;
+    width:54px;
+    height:20px;
+}
+
+.u38c1 {
+    background-image: url('../账户审核页面流程V1_1_files/u38c1.png');
+}
+
+.u38c1 {
+    position:absolute;
+    left:252px;
+    top:585px;
+    width:20px;
+    height:69px;
+}
+
+.u38c2 {
+    background-image: url('../账户审核页面流程V1_1_files/u38c2.png');
+}
+
+.u38c2 {
+    position:absolute;
+    left:252px;
+    top:585px;
+    width:54px;
+    height:20px;
+}
+
+.u39 {
+    position:absolute;
+    left:-90px;
+    top:-32px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40c0 {
+    background-image: url('../账户审核页面流程V1_1_files/u40c0.png');
+}
+
+.u40c0 {
+    position:absolute;
+    left:383px;
+    top:586px;
+    width:64px;
+    height:20px;
+}
+
+.u40c1 {
+    background-image: url('../账户审核页面流程V1_1_files/u40c1.png');
+}
+
+.u40c1 {
+    position:absolute;
+    left:427px;
+    top:586px;
+    width:20px;
+    height:32px;
+}
+
+.u40c2 {
+    background-image: url('../账户审核页面流程V1_1_files/u40c2.png');
+}
+
+.u40c2 {
+    position:absolute;
+    left:427px;
+    top:598px;
+    width:24px;
+    height:20px;
+}
+
+.u41 {
+    position:absolute;
+    left:-14px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42c0 {
+    background-image: url('../账户审核页面流程V1_1_files/u42c0.png');
+}
+
+.u42c0 {
+    position:absolute;
+    left:383px;
+    top:635px;
+    width:69px;
+    height:20px;
+}
+
+.u42c1 {
+    background-image: url('../账户审核页面流程V1_1_files/u42c1.png');
+}
+
+.u42c1 {
+    position:absolute;
+    left:432px;
+    top:598px;
+    width:20px;
+    height:57px;
+}
+
+.u42c2 {
+    background-image: url('../账户审核页面流程V1_1_files/u42c2.png');
+}
+
+.u42c2 {
+    position:absolute;
+    left:432px;
+    top:598px;
+    width:19px;
+    height:20px;
+}
+
+.u43 {
+    position:absolute;
+    left:-2px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u44c0 {
+    background-image: url('../账户审核页面流程V1_1_files/u44c0.png');
+}
+
+.u44c0 {
+    position:absolute;
+    left:588px;
+    top:598px;
+    width:82px;
+    height:20px;
+}
+
+.u45 {
+    position:absolute;
+    left:-16px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u46_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u9_normal.png');
+}
+
+.u46_container {
+    position:absolute;
+    left:656px;
+    top:687px;
+    width:140px;
+    height:75px;
+}
+
+#u46_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:81px;
+}
+
+.u47 {
+    position:absolute;
+    left:2px;
+    top:30px;
+    width:136px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48 {
+    position:absolute;
+    left:660px;
+    top:695px;
+    width:123px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u49_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u12_normal.png');
+}
+
+.u49_container {
+    position:absolute;
+    left:678px;
+    top:715px;
+    width:98px;
+    height:31px;
+}
+
+#u49_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:104px;
+    height:37px;
+}
+
+.u50 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:94px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u51_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u14_normal.png');
+}
+
+.u51_container {
+    position:absolute;
+    left:670px;
+    top:725px;
+    width:112px;
+    height:31px;
+}
+
+#u51_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:37px;
+}
+
+.u52 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:108px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u53c0 {
+    background-image: url('../账户审核页面流程V1_1_files/u53c0.png');
+}
+
+.u53c0 {
+    position:absolute;
+    left:510px;
+    top:644px;
+    width:20px;
+    height:90px;
+}
+
+.u53c1 {
+    background-image: url('../账户审核页面流程V1_1_files/u53c1.png');
+}
+
+.u53c1 {
+    position:absolute;
+    left:510px;
+    top:714px;
+    width:154px;
+    height:20px;
+}
+
+.u54 {
+    position:absolute;
+    left:-18px;
+    top:68px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u55c0 {
+    background-image: url('../账户审核页面流程V1_1_files/u55c0.png');
+}
+
+.u55c0 {
+    position:absolute;
+    left:256px;
+    top:352px;
+    width:100px;
+    height:20px;
+}
+
+.u55c1 {
+    background-image: url('../账户审核页面流程V1_1_files/u55c1.png');
+}
+
+.u55c1 {
+    position:absolute;
+    left:336px;
+    top:352px;
+    width:20px;
+    height:38px;
+}
+
+.u55c2 {
+    background-image: url('../账户审核页面流程V1_1_files/u55c2.png');
+}
+
+.u55c2 {
+    position:absolute;
+    left:336px;
+    top:370px;
+    width:24px;
+    height:20px;
+}
+
+.u56 {
+    position:absolute;
+    left:7px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u57c0 {
+    background-image: url('../账户审核页面流程V1_1_files/u57c0.png');
+}
+
+.u57c0 {
+    position:absolute;
+    left:182px;
+    top:406px;
+    width:20px;
+    height:64px;
+}
+
+.u57c1 {
+    background-image: url('../账户审核页面流程V1_1_files/u57c1.png');
+}
+
+.u57c1 {
+    position:absolute;
+    left:180px;
+    top:450px;
+    width:22px;
+    height:20px;
+}
+
+.u57c2 {
+    background-image: url('../账户审核页面流程V1_1_files/u57c2.png');
+}
+
+.u57c2 {
+    position:absolute;
+    left:180px;
+    top:450px;
+    width:20px;
+    height:24px;
+}
+
+.u58 {
+    position:absolute;
+    left:-50px;
+    top:23px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u59c0 {
+    background-image: url('../账户审核页面流程V1_1_files/u59c0.png');
+}
+
+.u59c0 {
+    position:absolute;
+    left:180px;
+    top:257px;
+    width:20px;
+    height:57px;
+}
+
+.u59c1 {
+    background-image: url('../账户审核页面流程V1_1_files/u59c1.png');
+}
+
+.u59c1 {
+    position:absolute;
+    left:180px;
+    top:294px;
+    width:22px;
+    height:20px;
+}
+
+.u59c2 {
+    background-image: url('../账户审核页面流程V1_1_files/u59c2.png');
+}
+
+.u59c2 {
+    position:absolute;
+    left:182px;
+    top:294px;
+    width:20px;
+    height:24px;
+}
+
+.u60 {
+    position:absolute;
+    left:-50px;
+    top:20px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u61_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u61_normal.png');
+}
+
+.u61_container {
+    position:absolute;
+    left:643px;
+    top:342px;
+    width:257px;
+    height:68px;
+}
+
+#u61_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:263px;
+    height:74px;
+}
+
+.u62 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:253px;
+    height:64px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u63_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u18_normal.png');
+}
+
+.u63_container {
+    position:absolute;
+    left:122px;
+    top:855px;
+    width:138px;
+    height:101px;
+}
+
+#u63_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:144px;
+    height:107px;
+}
+
+.u64 {
+    position:absolute;
+    left:2px;
+    top:42px;
+    width:134px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u65 {
+    position:absolute;
+    left:126px;
+    top:867px;
+    width:148px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u66_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u66_normal.png');
+}
+
+.u66_container {
+    position:absolute;
+    left:136px;
+    top:893px;
+    width:111px;
+    height:47px;
+}
+
+#u66_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:117px;
+    height:53px;
+}
+
+.u67 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:107px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u68c0 {
+    background-image: url('../账户审核页面流程V1_1_files/u68c0.png');
+}
+
+.u68c0 {
+    position:absolute;
+    left:180px;
+    top:496px;
+    width:20px;
+    height:24px;
+}
+
+.u68c1 {
+    background-image: url('../账户审核页面流程V1_1_files/u68c1.png');
+}
+
+.u68c1 {
+    position:absolute;
+    left:180px;
+    top:500px;
+    width:21px;
+    height:20px;
+}
+
+.u68c2 {
+    background-image: url('../账户审核页面流程V1_1_files/u68c2.png');
+}
+
+.u68c2 {
+    position:absolute;
+    left:181px;
+    top:500px;
+    width:20px;
+    height:68px;
+}
+
+.u69 {
+    position:absolute;
+    left:-49px;
+    top:24px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u70_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u7_normal.png');
+}
+
+.u70_container {
+    position:absolute;
+    left:308px;
+    top:895px;
+    width:85px;
+    height:30px;
+}
+
+#u70_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:91px;
+    height:36px;
+}
+
+.u71 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:81px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u72_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u29_normal.png');
+}
+
+.u72_container {
+    position:absolute;
+    left:438px;
+    top:859px;
+    width:145px;
+    height:79px;
+}
+
+#u72_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:151px;
+    height:85px;
+}
+
+.u73 {
+    position:absolute;
+    left:2px;
+    top:24px;
+    width:141px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u74c0 {
+    background-image: url('../账户审核页面流程V1_1_files/u74c0.png');
+}
+
+.u74c0 {
+    position:absolute;
+    left:579px;
+    top:889px;
+    width:82px;
+    height:20px;
+}
+
+.u75 {
+    position:absolute;
+    left:-16px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u76_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u9_normal.png');
+}
+
+.u76_container {
+    position:absolute;
+    left:658px;
+    top:869px;
+    width:140px;
+    height:75px;
+}
+
+#u76_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:81px;
+}
+
+.u77 {
+    position:absolute;
+    left:2px;
+    top:30px;
+    width:136px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u78 {
+    position:absolute;
+    left:661px;
+    top:877px;
+    width:123px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u79_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u12_normal.png');
+}
+
+.u79_container {
+    position:absolute;
+    left:679px;
+    top:897px;
+    width:98px;
+    height:31px;
+}
+
+#u79_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:104px;
+    height:37px;
+}
+
+.u80 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:94px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u81_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u14_normal.png');
+}
+
+.u81_container {
+    position:absolute;
+    left:672px;
+    top:907px;
+    width:112px;
+    height:31px;
+}
+
+#u81_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:37px;
+}
+
+.u82 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:108px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u83c0 {
+    background-image: url('../账户审核页面流程V1_1_files/u83c0.png');
+}
+
+.u83c0 {
+    position:absolute;
+    left:256px;
+    top:896px;
+    width:52px;
+    height:20px;
+}
+
+.u83c1 {
+    background-image: url('../账户审核页面流程V1_1_files/u83c1.png');
+}
+
+.u83c1 {
+    position:absolute;
+    left:288px;
+    top:896px;
+    width:20px;
+    height:24px;
+}
+
+.u83c2 {
+    background-image: url('../账户审核页面流程V1_1_files/u83c2.png');
+}
+
+.u83c2 {
+    position:absolute;
+    left:288px;
+    top:900px;
+    width:24px;
+    height:20px;
+}
+
+.u84 {
+    position:absolute;
+    left:-24px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u85c0 {
+    background-image: url('../账户审核页面流程V1_1_files/u85c0.png');
+}
+
+.u85c0 {
+    position:absolute;
+    left:389px;
+    top:900px;
+    width:49px;
+    height:20px;
+}
+
+.u85c1 {
+    background-image: url('../账户审核页面流程V1_1_files/u85c1.png');
+}
+
+.u85c1 {
+    position:absolute;
+    left:418px;
+    top:888px;
+    width:20px;
+    height:32px;
+}
+
+.u85c2 {
+    background-image: url('../账户审核页面流程V1_1_files/u85c2.png');
+}
+
+.u85c2 {
+    position:absolute;
+    left:418px;
+    top:888px;
+    width:24px;
+    height:20px;
+}
+
+.u86 {
+    position:absolute;
+    left:-22px;
+    top:-8px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u87c0 {
+    background-image: url('../账户审核页面流程V1_1_files/u87c0.png');
+}
+
+.u87c0 {
+    position:absolute;
+    left:500px;
+    top:934px;
+    width:20px;
+    height:84px;
+}
+
+.u87c1 {
+    background-image: url('../账户审核页面流程V1_1_files/u87c1.png');
+}
+
+.u87c1 {
+    position:absolute;
+    left:500px;
+    top:998px;
+    width:162px;
+    height:20px;
+}
+
+.u88 {
+    position:absolute;
+    left:-11px;
+    top:62px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u89_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u89_normal.png');
+}
+
+.u89_container {
+    position:absolute;
+    left:308px;
+    top:136px;
+    width:530px;
+    height:109px;
+}
+
+#u89_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:536px;
+    height:115px;
+}
+
+.u90 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:526px;
+    height:80px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u91_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u9_normal.png');
+}
+
+.u91_container {
+    position:absolute;
+    left:658px;
+    top:470px;
+    width:140px;
+    height:75px;
+}
+
+#u91_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:81px;
+}
+
+.u92 {
+    position:absolute;
+    left:2px;
+    top:30px;
+    width:136px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u93 {
+    position:absolute;
+    left:661px;
+    top:478px;
+    width:123px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u94_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u12_normal.png');
+}
+
+.u94_container {
+    position:absolute;
+    left:679px;
+    top:498px;
+    width:98px;
+    height:31px;
+}
+
+#u94_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:104px;
+    height:37px;
+}
+
+.u95 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:94px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u96_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u14_normal.png');
+}
+
+.u96_container {
+    position:absolute;
+    left:672px;
+    top:508px;
+    width:112px;
+    height:31px;
+}
+
+#u96_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:37px;
+}
+
+.u97 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:108px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u98c0 {
+    background-image: url('../账户审核页面流程V1_1_files/u98c0.png');
+}
+
+.u98c0 {
+    position:absolute;
+    left:510px;
+    top:498px;
+    width:20px;
+    height:75px;
+}
+
+.u98c1 {
+    background-image: url('../账户审核页面流程V1_1_files/u98c1.png');
+}
+
+.u98c1 {
+    position:absolute;
+    left:510px;
+    top:498px;
+    width:152px;
+    height:20px;
+}
+
+.u99 {
+    position:absolute;
+    left:-12px;
+    top:-69px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u100_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u9_normal.png');
+}
+
+.u100_container {
+    position:absolute;
+    left:656px;
+    top:970px;
+    width:140px;
+    height:75px;
+}
+
+#u100_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:81px;
+}
+
+.u101 {
+    position:absolute;
+    left:2px;
+    top:30px;
+    width:136px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u102 {
+    position:absolute;
+    left:659px;
+    top:978px;
+    width:123px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u103_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u12_normal.png');
+}
+
+.u103_container {
+    position:absolute;
+    left:677px;
+    top:998px;
+    width:98px;
+    height:31px;
+}
+
+#u103_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:104px;
+    height:37px;
+}
+
+.u104 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:94px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u105_normal {
+    background-image: url('../账户审核页面流程V1_1_files/u14_normal.png');
+}
+
+.u105_container {
+    position:absolute;
+    left:670px;
+    top:1008px;
+    width:112px;
+    height:31px;
+}
+
+#u105_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:37px;
+}
+
+.u106 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:108px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u107 {
+    position:absolute;
+    left:97px;
+    top:774px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u108 {
+    position:absolute;
+    left:124px;
+    top:54px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

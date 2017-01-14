@@ -1,0 +1,67 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Pingan_Reply_1015" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Pingan_Reply_1015">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TotalCount" msdata:Caption="总记录数" type="xs:string" default="0" />
+                <xs:element name="BeginNum" msdata:Caption="起始记录号" type="xs:string" default="0" />
+                <xs:element name="LastPage" msdata:Caption="是否结束包" type="xs:string" default="0" />
+                <xs:element name="RecordNum" msdata:Caption="本次返回流水笔数" type="xs:string" default="0" />
+                <xs:element name="TranFlag" msdata:Caption="记账标志" type="xs:string" default="0" />
+                <xs:element name="FuncMsg" msdata:Caption="记账说明" type="xs:string" default="0" />
+                <xs:element name="TranStatus" msdata:Caption="交易状态" type="xs:string" default="0" />
+                <xs:element name="TranAmount" msdata:Caption="金额" type="xs:string" default="0" />
+                <xs:element name="HandFee" msdata:Caption="手续费" type="xs:string" default="0" />
+                <xs:element name="MailFee" msdata:Caption="邮电费" type="xs:string" default="0" />
+                <xs:element name="FeezeAmount" msdata:Caption="冻结金额" type="xs:string" default="0" />
+                <xs:element name="UnFeezeAmount" msdata:Caption="解冻金额" type="xs:string" default="0" />
+                <xs:element name="AddBalance" msdata:Caption="增加可用余额" type="xs:string" default="0" />
+                <xs:element name="CutBalance" msdata:Caption="减少可用余额" type="xs:string" default="0" />
+                <xs:element name="ProfitAmount" msdata:Caption="盈利" type="xs:string" default="0" />
+                <xs:element name="LossAmount" msdata:Caption="亏损" type="xs:string" default="0" />
+                <xs:element name="TranDate" msdata:Caption="交易日期" type="xs:string" default="0" />
+                <xs:element name="TranTime" msdata:Caption="交易时间" type="xs:string" default="0" />
+                <xs:element name="FrontLogNo" msdata:Caption="前置流水号" type="xs:string" default="0" />
+                <xs:element name="ThirdLogNo" msdata:Caption="交易网流水号" type="xs:string" default="0" />
+                <xs:element name="KeepType" msdata:Caption="记账类型" type="xs:string" default="0" />
+                <xs:element name="ThirdHtId" msdata:Caption="合同号" type="xs:string" default="0" />
+                <xs:element name="Note" msdata:Caption="备注" type="xs:string" default="0" />
+                <xs:element name="Reserve" msdata:Caption="保留域" type="xs:string" default="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Pingan_Reply_1015>
+    <TotalCount>0</TotalCount>
+    <BeginNum>0</BeginNum>
+    <LastPage>0</LastPage>
+    <RecordNum>0</RecordNum>
+    <TranFlag>0</TranFlag>
+    <FuncMsg>0</FuncMsg>
+    <TranStatus>0</TranStatus>
+    <TranAmount>0</TranAmount>
+    <HandFee>0</HandFee>
+    <MailFee>0</MailFee>
+    <FeezeAmount>0</FeezeAmount>
+    <UnFeezeAmount>0</UnFeezeAmount>
+    <AddBalance>0</AddBalance>
+    <CutBalance>0</CutBalance>
+    <ProfitAmount>0</ProfitAmount>
+    <LossAmount>0</LossAmount>
+    <TranDate>0</TranDate>
+    <TranTime>0</TranTime>
+    <FrontLogNo>0</FrontLogNo>
+    <ThirdLogNo>0</ThirdLogNo>
+    <KeepType>0</KeepType>
+    <ThirdHtId>0</ThirdHtId>
+    <Note>0</Note>
+    <Reserve>0</Reserve>
+  </Pingan_Reply_1015>
+</NewDataSet>

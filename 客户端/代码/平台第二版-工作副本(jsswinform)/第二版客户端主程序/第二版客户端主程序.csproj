@@ -1,0 +1,836 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8624184E-00F4-4E44-8189-343363769FA6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>客户端主程序</RootNamespace>
+    <AssemblyName>中国商品批发交易平台</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>F:\ss\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>客户端主程序.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ji.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <TargetZone>Internet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>DD387DA841673E8AB3118C077922FBA09640BD92</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>第二版客户端主程序_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Shared.v8.2, Version=8.2.20082.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Infragistics2.Shared.v8.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.Misc.v8.2, Version=8.2.20082.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\练习\winform\dll\Infragistics2.Win.Misc.v8.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinChart.v8.2, Version=8.2.20082.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\练习\winform\dll\Infragistics2.Win.UltraWinChart.v8.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Infragistics2.Win.v8.2, Version=8.2.20082.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\练习\winform\dll\Infragistics2.Win.v8.2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="org.in2bits.MyXls, Version=0.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\org.in2bits.MyXls.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <HintPath>bin\Debug\System.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <HintPath>bin\Debug\System.Data.DataSetExtensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.EnterpriseServices">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\System.Web.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AD.Designer.cs">
+      <DependentUpon>AD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppSingleton.cs" />
+    <Compile Include="AutoUpdate\AppUpdater.cs" />
+    <Compile Include="AutoUpdate\IniFiles.cs" />
+    <Compile Include="AutoUpdate\ThreadDownLoad.cs" />
+    <Compile Include="AutoUpdate\XmlFiles.cs" />
+    <Compile Include="DataControl\RunThreadClassTest.cs" />
+    <Compile Include="DataControl\RunThreadClassTestFL.cs" />
+    <Compile Include="DataControl\RunThreadClassUp.cs" />
+    <Compile Include="fmSelectGXTW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmSelectGXTW.Designer.cs">
+      <DependentUpon>fmSelectGXTW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKTJYZH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKTJYZH.designer.cs">
+      <DependentUpon>FormKTJYZH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SPXQ2014.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SPXQ2014.Designer.cs">
+      <DependentUpon>SPXQ2014.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMainPublic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMainPublic.Designer.cs">
+      <DependentUpon>FormMainPublic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrdJYJL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrdJYJL.Designer.cs">
+      <DependentUpon>FormPrdJYJL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegister.Designer.cs">
+      <DependentUpon>FormRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegister2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegister2.Designer.cs">
+      <DependentUpon>FormRegister2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegister3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegister3.Designer.cs">
+      <DependentUpon>FormRegister3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormResetPwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormResetPwd.Designer.cs">
+      <DependentUpon>FormResetPwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormResetPwd2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormResetPwd2.Designer.cs">
+      <DependentUpon>FormResetPwd2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormResetPwd3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormResetPwd3.Designer.cs">
+      <DependentUpon>FormResetPwd3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUp.Designer.cs">
+      <DependentUpon>FormUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormZCXY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormZCXY.Designer.cs">
+      <DependentUpon>FormZCXY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyCustomTooltip.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SPXQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SPXQ.Designer.cs">
+      <DependentUpon>SPXQ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\FormSelectList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\FormSelectList.Designer.cs">
+      <DependentUpon>FormSelectList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\FormWebBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\FormWebBrowser.Designer.cs">
+      <DependentUpon>FormWebBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\Center2013.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\Center2013.Designer.cs">
+      <DependentUpon>Center2013.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\fmDY_DemoTwo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\fmDY_DemoTwo.Designer.cs">
+      <DependentUpon>fmDY_DemoTwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\FormGJSS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\FormGJSS.Designer.cs">
+      <DependentUpon>FormGJSS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\DEMO1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\DEMO1.Designer.cs">
+      <DependentUpon>DEMO1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\DEMO2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\DEMO2.Designer.cs">
+      <DependentUpon>DEMO2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\fmSYXQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\fmSYXQ.Designer.cs">
+      <DependentUpon>fmSYXQ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\TZJL\ucTZJL_B.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\TZJL\ucTZJL_B.Designer.cs">
+      <DependentUpon>ucTZJL_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\TZJL\ucXYJL.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\TZJL\ucXYJL.Designer.cs">
+      <DependentUpon>ucXYJL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\ZHWH\ucZHZL_B.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\ZHWH\ucZHZL_B.Designer.cs">
+      <DependentUpon>ucZHZL_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\ucSYGL.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\ucSYGL.Designer.cs">
+      <DependentUpon>ucSYGL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\UCdayindemo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\UCdayindemo.Designer.cs">
+      <DependentUpon>UCdayindemo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\UCdayindemo2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\UCdayindemo2.Designer.cs">
+      <DependentUpon>UCdayindemo2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\UCdayindemoLiTwoTwoTwo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\UCdayindemoLiTwoTwoTwo.Designer.cs">
+      <DependentUpon>UCdayindemoLiTwoTwoTwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\fmDY_Demo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\fmDY_Demo.Designer.cs">
+      <DependentUpon>fmDY_Demo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\UCdayindemoLi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\UCdayindemoLi.Designer.cs">
+      <DependentUpon>UCdayindemoLi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\ucBCSYFSJL_C.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\ucBCSYFSJL_C.Designer.cs">
+      <DependentUpon>ucBCSYFSJL_C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\ucBCSY_C.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\ucBCSY_C.Designer.cs">
+      <DependentUpon>ucBCSY_C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\ucDJZJ_C.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\ucDJZJ_C.Designer.cs">
+      <DependentUpon>ucDJZJ_C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\ucHKSF_C.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\ucHKSF_C.Designer.cs">
+      <DependentUpon>ucHKSF_C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\ucJJRSYFSJL_C.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\ucJJRSYFSJL_C.Designer.cs">
+      <DependentUpon>ucJJRSYFSJL_C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\ucJJRSYZQ_B.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\ucJJRSYZQ_B.Designer.cs">
+      <DependentUpon>ucJJRSYZQ_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\ucJJRSY_C.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\ucJJRSY_C.Designer.cs">
+      <DependentUpon>ucJJRSY_C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\ucWYPCFSJL_C.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\ucWYPCFSJL_C.Designer.cs">
+      <DependentUpon>ucWYPCFSJL_C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\ucWYPC_C.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\ucWYPC_C.Designer.cs">
+      <DependentUpon>ucWYPC_C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\ucZJYEBDMX_C.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\ucZJYEBDMX_C.Designer.cs">
+      <DependentUpon>ucZJYEBDMX_C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\ucZJZZ_B.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\ucZJZZ_B.Designer.cs">
+      <DependentUpon>ucZJZZ_B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\ucZJZZ_C.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\SUBUC\ucZJZZ_C.Designer.cs">
+      <DependentUpon>ucZJZZ_C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\UCA.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\UCA.Designer.cs">
+      <DependentUpon>UCA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\UCCtongji.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\UCCtongji.Designer.cs">
+      <DependentUpon>UCCtongji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\UCmenuB.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\NewCenterForm\UCmenuB.Designer.cs">
+      <DependentUpon>UCmenuB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForm\WarseList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubForm\WarseList.Designer.cs">
+      <DependentUpon>WarseList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADNew.Designer.cs">
+      <DependentUpon>ADNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmSelectBank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmSelectBank.Designer.cs">
+      <DependentUpon>fmSelectBank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmSelectGover.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmSelectGover.Designer.cs">
+      <DependentUpon>fmSelectGover.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmSelectHYXH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmSelectHYXH.Designer.cs">
+      <DependentUpon>fmSelectHYXH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmSelectBankYG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmSelectBankYG.Designer.cs">
+      <DependentUpon>fmSelectBankYG.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AD.resx">
+      <DependentUpon>AD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmSelectGXTW.resx">
+      <DependentUpon>fmSelectGXTW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKTJYZH.resx">
+      <DependentUpon>FormKTJYZH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SPXQ2014.resx">
+      <DependentUpon>SPXQ2014.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMainPublic.resx">
+      <DependentUpon>FormMainPublic.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrdJYJL.resx">
+      <DependentUpon>FormPrdJYJL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegister.resx">
+      <DependentUpon>FormRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegister2.resx">
+      <DependentUpon>FormRegister2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegister3.resx">
+      <DependentUpon>FormRegister3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormResetPwd.resx">
+      <DependentUpon>FormResetPwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormResetPwd2.resx">
+      <DependentUpon>FormResetPwd2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormResetPwd3.resx">
+      <DependentUpon>FormResetPwd3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUp.resx">
+      <DependentUpon>FormUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormZCXY.resx">
+      <DependentUpon>FormZCXY.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SPXQ.resx">
+      <DependentUpon>SPXQ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\FormSelectList.resx">
+      <DependentUpon>FormSelectList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\FormWebBrowser.resx">
+      <DependentUpon>FormWebBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\Center2013.resx">
+      <DependentUpon>Center2013.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\fmDY_DemoTwo.resx">
+      <DependentUpon>fmDY_DemoTwo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\FormGJSS.resx">
+      <DependentUpon>FormGJSS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\SUBUC\DEMO1.resx">
+      <DependentUpon>DEMO1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\SUBUC\DEMO2.resx">
+      <DependentUpon>DEMO2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\SUBUC\fmSYXQ.resx">
+      <DependentUpon>fmSYXQ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\SUBUC\TZJL\ucTZJL_B.resx">
+      <DependentUpon>ucTZJL_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\SUBUC\TZJL\ucXYJL.resx">
+      <DependentUpon>ucXYJL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\SUBUC\ucBCSYFSJL_C.resx">
+      <DependentUpon>ucBCSYFSJL_C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\SUBUC\ucBCSY_C.resx">
+      <DependentUpon>ucBCSY_C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\SUBUC\ucDJZJ_C.resx">
+      <DependentUpon>ucDJZJ_C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\SUBUC\ucHKSF_C.resx">
+      <DependentUpon>ucHKSF_C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\SUBUC\ucJJRSYFSJL_C.resx">
+      <DependentUpon>ucJJRSYFSJL_C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\SUBUC\ucJJRSYZQ_B.resx">
+      <DependentUpon>ucJJRSYZQ_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\SUBUC\ucJJRSY_C.resx">
+      <DependentUpon>ucJJRSY_C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\SUBUC\ucWYPCFSJL_C.resx">
+      <DependentUpon>ucWYPCFSJL_C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\SUBUC\ucWYPC_C.resx">
+      <DependentUpon>ucWYPC_C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\SUBUC\ucZJYEBDMX_C.resx">
+      <DependentUpon>ucZJYEBDMX_C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\SUBUC\ucZJZZ_B.resx">
+      <DependentUpon>ucZJZZ_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\SUBUC\ucZJZZ_C.resx">
+      <DependentUpon>ucZJZZ_C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\SUBUC\ZHWH\ucZHZL_B.resx">
+      <DependentUpon>ucZHZL_B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\SUBUC\ucSYGL.resx">
+      <DependentUpon>ucSYGL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\UCA.resx">
+      <DependentUpon>UCA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\UCCtongji.resx">
+      <DependentUpon>UCCtongji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\UCdayindemo.resx">
+      <DependentUpon>UCdayindemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\UCdayindemoLiTwoTwoTwo.resx">
+      <DependentUpon>UCdayindemoLiTwoTwoTwo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\UCmenuB.resx">
+      <DependentUpon>UCmenuB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\UCdayindemo2.resx">
+      <DependentUpon>UCdayindemo2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\fmDY_Demo.resx">
+      <DependentUpon>fmDY_Demo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\NewCenterForm\UCdayindemoLi.resx">
+      <DependentUpon>UCdayindemoLi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\WarseList.resx">
+      <DependentUpon>WarseList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADNew.resx">
+      <DependentUpon>ADNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmSelectBank.resx">
+      <DependentUpon>fmSelectBank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmSelectGover.resx">
+      <DependentUpon>fmSelectGover.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmSelectHYXH.resx">
+      <DependentUpon>fmSelectHYXH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmSelectBankYG.resx">
+      <DependentUpon>fmSelectBankYG.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\DataSources\System.Data.DataSet.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\A_B1_ Variable\A_B1_ Variable.csproj">
+      <Project>{db32a8f2-e323-4bb9-a27d-e9c811ff0eb9}</Project>
+      <Name>A_B1_ Variable</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_B2_Variable\A_B2_Variable.csproj">
+      <Project>{3d121940-630b-4455-93a5-58adfa05e06b}</Project>
+      <Name>A_B2_Variable</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_K1_Controll_D\A_K1_Controll_D.csproj">
+      <Project>{a71e85d3-b3e9-48f9-945e-31cf5f4a4298}</Project>
+      <Name>A_K1_Controll_D</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_K1_Control_G\A_K1_Control_G.csproj">
+      <Project>{c1ecfba3-9903-4b9d-8da1-e4ef6d481947}</Project>
+      <Name>A_K1_Control_G</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_K2_Control_G\A_K2_Control_G.csproj">
+      <Project>{0557a9f7-a746-4ada-9b61-4e5c7c9e7326}</Project>
+      <Name>A_K2_Control_G</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_K3_Conteol_D\A_K3_Conteol_D.csproj">
+      <Project>{8edd3892-a165-4428-b931-ea9bec97c203}</Project>
+      <Name>A_K3_Conteol_D</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_K3_Control_G\A_K3_Control_G.csproj">
+      <Project>{697f2156-027f-4307-b723-71febcfb5e04}</Project>
+      <Name>A_K3_Control_G</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_P1_Support\A_P1_Support.csproj">
+      <Project>{c3220c8d-a8e2-4332-9271-392f7059cfe0}</Project>
+      <Name>A_P1_Support</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_P2_Support\A_P2_Support.csproj">
+      <Project>{cc6aef3d-fdb9-4746-bc80-7ffeea35d4cb}</Project>
+      <Name>A_P2_Support</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_P3_Support\A_P3_Support.csproj">
+      <Project>{0861d6c1-f520-4945-8883-eb5e3438dda4}</Project>
+      <Name>A_P3_Support</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_P4_Support\A_P4_Support.csproj">
+      <Project>{3df94ba2-93cb-4f64-9472-b2deefcf60cc}</Project>
+      <Name>A_P4_Support</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_W1_Services\A_W1_Services.csproj">
+      <Project>{3724ee9b-33df-4c4f-8172-13a55346bd03}</Project>
+      <Name>A_W1_Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_Y1_Business_Old\A_Y1_Business_Old.csproj">
+      <Project>{b1618213-4aaa-4adf-b4d6-bd573b0433ff}</Project>
+      <Name>A_Y1_Business_Old</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_Y2_Business_New\A_Y2_Business_New.csproj">
+      <Project>{14cbb1d0-aa2b-4400-a0fb-a4af20ce71d1}</Project>
+      <Name>A_Y2_Business_New</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_Y3_Business_Muban\A_Y3_Business_Muban.csproj">
+      <Project>{97a81270-e1e6-4cfc-8a89-a5c3b7989d62}</Project>
+      <Name>A_Y3_Business_Muban</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_Y4_Business_SPMM\A_Y4_Business_SPMM.csproj">
+      <Project>{dc1b58a2-ed4a-47f2-afae-6ee62c2efe14}</Project>
+      <Name>A_Y4_Business_SPMM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_Y5_Business_HWSF\A_Y5_Business_HWSF.csproj">
+      <Project>{c3d27094-2bb3-4af8-b005-9ddacc5cc155}</Project>
+      <Name>A_Y5_Business_HWSF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_Y6_Business_JJRYWGL\A_Y6_Business_JJRYWGL.csproj">
+      <Project>{9ea75130-9444-4f49-96a5-82420460d294}</Project>
+      <Name>A_Y6_Business_JJRYWGL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\A_Y7_Business_ZHWH\A_Y7_Business_ZHWH.csproj">
+      <Project>{f0f0ca20-b8ca-4eaf-9299-09bae3db9fc1}</Project>
+      <Name>A_Y7_Business_ZHWH</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QQ Skins\QQ Skins.csproj">
+      <Project>{ca97a4a8-003a-4215-afd3-9ad4939d48f5}</Project>
+      <Name>QQ Skins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\BeginCopyUp.exe" />
+    <Content Include="bin\Debug\Config.xml" />
+    <Content Include="bin\Debug\Infragistics2.Shared.v8.2.dll" />
+    <Content Include="bin\Debug\Infragistics2.Win.Misc.v8.2.dll" />
+    <Content Include="bin\Debug\Infragistics2.Win.UltraWinChart.v8.2.dll" />
+    <Content Include="bin\Debug\Infragistics2.Win.v8.2.dll" />
+    <Content Include="bin\Debug\O2S.Components.PDFRender4NET.dll" />
+    <Content Include="bin\Debug\O2S.Components.PDFView4NET.dll" />
+    <Content Include="bin\Debug\org.in2bits.MyXls.dll" />
+    <Content Include="bin\Debug\skin\cuowu.png" />
+    <Content Include="bin\Debug\skin\duihao.png" />
+    <Content Include="bin\Debug\skin\huangguanxing.png" />
+    <Content Include="bin\Debug\skin\hy.jpg" />
+    <Content Include="bin\Debug\skin\hz.jpg" />
+    <Content Include="bin\Debug\skin\ji.ico" />
+    <Content Include="bin\Debug\skin\landian.gif" />
+    <Content Include="bin\Debug\skin\loginbg.jpg" />
+    <Content Include="bin\Debug\skin\myxz.gif" />
+    <Content Include="bin\Debug\skin\myxz_jishi.png" />
+    <Content Include="bin\Debug\skin\myxz_sangeyue.png" />
+    <Content Include="bin\Debug\skin\myxz_yinian.png" />
+    <Content Include="bin\Debug\skin\pagerload.gif" />
+    <Content Include="bin\Debug\skin\qx.jpg" />
+    <Content Include="bin\Debug\skin\qz.jpg" />
+    <Content Include="bin\Debug\skin\tanhao.png" />
+    <Content Include="bin\Debug\skin\tupianshuiyin.png" />
+    <Content Include="bin\Debug\skin\vipxing.png" />
+    <Content Include="bin\Debug\skin\wenhao.jpg" />
+    <Content Include="bin\Debug\skin\wenhao.png" />
+    <Content Include="bin\Debug\skin\xg.jpg" />
+    <Content Include="bin\Debug\skin\xinxing.png" />
+    <Content Include="bin\Debug\skin\yun001.png" />
+    <Content Include="bin\Debug\skin\yun002.png" />
+    <Content Include="bin\Debug\skin\yun003.png" />
+    <Content Include="bin\Debug\skin\zhzx.png" />
+    <Content Include="bin\Debug\skin\zuanxing.png" />
+    <Content Include="bin\Debug\skin\zy.jpg" />
+    <Content Include="bin\Debug\skin\z_bannian.png" />
+    <Content Include="bin\Debug\skin\z_dingliang.png" />
+    <Content Include="bin\Debug\skin\z_yinian.png" />
+    <Content Include="bin\Debug\skin\z_zixuan.png" />
+    <Content Include="bin\Debug\UpdateList.xml" />
+    <Content Include="ji.ico" />
+    <Content Include="tuce.jpg" />
+    <None Include="Resources\tupianshuiyin.png" />
+    <None Include="Resources\CCWPT.png" />
+    <None Include="Resources\CCWPT.gif" />
+    <Content Include="no.jpg" />
+    <Content Include="Resources\zhupanbiaoti.png" />
+    <None Include="Resources\378.gif" />
+    <None Include="Resources\progressbar_long_green.gif" />
+    <None Include="Resources\myxz.gif" />
+    <None Include="Resources\indicator_web20_working.gif" />
+    <None Include="Resources\indicator_mozilla_blu.gif" />
+    <None Include="Resources\indicator_medium.gif" />
+    <None Include="Resources\indicator_bar.gif" />
+    <None Include="Resources\indicator_arrows.gif" />
+    <None Include="Resources\indicator1.gif" />
+    <None Include="Resources\8-0.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\ForIPC\" />
+    <Folder Include="bin\Debug\HTTEMP\" />
+    <Folder Include="UCpublic\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

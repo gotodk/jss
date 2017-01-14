@@ -1,0 +1,18 @@
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Demo\bin\Debug\QQ Demo.exe
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Demo\bin\Debug\QQ Demo.pdb
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Demo\bin\Debug\Skins.dll
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Demo\bin\Debug\Skins.pdb
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Demo\obj\Debug\QQ_Demo.Form1.resources
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Demo\obj\Debug\QQ Demo.csproj.GenerateResource.Cache
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Demo\obj\Debug\QQ Demo.exe
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Demo\obj\Debug\QQ Demo.pdb
+F:\富美开发项目\2011工作副本\平台-工作副本\QQ Demo\obj\Debug\QQ Demo.csprojResolveAssemblyReference.cache
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Demo\bin\Debug\QQ Demo.exe
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Demo\bin\Debug\QQ Demo.pdb
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Demo\bin\Debug\Skins.dll
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Demo\bin\Debug\Skins.pdb
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Demo\obj\Debug\QQ Demo.csprojResolveAssemblyReference.cache
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Demo\obj\Debug\QQ_Demo.Form1.resources
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Demo\obj\Debug\QQ Demo.csproj.GenerateResource.Cache
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Demo\obj\Debug\QQ Demo.exe
+F:\富美开发项目\2011工作副本\平台第二版-工作副本\QQ Demo\obj\Debug\QQ Demo.pdb
